@@ -657,6 +657,7 @@ function mountIson(el) {
   play.addEventListener("click", async e => {
     const m = e.target.dataset.m;
     if (!m) return;
+    if (typeof MusicaArs.stopSpeak === "function") MusicaArs.stopSpeak();
     if (m === "line") { Audio.sequence(line, 0.5, 0.46); return; }
     if (m === "drone") { Audio.tone(drone, 2.2); return; }
     await Audio.unlock();
@@ -841,6 +842,7 @@ function mountDrill(el) {
 
   /* A sequence of several sounds, optionally over a held one. */
   async function runMany(s, withDrone) {
+    if (typeof MusicaArs.stopSpeak === "function") MusicaArs.stopSpeak();
     const b = Audio.base * 0.8;
     const gap = 0.5, dur = 0.54;
     await Audio.unlock();

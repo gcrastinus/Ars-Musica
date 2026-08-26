@@ -136,6 +136,9 @@ header h1 small {
   background: color-mix(in srgb, var(--gold) 28%, var(--panel2));
   border-color: var(--gold);
 }
+#b-speak[aria-pressed="true"] {
+  color: var(--ember);
+}
 #b-nav { display: none; flex-shrink: 0; }
 nav {
   grid-area: nav;

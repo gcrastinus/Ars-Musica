@@ -129,6 +129,7 @@ function closeNav() {
 }
 
 function go(id) {
+  stopSpeak();
   const lesson = byId[id] || LESSONS[0];
   state.id = lesson.id;
   if (!lesson.check && !isDrill(lesson)) state.done[lesson.id] = true;
@@ -266,6 +267,175 @@ MusicaArs.drillRecord = function (setId) {
   return state.drills[setId] || { best: 0, tries: 0, mastered: false };
 };
 
+/* ---- read this page aloud ------------------------------------------- */
+let speakGen = 0;
+let speaking = false;
+
+function setSpeaking(on) {
+  speaking = on;
+  const b = $("#b-speak");
+  if (!b) return;
+  b.setAttribute("aria-pressed", on ? "true" : "false");
+  b.setAttribute("aria-label", on ? "Stop reading" : "Read this page");
+  b.title = on ? "Stop reading (r)" : "Read this page (r)";
+  b.textContent = on ? "⏹" : "🔊";
+}
+
+function stopSpeak() {
+  speakGen += 1;
+  speaking = false;
+  try { window.speechSynthesis && speechSynthesis.cancel(); } catch (_) { /* ignore */ }
+  setSpeaking(false);
+}
+MusicaArs.stopSpeak = stopSpeak;
+
+function skipSpeakEl(el) {
+  if (!el || el.nodeType !== 1) return false;
+  if (el.hidden || el.getAttribute("aria-hidden") === "true") return true;
+  if (el.matches(".pager, .sound-banner, .kicker, .sources, .playrow, .dots, .drill-next, .drill-sound, .drill-input, .snaps, .scale-keys, .tbtns, .ratio-row, .tetractys, svg, .mono-svg")) return true;
+  if (el.matches("button.pbtn, button.tbtn, button.key, input")) return true;
+  if (el.matches(".explain") && !el.classList.contains("show")) return true;
+  if (el.matches(".whead")) {
+    const w = el.closest("[data-kind]");
+    if (w && (w.dataset.kind === "drill" || w.dataset.kind === "study")) return true;
+  }
+  return false;
+}
+
+function walkSpeak(node, out) {
+  if (node.nodeType === 3) {
+    const t = node.textContent.replace(/\s+/g, " ");
+    if (t.trim()) out.push(t);
+    return;
+  }
+  if (node.nodeType !== 1) return;
+  if (skipSpeakEl(node)) return;
+  const block = /^(P|H1|H2|H3|H4|LI|DT|DD|TR|DIV|BLOCKQUOTE|ARTICLE)$/.test(node.tagName);
+  const before = out.length;
+  for (const child of node.childNodes) walkSpeak(child, out);
+  if (block && out.length > before) out.push("\n");
+}
+
+function collectSpeakText() {
+  const root = $("#main article.wrap") || $("#main");
+  const out = [];
+  if (root) walkSpeak(root, out);
+  /* Opening page: the intro in main, then the contents list so the
+     chapters and exercise titles are heard with it. */
+  if (state.id === "welcome") {
+    const colo = $(".colophon");
+    if (colo) out.push("\n", colo.textContent, "\n");
+    const nav = $("#nav-list");
+    if (nav) {
+      nav.querySelectorAll("h3, a").forEach(el => {
+        const t = el.textContent.replace(/\s+/g, " ").trim();
+        if (t) out.push(t, "\n");
+      });
+    }
+  }
+  return out.join("").replace(/[ \t]+\n/g, "\n").replace(/\n[ \t]+/g, "\n").replace(/\n{2,}/g, "\n").trim();
+}
+
+function prepSpeak(s) {
+  return s
+    .replace(/(\d+)\s*:\s*(\d+)/g, "$1 to $2")
+    .replace(/¢/g, " cents")
+    .replace(/·/g, ", ")
+    .replace(/\s*\n+\s*/g, ". ")
+    .replace(/\s+/g, " ")
+    .replace(/\.\s*\./g, ".")
+    .trim();
+}
+
+function chunkSpeak(text) {
+  const bits = [];
+  let start = 0;
+  for (let i = 0; i < text.length; i++) {
+    if ((text[i] === "." || text[i] === "!" || text[i] === "?") &&
+        (i === text.length - 1 || text[i + 1] === " ")) {
+      const piece = text.slice(start, i + 1).trim();
+      if (piece) bits.push(piece);
+      start = i + 1;
+    }
+  }
+  const rest = text.slice(start).trim();
+  if (rest) bits.push(rest);
+  const chunks = [];
+  let buf = "";
+  for (const b of bits) {
+    if (buf && (buf + " " + b).length > 280) {
+      chunks.push(buf);
+      buf = b;
+    } else buf = buf ? buf + " " + b : b;
+  }
+  if (buf) chunks.push(buf);
+  return chunks;
+}
+
+function pickVoice() {
+  try {
+    const voices = speechSynthesis.getVoices() || [];
+    const en = voices.filter(v => /^en/i.test(v.lang));
+    return en.find(v => v.localService && /samantha|daniel|karen|moira|serena|rishi|siri/i.test(v.name))
+      || en.find(v => v.localService)
+      || en[0]
+      || voices[0]
+      || null;
+  } catch (_) {
+    return null;
+  }
+}
+
+function startSpeak() {
+  if (!window.speechSynthesis) {
+    toast("This browser cannot read the page aloud.");
+    return;
+  }
+  const raw = collectSpeakText();
+  const text = prepSpeak(raw);
+  if (!text) {
+    toast("Nothing on this page to read.");
+    return;
+  }
+  const gen = ++speakGen;
+  try { speechSynthesis.cancel(); } catch (_) { /* ignore */ }
+  const chunks = chunkSpeak(text);
+  const voice = pickVoice();
+  let i = 0;
+  const next = () => {
+    if (gen !== speakGen) return;
+    if (i >= chunks.length) { setSpeaking(false); return; }
+    const u = new SpeechSynthesisUtterance(chunks[i]);
+    u.rate = 0.94;
+    u.lang = "en-US";
+    if (voice) u.voice = voice;
+    u.onend = () => { i += 1; next(); };
+    u.onerror = () => { if (gen === speakGen) setSpeaking(false); };
+    speechSynthesis.speak(u);
+  };
+  setSpeaking(true);
+  /* Chrome drops the first utterance if it is queued in the same turn as cancel. */
+  setTimeout(() => { if (gen === speakGen) next(); }, 40);
+}
+
+function toggleSpeak() {
+  if (speaking) stopSpeak();
+  else startSpeak();
+}
+
+function hookAudioStopsSpeech() {
+  if (!Audio || Audio._speakHooked) return;
+  Audio._speakHooked = true;
+  ["tone", "interval", "sequence", "chord", "_voice"].forEach(name => {
+    if (typeof Audio[name] !== "function") return;
+    const orig = Audio[name].bind(Audio);
+    Audio[name] = function () {
+      stopSpeak();
+      return orig.apply(this, arguments);
+    };
+  });
+}
+
 function toggleTheme() {
   state.theme = state.theme === "dark" ? "light" : "dark";
   document.documentElement.dataset.theme = state.theme;
@@ -282,7 +452,13 @@ function init() {
   const hash = decodeURIComponent((location.hash || "").slice(1));
   if (hash && byId[hash]) state.id = hash;
   $("#b-theme").addEventListener("click", toggleTheme);
+  $("#b-speak").addEventListener("click", toggleSpeak);
   $("#b-lab").addEventListener("click", () => go("lab"));
+  hookAudioStopsSpeech();
+  try { speechSynthesis.getVoices(); speechSynthesis.addEventListener("voiceschanged", pickVoice); } catch (_) { /* ignore */ }
+  document.addEventListener("click", e => {
+    if (e.target.closest("#drill-next, #study-next, #study-again, #drill-again")) stopSpeak();
+  }, true);
   $("#b-nav").addEventListener("click", () => {
     const open = $("#side-nav").classList.toggle("open");
     $("#nav-backdrop").classList.toggle("show", open);
@@ -293,6 +469,7 @@ function init() {
   window.addEventListener("keydown", e => {
     if (e.target.matches("input, textarea")) return;
     if (e.key === "d") toggleTheme();
+    if (e.key === "r") { e.preventDefault(); toggleSpeak(); }
     if (e.key === "/") { e.preventDefault(); $("#find").focus(); }
     if (e.key === "Escape") closeNav();
     if (e.key === "ArrowRight") {
