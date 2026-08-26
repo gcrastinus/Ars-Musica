@@ -573,7 +573,7 @@ function mountByzGenera(el) {
   const note = document.createElement("p");
   note.className = "readout";
   note.style.margin = "10px 0 0";
-  note.textContent = "Notice the spans. The two ancient divisions close on 498.04¢, the true 4:3. The 1881 divisions close on 500¢ — a fourth already tempered, two cents wide, before a note is sung.";
+  note.textContent = "The spans: the two ancient divisions close on 498.04¢, the true 4:3. The 1881 divisions close on 500¢ — a fourth already tempered, two cents wide, before a note is sung.";
   el.append(head, tab, note);
 }
 
@@ -960,7 +960,7 @@ function mountDrill(el) {
         ? "A whole fresh draw, answered rightly. This block is possessed. Come back to it now and then; a habit that is not used is not kept."
         : (right >= items.length - 1
           ? "Close. One more draw — the items and the order will be different, so what you have is the skill and not the memory of a page."
-          : "Not yet. Go back to the lessons this block rests on, then draw again. There is no hurry, and no penalty; the only thing that would be lost is the art.")}</p>
+          : "Not yet. The lessons this block rests on will serve before another draw. There is no hurry, and no penalty; the only thing that would be lost is the art.")}</p>
       <div class="playrow"><button class="pbtn primary" id="drill-again">Draw a fresh set</button></div>`;
     body.querySelector("#drill-again").addEventListener("click", start);
     paintHead();

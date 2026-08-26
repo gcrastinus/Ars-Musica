@@ -9,7 +9,7 @@ MusicaArs.CHAPTERS = [
   { id: "sys", num: "VI",   title: "VI · The Greek system" },
   { id: "VI",  num: "VII",  title: "VII · The musician" },
   { id: "ex",  title: "Exercises · the palaestra" },
-  { id: "VII", num: "VIII", title: "VIII · What came after" },
+  { id: "VII", num: "VIII", title: "VIII · Modern Music" },
   { id: "east", num: "IX",  title: "IX · The other branches" },
   { id: "end", num: "X",    title: "X · The end of the art" },
   { id: "app", title: "Appendix" },
@@ -23,7 +23,7 @@ MusicaArs.LESSONS = [
   title: "How to use this course",
   html: `
 <p>This is a course in the <em>liberal art of music</em>, as that art was understood from Pythagoras through Boethius and received by St. Thomas Aquinas. It is not a course in concert-going, in reading a modern score, or in playing an instrument. You need no staff, no piano, and no names of notes. You need a quiet room and a way to hear two sounds.</p>
-<p>Each lesson is short. Most of them ask you to <em>hear</em> something: one sound, then another, then both together. The pictures are not decoration. They are to the ear what a Euclidean diagram is to the eye. Move the little bridge on the string. Listen. Then read why the sound is as it is.</p>
+<p>Each lesson is short. Most of them ask you to <em>hear</em> something: one sound, then another, then both together. The pictures are not decoration. They are to the ear what a Euclidean diagram is to the eye: the little bridge on the string, then the reason the sound is as it is.</p>
 <p>Two practical notes. First, click <strong>Enable sound</strong> when asked, or press any Play button; the browser will stay silent until you do. Second, this course uses the old intonation of the art — whole-number ratios of a single string — not the slightly adjusted pitches of a modern piano. If a piano is nearby, it will be close, but it will not be exact. That difference is part of what you are here to learn. The <strong>String</strong> button at the top is a free monochord; return to it whenever you want to hear a ratio again.</p>
 <div class="remark">
   <h4>What you will possess</h4>
@@ -45,7 +45,7 @@ MusicaArs.LESSONS = [
 {
   id: "i-1",
   ch: "I",
-  title: "Three studies of music — and this one",
+  title: "Three studies of music",
   html: `
 <p>The word <em>music</em> is used in several ways, and if we mix them we will never find the art. St. Thomas does not write a treatise <span class="latin">De musica</span>, but he receives the older division and places the art among the mathematical sciences. A clear statement of the three intellectual studies — used in the music tutorial at Thomas Aquinas College, and drawn from Aristotle, Plato, and Boethius — is this.</p>
 <p><strong>First, music as a fine art.</strong> Here one studies melody, rhythm, and composition with a view to making something beautiful to hear. The end is a work that delights. Fine art is nearer the liberal arts than shoemaking is, because it belongs to leisure and aims at the beautiful. It is still not a liberal art. Liberal study aims at <em>truth as such</em>. Delight is good when it is measured by truth; it is not the same as truth.</p>
@@ -87,7 +87,7 @@ MusicaArs.LESSONS = [
 <h4 class="sec">Second: its work. The <span class="latin">opus</span> stays in the one who makes it.</h4>
 <p>An objection presses at once. If the thing is ordered to knowing, why call it an <em>art</em> at all? An art is right reason about things to be made; a science is knowledge of causes. Which is this?</p>
 <p>St. Thomas answers directly, in the very passage this course has already leaned on. The seven are called arts among the sciences <span class="latin">quia non solum habent cognitionem, sed opus aliquod, quod est immediate ipsius rationis</span> — because they have not only knowledge, but a certain work, which is immediately of reason itself. And he lists the works: to construct a syllogism; to form a speech; to number; to measure; <span class="latin">melodias formare</span>, to form melodies; to compute the courses of the stars.</p>
-<p>Notice what kind of work that is. A cobbler’s work ends in a shoe — something outside him, which stays on the bench when he has forgotten how it was made. The work of a liberal art ends <em>in the one who does it</em>. When you have found the diapason on the string and know why it is 2:1, the work you have made is a possession of your reason, and there is nothing left over on the bench.</p>
+<p>That work is of this kind. A cobbler’s work ends in a shoe — something outside him, which stays on the bench when he has forgotten how it was made. The work of a liberal art ends <em>in the one who does it</em>. When you have found the diapason on the string and know why it is 2:1, the work you have made is a possession of your reason, and there is nothing left over on the bench.</p>
 <div class="remark">
   <h4>On <span class="latin">melodias formare</span></h4>
   <p>Thomas’s phrase for the work of <span class="latin">musica</span> is “to form melodies,” and a hasty reader will take that to mean composition after all. It does not. The whole point of his list is that each work named is performed by reason <em>immediately</em>, without passing into outward matter. A melody formed by reason is an ordered set of pitches known in their proportions — which is what this course has been calling the scale. That is why <span class="xref" data-to="v-2"></span> can say that the filled diapason is the <span class="latin">opus</span> of the art, and why a man who writes a beautiful song without knowing a ratio has not performed it.</p>
@@ -121,9 +121,9 @@ MusicaArs.LESSONS = [
 {
   id: "lib-2",
   ch: "I",
-  title: "What the art does to the one who has it",
+  title: "Effects of possessing this art",
   html: `
-<p>Grant that the art is liberal. What follows for you? What is different in a man who has stopped a string at two thirds and knows why, from a man who has not?</p>
+<p>The art is liberal. What follows for you? What is different in a man who has stopped a string at two thirds and knows why, from a man who has not?</p>
 <p>Four things. They are not four sentiments.</p>
 
 <h4 class="sec">1. He knows, by demonstration, that the beautiful is intelligible.</h4>
@@ -143,7 +143,7 @@ MusicaArs.LESSONS = [
 <h4 class="sec">4. It is a road, and the road goes up.</h4>
 <p>The quadrivium is not four hobbies attached to arithmetic. St. Thomas, quoting Hugh of St. Victor, says that by these, <span class="latin">as by certain roads, the living mind enters into the secrets of philosophy</span>, and adds in his own voice that by these as by certain roads the mind is <em>prepared</em> for the other philosophical disciplines.</p>
 <p>Plato is sharper, and his sharpness is a warning to anyone taking this course. In <em>Republic</em> VII Socrates dismisses two sorts of student. The first put their ears before their minds and measure heard concords against one another, torturing strings and learning nothing. The second — and these are the Pythagoreans, the very school this art descends from — do seek numbers, but only the numbers found in the concords they happen to hear, and <em>they do not ascend to problems</em>: they never ask which numbers are concordant of themselves, and why. Pursued that second way, Socrates says, the study is useful for the search after the beautiful and the good. Pursued otherwise, useless.</p>
-<p>Augustine says the same thing as a plan of work. He tells Memorius that he wrote <span class="latin">De musica</span> because the power of number in all motion is most easily studied in sounds, and because that study offers a way of rising to the higher secrets of truth <span class="latin">by paths as it were gradually ascending</span>. In the sixth book he names the kinds of number the soul passes through: the <span class="latin">sonantes</span> in the sounding body; the <span class="latin">occursores</span> in the sense that meets them; the <span class="latin">progressores</span> in the soul’s own act; the <span class="latin">recordabiles</span> in memory; and the <span class="latin">iudiciales</span>, the numbers by which we judge, which we did not make and cannot alter. The ascent runs from the first to the last, and past the last. <span class="xref" data-to="end-2"></span> takes this up when you have the art in hand.</p>
+<p>Augustine says the same thing as a plan of work. He tells Memorius that he wrote <span class="latin">De musica</span> because the power of number in all motion is most easily studied in sounds, and because that study offers a way of rising to the higher secrets of truth <span class="latin">by paths as it were gradually ascending</span>. In the sixth book he names the kinds of number the soul passes through: the <span class="latin">sonantes</span> in the sounding body; the <span class="latin">occursores</span> in the sense that meets them; the <span class="latin">progressores</span> in the soul’s own act; the <span class="latin">recordabiles</span> in memory; and the <span class="latin">iudiciales</span>, the numbers by which we judge, which we did not make and cannot alter. The ascent runs from the first to the last, and past the last. <span class="xref" data-to="end-2"></span> takes this up when you have the art.</p>
 <div class="remark">
   <h4>What it does not do</h4>
   <p>It will not make you a performer, or a composer, or a connoisseur of concerts. It will not by itself make you good: Aristotle and St. Thomas both hold that music has much to do with the forming of character, but that is the second study of music <span class="xref" data-to="i-1"></span>, and this course does not undertake it. And it will not make you happy. It is one small true thing, thoroughly known. A liberal education is built of such things. It is not built of enthusiasm about them.</p>
@@ -212,12 +212,12 @@ MusicaArs.LESSONS = [
 <p>Each of the five has a lesser counterpart, formed with <span class="latin">sub-</span>: 2:3 is <span class="latin">subsesquialter</span>. The art usually speaks of the greater and lets the lesser be understood.</p>
 <p>The Latin is not ornament. <span class="latin">Sesqui-alter</span> says “a half again”; <span class="latin">sesqui-tertius</span>, “a third again.” The name states the ratio. A man who has the names has the arithmetic in his mouth, and will not have to stop and think what 4:3 <em>is</em>.</p>
 
-<h4 class="sec">What this buys you</h4>
+<h4 class="sec">What follows</h4>
 <p>Now the central claim of the art can be stated exactly, and not merely asserted. When <span class="xref" data-to="iv-1"></span> says that 2:1, 3:2 and 4:3 are the <em>first</em> concords, it says: the first multiple, and the first two superparticulars. That is a claim about the order of number, not about history, not about taste, and not about what a voice can manage.</p>
 <p>And now you can see the seam in the tradition, which will open later. The ratio 5:4 is a superparticular, and it stands <em>before</em> 9:8 in the order — it is the third of them, and 9:8 is only the eighth. So the Pythagorean refusal of 5:4 cannot rest on the kind of ratio. It rests on a <strong>bound</strong>: the tetractys stops at four, and no concord may use a number beyond it. The tone 9:8 is admitted not as a concord but as a step, and it enters by a different door — as the leftover when the fifth and the fourth are compared.</p>
 <div class="remark">
   <h4>Where the bound falls</h4>
-  <p>Keep this in mind, because it settles what the later dispute is actually about. The question is never whether ratios govern concord. It is <em>where the bound stands</em>. The Pythagoreans put it at four. In 1558 Zarlino put it at six — the <span class="latin">senario</span> — and the thirds and sixths came in with it. That is a development inside the art, argued with the art’s own instruments, and <span class="xref" data-to="vii-3"></span> tells the story. It is not the ear overthrowing number.</p>
+  <p>This settles what the later dispute is actually about. The question is never whether ratios govern concord. It is <em>where the bound stands</em>. The Pythagoreans put it at four. In 1558 Zarlino put it at six — the <span class="latin">senario</span> — and the thirds and sixths came in with it. That is a development inside the art, argued with the art’s own instruments, and <span class="xref" data-to="vii-3"></span> tells the story. It is not the ear overthrowing number.</p>
 </div>
 `,
   sources: "Boethius, De institutione arithmetica I.21–32 (the species of inequality; that all inequality proceeds from equality) and De institutione musica II.7; Nicomachus, Introduction to Arithmetic I.17–23. The bound at four: Nicomachus, Manual of Harmonics 5–6; Boethius, De inst. mus. I.7.",
@@ -293,13 +293,13 @@ MusicaArs.LESSONS = [
   ch: "II",
   title: "Two sounds compared",
   html: `
-<p>One sound is high or low only by comparison, as one rod is long or short only by comparison. Play a sound, then another. Either they are the same in height, or they are not.</p>
+<p>One sound is high or low only by comparison, as one rod is long or short only by comparison. One sound, then another: either they are the same in height, or they are not.</p>
 <p>If they are the same, we call that <em>unison</em> — one sound. If they are not, the difference is an <em>interval</em>. That word means a gap, a standing-apart. It does not yet mean a distance on a keyboard or a number of “semitones.” It means: these two pitches, as compared.</p>
 <div class="widget" data-kind="interval" data-a="1" data-b="1" data-name="Unison — the same pitch twice"></div>
 <p>Unison is the equality of pitches. It is not yet a concord in the sense the art cares about most, because there are not yet two different sounds to blend. It is the measure against which difference is heard.</p>
-<p>Now hear two sounds that are not the same. First one, then the other; then both at once. Do they seem to belong together, or to grind?</p>
+<p>Two sounds that are not the same: first one, then the other, then both at once. They either belong together, or they grind.</p>
 <div class="widget" data-kind="interval" data-a="1" data-b="8/9" data-name="A small difference — not yet named"></div>
-<p>You need no vocabulary yet. Notice only this: some pairs blend when they sound together, so that you can almost take them for a single richer sound; some pairs remain two, and restless. The art will call the first kind <em>concords</em> (consonances) and the second <em>discords</em> (dissonances). The names can wait. The hearing cannot.</p>
+<p>You need no vocabulary yet. Some pairs blend when they sound together, so that you can almost take them for a single richer sound; some pairs remain two, and restless. The art will call the first kind <em>concords</em> (consonances) and the second <em>discords</em> (dissonances). The names can wait. The hearing cannot.</p>
 <div class="remark">
   <h4>Together and in succession</h4>
   <p>A pair of pitches may be heard one after the other (as in a melody) or at once (as in a chord). The liberal art knows both. The blending that first reveals a concord is often clearer when the two sound together. Melody will come when we have a scale to walk on.</p>
@@ -326,7 +326,7 @@ MusicaArs.LESSONS = [
 <p>How shall we measure high and low, instead of merely noticing them? The instrument of this art is the <em>monochord</em>: one string, stretched over a board, which can be stopped at a chosen length. The whole string sounds one pitch. Stop it halfway, and the half that remains free sounds another. Same string, same tension, same thickness; only the sounding length has changed.</p>
 <p>The rule, which you can hear for yourself, is this: <strong>the shorter the sounding length, the higher the pitch.</strong> Twice as short, and the pitch is a definite interval we will name in the next lesson. Three-halves as short, another. The length is a magnitude; the comparison of two lengths is a ratio; the ratio will turn out to be the same as the comparison of the pitches, taken the other way around.</p>
 <div class="widget" data-kind="monochord" data-start="2/3"></div>
-<p>Drag the bridge. Hear the open string, then the stopped string, then both. You are not “playing a song.” You are changing one quantity and hearing another quantity change with it. That is the whole method of the art.</p>
+<p>The open string, the stopped string, then both: one quantity changes, and another quantity changes with it. That is the whole method of the art. It is not a song.</p>
 <div class="remark">
   <h4>The story of the hammers</h4>
   <p>Nicomachus and Boethius tell how Pythagoras, passing a smithy, heard hammers of different weights sounding concords, and so discovered the ratios. The story is the traditional <em>inventio</em> of the science. As a piece of metallurgy it is doubtful: hammer-weight does not behave as the story needs. As a piece of pedagogy it is useful, because it says the right thing: the concords are not arbitrary tastes; they track number. What actually shows the number, cleanly, is the string. We will trust the string.</p>
@@ -350,12 +350,12 @@ MusicaArs.LESSONS = [
   ch: "III",
   title: "Halving the string: the first concord",
   html: `
-<p>Stop the string at its midpoint. The free half is to the whole as 1 is to 2. Hear the whole, then the half, then both together.</p>
+<p>The string stopped at its midpoint: the free half is to the whole as 1 is to 2. The whole, then the half, then both together.</p>
 <div class="widget" data-kind="monochord" data-lock="1/2"></div>
 <p>What you hear is the first and simplest concord. The two sounds are not the same pitch — the half is higher — and yet they blend so completely that the higher seems to be the lower, raised; or the lower, the higher deepened. Singers who have never heard the word still find this interval when they try to sing “the same tune higher.”</p>
 <p>The Greeks called it the <span class="latin">diapason</span>, “through all.” Later Latin, counting the eight steps of the filled scale, called it the <em>octave</em> (the eighth). We will use both names, but we will not let the counting of eight get ahead of the thing itself. The interval is the ratio <strong>2:1</strong> of lengths (whole to half), which is the ratio <strong>2:1</strong> of pitches the other way (half to whole). You do not need eight notes to hear it. You need two lengths, one the double of the other.</p>
 <div class="widget" data-kind="interval" data-a="1" data-b="1/2" data-name="Diapason — 2:1"></div>
-<p>Why is this the first concord? Because 2:1 is the first ratio after equality. Among the kinds of ratio the arithmeticians name, the <em>multiple</em> (a number of times) is the simplest, and the first multiple is the double. The art will find its other first concords nearby, in the first <em>superparticular</em> ratios, where the greater exceeds the less by an aliquot part of the less: 3:2 (the sesquialter), 4:3 (the sesquitertian). We will hear those next. For now, sit with 2:1 until “the same, higher” is something you can recognize without a name.</p>
+<p>Why is this the first concord? Because 2:1 is the first ratio after equality. Among the kinds of ratio the arithmeticians name, the <em>multiple</em> (a number of times) is the simplest, and the first multiple is the double. The art will find its other first concords nearby, in the first <em>superparticular</em> ratios, where the greater exceeds the less by an aliquot part of the less: 3:2 (the sesquialter), 4:3 (the sesquitertian). We will hear those next. 2:1 is “the same, higher,” and is to be recognized without a name.</p>
 <div class="remark">
   <h4>A warning about the word “octave”</h4>
   <p>If you already sing, you may think of an octave as “eight notes up the scale.” That description <em>presupposes</em> a scale of eight. The interval 2:1 does not. It is prior. The scale is a way of filling this interval; this interval is not a count of scale-steps. That is why the old name <em>diapason</em> is healthier at the beginning.</p>
@@ -384,7 +384,7 @@ MusicaArs.LESSONS = [
 <p>It blends, but not as the diapason blends. You hear two, and you hear that they belong. Many people who cannot yet match a 2:1 will still find a 3:2 with the voice, because it is the other great standing-apart in song.</p>
 <p>Next: 4 to 3. Stop the string at three-quarters. This is the <span class="latin">diatessaron</span>, the fourth.</p>
 <div class="widget" data-kind="interval" data-a="1" data-b="3/4" data-name="Diatessaron — 4:3"></div>
-<p>The fourth is a concord, and it is tighter, less open, than the fifth. Hear all three against the same open string: the half (diapason), the two-thirds (fifth), the three-quarters (fourth).</p>
+<p>The fourth is a concord, and it is tighter, less open, than the fifth. The three against the same open string are the half (diapason), the two-thirds (fifth), and the three-quarters (fourth).</p>
 <div class="widget" data-kind="monochord" data-start="2/3"></div>
 <p>These three — 2:1, 3:2, 4:3 — are the first concords of the art. They are not chosen because a committee of composers liked them. They are the first multiple and the first two superparticulars, and they are the concords the ear most readily grants. Later writers, Ptolemy among them, will argue about whether still other ratios (5:4, for instance) should be counted as concords. That is a real dispute. It is not first. First are the three that the numbers 1, 2, 3, and 4 already contain.</p>
 `,
@@ -407,7 +407,7 @@ MusicaArs.LESSONS = [
   title: "How the three fit: the tetractys",
   html: `
 <p>The three first concords are not three separate facts. They compose.</p>
-<p>Take a fifth and then a fourth above it. In ratios, that is multiplying: <strong>(3:2) × (4:3) = 12:6 = 2:1</strong>. A fifth plus a fourth is a diapason. Hear it. The open string to two-thirds is a fifth; two-thirds to half is a fourth (because (2/3) : (1/2) = 4:3); open to half is the diapason.</p>
+<p>A fifth and a fourth above it go together. In ratios, that is multiplying: <strong>(3:2) × (4:3) = 12:6 = 2:1</strong>. A fifth plus a fourth is a diapason. The open string to two-thirds is a fifth; two-thirds to half is a fourth (because (2/3) : (1/2) = 4:3); open to half is the diapason.</p>
 <div class="widget" data-kind="interval" data-a="1" data-b="2/3" data-name="Open to 2/3 — a fifth"></div>
 <div class="widget" data-kind="interval" data-a="2/3" data-b="1/2" data-name="2/3 to 1/2 — a fourth"></div>
 <div class="widget" data-kind="interval" data-a="1" data-b="1/2" data-name="Open to 1/2 — a diapason, the two compounded"></div>
@@ -438,9 +438,9 @@ MusicaArs.LESSONS = [
   title: "The tone",
   html: `
 <p>If a fifth plus a fourth makes a diapason, then a fifth <em>minus</em> a fourth is the leftover that distinguishes them. In ratios, division: <strong>(3:2) ÷ (4:3) = (3:2)×(3:4) = 9:8</strong>.</p>
-<p>This leftover is the <em>tone</em> (Greek <span class="latin">tonos</span>, Latin <span class="latin">tonus</span>). It is not a concord. Play it. The two sounds do not blend as 2:1, 3:2, and 4:3 blend. They step. The tone is the ordinary step by which the art will fill the fourth and the diapason.</p>
+<p>This leftover is the <em>tone</em> (Greek <span class="latin">tonos</span>, Latin <span class="latin">tonus</span>). It is not a concord. The two sounds do not blend as 2:1, 3:2, and 4:3 blend. They step. The tone is the ordinary step by which the art will fill the fourth and the diapason.</p>
 <div class="widget" data-kind="interval" data-a="1" data-b="8/9" data-name="The tone — 9:8"></div>
-<p>On the string: the open string to 8/9 of itself is a tone upward (because the lengths are 9:8). You can also hear a tone as the interval between the fourth and the fifth, both measured from the same open string: 3/4 and 2/3. Check: (3/4) : (2/3) = 9:8.</p>
+<p>On the string: the open string to 8/9 of itself is a tone upward (because the lengths are 9:8). The interval between the fourth and the fifth, both measured from the same open string (3/4 and 2/3), is the same tone: (3/4) : (2/3) = 9:8.</p>
 <div class="widget" data-kind="interval" data-a="3/4" data-b="2/3" data-name="Fourth to fifth, same open string — also 9:8"></div>
 <p>Two tones compounded are a <em>ditone</em>: (9:8)×(9:8)=81:64. That is a larger step than the later “major third” of 5:4, which Ptolemy and others admitted by combining sense and a different arithmetic. The Pythagorean art, which is the first layer of the liberal art, takes 81:64 as what two tones really are. Whether the ear’s favorite “third” is that ditone or the gentler 5:4 is a dispute we will name, not settle. St. Thomas does not settle it. The first principles do not require it.</p>
 <div class="remark">
@@ -472,9 +472,9 @@ MusicaArs.LESSONS = [
   <dt>Geometric</dt><dd>equal <em>ratios</em>. The mean stands to the less as the greater to the mean. Between 6 and 12: a number whose square is 72 — and there is none in whole numbers.</dd>
   <dt>Harmonic</dt><dd>equal <em>parts</em>. The mean exceeds the less, and is exceeded by the greater, by the same part of each. Between 6 and 12: <strong>8</strong>, since 8−6 = 2, a third of 6; and 12−8 = 4, a third of 12. Equivalently, the differences 2 and 4 stand as the extremes 6 and 12.</dd>
 </div>
-<p>Now write the two extremes with both means between them:</p>
+<p>The two extremes with both means between them:</p>
 <div class="widget" data-kind="tetrad"></div>
-<p>Sound the four, and then each pair. Everything the art has taught you is in these numbers, and nothing has been chosen:</p>
+<p>The four, and each pair, contain everything the art has taught, and nothing has been chosen:</p>
 <div class="dl">
   <dt>6 : 12</dt><dd>the diapason, 2:1</dd>
   <dt>6 : 9 and 8 : 12</dt><dd>the diapente, 3:2 — twice over</dd>
@@ -515,7 +515,7 @@ MusicaArs.LESSONS = [
 <p>The old way of filling is the <em>tetrachord</em>: a fourth, divided. In the diatonic genus — the ordinary one, the one the Middle Ages taught first — the fourth is filled by two tones and a leftover. Two tones are 81:64. The fourth is 4:3. The leftover is (4:3)÷(81:64)=256:243. This leftover is the <em>leimma</em>, the remnant. It is smaller than a tone. It is not “half a tone”: half of 9:8 would be a mean the Pythagorean art does not take as a first principle, and 256:243 is not that mean.</p>
 <p>Two such tetrachords, separated by a tone, fill the diapason. That is why the filled diapason has eight standing sounds (hence “octave”), and why the eight are not eight equal steps. They are: tone, tone, leimma, tone, tone, tone, leimma — or a permutation of that pattern, depending where you set the tetrachords.</p>
 <div class="widget" data-kind="scale"></div>
-<p>Play the eight, low to high. You are hearing the diatonic filling of 2:1, built only from 3:2, 4:3, and their difference 9:8. No piano key, no clef, no “C major.” If later you meet those names, they are labels stuck on this, or on a slightly adjusted version of this.</p>
+<p>The eight, low to high, are the diatonic filling of 2:1, built only from 3:2, 4:3, and their difference 9:8. No piano key, no clef, no “C major.” If later you meet those names, they are labels stuck on this, or on a slightly adjusted version of this.</p>
 <div class="remark">
   <h4>Other genera, left open</h4>
   <p>The Greeks also divided the tetrachord chromatically and enharmonically, with smaller intervals. Boethius reports them. They are part of the full art. They are not first. First is the diatonic path through the diapason. Likewise the Guidonian names <em>ut re mi fa sol la</em> are a medieval help for singers, a hexachord laid upon this system. Useful later; not the origin of the intervals.</p>
@@ -570,24 +570,24 @@ MusicaArs.LESSONS = [
   title: "The Greater Perfect System",
   html: `
 <p>The tetrachord is not a whole. It is a limb, and the Greeks had a body to attach it to. Until you have seen the body, you have been shown a bone and told it is a skeleton.</p>
-<p>Take the diatonic tetrachord — a fourth filled, ascending, by leimma, tone, tone. Two of them may be joined in two ways. <em>Conjunct</em>: the highest sound of the one is the lowest of the next, and the pair spans 16:9, a tone short of the diapason. <em>Disjunct</em>: a whole tone stands between them, and the pair spans exactly 2:1. The Greeks used both, and built a system out of the combination.</p>
+<p>The diatonic tetrachord is a fourth filled, ascending, by leimma, tone, tone. Two of them may be joined in two ways. <em>Conjunct</em>: the highest sound of the one is the lowest of the next, and the pair spans 16:9, a tone short of the diapason. <em>Disjunct</em>: a whole tone stands between them, and the pair spans exactly 2:1. The Greeks used both, and built a system out of the combination.</p>
 <p>The <strong>Greater Perfect System</strong> runs: a sound added below, the <span class="latin">proslambanomenos</span> — “the one taken in addition”; then the tetrachord <span class="latin">hypaton</span>, of the lowest; then the tetrachord <span class="latin">meson</span>, of the middle, conjunct with it; then the tone of disjunction; then the tetrachord <span class="latin">diezeugmenon</span>, of the disjunct; then the tetrachord <span class="latin">hyperbolaion</span>, of the highest, conjunct with that. Fifteen sounds.</p>
 <div class="widget" data-kind="gps"></div>
-<p>Check the arithmetic yourself: a tone, four fourths, and a tone. (9:8) × (4:3)⁴ × (9:8) = (81:64) × (256:81) = <strong>4:1</strong>. Two diapasons exactly. Nothing has been fitted by hand.</p>
+<p>The arithmetic: a tone, four fourths, and a tone. (9:8) × (4:3)⁴ × (9:8) = (81:64) × (256:81) = <strong>4:1</strong>. Two diapasons exactly. Nothing has been fitted by hand.</p>
 
 <h4 class="sec">Reading the names</h4>
 <p>The names describe the strings of a lyre, not pitches. <span class="latin">Hypate</span> is the highest-placed and most honoured string, and it sounds the <em>lowest</em>; <span class="latin">nete</span> is the last, and sounds the highest; <span class="latin">lichanos</span> is the one the forefinger takes; <span class="latin">mese</span> is the middle. Once you know that hypate means the lowest sound, the whole vocabulary becomes legible, and stays legible for a thousand years of treatises.</p>
 
 <h4 class="sec">The mese rules</h4>
-<p>The Peripatetic <span class="latin">Problems</span> observes that if the mese is put out of tune, the whole instrument sounds wrong — because all good melodies use the mese often, and having left it soon return; the mese is likened to a conjunction among words, the thing by which the rest hangs together. Elsewhere in the same book the other sounds are said to take their order in relation to it. The <span class="latin">Problems</span> are a Peripatetic compilation and not securely Aristotle’s. Take the observation, which is a good one, and not the authority.</p>
+<p>The Peripatetic <span class="latin">Problems</span> observes that if the mese is put out of tune, the whole instrument sounds wrong — because all good melodies use the mese often, and having left it soon return; the mese is likened to a conjunction among words, the thing by which the rest hangs together. Elsewhere in the same book the other sounds are said to take their order in relation to it. The <span class="latin">Problems</span> are a Peripatetic compilation and not securely Aristotle’s. The observation is a good one; the authority is not.</p>
 
 <h4 class="sec">Standing and moving</h4>
-<p>This is the architectural point, and the reason the system is worth learning. The <em>outer</em> sounds of every tetrachord are fixed — the <span class="latin">hestotes</span>: proslambanomenos, hypate hypaton, hypate meson, mese, paramese, nete diezeugmenon, nete hyperbolaion. The two <em>inner</em> sounds of every tetrachord move. They are the <span class="latin">kinoumenoi</span>, and what moves them is the genus, which is the next lesson.</p>
-<p>So: the fourths are the bones and they never shift. Everything variable in Greek music happens inside a frame that the arithmetic has already fixed. Hold that distinction — between what the art <em>demonstrates</em> and what it <em>permits</em> — and much of what follows in the history will make sense.</p>
+<p>This is the architectural point. The <em>outer</em> sounds of every tetrachord are fixed — the <span class="latin">hestotes</span>: proslambanomenos, hypate hypaton, hypate meson, mese, paramese, nete diezeugmenon, nete hyperbolaion. The two <em>inner</em> sounds of every tetrachord move. They are the <span class="latin">kinoumenoi</span>, and what moves them is the genus, which is the next lesson.</p>
+<p>So: the fourths are the bones and they never shift. Everything variable in Greek music happens inside a frame that the arithmetic has already fixed. The distinction between what the art <em>demonstrates</em> and what it <em>permits</em> is what makes much of the later history intelligible.</p>
 <div class="remark">
   <h4>The Lesser system, and a warning about the modes</h4>
   <p>Beside the Greater there is a <strong>Lesser Perfect System</strong>: instead of the disjunction, a fourth tetrachord <span class="latin">synemmenon</span> — conjunct — branches upward from the mese, giving eleven sounds spanning 8:3. The two together were called the Immutable System.</p>
-  <p>The Greeks also spoke of <span class="latin">tonoi</span> and <span class="latin">harmoniai</span> bearing the names Dorian, Phrygian, Lydian and the rest, and the Latin Middle Ages took those names for its church tones. <strong>They are not the same thing.</strong> Boethius’s transmission of the Greek names is one of the places where the tradition itself became tangled, and the Appendix lists the question among those this course leaves open. Do not let a modern book persuade you that “Dorian” meant one thing to Ptolemy and to a tenth-century cantor.</p>
+  <p>The Greeks also spoke of <span class="latin">tonoi</span> and <span class="latin">harmoniai</span> bearing the names Dorian, Phrygian, Lydian and the rest, and the Latin Middle Ages took those names for its church tones. <strong>They are not the same thing.</strong> Boethius’s transmission of the Greek names is one of the places where the tradition itself became tangled, and the Appendix lists the question among those this course leaves open. “Dorian” did not mean one thing to Ptolemy and to a tenth-century cantor.</p>
 </div>
 `,
   sources: "Boethius, De inst. mus. I.20–27 and IV.3–12; Ptolemy, Harmonics II; Cleonides, Introduction to Harmonics; pseudo-Aristotle, Problems XIX.20 (the mese used often by all good melodies, likened to a conjunction) and XIX.36 (the other sounds ordered in relation to it).",
@@ -667,7 +667,7 @@ MusicaArs.LESSONS = [
 {
   id: "vi-2",
   ch: "VI",
-  title: "The true musician, and what remains",
+  title: "The true musician",
   html: `
 <p>Boethius divides those who have to do with music into three: those who play instruments, those who invent songs, and those who judge. Only the last, he says, are truly <span class="latin">musici</span>, because they possess the science. The others have skill or gift. St. Thomas’s account of the liberal arts agrees in substance: the art is a work of reason. A flawless performer can still lack the science; a judge of ratios who cannot perform can still have it. In practice, of course, the ear that has never sung is a poor judge. The definition does not require contempt for singers. It requires that we not confuse the habit of the hands or the throat with the habit of the intellect.</p>
 <p>What then of song in church, or of the delight of hearing? Those belong to the <em>use</em> of music, which Thomas treats in ST II-II q.91. Song is a salutary help to devotion because melody moves the soul. It is abused when it aims at display, or when the tune swallows the words. Instruments that move to pleasure more than to a good disposition he treats with caution. None of this is the liberal art, and none of it is cancelled by the liberal art. The science tells you what a concord is; prudence tells you when to sing.</p>
@@ -681,8 +681,8 @@ MusicaArs.LESSONS = [
   <dt>Kind of science</dt><dd>middle: arithmetic applied to sound</dd>
 </div>
 <p>What remains, and is not first: the chromatic and enharmonic genera; the Greater Perfect System of the Greeks; the church modes and the Guidonian hexachord; Ptolemy’s complete tables; Augustine’s metrics; composition; the ethics of melody in full. You could spend a year on any of these. You would spend it well only if 2:1, 3:2, 4:3, and 9:8 were already in your ear and in your reason — as they now can be.</p>
-<p>One of those roads is walked in this course, because a student who knows the art and nothing of what became of it is easy prey for the claim that the art was refuted. <span class="xref" data-ch="VII"></span> follows the passage from this intonation to the tempered instruments of later Europe, and asks at the end which of the six lines above still stand. It is not first. Do not read it before the string is in your ear.</p>
-<p>Go back to the monochord. Halt the string at 1, at 3/4, at 2/3, at 1/2. Hear them apart and together. If you can do that and say what you are hearing, you have begun the art.</p>
+<p>One of those roads is walked in this course, because a student who knows the art and nothing of what became of it is easy prey for the claim that the art was refuted. <span class="xref" data-ch="VII"></span> follows the passage from this intonation to the tempered instruments of later Europe, and asks at the end which of the six lines above still stand. It is not first, and it is not for reading before the string is known by ear.</p>
+<p>The string at 1, at 3/4, at 2/3, at 1/2, heard apart and together: if you can say what you are hearing, you have begun the art.</p>
 <div class="widget" data-kind="monochord" data-start="3/4"></div>
 `,
   sources: "Boethius, De inst. mus. I.34; Aquinas, Super Boethium De Trinitate q.5 a.1 ad 3; ST II-II q.91 a.2.",
@@ -722,7 +722,7 @@ MusicaArs.LESSONS = [
   <b>E9</b><span>the examination — a mixed draw from all of them</span>
   <b>E10 · E11</b><span>the ear again, further out: the tetrachord divided six ways, and a line heard against a held sound. These belong to <span class="xref" data-ch="east"></span> and should wait until you have read it.</span>
 </div>
-<p>Take them in that order the first time. Afterwards, return to whichever has gone cold. A habit that is not used is not kept, and this is as true of harmonics as of Latin.</p>
+<p>They are best taken in that order the first time. Afterwards, return to whichever has gone cold. A habit that is not used is not kept, and this is as true of harmonics as of Latin.</p>
 <div class="why-block">
   <h4>Why any of this is worth doing</h4>
   <p>Because the liberal art is <em>ordered to knowing</em> <span class="xref" data-to="lib-1"></span>, and knowing is a state of a man, not a state of a book. Boethius’s <span class="latin">musicus</span> is the one who <em>judges</em>; judging is an act; and no one performs an act well who has not performed it often. The exercises are not a test of whether you read carefully. They are the means by which reading becomes possession.</p>
@@ -765,7 +765,7 @@ MusicaArs.LESSONS = [
 </div>
 <div class="remark">
   <h4>The hard cases, which are not scored</h4>
-  <p>Two intervals in this art are genuinely disputed, and it would be dishonest to grade you on them. The ditone 81:64 and the just third 5:4 both sound tolerably well to a modern ear trained on later music; the Pythagoreans admitted neither as a concord, and Zarlino admitted both. Hear them again here, and notice that your own ear is not a neutral instrument — it has been formed by four centuries of music the Greeks never heard. That is worth knowing about yourself before you appeal to it.</p>
+  <p>Two intervals in this art are genuinely disputed, and it would be dishonest to grade you on them. The ditone 81:64 and the just third 5:4 both sound tolerably well to a modern ear trained on later music; the Pythagoreans admitted neither as a concord, and Zarlino admitted both. The ear here is not a neutral instrument — it has been formed by four centuries of music the Greeks never heard.</p>
   <div class="widget" data-kind="compare" data-title="The disputed third" data-one="81:64" data-one-name="Ditone, 81:64 — Pythagorean" data-two="5:4" data-two-name="Just major third, 5:4 — admitted by Zarlino"></div>
 </div>
 `,
@@ -889,7 +889,7 @@ MusicaArs.LESSONS = [
   drill: "exam",
   html: `
 <p>Fourteen items, drawn from every block, in no announced order. Ear, reckoning, arithmetic, construction, and judgement together.</p>
-<p>Do not attempt this until each of the eight stands possessed. Then attempt it, and expect to fail it once or twice: the skills are easy enough one at a time and harder when you do not know which is coming. That is not a trick. It is the condition under which you will actually use them.</p>
+<p>This is for after each of the eight stands possessed. The skills are easy enough one at a time and harder when you do not know which is coming. That is not a trick. It is the condition under which you will actually use them.</p>
 <div class="why-block">
   <h4>Why this block, and what it is for</h4>
   <p>Because an art is one habit and not eight. Boethius’s <span class="latin">musicus</span> is not a man with a good ear who also happens to do arithmetic; he is a man in whom the ear and the reckoning are a single competence, so that hearing a fifth and knowing it to be 3:2 are one act and not two.</p>
@@ -938,7 +938,7 @@ MusicaArs.LESSONS = [
 {
   id: "vii-1",
   ch: "VII",
-  title: "Two musics: the science and the practice",
+  title: "Two musics",
   html: `
 <p>You now possess the art as Boethius handed it on. What follows is not a new set of principles. It is a road: the road by which Europe went from this art to the thing we now call <em>classical music</em>. We walk it for three reasons. To see what later ages added. To see what they gave up, and why. And to see, at the end, which of your six lines still stand.</p>
 <div class="era">
@@ -977,14 +977,14 @@ MusicaArs.LESSONS = [
   title: "Many voices, and measured time",
   html: `
 <p>Near the end of the ninth century an anonymous treatise appears, the <span class="latin">Musica enchiriadis</span> — once ascribed to Hucbald, now to no one in particular. It is the first surviving text that gives <em>rules</em> for singing two lines together. A given chant is doubled at the fifth or the fourth throughout (parallel <span class="latin">organum</span>); or the added voice begins in unison, opens out, and bends back, so as to avoid the harsh interval that strict parallel motion would produce.</p>
-<p>Notice what has happened to the art’s object. Classical harmonics considered <em>an</em> interval, and then a scale. Here the object is a <em>succession of simultaneities</em>: not what a fifth is, but how a whole line of them may lawfully move. And notice what kind of rules these are. They are not demonstrations from ratio. They are a grammar — a system saying which combinations are admissible, as a grammarian’s rules say which strings of words are Latin. Given a chant and these rules, you can generate every organum of that style; you cannot derive from them why 3:2 is a concord. That was already known, and assumed.</p>
+<p>The art’s object has changed. Classical harmonics considered <em>an</em> interval, and then a scale. Here the object is a <em>succession of simultaneities</em>: not what a fifth is, but how a whole line of them may lawfully move. The rules are not demonstrations from ratio. They are a grammar — a system saying which combinations are admissible, as a grammarian’s rules say which strings of words are Latin. Given a chant and these rules, you can generate every organum of that style; you cannot derive from them why 3:2 is a concord. That was already known, and assumed.</p>
 <div class="remark">
   <h4>Two kinds of principle</h4>
-  <p>It is worth having the distinction clearly. Some principles <em>derive</em> their patterns: from 2:1, 3:2, 4:3 and the operations of arithmetic, the diatonic scale follows necessarily. Other principles only <em>restrict</em>: they say which things are possible or admissible, without generating any particular one. The first ratios are of the first kind. The rules of counterpoint are of the second. Most of what has been called music theory since the tenth century is of the second kind. This is not a criticism of it. It is a statement of what sort of knowledge it is.</p>
+  <p>The distinction is this. Some principles <em>derive</em> their patterns: from 2:1, 3:2, 4:3 and the operations of arithmetic, the diatonic scale follows necessarily. Other principles only <em>restrict</em>: they say which things are possible or admissible, without generating any particular one. The first ratios are of the first kind. The rules of counterpoint are of the second. Most of what has been called music theory since the tenth century is of the second kind. This is not a criticism of it. It is a statement of what sort of knowledge it is.</p>
 </div>
 <p>Then the voices multiply — Leoninus and Perotinus at Notre Dame, roughly 1160 to 1230 — and a second difficulty becomes unavoidable. If three men are singing different lines at once, the length of every note must be written, not merely its height. Franco of Cologne’s <span class="latin">Ars cantus mensurabilis</span>, about 1280, codifies the answer: the <em>shape</em> of a note carries its duration. The system is still ternary and still context-dependent, and Franco is gathering up practices already in motion rather than inventing them alone. But time is now on the page.</p>
 <p>This deserves a moment. Augustine’s <span class="latin">De musica</span> spent five of its six books on the numbering of time, and we set them aside in <span class="xref" data-to="i-3"></span> as belonging to the art in a wide sense. Here that half of the art at last receives an instrument. The <span class="latin">ars nova</span> of the 1320s — texts circulated under Philippe de Vitry’s name, and more securely the work of Johannes de Muris — admits duple as well as triple division, and the aged Jacobus of Liège writes his <span class="latin">Speculum musicae</span> in defence of the ancients against the moderns. The complaint is not that the new music is out of tune. It is that it is restless, and that the old proportions of time have been broken.</p>
-<p><strong>What was gained:</strong> a real extension of the art into measured time, and a written polyphony that no other civilisation developed to this degree. <strong>What it cost:</strong> from here forward the working rules of music are the grammar of a practice — historical, revisable, and different in 1400 from 1300. The first concords are not like that.</p>
+<p><strong>Gained:</strong> a real extension of the art into measured time, and a written polyphony that no other civilisation developed to this degree. <strong>The cost:</strong> from here forward the working rules of music are the grammar of a practice — historical, revisable, and different in 1400 from 1300. The first concords are not like that.</p>
 `,
   sources: "Musica enchiriadis (anon., c. 850–900); Johannes Cotto, De musica (c. 1100); Franco of Cologne, Ars cantus mensurabilis (c. 1280); Johannes de Muris, Notitia artis musicae (1321); Jacobus of Liège, Speculum musicae (c. 1330s). On the Vitry attribution, Sarah Fuller, “A Phantom Treatise of the Fourteenth Century?” (1985–86). The contrast of deriving and restricting principles follows Bod, World of Patterns, ch. 3.6 and 4.4.",
   check: {
@@ -1007,7 +1007,7 @@ MusicaArs.LESSONS = [
 <p><span class="xref" data-to="v-1"></span> left a question standing: two tones compounded give the ditone 81:64, but the interval singers seem to want is the gentler 5:4. We said the dispute was real, that Thomas had not closed it, and that a first-principles course could leave it open. The tradition itself did not leave it open. It took about two hundred years to answer, and the answer came from practice first.</p>
 <p>Around 1300 the English monk Walter Odington observes, in his <span class="latin">Summa de speculatione musicae</span>, that the ditone 81:64 and the semiditone 32:27 are close neighbours to 5:4 and 6:5 — and that singers, by the subtlety of the voice, draw them into a sweet blend. That is: the ratio on the monochord and the interval in the choir are not the same, and the choir is doing something the theory has not accounted for.</p>
 <div class="widget" data-kind="compare" data-title="The third, two ways" data-one="81:64" data-one-name="Pythagorean ditone (two tones, 81:64)" data-two="5:4" data-two-name="Just major third (5:4)"></div>
-<p>Hear them against the same low sound. The ditone is not <em>wrong</em>; it is the exact compound of two tones, and it is bright and hard. The 5:4 settles. They stand about a tenth of a tone apart — the next lesson gives that gap its name — and every European ear from the fifteenth century onward has preferred the second.</p>
+<p>Against the same low sound, the ditone is not <em>wrong</em>; it is the exact compound of two tones, and it is bright and hard. The 5:4 settles. They stand about a tenth of a tone apart — the next lesson gives that gap its name — and every European ear from the fifteenth century onward has preferred the second.</p>
 <p>Practice moves first. In 1441 Martin le Franc praises a <span class="latin">contenance angloise</span> and names John Dunstaple as its source, saying that Du Fay and Binchois took up his manner. Le Franc does not say what he meant; the reading that he meant a full, sweet, third-and-sixth sonority is the received one, supplied by later scholars, and it fits the music.</p>
 <p>Theory follows. Bartolomeo Ramis de Pareia, teaching at Bologna, publishes his <span class="latin">Musica practica</span> in 1482 with a monochord division that yields the thirds as 5:4 and 6:5 outright — breaking the Boethian restriction to the first four numbers. Nicolaus Burtius attacks him in print in 1487, Franchino Gaffurio joins the assault, and Ramis’s pupil Spataro carries the quarrel on for another thirty years.</p>
 <p>Then Gioseffo Zarlino, chapel master of St. Mark’s in Venice, settles it for his century. In <span class="latin">Le istitutioni harmoniche</span> (1558) he sets the bound of consonance at the <em>senario</em>, the first six numbers — six being the first perfect number, since 1+2+3 is both its sum of parts and its product. Within the senario the thirds and the major sixth are concords by right. And Zarlino does not present this as an innovation: he identifies the resulting tuning with the syntonic diatonic of <em>Ptolemy</em>, the second authority the art always had.</p>
@@ -1032,19 +1032,19 @@ MusicaArs.LESSONS = [
 {
   id: "vii-4",
   ch: "VII",
-  title: "The comma: why no fixed instrument can be pure",
+  title: "The comma",
   html: `
 <p>Before temperament can make sense, you need one piece of arithmetic. It belongs wholly to the old art. It uses nothing but 2:1 and 3:2, and it is a <em>theorem</em>, not a discovery of later Europe.</p>
 <p>Stack twelve pure fifths. Compounding is multiplying, as <span class="xref" data-to="iv-2"></span> showed, so this is (3:2) raised to the twelfth. Now stack seven diapasons: 2 raised to the seventh. On a keyboard these two journeys are supposed to arrive at the same sound. They do not.</p>
 <div class="widget" data-kind="comma" data-which="pythagorean"></div>
-<p>The twelve fifths overshoot by 531441:524288 — the <em>Pythagorean comma</em>, about a ninth of a tone. Walk it, fifth by fifth, and hear where you land. Then hear the two arrivals together: that grinding is the comma.</p>
+<p>The twelve fifths overshoot by 531441:524288 — the <em>Pythagorean comma</em>, about a ninth of a tone. Fifth by fifth, the two arrivals grind: that is the comma.</p>
 <p>Now the second one, which the last lesson made urgent. Four pure fifths, folded back into one diapason, give the ditone 81:64. The just third the singers want is 5:4, which is 80:64. They differ by 81:80 — the <em>syntonic comma</em>, about a tenth of a tone.</p>
 <div class="widget" data-kind="comma" data-which="syntonic"></div>
 <p>So: a fixed instrument cannot have all its fifths pure and still close its circle; and it cannot have pure fifths and pure thirds at once. Both facts, and they are facts, follow from the first two ratios of the art.</p>
 <div class="remark">
   <h4>This is not a defeat for the liberal art</h4>
   <p>It is a result of it, and a clean one. The reason is that 2 and 3 are prime: no power of 3 is ever a power of 2, so no number of pure fifths will ever exactly equal some number of diapasons. Arithmetic — the art’s own middle term — establishes the impossibility. Everything the next three centuries do about tuning is a response to something Pythagorean arithmetic itself proves.</p>
-  <p>Notice also who has the difficulty. A singer does not: he takes each interval as it comes and adjusts. Nor does a violinist, whose fingers are free. The difficulty belongs to instruments whose pitches must be <em>fixed in advance</em> — organ, harpsichord, fretted lute, and eventually the piano. The history of temperament is the history of what men did to keyboards, not what they did to the truth.</p>
+  <p>The difficulty does not belong to the singer: he takes each interval as it comes and adjusts. Nor to the violinist, whose fingers are free. It belongs to instruments whose pitches must be <em>fixed in advance</em> — organ, harpsichord, fretted lute, and eventually the piano. The history of temperament is the history of what men did to keyboards, not what they did to the truth.</p>
 </div>
 `,
   sources: "Boethius, De inst. mus. III (the tone is not divisible into equal halves in ratio; the comma); Euclid, Sectio canonis. Syntonic comma 81:80 ≈ 21.5 cents; Pythagorean comma 531441:524288 ≈ 23.46 cents. The cent is a later logarithmic measure, used here only for comparison.",
@@ -1063,7 +1063,7 @@ MusicaArs.LESSONS = [
 {
   id: "vii-5",
   ch: "VII",
-  title: "Temperament, and what Bach’s title means",
+  title: "Temperament",
   html: `
 <p>The response to the comma is <em>temperament</em>: deliberately mistuning certain intervals so that the unavoidable error is shared out and the instrument closes.</p>
 <p>Pietro Aaron’s <span class="latin">Toscanello in musica</span> (1523) gives the first clear practical instruction — tune the major third pure and let the fifths sit a little flat. He offers no arithmetic; he describes the thing by ear, and our name for his procedure, <em>quarter-comma meantone</em>, is a later reading of it. Francisco de Salinas supplies the mathematics in 1577 and distinguishes the varieties. In quarter-comma meantone each of four fifths is narrowed by a quarter of the syntonic comma, so that four of them, less two diapasons, land exactly on the pure 5:4. The thirds are beautiful. The chain still cannot close, and one fifth is left grotesquely wide — the <em>wolf</em>. Eight good major thirds, four unusable ones. You may play in some keys and not in others.</p>
@@ -1074,10 +1074,10 @@ MusicaArs.LESSONS = [
   <p>Bach’s <span class="latin">Das wohltemperirte Clavier</span> (1722) is commonly said to celebrate equal temperament. It does not. <em>Wohltemperirt</em> names a circulating but <strong>unequal</strong> tuning, in which all twenty-four keys are usable while each keeps its own colour — which is precisely what makes a journey through all twenty-four worth composing, rather than twenty-four identical exercises. Which particular temperament Bach wanted is unknown and much conjectured; the negative claim is secure. Equal temperament — every semitone the twelfth root of two — spread on the Continent from the later eighteenth century, and became the English norm only in the 1840s and 1850s, a century after Bach died. Meantone, well temperament, and equal temperament are three answers to one arithmetic problem, and Bach’s title names the second.</p>
 </div>
 <div class="widget" data-kind="temper"></div>
-<p>Hear the three, and measure them against the two commas you now know. The Pythagorean fifth is pure and its third is hard — wide by a full syntonic comma, since it is the ditone. The meantone third is pure and its fifth is audibly narrow, by a quarter of that comma. The equal-tempered fifth is narrow by only about a twelfth of the Pythagorean comma, which almost nobody hears; its third is wide by roughly two-thirds of a syntonic comma, which is quite audible, and which you have been hearing all your life.</p>
+<p>The three, measured against the two commas: the Pythagorean fifth is pure and its third is hard — wide by a full syntonic comma, since it is the ditone. The meantone third is pure and its fifth is audibly narrow, by a quarter of that comma. The equal-tempered fifth is narrow by only about a twelfth of the Pythagorean comma, which almost nobody hears; its third is wide by roughly two-thirds of a syntonic comma, which is quite audible, and which you have been hearing all your life.</p>
 <div class="remark">
   <h4>What is being traded</h4>
-  <p>What temperament buys is <em>modulation</em>: the freedom to treat any of the twelve sounds as a home, and so to build long forms out of motion from key to key. <span class="xref" data-to="vii-7"></span> is about what was built with it. What temperament sells is the whole-number ratio itself. The equal semitone is the twelfth root of two, and that quantity is <em>irrational</em> — it is not a ratio of numbers at all, and cannot be made into one. Boethius’s art measures sound by proportions of whole numbers. The tuning of a modern piano cannot, in principle, be so measured.</p>
+  <p>Temperament gives <em>modulation</em>: the freedom to treat any of the twelve sounds as a home, and so to build long forms out of motion from key to key. <span class="xref" data-to="vii-7"></span> is about what was built with it. Temperament gives up the whole-number ratio itself. The equal semitone is the twelfth root of two, and that quantity is <em>irrational</em> — it is not a ratio of numbers at all, and cannot be made into one. Boethius’s art measures sound by proportions of whole numbers. The tuning of a modern piano cannot, in principle, be so measured.</p>
   <p>That is the sharpest single break between the liberal art and modern practice, and it should be stated without either alarm or apology. It was made deliberately, by men who understood the arithmetic perfectly well, as the price of something they wanted more.</p>
 </div>
 `,
@@ -1097,7 +1097,7 @@ MusicaArs.LESSONS = [
 {
   id: "vii-6",
   ch: "VII",
-  title: "From interval to chord: the ground moves",
+  title: "From interval to chord",
   html: `
 <p>Zarlino had already done something quietly novel. He distinguished the major third from the minor by the way the fifth is divided — harmonically for the one, arithmetically for the other — which is to treat a three-note sonority as a single thing with a nature. Around 1600 the practice becomes universal: the <span class="latin">basso continuo</span>, a bass line with figures above it, from which a player realises <em>chords</em>. The working unit of European music is no longer the interval.</p>
 <p>Then the chord acquires a physical ground, and this is where the art changes kind.</p>
@@ -1133,8 +1133,8 @@ MusicaArs.LESSONS = [
   title: "Key: an architecture in time",
   html: `
 <p>One piece remains. Heinrich Glarean’s <span class="latin">Dodecachordon</span> (1547) added the Ionian and the Aeolian to the eight church modes, making twelve — and refused a thirteenth pair on B as unusable. He thought he was restoring an ancient system. Within a century and a half, his twelve had collapsed into two: what we call major and minor.</p>
-<p>Now put the three developments together. Temperament makes each of the twelve sounds a possible home. Figured bass makes the chord the unit. The modes reduce to two. What comes out is what the nineteenth century named <em>tonality</em>: a key is not a scale but a <em>hierarchy</em> — a tonic; a dominant that demands the tonic; a subdominant that prepares it — in which chords have <em>functions</em>, which is to say that they point somewhere.</p>
-<p>What this buys is form. If a listener can hear that we have left home and not yet returned, a composer can build a structure whose real subject is departure and return, and can sustain it for twenty minutes without a word of text. That is what sonata form is: a drama of keys, in which the second key is a genuine conflict and the return is a genuine resolution. The same principle carries a Haydn quartet, a Mozart concerto, a Beethoven symphony, a Schubert sonata. When people say <em>classical music</em>, this is very largely what they mean — the music of the period in which key was structural.</p>
+<p>These three developments go together. Temperament makes each of the twelve sounds a possible home. Figured bass makes the chord the unit. The modes reduce to two. What comes out is what the nineteenth century named <em>tonality</em>: a key is not a scale but a <em>hierarchy</em> — a tonic; a dominant that demands the tonic; a subdominant that prepares it — in which chords have <em>functions</em>, which is to say that they point somewhere.</p>
+<p>The result is form. If a listener can hear that we have left home and not yet returned, a composer can build a structure whose real subject is departure and return, and can sustain it for twenty minutes without a word of text. That is what sonata form is: a drama of keys, in which the second key is a genuine conflict and the return is a genuine resolution. The same principle carries a Haydn quartet, a Mozart concerto, a Beethoven symphony, a Schubert sonata. When people say <em>classical music</em>, this is very largely what they mean — the music of the period in which key was structural.</p>
 <div class="remark">
   <h4>An achievement the ancients did not have</h4>
   <p>The Greeks and the medievals had melody, mode, measured time, and after 900 a written polyphony. They did not have an art of large-scale intelligible form in sound. This is a real addition to human making, and a liberal education has no reason to be grudging about it. Whoever tells you that everything after Boethius is decline has not accounted for the late Beethoven quartets.</p>
@@ -1157,13 +1157,13 @@ MusicaArs.LESSONS = [
 {
   id: "vii-8",
   ch: "VII",
-  title: "What was gained, what was lost, what still stands",
+  title: "Lessons from History",
   html: `
-<p>Take the six lines from <span class="xref" data-to="vi-2"></span> and put each of them to the road we have just walked.</p>
+<p>The six lines from <span class="xref" data-to="vi-2"></span> may be set against the road just walked.</p>
 <div class="dl">
   <dt>Subject</dt><dd><strong>Unchanged.</strong> Sounding pitch, as heard. Odington, Zarlino, Vincenzo Galilei, Rameau — every one of them began where you began, at the ear.</dd>
   <dt>Cause</dt><dd><strong>Divided.</strong> Where there was one cause, ratio, there are now three candidates: the resonance of bodies, the response of the ear, and the conventions of a style. Three different sciences, and not one of them is a middle science.</dd>
-  <dt>First concords</dt><dd><strong>Standing, and indispensable.</strong> Not one tuning in this whole story abandons 2:1, 3:2, 4:3. Temperament is <em>defined by its deviation from them</em>. You cannot state what a piano tuner is doing without 3:2 in hand.</dd>
+  <dt>First concords</dt><dd><strong>Foundational for all music.</strong> Not one tuning in this whole story abandons 2:1, 3:2, 4:3. Temperament is <em>defined by its deviation from them</em>. You cannot state what a piano tuner is doing without 3:2.</dd>
   <dt>The step</dt><dd><strong>Replaced.</strong> The tone was 9:8. The keyboard’s whole step is the sixth root of two, and no ratio of whole numbers.</dd>
   <dt>The work</dt><dd><strong>Superseded.</strong> The <span class="latin">opus</span> of harmonics was the scale. The work of the modern art is the composition.</dd>
   <dt>Kind of science</dt><dd><strong>Ended, and relocated.</strong> <span class="latin">Musica</span> kept its statutory place in the arts course into the seventeenth century, increasingly as a Boethian formality. The live mathematical work moved to the academies — Mersenne, Sauveur, Euler — and the nineteenth-century chair of music teaches history, criticism, and composition.</dd>
@@ -1178,7 +1178,7 @@ MusicaArs.LESSONS = [
   <p>The manner of proceeding that made modern natural science — state a principle, contrive an experiment, let the result correct the principle — was practised in the study of music before it was practised in the study of the heavens. Vincenzo Galilei filled a cellar in Pisa with lutes and strings of every length, material, and thickness, and hung weights on them to test a claim of Boethius. His son grew up in that cellar. Kepler learned the same habit from philology; Galileo learned it from his father’s monochords. If the liberal art of music wants a defence in the modern world, this is a better one than nostalgia: it was one of the parents.</p>
 </div>
 <p>We stop here, where key is still the ground of form. Past this point lie two developments that belong to another course, and it is honest to name them rather than pretend the road ends. In 1863 Hermann von Helmholtz explained consonance by the beating of upper partials — dissonance as a roughness in the ear — which did not abandon the ratios but explained why the simple ones sound smooth: their partials coincide instead of beating. And from Wagner onward the tonal centre loosens, until around 1908 Schoenberg stops treating dissonance as something requiring resolution at all. What that does to an art whose first distinction was concord and discord is a real question. It is not this one.</p>
-<p>Go back to the string. Halt it at 1, at 3/4, at 2/3, at 1/2. Nothing between Guido and Beethoven has made 2:1 less true.</p>
+<p>The string at 1, at 3/4, at 2/3, at 1/2: nothing between Guido and Beethoven has made 2:1 less true.</p>
 <div class="widget" data-kind="monochord" data-start="2/3"></div>
 `,
   sources: "Vincenzo Galilei, Discorso intorno all’opere di Messer Gioseffo Zarlino (1589) on the string and weight experiments; Aristotle, De caelo II.9 and Aquinas, In De caelo II lect. 14; Helmholtz, Die Lehre von den Tonempfindungen (1863); Schoenberg, Harmonielehre (1911). On music as a source of the experimental method, Rens Bod, World of Patterns, ch. 5.1 and 5.2.",
@@ -1305,7 +1305,7 @@ MusicaArs.LESSONS = [
 {
   id: "east-3",
   ch: "east",
-  title: "Notation, and what it refuses to fix",
+  title: "Notation",
   html: `
 <p><span class="xref" data-to="vii-1"></span> called Guido’s staff the hinge of everything that followed in the West, because once pitch is written a practice has a record. The East wrote too, and for a thousand years. It wrote something else.</p>
 
@@ -1347,7 +1347,7 @@ MusicaArs.LESSONS = [
 {
   id: "east-4",
   ch: "east",
-  title: "Intervals, and the measuring of them",
+  title: "Intervals",
   html: `
 <p>You have spent this course measuring. What did these traditions measure?</p>
 
@@ -1355,13 +1355,13 @@ MusicaArs.LESSONS = [
 <p>Modern Byzantine chant is taught with an apparatus as precise as anything in this course. The diapason is divided into <strong>seventy-two</strong> <span class="latin">moria</span>, and each genus divides the fourth into thirty of them.</p>
 <p>In 1814, at Constantinople, three men — <strong>Chrysanthos of Madytos</strong>, <strong>Gregorios the Protopsaltes</strong>, and <strong>Chourmouzios the Archivist</strong>, known since as the Three Teachers — devised what is called the New Method: a reformed and analytical notation, together with a theory that named and numbered the intervals. They then transcribed the received repertory into it, hymn by hymn, so that what had been carried by the great signs and by memory could be set down in full. Chrysanthos’s <span class="latin">Theoretikon Mega</span> was printed at Trieste in 1832. A Patriarchal Musical Committee revised the numbers in 1881, moving from his sixty-eight parts to seventy-two, and that is what a Greek cantor learns today.</p>
 <div class="widget" data-kind="byzgenera"></div>
-<p>Sound them against each other. The soft and hard chromatic are unmistakable once heard twice. The hard chromatic has no place in Latin practice. Note the name-collision before it trips you: what this system calls <em>enharmonic</em> is not the ancient enharmonic genus of <span class="xref" data-to="sys-2"></span>, which is two quarter-tone <span class="latin">dieses</span> and a ditone. Same word, different object.</p>
+<p>Sounded against each other, the soft and hard chromatic are unmistakable once heard twice. The hard chromatic has no place in Latin practice. The name-collision: what this system calls <em>enharmonic</em> is not the ancient enharmonic genus of <span class="xref" data-to="sys-2"></span>, which is two quarter-tone <span class="latin">dieses</span> and a ditone. Same word, different object.</p>
 <p>And notice the last column. The two ancient divisions close on 498.04¢, the true 4:3 you built for yourself in <span class="xref" data-to="v-2"></span>. The four modern ones close on 500¢. Their fourth is <em>already tempered</em> — by a different route and for different reasons than the West’s, but tempered. A tradition that never passed through <span class="xref" data-to="vii-5"></span> arrived at a compromise of its own.</p>
 
 <h4 class="sec">The Russian answer: four trichords</h4>
 <p>Russian chant has its own pitch space, and it is not built out of fourths at all. The <span class="latin">obikhodnyi zvukoryad</span> is twelve sounds in four whole-tone <em>trichords</em>, each a tone and a tone, with a semitone between one and the next. Their names are given in the seventeenth-century books: <span class="latin">prostoye</span>, simple; <span class="latin">mrachnoye</span>, dark; <span class="latin">svetloye</span>, light; <span class="latin">tresvetloye</span>, thrice-light.</p>
 <div class="widget" data-kind="obikhod"></div>
-<p>Play all twelve, then the diminished octave. Two sounds an octave apart <em>by name</em> stand 1086¢ apart in fact, inside one system, with no modulation anywhere. Build by threes instead of by fours and that is what you get. Neither the West nor Byzantium builds this way.</p>
+<p>All twelve, then the diminished octave: two sounds an octave apart <em>by name</em> stand 1086¢ apart in fact, inside one system, with no modulation anywhere. Built by threes instead of by fours, that is what follows. Neither the West nor Byzantium builds this way.</p>
 
 <div class="remark">
   <h4>Notes on the modern discussion</h4>
@@ -1371,7 +1371,7 @@ MusicaArs.LESSONS = [
 </div>
 
 <h4 class="sec">Where these stand on Thomas’s map</h4>
-<p>Recall <span class="xref" data-to="i-2"></span>: a middle science has a physical subject and demonstrates through mathematical middle terms. On that test these are not middle sciences, and none of them claims to be. Their theory, where they have it, is <em>descriptive</em> — catalogues of signs, catalogues of formulas, counsel on right performance, and in the Greek case a measured account arrived at very late and for a practical purpose.</p>
+<p>As <span class="xref" data-to="i-2"></span> has it: a middle science has a physical subject and demonstrates through mathematical middle terms. On that test these are not middle sciences, and none of them claims to be. Their theory, where they have it, is <em>descriptive</em> — catalogues of signs, catalogues of formulas, counsel on right performance, and in the Greek case a measured account arrived at very late and for a practical purpose.</p>
 <p>Two things follow. First, this is no peculiarity of the East: the Latin West’s practice stood in the same condition from the ninth century to the fifteenth, organum and counterpoint being a grammar with no ratios in them <span class="xref" data-to="vii-2"></span>. Second, the West <em>also</em> had Boethius on the shelf — and so did Byzantium, which had Bryennios. The presence of a mathematical science does not by itself make a practice mathematical. Something must join them. In the Latin West what joined them was a contingent and rather humble thing: an instrument of fixed pitch, which forced somebody to decide in numbers exactly where to put the frets.</p>
 `,
   sources: "Chrysanthos of Madytos, Theoretikon Mega tes Mousikes (Trieste, 1832; trans. Katy Romanou); the Patriarchal Musical Committee, 1881–1888, for the 72-morion division; Panagiotes Chalatzoglou (c. 1728) and Kyrillos Marmarinos (1747); Manuel Chrysaphes (1458). Slavic: J. von Gardner on the “church scale”; Mezenets (1670). Coptic: Martha Roy in The Coptic Encyclopedia.",
@@ -1397,7 +1397,7 @@ MusicaArs.LESSONS = [
 <h4 class="sec">The held sound</h4>
 <p>Byzantine chant is sung over an <span class="latin">isokratēma</span>: a sustained pitch held beneath the melody by singers whose office it is, the <span class="latin">isokratai</span>. Holding it well is reckoned an art of its own. The ison must be steady, must not draw attention, must follow the melody’s ground when the melody moves to a new one, and must never become a second melody.</p>
 <div class="widget" data-kind="ison"></div>
-<p>Hear the line alone, then over the held sound. What the drone does is not harmony; nothing is being combined into a chord. It is a <em>measure</em>: against a fixed sound, every degree of the line takes on a character it does not have alone, and the ear is told at every moment where it stands. The traditional reading of it is that the held sound is the eternal and unchanging, and the melody the movement of time upon it — which is why the ison is said to be sung and not played, since only a voice can offer that.</p>
+<p>The line alone, then over the held sound: what the drone does is not harmony; nothing is being combined into a chord. It is a <em>measure</em>: against a fixed sound, every degree of the line takes on a character it does not have alone, and the ear is told at every moment where it stands. The traditional reading of it is that the held sound is the eternal and unchanging, and the melody the movement of time upon it — which is why the ison is said to be sung and not played, since only a voice can offer that.</p>
 <div class="remark">
   <h4>Notes on the modern discussion</h4>
   <p>First, a homonym. The <em>neume</em> called <span class="latin">ison</span> means “the same” — repeat the preceding pitch — and appears in every manuscript from the beginning. The <em>drone</em> called ison is a different thing, and finding the word in a medieval source is not by itself evidence of the drone.</p>
@@ -1437,7 +1437,7 @@ MusicaArs.LESSONS = [
   ch: "east",
   title: "Three accounts of an origin",
   html: `
-<p>Each of these traditions gives an account of where its singing came from. The accounts are old, and they are told by the people who do the singing. Hear them in their own terms.</p>
+<p>Each of these traditions gives an account of where its singing came from. The accounts are old, and they are told by the people who do the singing, in their own terms.</p>
 
 <h4 class="sec">Egypt: older than the Church</h4>
 <p>The Copts are the Egyptians; the word is the same word, worn down through Greek <span class="latin">Aigyptios</span> and Arabic <span class="latin">qibṭ</span>. They pray in Bohairic Coptic, and they count their years from Diocletian, the Era of the Martyrs. Their account of their chant follows from that: that when Egypt turned to Christ, the singers turned the music they already had to a new worship. The melodies of the Church, on this telling, are older than the Church in Egypt.</p>
@@ -1489,7 +1489,7 @@ MusicaArs.LESSONS = [
 {
   id: "end-1",
   ch: "end",
-  title: "Plato’s ladder: what the study is for",
+  title: "Plato’s ladder",
   html: `
 <p>You have the art, and you have seen what became of it. One question is left, and it is the one you asked at the beginning: what is this study <em>for</em>?</p>
 <p>The tradition gives three answers, and they do not compete. The first is that it is for the truth about numbered sound, and needs no other justification — that is what <span class="xref" data-to="lib-1"></span> meant by an art ordered to knowing. The second is that it is one road of the quadrivium, by which, as St. Thomas says, the mind is prepared for the other philosophical disciplines. The third is Plato’s, and it is the demanding one.</p>
@@ -1510,7 +1510,7 @@ MusicaArs.LESSONS = [
 
 <h4 class="sec">The <em>Timaeus</em>, handled as <span class="xref" data-to="vi-1"></span> handled the spheres</h4>
 <p>Plato says in the <span class="latin">Timaeus</span> that harmony, whose motions are akin to the revolutions of the soul, was given by the Muses not as an aid to irrational pleasure, as is now supposed, but as an ally to the soul’s inward revolution when it has lost its harmony, to help restore it to order and concord with itself.</p>
-<p>That is a beautiful sentence and a cosmological claim, not a theorem of harmonics. Treat it as this course treated the music of the spheres: distinguish. That the soul’s powers are ordered, and that melody moves the passions by some hidden correspondence, St. Thomas grants and states soberly. That the ratios of a monochord are the ratios of the world-soul is a doctrine of the <span class="latin">Timaeus</span> which he does not take over. Do not make the string carry the cosmos. It is enough — and it is a great deal — that the string is intelligible.</p>
+<p>That is a beautiful sentence and a cosmological claim, not a theorem of harmonics. Treat it as this course treated the music of the spheres: distinguish. That the soul’s powers are ordered, and that melody moves the passions by some hidden correspondence, St. Thomas grants and states soberly. That the ratios of a monochord are the ratios of the world-soul is a doctrine of the <span class="latin">Timaeus</span> which he does not take over. The string need not carry the cosmos. It is enough that the string is intelligible.</p>
 `,
   sources: "Plato, Republic VII 530d–531c (two criticisms: the empirics, then the Pythagoreans who do not ascend to problems) and 531c–d (the kinship of the studies); Timaeus 47c–e; Aquinas, Super Boethium De Trinitate q.5 a.1 ad 3; ST I q.84 a.6; ST II-II q.91 a.2 ad 5; and, for the caution about the Timaeus, In De caelo II lect. 14.",
   check: {
@@ -1528,7 +1528,7 @@ MusicaArs.LESSONS = [
 {
   id: "end-2",
   ch: "end",
-  title: "Augustine’s ascent, and the numbers that judge",
+  title: "Augustine’s ascent",
   html: `
 <p>Augustine wrote six books <span class="latin">De musica</span> on rhythm, meant to write six more on melody, and never did. He explains the plan in a letter to Memorius: the power of number in every motion is most easily studied in sounds, and that study offers a way of rising to the higher secrets of truth <span class="latin">by paths as it were gradually ascending</span>. In the sixth book he states the purpose plainly — <span class="latin">a corporalibus ad incorporalia transeamus</span>, let us pass from bodily things to things not bodily.</p>
 <p>The sixth book is where he does it, and it is the deepest answer this tradition gives to the question you asked. He distinguishes the kinds of number a single line of verse involves.</p>
@@ -1598,7 +1598,7 @@ MusicaArs.LESSONS = [
 <h4 class="sec">And the smallness of it is the point</h4>
 <p>One string. Three concords, a step, and a scale. You can hold the whole of it in your mind at once.</p>
 <p>Almost everything else a man studies he studies in fragments — a period of a history, a corner of a science, one author out of a literature — and he may go his whole life without once having the experience of possessing a <em>whole thing through its causes</em>. That experience is what a liberal education is trying to give him, and it is far easier to give with a small art than a large one. The quadrivium put <span class="latin">musica</span> where it did partly for that reason. Not because sound matters more than being, but because here, early, and with a piece of wire, a young man can find out what it is actually like to know something all the way down.</p>
-<p>Go back to the string. Halt it at 1, at 3/4, at 2/3, at 1/2. It is the same string it was in <span class="xref" data-to="iii-1"></span>, and the ratios are what they have always been. You are not what you were.</p>
+<p>The string at 1, at 3/4, at 2/3, at 1/2 is the same string it was in <span class="xref" data-to="iii-1"></span>, and the ratios are what they have always been. You are not what you were.</p>
 <div class="widget" data-kind="monochord" data-start="2/3"></div>
 `,
   sources: "Aristotle, Politics VIII.3 (1338b2–4); Boethius, De inst. mus. I.34; Aquinas, ST I q.5 a.4 ad 1; Super Boethium De Trinitate q.5 a.1 ad 3; J. H. Newman, The Idea of a University, Discourse V (“Knowledge Its Own End”), cited as a modern witness to the tradition and not as an authority within the art.",
@@ -1618,7 +1618,7 @@ MusicaArs.LESSONS = [
   id: "sources",
   ch: "app",
   n: "A",
-  title: "Sources, and where we left things open",
+  title: "Sources",
   html: `
 <p>This course is not a new theory of music. It is a first-principles walk through a received art. The spine is Boethius, <em>De institutione musica</em>, itself dependent on Nicomachus and, behind him, the Pythagorean teaching about the monochord. Ptolemy is heard where the tradition itself heard him, as a second authority, not as a replacement for the first ratios. Augustine’s definition and his distinction of science from mere doing are kept; his books on meter are not taught here, because they are another part of the art. Kalkavage’s <em>On the Measurement of Tones</em> is used as a pedagogical order (the string, then the ratio), not as a master of doctrine.</p>
 <p>St. Thomas is the judge of disputed points, not because he wrote a harmonics — he did not — but because he wrote the philosophy of the sciences in which harmonics must sit, and because he wrote enough about sound, beauty, the heavens, and the use of song to close some questions and to forbid closing others.</p>
@@ -1640,9 +1640,9 @@ MusicaArs.LESSONS = [
   id: "lab",
   ch: "lab",
   n: "S",
-  title: "The monochord, free to use",
+  title: "The monochord",
   html: `
-<p>This is not a new lesson. It is the string itself, with the first stopping-places marked. Drag the bridge, or tap a ratio, then hear the open string, the stopped string, and both together.</p>
+<p>This is not a new lesson. It is the string itself, with the first stopping-places marked. The open string, the stopped string, and both together.</p>
 <p>The open string is 1. Stopped at 3/4 is the fourth (4:3). Stopped at 2/3 is the fifth (3:2). Stopped at 1/2 is the diapason (2:1). Stopped at 8/9 is the tone (9:8). Shorter sounding length, higher pitch. The ratio of the pitches is the inverse of the ratio of the lengths.</p>
 <div class="widget" data-kind="monochord" data-start="2/3"></div>
 <div class="widget" data-kind="scale"></div>

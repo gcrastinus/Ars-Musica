@@ -26,7 +26,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Why does the art call 2:1 the <em>first</em> concord?", a: 2, o: [
     ["Because it is the easiest interval for an untrained voice to sing", "That may well be true, and it is a fact about singers rather than about number. The art’s reason for calling anything first has to be a reason of the same kind as the thing it orders."],
     ["Because it was historically the first to be discovered", "The art is not making a claim about who noticed what, and it could not prove such a claim if it made it. Look for a reason that would hold whether or not anyone had ever discovered it."],
-    ["Because it is the first ratio after equality: the first multiple, and the double is the first of the multiples", "Exactly — and notice that this reason is available only to someone who has the kinds of ratio in hand. Without them, ‘first’ is a word rather than an argument."],
+    ["Because it is the first ratio after equality: the first multiple, and the double is the first of the multiples", "Exactly — and this reason is available only to someone who has the kinds of ratio. Without them, ‘first’ is a word rather than an argument."],
     ["Because it is the smallest interval the ear can distinguish", "The diapason is nothing like the smallest interval the ear can distinguish; you have been hearing far finer ones since the second chapter. And smallness is not what ‘first’ means here."]
   ]},
   { q: "What is the Greek name for this interval, and what does it mean?", a: 1, o: [
@@ -986,7 +986,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "The lesson says the eight sounds are built only from certain ratios. Which?", a: 0, o: [
     ["3:2, 4:3, and their difference 9:8", "Two concords and the step that separates them; nothing else is admitted. The double is the span being filled, so it is not one of the materials but the thing made."],
     ["5:4 and 6:5, the thirds", "Neither ratio appears in this construction, and the preceding lesson set the first of them aside as a later admission. Look at what the lesson lists after the word ‘only.’"],
-    ["9:8 and 256:243 alone", "Those are the steps that result, not the materials the construction starts from; the remnant was itself computed out of something larger. Ask which intervals had to be in hand before either step could be found."],
+    ["9:8 and 256:243 alone", "Those are the steps that result, not the materials the construction starts from; the remnant was itself computed out of something larger. Ask which intervals had to be known before either step could be found."],
     ["The twelve ratios of the tetractys", "The tetractys is four numbers, not twelve ratios, and the lesson names a short list here rather than a heap. Read the sentence after the instruction to play the eight."]
   ]},
   { q: "What does the lesson say about ‘C major,’ clefs and piano keys?", a: 2, o: [
@@ -1209,7 +1209,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "The boxed remark warns about the names Dorian, Phrygian and Lydian. What is the warning?", a: 1, o: [
     ["That the Greeks never used them, and they are a medieval invention", "The remark says the Greeks did use them, of tonoi and harmoniai. The trouble is not that the names are late, but that they were carried across to something else and kept their sound."],
-    ["That the Greek tonoi and harmoniai and the Latin church tones are not the same thing, though the names were taken over", "The transmission itself is where the tangle begins, and the course lists the question among those it leaves open. Do not let a modern book tell you one word meant one thing throughout."],
+    ["That the Greek tonoi and harmoniai and the Latin church tones are not the same thing, though the names were taken over", "The transmission itself is where the tangle begins, and the course lists the question among those it leaves open. “Dorian” did not mean one thing to Ptolemy and to a tenth-century cantor."],
     ["That Boethius invented the Greek names to fill a gap in his sources", "He is charged with tangling a transmission, which is a different fault from fabricating one, and the remark treats it as a difficulty rather than a deception. Read what the tangle is said to consist in."],
     ["That the modes are the same in both traditions, so the modern confusion does no harm", "The remark exists in order to deny precisely that. Were they the same there would be nothing to warn against, and no open question to be listed in the Appendix."]
   ]}
@@ -1417,12 +1417,12 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because the first principles are incomplete without it", "The lesson says the opposite: you now have the first principles, and the later road is expressly not first. Incompleteness is not the reason given."],
     ["Because later music refuted the Boethian art", "That is the very claim the lesson wants you armed against. Ask why a student might be vulnerable to it, and you will have the reason for the journey."],
     ["Because the tempered instruments of later Europe are more perfect", "No such judgment is offered. The chapter is described as asking a question at its end, not as awarding a prize to one age over another."],
-    ["Because a student who knows the art and nothing of what became of it is easy prey for the claim that the art was refuted", "And the chapter ends by asking which of the six lines still stand. The lesson adds a caution: do not read it before the string is in your ear."]
+    ["Because a student who knows the art and nothing of what became of it is easy prey for the claim that the art was refuted", "And the chapter ends by asking which of the six lines still stand. The lesson adds a caution: it is not for reading before the string is known by ear."]
   ]},
-  { q: "The lesson sends you back to the monochord. At what points does it tell you to halt the string?", a: 1, o: [
+  { q: "The lesson returns to the monochord. At what points is the string named?", a: 1, o: [
     ["At 1, 2/3, 1/2 and 1/3", "Three of these are on the list and the fourth is not. Count the four stopping points the lesson names, and ask what ratio each sounds against the open string."],
-    ["At 1, 3/4, 2/3 and 1/2", "Which is to say the unison, the diatessaron, the diapente and the diapason. Hear them apart and together, and say what you are hearing; that is where the art begins."],
-    ["At 8/9, 3/4 and 2/3 only", "One of these gives the tone, which is the step rather than a concord, and the open string itself is missing. The instruction names four points, and it begins with the string unstopped."],
+    ["At 1, 3/4, 2/3 and 1/2", "Which is to say the unison, the diatessaron, the diapente and the diapason. Apart and together, if you can say what you are hearing, you have begun the art."],
+    ["At 8/9, 3/4 and 2/3 only", "One of these gives the tone, which is the step rather than a concord, and the open string itself is missing. Four points are named, and they begin with the string unstopped."],
     ["Wherever the ear finds a pleasing sound", "The whole method of the instrument is that the lengths are fixed in advance and the ear then judges what they give. Reversing that order gives up the demonstration."]
   ]}
 ],
@@ -1871,11 +1871,11 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That the scale must be sung upwards from the tonic", "Nothing here concerns the direction in which a scale is sung. A hierarchy is an order of importance among things, not an order of performance. Ask what things are ordered."],
     ["That within a key there is a tonic, a dominant that demands it, and a subdominant that prepares it — chords with functions, which is to say that they point somewhere", "Pointing is the whole of it. Because a chord points, a listener can hear that we have left home and not yet returned, and on that hearing a long form is built."]
   ]},
-  { q: "What does the hierarchy of key buy a composer?", a: 0, o: [
+  { q: "What does the hierarchy of key give a composer?", a: 0, o: [
     ["Form: a structure whose real subject is departure and return, sustainable for twenty minutes without a word of text", "That is what sonata form is — a drama of keys. The same principle carries a Haydn quartet, a Mozart concerto, a Beethoven symphony, a Schubert sonata."],
     ["Freedom from the need to temper his instrument", "The order runs the other way about: temperament is one of the three conditions that made key available at all. It is something bought with, not escaped by, this hierarchy."],
     ["A demonstration of the first concords from tonic and dominant", "The lesson denies exactly this: functional harmony is not demonstrated from 2:1, 3:2, and 4:3. Ask what kind of knowledge the rules of this art are said to be."],
-    ["A method of setting words more expressively", "The achievement the lesson names requires no text whatever, which is precisely what makes it remarkable. Read the paragraph beginning ‘What this buys’ and see what it is that words are not needed for."]
+    ["A method of setting words more expressively", "The achievement the lesson names requires no text whatever, which is precisely what makes it remarkable. The paragraph on form says what it is that words are not needed for."]
   ]},
   { q: "What does the lesson say sonata form is?", a: 2, o: [
     ["A fixed sequence of themes and key areas prescribed by theorists", "The lesson does not define it by a scheme of sections at all; it describes what happens in it. Re-read the sentence that begins ‘That is what sonata form is’."],
@@ -1929,9 +1929,9 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Divided: where there was one cause there are now three candidates — the resonance of bodies, the response of the ear, and the conventions of a style", "Three different sciences, and not one of them a middle science. That is why the old art could not simply be continued under new management."]
   ]},
   { q: "What does the audit say of the first concords?", a: 0, o: [
-    ["Standing, and indispensable: not one tuning in the whole story abandons 2:1, 3:2, 4:3", "Temperament is defined by its deviation from them. You cannot state what a piano tuner is doing without 3:2 in hand, which is a stronger claim than bare survival."],
+    ["Foundational for all music: not one tuning in the whole story abandons 2:1, 3:2, 4:3", "Temperament is defined by its deviation from them. You cannot state what a piano tuner is doing without 3:2, which is a stronger claim than bare survival."],
     ["Abandoned, since temperament put irrational quantities in their place", "Temperament approximates them; it does not do without them. An approximation requires the thing approximated in order to be described at all. Ask how you would state what a tuner is doing."],
-    ["Kept as a historical curiosity, of no use to a working tuner", "The lesson says the opposite of the tuner in particular. Ask what quantity he narrows, and by what fraction of what, and whether he could say so without the old ratios in hand."],
+    ["Kept as a historical curiosity, of no use to a working tuner", "The lesson says the opposite of the tuner in particular. Ask what quantity he narrows, and by what fraction of what, and whether he could say so without the old ratios."],
     ["Reduced to 2:1 alone, the only interval left pure", "The diapason is indeed left pure, but the audit’s claim covers all three ratios and concerns their indispensability, not their purity. Distinguish being left pure from being needed."]
   ]},
   { q: "What does the audit say of the step — the tone?", a: 2, o: [
@@ -2470,7 +2470,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "What does the lesson tell you to take from Plato?", a: 3, o: [
     ["The doctrine that harmony is akin to the revolutions of the soul", "That comes from the Timaeus, and the lesson declines to take it over as a theorem of this art. Look instead at the section on how far to follow him, and at what it says to keep."],
-    ["The rule that the sensible instance is to be climbed off once the ratio is in hand", "That is named as the tendency of Plato’s ladder and set aside in the very next breath. You have chosen the thing the lesson leaves behind."],
+    ["The rule that the sensible instance is to be climbed off once the ratio is known", "That is named as the tendency of Plato’s ladder and set aside in the very next breath. You have chosen the thing the lesson leaves behind."],
     ["The judgement that the practical musician is beneath notice", "No ranking of musicians is at issue here; that belongs to another part of the course. Re-read the two sentences beginning <em>So take from Plato</em>."],
     ["The demand for ascent: from the heard instance to the ratio, and from the isolated ratio to the order and kinship of the mathematical sciences", "That kinship is what he asks for at 531c. The demand survives the disagreement about ladders, which is why it can be kept while the rest is refused."]
   ]},
@@ -2488,7 +2488,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "How does the lesson tell you to handle the Timaeus passage?", a: 1, o: [
     ["Accept it whole: the ratios of the monochord are the ratios of the world-soul", "That is the doctrine the lesson says St. Thomas does not take over. Nothing in the section asks for wholesale acceptance; re-read what it says is enough for the string to be."],
-    ["Grant what St. Thomas grants — that the soul’s powers are ordered, and that melody moves the passions by some hidden correspondence — and leave what he does not take over", "Do not make the string carry the cosmos. It is enough, and it is a great deal, that the string is intelligible."],
+    ["Grant what St. Thomas grants — that the soul’s powers are ordered, and that melody moves the passions by some hidden correspondence — and leave what he does not take over", "The string need not carry the cosmos. It is enough that the string is intelligible."],
     ["Dismiss it, since a cosmological claim can have no bearing upon a liberal art", "The lesson does not dismiss it: it quotes the sentence at length and calls it beautiful. The section heading names an earlier lesson whose handling of a similar claim you are to imitate; go and see what that was."],
     ["Treat it as a theorem of harmonics, since Plato states it in a mathematical dialogue", "A sentence is not a theorem because of the company it keeps. The lesson says in so many words what kind of claim this one is, and it is not the kind that gets demonstrated from a string."]
   ]},
