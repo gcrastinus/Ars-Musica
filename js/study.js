@@ -16,6 +16,15 @@
 window.MusicaArs = window.MusicaArs || {};
 MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 
+"welcome": [
+  { q: "What is this course trying to teach you first?", a: 1, o: [
+    ["How to read a treble clef and play piano pieces from the 1700s", "Those are later skills, and the opening paragraph names them as things this course is not. The art here begins before staff, piano, and the names of notes."],
+    ["The liberal art of music: the science of numbered sound, from hearing and from ratio", "You need a quiet room and a way to hear two sounds. Composition and moral training are real studies of music, but they are not this art, and they are not first."],
+    ["How to compose songs, and which modes are morally safe", "Making songs is a fine art; choosing them for character is a part of ethics. Both are named here as other studies. The one this course takes up is a science of sounding number."],
+    ["The history of European concert music from Guido to Beethoven", "Later chapters walk that road so that the art is not left looking refuted. They are not first, and the opening page does not put them first."]
+  ]}
+],
+
 "iii-2": [
   { q: "The string is stopped at its midpoint. What is the ratio of the whole string to the part left sounding?", a: 0, o: [
     ["2:1", "And because the lengths stand as 2:1, the pitches stand as 2:1 the other way about. Hold both halves of that sentence."],
@@ -113,7 +122,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["To the liberal art, since it concerns what sounds do", "The liberal art considers numbered sound as a nature; it does not treat the effects of sound upon hearers. Ask whether the claim you have chosen is about ratios or about what happens to a man who listens."],
     ["To the second study — music as a part of ethics and politics", "Which is why parents and lawgivers watch what is sung. That is the forming of character, and it can be a part of moral science; but it is training, and training is not the art this course teaches."],
     ["To fine art, since composers exploit these effects", "A composer may well use the fact, but using a claim is not the study of it. The lesson assigns a claim by the science it belongs to, not by who happens to find it handy."],
-    ["Nowhere in the division; it is a remark of natural philosophy about the passions", "The lesson does not leave it homeless. It cites St. Thomas repeating the claim in a question about praising God with song, and places it squarely within one of the three studies."]
+    ["Nowhere in the division; it is a remark of natural philosophy about the passions", "The lesson does not leave it homeless. It uses the same observation when the question is asked whether God should be praised with song, and places it squarely within one of the three studies."]
   ]},
   { q: "Parents who watch what is sung in the house, and lawgivers who watch what is sung in the city — what does the lesson say of them?", a: 2, o: [
     ["They practise the liberal art in its applied form", "The lesson allows no such applied form. It separates the studies by their ends, and the end of what these men do is a citizen of a certain stamp, not a piece of knowledge."],
@@ -124,8 +133,14 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What is the <span class=\"latin\">opus</span> of music considered as a liberal art?", a: 3, o: [
     ["A song", "The lesson denies exactly this, and in those words. A song is the gift of the Muses. The question is what the science makes, and a science does not make songs."],
     ["A performance judged by a trained ear", "No performance is the work of this study, and a trained ear is nowhere called its product. Look again at the sentence in which the third study’s work is named."],
-    ["A treatise on the effects of melody upon the soul, such as a lawgiver could use", "That would be a work of the second study, if of any. And the lesson notes that St. Thomas writes no treatise on music at all. You have answered for the wrong one of the three."],
+    ["A treatise on the effects of melody upon the soul, such as a lawgiver could use", "That would be a work of the second study, if of any. You have answered for the wrong one of the three."],
     ["A scale — an ordered system of pitches generated from the first numerical ratios", "Not a song but a scale. And it is considered as a nature, for the sake of the truth about numbered sound, which is what keeps the study from being either a concert or a civic programme."]
+  ]},
+  { q: "Which of these is the liberal art of music?", a: 2, o: [
+    ["Learning to sing well, so as to please a hearer", "Singing well is a fine art, or a craft. It aims at a work that delights. The liberal art aims at truth about numbered sound."],
+    ["Choosing songs that form a good character in the young", "That is ethical or political: the forming of character. It matters, and it is not this science."],
+    ["Knowing, from number, why certain pitches belong together as a scale", "The liberal art considers the scale as a nature. Singing well and choosing songs for character are real studies; neither is harmonics."],
+    ["Knowing the history of the church modes and the names Dorian, Phrygian, and Lydian", "Those names come later, and they are one of the places the tradition itself became tangled. They are not what this lesson names as the art."]
   ]},
   { q: "What did the Greeks call this study when they were being careful?", a: 1, o: [
     ["<span class=\"latin\">Musica</span>", "That is the Latin name the quadrivium uses, and the English word this course keeps descends from it. But the question asked what the Greeks said when they wished to be exact, which was a different word."],
@@ -138,12 +153,6 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because the Greek word is older than the Latin one", "The age of words is not the argument. The box separates two things that a single word covers, and it says what each of them is. Ask yourself which two."],
     ["Because ‘music’ in the poet’s sense means song, while the study in question is the science of the ratios from which song is possible", "The one is the gift of the Muses; the other is what makes the gift possible at all. Keeping the two apart is the whole labour of this first lesson."],
     ["Because harmonics takes in astronomy as well", "The lesson says no such thing, and the quadrivium keeps its four sciences distinct. Re-read the box and notice that it contrasts two senses of one word, not two sciences."]
-  ]},
-  { q: "What does the lesson say about St. Thomas’s own writing on music?", a: 0, o: [
-    ["He writes no treatise <span class=\"latin\">De musica</span>, but receives the older division and places the art among the mathematical sciences", "So his authority here is for the placing, not for a doctrine of his own about sound. Notice how much of this course will rest on where a thing is put rather than on what one text says."],
-    ["He writes a <span class=\"latin\">De musica</span> defending the quadrivial place of the art", "He does not, and the lesson says so in its first paragraph. Be exact about what an author actually wrote: a citation is not a treatise."],
-    ["He rejects the older division and puts music under moral science", "He receives the division rather than rejecting it. He is cited elsewhere on the moral use of song without the art itself being moved. Re-read the opening sentence."],
-    ["He treats music only in the <span class=\"latin\">Summa</span>, in the question on praising God with song", "That question is cited here, but the lesson points to his commentary on Boethius as well. And the question asked where he puts the art, not where he mentions it."]
   ]},
   { q: "The lesson says the third study considers the scale ‘as a nature.’ What does that mean?", a: 1, o: [
     ["That the scale is found in the world rather than made by men", "The lesson does not argue about where scales come from. To consider something as a nature is a way of considering it, and the sentence tells you what that way is ordered to."],
@@ -296,7 +305,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Those by which we judge, which we did not make and cannot alter", "The last of the five, and the ascent runs from the first to the last and past the last. Everything below them is in some degree ours; these are not."]
   ]},
   { q: "What does the boxed remark say the art will not do?", a: 0, o: [
-    ["It will not by itself make you good; the forming of character belongs to the second study of music", "Aristotle and St. Thomas both hold that music has much to do with character, but this course does not undertake that. Nor will the art make you happy. It is one small true thing, thoroughly known."],
+    ["It will not by itself make you good; the forming of character belongs to the second study of music", "Aristotle and Boethius both hold that music has much to do with character, but this course does not undertake that. Nor will the art make you happy. It is one small true thing, thoroughly known."],
     ["It will not make you able to judge concords", "Judging is exactly what it claims to do — the third of the four things. You have taken one of the promises for one of the denials."],
     ["It will not show you anything about the beautiful", "The first and greatest of the four things is a demonstration about the beautiful. The box denies the art several offices, and that is not among them."],
     ["It will not connect with the other quadrivial sciences", "The fourth thing is that the art is a road, and roads lead somewhere. The box denies particular accomplishments; it does not deny the ascent."]
@@ -465,10 +474,10 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["He has the science in a lower degree", "The distinction is not one of degree. It divides the one who possesses the art from the one who merely does the thing, and such a division admits no half measures."],
     ["He does not know why that length is the right length", "The knowing of the cause is the whole difference, and it is why a monochord and a ratio are worth the trouble. Doing the thing and possessing the art are two acts."]
   ]},
-  { q: "Why would St. Thomas not quarrel with calling music a science?", a: 1, o: [
-    ["Because he holds that all the arts are sciences", "The lesson makes no such sweeping claim, and it would flatten the very distinction Augustine is drawing. Look for the reason actually given, which turns on where science is seated."],
+  { q: "Why does the lesson call music a science?", a: 1, o: [
+    ["Because all the arts are sciences", "The lesson makes no such sweeping claim, and it would flatten the very distinction Augustine is drawing. Look for the reason actually given, which turns on where science is seated."],
     ["Because science is in the intellect, and a liberal art involves a work that is a product of reason itself", "So the liberal arts are not made liberal by being genteel. They are so because their work is reason’s own, which is what admits harmonics to the quadrivium."],
-    ["Because he takes the point on Augustine’s authority", "A claim held on authority and a claim demonstrated are different things, and the lesson supplies a reason rather than a citation. Ask what Thomas says a liberal art has in it."],
+    ["Because it takes the point on Augustine’s authority alone", "A claim held on authority and a claim demonstrated are different things, and the lesson supplies a reason rather than a citation. Ask where science is seated."],
     ["Because music demonstrates from sensible experiment", "Experiment is not the ground offered here. This paragraph is about where the art is seated, not about how it gathers evidence. Read the sentences on <span class=\"latin\">scientia</span> and the intellect."]
   ]},
   { q: "What does the lesson name as the work of harmonics?", a: 2, o: [
@@ -576,7 +585,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The student would find it too hard", "Difficulty is not the objection. The box gives a reason of another kind, one about how a middle science is put together. Read it through to the end."],
     ["The ratios would have to be taken on authority", "Authority is not what the box guards against here; it is guarding an order. Ask which end a middle science starts from."]
   ]},
-  { q: "What does the box give as St. Thomas’s ground for this order?", a: 0, o: [
+  { q: "What does the box give as the ground for this order?", a: 0, o: [
     ["That all our knowledge begins in the senses", "The ear gives us sound; reason, using arithmetic, knows why these sounds stand to one another as they do. Two distinct offices, and the art needs both."],
     ["That the senses never deceive", "No such claim is made, and the art would be in trouble if it rested on one. What is claimed concerns where knowing starts, not whether sense can err."],
     ["That mathematics is less certain than sense", "Nothing here ranks the two for certainty. The claim is about the order in which knowledge comes to us. Read the box’s last two sentences."],
@@ -1100,19 +1109,13 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That his method is nevertheless the least fruitful of the three in practice", "No such comparison is drawn, and fruitfulness is not the measure being applied. The qualification concerns what does and does not follow from a method being of the right shape."],
     ["That being the right method does not make every ratio he admits a first principle — first principles are few", "The distinction is between a way of proceeding and the results reached along it. A sound method may still be used to admit more than a demonstration will carry, and the lesson keeps the two apart."],
     ["That his method is really the Pythagorean one under another name", "They are listed as distinct positions, and his formula expressly refuses to let either faculty despise the other — which is not what the other school is faulted for. Compare the two sentences again."],
-    ["That Thomas rejects it, having closed the question elsewhere", "The lesson says the opposite about closure: one question at least is left expressly open. And Thomas is brought in for principles by which a harmonics is judged, not as a party rejecting one."]
+    ["That the method is rejected, having closed the question elsewhere", "The lesson says the opposite about closure: one question at least is left expressly open. The method is used as a rule applied to the art, not as a party rejecting one."]
   ]},
   { q: "How does the lesson describe Boethius’s own position?", a: 2, o: [
     ["He follows Aristoxenus, making the ear the judge and treating ratio as a convenience", "That is not the side he takes in teaching the West, and this course leans on him elsewhere for the contrary. Look at which of the two Greek parties the lesson says he sides with."],
     ["He suspends judgement between the parties and reports them without deciding", "The lesson has him choose. Reporting without deciding is nearer to what this page does with a single disputed ratio at the end, and that is one ratio, not the whole question of cause."],
     ["He sides with number as the cause, while still beginning from what is heard", "Which is how he can be the Latin West’s Pythagorean and still open his work with the ear. Holding those two together is precisely what a middle science demands of him."],
     ["He identifies beauty with due proportion and names its three conditions", "Those are the words of a far later writer, quoted in the boxed remark on this page, and they belong to theology rather than to harmonics. Attend to the opening paragraph and the Latin teacher named in it."]
-  ]},
-  { q: "The lesson grants that Thomas does not write a harmonics. Why is he brought in at all?", a: 3, o: [
-    ["Because he settled the dispute about 5:4 in favour of the Pythagoreans", "The page says plainly that this question is not closed and that a first-principles course may leave it open. Whatever he supplies to the art, it is not a verdict upon that ratio."],
-    ["Because he transmitted the Greek ratios to the Latin West", "That office belongs to another writer named in the same paragraph, and it is a labour of transmission rather than of principle. Ask what a man who writes no harmonics could still contribute to one."],
-    ["Because his authority outranks Ptolemy’s, and rank decides such questions", "The lesson nowhere argues from rank, and its habit with authorities is to take the observation and leave the authority standing aside. Look for a contribution that would hold even with the name removed."],
-    ["Because he writes the principles by which a harmonics must be judged", "Principles about the senses, about the kind of cause a science must give, and about beauty as proportion. The course uses them as a rule applied to the art, not as further doctrine within it."]
   ]},
   { q: "At <em>Summa</em> I q.5 a.4, how are beauty and goodness related?", a: 0, o: [
     ["They are the same in the thing and differ in notion: goodness is what all desire, beauty what pleases in being seen", "The difference is of notion, not of subject. That is why a concord may be called beautiful without inventing in it some second quality standing beside its proportion."],
@@ -1297,16 +1300,16 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["All three equally, since Boethius makes no order among them", "The lesson does make an order, and it turns on which kind the art’s own principles can reach. Re-read what it says harmonics may claim without trespassing."]
   ]},
   { q: "Aristotle, in <span class=\"latin\">De caelo</span> II, denies that the heavenly bodies make sound. On what ground?", a: 0, o: [
-    ["They do not strike a medium, as a string strikes the air", "Sound requires a body struck and a medium to carry it. Thomas follows him in the commentary at II, lect. 14, and so this course says there is no concert in the sky."],
+    ["They do not strike a medium, as a string strikes the air", "Sound requires a body struck and a medium to carry it. So this course says there is no concert in the sky."],
     ["The spheres move too slowly for their motion to be audible", "Speed is not the objection, and those who held the doctrine thought the motion very fast indeed. Ask what a sound needs in order to exist at all, rather than how fast a thing must move."],
     ["Their sound is too constant, so that we have grown deaf to it", "That is the old defence of the doctrine, offered by those who held it. You have chosen the reply Aristotle is arguing against, and mistaken it for his argument."],
     ["Scripture nowhere mentions such a sound", "This is an argument of natural philosophy about bodies and media, not an argument from silence in the sacred text. The lesson cites Wisdom for something else entirely."]
   ]},
   { q: "In what sense does the lesson allow <span class=\"latin\">musica mundana</span> to be true?", a: 3, o: [
-    ["As audible chords sounded by the planets, faint but real", "This is precisely the physical claim the lesson rejects with Aristotle and Thomas. Distinguish a doctrine of cosmic order from the claim that something is actually heard."],
+    ["As audible chords sounded by the planets, faint but real", "This is precisely the physical claim the lesson rejects with Aristotle. Distinguish a doctrine of cosmic order from the claim that something is actually heard."],
     ["As a poetic figure with no truth in it, tolerated out of respect for Boethius", "The lesson refuses both mockery and inflation. It holds that the doctrine is true in one sense, not that it is empty and politely endured. Re-read the boxed remark."],
     ["As a proof that the human soul is tuned like a string", "You have crossed from the world to the human being, which is the second of Boethius’s three kinds. And the lesson warns against turning any tetrachord into a map of the soul."],
-    ["As the ordering of the cosmos in number, measure and weight — Wisdom 11:21, which Thomas reads at ST I q.5 a.5", "So stated it is a cosmological truth, and astronomy is the middle science that shows that order to the eye as harmonics shows order to the ear."]
+    ["As the ordering of the cosmos in number, measure and weight — Wisdom 11:21", "So stated it is a cosmological truth, and astronomy is the middle science that shows that order to the eye as harmonics shows order to the ear."]
   ]},
   { q: "<span class=\"latin\">Musica humana</span>, in Boethius, names what?", a: 1, o: [
     ["The art of singing, as distinct from playing on instruments", "Voice is counted with the instruments in this division, since it too strikes the air. You have divided by the means of sounding, where Boethius is dividing by something else."],
@@ -1339,9 +1342,9 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Turning every tetrachord into a map of the soul, or a string’s 3:2 into a proof in psychology", "The art does not become more liberal by being inflated into a worldview. It becomes more liberal by being known as far as its principles go, and by knowing where they stop."]
   ]},
   { q: "How does the lesson say Boethius’s threefold division ought to be read?", a: 2, o: [
-    ["As Thomas’s own teaching, since Thomas received the tradition", "Thomas received it and corrected part of it. To read the division as if he had written it is to lose exactly the correction the lesson is at pains to make."],
-    ["Against Thomas, since Aristotle overturns the third kind", "The lesson refuses that posture. It does not set the tradition and the correction at war; it reads the one in the light of the other. Look at the first paragraph again."],
-    ["With Thomas: not against him, and not as if Thomas had written it", "Both halves of that instruction matter. The division stands as tradition, one part of it is corrected by natural philosophy, and neither fact cancels the other."],
+    ["As a finished physics of the heavens, since Boethius received the tradition", "Boethius received it. To read the division as if it had settled the physics is to lose the correction the lesson is at pains to make."],
+    ["Against Boethius, since Aristotle overturns the third kind", "The lesson refuses that posture. It does not set the tradition and the correction at war; it reads the one in the light of the other. Look at the first paragraph again."],
+    ["With Aristotle’s correction of the spheres: not as if Boethius had settled the physics", "Both halves of that instruction matter. The division stands as tradition, one part of it is corrected by natural philosophy, and neither fact cancels the other."],
     ["As superseded, now that the monochord has replaced it", "The monochord demonstrates within one of the three kinds. An instrument that works inside a division cannot by itself abolish the division."]
   ]},
   { q: "A student says the art would be grander if every interval were shown to mirror something in the soul or the heavens. What does the lesson answer?", a: 1, o: [
@@ -1956,10 +1959,10 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That pitch varies directly with tension, as the sources had said", "He found otherwise, which is why the lesson calls this a genuine refutation. Hang the weights in imagination and ask what doubling the tension actually gives you in the way of pitch."],
     ["That 2:1, 3:2, and 4:3 are false for string lengths", "For lengths they hold, and the course has had you produce them on a monochord from the beginning. What was under test was whether the same proportions govern a second quantity as well."],
     ["That raising a string by a diapason takes four times the tension, not twice, because pitch varies as the square root of the tension", "A claim the tradition transmitted, tested and found false. Vincenzo, being a humanist, concluded that Pythagoras must have known the truth and been garbled in transmission."],
-    ["That the music of the spheres is inaudible", "That denial was made long before, by Aristotle and by St. Thomas, and it needed no weights at all. The experiment in question concerns strings and the things that stretch them."]
+    ["That the music of the spheres is inaudible", "That denial was made long before, by Aristotle, and it needed no weights at all. The experiment in question concerns strings and the things that stretch them."]
   ]},
   { q: "What does the lesson say about audible music of the spheres?", a: 0, o: [
-    ["It goes — but Aristotle and St. Thomas had already denied it, so the tradition corrected itself from within, long before", "Worth remembering when this story is told as science overturning philosophy. A good deal of the correcting was done by philosophers, and on philosophical grounds."],
+    ["It goes — but Aristotle had already denied it, so the tradition corrected itself from within, long before", "Worth remembering when this story is told as science overturning philosophy. A good deal of the correcting was done by philosophers, and on philosophical grounds."],
     ["It was refuted by Sauveur’s measurement of absolute frequency", "The denial is centuries older than any measurement of frequency, and it was reached by argument rather than by instruments. Look at the authorities the lesson cites for it."],
     ["It still stands, since the heavens are in ratio", "The lesson lists it among the three things that go. Whatever the proportions of the heavens may be, the audible music is not defended here. Re-read the three items marked as refuted."],
     ["It was never part of the tradition at all", "It was very much part of it, which is why the denial had to be recorded and dated. A tradition that never held a doctrine has no occasion to correct itself of it."]
@@ -2464,7 +2467,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Where does the course decline to follow Plato, and with whom does it stand instead?", a: 1, o: [
     ["It declines the demand for ascent, holding with Aristotle that the heard instance is enough", "The demand for ascent is precisely what the lesson tells you to take from Plato. You have discarded the half the course keeps and kept the half it warns against."],
-    ["It declines the suggestion that the sensible instance was only scaffolding; with Aristotle and St. Thomas, the sensible thing is really known", "A middle science does not despise its subject, it demonstrates about it. Knowing why this string sounds a fifth is not leaving the string behind but understanding it."],
+    ["It declines the suggestion that the sensible instance was only scaffolding; with Aristotle, the sensible thing is really known", "A middle science does not despise its subject, it demonstrates about it. Knowing why this string sounds a fifth is not leaving the string behind but understanding it."],
     ["It declines the doctrine of the world-soul, holding with the Pythagoreans that the ratios are cosmic", "The world-soul is indeed refused later, but the Pythagoreans are not offered as the alternative and nothing on the page defends cosmic ratios. Two separate refusals have been run together."],
     ["It declines nothing; the lesson follows Plato the whole way", "The section opens with <em>Not all the way</em>, and says the difference matters to a reader of St. Thomas. Something is kept and something set aside; find which is which."]
   ]},

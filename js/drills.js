@@ -298,7 +298,7 @@ const SCI = [
   ["The tone cannot be divided into two equal ratios.", 1, "This is a theorem about superparticular ratios. It is true of every superparticular, sounding or not — so it belongs to arithmetic, which harmonics borrows."],
   ["All inequality proceeds from equality.", 1, "Pure arithmetic. Harmonics presupposes it and does not prove it."],
   ["A struck string moves the air, and the moved air the ear.", 2, "A causal account of a natural process through the natures of bodies: natural philosophy, not harmonics."],
-  ["The heavens make no sound, because they do not strike a medium.", 2, "Aristotle's argument in the De caelo, followed by St. Thomas. It is a claim about bodies, settled in natural philosophy."],
+  ["The heavens make no sound, because they do not strike a medium.", 2, "Aristotle's argument in the De caelo. It is a claim about bodies, settled in natural philosophy."],
   ["The pitch of a string varies as the square root of the tension.", 2, "Vincenzo Galilei's law. Its middle term is the nature of a stretched body, so it belongs to physics."],
   ["Boys should be taught music so far as it forms them, and no further.", 3, "Aristotle in the Politics. The end is the character of the citizen: moral and political science."],
   ["The soul is moved in various ways by various melodies.", 3, "St. Thomas cites this when asking about song in divine praise. It concerns the passions and their ordering."],

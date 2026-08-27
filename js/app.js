@@ -49,7 +49,9 @@ const byId = {};
 LESSONS.forEach(l => { byId[l.id] = l; });
 
 function isDrill(l) { return !!l.drill; }
-function scored() { return LESSONS.filter(l => l.check); }
+function scored() {
+  return LESSONS.filter(l => !isDrill(l) && l.id !== "lab" && l.id !== "sources");
+}
 function blocks() { return LESSONS.filter(isDrill); }
 function mastered(l) { return !!(state.drills[l.drill] && state.drills[l.drill].mastered); }
 
@@ -132,7 +134,7 @@ function go(id) {
   stopSpeak();
   const lesson = byId[id] || LESSONS[0];
   state.id = lesson.id;
-  if (!lesson.check && !isDrill(lesson)) state.done[lesson.id] = true;
+  if (!isDrill(lesson)) state.done[lesson.id] = true;
   save();
   render(lesson);
   buildNav();
@@ -182,7 +184,6 @@ function render(lesson) {
       ${lesson.drill ? `<div class="widget" data-kind="drill" data-set="${lesson.drill}"></div>` : ""}
       ${(MusicaArs.STUDY && MusicaArs.STUDY[lesson.id])
         ? `<div class="widget study" data-kind="study" data-lesson="${lesson.id}"></div>` : ""}
-      ${lesson.check ? checkHTML(lesson) : ""}
       ${lesson.sources ? `<p class="sources">${lesson.sources}</p>` : ""}
       <div class="pager">
         <button class="tbtn" id="b-prev" ${prev ? "" : "disabled"}>${prev ? "← " + prev.title : ""}</button>
@@ -206,49 +207,6 @@ function render(lesson) {
   main.addEventListener("click", () => { if (!state.sound) onSound(); }, { once: true });
   $("#b-prev")?.addEventListener("click", () => prev && go(prev.id));
   $("#b-next")?.addEventListener("click", () => next && go(next.id));
-  wireCheck(lesson);
-}
-
-function checkHTML(lesson) {
-  const c = lesson.check;
-  const saved = state.answers[lesson.id];
-  const opts = c.options.map((o, i) => {
-    let cls = "opt";
-    if (saved != null) {
-      if (i === saved) cls += saved === c.answer ? " right" : " wrong sel";
-      if (i === c.answer && saved !== c.answer) cls += " right";
-    }
-    return `<button class="${cls}" data-i="${i}">${o}</button>`;
-  }).join("");
-  const shown = saved != null ? " show" : "";
-  return `<div class="check" id="check">
-    <h4>Check</h4>
-    <p class="q">${c.q}</p>
-    <div class="opts">${opts}</div>
-    <p class="explain${shown}">${c.why}</p>
-  </div>`;
-}
-
-function wireCheck(lesson) {
-  const box = $("#check");
-  if (!box || !lesson.check) return;
-  box.addEventListener("click", e => {
-    const b = e.target.closest(".opt");
-    if (!b) return;
-    const i = +b.dataset.i;
-    state.answers[lesson.id] = i;
-    if (i === lesson.check.answer) state.done[lesson.id] = true;
-    save();
-    const opts = [...box.querySelectorAll(".opt")];
-    opts.forEach(o => o.classList.remove("sel", "right", "wrong"));
-    opts.forEach((o, k) => {
-      if (k === lesson.check.answer) o.classList.add("right");
-      if (k === i && i !== lesson.check.answer) o.classList.add("wrong", "sel");
-    });
-    box.querySelector(".explain").classList.add("show");
-    buildNav();
-    $("#progress").textContent = progressHTML();
-  });
 }
 
 /* The drill engine reports here when a block is finished. */

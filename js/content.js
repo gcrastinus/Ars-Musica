@@ -22,24 +22,14 @@ MusicaArs.LESSONS = [
   ch: "beg",
   title: "How to use this course",
   html: `
-<p>This is a course in the <em>liberal art of music</em>, as that art was understood from Pythagoras through Boethius and received by St. Thomas Aquinas. It is not a course in concert-going, in reading a modern score, or in playing an instrument. You need no staff, no piano, and no names of notes. You need a quiet room and a way to hear two sounds.</p>
+<p>This is a course in the <em>liberal art of music</em>, as that art was understood from Pythagoras through Boethius. It is not a course in concert-going, in reading a modern score, or in playing an instrument. You need no staff, no piano, and no names of notes. You need a quiet room and a way to hear two sounds.</p>
 <p>Each lesson is short. Most of them ask you to <em>hear</em> something: one sound, then another, then both together. The pictures are not decoration. They are to the ear what a Euclidean diagram is to the eye: the little bridge on the string, then the reason the sound is as it is.</p>
 <p>Two practical notes. First, click <strong>Enable sound</strong> when asked, or press any Play button; the browser will stay silent until you do. Second, this course uses the old intonation of the art — whole-number ratios of a single string — not the slightly adjusted pitches of a modern piano. If a piano is nearby, it will be close, but it will not be exact. That difference is part of what you are here to learn. The <strong>String</strong> button at the top is a free monochord; return to it whenever you want to hear a ratio again.</p>
 <div class="remark">
   <h4>What you will possess</h4>
   <p>By the end you should be able to say, from first principles, what this art is; what an interval is; why the first concords are 2:1, 3:2, and 4:3; what a tone is; how a scale is built from these; and who, in this tradition, counts as a musician. You will not yet be a composer, a cantor, or a historian of later European music. Those are other studies.</p>
 </div>
-`,
-  check: {
-    q: "What is this course trying to teach you first?",
-    options: [
-      "How to read a treble clef and play piano pieces from the 1700s.",
-      "The liberal art of music: the science of numbered sound, from hearing and from ratio.",
-      "How to compose songs, and which modes are morally safe."
-    ],
-    answer: 1,
-    why: "The art we are after is a mathematical science of sound. Composition and moral training are real studies of music, but they are not this art, and they are not first."
-  }
+`
 },
 
 {
@@ -47,9 +37,9 @@ MusicaArs.LESSONS = [
   ch: "I",
   title: "Three studies of music",
   html: `
-<p>The word <em>music</em> is used in several ways, and if we mix them we will never find the art. St. Thomas does not write a treatise <span class="latin">De musica</span>, but he receives the older division and places the art among the mathematical sciences. A clear statement of the three intellectual studies — used in the music tutorial at Thomas Aquinas College, and drawn from Aristotle, Plato, and Boethius — is this.</p>
+<p>The word <em>music</em> is used in several ways, and if we mix them we will never find the art. A clear statement of the three intellectual studies, drawn from Aristotle, Plato, and Boethius, is this.</p>
 <p><strong>First, music as a fine art.</strong> Here one studies melody, rhythm, and composition with a view to making something beautiful to hear. The end is a work that delights. Fine art is nearer the liberal arts than shoemaking is, because it belongs to leisure and aims at the beautiful. It is still not a liberal art. Liberal study aims at <em>truth as such</em>. Delight is good when it is measured by truth; it is not the same as truth.</p>
-<p><strong>Second, music as part of ethics and politics.</strong> Aristotle in the <em>Politics</em> and Boethius in the prologue of <em>De institutione musica</em> both say that different melodies move the soul in different ways. St. Thomas repeats this when he asks whether God should be praised with song: “the human soul is moved in various ways according to various melodies of sound.” Parents who watch what is sung in the house, and lawgivers who watch what is sung in the city, are not doing mathematics. They are forming character. That is training, and it can be a part of moral science. It is not the liberal art.</p>
+<p><strong>Second, music as part of ethics and politics.</strong> Aristotle in the <em>Politics</em> and Boethius in the prologue of <em>De institutione musica</em> both say that different melodies move the soul in different ways. The same observation is used when the question is asked whether God should be praised with song: “the human soul is moved in various ways according to various melodies of sound.” Parents who watch what is sung in the house, and lawgivers who watch what is sung in the city, are not doing mathematics. They are forming character. That is training, and it can be a part of moral science. It is not the liberal art.</p>
 <p><strong>Third, music as a liberal art</strong> — which the Greeks, when they were being careful, called <em>harmonics</em>. Its work, its <span class="latin">opus</span>, is not a song but a <em>scale</em>: an ordered system of pitches generated from the first numerical ratios. One considers this scale as a nature, for the sake of the truth about numbered sound, not for the sake of a concert and not for the sake of making citizens of a certain stamp.</p>
 <div class="remark">
   <h4>A name</h4>
@@ -57,17 +47,7 @@ MusicaArs.LESSONS = [
 </div>
 <p>This course is the third study. The other two are real. They are not first, and they are not what the quadrivium names <em>musica</em>.</p>
 `,
-  sources: "Aristotle, Politics VIII; Plato, Republic VII; Boethius, De inst. mus. I.1; Aquinas, ST II-II q.91 a.2; Super Boethium De Trinitate q.5 a.1 ad 3. The three-fold division of musical study follows the TAC junior music tutorial and Hattrup’s 2019 lecture, which themselves rest on those texts.",
-  check: {
-    q: "Which of these is the liberal art of music?",
-    options: [
-      "Learning to sing well, so as to please a hearer.",
-      "Choosing songs that form a good character in the young.",
-      "Knowing, from number, why certain pitches belong together as a scale."
-    ],
-    answer: 2,
-    why: "The liberal art aims at truth about numbered sound. Singing well is a fine art (or a craft). Choosing songs for character is ethical or political. Both matter. Neither is this science."
-  }
+  sources: "Aristotle, Politics VIII; Plato, Republic VII; Boethius, De inst. mus. I.1; Aquinas, ST II-II q.91 a.2."
 },
 
 {
@@ -86,7 +66,7 @@ MusicaArs.LESSONS = [
 
 <h4 class="sec">Second: its work. The <span class="latin">opus</span> stays in the one who makes it.</h4>
 <p>An objection presses at once. If the thing is ordered to knowing, why call it an <em>art</em> at all? An art is right reason about things to be made; a science is knowledge of causes. Which is this?</p>
-<p>St. Thomas answers directly, in the very passage this course has already leaned on. The seven are called arts among the sciences <span class="latin">quia non solum habent cognitionem, sed opus aliquod, quod est immediate ipsius rationis</span> — because they have not only knowledge, but a certain work, which is immediately of reason itself. And he lists the works: to construct a syllogism; to form a speech; to number; to measure; <span class="latin">melodias formare</span>, to form melodies; to compute the courses of the stars.</p>
+<p>St. Thomas answers the same question in his commentary on Boethius. The seven are called arts among the sciences <span class="latin">quia non solum habent cognitionem, sed opus aliquod, quod est immediate ipsius rationis</span> — because they have not only knowledge, but a certain work, which is immediately of reason itself. And he lists the works: to construct a syllogism; to form a speech; to number; to measure; <span class="latin">melodias formare</span>, to form melodies; to compute the courses of the stars.</p>
 <p>That work is of this kind. A cobbler’s work ends in a shoe — something outside him, which stays on the bench when he has forgotten how it was made. The work of a liberal art ends <em>in the one who does it</em>. When you have found the diapason on the string and know why it is 2:1, the work you have made is a possession of your reason, and there is nothing left over on the bench.</p>
 <div class="remark">
   <h4>On <span class="latin">melodias formare</span></h4>
@@ -95,7 +75,7 @@ MusicaArs.LESSONS = [
 
 <h4 class="sec">Third: its effect. It makes a judge, and a judge is a free man.</h4>
 <p>Boethius, closing his first book, divides those concerned with music into three: those who play instruments, those who invent songs, and those who judge. Only the third, he says, are truly <span class="latin">musici</span>, for the whole of it is placed in reason. Seneca had already given the general form: <span class="latin">Quare liberalia studia dicta sint vides: quia homine libero digna sunt. Ceterum unum studium vere liberale est quod liberum facit</span> — one study is truly liberal, the one that makes free.</p>
-<p>Boethius’s judge is free in exactly Aristotle’s sense. He is not an instrument of the art; he is its master. Anyone at all can be moved by a sound. Only the man who knows the measure can say what has been done to him, and by what.</p>
+<p>Boethius’s judge is free in Aristotle’s sense. He is not an instrument of the art; he is its master. Anyone at all can be moved by a sound. Only the man who knows the measure can say what has been done to him, and by what.</p>
 
 <h4 class="sec">Two objections you will meet</h4>
 <p><strong>“But music is useful — in the liturgy, in the forming of the young. Does that not make it servile?”</strong> No. An art is not made servile by being usable; it is servile when it is <em>ordered to</em> use. Medicine is a noble art and is ordered to health, and that ordering is precisely what makes it not liberal. Harmonics may be used — St. Thomas himself treats the use of song at <span class="latin">ST</span> II-II q.91 — and remains ordered to knowing. The difference lies in the end, not in whether anyone ever profits.</p>
@@ -105,17 +85,7 @@ MusicaArs.LESSONS = [
   <p>At <span class="latin">ST</span> I-II q.57 a.3 ad 3 he gives a second rationale, and it is the better one. Even in speculative matters, he says, there is something after the manner of a work — the construction of a syllogism, the forming of a fitting speech, the work of numbering or measuring. Such things are called arts by a certain likeness, <em>but liberal</em>, as distinguished from those arts ordered to works carried out through the body, which are in a manner servile, <span class="latin">inquantum corpus serviliter subditur animae, et homo secundum animam est liber</span> — inasmuch as the body is servilely subject to the soul, and man according to the soul is free. The freedom in question is first the soul’s freedom over the body. That is why these arts are the ones that befit a man precisely as man.</p>
 </div>
 `,
-  sources: "Aristotle, Metaphysics I.2 (982b25–28); Politics VIII.2 (1337b4–15) and VIII.3 (1338b2–4); Aquinas, Sententia libri Metaphysicae I lect. 3 (the liberal/servile sentence is here, not in the Summa); ST I-II q.57 a.3 ad 3; Super Boethium De Trinitate q.5 a.1 ad 3 (melodias formare); Boethius, De inst. mus. I.34; Seneca, Ep. 88.2.",
-  check: {
-    q: "What makes an art liberal?",
-    options: [
-      "That it is hard, and studied by educated men.",
-      "That it is ordered to knowing, its work remains in the knower, and it makes the one who has it a judge rather than an instrument.",
-      "That it has no use whatever, and could not be put to any."
-    ],
-    answer: 1,
-    why: "Ordered to knowing — that is the end. The opus is immediately of reason — that is the work. And it makes a musicus, one who judges — that is the effect. Usability is not the test: what matters is what the art is ordered to."
-  }
+  sources: "Aristotle, Metaphysics I.2 (982b25–28); Politics VIII.2 (1337b4–15) and VIII.3 (1338b2–4); Aquinas, Sententia libri Metaphysicae I lect. 3 (the liberal/servile sentence is here, not in the Summa); ST I-II q.57 a.3 ad 3; Super Boethium De Trinitate q.5 a.1 ad 3 (melodias formare); Boethius, De inst. mus. I.34; Seneca, Ep. 88.2."
 },
 
 {
@@ -134,7 +104,7 @@ MusicaArs.LESSONS = [
 <p>This is why the art is worth more than its size. It is small: one string, three ratios, a scale. But it is a <em>verified instance</em> of the claim that the sensible world is intelligible, and that our delight in it is not arbitrary. <span class="latin">Omnia in mensura et numero et pondere disposuisti</span> — Thou hast ordered all things in measure and number and weight. Harmonics is one place where a man can check.</p>
 
 <h4 class="sec">2. He learns to let sense and reason correct one another.</h4>
-<p>Ptolemy’s rule is that neither criterion may despise the other; St. Thomas’s is that all our knowledge begins in the senses and is completed in the intellect. The Pythagorean who will not listen and the empiric who will not demonstrate are both crippled, and both are common in every age including this one.</p>
+<p>Ptolemy’s rule is that neither criterion may despise the other. The same order is the one this tradition keeps: all our knowledge begins in the senses and is completed in the intellect. The Pythagorean who will not listen and the empiric who will not demonstrate are both crippled, and both are common in every age including this one.</p>
 <p>Practising this art is practice in that habit. Take what is heard seriously without stopping there; take demonstration seriously without contempt for what is heard. <span class="xref" data-to="v-3"></span> argues the point. The exercises are where you acquire it, because a habit is not acquired by reading about it.</p>
 
 <h4 class="sec">3. He becomes a judge.</h4>
@@ -146,20 +116,10 @@ MusicaArs.LESSONS = [
 <p>Augustine says the same thing as a plan of work. He tells Memorius that he wrote <span class="latin">De musica</span> because the power of number in all motion is most easily studied in sounds, and because that study offers a way of rising to the higher secrets of truth <span class="latin">by paths as it were gradually ascending</span>. In the sixth book he names the kinds of number the soul passes through: the <span class="latin">sonantes</span> in the sounding body; the <span class="latin">occursores</span> in the sense that meets them; the <span class="latin">progressores</span> in the soul’s own act; the <span class="latin">recordabiles</span> in memory; and the <span class="latin">iudiciales</span>, the numbers by which we judge, which we did not make and cannot alter. The ascent runs from the first to the last, and past the last. <span class="xref" data-to="end-2"></span> takes this up when you have the art.</p>
 <div class="remark">
   <h4>What it does not do</h4>
-  <p>It will not make you a performer, or a composer, or a connoisseur of concerts. It will not by itself make you good: Aristotle and St. Thomas both hold that music has much to do with the forming of character, but that is the second study of music <span class="xref" data-to="i-1"></span>, and this course does not undertake it. And it will not make you happy. It is one small true thing, thoroughly known. A liberal education is built of such things. It is not built of enthusiasm about them.</p>
+  <p>It will not make you a performer, or a composer, or a connoisseur of concerts. It will not by itself make you good: Aristotle and Boethius both hold that music has much to do with the forming of character, but that is the second study of music <span class="xref" data-to="i-1"></span>, and this course does not undertake it. And it will not make you happy. It is one small true thing, thoroughly known. A liberal education is built of such things. It is not built of enthusiasm about them.</p>
 </div>
 `,
-  sources: "Aquinas, ST I q.5 a.4 ad 1 and I q.39 a.8; ST I q.84 a.6; Super Boethium De Trinitate q.5 a.1 ad 3, quoting Hugh of St. Victor, Didascalicon III.3; Wisdom 11:21 with ST I q.5 a.5; Ptolemy, Harmonics I.1–2; Boethius, De inst. mus. I.34; Plato, Republic VII 530d–531c; Augustine, De musica VI and Epistle 101 (to Memorius).",
-  check: {
-    q: "What is the chief thing this art does for the one who possesses it?",
-    options: [
-      "It refines his taste, so that he prefers better music.",
-      "It lets him verify, in his own hearing, that what pleases the sense does so by a proportion the mind can know — that the beautiful is intelligible.",
-      "It gives him a skill he can use, which is the point of any study."
-    ],
-    answer: 1,
-    why: "Taste is the fine art’s business, and use is the servile arts’. The liberal art’s gift is a demonstration you can perform yourself: the delight tracks the ratio. Everything else on the list follows from that."
-  }
+  sources: "Aquinas, ST I q.5 a.4 ad 1 and I q.39 a.8; ST I q.84 a.6; Super Boethium De Trinitate q.5 a.1 ad 3, quoting Hugh of St. Victor, Didascalicon III.3; Wisdom 11:21 with ST I q.5 a.5; Ptolemy, Harmonics I.1–2; Boethius, De inst. mus. I.34; Plato, Republic VII 530d–531c; Augustine, De musica VI and Epistle 101 (to Memorius)."
 },
 
 {
@@ -178,20 +138,10 @@ MusicaArs.LESSONS = [
 <p>So music, as a liberal art, is not “math about nothing in particular,” and it is not physics. It is arithmetic applied to sound. Geometry is prior to astronomy in the same way; arithmetic is prior to music. If you do not yet know what a ratio of whole numbers is, you cannot possess this art — any more than you can possess astronomy without the circle.</p>
 <div class="remark">
   <h4>Why these two complete the quadrivium</h4>
-  <p>Joseph Hattrup, writing in the tradition of the College that publishes <em>The Aquinas Review</em>, puts the point this way: music and astronomy are mathematics applied to periodic motion, one for the ear and one for the eye. They begin to penetrate the natural world without yet being natural philosophy. That is why they belong in a liberal education ordered to wisdom, and why they are not hobbies added to arithmetic. We will use this as a pedagogical order, because it matches St. Thomas’s account of the middle sciences. We will not pretend that “periodic motion” is Thomas’s own phrase for the subject. His phrase is the more exact one: harmonics considers a natural thing (sound) through the numbers of arithmetic.</p>
+  <p>Joseph Hattrup, in <em>The Aquinas Review</em>, puts the point this way: music and astronomy are mathematics applied to periodic motion, one for the ear and one for the eye. They begin to penetrate the natural world without yet being natural philosophy. That is why they belong in a liberal education ordered to wisdom, and why they are not hobbies added to arithmetic. We will use this as a pedagogical order, because it matches the account of the middle sciences. We will not pretend that “periodic motion” is Thomas’s own phrase for the subject. His phrase is the more exact one: harmonics considers a natural thing (sound) through the numbers of arithmetic.</p>
 </div>
 `,
-  sources: "Aquinas, Super Boethium De Trinitate q.5 a.1 ad 3; In Phys. II lect. 3; Aristotle, Physics II.2, Categories 6; Boethius, De inst. arith. / De inst. mus. I.1–2. Hattrup, “The Order of Astronomy and Music to Wisdom” (TAC, 2019).",
-  check: {
-    q: "As a liberal art, music is",
-    options: [
-      "a part of natural philosophy, because sound is a natural thing.",
-      "pure arithmetic, because it is about number.",
-      "a middle science: its subject is sound, its middle terms are numbers."
-    ],
-    answer: 2,
-    why: "Thomas’s name is scientia media. The subject is physical (sounding bodies); the demonstration is mathematical (ratios). It is neither physics nor bare arithmetic."
-  }
+  sources: "Aquinas, Super Boethium De Trinitate q.5 a.1 ad 3; In Phys. II lect. 3; Aristotle, Physics II.2, Categories 6; Boethius, De inst. arith. / De inst. mus. I.1–2. Hattrup, “The Order of Astronomy and Music to Wisdom,” The Aquinas Review (2019)."
 },
 
 {
@@ -220,17 +170,7 @@ MusicaArs.LESSONS = [
   <p>This settles what the later dispute is actually about. The question is never whether ratios govern concord. It is <em>where the bound stands</em>. The Pythagoreans put it at four. In 1558 Zarlino put it at six — the <span class="latin">senario</span> — and the thirds and sixths came in with it. That is a development inside the art, argued with the art’s own instruments, and <span class="xref" data-to="vii-3"></span> tells the story. It is not the ear overthrowing number.</p>
 </div>
 `,
-  sources: "Boethius, De institutione arithmetica I.21–32 (the species of inequality; that all inequality proceeds from equality) and De institutione musica II.7; Nicomachus, Introduction to Arithmetic I.17–23. The bound at four: Nicomachus, Manual of Harmonics 5–6; Boethius, De inst. mus. I.7.",
-  check: {
-    q: "What kind of ratio is 9:8, and why is it not among the first concords?",
-    options: [
-      "It is a superpartient, and superpartients are never concordant.",
-      "It is a superparticular — the eighth of them — and the Pythagorean bound at four admits no concord that needs a number beyond 1, 2, 3, 4.",
-      "It is a multiple, and multiples other than 2:1 are discords."
-    ],
-    answer: 1,
-    why: "9:8 is sesquioctavus, a superparticular, and perfectly lawful. It is not a concord because the bound is the tetractys. The whole later dispute is about whether that bound belongs at four or at six."
-  }
+  sources: "Boethius, De institutione arithmetica I.21–32 (the species of inequality; that all inequality proceeds from equality) and De institutione musica II.7; Nicomachus, Introduction to Arithmetic I.17–23. The bound at four: Nicomachus, Manual of Harmonics 5–6; Boethius, De inst. mus. I.7."
 },
 
 {
@@ -240,24 +180,14 @@ MusicaArs.LESSONS = [
   html: `
 <p>Augustine opens <span class="latin">De musica</span> with a definition the Middle Ages did not discard: <span class="latin">Musica est scientia bene modulandi</span> — music is the science of measuring well. <em>Modulari</em> is a difficult word. It does not mean “to write a melody” in the modern sense. It means to measure a motion so that it is well measured — in sound, and (in Augustine’s own books) also in the numbering of time, as in the feet of verse.</p>
 <p>Two words in the definition must not be rushed.</p>
-<p><strong>Science, not skill.</strong> Augustine’s first concern is to distinguish the one who possesses the art from the one who merely does the thing. A nightingale sings well; it does not have <em>scientia</em>. A player may strike the right string by custom or by ear and still not know why that length is the right length. Boethius will say the same at the end of his first book: the true <span class="latin">musicus</span> is the one who judges by reason. St. Thomas would not quarrel with this. Science is in the intellect. An art, as he says of the liberal arts, involves a work that is a product of reason itself. The work of harmonics is the known scale, not the performed song.</p>
+<p><strong>Science, not skill.</strong> Augustine’s first concern is to distinguish the one who possesses the art from the one who merely does the thing. A nightingale sings well; it does not have <em>scientia</em>. A player may strike the right string by custom or by ear and still not know why that length is the right length. Boethius will say the same at the end of his first book: the true <span class="latin">musicus</span> is the one who judges by reason. Science is in the intellect. An art, among the liberal arts, involves a work that is a product of reason itself. The work of harmonics is the known scale, not the performed song.</p>
 <p><strong>Measuring well.</strong> What is measured? Sounding motion. We will spend the next chapters making this definite: high and low, the comparison of two sounds, the lengths of a string. Augustine’s own treatise then turns, for five books, to meter. That is the numbering of time, and it belongs to the art in a wide sense. This course follows the quadrivium’s center of gravity, which is Boethius: the numbering of <em>pitch</em>. We will not pretend that Augustine wrote a book about the monochord. We also will not pretend that “measuring well” is a metaphor. The art really measures.</p>
 <div class="remark">
   <h4>What we will not do</h4>
-  <p>We will not begin from a treble clef, from the names C-D-E, or from “major” and “minor.” Those are later labels for things we must first know in themselves. We will not treat equal temperament (the piano’s slightly fudged fifths) as the nature of the intervals. And we will not treat Pythagoras, Plato, Aristotle, Augustine, and Boethius as if they said the same thing. Where they dispute, we will follow St. Thomas when he has spoken, and we will leave the rest open rather than invent a school.</p>
+  <p>We will not begin from a treble clef, from the names C-D-E, or from “major” and “minor.” Those are later labels for things we must first know in themselves. We will not treat equal temperament (the piano’s slightly fudged fifths) as the nature of the intervals. And we will not treat Pythagoras, Plato, Aristotle, Augustine, and Boethius as if they said the same thing. Where they dispute, we will say so, and leave the rest open rather than invent a school.</p>
 </div>
 `,
-  sources: "Augustine, De musica I.2; Boethius, De inst. mus. I.34; Aquinas, Super Boethium De Trinitate q.5 a.1 ad 3.",
-  check: {
-    q: "Why does Augustine call music a science?",
-    options: [
-      "Because only scientists in laboratories can understand it.",
-      "Because the one who possesses it knows the measure, and does not merely sing as a bird sings.",
-      "Because it has nothing to do with the ear."
-    ],
-    answer: 1,
-    why: "Scientia is intellectual knowledge of causes. The nightingale and the untaught singer may hit the pitch; they do not have the art. The ear is where we begin, not where we refuse to begin."
-  }
+  sources: "Augustine, De musica I.2; Boethius, De inst. mus. I.34; Aquinas, Super Boethium De Trinitate q.5 a.1 ad 3."
 },
 
 {
@@ -265,27 +195,17 @@ MusicaArs.LESSONS = [
   ch: "II",
   title: "Sound",
   html: `
-<p>Before there is a ratio, there is a sound. St. Thomas, reading Aristotle’s <em>De anima</em>, treats sound as the proper object of hearing. Color is what sight is of; sound is what hearing is of. We do not first have a theory and then go looking for a noise. We hear.</p>
+<p>Before there is a ratio, there is a sound. Aristotle’s <em>De anima</em> treats sound as the proper object of hearing. Color is what sight is of; sound is what hearing is of. We do not first have a theory and then go looking for a noise. We hear.</p>
 <p>Sound is caused. A sounding body is struck, or otherwise moved with a certain violence, and the medium — air, usually — is affected so as to be audible. A stone at rest in a field is silent. The same stone, struck, sounds. Not every body sounds equally; a taut string sounds in a way a heap of wool does not. You need no physics textbook for this. You need to notice what you already know.</p>
 <p>Among sounds, some last and have a definite height: the sound of a plucked string, a bell, a sung vowel. Others do not: a scrape, a cough, a wave on gravel. The art of harmonics is about the first kind. A pitch is a sound as high or low — as <em>acute</em> or <em>grave</em>, in the old vocabulary. “High” and “low” here are not places in a room. They are differences <em>of the sound itself</em>, as red and blue are differences of color.</p>
 <div class="widget" data-kind="listen" data-len="1" data-label="Hear a standing sound"></div>
 <p>What you just heard is one pitched sound. It was made by a vibrating body whose motion repeats. The tradition names the motion; a later physics names the rate of repetition a <em>frequency</em> and counts it in cycles per second. We may use that count as a measure. We will not begin by saying that pitch <em>is</em> a number of hertz. Pitch is what you hear. The number measures the motion that is the sound.</p>
 <div class="remark">
   <h4>Why this order</h4>
-  <p>A middle science starts from a natural thing and demonstrates through mathematics. If we started from numbers, we would be doing arithmetic and then looking around for a noise that fitted them. That is not how the art is learned, and it is not how St. Thomas thinks knowledge of nature begins. All our knowledge begins in the senses. The ear gives us sound; reason, using arithmetic, knows why these sounds stand to one another as they do.</p>
+  <p>A middle science starts from a natural thing and demonstrates through mathematics. If we started from numbers, we would be doing arithmetic and then looking around for a noise that fitted them. That is not how the art is learned, and it is not how knowledge of nature begins. All our knowledge begins in the senses. The ear gives us sound; reason, using arithmetic, knows why these sounds stand to one another as they do.</p>
 </div>
 `,
-  sources: "Aristotle, De anima II.8; Aquinas, In De anima II; ST I q.84 a.6 (knowledge begins from the senses). The caution about frequency follows the order of a middle science, not a quarrel with acoustics.",
-  check: {
-    q: "In this art, a pitch is first of all",
-    options: [
-      "a written note on a staff.",
-      "a sound as high or low, heard before it is counted.",
-      "a frequency in hertz, which the ear then copies."
-    ],
-    answer: 1,
-    why: "The staff is a later mark. Hertz is a later measure of the same motion. The thing itself is a heard sound as acute or grave."
-  }
+  sources: "Aristotle, De anima II.8; Aquinas, In De anima II; ST I q.84 a.6 (knowledge begins from the senses). The caution about frequency follows the order of a middle science, not a quarrel with acoustics."
 },
 
 {
@@ -305,17 +225,7 @@ MusicaArs.LESSONS = [
   <p>A pair of pitches may be heard one after the other (as in a melody) or at once (as in a chord). The liberal art knows both. The blending that first reveals a concord is often clearer when the two sound together. Melody will come when we have a scale to walk on.</p>
 </div>
 `,
-  sources: "Boethius, De inst. mus. I.3–8; Nicomachus, Manual of Harmonics 2, 6, 12.",
-  check: {
-    q: "An interval, at this stage, is",
-    options: [
-      "the comparison of two pitches: same, or different by so much.",
-      "a named distance on a piano, such as ‘a major third.’",
-      "any sound that lasts a long time."
-    ],
-    answer: 0,
-    why: "We have not yet named thirds or pianos. An interval is two pitches compared. Duration is another measure (Augustine’s), not this one."
-  }
+  sources: "Boethius, De inst. mus. I.3–8; Nicomachus, Manual of Harmonics 2, 6, 12."
 },
 
 {
@@ -332,17 +242,7 @@ MusicaArs.LESSONS = [
   <p>Nicomachus and Boethius tell how Pythagoras, passing a smithy, heard hammers of different weights sounding concords, and so discovered the ratios. The story is the traditional <em>inventio</em> of the science. As a piece of metallurgy it is doubtful: hammer-weight does not behave as the story needs. As a piece of pedagogy it is useful, because it says the right thing: the concords are not arbitrary tastes; they track number. What actually shows the number, cleanly, is the string. We will trust the string.</p>
 </div>
 `,
-  sources: "Boethius, De inst. mus. I.10–11; Nicomachus, Manual 6; Kalkavage, On the Measurement of Tones (the monochord as the student’s first instrument).",
-  check: {
-    q: "On a monochord, if you shorten the sounding length and keep everything else the same, the pitch",
-    options: [
-      "gets lower, because there is less string.",
-      "gets higher.",
-      "stays the same, because it is the same string."
-    ],
-    answer: 1,
-    why: "Shorter sounding length, higher pitch. The ‘same string’ still has a different quantity of itself sounding."
-  }
+  sources: "Boethius, De inst. mus. I.10–11; Nicomachus, Manual 6; Kalkavage, On the Measurement of Tones (the monochord as the student’s first instrument)."
 },
 
 {
@@ -361,17 +261,7 @@ MusicaArs.LESSONS = [
   <p>If you already sing, you may think of an octave as “eight notes up the scale.” That description <em>presupposes</em> a scale of eight. The interval 2:1 does not. It is prior. The scale is a way of filling this interval; this interval is not a count of scale-steps. That is why the old name <em>diapason</em> is healthier at the beginning.</p>
 </div>
 `,
-  sources: "Boethius, De inst. mus. I.7–8, I.16; Nicomachus, Manual 3, 5; Euclid, Sectio canonis (the diapason as duple).",
-  check: {
-    q: "The diapason (octave) is, first of all,",
-    options: [
-      "eight named notes, C through C.",
-      "the concord of a string with its half: the ratio 2:1.",
-      "any two notes that sound far apart."
-    ],
-    answer: 1,
-    why: "Eight notes come later, when the interval is filled. Far apart is vague. The thing is 2:1, heard as ‘the same, higher.’"
-  }
+  sources: "Boethius, De inst. mus. I.7–8, I.16; Nicomachus, Manual 3, 5; Euclid, Sectio canonis (the diapason as duple)."
 },
 
 {
@@ -388,17 +278,7 @@ MusicaArs.LESSONS = [
 <div class="widget" data-kind="monochord" data-start="2/3"></div>
 <p>These three — 2:1, 3:2, 4:3 — are the first concords of the art. They are not chosen because a committee of composers liked them. They are the first multiple and the first two superparticulars, and they are the concords the ear most readily grants. Later writers, Ptolemy among them, will argue about whether still other ratios (5:4, for instance) should be counted as concords. That is a real dispute. It is not first. First are the three that the numbers 1, 2, 3, and 4 already contain.</p>
 `,
-  sources: "Boethius, De inst. mus. I.7–8, I.16–18; Nicomachus, Manual 5–6; Ptolemy, Harmonics I (for the later, open question of further concords).",
-  check: {
-    q: "The fifth and the fourth, as this art first knows them, are",
-    options: [
-      "the next keys to the right on a piano.",
-      "the concords 3:2 and 4:3 of a single string.",
-      "two names for the octave."
-    ],
-    answer: 1,
-    why: "A piano key is a later, tempered stand-in. The fifth is 3:2, the fourth 4:3, the diapason 2:1. Three different ratios."
-  }
+  sources: "Boethius, De inst. mus. I.7–8, I.16–18; Nicomachus, Manual 5–6; Ptolemy, Harmonics I (for the later, open question of further concords)."
 },
 
 {
@@ -419,17 +299,7 @@ MusicaArs.LESSONS = [
   <p>Compounding ratios is not adding string-lengths. It is multiplying. If you add the leftover bits of string, you will get the wrong pitch. The art measures by <em>ratio</em>, not by leftover inches. This is one reason it belongs to arithmetic rather than to a merely geometric cutting of a rod.</p>
 </div>
 `,
-  sources: "Boethius, De inst. mus. I.16–18, II; Nicomachus, Manual 6–8; Euclid, Sectio canonis.",
-  check: {
-    q: "A fifth compounded with a fourth is",
-    options: [
-      "a tone.",
-      "a diapason (2:1), because (3:2)×(4:3)=2:1.",
-      "a bigger fifth."
-    ],
-    answer: 1,
-    why: "This is the first great arithmetic of the art. Fifth plus fourth = diapason. The remainder, fifth minus fourth, will be the tone."
-  }
+  sources: "Boethius, De inst. mus. I.16–18, II; Nicomachus, Manual 6–8; Euclid, Sectio canonis."
 },
 
 {
@@ -442,23 +312,13 @@ MusicaArs.LESSONS = [
 <div class="widget" data-kind="interval" data-a="1" data-b="8/9" data-name="The tone — 9:8"></div>
 <p>On the string: the open string to 8/9 of itself is a tone upward (because the lengths are 9:8). The interval between the fourth and the fifth, both measured from the same open string (3/4 and 2/3), is the same tone: (3/4) : (2/3) = 9:8.</p>
 <div class="widget" data-kind="interval" data-a="3/4" data-b="2/3" data-name="Fourth to fifth, same open string — also 9:8"></div>
-<p>Two tones compounded are a <em>ditone</em>: (9:8)×(9:8)=81:64. That is a larger step than the later “major third” of 5:4, which Ptolemy and others admitted by combining sense and a different arithmetic. The Pythagorean art, which is the first layer of the liberal art, takes 81:64 as what two tones really are. Whether the ear’s favorite “third” is that ditone or the gentler 5:4 is a dispute we will name, not settle. St. Thomas does not settle it. The first principles do not require it.</p>
+<p>Two tones compounded are a <em>ditone</em>: (9:8)×(9:8)=81:64. That is a larger step than the later “major third” of 5:4, which Ptolemy and others admitted by combining sense and a different arithmetic. The Pythagorean art, which is the first layer of the liberal art, takes 81:64 as what two tones really are. Whether the ear’s favorite “third” is that ditone or the gentler 5:4 is a dispute we will name, not settle. The first principles do not require it.</p>
 <div class="remark">
   <h4>What a tone is not</h4>
   <p>In modern English, “tone” can mean a sound, a color of voice, or a whole-step on a piano. Here it means one interval, 9:8. A piano’s whole-step is a tempered stand-in for this, slightly off, as its fifth is slightly off from 3:2. Close enough to sing with; not the thing itself.</p>
 </div>
 `,
-  sources: "Boethius, De inst. mus. I.16–18, II.28–31; Euclid, Sectio canonis; Ptolemy, Harmonics I.7, I.15 (the 5:4 as a later, open question).",
-  check: {
-    q: "The tone, in this art, is",
-    options: [
-      "any pleasant sound.",
-      "the interval 9:8, which is a fifth diminished by a fourth.",
-      "the same as an octave."
-    ],
-    answer: 1,
-    why: "(3:2)÷(4:3)=9:8. It is a step, not a concord, and not the diapason."
-  }
+  sources: "Boethius, De inst. mus. I.16–18, II.28–31; Euclid, Sectio canonis; Ptolemy, Harmonics I.7, I.15 (the 5:4 as a later, open question)."
 },
 
 {
@@ -493,17 +353,7 @@ MusicaArs.LESSONS = [
   <p>Because this is the point at which the scale stops looking like a choice and starts looking like a consequence. The two inner numbers of 6:8:9:12 were not picked because they sounded well. They are what the arithmetic yields when you ask for the means of 6 and 12 — and the sound follows after. If you want to know what it feels like to possess a middle science rather than to have heard about one, it feels like this.</p>
 </div>
 `,
-  sources: "Boethius, De institutione arithmetica II.40–54 (the means; the maxima et perfecta harmonia) and De institutione musica II.12–17; Nicomachus, Introduction to Arithmetic II.29 (the musical proportion, reported as Babylonian); Boethius, De inst. mus. III.1 (against Aristoxenus) and III.11 (Archytas’s demonstration, which Boethius also criticises as loosely stated); Euclid, Sectio canonis prop. 3.",
-  check: {
-    q: "Why can the tone 9:8 not be divided into two equal intervals?",
-    options: [
-      "Because the ear cannot distinguish anything so small.",
-      "Because a superparticular ratio in least terms admits no mean proportional in whole numbers — here, because 72 is not a square.",
-      "Because Boethius forbade it, following the Pythagoreans."
-    ],
-    answer: 1,
-    why: "It is a theorem of arithmetic, proved by Archytas and reported by Boethius. Nothing about ears or authority enters. This is why the remnant of the fourth is a leimma and not a half."
-  }
+  sources: "Boethius, De institutione arithmetica II.40–54 (the means; the maxima et perfecta harmonia) and De institutione musica II.12–17; Nicomachus, Introduction to Arithmetic II.29 (the musical proportion, reported as Babylonian); Boethius, De inst. mus. III.1 (against Aristoxenus) and III.11 (Archytas’s demonstration, which Boethius also criticises as loosely stated); Euclid, Sectio canonis prop. 3."
 },
 
 {
@@ -521,17 +371,7 @@ MusicaArs.LESSONS = [
   <p>The Greeks also divided the tetrachord chromatically and enharmonically, with smaller intervals. Boethius reports them. They are part of the full art. They are not first. First is the diatonic path through the diapason. Likewise the Guidonian names <em>ut re mi fa sol la</em> are a medieval help for singers, a hexachord laid upon this system. Useful later; not the origin of the intervals.</p>
 </div>
 `,
-  sources: "Boethius, De inst. mus. I.21–27, II; Nicomachus, Manual 7–9; the leimma 256:243 is the standard Pythagorean remainder. Hattrup: the opus of harmonics is the scale generated from 2:1, 3:2, 4:3.",
-  check: {
-    q: "Why does the filled diapason have eight pitches?",
-    options: [
-      "Because there are eight planets.",
-      "Because two tetrachords (each a fourth) plus the tone that joins them fill 2:1, and that path has eight standing sounds.",
-      "Because modern sheet music uses eight lines."
-    ],
-    answer: 1,
-    why: "The eight is a consequence of how 2:1 is filled by 4:3 + 9:8 + 4:3. It is not a mysticism of the number eight, and not a fact about paper."
-  }
+  sources: "Boethius, De inst. mus. I.21–27, II; Nicomachus, Manual 7–9; the leimma 256:243 is the standard Pythagorean remainder. Hattrup: the opus of harmonics is the scale generated from 2:1, 3:2, 4:3."
 },
 
 {
@@ -541,7 +381,6 @@ MusicaArs.LESSONS = [
   html: `
 <p>Why do 2:1, 3:2, and 4:3 please, and 9:8 not, when both are ratios of whole numbers? The tradition gives more than one answer, and they are not all the same.</p>
 <p>The Pythagoreans say: because these are the first ratios, from the first numbers. Aristoxenus says: because the ear judges, and the interval is a continuum, not a ratio. Ptolemy says: reason and sense must both be heard; neither may despise the other. Boethius, teaching the Latin West, sides with number as the cause, while still beginning from what is heard.</p>
-<p>What would St. Thomas say? He does not write a harmonics. He does write the principles by which a harmonics must be judged.</p>
 <p>All knowledge of nature begins in the senses. A middle science has a physical subject: here, sounding bodies as heard. So Aristoxenus is right that the ear is not optional. He is wrong if he means that the art stops at the ear, or that ratio is a fiction.</p>
 <p>Science is of the cause, and the cause here is numerical proportion in the sounding motion. So the Pythagoreans are right that the concord is a ratio, and that the first concords are the first ratios. They overreach if they treat the ear as a nuisance, or if they insist that every later pleasure of the ear (5:4, for instance) is a moral failure of sense.</p>
 <p>Ptolemy’s method — sense and reason together — is, as a <em>method</em>, the nearest of the three to a middle science. That does not automatically make every ratio Ptolemy admits a first principle. First principles are few.</p>
@@ -549,19 +388,9 @@ MusicaArs.LESSONS = [
   <h4>Beauty as proportion</h4>
   <p>St. Thomas, at <em>Summa</em> I q.5 a.4, says that beauty and goodness are the same in the thing and differ in notion: goodness is what all desire; beauty is what pleases in being seen (or, analogously, heard). “Beauty consists in due proportion; for the senses delight in things duly proportioned, as in what is after their own kind — because even sense is a sort of reason.” And at I q.39 a.8 he names three conditions of beauty: integrity, due proportion or <em>consonantia</em>, and clarity. The pleasure of a concord is not a private taste tacked onto a ratio. The ratio is why the sense, which is a kind of reason, is pleased.</p>
 </div>
-<p>So: we listen first; we measure; we find the first concords to be the first ratios; we do not scold the ear, and we do not replace demonstration with the ear. On whether 5:4 is a concord in the strict sense, the authorities of the art disagree, and Thomas has not closed the question. A first-principles course may leave it open.</p>
+<p>So: we listen first; we measure; we find the first concords to be the first ratios; we do not scold the ear, and we do not replace demonstration with the ear. On whether 5:4 is a concord in the strict sense, the authorities of the art disagree. A first-principles course may leave it open.</p>
 `,
-  sources: "Boethius, De inst. mus. I.1, I.9, V (on Ptolemy); Ptolemy, Harmonics I.1–2; Aquinas, ST I q.5 a.4 ad 1; I q.39 a.8; In Phys. II lect. 3; ST I q.84 a.6.",
-  check: {
-    q: "On Thomas’s principles, the ear and the ratio in this art are related how?",
-    options: [
-      "The ear is the whole of the science; number is a later diagram.",
-      "Number is the whole of the science; the ear is untrustworthy.",
-      "The ear gives the subject (sound as concordant or not); reason, by arithmetic, knows the cause. Neither is dismissed."
-    ],
-    answer: 2,
-    why: "That is what a middle science is. Sense without reason is not scientia; reason without the sounding thing is not this science."
-  }
+  sources: "Boethius, De inst. mus. I.1, I.9, V (on Ptolemy); Ptolemy, Harmonics I.1–2; Aquinas, ST I q.5 a.4 ad 1; I q.39 a.8; In Phys. II lect. 3; ST I q.84 a.6."
 },
 
 {
@@ -590,17 +419,7 @@ MusicaArs.LESSONS = [
   <p>The Greeks also spoke of <span class="latin">tonoi</span> and <span class="latin">harmoniai</span> bearing the names Dorian, Phrygian, Lydian and the rest, and the Latin Middle Ages took those names for its church tones. <strong>They are not the same thing.</strong> Boethius’s transmission of the Greek names is one of the places where the tradition itself became tangled, and the Appendix lists the question among those this course leaves open. “Dorian” did not mean one thing to Ptolemy and to a tenth-century cantor.</p>
 </div>
 `,
-  sources: "Boethius, De inst. mus. I.20–27 and IV.3–12; Ptolemy, Harmonics II; Cleonides, Introduction to Harmonics; pseudo-Aristotle, Problems XIX.20 (the mese used often by all good melodies, likened to a conjunction) and XIX.36 (the other sounds ordered in relation to it).",
-  check: {
-    q: "In the Greek system, which sounds move when the genus changes?",
-    options: [
-      "All fifteen, since a genus retunes the whole instrument.",
-      "The two inner sounds of each tetrachord; the outer sounds of every tetrachord stand fixed.",
-      "Only the mese, which is why it rules the others."
-    ],
-    answer: 1,
-    why: "The fourths are demonstrated by ratio and do not move. What a genus varies is how each fixed fourth is filled — which is exactly the line between what the art proves and what it permits."
-  }
+  sources: "Boethius, De inst. mus. I.20–27 and IV.3–12; Ptolemy, Harmonics II; Cleonides, Introduction to Harmonics; pseudo-Aristotle, Problems XIX.20 (the mese used often by all good melodies, likened to a conjunction) and XIX.36 (the other sounds ordered in relation to it)."
 },
 
 {
@@ -623,17 +442,7 @@ MusicaArs.LESSONS = [
 </div>
 <p>The structural lesson governs everything in <span class="xref" data-ch="VII"></span>. The concords are fixed by number and do not move. The <em>filling</em> is a choice within limits. When later Europe fills the diapason differently again — with a third at 5:4, and then with twelve equal steps — it is doing what the Greeks were doing, on a larger scale and for a different reason.</p>
 `,
-  sources: "Boethius, De inst. mus. I.21–23 (the genera and their ratios) and IV.6–12 (the monochord divisions, whose numbers for the chromatic and enharmonic are approximations); II.29 (that 256:243 is not half a tone); III.1 and III.11 (that a superparticular admits no equal division); Ptolemy, Harmonics I.12–16; Aristotle, Politics VIII.",
-  check: {
-    q: "Why could Boethius give no whole-number ratio for the enharmonic diesis?",
-    options: [
-      "Because the interval is too small for any instrument to produce.",
-      "Because the diesis is half of the leimma, and no superparticular or superpartient ratio of this kind can be exactly halved in whole numbers.",
-      "Because the enharmonic genus was invented after his time."
-    ],
-    answer: 1,
-    why: "The same theorem that forbids halving the tone forbids the exact halving here. Boethius reports the genus, gives approximations in his monochord divisions, and does not pretend to a ratio he cannot supply."
-  }
+  sources: "Boethius, De inst. mus. I.21–23 (the genera and their ratios) and IV.6–12 (the monochord divisions, whose numbers for the chromatic and enharmonic are approximations); II.29 (that 256:243 is not half a tone); III.1 and III.11 (that a superparticular admits no equal division); Ptolemy, Harmonics I.12–16; Aristotle, Politics VIII."
 },
 
 {
@@ -641,27 +450,17 @@ MusicaArs.LESSONS = [
   ch: "VI",
   title: "Three kinds of music",
   html: `
-<p>Boethius, at the beginning of his treatise, divides music into three: <span class="latin">mundana</span>, <span class="latin">humana</span>, <span class="latin">instrumentalis</span> — of the world, of the human being, and of instruments (including the voice). This division is part of the tradition. It must be read with St. Thomas, not against him and not as if Thomas had written it.</p>
+<p>Boethius, at the beginning of his treatise, divides music into three: <span class="latin">mundana</span>, <span class="latin">humana</span>, <span class="latin">instrumentalis</span> — of the world, of the human being, and of instruments (including the voice). This division is part of the tradition. It must be read with Aristotle’s correction of the spheres, not as if Boethius had settled the physics.</p>
 <p><strong>Instrumental music</strong> is sounding music: string, wind, voice. It is the proper subject of the liberal art we have been learning. Everything you have heard on the monochord belongs here.</p>
 <p><strong>Human music</strong> is the proportion of soul to body, and of the parts of the soul to one another. Boethius means a real analogy: the same kind of order that makes two strings concordant is the kind of order that makes a living human being one. Ethics and <em>De anima</em> treat this more properly than harmonics does. We should not force the 3:2 of a string to become a proof in psychology. We should also not call the analogy empty. St. Thomas holds that the soul’s powers are ordered, and that music moves the passions by a “hidden correspondence” of melody to affection (he quotes Augustine to this effect in ST II-II q.91 a.2 ad 5). That is enough for a first-principles course to admit, and not to inflate.</p>
-<p><strong>World music</strong> is the one that needs a distinction. Pythagoras and Boethius speak of the harmony of the heavens, as if the spheres sounded. Aristotle, in <em>De caelo</em> II, denies that the heavenly bodies produce sound: they do not strike a medium as a string strikes the air. St. Thomas, in his commentary (II, lect. 14), follows Aristotle. There is no concert in the sky. So if <span class="latin">musica mundana</span> means audible chords from the planets, it is not so.</p>
-<p>If it means that the cosmos is ordered in number, measure, and weight — Wisdom 11:21, which Thomas reads at ST I q.5 a.5 — then it is so, and astronomy is the middle science that shows the order to the eye as harmonics shows order to the ear. Plato’s <em>Timaeus</em> even uses the musical ratios to mark the world-soul. That is a cosmological claim, not a harmonics class. What harmonics can say without trespassing is modest: the same first ratios that please in sound are among the first ratios by which ordered motion is intelligible. Music and astronomy are, in that limited sense, companions. They are not two performances of one symphony.</p>
+<p><strong>World music</strong> is the one that needs a distinction. Pythagoras and Boethius speak of the harmony of the heavens, as if the spheres sounded. Aristotle, in <em>De caelo</em> II, denies that the heavenly bodies produce sound: they do not strike a medium as a string strikes the air. There is no concert in the sky. So if <span class="latin">musica mundana</span> means audible chords from the planets, it is not so.</p>
+<p>If it means that the cosmos is ordered in number, measure, and weight — Wisdom 11:21 — then it is so, and astronomy is the middle science that shows the order to the eye as harmonics shows order to the ear. Plato’s <em>Timaeus</em> even uses the musical ratios to mark the world-soul. That is a cosmological claim, not a harmonics class. What harmonics can say without trespassing is modest: the same first ratios that please in sound are among the first ratios by which ordered motion is intelligible. Music and astronomy are, in that limited sense, companions. They are not two performances of one symphony.</p>
 <div class="remark">
   <h4>Not doctrinaire</h4>
-  <p>We do not mock Boethius for the spheres. We distinguish a true doctrine of cosmic order from a physical claim Thomas rejects. We do not turn every tetrachord into a map of the soul. Analogy is not demonstration. The art you can now practice on a string does not become more liberal by being inflated into a worldview. It becomes more liberal by being known as far as its principles go, and by knowing where they stop.</p>
+  <p>We do not mock Boethius for the spheres. We distinguish a true doctrine of cosmic order from a physical claim Aristotle rejects. We do not turn every tetrachord into a map of the soul. Analogy is not demonstration. The art you can now practice on a string does not become more liberal by being inflated into a worldview. It becomes more liberal by being known as far as its principles go, and by knowing where they stop.</p>
 </div>
 `,
-  sources: "Boethius, De inst. mus. I.2; Aristotle, De caelo II.9; Aquinas, In De caelo II lect. 14; ST I q.5 a.5; ST II-II q.91 a.2; Wisdom 11:21. The measured companionship of music and astronomy: Physics II.2 and Hattrup, tested against In De caelo.",
-  check: {
-    q: "What should we say, with Thomas, about the ‘music of the spheres’?",
-    options: [
-      "The planets emit audible concords, which we fail to notice by habit.",
-      "The heavens make no sound; the true analog is cosmic order by number, which astronomy treats. Harmonics treats sounding bodies.",
-      "Boethius is to be discarded, because Aristotle disagrees."
-    ],
-    answer: 1,
-    why: "Thomas follows Aristotle against audible celestial sound, without discarding order, number, or Boethius’s other teaching. Discarding a saint and teacher because one physical claim fails is not his method."
-  }
+  sources: "Boethius, De inst. mus. I.2; Aristotle, De caelo II.9; Aquinas, In De caelo II lect. 14; ST I q.5 a.5; ST II-II q.91 a.2; Wisdom 11:21. The measured companionship of music and astronomy: Physics II.2 and Hattrup, tested against In De caelo."
 },
 
 {
@@ -669,8 +468,8 @@ MusicaArs.LESSONS = [
   ch: "VI",
   title: "The true musician",
   html: `
-<p>Boethius divides those who have to do with music into three: those who play instruments, those who invent songs, and those who judge. Only the last, he says, are truly <span class="latin">musici</span>, because they possess the science. The others have skill or gift. St. Thomas’s account of the liberal arts agrees in substance: the art is a work of reason. A flawless performer can still lack the science; a judge of ratios who cannot perform can still have it. In practice, of course, the ear that has never sung is a poor judge. The definition does not require contempt for singers. It requires that we not confuse the habit of the hands or the throat with the habit of the intellect.</p>
-<p>What then of song in church, or of the delight of hearing? Those belong to the <em>use</em> of music, which Thomas treats in ST II-II q.91. Song is a salutary help to devotion because melody moves the soul. It is abused when it aims at display, or when the tune swallows the words. Instruments that move to pleasure more than to a good disposition he treats with caution. None of this is the liberal art, and none of it is cancelled by the liberal art. The science tells you what a concord is; prudence tells you when to sing.</p>
+<p>Boethius divides those who have to do with music into three: those who play instruments, those who invent songs, and those who judge. Only the last, he says, are truly <span class="latin">musici</span>, because they possess the science. The others have skill or gift. The liberal arts agree in substance: the art is a work of reason. A flawless performer can still lack the science; a judge of ratios who cannot perform can still have it. In practice, of course, the ear that has never sung is a poor judge. The definition does not require contempt for singers. It requires that we not confuse the habit of the hands or the throat with the habit of the intellect.</p>
+<p>What then of song in church, or of the delight of hearing? Those belong to the <em>use</em> of music. Song is a salutary help to devotion because melody moves the soul. It is abused when it aims at display, or when the tune swallows the words. Instruments that move to pleasure more than to a good disposition are to be treated with caution. None of this is the liberal art, and none of it is cancelled by the liberal art. The science tells you what a concord is; prudence tells you when to sing.</p>
 <p>You now have the first principles:</p>
 <div class="dl">
   <dt>Subject</dt><dd>sounding pitch, as heard</dd>
@@ -685,17 +484,7 @@ MusicaArs.LESSONS = [
 <p>The string at 1, at 3/4, at 2/3, at 1/2, heard apart and together: if you can say what you are hearing, you have begun the art.</p>
 <div class="widget" data-kind="monochord" data-start="3/4"></div>
 `,
-  sources: "Boethius, De inst. mus. I.34; Aquinas, Super Boethium De Trinitate q.5 a.1 ad 3; ST II-II q.91 a.2.",
-  check: {
-    q: "On Boethius’s and Thomas’s showing, a true musician in the liberal sense is",
-    options: [
-      "whoever can perform without error.",
-      "whoever judges sounding number by reason, having learned the art.",
-      "whoever feels music most strongly."
-    ],
-    answer: 1,
-    why: "Performance is a skill; feeling is a passion. The liberal art is a science. The best case is a judge whose ear is trained — but the habit that makes him a musicus is the intellectual one."
-  }
+  sources: "Boethius, De inst. mus. I.34; Aquinas, Super Boethium De Trinitate q.5 a.1 ad 3; ST II-II q.91 a.2."
 },
 
 {
@@ -875,7 +664,7 @@ MusicaArs.LESSONS = [
   <h4>Why this block, and what it is for</h4>
   <p>Because this is the distinctively <em>liberal</em> skill, and the one that will still be doing you good long after you have forgotten what a leimma is.</p>
   <p>To possess a science is to know its subject, its principles, and its <strong>boundaries</strong>. Aristotle makes the mark of an educated man the ability to look for that degree of precision in each kind of subject which the nature of the subject admits, and no more; and almost every confusion about music, ancient or modern, is a confusion of sciences. A man says “music is mathematical” when he means harmonics, and someone answers “no, music is emotional” meaning the fine art, and the two of them argue for an hour about nothing. A man reads that the heavens make music and cannot tell whether he has been given physics, poetry, or theology.</p>
-  <p>St. Thomas is the master of this discipline, and this course has been practising it in front of you the whole way: harmonics is a middle science <span class="xref" data-to="i-2"></span>; the ordering of song to devotion is moral <span class="xref" data-to="vi-1"></span>; the silence of the spheres is settled in natural philosophy; the transcendental beauty of due proportion is settled higher up. Learning to make those cuts quickly and without heat is what a liberal education is chiefly for. This block is a small gymnasium for it.</p>
+  <p>This course has been practising that discipline the whole way: harmonics is a middle science <span class="xref" data-to="i-2"></span>; the ordering of song to devotion is moral <span class="xref" data-to="vi-1"></span>; the silence of the spheres is settled in natural philosophy; the beauty of due proportion is settled higher up. Learning to make those cuts quickly and without heat is what a liberal education is chiefly for. This block is a small gymnasium for it.</p>
 </div>
 `,
   sources: "Aristotle, Nicomachean Ethics I.3 and De partibus animalium I.1 (the educated man and the precision proper to each subject); Aquinas, Super Boethium De Trinitate q.5–6; In Phys. II lect. 3; ST I q.5 a.4, I q.39 a.8, II-II q.91."
@@ -958,17 +747,7 @@ MusicaArs.LESSONS = [
   <p>The science was not refuted. It stopped being asked the questions that interested the men doing the work. A middle science answers what its principles can reach; the first ratios can tell you what a fifth is, and cannot tell you how two independent voices should move against one another, or how long this syllable should be held. Silence is not error. But a discipline that is silent for four centuries while its subject matter flourishes will eventually find that someone else has taken the subject matter.</p>
 </div>
 `,
-  sources: "Guido of Arezzo, Prologus in antiphonarium and Epistola de ignoto cantu (c. 1028–1032); Boethius, De inst. mus. I.34. The speculativa / practica division as a medieval commonplace. Rens Bod, World of Patterns, ch. 4.4, for the rapidity of change after 900.",
-  check: {
-    q: "What did Guido’s staff change?",
-    options: [
-      "It proved that Boethius had the ratios wrong.",
-      "It gave sung music a written record, so that a practice could be transmitted, compared, and reasoned about.",
-      "It replaced the monochord as the instrument of the liberal art."
-    ],
-    answer: 1,
-    why: "Notation is a technology of memory, not a refutation of harmonics. But it is what makes a written, criticizable practice possible — and so it is what makes the rest of this chapter possible."
-  }
+  sources: "Guido of Arezzo, Prologus in antiphonarium and Epistola de ignoto cantu (c. 1028–1032); Boethius, De inst. mus. I.34. The speculativa / practica division as a medieval commonplace. Rens Bod, World of Patterns, ch. 4.4, for the rapidity of change after 900."
 },
 
 {
@@ -986,17 +765,7 @@ MusicaArs.LESSONS = [
 <p>This deserves a moment. Augustine’s <span class="latin">De musica</span> spent five of its six books on the numbering of time, and we set them aside in <span class="xref" data-to="i-3"></span> as belonging to the art in a wide sense. Here that half of the art at last receives an instrument. The <span class="latin">ars nova</span> of the 1320s — texts circulated under Philippe de Vitry’s name, and more securely the work of Johannes de Muris — admits duple as well as triple division, and the aged Jacobus of Liège writes his <span class="latin">Speculum musicae</span> in defence of the ancients against the moderns. The complaint is not that the new music is out of tune. It is that it is restless, and that the old proportions of time have been broken.</p>
 <p><strong>Gained:</strong> a real extension of the art into measured time, and a written polyphony that no other civilisation developed to this degree. <strong>The cost:</strong> from here forward the working rules of music are the grammar of a practice — historical, revisable, and different in 1400 from 1300. The first concords are not like that.</p>
 `,
-  sources: "Musica enchiriadis (anon., c. 850–900); Johannes Cotto, De musica (c. 1100); Franco of Cologne, Ars cantus mensurabilis (c. 1280); Johannes de Muris, Notitia artis musicae (1321); Jacobus of Liège, Speculum musicae (c. 1330s). On the Vitry attribution, Sarah Fuller, “A Phantom Treatise of the Fourteenth Century?” (1985–86). The contrast of deriving and restricting principles follows Bod, World of Patterns, ch. 3.6 and 4.4.",
-  check: {
-    q: "The rules of organum stand to the ratio 3:2 as",
-    options: [
-      "a demonstration stands to its conclusion — the rules prove why the fifth is a concord.",
-      "a grammar stands to a language: they say which combinations are admissible, taking the concords as already given.",
-      "a refutation stands to what it refutes."
-    ],
-    answer: 1,
-    why: "Both are real knowledge, and they are not the same sort. The ratios generate their patterns; the rules of counterpoint restrict what may be written. Confusing the two is how a later reader comes to think a harmony textbook is a science of nature."
-  }
+  sources: "Musica enchiriadis (anon., c. 850–900); Johannes Cotto, De musica (c. 1100); Franco of Cologne, Ars cantus mensurabilis (c. 1280); Johannes de Muris, Notitia artis musicae (1321); Jacobus of Liège, Speculum musicae (c. 1330s). On the Vitry attribution, Sarah Fuller, “A Phantom Treatise of the Fourteenth Century?” (1985–86). The contrast of deriving and restricting principles follows Bod, World of Patterns, ch. 3.6 and 4.4."
 },
 
 {
@@ -1004,7 +773,7 @@ MusicaArs.LESSONS = [
   ch: "VII",
   title: "The third comes in",
   html: `
-<p><span class="xref" data-to="v-1"></span> left a question standing: two tones compounded give the ditone 81:64, but the interval singers seem to want is the gentler 5:4. We said the dispute was real, that Thomas had not closed it, and that a first-principles course could leave it open. The tradition itself did not leave it open. It took about two hundred years to answer, and the answer came from practice first.</p>
+<p><span class="xref" data-to="v-1"></span> left a question standing: two tones compounded give the ditone 81:64, but the interval singers seem to want is the gentler 5:4. We said the dispute was real, and that a first-principles course could leave it open. The tradition itself did not leave it open. It took about two hundred years to answer, and the answer came from practice first.</p>
 <p>Around 1300 the English monk Walter Odington observes, in his <span class="latin">Summa de speculatione musicae</span>, that the ditone 81:64 and the semiditone 32:27 are close neighbours to 5:4 and 6:5 — and that singers, by the subtlety of the voice, draw them into a sweet blend. That is: the ratio on the monochord and the interval in the choir are not the same, and the choir is doing something the theory has not accounted for.</p>
 <div class="widget" data-kind="compare" data-title="The third, two ways" data-one="81:64" data-one-name="Pythagorean ditone (two tones, 81:64)" data-two="5:4" data-two-name="Just major third (5:4)"></div>
 <p>Against the same low sound, the ditone is not <em>wrong</em>; it is the exact compound of two tones, and it is bright and hard. The 5:4 settles. They stand about a tenth of a tone apart — the next lesson gives that gap its name — and every European ear from the fifteenth century onward has preferred the second.</p>
@@ -1016,17 +785,7 @@ MusicaArs.LESSONS = [
   <p>This is worth seeing clearly, because it is a vindication of the method <span class="xref" data-to="v-3"></span> recommended and not of either party to the old quarrel. Reason was not overruled by the ear. The ear was heard, and then a <em>different arithmetic</em> was given for what it heard — a bound at six rather than at four, argued from the nature of number. That is Ptolemy’s method: sense and reason correcting one another, neither despising the other. And the strain shows honestly: the senario is awkward about the minor sixth, 8:5, which needs an eight; and by 1571, in the <span class="latin">Dimostrationi</span>, Zarlino himself recommends a tempered tuning for actual keyboards rather than his own theoretical one. Why he had to is the next lesson.</p>
 </div>
 `,
-  sources: "Walter Odington, Summa de speculatione musicae (c. 1300); Martin le Franc, Le champion des dames (1441–42); Ramis de Pareia, Musica practica (1482); Burtius, Musices opusculum (1487); Gaffurio, Practica musicae (1496); Zarlino, Le istitutioni harmoniche (1558) and Dimostrationi harmoniche (1571); Ptolemy, Harmonics I.15 (the syntonic diatonic).",
-  check: {
-    q: "How was the question of the third settled?",
-    options: [
-      "The ear simply overruled the arithmetic, and the art gave up demonstrating.",
-      "In practice first, and then by a new arithmetic: the bound of concord was argued from four to six, following Ptolemy’s method of sense and reason together.",
-      "It was never settled; the ditone and the just third remain equally standard."
-    ],
-    answer: 1,
-    why: "Zarlino does not abandon number. He proposes a different and defensible bound — the senario — for what singers had been doing for two centuries. That is what it looks like when a mathematical art is corrected rather than abandoned."
-  }
+  sources: "Walter Odington, Summa de speculatione musicae (c. 1300); Martin le Franc, Le champion des dames (1441–42); Ramis de Pareia, Musica practica (1482); Burtius, Musices opusculum (1487); Gaffurio, Practica musicae (1496); Zarlino, Le istitutioni harmoniche (1558) and Dimostrationi harmoniche (1571); Ptolemy, Harmonics I.15 (the syntonic diatonic)."
 },
 
 {
@@ -1047,17 +806,7 @@ MusicaArs.LESSONS = [
   <p>The difficulty does not belong to the singer: he takes each interval as it comes and adjusts. Nor to the violinist, whose fingers are free. It belongs to instruments whose pitches must be <em>fixed in advance</em> — organ, harpsichord, fretted lute, and eventually the piano. The history of temperament is the history of what men did to keyboards, not what they did to the truth.</p>
 </div>
 `,
-  sources: "Boethius, De inst. mus. III (the tone is not divisible into equal halves in ratio; the comma); Euclid, Sectio canonis. Syntonic comma 81:80 ≈ 21.5 cents; Pythagorean comma 531441:524288 ≈ 23.46 cents. The cent is a later logarithmic measure, used here only for comparison.",
-  check: {
-    q: "Why can no keyboard of twelve fixed sounds have every fifth pure?",
-    options: [
-      "Because the ear is not accurate enough to judge a pure fifth.",
-      "Because twelve pure fifths exceed seven diapasons by the Pythagorean comma — no power of 3 is a power of 2.",
-      "Because the fifth is not really 3:2, as Vincenzo Galilei showed."
-    ],
-    answer: 1,
-    why: "The impossibility is arithmetic, and it is proved from the art’s own first ratios. It is a limit on instruments with fixed pitches, not a defect in the ratios or in the ear."
-  }
+  sources: "Boethius, De inst. mus. III (the tone is not divisible into equal halves in ratio; the comma); Euclid, Sectio canonis. Syntonic comma 81:80 ≈ 21.5 cents; Pythagorean comma 531441:524288 ≈ 23.46 cents. The cent is a later logarithmic measure, used here only for comparison."
 },
 
 {
@@ -1081,17 +830,7 @@ MusicaArs.LESSONS = [
   <p>That is the sharpest single break between the liberal art and modern practice, and it should be stated without either alarm or apology. It was made deliberately, by men who understood the arithmetic perfectly well, as the price of something they wanted more.</p>
 </div>
 `,
-  sources: "Pietro Aaron, Toscanello in musica (1523); Gaffurio, Practica musicae (1496) on flattening the fifth; Francisco de Salinas, De musica libri septem (1577); Vincenzo Galilei, Fronimo (1568/1584) and Dialogo (1581); Zarlino, Dimostrationi harmoniche (1571); Werckmeister, Musicalische Temperatur (1691). On the dating of equal temperament’s adoption, A. J. Ellis’s appendices to Helmholtz; the chronology is a range, not a threshold.",
-  check: {
-    q: "“Well-tempered,” in Bach’s title, means",
-    options: [
-      "equal temperament: all twelve semitones the same size.",
-      "an unequal but circulating tuning, in which every key is usable and each keeps its own character.",
-      "Pythagorean tuning, with every fifth pure."
-    ],
-    answer: 1,
-    why: "Equal temperament is a later norm — Continental from the late 1700s, English from the 1840s. The whole point of composing in all twenty-four keys is that, in a well temperament, they are not interchangeable."
-  }
+  sources: "Pietro Aaron, Toscanello in musica (1523); Gaffurio, Practica musicae (1496) on flattening the fifth; Francisco de Salinas, De musica libri septem (1577); Vincenzo Galilei, Fronimo (1568/1584) and Dialogo (1581); Zarlino, Dimostrationi harmoniche (1571); Werckmeister, Musicalische Temperatur (1691). On the dating of equal temperament’s adoption, A. J. Ellis’s appendices to Helmholtz; the chronology is a range, not a threshold."
 },
 
 {
@@ -1109,22 +848,12 @@ MusicaArs.LESSONS = [
   <dt>Rameau</dt><dd>subject: sounding pitch. Middle term: <strong>the resonance of natural bodies</strong>. Therefore a part of natural philosophy.</dd>
 </div>
 <div class="remark">
-  <h4>Where the art went, on Thomas’s map</h4>
+  <h4>Where the art went</h4>
   <p>Not down. Sideways. <span class="xref" data-to="i-2"></span> defined a middle science as one whose subject is physical and whose middle terms are mathematical; that is why harmonics sat beside optics and astronomy in the quadrivium. Once the cause of concord is the <span class="latin">corps sonore</span>, the demonstration runs through the nature of a vibrating body — and a science that demonstrates through the natures of bodies is physics. Good physics, and in the nineteenth century very good physics. But it is no longer arithmetic applied to sound; it is sound explained by the natures of things that sound.</p>
   <p>The quadrivial <span class="latin">musica</span> was not refuted. Its middle term was replaced, and the classification went with the middle term. This is the transformation a modern reader is least likely to notice, because nothing in a harmony textbook announces it. The textbook simply begins with the overtone series, as though that had always been the beginning.</p>
 </div>
 `,
-  sources: "Zarlino, Le istitutioni harmoniche (1558) on harmonic and arithmetic division; Mersenne, Harmonie universelle (1636); Sauveur, memoirs to the Académie des Sciences (1700–1701); Rameau, Traité de l’harmonie (1722), Nouveau système (1726), Génération harmonique (1737); d’Alembert, Élémens de musique (1752); Euler, Tentamen novae theoriae musicae (1739). On Rameau’s ignorance of Sauveur in 1722 and the later re-grounding, Thomas Christensen, Rameau and Musical Thought in the Enlightenment.",
-  check: {
-    q: "What changed when Rameau re-founded harmony on the corps sonore?",
-    options: [
-      "The subject: the art stopped being about sound.",
-      "The middle term: number gave way to the resonance of natural bodies, so the demonstration became physical rather than arithmetical.",
-      "Nothing of consequence: it was the same science with new vocabulary."
-    ],
-    answer: 1,
-    why: "A middle science is defined by its middle terms. Change them from arithmetic to the natures of vibrating bodies and you have changed which science you are doing — even though the subject, sounding pitch, is the same as ever."
-  }
+  sources: "Zarlino, Le istitutioni harmoniche (1558) on harmonic and arithmetic division; Mersenne, Harmonie universelle (1636); Sauveur, memoirs to the Académie des Sciences (1700–1701); Rameau, Traité de l’harmonie (1722), Nouveau système (1726), Génération harmonique (1737); d’Alembert, Élémens de musique (1752); Euler, Tentamen novae theoriae musicae (1739). On Rameau’s ignorance of Sauveur in 1722 and the later re-grounding, Thomas Christensen, Rameau and Musical Thought in the Enlightenment."
 },
 
 {
@@ -1141,17 +870,7 @@ MusicaArs.LESSONS = [
   <p>But be exact about what <em>kind</em> of knowledge the rules of this art are. Functional harmony is not demonstrated from 2:1, 3:2, and 4:3. It is the grammar of a style — a very great style, which lasted about two hundred years and then dissolved. The first concords are not a style. They were the same for Nicomachus and they are the same for you, and when this style dissolved they did not dissolve with it.</p>
 </div>
 `,
-  sources: "Glarean, Dodecachordon (1547); Rameau, Traité de l’harmonie (1722) for the fundamental bass; the term “tonality” (tonalité) is Fétis’s, 1840s. Bod, World of Patterns, on style as a pattern describable by rules and locatable in time.",
-  check: {
-    q: "Tonality, as the eighteenth and nineteenth centuries practised it, rests on",
-    options: [
-      "a new discovery about the first concords, unknown to Boethius.",
-      "temperament, the chord as unit, and the reduction of the modes to two — together giving a hierarchy in which motion away from a key and back can carry a long form.",
-      "the abandonment of the diapason as the frame of the scale."
-    ],
-    answer: 1,
-    why: "Nothing new was found out about 2:1 or 3:2. Three earlier changes were combined, and the combination made a new kind of large-scale form possible."
-  }
+  sources: "Glarean, Dodecachordon (1547); Rameau, Traité de l’harmonie (1722) for the fundamental bass; the term “tonality” (tonalité) is Fétis’s, 1840s. Bod, World of Patterns, on style as a pattern describable by rules and locatable in time."
 },
 
 {
@@ -1171,7 +890,7 @@ MusicaArs.LESSONS = [
 <p>Now be exact about what was <em>refuted</em>, because a tradition is not honoured by defending what is false. Three things go:</p>
 <p><strong>The hammers in the smithy.</strong> Nicomachus’s story, which <span class="xref" data-to="iii-1"></span> already flagged as doubtful metallurgy. The pitch of a struck solid depends on its dimensions and its material, not on its weight in the way the tale requires.</p>
 <p><strong>The claim that one set of proportions governs every quantity.</strong> The sources said Pythagoras found 2:1, 3:2, 4:3 in lengths <em>and</em> in hanging weights alike. Vincenzo Galilei hung the weights and found otherwise: to raise a string by a diapason you need four times the tension, not twice, because pitch varies as the square root of the tension. That is a genuine refutation of a claim the tradition transmitted — and Vincenzo, being a humanist, concluded that Pythagoras must have known the truth and been garbled in transmission.</p>
-<p><strong>Audible music of the spheres</strong> — which Aristotle and St. Thomas had already denied, as <span class="xref" data-to="vi-1"></span> showed. Here the tradition corrected itself from within, long before.</p>
+<p><strong>Audible music of the spheres</strong> — which Aristotle had already denied, as <span class="xref" data-to="vi-1"></span> showed. Here the tradition corrected itself from within, long before.</p>
 <p>Everything else on the list was not refuted. It was <em>left behind</em>, because the questions changed. That is a different thing, and the difference is the whole point of this chapter.</p>
 <div class="remark">
   <h4>A debt the modern reader will not guess</h4>
@@ -1181,17 +900,7 @@ MusicaArs.LESSONS = [
 <p>The string at 1, at 3/4, at 2/3, at 1/2: nothing between Guido and Beethoven has made 2:1 less true.</p>
 <div class="widget" data-kind="monochord" data-start="2/3"></div>
 `,
-  sources: "Vincenzo Galilei, Discorso intorno all’opere di Messer Gioseffo Zarlino (1589) on the string and weight experiments; Aristotle, De caelo II.9 and Aquinas, In De caelo II lect. 14; Helmholtz, Die Lehre von den Tonempfindungen (1863); Schoenberg, Harmonielehre (1911). On music as a source of the experimental method, Rens Bod, World of Patterns, ch. 5.1 and 5.2.",
-  check: {
-    q: "Which of these did later music actually refute?",
-    options: [
-      "That the first concords are 2:1, 3:2, and 4:3.",
-      "That the same whole-number proportions govern string lengths and hanging weights alike.",
-      "That music is a study of sounding number."
-    ],
-    answer: 1,
-    why: "Vincenzo Galilei’s weights settle that one: pitch goes as the square root of the tension. The first concords stand — temperament is measured by its departure from them — and the third claim was not refuted but relocated, from arithmetic to the physics of sounding bodies."
-  }
+  sources: "Vincenzo Galilei, Discorso intorno all’opere di Messer Gioseffo Zarlino (1589) on the string and weight experiments; Aristotle, De caelo II.9 and Aquinas, In De caelo II lect. 14; Helmholtz, Die Lehre von den Tonempfindungen (1863); Schoenberg, Harmonielehre (1911). On music as a source of the experimental method, Rens Bod, World of Patterns, ch. 5.1 and 5.2."
 },
 
 {
@@ -1236,17 +945,7 @@ MusicaArs.LESSONS = [
   <b>1859 · 1926</b><span>Muʿallim Takla standardizes the Coptic hymns; Newlandsmith transcribes them</span>
 </div>
 `,
-  sources: "Byzantine speculative harmonics: the anonymous Quadrivium of 1008; Pachymeres, Syntagma; Manuel Bryennios, Harmonika (ed. Jonker, 1970); Nikolaos Mesarites on the schools of Constantinople; L. G. Benakis on the institutional separation. On the Octoechos and its ascription: the Hagiopolites (Paris gr. 360); and, for the modern question, Aelred Cody, Peter Jeffery (2001) and Stig Frøyshov (2007), with Harald Buchinger’s more conservative response.",
-  check: {
-    q: "What was the relation, in Byzantium, between the Greek science of harmonics and the chant of the churches?",
-    options: [
-      "The chant was derived from the science, as its liturgical application.",
-      "Both flourished, in different classrooms and different books: Bryennios was writing Ptolemaic harmonics at the time Koukouzeles was composing, and neither body of work refers to the other.",
-      "Harmonics had been lost in the East, which is why the chant developed no theory of its own."
-    ],
-    answer: 1,
-    why: "Byzantium held both and kept them apart. The mere presence of a mathematical science in a civilisation does not make its music mathematical — something has to join them, and in Byzantium nothing did."
-  }
+  sources: "Byzantine speculative harmonics: the anonymous Quadrivium of 1008; Pachymeres, Syntagma; Manuel Bryennios, Harmonika (ed. Jonker, 1970); Nikolaos Mesarites on the schools of Constantinople; L. G. Benakis on the institutional separation. On the Octoechos and its ascription: the Hagiopolites (Paris gr. 360); and, for the modern question, Aelred Cody, Peter Jeffery (2001) and Stig Frøyshov (2007), with Harald Buchinger’s more conservative response."
 },
 
 {
@@ -1289,17 +988,7 @@ MusicaArs.LESSONS = [
 <p>These systems therefore belong among the principles that <em>restrict</em> rather than the principles that <em>derive</em> <span class="xref" data-to="vii-2"></span>. Give a Russian singer the eight tones and he can tell you whether a melody is well formed, and can make a new one that is. He cannot derive a formula from a ratio, and was never asked to. It is a grammar, as the rules of organum were a grammar.</p>
 <p>That is real knowledge. It is a different kind of thing from the science of <span class="xref" data-ch="IV"></span>. The Byzantines could keep Bryennios in one room and the <span class="latin">protopsaltēs</span> in another without strain, because the two were not the same art.</p>
 `,
-  sources: "Byzantine: the Hagiopolites (ed. Raasted, 1983); Manuel Chrysaphes, On the Theory of the Art of Chanting (1458; ed. Conomos, 1985); Aurelian of Réôme on the noeane syllables. Slavic: Brazhnikov, Drevnerusskaya teoriya muzyki (1972); J. von Gardner, Russian Church Singing; Vladimir Morosan. Coptic: Martha Roy, “Music, Coptic,” in The Coptic Encyclopedia; Magdalena Kuhn on formula-clusters; George Ghaly, Coptica 12 (2013); Ilona Borsai (1974).",
-  check: {
-    q: "In Russian chant, what makes one <span class=\"latin\">glas</span> different from another?",
-    options: [
-      "A different scale, with its own final and its own ambitus.",
-      "A different stock of melodic formulas — several glasy draw on the same pitches, and are told apart by which formulas belong to them.",
-      "A different tuning of the same scale, with different interval sizes."
-    ],
-    answer: 1,
-    why: "A mode here is a vocabulary rather than a scale. That is why the Western analysis — final, dominant, ambitus — asks a question the system does not answer."
-  }
+  sources: "Byzantine: the Hagiopolites (ed. Raasted, 1983); Manuel Chrysaphes, On the Theory of the Art of Chanting (1458; ed. Conomos, 1985); Aurelian of Réôme on the noeane syllables. Slavic: Brazhnikov, Drevnerusskaya teoriya muzyki (1972); J. von Gardner, Russian Church Singing; Vladimir Morosan. Coptic: Martha Roy, “Music, Coptic,” in The Coptic Encyclopedia; Magdalena Kuhn on formula-clusters; George Ghaly, Coptica 12 (2013); Ilona Borsai (1974)."
 },
 
 {
@@ -1331,17 +1020,7 @@ MusicaArs.LESSONS = [
 </div>
 <p>So: three notations, and none of them a recording. All three are aids to a memory that already holds the melody; the Latin staff is the odd one out. The dates are plain. The earliest chant melodies that can be read from the page are Byzantine, from about 1175; Russian, from about 1600; and Coptic, from 1926. Anything earlier is sung today by reconstruction.</p>
 `,
-  sources: "Byzantine notation: Christian Troelsgård, Byzantine Neumes (MMB Subsidia IX, 2011); Constantin Floros, Universale Neumenkunde (1970); Maria Alexandru; Alexander Lingas. Slavic: Pravoslavnaya entsiklopediya, s.vv. Знаменная нотация and Пометы; Mezenets, Izveshchenie (1670), publ. Smolensky 1888; Brazhnikov. Coptic: Library of Congress, Coptic Orthodox Liturgical Chant and Hymnody (essays on the cantors and on notation); Moftah, ed., The Coptic Orthodox Liturgy of St Basil, transcr. Margit Tóth (AUC Press, 1998).",
-  check: {
-    q: "What do Byzantine neumes actually specify?",
-    options: [
-      "The pitch of each note, on a scale fixed in advance.",
-      "The interval from the note immediately before — so that a misread sign transposes everything after it, and the martyriai must re-anchor the reading.",
-      "Only the rhythm, the pitches being supplied from memory."
-    ],
-    answer: 1,
-    why: "They are relative interval signs and combine additively. There is no staff, no clef, and no absolute pitch anywhere in the system — which is why the notation is transposition-invariant by construction."
-  }
+  sources: "Byzantine notation: Christian Troelsgård, Byzantine Neumes (MMB Subsidia IX, 2011); Constantin Floros, Universale Neumenkunde (1970); Maria Alexandru; Alexander Lingas. Slavic: Pravoslavnaya entsiklopediya, s.vv. Знаменная нотация and Пометы; Mezenets, Izveshchenie (1670), publ. Smolensky 1888; Brazhnikov. Coptic: Library of Congress, Coptic Orthodox Liturgical Chant and Hymnody (essays on the cantors and on notation); Moftah, ed., The Coptic Orthodox Liturgy of St Basil, transcr. Margit Tóth (AUC Press, 1998)."
 },
 
 {
@@ -1370,21 +1049,11 @@ MusicaArs.LESSONS = [
   <p>Of Coptic intervals the published descriptions are cautious. Martha Roy's is the standard one: the melodies move stepwise, usually within about a fifth, with numerous microtones, so that many of the intervals cannot be reproduced on a keyboard. No measured tuning system has been published.</p>
 </div>
 
-<h4 class="sec">Where these stand on Thomas’s map</h4>
+<h4 class="sec">Where these stand</h4>
 <p>As <span class="xref" data-to="i-2"></span> has it: a middle science has a physical subject and demonstrates through mathematical middle terms. On that test these are not middle sciences, and none of them claims to be. Their theory, where they have it, is <em>descriptive</em> — catalogues of signs, catalogues of formulas, counsel on right performance, and in the Greek case a measured account arrived at very late and for a practical purpose.</p>
 <p>Two things follow. First, this is no peculiarity of the East: the Latin West’s practice stood in the same condition from the ninth century to the fifteenth, organum and counterpoint being a grammar with no ratios in them <span class="xref" data-to="vii-2"></span>. Second, the West <em>also</em> had Boethius on the shelf — and so did Byzantium, which had Bryennios. The presence of a mathematical science does not by itself make a practice mathematical. Something must join them. In the Latin West what joined them was a contingent and rather humble thing: an instrument of fixed pitch, which forced somebody to decide in numbers exactly where to put the frets.</p>
 `,
-  sources: "Chrysanthos of Madytos, Theoretikon Mega tes Mousikes (Trieste, 1832; trans. Katy Romanou); the Patriarchal Musical Committee, 1881–1888, for the 72-morion division; Panagiotes Chalatzoglou (c. 1728) and Kyrillos Marmarinos (1747); Manuel Chrysaphes (1458). Slavic: J. von Gardner on the “church scale”; Mezenets (1670). Coptic: Martha Roy in The Coptic Encyclopedia.",
-  check: {
-    q: "What did the Three Teachers accomplish at Constantinople in 1814?",
-    options: [
-      "They recovered the interval measurements of the medieval Byzantine theorists.",
-      "They devised the New Method — a reformed analytical notation with a numbered theory of the intervals — and transcribed the received repertory into it.",
-      "They introduced Western staff notation into the Greek Church."
-    ],
-    answer: 1,
-    why: "Chrysanthos, Gregorios and Chourmouzios made a new notation and then wrote the repertory out in it. Chrysanthos’s theory divided the diapason into sixty-eight parts; the Committee of 1881 revised the figure to seventy-two."
-  }
+  sources: "Chrysanthos of Madytos, Theoretikon Mega tes Mousikes (Trieste, 1832; trans. Katy Romanou); the Patriarchal Musical Committee, 1881–1888, for the 72-morion division; Panagiotes Chalatzoglou (c. 1728) and Kyrillos Marmarinos (1747); Manuel Chrysaphes (1458). Slavic: J. von Gardner on the “church scale”; Mezenets (1670). Coptic: Martha Roy in The Coptic Encyclopedia."
 },
 
 {
@@ -1419,17 +1088,7 @@ MusicaArs.LESSONS = [
 </div>
 <p>St. Thomas treats the question at <span class="latin">ST</span> II-II q.91 and comes near the same place: song is a salutary help to devotion because melody moves the soul, and instruments that move to pleasure more than to a good disposition are to be treated with caution. That is a judgement of prudence about the <em>use</em> of music <span class="xref" data-to="vi-2"></span>, and not a conclusion of this science.</p>
 `,
-  sources: "Ison: Dimitri Conomos; Martin Crusius, Turcograecia (Basel, 1584); Alexander Lingas. Polyphony: N. D. Uspensky, Brazhnikov, Pozhidaeva, Gardner, Morosan on strochnoye penie; Dimitri Conomos, “Experimental polyphony, ‘according to the … Latins,’ in late Byzantine psalmody,” Early Music History 2 (1982). Instruments: Clement of Alexandria, Paidagogos II.4; Constantine VII, De ceremoniis; Martha Roy on the nāqūs and the triangle; Aquinas, ST II-II q.91 a.2.",
-  check: {
-    q: "What does an ison do to the melody above it?",
-    options: [
-      "It supplies a harmony, as a bass line does in Western music.",
-      "It acts as a measure: against a fixed sound every degree of the melody declares its relation continuously, and the ear is told where it stands.",
-      "It doubles the melody at the fifth, in the manner of parallel organum."
-    ],
-    answer: 1,
-    why: "Nothing is combined into a chord. The drone is a sounding reference — which is close, in effect though not in method, to what you have been doing with a monochord and a ratio."
-  }
+  sources: "Ison: Dimitri Conomos; Martin Crusius, Turcograecia (Basel, 1584); Alexander Lingas. Polyphony: N. D. Uspensky, Brazhnikov, Pozhidaeva, Gardner, Morosan on strochnoye penie; Dimitri Conomos, “Experimental polyphony, ‘according to the … Latins,’ in late Byzantine psalmody,” Early Music History 2 (1982). Instruments: Clement of Alexandria, Paidagogos II.4; Constantine VII, De ceremoniis; Martha Roy on the nāqūs and the triangle; Aquinas, ST II-II q.91 a.2."
 },
 
 {
@@ -1473,17 +1132,7 @@ MusicaArs.LESSONS = [
 <p>These traditions show what <span class="xref" data-to="lib-2"></span> claimed about the liberal art: possessing a thing <em>through its causes</em> and possessing it <em>by habit</em> are two different possessions. The cantors of Cairo, Novgorod, and Constantinople held the chant in memory and transmitted it by voice, enough to carry a large repertory for many centuries. They could not have told you why 3:2 is a concord, and no one asked them to. Boethius could have told you, and could not have sung a sticheron.</p>
 <p>The liberal art is not the higher of these two. It is a different one. What the quadrivium claimed is that a man ought to have both, and that the reason for having the second is not that it makes him sing better. It is that it makes him know.</p>
 `,
-  sources: "Coptic: Hans Hickmann on chironomy; John Gillespie, “The Egyptian Copts and Their Music”; Ernest Newlandsmith’s lectures of 1931; Marian Robertson-Wilson on the reliability of the oral tradition. Byzantine: the Life of St Romanos; the Akathist and kontakia traditions; Dimitri Conomos and Edward Williams on Koukouzeles. Slavic: the Russian Primary Chronicle (Cross and Sherbowitz-Wetzor trans.); the Stoglav (1551); M. V. Brazhnikov’s edition of Krestyanin’s Evangelist stichera (1974); Miloš Velimirović, Byzantine Elements in Early Slavic Chant (1960).",
-  check: {
-    q: "What do the three traditions’ accounts of their own chant have in common?",
-    options: [
-      "Each traces the singing to a written source that has been preserved intact.",
-      "Each holds that the singing was received rather than invented, and traces a line of living teachers rather than a line of books.",
-      "Each dates its chant to the age of the Apostles."
-    ],
-    answer: 1,
-    why: "The common shape is a succession of masters and a claim of fidelity — Takla to al-Batanūnī, Romanos to the protopsaltai, the Greeks of 988 to the Old Believers. None of the three rests its claim on a document."
-  }
+  sources: "Coptic: Hans Hickmann on chironomy; John Gillespie, “The Egyptian Copts and Their Music”; Ernest Newlandsmith’s lectures of 1931; Marian Robertson-Wilson on the reliability of the oral tradition. Byzantine: the Life of St Romanos; the Akathist and kontakia traditions; Dimitri Conomos and Edward Williams on Koukouzeles. Slavic: the Russian Primary Chronicle (Cross and Sherbowitz-Wetzor trans.); the Stoglav (1551); M. V. Brazhnikov’s edition of Krestyanin’s Evangelist stichera (1974); Miloš Velimirović, Byzantine Elements in Early Slavic Chant (1960)."
 },
 
 {
@@ -1504,25 +1153,15 @@ MusicaArs.LESSONS = [
 </div>
 
 <h4 class="sec">How far to follow Plato</h4>
-<p>Not all the way, and the difference matters to a reader of St. Thomas.</p>
-<p>Plato’s ladder tends to treat the sensible instance as scaffolding — something to be climbed off. Aristotle and St. Thomas do not. All our knowledge begins in the senses, and the sensible thing is <em>really known</em>, not merely used and discarded. A middle science does not despise its subject; it demonstrates about it. When you know that this string, stopped here, sounds a fifth because the lengths stand as 3:2, you have not left the string behind. You have understood it.</p>
+<p>Not all the way, and the difference matters.</p>
+<p>Plato’s ladder tends to treat the sensible instance as scaffolding — something to be climbed off. Aristotle does not. All our knowledge begins in the senses, and the sensible thing is <em>really known</em>, not merely used and discarded. A middle science does not despise its subject; it demonstrates about it. When you know that this string, stopped here, sounds a fifth because the lengths stand as 3:2, you have not left the string behind. You have understood it.</p>
 <p>So take from Plato the demand for ascent — from the heard instance to the ratio, and from the isolated ratio to the order and kinship of the mathematical sciences, which is exactly what he asks for at 531c. Leave behind the suggestion that the string was only a ladder. In this the art itself is on Aristotle’s side: it never stopped putting its ear to a sounding body.</p>
 
 <h4 class="sec">The <em>Timaeus</em>, handled as <span class="xref" data-to="vi-1"></span> handled the spheres</h4>
 <p>Plato says in the <span class="latin">Timaeus</span> that harmony, whose motions are akin to the revolutions of the soul, was given by the Muses not as an aid to irrational pleasure, as is now supposed, but as an ally to the soul’s inward revolution when it has lost its harmony, to help restore it to order and concord with itself.</p>
 <p>That is a beautiful sentence and a cosmological claim, not a theorem of harmonics. Treat it as this course treated the music of the spheres: distinguish. That the soul’s powers are ordered, and that melody moves the passions by some hidden correspondence, St. Thomas grants and states soberly. That the ratios of a monochord are the ratios of the world-soul is a doctrine of the <span class="latin">Timaeus</span> which he does not take over. The string need not carry the cosmos. It is enough that the string is intelligible.</p>
 `,
-  sources: "Plato, Republic VII 530d–531c (two criticisms: the empirics, then the Pythagoreans who do not ascend to problems) and 531c–d (the kinship of the studies); Timaeus 47c–e; Aquinas, Super Boethium De Trinitate q.5 a.1 ad 3; ST I q.84 a.6; ST II-II q.91 a.2 ad 5; and, for the caution about the Timaeus, In De caelo II lect. 14.",
-  check: {
-    q: "What is Socrates’ complaint against the Pythagoreans in Republic VII?",
-    options: [
-      "That they use numbers at all, instead of trusting the trained ear.",
-      "That they seek numbers only in the concords they happen to hear, and never ascend to the question which numbers are concordant of themselves, and why.",
-      "That they refuse to admit 5:4 as a concord."
-    ],
-    answer: 1,
-    why: "He makes two distinct criticisms: the empirics put ears before minds, and the Pythagoreans stop at the numbers found in heard concords. The second is the one aimed at this course’s own tradition — and at you."
-  }
+  sources: "Plato, Republic VII 530d–531c (two criticisms: the empirics, then the Pythagoreans who do not ascend to problems) and 531c–d (the kinship of the studies); Timaeus 47c–e; Aquinas, Super Boethium De Trinitate q.5 a.1 ad 3; ST I q.84 a.6; ST II-II q.91 a.2 ad 5; and, for the caution about the Timaeus, In De caelo II lect. 14."
 },
 
 {
@@ -1556,17 +1195,7 @@ MusicaArs.LESSONS = [
 <p>That is the mature form of the question this whole art has been circling. Delight in proportion is good — it is the sense being, as St. Thomas says, a certain kind of reason. Delight standing <em>in place of</em> the thing proportioned is disordered. St. Thomas says the same more drily at <span class="latin">ST</span> II-II q.91: song is a salutary help to devotion, and is abused when it aims at display or when the tune swallows the words.</p>
 <p>The liberal art does not settle that question, and cannot; it is a question of prudence and of charity. What the art gives is the one case where the measure can be written down, heard, and verified — so that you know from the inside what it is for a delight to be <em>measured</em>, and can recognise the difference when the measure is not written down.</p>
 `,
-  sources: "Augustine, Epistle 101 (to Memorius); De musica VI.ii.2 and VI.iv–ix (the five kinds of number and their order of dignity); Confessions X.xxxiii.49–50; Aquinas, ST I q.79 a.4 and q.84 a.5 (the agent intellect as a created participation in the divine light); ST I q.5 a.4 ad 1; ST II-II q.91 a.2.",
-  check: {
-    q: "What are Augustine’s <span class=\"latin\">numeri iudiciales</span>, and why do they matter?",
-    options: [
-      "The numbers in the sounding body, which are the only ones that can be measured.",
-      "The numbers by which we judge a measure well or ill taken — a measure we did not make, cannot alter, and use to correct what we hear.",
-      "The numbers held in memory, by which we recognise a tune we have heard before."
-    ],
-    answer: 1,
-    why: "They are highest in Augustine’s order of dignity precisely because they are not ours. Everything in Book VI is arranged to bring the reader to that fact, and then past it."
-  }
+  sources: "Augustine, Epistle 101 (to Memorius); De musica VI.ii.2 and VI.iv–ix (the five kinds of number and their order of dignity); Confessions X.xxxiii.49–50; Aquinas, ST I q.79 a.4 and q.84 a.5 (the agent intellect as a created participation in the divine light); ST I q.5 a.4 ad 1; ST II-II q.91 a.2."
 },
 
 {
@@ -1601,17 +1230,7 @@ MusicaArs.LESSONS = [
 <p>The string at 1, at 3/4, at 2/3, at 1/2 is the same string it was in <span class="xref" data-to="iii-1"></span>, and the ratios are what they have always been. You are not what you were.</p>
 <div class="widget" data-kind="monochord" data-start="2/3"></div>
 `,
-  sources: "Aristotle, Politics VIII.3 (1338b2–4); Boethius, De inst. mus. I.34; Aquinas, ST I q.5 a.4 ad 1; Super Boethium De Trinitate q.5 a.1 ad 3; J. H. Newman, The Idea of a University, Discourse V (“Knowledge Its Own End”), cited as a modern witness to the tradition and not as an authority within the art.",
-  check: {
-    q: "What does this art chiefly give a man living now?",
-    options: [
-      "A defensible taste in music, and grounds for preferring older music to newer.",
-      "A verified case in which the beautiful is shown to be intelligible, a habit of asking by what measure, and the experience of possessing one whole thing through its causes.",
-      "A skill that can be turned to use, since no study is worth having otherwise."
-    ],
-    answer: 1,
-    why: "The first is not this art’s business and this course has refused it throughout. The third would make the art servile. What is left is what a liberal art is: knowledge that changes the knower, and is its own reward."
-  }
+  sources: "Aristotle, Politics VIII.3 (1338b2–4); Boethius, De inst. mus. I.34; Aquinas, ST I q.5 a.4 ad 1; Super Boethium De Trinitate q.5 a.1 ad 3; J. H. Newman, The Idea of a University, Discourse V (“Knowledge Its Own End”), cited as a modern witness to the tradition and not as an authority within the art."
 },
 
 {
@@ -1621,18 +1240,18 @@ MusicaArs.LESSONS = [
   title: "Sources",
   html: `
 <p>This course is not a new theory of music. It is a first-principles walk through a received art. The spine is Boethius, <em>De institutione musica</em>, itself dependent on Nicomachus and, behind him, the Pythagorean teaching about the monochord. Ptolemy is heard where the tradition itself heard him, as a second authority, not as a replacement for the first ratios. Augustine’s definition and his distinction of science from mere doing are kept; his books on meter are not taught here, because they are another part of the art. Kalkavage’s <em>On the Measurement of Tones</em> is used as a pedagogical order (the string, then the ratio), not as a master of doctrine.</p>
-<p>St. Thomas is the judge of disputed points, not because he wrote a harmonics — he did not — but because he wrote the philosophy of the sciences in which harmonics must sit, and because he wrote enough about sound, beauty, the heavens, and the use of song to close some questions and to forbid closing others.</p>
-<p><strong>Closed, with Thomas.</strong> Music as liberal art is a middle science: physical subject, arithmetic middle terms. Knowledge of it begins in the senses and is perfected in the intellect. Beauty in sound is due proportion, which pleases because sense is a kind of reason. The heavens do not make audible music. Song may serve devotion; the art is not the same as that service. The performer is not as such the <span class="latin">musicus</span>.</p>
-<p><strong>Left open, because Thomas (and often the art) left them open.</strong> Whether 5:4 is a concord in the strict sense — left open in Chapters I–VII, where it is not first; <span class="xref" data-ch="VII"></span> reports how the art itself closed it, by widening the bound of concord from four to six with Zarlino, which is a development within the method and not a departure from it. How far <span class="latin">musica humana</span> can be more than analogy. How the Greek modes map onto later church tones. Whether every detail of Boethius’s transmission of the Greek names is historically exact. Equal temperament as a practical compromise (it is not the nature of the intervals; how far one may use it in performance is prudence, not this science).</p>
+<p>The course sits in the Aristotelian account of the sciences, as St. Thomas receives it in the commentaries. He is cited where he classifies the sciences, treats beauty as proportion, or distinguishes the use of song from the art itself. He wrote no harmonics, and he is not treated as an authority on the ratios.</p>
+<p><strong>Closed.</strong> Music as liberal art is a middle science: physical subject, arithmetic middle terms. Knowledge of it begins in the senses and is perfected in the intellect. Beauty in sound is due proportion, which pleases because sense is a kind of reason. The heavens do not make audible music. Song may serve devotion; the art is not the same as that service. The performer is not as such the <span class="latin">musicus</span>.</p>
+<p><strong>Left open, because the art left them open.</strong> Whether 5:4 is a concord in the strict sense — left open in Chapters I–VII, where it is not first; <span class="xref" data-ch="VII"></span> reports how the art itself closed it, by widening the bound of concord from four to six with Zarlino, which is a development within the method and not a departure from it. How far <span class="latin">musica humana</span> can be more than analogy. How the Greek modes map onto later church tones. Whether every detail of Boethius’s transmission of the Greek names is historically exact. Equal temperament as a practical compromise (it is not the nature of the intervals; how far one may use it in performance is prudence, not this science).</p>
 <p><strong>What was added to the received art, and on whose authority.</strong> Four lessons carry doctrine that Boethius and Nicomachus take for granted rather than teach, and that a modern reader will not have: the five kinds of ratio with their Latin names <span class="xref" data-to="arith-1"></span>, from the <span class="latin">De institutione arithmetica</span>, which Boethius wrote first and presupposed throughout; the three means and the musical proportion 6:8:9:12 <span class="xref" data-to="means-1"></span>, with Archytas’s theorem that no superparticular ratio can be halved — which the course had until then only asserted; and the Greater Perfect System with the three genera <span class="xref" data-to="sys-1"></span>, without which the tetrachord is a bone presented as a skeleton. None of this is new. All of it is in Boethius, Nicomachus, Ptolemy, or the <span class="latin">Sectio canonis</span>. Where the ancient text gives no exact ratio — the enharmonic diesis — the course says so rather than supplying one.</p>
 <p><strong>Why the art is liberal</strong> <span class="xref" data-to="lib-1"></span> rests on Aristotle’s <em>Metaphysics</em> I.2 and <em>Politics</em> VIII; on St. Thomas at <span class="latin">In Meta.</span> I lect. 3, where the liberal-and-servile sentence actually stands (it is commonly misattributed to the <span class="latin">Summa</span>), at <span class="latin">ST</span> I-II q.57 a.3 ad 3, and at <span class="latin">Super Boethium De Trinitate</span> q.5 a.1 ad 3; and on Boethius I.34. <span class="xref" data-ch="end"></span> follows Plato’s <em>Republic</em> VII and Augustine’s <span class="latin">De musica</span> VI together with his own statement of purpose in <em>Epistle</em> 101, and marks the place where St. Thomas parts from Augustine on the light by which we judge. Newman is quoted once and labelled a modern witness, not an authority within the art. No claim about what any man ought to listen to is made anywhere in this course.</p>
 <p><strong><span class="xref" data-ch="east"></span> stands on the same footing as <span class="xref" data-ch="VII"></span>, and needs one warning more.</strong> It treats three living traditions of worship, and only so far as they are premodern; nothing in it concerns the present life of those churches, and no Western-influenced polyphony is described except to mark it as such. Each tradition’s account of itself is given first, in its own terms. A man who cannot state a claim as its holders state it is not yet in a position to judge it. Where modern scholars have disputed such an account, the dispute is reported in a marked remark, with the grounds on which it rests and nothing further. <strong>This course does not adjudicate those questions and should not be read as having done so.</strong> They belong to the history of liturgy and of the ancient world rather than to harmonics; what can be said on either side is set down, and the reader is left with it.</p>
 <p>That chapter rests on the primary record (the <span class="latin">Hagiopolites</span>; Manuel Chrysaphes, 1458; Ibn Kabar, d. 1324; Mezenets, 1670) and on the specialist literature: Jeffery, Cody and Frøyshov on the Jerusalem origin of the eight modes; Troelsgård, Alexandru, Conomos and Lingas on Byzantine notation, transcription and the ison; Velimirović, Brazhnikov, Gardner and Morosan on Russian chant; Martha Roy, Magdalena Kuhn, Ilona Borsai, George Ghaly and Nicholas Ragheb on the Coptic repertory. Where the specialists disagree — whether the drone is older than 1584, whether kondakarian notation has been deciphered, whether the surface motion of a Coptic melody is a series of pitches or a single inflected one — the disagreement is reported and left open.</p>
 <p><strong>The exercises</strong> teach no doctrine of their own: every item is answerable from the lessons. Each block is prefaced by a statement of what it is for and how it serves the end of a liberal art, because a drill without that statement is a servile exercise whatever its subject.</p>
-<p>Modern interpreters were used as servants. The music tutorial and lectures of Thomas Aquinas College, and articles in <em>The Aquinas Review</em> on the order of learning, the mathematical arts, and beauty, were preferred to more distant reconstructions — and then measured against Aristotle, Boethius, and Thomas, not taken as a thirteenth text of the quadrivium. <em>The Thomist</em>’s long conversation about the sciences (and the older classification-work on which it draws, especially the division of the middle sciences) was used the same way: to keep harmonics in its place, not to supply a private harmonics of our own.</p>
+<p>Modern interpreters were used as servants. Articles in <em>The Aquinas Review</em> on the order of learning, the mathematical arts, and beauty, and <em>The Thomist</em>’s conversation about the sciences (especially the division of the middle sciences), were used to keep harmonics in its place, not to supply a private harmonics of our own.</p>
 <p><strong><span class="xref" data-ch="VII"></span> stands on a different footing, and should be read knowing it.</strong> Chapters I–VII expound an art from its principles; <span class="xref" data-ch="VII"></span> narrates a history, and history is not demonstrated. Its spine is the primary record — Guido, the <span class="latin">Musica enchiriadis</span>, Franco, Odington, Ramis, Zarlino, Aaron, Salinas, Vincenzo Galilei, Werckmeister, Mersenne, Sauveur, Rameau, Euler, Glarean — with Rens Bod’s <em>World of Patterns</em> (2022) used for the shape of the whole and for one substantive claim: that the cyclic correction of theory by experiment was practised in the study of music before it was practised in the study of nature, and reached Galileo through his father. Bod is a historian of knowledge, not an authority on the art, and where his account is contested (the attribution of Rameau’s system to Newton’s <em>Opticks</em>, for instance) it is not followed. Only Western music is treated, because the question asked is what became of <em>this</em> art.</p>
 <p>The judgements in <span class="xref" data-ch="VII"></span> are meant to be even-handed and are stated as such: each development is credited with what it won and charged with what it cost. Two things are asserted flatly, because they are secure. Bach’s <span class="latin">wohltemperirt</span> does not mean equal temperament. And the equal semitone is irrational, so the tuning of a modern keyboard cannot in principle be stated in whole-number ratios. Which temperament Bach wanted, by contrast, is conjecture, and is not guessed at here.</p>
-<p>If a claim in the lessons cannot be traced to the art, to Thomas, to the historical record, or to a pedagogical help clearly marked as such, it does not belong. If you find one, it is a mistake, not a school.</p>
+<p>If a claim in the lessons cannot be traced to the art, to the philosophy of the sciences, to the historical record, or to a pedagogical help clearly marked as such, it does not belong. If you find one, it is a mistake, not a school.</p>
 `
 },
 
