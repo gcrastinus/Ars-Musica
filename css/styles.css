@@ -222,6 +222,17 @@ nav a.done span::after {
   line-height: 1.45;
   color: color-mix(in srgb, var(--muted) 70%, var(--ink));
 }
+.colophon .si-home{
+  display:inline-block;
+  margin-top:8px;
+  color:inherit;
+  text-decoration:none;
+  opacity:.55;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  font-size:10px;
+}
+.colophon .si-home:hover{opacity:.75; color:inherit}
 .nav-backdrop { display: none; }
 main {
   grid-area: main;
