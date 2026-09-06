@@ -969,7 +969,7 @@ function mountDrill(el) {
     let word;
     if (!guided) {
       word = perfect
-        ? "A whole fresh draw, answered rightly. Draw another when you like. Guided, at the top of the page, will keep a possessed block from going cold."
+        ? "A whole fresh draw, answered rightly. Draw another when you like."
         : (right >= items.length - 1
           ? "Close. One more draw — the items and the order will be different, so what you have is the skill and not the memory of a page."
           : "Not yet. The lessons this block rests on will serve before another draw. There is no hurry, and no penalty.");
@@ -977,8 +977,8 @@ function mountDrill(el) {
       const days = rec.interval == null ? 1 : rec.interval;
       const when = days < 1 ? "later today" : (days === 1 ? "in 1 day" : "in " + days + " days");
       word = rec.reps > 1
-        ? "Held. A habit that is used is kept. Next " + when + "."
-        : "A whole fresh draw, answered rightly. This block is possessed. Guided practice will bring it back " + when + ".";
+        ? "Answered rightly. Next " + when + "."
+        : "A whole fresh draw, answered rightly. This block is possessed. It will be brought back " + when + ".";
     } else if (rec.mastered) {
       word = "The interval shortens. A miss does not take the block away; it brings it back soon. Draw again when you like.";
     } else {

@@ -496,7 +496,7 @@ MusicaArs.LESSONS = [
   title: "How to use the palaestra",
   html: `
 <p>What you have read so far is the art set out in order. What follows is the art <em>practised</em>. They are not the same thing, and reading the first will not give you the second.</p>
-<p>St. Thomas holds that an art is a habit — <span class="latin">habitus</span> — and a habit is got by acts, not by assent. You may agree with every sentence in <span class="xref" data-ch="IV"></span> and still be unable to say, with a string sounding in front of you, whether that is a fourth or a fifth. Agreement is not possession. These nine blocks exist so that you may actually possess what you have been shown.</p>
+<p>St. Thomas holds that an art is a habit — <span class="latin">habitus</span> — and a habit is got by acts, not by assent. You may agree with every sentence in <span class="xref" data-ch="IV"></span> and still be unable to say, with a string sounding in front of you, whether that is a fourth or a fifth. Agreement is not possession. These eleven blocks exist so that you may actually possess what you have been shown.</p>
 
 <h4 class="sec">How they work</h4>
 <p>Each block draws a fresh set of items every time you begin it, and shuffles the answers. There is no order to learn and no page to memorise. What can be got by repetition is the skill itself, and nothing else.</p>
@@ -514,7 +514,7 @@ MusicaArs.LESSONS = [
   <b>E9</b><span>the examination — a mixed draw from all of them</span>
   <b>E10 · E11</b><span>the ear again, further out: the tetrachord divided six ways, and a line heard against a held sound. These belong to <span class="xref" data-ch="east"></span> and should wait until you have read it.</span>
 </div>
-<p>They are best taken in that order the first time. Afterwards, return to whichever has gone cold. A habit that is not used is not kept, and this is as true of harmonics as of Latin.</p>
+<p>They are best taken in that order the first time. Afterwards, return to whichever has gone cold.</p>
 <div class="why-block">
   <h4>Why any of this is worth doing</h4>
   <p>Because the liberal art is <em>ordered to knowing</em> <span class="xref" data-to="lib-1"></span>, and knowing is a state of a man, not a state of a book. Boethius’s <span class="latin">musicus</span> is the one who <em>judges</em>; judging is an act; and no one performs an act well who has not performed it often. The exercises are not a test of whether you read carefully. They are the means by which reading becomes possession.</p>
@@ -1280,11 +1280,11 @@ MusicaArs.LESSONS = [
   title: "How these unfold",
   html: `
 <p>These pages are not exercises. Nothing here is passed or failed. A theme unfolds over three returns across about ten months.</p>
-<p>Today you read the text itself — the author’s words, without a gloss in front of them. When you come back, you will see what that text was doing, read it again (it remains on the page), and go further. The text stays the same while the reader changes.</p>
+<p>Today you read the text itself — the author’s words, without a gloss in front of them. When you come back, you will see what that text was doing, read it again (it remains on the page), and go further.</p>
 <p>They are meant to draw you up and away. They are not disputed questions, and they are not drills. You should be able to see the truth of harmony and the soul; you need not argue its parts.</p>
 <p>The app will invite you when a return is waiting. It will not block you. The whole course can be walked without opening these pages, and these pages can be opened without possessing a single drill.</p>
 <p>The ladder here is sound, then the human being, then God. It does not climb through the spheres.</p>
-<p>Each theme has study questions. They are review of the doctrine, not a test, and not a gate. You may return to them after the first reading; the passage remains the teacher.</p>
+<p>Each theme has study questions on the doctrine of the page. They are not a test.</p>
 `
 },
 

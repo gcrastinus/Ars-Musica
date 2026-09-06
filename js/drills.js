@@ -280,7 +280,14 @@ const SCALE_ITEMS = [
     ["the remnant of the fourth after two tones, and smaller than half a tone",
      "exactly half of the tone 9:8",
      "the same as the modern equal semitone"], 0,
-    "It is less than half a tone: two leimmata fall short of 9:8 by the Pythagorean comma. The equal semitone of a modern keyboard is a third thing again, and irrational.")
+    "It is less than half a tone: two leimmata fall short of 9:8 by the Pythagorean comma. The equal semitone of a modern keyboard is a third thing again, and irrational."),
+  () => mc("Why can the tone not be halved when the diapason is filled?",
+    ["Because 9:8 is superparticular, and no superparticular admits a mean proportional",
+     "Because the ear cannot tell halves apart",
+     "Because Boethius forbade it as a matter of taste"], 0,
+    "Archytas’s theorem. The leimma is therefore a remnant, not a half, and the eight sounds of the diapason are a consequence of that arithmetic."),
+  () => ratio("A <b>tone of disjunction</b> compounded with <b>two fourths</b>. What interval results?",
+    ["2:1"], "(9:8) × (4:3) × (4:3) = 2:1. That is the disjunct filling of the diapason.")
 ];
 
 /* ---------- E8 · which science is this ---------- */
@@ -403,8 +410,8 @@ const SETS = {
   },
   "length": {
     title: "Length and pitch",
-    size: 8,
-    build: () => fromFactories(LENGTH_ITEMS, 8)
+    size: 10,
+    build: () => fromFactories(LENGTH_ITEMS, 10)
   },
   "arith": {
     title: "The arithmetic of intervals",
@@ -425,8 +432,8 @@ const SETS = {
   },
   "scale": {
     title: "Building the diapason",
-    size: 8,
-    build: () => fromFactories(SCALE_ITEMS, 8)
+    size: 10,
+    build: () => fromFactories(SCALE_ITEMS, 10)
   },
   "science": {
     title: "Which science is this?",
@@ -435,13 +442,13 @@ const SETS = {
   },
   "eastgen": {
     title: "The tetrachord divided",
-    size: 8,
-    build: () => Array.from({ length: 8 }, eastGenItem)
+    size: 10,
+    build: () => Array.from({ length: 10 }, eastGenItem)
   },
   "ison": {
     title: "The held sound",
-    size: 8,
-    build: () => Array.from({ length: 8 }, isonItem)
+    size: 10,
+    build: () => Array.from({ length: 10 }, isonItem)
   }
 };
 

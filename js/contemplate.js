@@ -35,24 +35,24 @@ MusicaArs.THEMES = {
   }]},
   returns: [
     {
-      recast: "He was not ranking three jobs. He was ranking three relations of a soul to numbered sound: the hands, the instinct, and the judgement. Only the last possesses the cause. The first two have a work; they do not have the art.",
+      recast: "The division is by whether the cause is possessed. Those who play, and those carried to song by instinct, have a work. The third kind judges, and judging is placed in reason.",
       passages: [{
         cite: "Aristotle, <em>Metaphysics</em> I.1",
         english: "Art arises when from many notions gained by experience one universal judgement about a class of objects is produced. \ldots We think that knowledge and understanding belong to art rather than to experience, and we suppose artists to be wiser than men of experience \ldots because the former know the cause, but the latter do not."
       }]
     },
     {
-      recast: "The poet is set aside not because making is nothing, but because being carried by instinct is not speculation. Gift is not science. St. Thomas names the same distinction when he says what an art is: right reason of things to be made — reason, not a knack.",
+      recast: "Instinct is not speculation. St. Thomas’s definition of art — right reason of things to be made — puts the habit in the reason, even when the making is of the hands.",
       passages: [{
         cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> I–II q.57 a.3",
         english: "Art is nothing other than right reason about certain works to be made. And yet the habit of art is in the reason; the making that follows is the work of the other powers as they are moved by reason."
       }]
     },
     {
-      recast: "You are not being asked to stop singing. You are being asked not to confuse the throat with the intellect. Song may serve devotion; prudence tells you when. The science tells you what a concord is. Boethius’s third kind is the one in whom that science exists.",
+      recast: "The liberal arts are those ordered to knowing. Playing and composing are ordered to a work produced. That is why Boethius assigns music properly to the one who judges.",
       passages: [{
-        cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> II–II q.91 a.2",
-        english: "The human soul is moved in various ways according to various melodies of sound. \ldots Song is useful, that the minds of the faint-hearted may be roused to devotion. \ldots Yet if it be done for ostentation, or if the singing move more than the thing which is sung, it is to be blamed."
+        cite: "St. Thomas Aquinas, <span class=\"latin\">Super Boethium De Trinitate</span> q.5 a.1 ad 3",
+        english: "Those arts alone are called liberal which are ordered to knowing; those which are ordered to some usefulness to be had through action are called mechanical, or servile."
       }]
     }
   ]
@@ -66,21 +66,21 @@ MusicaArs.THEMES = {
   }]},
   returns: [
     {
-      recast: "He was not choosing a side in a fight between the ear and number. He was assigning roles. Matter without form is not known; form without matter has nothing to be the form of. The same pair runs through Aristotle wherever a science has a physical subject.",
+      recast: "Hearing supplies the matter of the science; reason the form and the cause. The pairing is the same as in any science that has a physical subject.",
       passages: [{
         cite: "Ptolemy, <span class=\"latin\">Harmonics</span> I.2",
         english: "It is not necessary to attach the theoretical to the differences of the sounds as they are simply heard, nor to attach what is heard to the ratios as they are simply calculated, but to fit the two together as far as possible. The instrument of this kind of demonstration is called the harmonic canon, from common measurement, and from providing a criterion of the perceived against the truth."
       }]
     },
     {
-      recast: "Servant and master is not contempt for the ear. A servant who is dismissed leaves the master with empty hands. Hearing finds what is near; reason finds what is exact. The kanon exists so that the two reports can be laid together.",
+      recast: "Hearing finds what is approximate, reason what is exact. The kanon is the instrument on which the two reports are compared, so that neither is trusted alone.",
       passages: [{
         cite: "Ptolemy, <span class=\"latin\">Harmonics</span> I.1",
         english: "Hearing is by nature fitted to find what is approximate, reason to find what is exact. Hearing is not to be despised on that account, nor reason trusted as if it had a matter of its own. Each does the work the other cannot do."
       }]
     },
     {
-      recast: "What the two criteria are doing, named as a science, is this: harmonics takes its subject from hearing and its middle terms from arithmetic. That is what St. Thomas means by a middle science. Ptolemy described the method. He did not have the name.",
+      recast: "Named as a science, the two criteria are this: a natural subject, mathematical middle terms. St. Thomas calls that a middle science. Ptolemy described the method; the name is later.",
       passages: [{
         cite: "St. Thomas Aquinas, <span class=\"latin\">Super Boethium De Trinitate</span> q.5 a.3 ad 6",
         english: "The middle sciences apply mathematical principles to natural things: as music applies them to sound, and astronomy to the heavens. They have a natural subject, and they demonstrate through mathematical middle terms."
@@ -98,21 +98,21 @@ MusicaArs.THEMES = {
   }]},
   returns: [
     {
-      recast: "The definition already contains the fact. Concord is not a ratio that happens, afterwards, to please. It is a mixture that falls on the ears sweetly and as one. St. Thomas names the same thing among the conditions of beauty: due proportion, which he also calls <span class=\"latin\">consonantia</span>.",
+      recast: "Boethius’s definition already says the mixture falls on the ears as one. St. Thomas lists due proportion — which he also calls <span class=\"latin\">consonantia</span> — among the conditions of beauty.",
       passages: [{
         cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> I q.39 a.8",
         english: "For beauty includes three conditions: integrity or perfection, since those things which are impaired are by the very fact ugly; due proportion or harmony (<span class=\"latin\">consonantia</span>); and lastly brightness, or clarity."
       }]
     },
     {
-      recast: "Why the simple ratios are the ones that do this is not a second fact glued onto the first. St. Thomas’s account is that sense itself is a kind of reason, and so is pleased by what is after its own kind — due proportion. The tutor in Boethius and the ‘sort of reason’ in Thomas are the same claim.",
+      recast: "Sense delights in what is after its own kind, and sense is a sort of reason. That is why the simple ratios please, and why Boethius sets reason beside the ear as a tutor.",
       passages: [{
         cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> I q.5 a.4",
         english: "Beauty and goodness in a thing are identical fundamentally, for they are based upon the same thing, namely the form. But they differ logically: goodness relates to the appetite, beauty to the cognitive faculty; for beautiful things are those which please when seen. Hence beauty consists in due proportion; for the senses delight in things duly proportioned, as in what is after their own kind — because even sense is a sort of reason."
       }]
     },
     {
-      recast: "That the world is such that due proportion pleases is not a theorem of harmonics. The art can put the fact in your possession. The question why number and hearing agree is asked honestly only then, and it is asked in philosophy. Plato already refused to stop at the heard concords.",
+      recast: "Why the world is such that due proportion pleases is not demonstrated in this art. Plato refused to stop at the heard concords. The question belongs there, and in the treatment of the beautiful.",
       passages: [{
         cite: "Plato, <em>Republic</em> VII, 531c (tr. Jowett)",
         english: "They are like astronomers; they are in quest of the numbers which are to be found in these heard concords, but they never attain to the natural harmonies of number, or reflect why some numbers are harmonious and others not."
@@ -130,21 +130,21 @@ MusicaArs.THEMES = {
   }]},
   returns: [
     {
-      recast: "Three questions, one analogia. Soul to body; the parts of the soul to one another; the elements of the body to one another. Each is a measured fitting, as low and high are fitted. He is not proving three sciences. He is showing you the same order in three places, so that you will recognise it when you leave the string.",
+      recast: "Boethius asks the same question of soul and body, of the parts of the soul, and of the elements of the body. In each case the answer is a measured fitting, as of low and high.",
       passages: [{
         cite: "Aristotle, <em>De anima</em> II.1",
         english: "The soul is the first actuality of a natural body which has life potentially. \ldots It is not a body, but is something of a body; and for this reason it is in a body, and in a body of a definite kind."
       }]
     },
     {
-      recast: "The joining is not the claim that the soul <em>is</em> a ratio. That claim Aristotle refuses. A harmony is a proportion of mixed parts; the soul is what causes the mixture, not the mixture itself. Boethius said ‘as it were.’ The ‘as it were’ is the whole of the analogy’s honesty.",
+      recast: "Aristotle denies that the soul is itself a harmony. A harmony is a proportion of mixed parts; the soul is the cause of the mixture. Boethius’s ‘as it were’ keeps the analogy from becoming that claim.",
       passages: [{
         cite: "Aristotle, <em>De anima</em> I.4",
         english: "If the soul were a harmony, it would be a harmony of the parts of the body. But harmony is a certain proportion or composition of the things blended, and the soul cannot be either of these. \ldots Rather the soul is that which causes the mixture, as being the cause of the body."
       }]
     },
     {
-      recast: "What St. Thomas adds is not a third music. He says what the joining <em>is</em>: the soul is the form of the body, not a sailor in a ship, not a tuning laid on afterwards. Health as a tempered mixture of the body belongs with this, as Boethius already joined it. The string made the image audible. The demonstration is in the <em>De anima</em> and in the <span class=\"latin\">Summa</span>.",
+      recast: "St. Thomas states the joining as substantial form: the soul is not in the body as a sailor in a ship. Health as a tempered mixture of the body belongs to natural philosophy. Neither is proved from the string. The demonstration is in the <em>De anima</em> and in the <span class=\"latin\">Summa</span>.",
       passages: [{
         cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> I q.76 a.1",
         english: "The intellective soul is united to the body as its substantial form. \ldots For the soul is the principle by which we live, sense, and understand; and these are not in us as in a sailor in a ship, but as in a form in its matter."
@@ -161,21 +161,21 @@ MusicaArs.THEMES = {
   }]},
   returns: [
     {
-      recast: "The passage was not comparing a just man to a musician as an ornament. It was saying that justice is an inner attunement: three principles bound as the notes of a scale are bound, so that a man is no longer many. The scale was the thing he already knew, used to name what the soul is when it is one.",
+      recast: "Justice here is an inner attunement: three principles bound as the notes of a scale are bound, so that a man is no longer many. The scale is used to name what the soul is when it is one.",
       passages: [{
         cite: "Aristotle, <em>Nicomachean Ethics</em> II.6",
         english: "Virtue, then, is a state of character concerned with choice, lying in a mean, i.e. the mean relative to us, this being determined by a rational principle, and by that principle by which the man of practical wisdom would determine it. Now it is a mean between two vices, that which depends on excess and that which depends on defect. \ldots Hence in respect of its substance and the definition which states its essence virtue is a mean, with regard to what is best and right an extreme."
       }]
     },
     {
-      recast: "A mean here is not a mush between two errors, as if 3:2 were a blur between 2:1 and 4:3. It is a determinate standing, as a ratio is determinate. Excess and defect miss it on either side, as a string tuned too tight or too slack misses the concord. Aristotle is naming a proportion in the soul’s acts.",
+      recast: "A mean is a determinate standing, as a ratio is. Excess and defect miss it on either side, as a string tuned too tight or too slack misses the concord. Aristotle is naming a proportion in the soul’s acts.",
       passages: [{
         cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> I–II q.64 a.1",
         english: "The good of a moral virtue consists in its attaining the rule of reason. Now it is evident that between excess and defect the mean is equality or conformity to rule. Therefore it is evident that moral virtue observes the mean. \ldots The mean of moral virtue is the mean of reason, not the mean of the thing."
       }]
     },
     {
-      recast: "St. Thomas is not adding a third music. He is saying where the mean lives: in conformity to reason, not in an arithmetic halfway point in the thing done. The image you heard in Plato, and the definition you heard in Aristotle, are the same claim under two lights. The health of the body as a tempered mixture belongs with them, as Boethius already joined it to the soul’s fitting. None of this was shown on the string. The string made the image audible.",
+      recast: "The mean of moral virtue, St. Thomas says, is the mean of reason, not an arithmetic halfway point in the thing done. Plato’s image and Aristotle’s definition are the same claim. The ethics is in those books.",
       passages: [{
         cite: "Plato, <em>Republic</em> IV, 444d–e (tr. Jowett)",
         english: "Virtue is the health and beauty and well-being of the soul, and vice the disease and weakness and deformity of the same. And is not good habit also a true order, and bad habit a want of order, in the body? \ldots Then virtue is the order of the soul, as health is the order of the body."
@@ -192,7 +192,7 @@ MusicaArs.THEMES = {
   }]},
   returns: [
     {
-      recast: "He is not describing tastes. He is saying that a melody is already an imitation of character, and so it forms the hearer whether anyone meant it to or not. The modes are not flavours added to a tune. They are kinds.",
+      recast: "A melody is already an imitation of character, and so it forms the hearer. The modes differ in kind.",
       passages: [{
         cite: "Plato, <em>Republic</em> III, 398d–399c (tr. Jowett)",
         english: "And which are the harmonies expressive of sorrow? The Mixolydian, he replied, and the tense Lydian. These then I said must be discarded. \ldots And which of the harmonies are the soft and convivial? The Ionian, he replied, and the Lydian, which are called relaxed. These also I said I would have none of. \ldots Then, I said, Dorian and Phrygian remain."
@@ -206,10 +206,10 @@ MusicaArs.THEMES = {
       }]
     },
     {
-      recast: "St. Thomas takes the same fact when he asks whether God should be praised with song. Melody moves the soul; therefore it may be used, and therefore it may be abused. Harmonics can tell you what you are hearing. It cannot tell you whether to sing.",
+      recast: "St. Thomas takes the same fact when he asks whether God should be praised with song. Harmonics can say what is heard. Whether to sing is a question of prudence.",
       passages: [{
         cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> II–II q.91 a.2",
-        english: "As Augustine says, the soul is moved in various ways according to the various affections of the heart, and it is by a certain hidden correspondence that a melody is likened to those affections. \ldots Hence the use of music in the divine praises is salutary. It is not the art of harmonics that decides the use. It is prudence, looking at the end."
+        english: "The human soul is moved in various ways according to various melodies of sound, as the Philosopher observes. \ldots Hence the use of music in the divine praises is a salutary institution. Yet if it be done for ostentation, or if the singing move more than the thing which is sung, it is to be blamed."
       }]
     }
   ]
@@ -224,7 +224,7 @@ MusicaArs.THEMES = {
   }]},
   returns: [
     {
-      recast: "He was not listing five psychological facts. He was ordering them by dignity. The sounding body, which most men would have called the music, is last. The numbers by which we judge are first. The whole book is arranged to bring you to that reversal.",
+      recast: "The five names are ordered by dignity. What most would have called the music — the sounding body — is last. The numbers by which we judge are first.",
       passages: [{
         cite: "Augustine, <span class=\"latin\">De musica</span> VI.iv",
         latin: "Iudiciales igitur numeri \ldots nec in tempore sunt, nec in loco, nec in ullo corpore, nec in ulla passione corporis, nec in ulla memoria. \ldots His iudicamus de his quae in tempore sunt.",
@@ -232,7 +232,7 @@ MusicaArs.THEMES = {
       }]
     },
     {
-      recast: "What the last passage was doing is this: it took the judging numbers out of every place you might have put them. Not in the sound. Not in the ear. Not in the act. Not in memory. You correct the sound by them; they are not given you by the sound. You can judge a measure you have never heard; they are not memory. They are the standard, and the standard is not yours.",
+      recast: "The judging numbers are taken out of every place you might have put them: not in the sound, the ear, the act, or memory. You correct the sound by them; they are not given by the sound. You can judge a measure you have never heard. The standard is not yours.",
       passages: [{
         cite: "Augustine, <span class=\"latin\">De musica</span> VI.xii",
         latin: "Quapropter oportet fateamur, et in nobis esse iudiciales istos numeros, et extra nos esse, et supra nos esse. In nobis, quia iudicamus; extra nos, quia secundum eos iudicamus, nec eos facimus; supra nos, quia incommutabiles sunt, nos autem mutabiles.",
@@ -240,7 +240,7 @@ MusicaArs.THEMES = {
       }]
     },
     {
-      recast: "Augustine’s next step is the one his whole philosophy turns on: the unchangeable is in God. St. Thomas does not take the account of illumination whole. He grants the fact the ascent starts from, and names the light the agent intellect — created, ours, a participation. The two doctors part. Neither will let you pretend the measure is your invention. A man who has stopped a string at two thirds and heard it please has already met that refusal.",
+      recast: "Augustine’s next step is that the unchangeable is in God. St. Thomas does not take the account of illumination whole: he grants the fact the ascent starts from, and names the light the agent intellect — created, a participation. The two doctors part. Neither treats the measure as your invention. Stopping a string at two thirds and hearing it please is already to use a measure you did not make.",
       passages: [{
         cite: "Augustine, <em>Confessions</em> X.xxxiii.49–50",
         latin: "Ita fluctuo inter periculum voluptatis et experimentum salubritatis. \ldots Cum mihi accidit ut me amplius cantus quam res quae canitur moveat, poenaliter me peccare confiteor, et tunc mallem non audire cantantem.",
@@ -251,20 +251,20 @@ MusicaArs.THEMES = {
 },
 
 "c-intact": {
-  honesty: "The ratios you can verify on a string. The metaphysics under which a ratio is a trace of intellect — form, not a brute regularity — is St. Thomas’s, and Aristotle’s before him. It is not proved here. It is shown here enough to be believed, and to be returned to in the books: the <em>Metaphysics</em>, the <em>De anima</em>, the <span class=\"latin\">Summa</span> I and I–II.",
+  honesty: "The ratios you can verify on a string. The metaphysics under which a ratio is a trace of intellect — form, not a brute regularity — is St. Thomas’s, and Aristotle’s before him. It is not proved here. It is stated so that it can be returned to in the books: the <em>Metaphysics</em>, the <em>De anima</em>, the <span class=\"latin\">Summa</span> I and I–II.",
   first: { passages: [{
     cite: "",
-    english: "The liberal art of music did not fall because the world fell silent. A string stopped at half still sounds the diapason. Consonance still tracks the simple ratios. The sounding body still carries its upper partials. Those are not memories of a lost age. They are in the room."
+    english: "The liberal art of music did not fall because sounding bodies went silent. A string stopped at half still sounds the diapason. Consonance still tracks the simple ratios. The sounding body still carries its upper partials."
   }, {
     cite: "",
-    english: "What lapsed is not the ratios. What lapsed is the public holding of the metaphysics under which a ratio <em>signifies</em> — a trace of forming intellect, not a brute regularity. Nominalism did not un-tune the string. It un-taught the form. Equal temperament did trade away pure ratios, and the spheres do not sound: those are real losses, and they are losses in what is audible. The core took none of that damage."
+    english: "What lapsed is not the ratios, but the public holding of the metaphysics under which a ratio is a trace of forming intellect rather than a brute regularity. Equal temperament traded away pure ratios, and the spheres do not sound: those are real losses in what is audible. They do not touch the standing of the doctrine."
   }, {
     cite: "",
-    english: "Hylomorphism was not refuted. That the soul is the form of the body was not refuted. That virtue is a mean determined by reason was not refuted. St. Thomas still teaches these, and they remain demonstrable. What changed is their currency, not their standing. The art is intact. It is available. Recovery is attention, not archaeology. The doorway is this course. The house is the tradition."
+    english: "That the soul is the form of the body was not refuted, nor that virtue is a mean determined by reason. St. Thomas still teaches these, and they remain demonstrable. What changed is how commonly they are held, not whether they are true. The art is intact. The demonstration is in the books."
   }]},
   returns: [
     {
-      recast: "The first paragraph was not nostalgia. It was pointing at what is still sounding. A lost age is a story. A string stopped at half is not a story. The art’s first object did not go anywhere.",
+      recast: "The first paragraph points at what can still be heard. The object of the art is not a memory.",
       passages: [{
         cite: "Wisdom 11:21",
         latin: "Omnia in mensura, et numero, et pondere disposuisti.",
@@ -272,14 +272,14 @@ MusicaArs.THEMES = {
       }]
     },
     {
-      recast: "The second paragraph distinguished two kinds of loss. Equal temperament and the silence of the spheres are losses in what is audible. Nominalism is a loss in what is understood. The first kind can be heard. The second kind has to be named, or it will be mistaken for a refutation.",
+      recast: "Two kinds of loss are being distinguished. Equal temperament and the silence of the spheres can be heard. The forgetting of form has to be named, or it will be mistaken for a refutation of the art.",
       passages: [{
         cite: "Aristotle, <em>Metaphysics</em> VII.17",
         english: "What we seek is the cause, that is the form, by reason of which the matter is some definite thing. This is the substance of the thing. \ldots The syllable is not its letters, the flesh is not fire and earth; there is something besides, and that something is the cause of their being one."
       }]
     },
     {
-      recast: "Recovery is not reconstructing a museum. The doorway is the string you can still stop. The house is the books in which the form is actually demonstrated. St. Thomas is still the teacher of those books. Attention is the whole of the method.",
+      recast: "The string is where the art is still begun. The books are where form is actually demonstrated. St. Thomas is the teacher of those books.",
       passages: [{
         cite: "Augustine, <span class=\"latin\">De vera religione</span> 39.72",
         latin: "Noli foras ire, in teipsum redi; in interiore homine habitat veritas; et si tuam naturam mutabilem inveneris, transcende et teipsum.",

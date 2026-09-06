@@ -22,6 +22,60 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The liberal art of music: the science of numbered sound, from hearing and from ratio", "You need a quiet room and a way to hear two sounds. Composition and moral training are real studies of music, but they are not this art, and they are not first."],
     ["How to compose songs, and which modes are morally safe", "Making songs is a fine art; choosing them for character is a part of ethics. Both are named here as other studies. The one this course takes up is a science of sounding number."],
     ["The history of European concert music from Guido to Beethoven", "Later chapters walk that road so that the art is not left looking refuted. They are not first, and the opening page does not put them first."]
+  ]},
+  { q: "What does the opening page say you need?", a: 2, o: [
+    ["A piano, a staff, and the names of the notes", "The first paragraph names those as things you do not need. Read what it puts in their place."],
+    ["A teacher who will sing the intervals for you", "No such provision is made. The page asks for a quiet room and a way to hear two sounds."],
+    ["A quiet room and a way to hear two sounds", "The pictures are to the ear what a Euclidean diagram is to the eye. Without two sounds, there is nothing yet to measure."],
+    ["A copy of Boethius in Latin", "Boethius is the spine of the course, but the opening page does not make a library the first requirement."]
+  ]},
+  { q: "Why does the course use the old intonation of whole-number ratios, not the pitches of a modern piano?", a: 0, o: [
+    ["Because that difference is part of what you are here to learn; a piano will be close, but it will not be exact", "The String at the top is a free monochord for the same reason. Exactness here is the ratio, not the keyboard."],
+    ["Because pianos cannot play two sounds", "They can. The objection is not to polyphony but to the slight adjustment of the pitches."],
+    ["Because Boethius had never heard a keyboard", "Historical accident is not the reason given. The reason is that the art measures by whole-number ratios of a single string."],
+    ["Because equal temperament has been refuted", "Later chapters treat temperament as a trade, not as a refutation. The opening page is simpler: the piano is close and not exact."]
+  ]},
+  { q: "What is the String button at the top of the page?", a: 3, o: [
+    ["A recording of an ancient monochord", "It is a free monochord you can return to whenever a lesson names a ratio you cannot yet hear. Nothing is being played back from a museum."],
+    ["The palaestra, under another name", "The palaestra is the exercise blocks. The String is the instrument itself, available from any page."],
+    ["A way to hear equal temperament beside the old ratios", "The course does not put a modern keyboard there. The String sounds the ratios of one string."],
+    ["A free monochord, for hearing a ratio again whenever you want", "The second practical note of the opening page. The art is in the comparison, with the ear and with the number."]
+  ]},
+  { q: "By the end of the course, which of these should you be able to say from first principles?", a: 1, o: [
+    ["How to compose, cantor, and write the history of later European music", "The boxed remark names those as other studies, and says you will not yet be those things."],
+    ["What this art is; what an interval is; why the first concords are 2:1, 3:2, and 4:3; what a tone is; how a scale is built; and who counts as a musician", "That is the list under ‘What you will possess.’ It is the art, not the neighbouring studies."],
+    ["Which modes are safe in church, and which are not", "That belongs to the second study of music, ethics and politics, which this course reports and does not legislate."],
+    ["The names of the notes on a treble staff", "The opening paragraph has already set those aside."]
+  ]},
+  { q: "The boxed remark says the course teaches the mathematical skill of the art in full. What does it say about the doctrine?", a: 2, o: [
+    ["The doctrine is also taught in full, and nothing remains to be read", "The second sentence of the box is a limit, not a boast. Look at where it says the demonstration lives."],
+    ["The doctrine is omitted, because this is only a skill course", "The box says the doctrine is shown faithfully enough to be believed and returned to. Omission is not the claim."],
+    ["It is shown faithfully enough to be believed and returned to, but the full demonstration lives in the books the course points toward", "Skill here; doctrine as far as a first-principles course can show it; the books for the rest."],
+    ["Doctrine is a matter of taste, and the course takes no side", "The course takes sides where the art does. The box is about the limit of a page, not about the standing of the teaching."]
+  ]},
+  { q: "Most lessons, the page says, ask you to do what?", a: 0, o: [
+    ["Hear something: one sound, then another, then both together", "The pictures are not decoration. They are the little bridge on the string, then the reason the sound is as it is."],
+    ["Memorise a table of intervals", "No table is offered on this page, and later the palaestra is built so that a page cannot be memorised — only the skill."],
+    ["Write a short essay on Boethius", "Reading is required; the distinctive demand of the lessons is hearing."],
+    ["Pass a check before the next lesson will open", "Nothing on the opening page is gated. The whole course can be walked."]
+  ]},
+  { q: "When does the browser make sound?", a: 3, o: [
+    ["As soon as the page loads", "The page says the browser will stay silent until you allow it."],
+    ["Only on palaestra blocks", "Lessons that use sound will ask as well. The String at the top is another place."],
+    ["Never; this is a reading course", "Most lessons ask you to hear something. Silence until you allow sound is a browser rule, not a doctrine."],
+    ["When you click Enable sound, or any Play button", "That is the first practical note. Until then the page will stay silent."]
+  ]},
+  { q: "What is this course, as the first sentence states it?", a: 1, o: [
+    ["A course in concert-going, as that was understood from Pythagoras through Boethius", "Concert-going is named in the next sentence as a thing this course is not."],
+    ["A course in the liberal art of music, as that art was understood from Pythagoras through Boethius", "The rest of the paragraph then names the neighbouring studies it is not."],
+    ["A history of notation from neumes to the staff", "Notation is treated later, and only so far as the art requires. It is not the opening definition."],
+    ["A method for learning an instrument without a teacher", "Playing is a skill of the hands. The art here is a science of numbered sound."]
+  ]},
+  { q: "Why are the pictures on the lessons there?", a: 2, o: [
+    ["As decoration, to keep a long page from looking bare", "The page says they are not decoration."],
+    ["To show how a modern score is laid out", "No staff is required, and none is being taught."],
+    ["They are to the ear what a Euclidean diagram is to the eye: the little bridge on the string, then the reason the sound is as it is", "Hearing first, then the cause. That is the method of the whole course."],
+    ["To prove the harmony of the spheres", "The contemplative pages later refuse that climb. The opening page has not yet left the string."]
   ]}
 ],
 
