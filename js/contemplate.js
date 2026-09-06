@@ -11,9 +11,10 @@ window.MusicaArs = window.MusicaArs || {};
 
 (function () {
 const DAY = 86400000;
-/* From first opening: return 1 at one month, return 2 at four months,
-   return 3 at ten months. */
-const DUE = [30 * DAY, 120 * DAY, 300 * DAY];
+/* Gaps between returns: first return one month after opening, then +90 days
+   from when that return was taken, then +180 from the next. Cumulative span
+   is still 30 / 120 / 300, but each stage waits on the previous taking. */
+const INTERVALS = [30 * DAY, 90 * DAY, 180 * DAY];
 
 function passageHTML(p) {
   const cite = p.cite ? `<p class="passage-cite">${p.cite}</p>` : "";
@@ -310,10 +311,13 @@ function availableStage(theme, rec) {
   if (!rec || !rec.first) return 0;
   const filled = filledReturns(theme);
   if (!filled) return 0;
-  const elapsed = Date.now() - rec.first;
-  let stage = 0;
-  for (let i = 0; i < filled; i++) {
-    if (elapsed >= DUE[i]) stage = i + 1;
+  const taken = rec.taken || [];
+  /* Returns already taken stay visible even if old data stamped them together. */
+  let stage = Math.min(taken.length, filled);
+  for (let i = stage; i < filled; i++) {
+    const anchor = i === 0 ? rec.first : taken[i - 1];
+    if (!anchor) break;
+    if (Date.now() - anchor >= INTERVALS[i]) stage = i + 1;
     else break;
   }
   return stage;
@@ -340,6 +344,19 @@ MusicaArs.contemplateDue = function () {
   return out;
 };
 
+MusicaArs.touchContemplation = function (id) {
+  const theme = MusicaArs.THEMES[id];
+  if (!theme || !MusicaArs._contSave) return;
+  const all = MusicaArs._contState() || {};
+  const rec = all[id] || { first: 0, seen: 0, taken: [] };
+  if (!rec.first) {
+    rec.first = Date.now();
+    if (!rec.taken) rec.taken = [];
+    all[id] = rec;
+    MusicaArs._contSave(all);
+  }
+};
+
 MusicaArs.markContemplation = function (id) {
   const theme = MusicaArs.THEMES[id];
   if (!theme || !MusicaArs._contSave) return;
@@ -354,10 +371,47 @@ MusicaArs.markContemplation = function (id) {
   MusicaArs._contSave(all);
 };
 
+function armReturnRead(root, id, stage) {
+  const rec = recOf(id);
+  const seen = rec && rec.seen != null ? rec.seen : 0;
+  if (stage <= seen) return;
+  const returns = root.querySelectorAll(".cont-return");
+  const newest = returns[stage - 1];
+  if (!newest) return;
+  const target = newest.querySelector(".recast") || newest;
+  let done = false;
+  const finish = () => {
+    if (done) return;
+    done = true;
+    MusicaArs.markContemplation(id);
+    const btn = newest.querySelector(".cont-ack");
+    if (btn) btn.remove();
+    if (obs) obs.disconnect();
+  };
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "cont-ack";
+  btn.textContent = "I've read this return";
+  newest.appendChild(btn);
+  btn.addEventListener("click", finish);
+  let obs = null;
+  if (typeof IntersectionObserver === "function") {
+    obs = new IntersectionObserver(entries => {
+      for (const e of entries) {
+        if (e.isIntersecting && e.intersectionRatio >= 0.55) {
+          finish();
+          break;
+        }
+      }
+    }, { threshold: [0.55] });
+    obs.observe(target);
+  }
+}
+
 MusicaArs.renderContemplation = function (el, id) {
   const theme = MusicaArs.THEMES[id];
   if (!theme || !el) return;
-  MusicaArs.markContemplation(id);
+  MusicaArs.touchContemplation(id);
   const rec = recOf(id);
   const stage = availableStage(theme, rec);
   let html = `<div class="contemplation">`;
@@ -381,6 +435,7 @@ MusicaArs.renderContemplation = function (el, id) {
   }
   html += `</div>`;
   el.innerHTML = html;
+  armReturnRead(el, id, stage);
 };
 
 })();
