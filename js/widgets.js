@@ -808,9 +808,19 @@ function mountDrill(el) {
 
   function paintHead() {
     const rec = MusicaArs.drillRecord(setId);
-    const badge = rec.mastered
-      ? `<span class="mark good">possessed</span>`
-      : (rec.tries ? `<span class="mark">best ${rec.best}/${items.length || set.size}</span>` : "");
+    const guided = MusicaArs.guided && MusicaArs.guided();
+    let badge = "";
+    if (guided && rec.mastered) {
+      const now = Date.now();
+      const due = rec.due == null || rec.due <= now;
+      if (due) badge = `<span class="mark">due</span>`;
+      else {
+        const days = Math.max(1, Math.ceil((rec.due - now) / 86400000));
+        badge = `<span class="mark good">possessed · ${days}d</span>`;
+      }
+    } else if (guided && rec.tries) {
+      badge = `<span class="mark">best ${rec.best}/${items.length || set.size}</span>`;
+    }
     head.innerHTML = `<strong>Exercise · ${set.title}</strong>
       <span class="readout">${idx < items.length ? (idx + 1) + " of " + items.length : items.length + " of " + items.length} ${badge}</span>`;
   }
@@ -955,18 +965,34 @@ function mountDrill(el) {
   function finish() {
     const rec = MusicaArs.recordDrill(setId, right, items.length);
     const perfect = right === items.length;
+    const guided = MusicaArs.guided && MusicaArs.guided();
+    let word;
+    if (!guided) {
+      word = perfect
+        ? "A whole fresh draw, answered rightly. Draw another when you like. Guided, at the top of the page, will keep a possessed block from going cold."
+        : (right >= items.length - 1
+          ? "Close. One more draw — the items and the order will be different, so what you have is the skill and not the memory of a page."
+          : "Not yet. The lessons this block rests on will serve before another draw. There is no hurry, and no penalty.");
+    } else if (perfect) {
+      const days = rec.interval == null ? 1 : rec.interval;
+      const when = days < 1 ? "later today" : (days === 1 ? "in 1 day" : "in " + days + " days");
+      word = rec.reps > 1
+        ? "Held. A habit that is used is kept. Next " + when + "."
+        : "A whole fresh draw, answered rightly. This block is possessed. Guided practice will bring it back " + when + ".";
+    } else if (rec.mastered) {
+      word = "The interval shortens. A miss does not take the block away; it brings it back soon. Draw again when you like.";
+    } else {
+      word = right >= items.length - 1
+        ? "Close. One more draw — the items and the order will be different, so what you have is the skill and not the memory of a page."
+        : "Not yet. The lessons this block rests on will serve before another draw. There is no hurry, and no penalty; the only thing that would be lost is the art.";
+    }
     body.innerHTML = `
       <div class="dots">${items.map(i => `<i class="${i._ok ? "dot-ok" : "dot-no"}"></i>`).join("")}</div>
       <p class="q">${right} of ${items.length}.</p>
-      <p class="explain show">${perfect
-        ? "A whole fresh draw, answered rightly. This block is possessed. Come back to it now and then; a habit that is not used is not kept."
-        : (right >= items.length - 1
-          ? "Close. One more draw — the items and the order will be different, so what you have is the skill and not the memory of a page."
-          : "Not yet. The lessons this block rests on will serve before another draw. There is no hurry, and no penalty; the only thing that would be lost is the art.")}</p>
+      <p class="explain show">${word}</p>
       <div class="playrow"><button class="pbtn primary" id="drill-again">Draw a fresh set</button></div>`;
     body.querySelector("#drill-again").addEventListener("click", start);
     paintHead();
-    void rec;
   }
 
   start();

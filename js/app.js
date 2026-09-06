@@ -26,6 +26,8 @@ const state = {
   done: {},
   answers: {},
   drills: {},
+  contemplations: {},
+  guided: false,
   sound: false
 };
 
@@ -49,18 +51,58 @@ const byId = {};
 LESSONS.forEach(l => { byId[l.id] = l; });
 
 function isDrill(l) { return !!l.drill; }
-function scored() {
-  return LESSONS.filter(l => !isDrill(l) && l.id !== "lab" && l.id !== "sources");
-}
+function isContemplation(l) { return !!(l && l.ch === "cont"); }
 function blocks() { return LESSONS.filter(isDrill); }
 function mastered(l) { return !!(state.drills[l.drill] && state.drills[l.drill].mastered); }
+function neighborOf(lesson, dir) {
+  const pool = LESSONS.filter(l => isContemplation(l) === isContemplation(lesson));
+  const i = pool.indexOf(lesson);
+  if (i < 0) return null;
+  return pool[i + dir] || null;
+}
 
 function progressHTML() {
-  const all = scored();
-  const n = all.filter(l => state.done[l.id]).length;
+  if (!state.guided) return "";
   const b = blocks();
   const m = b.filter(mastered).length;
-  return b.length ? `${n}/${all.length} · ${m}/${b.length}` : `${n}/${all.length}`;
+  const d = drillDue().length;
+  return d ? `${m}/${b.length} · ${d} due` : `${m}/${b.length}`;
+}
+
+const DAY_MS = 86400000;
+
+function drillDue() {
+  if (!state.guided) return [];
+  const now = Date.now();
+  const out = [];
+  for (const l of blocks()) {
+    const rec = state.drills[l.drill];
+    if (rec && rec.mastered && (rec.due == null || rec.due <= now)) {
+      out.push({ id: l.id, title: l.title, set: l.drill });
+    }
+  }
+  return out;
+}
+
+function scheduleDrill(rec, perfect) {
+  const now = Date.now();
+  if (rec.ease == null) rec.ease = 2.0;
+  if (rec.reps == null) rec.reps = 0;
+  if (perfect) {
+    rec.mastered = true;
+    if (rec.reps === 0) rec.interval = 1;
+    else if (rec.reps === 1) rec.interval = 3;
+    else rec.interval = Math.min(30, Math.round(rec.interval * rec.ease * 10) / 10);
+    rec.reps += 1;
+    rec.ease = Math.min(2.5, rec.ease + 0.08);
+    rec.due = now + rec.interval * DAY_MS;
+  } else if (rec.mastered) {
+    rec.lapses = (rec.lapses || 0) + 1;
+    rec.reps = 0;
+    rec.interval = 0.5;
+    rec.ease = Math.max(1.3, rec.ease - 0.2);
+    rec.due = now + rec.interval * DAY_MS;
+  }
 }
 
 function load() {
@@ -71,19 +113,28 @@ function load() {
     if (raw.done && typeof raw.done === "object") state.done = raw.done;
     if (raw.answers && typeof raw.answers === "object") state.answers = raw.answers;
     if (raw.drills && typeof raw.drills === "object") state.drills = raw.drills;
+    if (raw.contemplations && typeof raw.contemplations === "object") state.contemplations = raw.contemplations;
+    if (typeof raw.guided === "boolean") state.guided = raw.guided;
   } catch (_) { /* ignore */ }
   try { state.sound = sessionStorage.getItem(STORE + ".sound") === "1"; } catch (_) { /* ignore */ }
   document.documentElement.dataset.theme = state.theme;
+  document.documentElement.dataset.guide = state.guided ? "on" : "off";
   $("#b-theme").textContent = state.theme === "dark" ? "☀" : "☾";
 }
 function save() {
   try {
     localStorage.setItem(STORE, JSON.stringify({
       theme: state.theme, id: state.id, done: state.done,
-      answers: state.answers, drills: state.drills
+      answers: state.answers, drills: state.drills,
+      contemplations: state.contemplations, guided: state.guided
     }));
   } catch (_) { /* file:// or private mode */ }
 }
+MusicaArs._contState = function () { return state.contemplations; };
+MusicaArs._contSave = function (all) {
+  state.contemplations = all || {};
+  save();
+};
 
 function toast(msg) {
   const t = $("#toast");
@@ -93,15 +144,31 @@ function toast(msg) {
   toast._t = setTimeout(() => t.classList.remove("show"), 1600);
 }
 
+function searchText(l) {
+  let s = (l.title || "") + " " + (l.kicker || "") + " " + (l.html || "");
+  const th = l.contemplate && MusicaArs.THEMES && MusicaArs.THEMES[l.contemplate];
+  if (th) {
+    const take = p => (p.cite || "") + " " + (p.latin || "") + " " + (p.english || "");
+    (th.first && th.first.passages || []).forEach(p => { s += " " + take(p); });
+    (th.returns || []).forEach(r => {
+      if (!r) return;
+      s += " " + (r.recast || "");
+      (r.passages || []).forEach(p => { s += " " + take(p); });
+    });
+    s += " " + (th.honesty || "");
+  }
+  return s.toLowerCase();
+}
+
 function buildNav() {
   const box = $("#nav-list");
   const q = ($("#find").value || "").trim().toLowerCase();
+  const dueIds = state.guided ? new Set(drillDue().map(d => d.id)) : null;
   box.innerHTML = "";
   for (const ch of CHAPTERS) {
     const items = LESSONS.filter(l => l.ch === ch.id);
     if (!items.length) continue;
-    const vis = items.filter(l => !q ||
-      (l.title + " " + l.kicker + " " + l.html).toLowerCase().includes(q));
+    const vis = items.filter(l => !q || searchText(l).includes(q));
     if (q && !vis.length) continue;
     const h = document.createElement("h3");
     h.textContent = ch.title;
@@ -111,8 +178,8 @@ function buildNav() {
       a.href = "#" + l.id;
       a.dataset.id = l.id;
       if (l.id === state.id) a.classList.add("on");
-      if (isDrill(l)) { if (mastered(l)) a.classList.add("done"); }
-      else if (state.done[l.id]) a.classList.add("done");
+      if (state.guided && isDrill(l) && mastered(l)) a.classList.add("done");
+      if (dueIds && dueIds.has(l.id)) a.classList.add("due");
       a.innerHTML = `<b>${l.n}</b><span>${l.title}</span>`;
       a.addEventListener("click", e => {
         e.preventDefault();
@@ -134,11 +201,11 @@ function go(id) {
   stopSpeak();
   const lesson = byId[id] || LESSONS[0];
   state.id = lesson.id;
-  if (!isDrill(lesson)) state.done[lesson.id] = true;
+  if (!isDrill(lesson) && !isContemplation(lesson)) state.done[lesson.id] = true;
   save();
   render(lesson);
   buildNav();
-  $("#progress").textContent = progressHTML();
+  applyGuide();
   $("#b-lab").classList.toggle("on", lesson.id === "lab");
   $("#main").scrollTop = 0;
   history.replaceState(null, "", "#" + lesson.id);
@@ -167,32 +234,74 @@ function fillRefs(root) {
   });
 }
 
+function joinList(links) {
+  if (links.length === 1) return links[0];
+  return links.slice(0, -1).join(", ") + " and " + links[links.length - 1];
+}
+
+function inviteBanner(lesson) {
+  const bits = [];
+  if (MusicaArs.contemplateDue) {
+    const due = MusicaArs.contemplateDue().filter(d => {
+      const l = LESSONS.find(x => x.contemplate === d.id);
+      return l && l.id !== lesson.id;
+    });
+    if (due.length) {
+      const links = due.map(d => {
+        const l = LESSONS.find(x => x.contemplate === d.id);
+        return `<a class="invite-link" href="#${l.id}" data-id="${l.id}">${l.title}</a>`;
+      });
+      const lead = links.length === 1 ? "A return is waiting on " : "Returns are waiting on ";
+      bits.push(lead + joinList(links) + ".");
+    }
+  }
+  if (state.guided) {
+    const due = drillDue().filter(d => d.id !== lesson.id);
+    if (due.length) {
+      const links = due.map(d => `<a class="invite-link" href="#${d.id}" data-id="${d.id}">${d.title}</a>`);
+      const lead = links.length === 1 ? "A block is due: " : "Blocks are due: ";
+      bits.push(lead + joinList(links) + ".");
+    }
+  }
+  if (!bits.length) return "";
+  return `<div class="invite">${bits.map(b => `<p>${b}</p>`).join("")}</div>`;
+}
+
 function render(lesson) {
-  const i = LESSONS.indexOf(lesson);
-  const prev = LESSONS[i - 1];
-  const next = LESSONS[i + 1];
+  const prev = neighborOf(lesson, -1);
+  const next = neighborOf(lesson, 1);
   const main = $("#main");
+  const study = MusicaArs.STUDY && MusicaArs.STUDY[lesson.id];
   main.innerHTML = `
-    <article class="wrap">
+    <article class="wrap${isContemplation(lesson) ? " contemplative" : ""}">
       <div class="sound-banner" id="sound-banner">
         <span>This lesson uses sound. The browser will stay silent until you allow it.</span>
         <button class="pbtn primary" id="b-sound">Enable sound</button>
       </div>
+      ${inviteBanner(lesson)}
       <div class="kicker">${lesson.kicker}</div>
       <h2 class="lesson">${lesson.title}</h2>
-      <div class="prose">${lesson.html}</div>
+      <div class="prose">${lesson.html || ""}</div>
       ${lesson.drill ? `<div class="widget" data-kind="drill" data-set="${lesson.drill}"></div>` : ""}
-      ${(MusicaArs.STUDY && MusicaArs.STUDY[lesson.id])
-        ? `<div class="widget study" data-kind="study" data-lesson="${lesson.id}"></div>` : ""}
+      ${study ? `<div class="widget study" data-kind="study" data-lesson="${lesson.id}"></div>` : ""}
       ${lesson.sources ? `<p class="sources">${lesson.sources}</p>` : ""}
       <div class="pager">
         <button class="tbtn" id="b-prev" ${prev ? "" : "disabled"}>${prev ? "← " + prev.title : ""}</button>
         <button class="tbtn" id="b-next" ${next ? "" : "disabled"}>${next ? next.title + " →" : ""}</button>
       </div>
     </article>`;
+  if (lesson.contemplate && MusicaArs.renderContemplation) {
+    MusicaArs.renderContemplation($(".prose", main), lesson.contemplate);
+  }
   fillRefs(main);
   mountWidgets(main);
-  const hasSound = lesson.html.includes("data-kind") || !!lesson.drill;
+  main.querySelectorAll(".invite-link").forEach(a => {
+    a.addEventListener("click", e => {
+      e.preventDefault();
+      go(a.dataset.id);
+    });
+  });
+  const hasSound = (lesson.html || "").includes("data-kind") || !!lesson.drill;
   if (!state.sound && hasSound) $("#sound-banner").classList.add("show");
   const onSound = async () => {
     await Audio.unlock();
@@ -214,16 +323,20 @@ MusicaArs.recordDrill = function (setId, right, total) {
   const rec = state.drills[setId] || { best: 0, tries: 0, mastered: false };
   rec.tries += 1;
   if (right > rec.best) rec.best = right;
-  if (right === total && total > 0) rec.mastered = true;
+  const perfect = right === total && total > 0;
+  if (perfect) rec.mastered = true;
+  if (state.guided) scheduleDrill(rec, perfect);
   state.drills[setId] = rec;
   save();
   buildNav();
-  $("#progress").textContent = progressHTML();
+  applyGuide();
   return rec;
 };
 MusicaArs.drillRecord = function (setId) {
   return state.drills[setId] || { best: 0, tries: 0, mastered: false };
 };
+MusicaArs.guided = function () { return !!state.guided; };
+MusicaArs.drillDue = drillDue;
 
 /* ---- read this page aloud ------------------------------------------- */
 let speakGen = 0;
@@ -250,7 +363,7 @@ MusicaArs.stopSpeak = stopSpeak;
 function skipSpeakEl(el) {
   if (!el || el.nodeType !== 1) return false;
   if (el.hidden || el.getAttribute("aria-hidden") === "true") return true;
-  if (el.matches(".pager, .sound-banner, .kicker, .sources, .playrow, .dots, .drill-next, .drill-sound, .drill-input, .snaps, .scale-keys, .tbtns, .ratio-row, .tetractys, svg, .mono-svg")) return true;
+  if (el.matches(".pager, .sound-banner, .invite, .kicker, .sources, .playrow, .dots, .drill-next, .drill-sound, .drill-input, .snaps, .scale-keys, .tbtns, .ratio-row, .tetractys, svg, .mono-svg")) return true;
   if (el.matches("button.pbtn, button.tbtn, button.key, input")) return true;
   if (el.matches(".explain") && !el.classList.contains("show")) return true;
   if (el.matches(".whead")) {
@@ -401,6 +514,33 @@ function toggleTheme() {
   save();
 }
 
+function applyGuide() {
+  document.documentElement.dataset.guide = state.guided ? "on" : "off";
+  const box = $("#b-guide");
+  if (box) box.checked = !!state.guided;
+  const p = $("#progress");
+  if (p) {
+    p.hidden = !state.guided;
+    p.textContent = progressHTML();
+  }
+}
+
+function onGuideChange() {
+  state.guided = !!$("#b-guide").checked;
+  if (state.guided) {
+    const now = Date.now();
+    blocks().forEach(l => {
+      const rec = state.drills[l.drill];
+      if (rec && rec.mastered && rec.due == null) rec.due = now;
+    });
+  }
+  save();
+  applyGuide();
+  buildNav();
+  const lesson = byId[state.id];
+  if (lesson) render(lesson);
+}
+
 function init() {
   if (!LESSONS || !LESSONS.length) throw new Error("Lessons did not load.");
   for (const l of LESSONS) {
@@ -412,6 +552,8 @@ function init() {
   $("#b-theme").addEventListener("click", toggleTheme);
   $("#b-speak").addEventListener("click", toggleSpeak);
   $("#b-lab").addEventListener("click", () => go("lab"));
+  $("#b-guide")?.addEventListener("change", onGuideChange);
+  applyGuide();
   hookAudioStopsSpeech();
   try { speechSynthesis.getVoices(); speechSynthesis.addEventListener("voiceschanged", pickVoice); } catch (_) { /* ignore */ }
   document.addEventListener("click", e => {
@@ -431,12 +573,12 @@ function init() {
     if (e.key === "/") { e.preventDefault(); $("#find").focus(); }
     if (e.key === "Escape") closeNav();
     if (e.key === "ArrowRight") {
-      const i = LESSONS.findIndex(l => l.id === state.id);
-      if (LESSONS[i + 1]) go(LESSONS[i + 1].id);
+      const n = neighborOf(byId[state.id], 1);
+      if (n) go(n.id);
     }
     if (e.key === "ArrowLeft") {
-      const i = LESSONS.findIndex(l => l.id === state.id);
-      if (LESSONS[i - 1]) go(LESSONS[i - 1].id);
+      const n = neighborOf(byId[state.id], -1);
+      if (n) go(n.id);
     }
   });
   buildNav();

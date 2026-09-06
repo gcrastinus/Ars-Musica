@@ -13,7 +13,8 @@ MusicaArs.CHAPTERS = [
   { id: "east", num: "IX",  title: "IX · The other branches" },
   { id: "end", num: "X",    title: "X · The end of the art" },
   { id: "app", title: "Appendix" },
-  { id: "lab", title: "Workshop" }
+  { id: "lab", title: "Workshop" },
+  { id: "cont", title: "Contemplations" }
 ];
 
 MusicaArs.LESSONS = [
@@ -28,6 +29,7 @@ MusicaArs.LESSONS = [
 <div class="remark">
   <h4>What you will possess</h4>
   <p>By the end you should be able to say, from first principles, what this art is; what an interval is; why the first concords are 2:1, 3:2, and 4:3; what a tone is; how a scale is built from these; and who, in this tradition, counts as a musician. You will not yet be a composer, a cantor, or a historian of later European music. Those are other studies.</p>
+  <p>This course teaches the mathematical skill of the art in full, and shows the doctrine of the whole faithfully enough to be believed and returned to — but the doctrine’s full demonstration lives in the books it points you toward.</p>
 </div>
 `
 },
@@ -498,7 +500,8 @@ MusicaArs.LESSONS = [
 
 <h4 class="sec">How they work</h4>
 <p>Each block draws a fresh set of items every time you begin it, and shuffles the answers. There is no order to learn and no page to memorise. What can be got by repetition is the skill itself, and nothing else.</p>
-<p>A block is marked as <strong>possessed</strong> only when a whole fresh draw is answered rightly — not most of it, all of it. This is deliberate, and it is not severity for its own sake. A man who can name the fourth eight times in ten cannot name the fourth; he can guess well. The art is small enough to be had entire, and there is no reason to settle for less. There is no penalty for a poor draw, no timer, and no limit on attempts. The counter in the corner shows how many blocks stand possessed.</p>
+<p>A block is marked as <strong>possessed</strong> only when a whole fresh draw is answered rightly — not most of it, all of it. This is deliberate, and it is not severity for its own sake. A man who can name the fourth eight times in ten cannot name the fourth; he can guess well. The art is small enough to be had entire, and there is no reason to settle for less. There is no penalty for a poor draw, no timer, and no limit on attempts.</p>
+<p>You may draw any block whenever you like, and ignore possession altogether. That is the ordinary use of the palaestra. <strong>Guided</strong>, at the top of the page, is the other use: once a block is possessed it is brought back at short intervals, because a habit that is not used is not kept. Turn it on when you want that keeping. Turn it off when you want only the string and the questions.</p>
 <p>Where a question asks for a ratio, type it as <code>4:3</code> or <code>4/3</code>; it will be reduced before it is compared, so <code>8:6</code> is accepted too. Where it asks for a number, type the number.</p>
 
 <h4 class="sec">The order to take them in</h4>
@@ -1267,5 +1270,94 @@ MusicaArs.LESSONS = [
 <div class="widget" data-kind="scale"></div>
 <p>Return here whenever a lesson names a ratio you cannot yet hear. The art is not in the page. It is in the comparison you make, with the ear and with the number, on one string.</p>
 `
+},
+
+{
+  id: "c-how",
+  ch: "cont",
+  n: "C",
+  kicker: "Contemplation",
+  title: "How these unfold",
+  html: `
+<p>These pages are not exercises. Nothing here is passed or failed. A theme unfolds over three returns across about ten months.</p>
+<p>Today you read the text itself — the author’s words, without a gloss in front of them. When you come back, you will see what that text was doing, read it again (it remains on the page), and go further. The text stays the same while the reader changes.</p>
+<p>They are meant to draw you up and away. They are not disputed questions, and they are not drills. You should be able to see the truth of harmony and the soul; you need not argue its parts.</p>
+<p>The app will invite you when a return is waiting. It will not block you. The whole course can be walked without opening these pages, and these pages can be opened without possessing a single drill.</p>
+<p>The ladder here is sound, then the human being, then God. It does not climb through the spheres.</p>
+<p>Each theme has study questions. They are review of the doctrine, not a test, and not a gate. You may return to them after the first reading; the passage remains the teacher.</p>
+`
+},
+
+{
+  id: "c-musician",
+  ch: "cont",
+  n: "C1",
+  kicker: "Contemplation",
+  contemplate: "c-musician",
+  title: "Who the true musician is",
+  html: ``
+},
+{
+  id: "c-criteria",
+  ch: "cont",
+  n: "C2",
+  kicker: "Contemplation",
+  contemplate: "c-criteria",
+  title: "Reason and sense",
+  html: ``
+},
+{
+  id: "c-please",
+  ch: "cont",
+  n: "C3",
+  kicker: "Contemplation",
+  contemplate: "c-please",
+  title: "Why simple ratios please",
+  html: ``
+},
+{
+  id: "c-soul",
+  ch: "cont",
+  n: "C4",
+  kicker: "Contemplation",
+  contemplate: "c-soul",
+  title: "Soul joined to body",
+  html: ``
+},
+{
+  id: "c-virtue",
+  ch: "cont",
+  n: "C5",
+  kicker: "Contemplation",
+  contemplate: "c-virtue",
+  title: "The soul in tune",
+  html: ``
+},
+{
+  id: "c-ethos",
+  ch: "cont",
+  n: "C6",
+  kicker: "Contemplation",
+  contemplate: "c-ethos",
+  title: "The ethos of the modes",
+  html: ``
+},
+{
+  id: "c-ascent",
+  ch: "cont",
+  n: "C7",
+  kicker: "Contemplation",
+  contemplate: "c-ascent",
+  title: "The judging numbers",
+  html: ``
+},
+{
+  id: "c-intact",
+  ch: "cont",
+  n: "C8",
+  kicker: "Contemplation",
+  contemplate: "c-intact",
+  title: "The art still stands",
+  html: ``
 }
 ];
