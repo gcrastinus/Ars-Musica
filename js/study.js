@@ -2696,3 +2696,197 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 ]
 
 });
+
+MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
+
+"v-time": [
+  { q: "Why does this lesson exist, given that the course follows Boethius’s centre of gravity, which is pitch?", a: 2, o: [
+    ["Because Franco has already put duration on the page, and the student must catch up", "Franco is later history. This lesson is not his notation."],
+    ["Because verse is the true subject of harmonics", "The lesson refuses to become a treatise on verse. Augustine’s five books remain his."],
+    ["Because Augustine’s definition is of measuring well in motion, and motion is in time as well as in height, and Boethius’s musicus judges rhythmos as well as interval", "One honest case of duration, not a new centre of gravity."],
+    ["Because the palaestra needed another block", "The lesson says it is not a palaestra block."]
+  ]},
+  { q: "What is the difference between the two sets of four times you are asked to hear?", a: 0, o: [
+    ["The pitches are the same; in one the third time is late", "The offence, if you felt it, is not of height."],
+    ["One is a fifth, the other a fourth", "No interval of pitch is being compared."],
+    ["One is the diatonic genus, the other the chromatic", "Genera divide a fourth in pitch."],
+    ["One uses equal temperament", "Temperament is not in this lesson."]
+  ]},
+  { q: "If you found the lame set wanting, where did the standard of that judgement come from?", a: 3, o: [
+    ["From the sound as a pitch", "The pitches were the same in both sets."],
+    ["From a rule of Franco’s you had memorised", "Franco has not yet been taught, and the lesson does not ask for his names."],
+    ["From the names of the feet of verse", "The lesson says you need no name of a foot."],
+    ["Not from the sound, and not invented for the occasion — you used it to find the sound wanting", "The same kind of number by which you judge a grinding pair."]
+  ]},
+  { q: "What will this course not do with Augustine’s books I–V?", a: 1, o: [
+    ["Admit that they belong to the art in a wide sense", "The opening of the course already admitted that. It still does not teach them."],
+    ["Teach them. They remain his", "Meter is not this course’s work. The one comparison in duration is what it will not omit."],
+    ["Mention time at all, even in history", "Franco and the ars nova are later, as history."],
+    ["Allow that the musicus judges rhythms", "Boethius I.34 is cited here for that very judging."]
+  ]},
+  { q: "Why is the lame set not a new interval?", a: 2, o: [
+    ["Because 9:8 cannot be lame", "9:8 is a pitch ratio. This lesson is not using it."],
+    ["Because four clicks always make a concord", "Clicks here are times, not concords."],
+    ["Because the pitches were the same; what changed was the measuring of the times", "An interval of pitch is a comparison of heights. This was a comparison of durations."],
+    ["Because Augustine forbids calling anything an interval except 2:1", "He does not."]
+  ]},
+  { q: "The judge of a lame foot, the lesson says, is already at work in you. What is that meant to show?", a: 0, o: [
+    ["That measuring well is of time also, and you did not invent the measure for the occasion", "The fact this lesson exists to give."],
+    ["That you are already a poet", "No verse has been asked of you."],
+    ["That pitch was a mistake as the subject of the art", "The course does not change its centre of gravity."],
+    ["That the palaestra should be abandoned", "E3 is still to come, in its own place."]
+  ]},
+  { q: "What is <span class=\"latin\">modulari</span>, as this lesson uses Augustine’s definition?", a: 3, o: [
+    ["To write a modern melody", "The first chapter already refused that reading."],
+    ["To tune a piano", "Not in this course."],
+    ["To name the Greek feet in order", "The lesson says you need no name of a foot."],
+    ["To measure a motion so that it is well measured — here, a motion in time", "Pitch remains the centre. Time is not therefore nothing."]
+  ]},
+  { q: "When duration is later put on the page, whose work will that be, according to this lesson?", a: 1, o: [
+    ["Augustine’s books I–V, taught at last", "Those books remain untaught. The later work is historical."],
+    ["Franco, as history, which will wait", "A development of practica, not this lesson’s demonstration."],
+    ["Ptolemy’s kanon", "The kanon measures pitch."],
+    ["The palaestra’s E9", "E9 is a mixed draw of the art you already have."]
+  ]},
+  { q: "Why does the lesson compare this offence with the offence at a grinding pair?", a: 2, o: [
+    ["Because a lame foot is a discord of 9:8", "No such ratio is assigned."],
+    ["Because both are failures of performance", "The lesson is not about performing."],
+    ["Because both are judged by a measure not taken from the sound judged", "Pitch or time: the standard is not the passion of the sounding body."],
+    ["Because Augustine and Boethius never distinguished them", "They did distinguish rhythm and interval. The lesson says the numbers are of the same kind, not that the objects are the same."]
+  ]},
+  { q: "What does the boxed remark say this lesson is not?", a: 0, o: [
+    ["A course in meter, or a palaestra block", "One comparison in duration, so that Augustine’s definition is not reduced to pitch only."],
+    ["Part of the liberal art at all", "It is part of measuring well. It is not the whole of Augustine’s treatise."],
+    ["Audible", "It is the one thing this lesson asks you to hear."],
+    ["Connected to Boethius I.34", "The musicus who judges rhythmos is the reason Boethius is cited."]
+  ]}
+],
+
+"v-species": [
+  { q: "What is a species of the diapason, as this lesson uses the word?", a: 1, o: [
+    ["A new scale, with new concords", "The sounds are the same. The concords are the same."],
+    ["The same eight sounds, walked from another of them to its double, so that the remnant falls in another seat", "Seven places to begin before you have only repeated the first."],
+    ["The church’s eight tones", "The lesson says that mapping is not settled here, and is left open."],
+    ["Aristotle’s ethical harmonia, demonstrated from 4:3", "Character ascribed to a mode is not demonstrated by this arithmetic."]
+  ]},
+  { q: "How many species are there, and why?", a: 2, o: [
+    ["Eight, because there are eight sounds", "Begin at the eighth and you have only repeated the first an octave higher. Seven places remain."],
+    ["Three, the three genera", "Genera divide the fourth. Species walk the filled diapason from another start."],
+    ["Seven, because there are seven places to begin before you have only repeated the first", "The filling is one. The starting-place is a choice."],
+    ["Four, from the tetractys", "The tetractys gives the first concords, not the species."]
+  ]},
+  { q: "Why does the lesson tell you not to name these Dorian or Phrygian yet?", a: 0, o: [
+    ["Because the names of the Greek harmoniai and of the later church tones are not settled onto these seven in one way, and the course leaves that mapping open", "The Appendix has already listed the tangle among questions left open."],
+    ["Because Dorian is not a species but a concord", "Dorian is a name of a mode or harmonia. The caution is about mapping, not about whether the word exists."],
+    ["Because Aristotle forbade the names", "He used them. He used them in ethics, which is not this arithmetic."],
+    ["Because Boethius never discussed species", "He did, in the fourth book. The lesson cites him."]
+  ]},
+  { q: "What is demonstrated here, and what is chosen?", a: 3, o: [
+    ["The names of the modes are demonstrated; the filling is chosen", "The reverse. The filling follows from the first ratios. The starting-place is a choice."],
+    ["Nothing is demonstrated; both are taste", "The filling of 2:1 by 3:2, 4:3, and 9:8 is a consequence, not a taste."],
+    ["Ethos is demonstrated; the remnant is chosen", "Ethos is not demonstrated by this arithmetic."],
+    ["The filling is one, and demonstrated; the starting-place is a choice; character later ascribed to a mode is a claim of ethics", "The distinction this art exists to keep."]
+  ]},
+  { q: "Why does this come now, before the Greater Perfect System?", a: 1, o: [
+    ["Because the GPS is only a species under another name", "The GPS is the filling enlarged, with more tetrachords. Species are views of one diapason."],
+    ["Because without it the filled diapason looks like a single tune, and it is a system", "Later ‘modes’ will otherwise look like new scales, and the distinction between what is demonstrated and what is chosen will be lost."],
+    ["Because E7 cannot be done until the seven are named", "E7 builds the filling. It does not require the names of species."],
+    ["Because church chant must be taught before the GPS", "Chant is not being taught here."]
+  ]},
+  { q: "What stays the same when you begin from the fifth rather than from the first?", a: 0, o: [
+    ["The eight sounds, and the concords that bind them", "What changes is where, in the walk, you meet the remnant."],
+    ["The pattern of remnant and tone as you meet them", "That is exactly what changes."],
+    ["The ethical effect on the hearer, which is thereby proved", "No such proof is offered."],
+    ["Nothing; you have left the art", "You have not left the filling. You have walked it from another of its own sounds."]
+  ]},
+  { q: "The church tones, much later, are what in relation to this?", a: 2, o: [
+    ["The same seven species, proved identical", "The lesson will not say that. The mapping is left open."],
+    ["A refutation of the filling", "They are another grammar laid on such a system, not a refutation of 2:1."],
+    ["Another grammar laid on such a system", "If you take every later mode as a new scale, you have lost what this lesson is for."],
+    ["The Greater Perfect System under a Christian name", "The GPS is Greek and larger than one diapason."]
+  ]},
+  { q: "What should you take from the widget, according to the lesson?", a: 1, o: [
+    ["The correct Greek name for each starting-place", "You are told not to name them Dorian or Phrygian yet."],
+    ["That the remnant falls in a different seat when the same filling is walked from another sound", "Smaller than a theory of modes, and not left open."],
+    ["That species replace genera", "Genera still divide the fourth. Species walk the diapason."],
+    ["That seven is a sacred number, which is why there are seven", "The seven are the remaining starting-places. No mysticism is being taught."]
+  ]},
+  { q: "Character ascribed to a mode — settled, enthusiastic, grave — is, on this page, what?", a: 3, o: [
+    ["Demonstrated once you have heard the seven", "The lesson says it is not demonstrated by this arithmetic."],
+    ["A theorem of harmonics, like 3:2", "3:2 is a ratio of the art. Ethos is named as a claim of ethics."],
+    ["False, because Boethius tangled the names", "The names being tangled does not settle whether melody moves character. That claim is another science’s."],
+    ["A claim of ethics, to be named as one", "It will be named as one. It is not proved here."]
+  ]},
+  { q: "What makes later history intelligible, according to the spirit of this lesson and of the system that follows?", a: 0, o: [
+    ["The distinction between what the art demonstrates and what it permits or chooses inside that demonstration", "The fourths do not shift. Starting-place, genus, later grammar do."],
+    ["The identity of Dorian with the first species", "That identity is not asserted."],
+    ["The replacement of ratio by the staff", "Guido is later, and the ratios do not go away."],
+    ["The silence of the spheres", "Another chapter."]
+  ]}
+],
+
+"ex-iudic": [
+  { q: "What have you just been doing, according to this page?", a: 2, o: [
+    ["Computing lengths on the string", "That is E3, which is next."],
+    ["Naming the five kinds of ratio", "That is E5."],
+    ["Judging pairs as blending or standing apart, without being shown the ratio first", "E2. This page asks where the standard of that judgement came from."],
+    ["Reading Boethius I.34 in Latin", "That waits among the contemplations. This page is about an act you have already performed."]
+  ]},
+  { q: "Why can the standard of that judgement not have come from the sound?", a: 0, o: [
+    ["Because you used it to find the sound wanting, or well measured; a standard given by the sound could not correct the sound", "The page’s first reason."],
+    ["Because sound has no number in it", "The sounding body has numbers — Augustine’s sonantes. They are not the judging numbers."],
+    ["Because E2 forbids listening", "E2 requires listening. It forbids looking up the ratio first."],
+    ["Because Ptolemy trusts reason alone", "Ptolemy forbids trusting either criterion alone."]
+  ]},
+  { q: "Why can it not have come from memory of this pair?", a: 1, o: [
+    ["Because memory is always false", "Augustine names rememberable numbers. He does not call memory false. He says it is not the standard."],
+    ["Because you can judge a pair you have never heard", "So the standard is not this pair stored."],
+    ["Because the palaestra shuffles, and shuffling destroys memory as such", "Shuffling keeps you from memorising a page. The philosophical point is wider: you can judge a measure you have never heard."],
+    ["Because Boethius omitted memory", "Augustine’s list, not Boethius’s three kinds."]
+  ]},
+  { q: "What does Augustine call the numbers by which that judging is done?", a: 3, o: [
+    ["Sonantes — the numbers in the sounding body", "Those are last in dignity. Most men would have stopped there and called that the music."],
+    ["Occursores — the numbers in the ear as it meets the sound", "Encountering numbers. They are made from the sounding ones."],
+    ["Progressores — the numbers in the act of uttering", "The soul’s own act. Not the standard by which the act is judged."],
+    ["Iudiciales — first in dignity, last in the order of discovery", "Not the sounding body. The page says so."]
+  ]},
+  { q: "Does this page replace Augustine’s sixth book?", a: 0, o: [
+    ["No. That book is the place, and it waits in Chapter X and among the contemplations", "Nothing here is scored. The palaestra goes on. The question has been raised at the first honest judgement."],
+    ["Yes: once you have judged E2 you have the sixth book", "Hearing a pair is where the fact is met. The book is the ascent from that fact."],
+    ["Yes, because St. Thomas superseded it", "St. Thomas grants the fact and disputes the account of the light. Neither is this page."],
+    ["No, because Augustine is not an authority of this course", "He is. His metrics are not taught. His sixth book is named as the place."]
+  ]},
+  { q: "What is Socrates’ warning, as this page uses it?", a: 2, o: [
+    ["Do not hear concords at all", "He does not say that. The empirics who only hear are one rejected kind. The Pythagoreans who only number the heard are the other."],
+    ["Do not use a monochord", "The string is this course’s instrument."],
+    ["Do not stop at the numbers in the concords you happen to hear, and never ask which numbers are concordant of themselves, and why", "This course will not answer that for you. It will also not let the palaestra go on as if the question had not arisen."],
+    ["Name every mode before you judge an interval", "Species and ethos are other pages. This one is the standard of judgement."]
+  ]},
+  { q: "Why is this a pause in the palaestra and not a block?", a: 1, o: [
+    ["Because it cannot be heard", "The act it concerns has just been heard, in E2."],
+    ["Because nothing here is scored; it is the question raised by the act, not another draw", "E3 is next when you are ready."],
+    ["Because Guided practice forbids extra pages", "Guided practice returns blocks. This is not a block."],
+    ["Because Augustine forbade exercises", "He wrote a treatise. He did not forbid the palaestra of this course."]
+  ]},
+  { q: "What is first in dignity, and last in the order of discovery, according to this page?", a: 3, o: [
+    ["The sounding body", "Most men would have called that the music. It is last in dignity."],
+    ["The palaestra’s score", "Nothing here is scored."],
+    ["The ratio 3:2", "3:2 is a concord of the art. The judging numbers are the standard by which such a concord is judged, not the concord itself."],
+    ["The judging numbers", "Last found, first in rank. That reversal is the sixth book’s."]
+  ]},
+  { q: "The palaestra, after this page, goes on. Why raise the question now rather than only in Chapter X?", a: 0, o: [
+    ["So that the palaestra does not go on as if the question had not arisen at the first honest judgement", "Chapter X remains the place the course treats the ascent at length."],
+    ["So that E3 can be skipped", "E3 is next."],
+    ["So that Guided turns itself on", "Guided remains your choice, named at the end of the musician chapter."],
+    ["So that the East can be understood", "E10 waits on the Eastern chapter. This pause is not that."]
+  ]},
+  { q: "What will this course not do with Socrates’ question why these numbers please?", a: 2, o: [
+    ["Mention it", "It has mentioned it, here and in Chapter I and in Chapter X."],
+    ["Put you in a position to ask it, with the fact in your possession", "That is what E2 plus this page have done."],
+    ["Answer it for you, or let the palaestra go on as if it had not arisen", "The two refusals of the last paragraph."],
+    ["Connect it to Augustine’s judging numbers", "The page connects them. Both are about a measure not made by you."]
+  ]}
+]
+
+});
+

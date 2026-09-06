@@ -497,7 +497,7 @@ function toggleSpeak() {
 function hookAudioStopsSpeech() {
   if (!Audio || Audio._speakHooked) return;
   Audio._speakHooked = true;
-  ["tone", "interval", "sequence", "chord", "_voice"].forEach(name => {
+  ["tone", "interval", "sequence", "chord", "clicks", "_voice"].forEach(name => {
     if (typeof Audio[name] !== "function") return;
     const orig = Audio[name].bind(Audio);
     Audio[name] = function () {

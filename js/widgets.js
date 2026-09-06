@@ -35,6 +35,10 @@ MusicaArs.mountWidgets = function mountWidgets(root) {
     else if (kind === "tetractys") mountTetractys(el);
     else if (kind === "scale") mountScale(el);
     else if (kind === "listen") mountListen(el);
+    else if (kind === "pulse") mountPulse(el);
+    else if (kind === "species") mountSpecies(el);
+    else if (kind === "clarity") mountClarity(el);
+    else if (kind === "integrity") mountIntegrity(el);
     else if (kind === "compare") mountCompare(el);
     else if (kind === "comma") mountComma(el);
     else if (kind === "temper") mountTemper(el);
@@ -77,6 +81,96 @@ function mountListen(el) {
   b.addEventListener("click", () => Audio.tone(Audio.freqFromLength(len)));
   row.appendChild(b);
   el.appendChild(row);
+}
+
+function mountPulse(el) {
+  const label = el.dataset.label || "Sound the times";
+  const offsets = (el.dataset.times || "0,0.5,1,1.5").split(",").map(Number);
+  const head = document.createElement("div");
+  head.className = "whead";
+  head.innerHTML = `<strong>${label}</strong><span class="readout">times, not pitches</span>`;
+  const play = document.createElement("div");
+  play.className = "playrow";
+  play.innerHTML = `<button class="pbtn primary" data-m="go">Sound them</button>
+    <button class="pbtn" data-m="go">Again</button>`;
+  play.addEventListener("click", e => {
+    if (!e.target.dataset.m) return;
+    Audio.clicks(offsets);
+  });
+  el.append(head, play);
+}
+
+function mountClarity(el) {
+  const head = document.createElement("div");
+  head.className = "whead";
+  head.innerHTML = `<strong>The fifth, clean and injured</strong>
+    <span class="readout">3:2, then the same moved by a comma</span>`;
+  const play = document.createElement("div");
+  play.className = "playrow";
+  play.innerHTML = `
+    <button class="pbtn primary" data-m="pure">The fifth, 3:2</button>
+    <button class="pbtn" data-m="hurt">The blend injured</button>`;
+  play.addEventListener("click", e => {
+    const m = e.target.dataset.m;
+    if (!m) return;
+    const high = m === "hurt" ? Audio.base * 1.5 * Math.pow(2, 22 / 1200) : Audio.base * 1.5;
+    Audio.interval(Audio.base, high, "together");
+  });
+  el.append(head, play);
+}
+
+function mountIntegrity(el) {
+  const L = 256 / 243, T = 9 / 8;
+  const full = [1, L, L * T, 4 / 3];
+  const hole = [1, L, 4 / 3];
+  const head = document.createElement("div");
+  head.className = "whead";
+  head.innerHTML = `<strong>A fourth filled, and a fourth with a hole</strong>
+    <span class="readout">leimma, tone, tone — then a step omitted</span>`;
+  const play = document.createElement("div");
+  play.className = "playrow";
+  play.innerHTML = `
+    <button class="pbtn primary" data-m="full">The tetrachord complete</button>
+    <button class="pbtn" data-m="hole">A step missing</button>`;
+  play.addEventListener("click", e => {
+    const m = e.target.dataset.m;
+    if (!m) return;
+    const rel = m === "hole" ? hole : full;
+    Audio.sequence(rel.map(r => Audio.base * r), 0.42, 0.46);
+  });
+  el.append(head, play);
+}
+
+function mountSpecies(el) {
+  const steps = [9 / 8, 9 / 8, 256 / 243, 9 / 8, 9 / 8, 9 / 8, 256 / 243];
+  const names = ["from the first", "from the second", "from the third", "from the fourth",
+    "from the fifth", "from the sixth", "from the seventh"];
+  const head = document.createElement("div");
+  head.className = "whead";
+  head.innerHTML = `<strong>The same eight sounds, another starting-place</strong>
+    <span class="readout">one diapason, seven species</span>`;
+  const play = document.createElement("div");
+  play.className = "playrow";
+  names.forEach((nm, i) => {
+    const b = document.createElement("button");
+    b.className = "pbtn" + (i === 0 ? " primary" : "");
+    b.textContent = nm;
+    b.dataset.i = String(i);
+    play.appendChild(b);
+  });
+  play.addEventListener("click", e => {
+    const raw = e.target.dataset.i;
+    if (raw == null) return;
+    const start = +raw;
+    const freqs = [Audio.base];
+    let f = Audio.base;
+    for (let k = 0; k < 7; k++) {
+      f *= steps[(start + k) % 7];
+      freqs.push(f);
+    }
+    Audio.sequence(freqs, 0.36, 0.4);
+  });
+  el.append(head, play);
 }
 
 function mountInterval(el) {

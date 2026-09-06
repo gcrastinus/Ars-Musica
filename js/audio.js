@@ -116,6 +116,16 @@ MusicaArs.audio = {
     this._voice(freq, dur, null, 0);
   },
 
+  /* Short attacks at given offsets, for measuring time rather than pitch. */
+  async clicks(offsets, freq, dur) {
+    freq = freq || this.base * 3;
+    dur = dur == null ? 0.08 : dur;
+    await this.unlock();
+    this.stopAll();
+    const now = this.ctx.currentTime;
+    offsets.forEach(o => this._voice(freq, dur, now + o, 0));
+  },
+
   async interval(f1, f2, mode = "together", dur = 1.4) {
     await this.unlock();
     this.stopAll();

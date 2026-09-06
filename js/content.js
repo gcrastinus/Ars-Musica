@@ -324,6 +324,26 @@ MusicaArs.LESSONS = [
 },
 
 {
+  id: "v-time",
+  ch: "V",
+  title: "Two times compared",
+  html: `
+<p>The tone is a measured step in pitch. Augustine’s definition of the art — the science of measuring well — is of motion, and motion is in time as well as in height. This course follows Boethius’s centre of gravity, which is pitch. It will not become a treatise on verse. It owes you one honest case of measure in duration, because the <span class="latin">musicus</span> of Boethius I.34 judges <span class="latin">rhythmos</span> as well as interval, and because the numbers by which you judge a lame foot are the same kind of number by which you judge a grinding pair.</p>
+<p>Four times, equal:</p>
+<div class="widget" data-kind="pulse" data-label="Four equal times" data-times="0,0.48,0.96,1.44"></div>
+<p>The same four, with the third late:</p>
+<div class="widget" data-kind="pulse" data-label="Four times, the third lame" data-times="0,0.48,1.18,1.66"></div>
+<p>You need no name of a foot. One of these is well measured; the other is not. The offence, if you felt it, did not come from the sound as a pitch. The pitches were the same. It came from a measure of time you did not invent for the occasion, and did not take from the sound — you used it to find the sound wanting.</p>
+<p>That is the whole of what this lesson exists to give you. Augustine spent five books numbering such times in the feet of verse. Those books remain his. Franco, later, will put duration on the page; that is history, and it will wait. What you have now is the fact: measuring well is of time also, and the judge of a lame foot is already at work in you.</p>
+<div class="remark">
+  <h4>What this is not</h4>
+  <p>It is not a course in meter. It is not a palaestra block. It is the one comparison in duration this art, as we are teaching it, must not omit, or Augustine’s definition would be a sentence about pitch only, which it is not.</p>
+</div>
+`,
+  sources: "Augustine, De musica I.2 and I–V (meter, which this course does not teach); Boethius, De inst. mus. I.34 (the musicus judges rhythms as well as intervals)."
+},
+
+{
   id: "means-1",
   ch: "V",
   title: "The three means, and the musical proportion",
@@ -374,6 +394,23 @@ MusicaArs.LESSONS = [
 </div>
 `,
   sources: "Boethius, De inst. mus. I.21–27, II; Nicomachus, Manual 7–9; the leimma 256:243 is the standard Pythagorean remainder. Hattrup: the opus of harmonics is the scale generated from 2:1, 3:2, 4:3."
+},
+
+{
+  id: "v-species",
+  ch: "V",
+  title: "The species of the diapason",
+  html: `
+<p>You have filled the diapason. The eight sounds, and the pattern of tones and remnant that joins them, are a consequence of 2:1, 3:2, 4:3, and 9:8. Begin at a different one of those eight, and walk the same steps to the double of that beginning. The sounds are the same. The pattern of remnant and tone, as you meet them, is not.</p>
+<p>That change is what the ancients called a <em>species</em> of the diapason. There are seven, because there are seven places to begin before you have only repeated the first. Sound them. Do not yet name them Dorian or Phrygian. The names of the Greek <span class="latin">harmoniai</span> and of the later church tones are not settled onto these seven in one way, and this course leaves that mapping open.</p>
+<div class="widget" data-kind="species"></div>
+<p>What you should take is smaller and is not left open. The filling is one. The starting-place is a choice. Character that later writers ascribe to a mode — settled, enthusiastic, grave — is not demonstrated by this arithmetic. It is a claim of ethics, and it will be named as one. The arithmetic you have just heard is only this: the same concords, walked from another of their own sounds, present the remnant in a different seat.</p>
+<div class="remark">
+  <h4>Why this comes now</h4>
+  <p>Because without it, the filled diapason looks like a single tune. It is a system. The Greater Perfect System in the next chapter is that system enlarged. The church tones, much later, are another grammar laid on such a system. If you do not hear the seven species as seven views of one filling, you will take every later “mode” as a new scale, and you will have lost the distinction this art exists to keep: what is demonstrated, and what is chosen inside the demonstration.</p>
+</div>
+`,
+  sources: "Boethius, De inst. mus. IV.14–15 (species of the diapason); I.21–27 (the filling). The mapping of these species onto named Greek harmoniai and onto the church tones is listed among the questions the Appendix leaves open."
 },
 
 {
@@ -457,6 +494,7 @@ MusicaArs.LESSONS = [
 <p><strong>Human music</strong> is the proportion of soul to body, and of the parts of the soul to one another. Boethius means a real analogy: the same kind of order that makes two strings concordant is the kind of order that makes a living human being one. Ethics and <em>De anima</em> treat this more properly than harmonics does. We should not force the 3:2 of a string to become a proof in psychology. We should also not call the analogy empty. St. Thomas holds that the soul’s powers are ordered, and that music moves the passions by a “hidden correspondence” of melody to affection (he quotes Augustine to this effect in ST II-II q.91 a.2 ad 5). That is enough for a first-principles course to admit, and not to inflate.</p>
 <p><strong>World music</strong> is the one that needs a distinction. Pythagoras and Boethius speak of the harmony of the heavens, as if the spheres sounded. Aristotle, in <em>De caelo</em> II, denies that the heavenly bodies produce sound: they do not strike a medium as a string strikes the air. There is no concert in the sky. So if <span class="latin">musica mundana</span> means audible chords from the planets, it is not so.</p>
 <p>If it means that the cosmos is ordered in number, measure, and weight — Wisdom 11:21 — then it is so, and astronomy is the middle science that shows the order to the eye as harmonics shows order to the ear. Plato’s <em>Timaeus</em> even uses the musical ratios to mark the world-soul. That is a cosmological claim, not a harmonics class. What harmonics can say without trespassing is modest: the same first ratios that please in sound are among the first ratios by which ordered motion is intelligible. Music and astronomy are, in that limited sense, companions. They are not two performances of one symphony.</p>
+<p>So <span class="latin">musica mundana</span> is not empty once the spheres are silent. The string is not the cosmos, and the cosmos is not a concert. Both are ordered, and the order is of the same kind so far as number reaches. That is as far as this art may go without becoming astronomy, or a myth of the world-soul. The rest belongs to those sciences, and to the contemplations that point toward them without pretending to have proved them on a wire.</p>
 <div class="remark">
   <h4>Not doctrinaire</h4>
   <p>We do not mock Boethius for the spheres. We distinguish a true doctrine of cosmic order from a physical claim Aristotle rejects. We do not turn every tetrachord into a map of the soul. Analogy is not demonstration. The art you can now practice on a string does not become more liberal by being inflated into a worldview. It becomes more liberal by being known as far as its principles go, and by knowing where they stop.</p>
@@ -484,6 +522,7 @@ MusicaArs.LESSONS = [
 <p>What remains, and is not first: the chromatic and enharmonic genera; the Greater Perfect System of the Greeks; the church modes and the Guidonian hexachord; Ptolemy’s complete tables; Augustine’s metrics; composition; the ethics of melody in full. You could spend a year on any of these. You would spend it well only if 2:1, 3:2, 4:3, and 9:8 were already in your ear and in your reason — as they now can be.</p>
 <p>One of those roads is walked in this course, because a student who knows the art and nothing of what became of it is easy prey for the claim that the art was refuted. <span class="xref" data-ch="VII"></span> follows the passage from this intonation to the tempered instruments of later Europe, and asks at the end which of the six lines above still stand. It is not first, and it is not for reading before the string is known by ear.</p>
 <p>The string at 1, at 3/4, at 2/3, at 1/2, heard apart and together: if you can say what you are hearing, you have begun the art.</p>
+<p>What follows is the palaestra: that judging as an act, got by acts. If you mean to possess the art, turn on <strong>Guided</strong> at the top before you begin; a habit that is not used is not kept. Boethius’s own words, without a gloss in front of them, are among the contemplations, at <span class="xref" data-to="c-musician"></span>. They are not a gate. They name the end.</p>
 <div class="widget" data-kind="monochord" data-start="3/4"></div>
 `,
   sources: "Boethius, De inst. mus. I.34; Aquinas, Super Boethium De Trinitate q.5 a.1 ad 3; ST II-II q.91 a.2."
@@ -514,7 +553,7 @@ MusicaArs.LESSONS = [
   <b>E9</b><span>the examination — a mixed draw from all of them</span>
   <b>E10 · E11</b><span>the ear again, further out: the tetrachord divided six ways, and a line heard against a held sound. These belong to <span class="xref" data-ch="east"></span> and should wait until you have read it.</span>
 </div>
-<p>They are best taken in that order the first time. Afterwards, return to whichever has gone cold.</p>
+<p>They are best taken in that order the first time. After E2 there is a pause, not a block, on the measure by which you judged. Afterwards, return to whichever block has gone cold.</p>
 <div class="why-block">
   <h4>Why any of this is worth doing</h4>
   <p>Because the liberal art is <em>ordered to knowing</em> <span class="xref" data-to="lib-1"></span>, and knowing is a state of a man, not a state of a book. Boethius’s <span class="latin">musicus</span> is the one who <em>judges</em>; judging is an act; and no one performs an act well who has not performed it often. The exercises are not a test of whether you read carefully. They are the means by which reading becomes possession.</p>
@@ -532,6 +571,7 @@ MusicaArs.LESSONS = [
   html: `
 <p>Two sounds are given. Say which interval they make: the unison, the diapason, the diapente, the diatessaron, or the tone. Sound them together and in succession as often as you like before answering.</p>
 <p>If you are beginning, expect the diapason to be easy, the tone to be easy, and the fifth against the fourth to be hard. That is the right order of difficulty, and the fifth against the fourth is the discrimination this whole block exists to give you. Go back to the <strong>String</strong> at the top of the page whenever you want to hear a ratio you are sure of.</p>
+<p>You may match these sounds with the voice if it helps the ear. The art is not the matching. Boethius’s musician is the one who can say what he has heard.</p>
 <div class="why-block">
   <h4>Why this block, and what it is for</h4>
   <p>Because a middle science takes its <em>subject</em> from the senses. Aristotle states the principle without softening it: if a sense is lacking, some knowledge must be lacking too. The subject of harmonics is sounding pitch <em>as heard</em>, and a man whose ear cannot tell a fourth from a fifth does not have the subject of this science in front of him. He has a page about it.</p>
@@ -550,6 +590,9 @@ MusicaArs.LESSONS = [
   html: `
 <p>Two sounds are given together. Do they blend into one richer sound, or do they remain two and stand apart? Judge <em>before</em> the ratio is shown to you. That order is the whole point of the exercise.</p>
 <p>The concords of this art are the multiple and the first two superparticular ratios and what is compounded of them: 2:1, 3:2, 4:3, and also 4:1 and 3:1. The rest of what you will hear here — the tone, the leimma, the ditone, the semiditone — are lawful intervals of the art and necessary steps in the scale, and not concords.</p>
+<p>St. Thomas names three conditions of beauty: integrity, due proportion, and clarity. Concord is due proportion heard. Two other injuries belong with it, and this block now asks for them as well. A fifth moved off 3:2 still resembles a fifth, and the blend is not clean: proportion approached, clarity lost. A fourth with a step omitted is a tetrachord impaired: integrity lost. Hear them here first, where they are not scored as history, only as hearing.</p>
+<div class="widget" data-kind="clarity"></div>
+<div class="widget" data-kind="integrity"></div>
 <div class="why-block">
   <h4>Why this block, and what it is for</h4>
   <p>Because concord and discord is the <em>first</em> distinction of the art, and because Augustine defines music as <span class="latin">scientia bene modulandi</span> — the science of measuring well. To measure well you must first be able to notice that a measure has been well or ill taken. That noticing comes before every ratio in this course.</p>
@@ -562,6 +605,22 @@ MusicaArs.LESSONS = [
 </div>
 `,
   sources: "Augustine, De musica I.2; Boethius, De inst. mus. I.7–8, I.16; Ptolemy, Harmonics I.1–2; Zarlino, Le istitutioni harmoniche (1558)."
+},
+
+{
+  id: "ex-iudic",
+  ch: "ex",
+  n: "·",
+  kicker: "Palaestra",
+  title: "The measure you did not make",
+  html: `
+<p>You have just judged pairs as blending or standing apart, without being shown the ratio first. Ask, while the act is still yours, where the standard of that judgement came from.</p>
+<p>It did not come from the sound. You used it to find the sound wanting, or to find it well measured. A standard given by the sound could not correct the sound.</p>
+<p>It did not come from memory of this pair. You can judge a pair you have never heard. Augustine calls the numbers by which that judging is done <span class="latin">iudiciales</span>. They are not the sounding body, which most men would have called the music. They are first in dignity, and last in the order of discovery.</p>
+<p>This page does not replace his sixth book. That book is the place, and it waits in <span class="xref" data-to="end-2"></span> and among the contemplations, <span class="xref" data-to="c-ascent"></span>. Socrates, at the same fork, warns the Pythagoreans not to stop at the numbers in the concords they happen to hear, and never to ask which numbers are concordant of themselves, and why. This course will not answer that for you. It will also not let the palaestra go on as if the question had not arisen at the first honest judgement.</p>
+<p>Nothing here is scored. E3 is next when you are ready.</p>
+`,
+  sources: "Augustine, De musica VI.ii.2 and VI.iv; Plato, Republic VII 531c; Boethius, De inst. mus. I.9."
 },
 
 {

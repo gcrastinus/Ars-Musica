@@ -98,6 +98,36 @@ function judgeItem() {
   );
 }
 
+function judgeClarity() {
+  const wide = Math.random() < 0.5;
+  const r = wide ? (3 / 2) * Math.pow(2, 22 / 1200) : 3 / 2;
+  return mc(
+    "Sound these together. Is this the fifth of the art, unimpaired, or is the blend injured?",
+    ["Unimpaired — the fifth as the art measures it", "Injured — near a fifth, but the blend is not clean"],
+    wide ? 1 : 0,
+    wide
+      ? "The upper sound was moved by about a comma. Due proportion is approached, not kept. Clarity, which St. Thomas names with proportion among the conditions of beauty, is what has been lost."
+      : "That was 3:2. The blend is the diapente.",
+    two(1, r)
+  );
+}
+
+function judgeIntegrity() {
+  const missing = Math.random() < 0.5;
+  const L = 256 / 243, T = 9 / 8;
+  const rel = missing ? [1, L, 4 / 3] : [1, L, L * T, 4 / 3];
+  return {
+    type: "mc",
+    ask: "A fourth is to be filled by remnant, tone, and tone. Is this fourth complete, or is a step missing?",
+    options: ["Complete — the tetrachord as the art fills it", "Incomplete — a step is missing"],
+    answer: missing ? 1 : 0,
+    why: missing
+      ? "A standing fourth with a hole in it. Integrity is a condition of beauty: what is impaired is, by that fact, ugly."
+      : "Leimma, tone, tone. The fourth is filled.",
+    sound: { voices: rel, mode: "seq", many: true }
+  };
+}
+
 /* ---------- E3 · length and pitch ---------- */
 const LENGTH_ITEMS = [
   () => ratio("The string is stopped at <b>3/4</b> of its length. What is the pitch of the stopped string to the open string? Give it as a ratio.",
@@ -314,7 +344,11 @@ const SCI = [
   ["God ought to be praised with song.", 5, "St. Thomas treats this at ST II-II q.91. Its principles are revealed, not arithmetical."],
   ["Beauty requires integrity, due proportion, and clarity.", 5, "A claim about being as such, made in sacred doctrine at ST I q.39 a.8. Harmonics gives it one verified instance; it does not establish it."],
   ["Two thirds of the string sounds a fifth above the whole.", 0, "The middle science: a physical subject, an arithmetical middle term."],
-  ["Twelve fifths overshoot seven diapasons.", 1, "No power of 3 is a power of 2. The proof needs no sound at all."]
+  ["Twelve fifths overshoot seven diapasons.", 1, "No power of 3 is a power of 2. The proof needs no sound at all."],
+  ["The Dorian produces a moderate and settled temper.", 3, "Aristotle in Politics VIII. The claim is about character, not about a ratio. Moral and political science."],
+  ["Even in mere melodies there is an imitation of character.", 3, "Aristotle again. Harmonics can say what interval you heard. It cannot demonstrate this."],
+  ["Ethical melodies are to be preferred in the education of the young.", 3, "A rule for formation in the city. The end is the citizen, not the scale."],
+  ["The Phrygian inspires enthusiasm.", 3, "An effect ascribed to a mode. The ascription is ethics, whether or not one accepts it."]
 ];
 function sciItem() {
   const t = R.pick(SCI);
@@ -406,7 +440,10 @@ const SETS = {
   "judge": {
     title: "Concord and discord",
     size: 10,
-    build: () => Array.from({ length: 10 }, judgeItem)
+    build: () => R.shuffle(
+      Array.from({ length: 6 }, judgeItem)
+        .concat(Array.from({ length: 2 }, judgeClarity), Array.from({ length: 2 }, judgeIntegrity))
+    )
   },
   "length": {
     title: "Length and pitch",
