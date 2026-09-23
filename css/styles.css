@@ -851,3 +851,14 @@ code {
   .gps-row { grid-template-columns: 1fr auto; }
   .gps-row .gstep { display: none; }
 }
+
+
+.designer-credit{
+  text-align:center;
+  margin:28px auto 8px;
+  max-width:40rem;
+  font-size:0.95rem;
+  font-style:italic;
+  line-height:1.45;
+  color:var(--muted);
+}
