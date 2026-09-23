@@ -190,6 +190,77 @@ header h1 small {
 #b-speak[aria-pressed="true"] {
   color: var(--ember);
 }
+.speak-unit {
+  display: inline-flex;
+  align-items: stretch;
+  position: relative;
+  flex-shrink: 0;
+  background: var(--panel2);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+}
+.speak-unit:hover { border-color: var(--gold); }
+.speak-unit #b-speak {
+  border: none;
+  background: transparent;
+  border-radius: 8px 0 0 8px;
+  box-shadow: none;
+}
+.speak-unit #b-speak:hover { border: none; }
+.speak-rate { display: flex; }
+.speak-rate-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.6em;
+  padding: 6px 8px;
+  border: none;
+  border-left: 1px solid var(--rule);
+  background: transparent;
+  color: inherit;
+  font-size: 11px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.speak-rate-btn:hover,
+.speak-rate.open .speak-rate-btn {
+  background: color-mix(in srgb, var(--gold) 14%, var(--panel2));
+}
+.speak-rate-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 30;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  min-width: 4.5em;
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+.speak-rate-menu[hidden] { display: none; }
+.speak-rate-menu li {
+  font-family: var(--sans);
+  font-size: 13px;
+  padding: 7px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.speak-rate-menu li:hover,
+.speak-rate-menu li:focus {
+  background: var(--panel2);
+  color: var(--gold);
+}
+.speak-rate-menu li[aria-selected="true"] {
+  color: var(--gold);
+  background: color-mix(in srgb, var(--gold) 12%, var(--panel));
+}
 #b-nav { display: none; flex-shrink: 0; }
 nav {
   grid-area: nav;

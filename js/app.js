@@ -23,6 +23,7 @@ const STORE = "musica-ars.v1";
 const state = {
   id: (LESSONS && LESSONS[0] && LESSONS[0].id) || "welcome",
   theme: "dark",
+  speakRate: 1,
   done: {},
   answers: {},
   drills: {},
@@ -109,12 +110,17 @@ function load() {
   try {
     const raw = JSON.parse(localStorage.getItem(STORE) || "{}");
     if (raw.theme === "light" || raw.theme === "dark") state.theme = raw.theme;
+    if (typeof raw.speakRate === "number" && isFinite(raw.speakRate)) state.speakRate = raw.speakRate;
     if (raw.id && byId[raw.id]) state.id = raw.id;
     if (raw.done && typeof raw.done === "object") state.done = raw.done;
     if (raw.answers && typeof raw.answers === "object") state.answers = raw.answers;
     if (raw.drills && typeof raw.drills === "object") state.drills = raw.drills;
     if (raw.contemplations && typeof raw.contemplations === "object") state.contemplations = raw.contemplations;
     if (typeof raw.guided === "boolean") state.guided = raw.guided;
+  } catch (_) { /* ignore */ }
+  try {
+    const sr = parseFloat(localStorage.getItem("studium-musica-speak-rate") || "");
+    if (sr && [1, 1.5, 2, 2.5, 3].indexOf(sr) >= 0) state.speakRate = sr;
   } catch (_) { /* ignore */ }
   try { state.sound = sessionStorage.getItem(STORE + ".sound") === "1"; } catch (_) { /* ignore */ }
   document.documentElement.dataset.theme = state.theme;
@@ -126,7 +132,8 @@ function save() {
     localStorage.setItem(STORE, JSON.stringify({
       theme: state.theme, id: state.id, done: state.done,
       answers: state.answers, drills: state.drills,
-      contemplations: state.contemplations, guided: state.guided
+      contemplations: state.contemplations, guided: state.guided,
+      speakRate: state.speakRate
     }));
   } catch (_) { /* file:// or private mode */ }
 }
@@ -349,7 +356,7 @@ function setSpeaking(on) {
   b.setAttribute("aria-pressed", on ? "true" : "false");
   b.setAttribute("aria-label", on ? "Stop reading" : "Read this page");
   b.title = on ? "Stop reading (r)" : "Read this page (r)";
-  b.textContent = on ? "⏹" : "🔊";
+  b.textContent = on ? "❚❚" : "▶";
 }
 
 function stopSpeak() {
@@ -363,7 +370,7 @@ MusicaArs.stopSpeak = stopSpeak;
 function skipSpeakEl(el) {
   if (!el || el.nodeType !== 1) return false;
   if (el.hidden || el.getAttribute("aria-hidden") === "true") return true;
-  if (el.matches(".pager, .sound-banner, .invite, .kicker, .sources, .playrow, .dots, .drill-next, .drill-sound, .drill-input, .snaps, .scale-keys, .tbtns, .ratio-row, .tetractys, svg, .mono-svg")) return true;
+  if (el.matches(".pager, .sound-banner, .invite, .kicker, .sources, .playrow, .dots, .drill-next, .drill-sound, .drill-input, .snaps, .scale-keys, .tbtns, .ratio-row, .tetractys, svg, .mono-svg, .speak-rate, .speak-unit")) return true;
   if (el.matches("button.pbtn, button.tbtn, button.key, input")) return true;
   if (el.matches(".explain") && !el.classList.contains("show")) return true;
   if (el.matches(".whead")) {
@@ -477,7 +484,7 @@ function startSpeak() {
     if (gen !== speakGen) return;
     if (i >= chunks.length) { setSpeaking(false); return; }
     const u = new SpeechSynthesisUtterance(chunks[i]);
-    u.rate = 0.94;
+    u.rate = state.speakRate || 1;
     u.lang = "en-US";
     if (voice) u.voice = voice;
     u.onend = () => { i += 1; next(); };
@@ -504,6 +511,59 @@ function hookAudioStopsSpeech() {
       stopSpeak();
       return orig.apply(this, arguments);
     };
+  });
+}
+
+
+function bindSpeakRate() {
+  const rateEl = $("#speak-rate");
+  if (!rateEl) return;
+  const RATES = [1, 1.5, 2, 2.5, 3];
+  if (RATES.indexOf(state.speakRate) < 0) state.speakRate = 1;
+  const rateBtn = rateEl.querySelector(".speak-rate-btn");
+  const rateMenu = rateEl.querySelector(".speak-rate-menu");
+  function applyRateUI(r) {
+    if (RATES.indexOf(r) < 0) r = 1;
+    state.speakRate = r;
+    if (rateMenu) {
+      rateMenu.querySelectorAll("[data-rate]").forEach(li => {
+        li.setAttribute("aria-selected", parseFloat(li.getAttribute("data-rate")) === r ? "true" : "false");
+      });
+    }
+  }
+  applyRateUI(state.speakRate);
+  function closeRateMenu() {
+    rateEl.classList.remove("open");
+    if (rateBtn) rateBtn.setAttribute("aria-expanded", "false");
+    if (rateMenu) rateMenu.hidden = true;
+  }
+  function openRateMenu() {
+    rateEl.classList.add("open");
+    if (rateBtn) rateBtn.setAttribute("aria-expanded", "true");
+    if (rateMenu) rateMenu.hidden = false;
+  }
+  if (rateBtn) {
+    rateBtn.addEventListener("click", ev => {
+      ev.stopPropagation();
+      if (rateMenu && rateMenu.hidden) openRateMenu();
+      else closeRateMenu();
+    });
+  }
+  if (rateMenu) {
+    rateMenu.addEventListener("click", ev => {
+      const li = ev.target.closest("[data-rate]");
+      if (!li) return;
+      applyRateUI(parseFloat(li.getAttribute("data-rate")) || 1);
+      try { localStorage.setItem("studium-musica-speak-rate", String(state.speakRate)); } catch (_) { /* ignore */ }
+      save();
+      closeRateMenu();
+    });
+  }
+  document.addEventListener("click", ev => {
+    if (!rateEl.contains(ev.target)) closeRateMenu();
+  });
+  document.addEventListener("keydown", ev => {
+    if (ev.key === "Escape") closeRateMenu();
   });
 }
 
@@ -551,6 +611,7 @@ function init() {
   if (hash && byId[hash]) state.id = hash;
   $("#b-theme").addEventListener("click", toggleTheme);
   $("#b-speak").addEventListener("click", toggleSpeak);
+  bindSpeakRate();
   $("#b-lab").addEventListener("click", () => go("lab"));
   $("#b-guide")?.addEventListener("change", onGuideChange);
   applyGuide();
