@@ -1,1 +1,4 @@
 .DS_Store
+
+# Source PDFs live in Dropbox, not the repo
+*.pdf
