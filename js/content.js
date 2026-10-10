@@ -618,7 +618,7 @@ MusicaArs.LESSONS = [
 <p>We have just judged pairs as blending or standing apart, without being shown the ratio first. While the act is still fresh, we may ask where the standard of that judgment came from.</p>
 <p>It did not come from the sound, because we used it to find the sound wanting, or to find it well measured, and a standard given by the sound could not correct the sound.</p>
 <p>It did not come from memory of this pair, because we can judge a pair we have never heard. Augustine calls the numbers by which that judging is done <span class="latin">iudiciales</span>. They are not the sounding body, which most men would have called the music. They are first in dignity, and last in the order of discovery.</p>
-<p>This page does not replace his sixth book. That book is the place, and it waits in <span class="xref" data-to="end-2"></span> and among the contemplations, <span class="xref" data-to="c-ascent"></span>. Socrates, at the same point, warns the Pythagoreans not to stop at the numbers in the concords they happen to hear, and never to ask which numbers are concordant of themselves, and why. This course will not answer that question for us, but it will also not let the palaestra go on as if the question had not arisen at the first honest judgment.</p>
+<p>This lesson does not replace his sixth book. That book is the place, and it waits in <span class="xref" data-to="end-2"></span> and among the contemplations, <span class="xref" data-to="c-ascent"></span>. Socrates, at the same point, warns the Pythagoreans not to stop at the numbers in the concords they happen to hear, and never to ask which numbers are concordant of themselves, and why. This course will not answer that question for us, but it will also not let the palaestra go on as if the question had not arisen at the first honest judgment.</p>
 <p>Nothing here is scored. E3 is next when you are ready.</p>
 `,
   sources: "Augustine, De musica VI.ii.2 and VI.iv; Plato, Republic VII 531c; Boethius, De inst. mus. I.9."
@@ -1267,7 +1267,7 @@ MusicaArs.LESSONS = [
   title: "The freedom of the judge",
   html: `
 <p>This last lesson asks why a man alive now should have spent these weeks on one string.</p>
-<p>Nothing here will be an argument that the art is <em>useful</em>, because that would give away the case in the first sentence. These are four things that are true of you now and were not before.</p>
+<p>Nothing here will be an argument that the art is <em>useful</em>, because that would give away the case in the first sentence. These are four things that are true of us now and were not before.</p>
 
 <h4 class="sec">1. We now have a counterexample.</h4>
 <p>The educated modern picture is roughly this: quantity is real and out in the world; quality (beauty, fittingness, harmony) is in us, and is projected onto things. Almost nobody arrives at that picture by argument. It is absorbed, and then it is presupposed.</p>

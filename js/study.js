@@ -55,7 +55,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Most lessons, the page says, ask you to do what?", a: 0, o: [
     ["Hear something: one sound, then another, then both together", "The pictures are not decoration; they show the little bridge on the string, and then the reason the sound is as it is."],
-    ["Memorise a table of intervals", "No table is offered on this page, and later the palaestra is built so that an exercise block cannot be memorized; only the skill can be learned."],
+    ["Memorise a table of intervals", "No table is offered in this lesson, and later the palaestra is built so that an exercise block cannot be memorized; only the skill can be learned."],
     ["Write a short essay on Boethius", "Reading is required; the distinctive demand of the lessons is hearing."],
     ["Pass a check before the next lesson will open", "Nothing on the opening page is gated, and every part of the course is open."]
   ]},
@@ -542,7 +542,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Boethius says the same at the end of his first book. In what words?", a: 0, o: [
     ["The true <span class=\"latin\">musicus</span> is the one who judges by reason", "Judging is an act of the intellect, not a skill of the hand, and this is a definition of a man, not of a repertoire. The rest of the course keeps to this definition."],
-    ["The true <span class=\"latin\">musicus</span> is the one who sings by rule", "Singing by rule is still singing, and a rule followed is not a judgement made. The distinction being drawn turns on an act of the intellect."],
+    ["The true <span class=\"latin\">musicus</span> is the one who sings by rule", "Singing by rule is still singing, and a rule followed is not a judgment made. The distinction being drawn turns on an act of the intellect."],
     ["The true <span class=\"latin\">musicus</span> is the one who has learned the whole of arithmetic", "Arithmetic is presupposed by this art, and having it is not what the definition turns on. The mark named is an act, not a list of prior studies."],
     ["The true <span class=\"latin\">musicus</span> is the one who hears most finely", "A fine ear is a gift of sense, and the point of the whole distinction is that sense is not what makes the man. Ask which power is being named."]
   ]},
@@ -759,7 +759,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Changing one quantity and hearing another quantity change with it", "That sentence is the method of the whole art in a dozen words. What makes this a science is not the sound but the dependence of one measured thing upon another."]
   ]},
   { q: "Who, according to the lesson, tells the story of Pythagoras and the hammers?", a: 1, o: [
-    ["Ptolemy and Euclid", "Neither is named on this page at all. Look at the sentence that introduces the smithy and see whose names stand in front of it."],
+    ["Ptolemy and Euclid", "Neither is named in this lesson at all. Look at the sentence that introduces the smithy and see whose names stand in front of it."],
     ["Nicomachus and Boethius", "The pair recurs throughout this course: the Greek manual and the Latin treatise that carried it into the Middle Ages. Both are named again in the sources line at the foot of the page."],
     ["St. Thomas, in his commentary", "He appears elsewhere in this course, and not here. The tellers of the story are named in the remark; go back and read its opening words."],
     ["The lesson gives no source for the story", "It gives two, in the very first words of the remark, and repeats them in the sources line. Read the remark again from its first sentence."]
@@ -786,7 +786,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That strings were the instruments the Greeks actually played", "What the Greeks played is a fact about their music, not about demonstration, and the lesson’s reason is a reason about showing. Ask what the string does that the alternative fails to do."],
     ["That the string shows the number cleanly: one quantity is varied and the sound follows it, with nothing else intervening", "Trust here is earned by transparency, not by antiquity. Everything in the chapters that follow is measured on this one wire, which is why a whole lesson is spent on it."],
     ["That a string can be tuned and a hammer cannot", "Tuning is not the issue; the lesson holds tension fixed throughout so that tuning shall not come into question. Ask what the lesson says the string displays."],
-    ["That the string is older than the smithy", "No claim of age is made anywhere on the page, and the lesson has already refused to decide by antiquity. Look for a reason drawn from what can be measured and seen."]
+    ["That the string is older than the smithy", "No claim of age is made anywhere in the lesson, and the lesson has already refused to decide by antiquity. Look for a reason drawn from what can be measured and seen."]
   ]}
 ],
 
@@ -811,7 +811,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Which pairing of names and ratios does the lesson give?", a: 3, o: [
     ["3:2 is the <span class=\"latin\">diatessaron</span>; 4:3 is the <span class=\"latin\">diapente</span>", "You have exchanged the two names. One name belongs to the two-thirds stopping and the other to the three-quarters; re-read which sentence introduces which."],
-    ["3:2 is the <span class=\"latin\">diapason</span>; 4:3 is the <span class=\"latin\">diapente</span>", "The first name belongs to the concord of the preceding chapter, sounded at half the string, and neither stopping on this page falls at the halfway point."],
+    ["3:2 is the <span class=\"latin\">diapason</span>; 4:3 is the <span class=\"latin\">diapente</span>", "The first name belongs to the concord of the preceding chapter, sounded at half the string, and neither stopping in this lesson falls at the halfway point."],
     ["3:2 is the tone; 4:3 is the <span class=\"latin\">diapente</span>", "The lesson calls both of its intervals concords, and neither is called a step. Look at the two sentences that introduce the stoppings and at the name each one gives."],
     ["3:2 is the <span class=\"latin\">diapente</span>, the fifth; 4:3 is the <span class=\"latin\">diatessaron</span>, the fourth", "It is better to associate the Greek name with the ratio than with the modern ordinal, because the ratio is what is demonstrated on the string, and the name is given to it afterwards."]
   ]},
@@ -819,7 +819,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["So completely that the two seem one sound raised", "That was the course’s description of the concord of the preceding chapter, and this lesson says expressly that the blending here is not of that kind. Re-read the sentence that follows the first sound example."],
     ["It does not blend at all; the two sounds merely stand side by side", "The lesson calls it a concord and says that it blends. You have described what the art will say of a step, not what it says here."],
     ["It blends, but not as the <span class=\"latin\">diapason</span> blends; we hear two sounds, and we hear that they belong together", "We hear two sounds, and they are evidently together. In the earlier description the higher sound seemed to be the lower one raised, and that contrast is the difference between the first concord and the second."],
-    ["It blends only when the sounding length is very short", "Nothing on the page makes blending depend on absolute length; the whole doctrine concerns the ratio between two lengths. Ask what the lesson says we hear, in its own words."]
+    ["It blends only when the sounding length is very short", "Nothing in the lesson makes blending depend on absolute length; the whole doctrine concerns the ratio between two lengths. Ask what the lesson says we hear, in its own words."]
   ]},
   { q: "The lesson observes that many who cannot yet match a 2:1 will still find a 3:2 with the voice. What does it draw from this?", a: 0, o: [
     ["That the fifth is the other great standing-apart in song", "This is an observation about singers set beside the arithmetic, not in place of it. The ratio remains the reason, and the singing is a sign that the ratio is not an arbitrary choice."],
@@ -854,7 +854,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "A string 12 units long is stopped for each of the three first concords. At what lengths does the bridge stand?", a: 3, o: [
     ["6, 4 and 3 units", "You have divided by the greater term of each ratio instead of taking the fraction the lesson names. Ask what part of the whole is left sounding for each concord, then apply it to twelve."],
     ["24, 18 and 16 units", "Every one of these is longer than the string you began with. You have multiplied where the fraction called for taking a part; check the direction before dividing."],
-    ["6, 8 and 10 units", "The first two follow the fractions named on the page and the third answers to no stopping the lesson gives. Work out three-quarters of twelve and compare."],
+    ["6, 8 and 10 units", "The first two follow the fractions named in the lesson and the third answers to no stopping the lesson gives. Work out three-quarters of twelve and compare."],
     ["6, 8 and 9 units", "The fractions are a half, two-thirds and three-quarters. Against the open twelve they give 12:6, 12:8 and 12:9, which are 2:1, 3:2 and 4:3 in whole numbers."]
   ]}
 ],
@@ -1026,7 +1026,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because half of 9:8 would be a mean the art does not take as a first principle, and 256:243 is not that mean in any case", "The sentence makes two objections: the operation is not admitted, and the number would not correspond to it if it were. The first is the more important, because it is why this art has no ‘semitone’ properly so called."],
     ["Because it is larger than a tone, not smaller", "The lesson says outright that it is smaller than a tone. Read the sentence just before the denial and note which way the comparison runs."],
     ["Because a tone cannot be divided at all, being a first principle", "The art’s reluctance concerns what it will take as a starting point, not what is mathematically possible. Read what the lesson says halving would require."],
-    ["Because 256:243 is a concord, and half-tones are not", "Nothing on the page calls this remnant a concord; the concords were settled two chapters ago, and this is what was left when one of them was divided. The objection made here is arithmetical."]
+    ["Because 256:243 is a concord, and half-tones are not", "Nothing in the lesson calls this remnant a concord; the concords were settled two chapters ago, and this is what was left when one of them was divided. The objection made here is arithmetical."]
   ]},
   { q: "Count the steps of the filled diapason as the lesson lists them. How many of each?", a: 2, o: [
     ["Six tones and one leimma", "Read the pattern the lesson prints and count each name in it separately. How many remnants there are follows from how many tetrachords there are."],
@@ -2176,7 +2176,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That the eight modes described there are the six categories of the Coptic year under other names", "The lesson keeps the two schemes apart and never equates them: the categories are seasons, and one scheme has eight members where the other has six. Re-read what the scholars are said to claim."],
     ["That no eight-mode system appears in the repertory and no cantor is known to have worked from them, so that the passages belong to a wider Greek and Arabic literature on the moral effects of music", "Ilona Borsai put the question directly in a paper of 1974, asking whether there is an Octoechos in the Coptic system. The lesson reports the reading and leaves it there."]
   ]},
-  { q: "Razumovsky and Voznesensky analysed the <span class=\"latin\">glasy</span> with the Western apparatus of final, dominant and ambitus. What has been urged against that, and by whom?", a: 1, o: [
+  { q: "Razumovsky and Voznesensky analyzed the <span class=\"latin\">glasy</span> with the Western apparatus of final, dominant and ambitus. What has been urged against that, and by whom?", a: 1, o: [
     ["Johann von Gardner held the apparatus too crude to catch the formulas, and Brazhnikov afterwards refined it", "The objection reported is not one of coarseness, and no refinement of that apparatus is described anywhere in the lesson. Ask what becomes of an ambitus when a melody will not stay inside an octave."],
     ["Johann von Gardner and others held that it yields contradictions, since <span class=\"latin\">znamenny</span> melodies range across the whole pitch space rather than sitting within an octave-species", "Analysis by formula, after Brazhnikov, is now the more usual approach. The lesson reports the shift without pronouncing the older apparatus refuted."],
     ["Later scholars showed the two had invented their categories, having no manuscripts to work from", "Nothing of the kind is said, and the categories they used were the ordinary Western ones. The difficulty reported concerns how the melodies behave, not what the two men had before them."],
@@ -2279,7 +2279,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "What did the Patriarchal Musical Committee do in 1881?", a: 2, o: [
     ["Printed Chrysanthos’s <span class=\"latin\">Theoretikon Mega</span> at Trieste", "That printing is a real event of this story, but it belongs to 1832 and to a press, not to a committee sitting two generations later. Set the two dates side by side."],
-    ["Devised the New Method and transcribed the received repertory into it", "That labour was done by three named men, and long before. The committee inherited their work rather than performing it; look for what the lesson says was <em>changed</em>, not what was made."],
+    ["Devised the New Method and transcribed the received repertory into it", "That labor was done by three named men, and long before. The committee inherited their work rather than performing it; look for what the lesson says was <em>changed</em>, not what was made."],
     ["Revised the numbers, moving from Chrysanthos’s sixty-eight parts to seventy-two", "The revised figure is what a Greek cantor learns today. The New Method’s notation came first; its numbers were settled two generations afterward."],
     ["Abolished the chromatic genera as Ottoman importations", "Nothing of the sort is reported, and the four modern divisions the lesson gives include two chromatic ones. Read the labels on the table of divisions again."]
   ]},
@@ -2493,64 +2493,64 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That it is for the truth about numbered sound, and needs no other justification", "That is the first of the three, and the lesson refers it back to what an art ordered to knowing means rather than to any citation. Sort the three answers by whose each one is, then choose again."],
     ["That by it the mind is prepared for the other philosophical disciplines", "One road of the quadrivium, and the preparation is real: the mind trained on numbered sound is not the mind that came to the ratios cold. Note that the lesson says the three answers do not compete."],
     ["That it turns the soul from becoming to being", "That is the language of the dialogue in which Socrates chooses his studies, so you have taken the third answer and put another man’s name on it. Ask which of the three the lesson calls the demanding one."],
-    ["That harmony restores the soul’s inward revolution to concord with itself", "A sentence from the Timaeus, quoted much later on the page, and the lesson is careful to call it a cosmological claim rather than a reason of the schools. It is not among the three answers at all."]
+    ["That harmony restores the soul’s inward revolution to concord with itself", "A sentence from the Timaeus, quoted much later in the lesson, and the lesson is careful to call it a cosmological claim rather than a reason of the schools. It is not among the three answers at all."]
   ]},
   { q: "Socrates rejects two sorts of practitioner of harmonics. What is his complaint against the <em>first</em> sort?", a: 2, o: [
-    ["That they seek number in the concords they happen to hear, and never rise to problems", "You have taken the second complaint and set it in the first place. The lesson keeps the two apart deliberately; notice that the second begins by calling its targets <em>better</em>. Read the two paragraphs one at a time."],
+    ["That they seek number in the concords they happen to hear, and never rise to problems", "You have taken the second complaint and set it in the first place. The lesson keeps the two apart deliberately; note that the second begins by calling its targets <em>better</em>. Read the two paragraphs one at a time."],
     ["That they refuse to touch a string at all, and reason only from definitions", "Nobody in the passage is charged with keeping his hands off the instrument; the men Socrates dismisses first are busy at the strings. You have supplied an opponent the dialogue does not."],
-    ["That they put their ears before their minds, making the heard concord the measure, and so arrive at nothing", "They torture the strings and dispute whether a smaller interval remains, and the dispute never closes — an ear cannot settle what the ear itself is being asked to judge."],
+    ["That they put their ears before their minds, making the heard concord the measure, and so arrive at nothing", "They torture the strings and dispute whether a smaller interval remains, and the dispute never closes, because an ear cannot settle what the ear itself is being asked to judge."],
     ["That they call harmonics the sister of astronomy", "That kinship is reported without any blame attached; it is how the study is introduced, not a charge against anyone. Re-read the sentence in which Socrates arrives at harmonics."]
   ]},
   { q: "Why does the lesson say the <em>second</em> of the two criticisms is the one that should trouble us?", a: 3, o: [
     ["Because it shows that Socrates thought harmonics no science at all", "He is choosing studies that turn the soul, and he keeps this one; pursued far enough he calls it useful for the search after the beautiful and the good. His complaint is about how far, not about whether."],
     ["Because it is aimed at men who trust their ears rather than their minds", "That charge falls on the other sort, and against them the second group is called better. You have merged two rejections which the lesson takes trouble to keep separate."],
-    ["Because Socrates there declares the whole study labour lost", "He says that of the study pursued in one manner only, and offers a condition under which it is not. Re-read the close of that paragraph and see what turns on the word <em>otherwise</em>."],
-    ["Because it is aimed at your own teachers — the Pythagoreans whose art this course has been teaching", "The men who found the ratios you have spent the course learning are the ones charged here. A course can hand you the whole art and still leave you standing inside the complaint."]
+    ["Because Socrates there declares the whole study labor lost", "He says that of the study pursued in one manner only, and offers a condition under which it is not. Re-read the close of that paragraph and see what turns on the word <em>otherwise</em>."],
+    ["Because it is aimed at our own teachers, the Pythagoreans whose art this course has been teaching", "The men who found the ratios we have spent the course learning are the ones charged here. A course can teach the whole art and still leave its students open to the complaint."]
   ]},
   { q: "A student says the two criticisms come to one, since both sorts are too attached to what they hear. Where does he go wrong?", a: 0, o: [
-    ["The second sort is charged not with attachment to hearing but with stopping short of problems — and Socrates grants they are the better of the two", "Two different failures, and only one of them is a failure about the ear. A man may have every ratio right and still stand under the second charge."],
-    ["He does not go wrong; the lesson presents them as one complaint stated twice", "The lesson numbers them, calls one first and the other second, and says of the second that it is the one which should trouble you. That structure is not decoration."],
+    ["The second sort is charged not with attachment to hearing but with stopping short of problems — and Socrates grants they are the better of the two", "These are two different failures, and only one of them is a failure about the ear. A man may have every ratio right and still stand under the second charge."],
+    ["He does not go wrong; the lesson presents them as one complaint stated twice", "The lesson numbers them, calls one first and the other second, and says of the second that it is the one which should trouble us. That structure is not decoration."],
     ["He goes wrong because the second sort is charged with ignoring the heard concords altogether", "They do not ignore them; they work upon them, and their working is the whole trouble. Re-read what the second sort is said to seek, and where."],
     ["He goes wrong because Socrates rejects only one sort of practitioner, not two", "Two are rejected, by two different arguments, and the lesson gives each its own paragraph. Count the sorts before you weigh the charges."]
   ]},
   { q: "On what condition does Socrates allow that the study is useful for the search after the beautiful and the good?", a: 2, o: [
-    ["That it be joined to gymnastic, as the earlier books of the Republic require", "The lesson says nothing of that pairing, and the condition it does give is drawn from the passage on harmonics itself. Do not import what the page has not put before you."],
+    ["That it be joined to gymnastic, as the earlier books of the Republic require", "The lesson says nothing of that pairing, and the condition it does give is drawn from the passage on harmonics itself. The lesson gives no such condition."],
     ["That the student be able to hear the concords accurately before he numbers them", "Accurate hearing is what the first sort of practitioner already possesses, and it does not save them. Ask what Socrates demands <em>beyond</em> what those men already have."],
-    ["That it be pursued as far as the problems he names; pursued otherwise, he says, it is labour lost", "The whole weight falls on <em>that far</em>. The same ratios, held by two men, may be a liberal study in the one and labour lost in the other."],
-    ["That it be pursued for the soul’s health, as the Timaeus recommends", "You have crossed from one dialogue to another. The Timaeus sentence is quoted further down and is treated as a cosmological claim, not as the condition set out in Republic VII."]
+    ["That it be pursued as far as the problems he names; pursued otherwise, he says, it is labor lost", "Everything depends on the words <em>that far</em>. The same ratios, held by two men, may be a liberal study in the one and labor lost in the other."],
+    ["That it be pursued for the soul’s health, as the Timaeus recommends", "You have moved from one dialogue to another. The Timaeus sentence is quoted further down and is treated as a cosmological claim, not as the condition set out in Republic VII."]
   ]},
   { q: "Where does the course decline to follow Plato, and with whom does it stand instead?", a: 1, o: [
-    ["It declines the demand for ascent, holding with Aristotle that the heard instance is enough", "The demand for ascent is precisely what the lesson tells you to take from Plato. You have discarded the half the course keeps and kept the half it warns against."],
+    ["It declines the demand for ascent, holding with Aristotle that the heard instance is enough", "The demand for ascent is what the lesson says we take from Plato. You have discarded the half the course keeps and kept the half it warns against."],
     ["It declines the suggestion that the sensible instance was only scaffolding; with Aristotle, the sensible thing is really known", "A middle science does not despise its subject, it demonstrates about it. Knowing why this string sounds a fifth is not leaving the string behind but understanding it."],
-    ["It declines the doctrine of the world-soul, holding with the Pythagoreans that the ratios are cosmic", "The world-soul is indeed refused later, but the Pythagoreans are not offered as the alternative and nothing on the page defends cosmic ratios. Two separate refusals have been run together."],
-    ["It declines nothing; the lesson follows Plato the whole way", "The section opens with <em>Not all the way</em>, and says the difference matters to a reader of St. Thomas. Something is kept and something set aside; find which is which."]
+    ["It declines the doctrine of the world-soul, holding with the Pythagoreans that the ratios are cosmic", "The world-soul is indeed refused later, but the Pythagoreans are not offered as the alternative and nothing in the lesson defends cosmic ratios. Two separate refusals have been run together."],
+    ["It declines nothing; the lesson follows Plato the whole way", "The section opens by saying that we should not follow him all the way, and that the difference matters. Something is kept and something set aside; find which is which."]
   ]},
-  { q: "What does the lesson tell you to take from Plato?", a: 3, o: [
+  { q: "What does the lesson say we should take from Plato?", a: 3, o: [
     ["The doctrine that harmony is akin to the revolutions of the soul", "That comes from the Timaeus, and the lesson declines to take it over as a theorem of this art. Look instead at the section on how far to follow him, and at what it says to keep."],
     ["The rule that the sensible instance is to be climbed off once the ratio is known", "That is named as the tendency of Plato’s ladder and set aside in the very next breath. You have chosen the thing the lesson leaves behind."],
-    ["The judgement that the practical musician is beneath notice", "No ranking of musicians is at issue here; that belongs to another part of the course. Re-read the two sentences beginning <em>So take from Plato</em>."],
+    ["The judgment that the practical musician is beneath notice", "No ranking of musicians is at issue here; that belongs to another part of the course. Re-read the sentence beginning <em>So we take from Plato</em>."],
     ["The demand for ascent: from the heard instance to the ratio, and from the isolated ratio to the order and kinship of the mathematical sciences", "That kinship is what he asks for at 531c. The demand survives the disagreement about ladders, which is why it can be kept while the rest is refused."]
   ]},
   { q: "The remark headed ‘The question put to us’ makes an admission about this course. What is it?", a: 0, o: [
-    ["That the course has not answered Socrates’ question, and has been careful not to pretend to", "What it claims instead is to have put you where the question can be asked honestly — with the fact in your possession rather than on report. A smaller claim, and a real one."],
+    ["That the course has not answered Socrates’ question, and has been careful not to pretend to", "What it claims instead is to have put us in the position from which the question can be asked honestly, with the fact in our possession rather than on report. That is a smaller claim, and a real one."],
     ["That the ratios themselves answer the question once a student holds them", "Then it would be impossible to finish the course and still not have asked it, and the remark says plainly that it is possible. Holding a fact and having its reason are different acquisitions."],
     ["That the question is unanswerable, and a student does better to set it aside", "Unanswered and unanswerable are not the same, and the remark asserts only the first. Socrates himself thought the pursuit worth calling useful for the search after the beautiful and the good."],
     ["That the answer was given in an earlier chapter and needs no repeating", "No earlier chapter is cited for it, and the remark would have no force if one were. Read it again and ask what it says the course has been careful <em>not</em> to do."]
   ]},
   { q: "In the sentence quoted from the Timaeus, why was harmony given to men by the Muses?", a: 2, o: [
     ["To make the ratios of the world-soul audible to the senses", "That doctrine belongs to the dialogue at large, and the lesson names it as the thing St. Thomas does not take over. The sentence quoted here says something else about what harmony is <em>for</em>."],
-    ["As an aid to irrational pleasure, which the dialogue treats as its proper use", "The sentence names that use only to deny it — <em>not</em> as an aid to irrational pleasure, as is now supposed. You have taken hold of the clause that is being refused."],
-    ["As an ally to the soul’s inward revolution when it has lost its harmony, to help restore it to order and concord with itself", "A beautiful sentence, and a cosmological claim rather than a theorem of harmonics. The lesson quotes it whole and then tells you what to do with it."],
+    ["As an aid to irrational pleasure, which the dialogue treats as its proper use", "The sentence names that use only to deny it: <em>not</em> as an aid to irrational pleasure, as is now supposed. You have taken hold of the clause that is being refused."],
+    ["As an ally to the soul’s inward revolution when it has lost its harmony, to help restore it to order and concord with itself", "The lesson calls it a beautiful sentence and a cosmological claim, not a theorem of harmonics, and then says how it is to be handled."],
     ["To prepare the mind for the other philosophical disciplines", "That reason appears earlier in the lesson, and it is St. Thomas’s rather than Plato’s. Two answers to two different questions have been exchanged."]
   ]},
-  { q: "How does the lesson tell you to handle the Timaeus passage?", a: 1, o: [
+  { q: "How does the lesson handle the Timaeus passage?", a: 1, o: [
     ["Accept it whole: the ratios of the monochord are the ratios of the world-soul", "That is the doctrine the lesson says St. Thomas does not take over. Nothing in the section asks for wholesale acceptance; re-read what it says is enough for the string to be."],
-    ["Grant what St. Thomas grants — that the soul’s powers are ordered, and that melody moves the passions by some hidden correspondence — and leave what he does not take over", "The string need not carry the cosmos. It is enough that the string is intelligible."],
-    ["Dismiss it, since a cosmological claim can have no bearing upon a liberal art", "The lesson does not dismiss it: it quotes the sentence at length and calls it beautiful. The section heading names an earlier lesson whose handling of a similar claim you are to imitate; go and see what that was."],
-    ["Treat it as a theorem of harmonics, since Plato states it in a mathematical dialogue", "A sentence is not a theorem because of the company it keeps. The lesson says in so many words what kind of claim this one is, and it is not the kind that gets demonstrated from a string."]
+    ["Grant what St. Thomas grants (that the soul’s powers are ordered, and that melody moves the passions by some hidden correspondence), and leave what he does not take over", "The string need not carry the cosmos. It is enough that the string is intelligible."],
+    ["Dismiss it, since a cosmological claim can have no bearing upon a liberal art", "The lesson does not dismiss it: it quotes the sentence at length and calls it beautiful. The section heading names an earlier lesson whose handling of a similar claim is followed here; re-read that lesson."],
+    ["Treat it as a theorem of harmonics, since Plato states it in a mathematical dialogue", "A sentence is not a theorem because of the company it keeps. The lesson says explicitly what kind of claim this one is, and it is not the kind that gets demonstrated from a string."]
   ]},
   { q: "Coming to harmonics in Republic VII, Socrates notes what the Pythagoreans call it. What is that?", a: 2, o: [
-    ["The daughter of arithmetic", "Arithmetic belongs to the quadrivium and this course has leaned on it throughout, but the kinship named in that sentence is a sisterhood, and with another study. Re-read the sentence in which harmonics is introduced."],
+    ["The daughter of arithmetic", "Arithmetic belongs to the quadrivium and this course has relied on it throughout, but the kinship named in that sentence is a sisterhood, and with another study. Re-read the sentence in which harmonics is introduced."],
     ["The handmaid of dialectic", "The lesson never puts that phrase in the Pythagoreans’ mouths. The kinship it does report holds between two of the mathematical studies themselves. Read the introducing sentence again."],
     ["Astronomy’s sister", "The kinship is the point: Socrates goes on to charge both studies with the same failing, and asks at 531c that the order and kinship of the mathematical sciences be seen."],
     ["The mother of grammar", "Nothing of the sort is said, and grammar does not enter this lesson at all. What is reported is a kinship between two studies of number and magnitude."]
@@ -2568,61 +2568,61 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because sound is the noblest of sensible things", "The lesson makes no such ranking, and Augustine’s own order of dignity puts the numbers in the sounding body at the very bottom. Do not supply a grander reason than the one he gives."],
     ["Because number is found in sound and nowhere else in the sensible world", "He says the power of number is in every motion, which is the opposite of confining it to one place. Read the clause about motion before the clause about sounds."],
     ["Because the ear is a more reliable judge than the eye", "No comparison of the senses is made in that letter as the lesson reports it. You have offered a fact about the ear where he gave a reason about study."],
-    ["Because the power of number in every motion is most easily studied there, and that study offers a way of rising by paths as it were gradually ascending", "Easiest, not exclusive. The force of the plan is in <em>gradually</em>: a ladder whose rungs stand close enough together to be climbed."]
+    ["Because the power of number in every motion is most easily studied there, and that study offers a way of rising by paths as it were gradually ascending", "Sounds are the easiest place, not the only one. The force of the plan lies in <em>gradually</em>: the steps stand close enough together to be climbed."]
   ]},
   { q: "What purpose does Augustine state plainly in the sixth book?", a: 0, o: [
-    ["<span class=\"latin\">A corporalibus ad incorporalia transeamus</span> — let us pass from bodily things to things not bodily", "The whole ascent announced in one clause. Notice that the passage is <em>from</em> the bodily and not away from it in contempt: he begins where the sounding body is."],
-    ["To settle the rules of Latin metre once and for all", "The length of syllables is his material, not his purpose; the lesson says a treatise on syllables was for him a treatise about God. Material and end are not the same thing."],
+    ["<span class=\"latin\">A corporalibus ad incorporalia transeamus</span> (let us pass from bodily things to things not bodily)", "The whole ascent is announced in one clause. The passage is <em>from</em> the bodily, not away from it in contempt, because he begins where the sounding body is."],
+    ["To settle the rules of Latin meter once and for all", "The length of syllables is his material, not his purpose; the lesson says a treatise on syllables was for him a treatise about God. Material and end are not the same thing."],
     ["To refute those who make the ear the measure of concord", "That complaint belongs to another lesson and another author. The sixth book states its own purpose in a single Latin clause — find it."],
     ["To show that the numbers in the sounding body are the highest of the five kinds", "They are the lowest of the five in his order of dignity, and thinking otherwise is exactly the ordinary man’s mistake. Re-read the sentence that ranks them."]
   ]},
   { q: "In what order does Augustine set out the five kinds of number, and what is the direction of that order?", a: 2, o: [
-    ["From the highest in dignity down to the lowest", "That order appears on the page too, and it is nearly the reverse of the one asked for. Two orderings are given; be sure which is which before you choose."],
+    ["From the highest in dignity down to the lowest", "That order appears in the lesson too, and it is nearly the reverse of the one asked for. Two orderings are given; be sure which is which before you choose."],
     ["From the numbers in memory outward to the numbers in the sounding body", "Memory’s numbers stand at neither end of the sequence as he lays it out, nor are they the first found. Count the five in the order the lesson prints them."],
-    ["From the sounding body inward — sound, sense, the soul’s act, memory, judgement: the order of discovery", "Outside inward, each step further from the body than the last. That this is not the order of worth is the hinge of the whole sixth book."],
+    ["From the sounding body inward (sound, sense, the soul’s act, memory, judgment): the order of discovery", "It runs from outside inward, each step further from the body than the last. That this is not the order of worth is the principle on which the whole sixth book turns."],
     ["In no fixed order; the five are coordinate", "He orders them twice, and the two orderings differ — which would be impossible if the kinds were coordinate. The difference between the two is what the lesson is teaching."]
   ]},
   { q: "Which numbers does Augustine call <span class=\"latin\">occursores</span>?", a: 3, o: [
     ["Those in the sounding body itself", "Those have a name of their own among the five, and they are the only bodily ones. Re-read the list, attending to where each kind is located."],
     ["Those held in memory", "Memory’s numbers carry another name, and the lesson calls them traces and passive. Distinguish holding a measure afterwards from having it at the moment, then look at the five again."],
     ["Those by which we approve one measure and reject another", "Those are the judging numbers, highest of the five, and they are what the whole ascent aims at. The kind asked for stands nearer the beginning of the list than the end."],
-    ["Those in the sense as it meets the sound", "The name is the meeting. Note that they are already not bodily: the sound is one thing and the sense receiving it another, which is the first step off the body."]
+    ["Those in the sense as it meets the sound", "The name means the meeting. They are already not bodily: the sound is one thing and the sense receiving it another, which is the first step off the body."]
   ]},
   { q: "Which of the five kinds are the <span class=\"latin\">progressores</span>?", a: 0, o: [
     ["Those in the soul’s own act, as it produces a movement", "The soul is doing here, not undergoing, which is why they stand second in the order of dignity, above the numbers of sense. Producing outranks receiving."],
     ["Those in the sounding body, which proceeds outward from the instrument", "The sounding body has its own name in the list and is the only bodily kind. You have read the word as though it described sound travelling rather than a power at work."],
-    ["Those by which the soul progresses from bodily things to incorporeal ones", "That is the programme of the whole book, not the definition of one member of a list. A name among five has to pick out one of them, not the aim of them all."],
+    ["Those by which the soul progresses from bodily things to incorporeal ones", "That is the program of the whole book, not the definition of one member of a list. A name among five has to pick out one of them, not the aim of them all."],
     ["Those in memory, which run back through what was heard", "Memory’s numbers are named separately, and the lesson calls them traces and passive. The word <em>progressores</em> speaks of going forward: ask what in a man goes forward when a verse is spoken."]
   ]},
-  { q: "You hear a rhythm you have never heard before, and judge at once that it is ill measured. Which kind of number are you using, on Augustine’s account?", a: 2, o: [
-    ["The <span class=\"latin\">recordabiles</span>, since judging is comparing with what memory holds", "That is the account Augustine argues against: the measure was not given you by memory, since you can judge one you have never heard. Re-read the paragraph on where the measure does not come from."],
+  { q: "Suppose we hear a rhythm we have never heard before, and judge at once that it is ill measured. Which kind of number are we using, on Augustine’s account?", a: 2, o: [
+    ["The <span class=\"latin\">recordabiles</span>, since judging is comparing with what memory holds", "That is the account Augustine argues against: the measure was not given us by memory, since we can judge one we have never heard. Re-read the paragraph on where the measure does not come from."],
     ["The <span class=\"latin\">occursores</span>, since the sense meets this rhythm as it meets any other", "The sense does meet it, and those numbers are in play whenever anything is heard at all. But meeting is not approving, and the question turned on the approving."],
-    ["The <span class=\"latin\">iudiciales</span>, the numbers by which we approve this measure and reject that", "And notice what the case establishes: a measure never heard cannot have been supplied by memory. That is one of the two exclusions on which the whole ascent rests."],
-    ["The <span class=\"latin\">sonantes</span>, since the fault lies in the sounding body", "The fault may well lie there; the question was what in you detects it. Those are the only bodily kind of the five, and a body neither approves nor rejects."]
+    ["The <span class=\"latin\">iudiciales</span>, the numbers by which we approve this measure and reject that", "The case establishes that a measure never heard cannot have been supplied by memory. That is one of the two exclusions on which the whole ascent rests."],
+    ["The <span class=\"latin\">sonantes</span>, since the fault lies in the sounding body", "The fault may well lie there; the question was what in us detects it. Those are the only bodily kind of the five, and a body neither approves nor rejects."]
   ]},
   { q: "How does Augustine rank the five kinds in dignity?", a: 1, o: [
     ["The same as the order of discovery, from the sounding body upward", "The two orders are close to inverse, not identical, and the lesson says so directly. Were they the same, the ascent would have nothing to teach."],
-    ["Judgement highest, then the soul’s act, then sense, then memory, and the sounding body lowest of all", "Nearly the reverse of the order of discovery, but not quite: memory falls below sense, being only traces and passive. And the lowest is what most men would have called the music."],
+    ["Judgement highest, then the soul’s act, then sense, then memory, and the sounding body lowest of all", "It is nearly the reverse of the order of discovery, but not quite: memory falls below sense, being only traces and passive. And the lowest is what most men would have called the music."],
     ["Memory highest, since without it nothing measured could be held together", "Memory’s numbers are ranked below those of sense, on the ground that they are traces and passive. Holding is not doing, and it is not judging; check where the lesson puts them."],
-    ["The sounding body highest, since the other four depend upon it", "That is the ranking of the man who thinks the music is the sound. The order of discovery does begin there — but discovery and dignity are two different orders on this page."]
+    ["The sounding body highest, since the other four depend upon it", "That is the ranking of the man who thinks the music is the sound. The order of discovery does begin there, but discovery and dignity are two different orders in this lesson."]
   ]},
   { q: "Augustine argues that the numbers by which we judge are not numbers we made. What are his two grounds?", a: 3, o: [
-    ["That they are innate, and that all men agree in them", "Neither is the argument on the page. Innateness is nowhere appealed to and universal agreement is nowhere claimed; his grounds are taken from what the measure does, not from where it came from."],
+    ["That they are innate, and that all men agree in them", "Neither is the argument of the lesson. Innateness is nowhere appealed to and universal agreement is nowhere claimed; his grounds are taken from what the measure does, not from where it came from."],
     ["That sound is fleeting, and that memory is fallible", "Fleetingness and fallibility are not the reasons given. He does not say that sound and memory are too weak to supply a measure; he says something stronger than weakness about each."],
     ["That they come from God, and that God is unchangeable", "That is his conclusion, not the ground he reaches it from. The argument has to stand on something a man can check in himself before any conclusion about the unchangeable can be drawn."],
-    ["That the sound cannot have given it, since you use it to correct the sound; and memory cannot, since you can judge a measure never heard", "Two exclusions, and between them they leave the measure unaccounted for by anything you own. Participation in the unchangeable is what he then offers to account for it."]
+    ["That the sound cannot have given it, since we use it to correct the sound; and memory cannot, since we can judge a measure never heard", "These are two exclusions, and between them they leave the measure unaccounted for by anything we own. Participation in the unchangeable is what he then offers to account for it."]
   ]},
   { q: "Where does St. Thomas differ from Augustine on the light by which we judge?", a: 2, o: [
-    ["He denies there is any such light, holding judgement to be habit and practice", "Nothing of the kind is said; the lesson has him affirm a light and dispute the account of it. Read again what he is said to withhold and what he is said to grant."],
+    ["He denies there is any such light, holding judgment to be habit and practice", "Nothing of the kind is said; the lesson has him affirm a light and dispute the account of it. Read again what he is said to withhold and what he is said to grant."],
     ["He agrees entirely, and is cited to confirm Augustine", "The remark opens by saying he does not take over the account of illumination whole. Agreement about a fact and disagreement about its explanation are being distinguished here."],
-    ["For him the light is the agent intellect — a created light, a participation in the uncreated light, but truly ours and truly natural", "So the ascent is real and its explanation is disputed among the doctors. What neither disputes is the fact it starts from: in judging a proportion you use a measure you did not make."],
+    ["For him the light is the agent intellect — a created light, a participation in the uncreated light, but truly ours and truly natural", "So the ascent is real and its explanation is disputed among the doctors. What neither disputes is the fact it starts from: in judging a proportion we use a measure we did not make."],
     ["He holds that we judge by the numbers in memory rather than by any light", "That would set him against the very argument the lesson says he does not dispute — that a measure never heard can still be judged. He is not being made a sceptic here."]
   ]},
   { q: "What does Augustine conclude in the tenth book of the Confessions about the singing of the Church?", a: 0, o: [
-    ["He inclines to approve the custom, that weaker souls may rise to devotion through the delight of the ear — while confessing that he sins whenever the singing moves him more than the thing sung", "Fluctuating, as he says, between the danger of pleasure and the proof of profit, and not coming off well by his own reckoning."],
+    ["He inclines to approve the custom, that weaker souls may rise to devotion through the delight of the ear, but he confesses that he sins whenever the singing moves him more than the thing sung", "He fluctuates, as he says, between the danger of pleasure and the proof of profit, and does not come off well by his own reckoning."],
     ["He condemns it, and would have the psalms read as Athanasius had them read", "He remembers that practice and weighs it, but he also remembers weeping at the songs of the Church when newly converted, and how much good those tears did him. A man who fluctuates has not condemned."],
     ["He settles the question, and the liberal art can settle it after him", "He does not settle it, and the art cannot: it is a question of prudence and of charity. St. Thomas says only, and more drily, that song helps devotion and is abused when it aims at display or the tune swallows the words."],
-    ["He decides that delight in proportion is itself disordered", "Delight in proportion is good on this page — sense being, as St. Thomas says, a certain kind of reason. His unease is narrower than a condemnation of pleasure. Re-read what he says he would rather not have heard, and when."]
+    ["He decides that delight in proportion is itself disordered", "Delight in proportion is good in this lesson, sense being, as St. Thomas says, a certain kind of reason. His unease is narrower than a condemnation of pleasure. Re-read what he says he would rather not have heard, and when."]
   ]}
 ],
 
@@ -2630,68 +2630,68 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What does the last lesson announce that it will <em>not</em> argue?", a: 2, o: [
     ["That the art is beautiful, beauty being a matter of taste", "Beauty is nowhere set aside in this lesson; the first of its four things turns on beauty being intelligible and checkable. Look again at the sentence that says what would give the case away."],
     ["That the art is difficult, since difficulty is no recommendation", "Difficulty is not the disclaimer. One particular kind of justification is named and refused in the opening sentences; find the word that is refused."],
-    ["That the art is useful — since arguing that would give away the case in the first sentence", "Every institution asks what a study is for and means what it gets you. This one has no answer, and the absence is the point; what stands in its place are four things now true of you."],
+    ["That the art is useful, because that would give away the case in the first sentence", "Every institution asks what a study is for and means what it gets the student. This one has no answer, and the absence is intended; what stands in its place are four things now true of us."],
     ["That the art is true, truth being beyond so small a course", "Nothing here doubts the truth of the ratios, and the fourth of the four things depends on their being exact. You have chosen a modesty the page does not show."]
   ]},
   { q: "What is the ‘educated modern picture’ that the first of the four things is aimed at?", a: 1, o: [
     ["That quality is real and quantity a convenient fiction", "You have the picture inverted. As it is stated here, one of the two is granted a place out in the world and the other put inside us; read the sentence again and see which goes where."],
-    ["That quantity is real and out in the world, while quality — beauty, fittingness, harmony — is in us and projected onto things", "And almost nobody arrives at it by argument: it is absorbed, and then presupposed. Which is what makes a cheap test with a string worth so much."],
+    ["That quantity is real and out in the world, while quality (beauty, fittingness, harmony) is in us and projected onto things", "Almost nobody arrives at it by argument; it is absorbed, and then presupposed. That is why a cheap test with a string is worth so much."],
     ["That music is a language, meaning whatever a culture agrees it means", "The lesson says nothing about meaning or convention. Its target is a claim about where beauty is located, not a claim about how sounds signify."],
     ["That the senses are unreliable and only measurement can be trusted", "That is not the picture described, and the test proposed here depends on the senses reporting honestly: you hear that some pairs please before you measure anything at all."]
   ]},
   { q: "What does the lesson claim the test with a string actually establishes against that picture?", a: 3, o: [
-    ["That the picture is overthrown", "The lesson denies in so many words that one counterexample overthrows a picture of the world. It claims something more modest and more durable; read the paragraph that states the counterexample’s limits."],
+    ["That the picture is overthrown", "The lesson denies explicitly that one counterexample overthrows a picture of the world. It claims something more modest and more durable; read the paragraph that states the counterexample’s limits."],
     ["That beauty is nothing but simple ratio", "Beauty is never reduced to ratio here; what is said is that the delight tracks something the mind can state. Tracking and being identical with are different relations."],
-    ["That pleasure in music is the same for all men in every age", "What is said to hold for everyone who tries is that altering the ratio alters the pleasure — a claim about a correspondence, not about uniformity of taste. Draw that distinction and choose again."],
-    ["That in this one domain St. Thomas’s claim — beauty consists in due proportion, and sense is itself a kind of reason — is a verified result and not a pious formula", "One domain, tested cheaply, by anyone, in every century that has tried. And a man who has checked one case argues about the rest differently from a man who has checked none."]
+    ["That pleasure in music is the same for all men in every age", "What is said to hold for everyone who tries is that altering the ratio alters the pleasure, which is a claim about a correspondence, not about uniformity of taste. Draw that distinction and choose again."],
+    ["That in this one domain St. Thomas’s claim (that beauty consists in due proportion, and that sense is itself a kind of reason) is a verified result and not a pious formula", "It is one domain, tested cheaply, by anyone, in every century that has tried, and a man who has checked one case argues about the rest differently from a man who has checked none."]
   ]},
   { q: "What follows, on the lesson’s own account, from holding a single counterexample?", a: 0, o: [
-    ["Not the overthrow of the picture, but the loss of any right to hold it innocently", "A modest conclusion, and deliberately so. What changes is the man’s standing to argue, not the state of the question."],
+    ["Not the overthrow of the picture, but the loss of any right to hold it innocently", "The conclusion is deliberately modest. What changes is the man’s standing to argue, not the state of the question."],
     ["That the picture must be abandoned by any honest man", "The lesson refuses that step explicitly. One case is one case, and the sentence conceding this is the same sentence that says what the case does accomplish."],
     ["That the picture may still be held, but only by men ignorant of harmonics", "That is nearly a boast, and the lesson makes none. It speaks of how a man argues afterwards, not of who is entitled to hold what opinion."],
     ["Nothing, since a single case proves nothing in philosophy", "Then the first of the four things would not be worth stating, and it is stated first. Something short of proof and considerably more than nothing is being claimed."]
   ]},
   { q: "How does the lesson use Aristotle’s remark that to be always seeking after the useful does not become free and exalted souls?", a: 2, o: [
-    ["As proof that useless studies are worth more than useful ones", "No such ranking is drawn. The remark is about a disposition — <em>always</em> seeking — and not a scale on which uselessness scores higher."],
+    ["As proof that useless studies are worth more than useful ones", "No such ranking is drawn. The remark is about a disposition (<em>always</em> seeking), and not a scale on which uselessness scores higher."],
     ["As a rule for choosing a curriculum", "It is not offered as a rule for choosing anything. It is set against the question every institution puts to a student, and the interest here is in what the student has already done."],
     ["As the ground for saying that this study’s having no answer to ‘what is it for’ is the point rather than an embarrassment", "And the formation is in the doing, not in the agreeing: weeks spent getting 3:2 into the ear for no reward do something that no quantity of assent to Aristotle would have done."],
     ["As evidence that the ancients had no practical arts", "The claim is about what becomes a free soul, not about what the ancients happened to possess. You have turned a remark on disposition into a piece of history."]
   ]},
   { q: "In what capacity is Newman brought in?", a: 3, o: [
     ["As an authority of this art, standing beside Boethius", "The lesson says plainly that he is not an authority within the art, and sets him apart from its authorities by an explicit sentence. Read that sentence."],
-    ["As the originator of the doctrine that knowledge is its own end", "He is defending a tradition, not founding one — defending it, the lesson says, in a modern university that had already begun to lose it. Putting him first in the line changes what his testimony is worth."],
+    ["As the originator of the doctrine that knowledge is its own end", "He is defending a tradition, not founding one; he defended it, the lesson says, in a modern university that had already begun to lose it. Putting him first in the line changes what his testimony is worth."],
     ["As a critic of the liberal arts whom the lesson answers", "He is quoted with approval, and at length. Read the quotation and ask whether it opposes the lesson’s case or states it."],
-    ["As a modern witness that the case still had to be made, and could be", "Knowledge is capable of being its own end, and any kind of knowledge, if it be really such, is its own reward. A witness and not an authority: the lesson is careful about the difference."]
+    ["As a modern witness that the case still had to be made, and could be", "Newman wrote that knowledge is capable of being its own end, and that any kind of knowledge, if it be really such, is its own reward. The lesson calls him a witness and not an authority, and is careful about the difference."]
   ]},
   { q: "Boethius’s three classes are called permanently contemporary. Which position does the lesson say very few men occupy?", a: 1, o: [
     ["Those who make sound", "Some do stand there, and the lesson does not disparage them; but the class it calls rare is not the one that performs. Recall how the three were divided when you first met them."],
-    ["Those who can say what has been done to them, and how", "The rarest of the three, and the one this course has been trying to put you in. Most men stand toward sound simply as those who are moved by it."],
+    ["Those who can say what has been done to them, and how", "This is the rarest of the three, and the one this course has been trying to put its students in. Most men stand toward sound simply as those who are moved by it."],
     ["Those who are moved by sound", "That is where most men stand, which is precisely why it cannot be the rare class. Re-read the three and ask which of them requires an account rather than an experience."],
     ["Those who judge what others ought to listen to", "The lesson says it has said nothing about what anyone ought to listen to and will not begin now. That is no class of Boethius but a task belonging to prudence."]
   ]},
   { q: "The lesson says the free man is not the one who resists music’s working upon the passions. Who is he?", a: 2, o: [
-    ["The one who has trained himself to feel nothing at the sound", "Resistance under another name, and it has just been refused. Nothing on this page treats being moved as a defect; the arranging is called often skilful and often good."],
+    ["The one who has trained himself to feel nothing at the sound", "That is resistance under another name, and the lesson has just refused it. Nothing in this lesson treats being moved as a defect; the arranging is called often skillful and often good."],
     ["The one who listens only to what the art can justify", "The lesson names no repertory and says the remark concerns a position, not a repertory. You have made a rule of listening out of a description of a standing."],
     ["The one who can ask by what measure it works", "Not because asking spoils the pleasure: a pleasure a man can account for is his own, and a pleasure he cannot account for is something that is happening to him."],
     ["The one who knows the history of how such music came to be arranged", "History is not at issue, and the question meant here could be put to any age’s music, this one included. Ask what question the third of Boethius’s classes is able to put."]
   ]},
   { q: "What does the fourth of the four things say was traded, and for what?", a: 0, o: [
-    ["Exactness — the equal semitone irrational, the keyboard third wide by about two thirds of a comma — in exchange for the freedom to move from key to key", "And it was a good trade, which the course does not grudge. What it minds is that hardly anyone sitting down at a piano knows a trade was made at all."],
+    ["Exactness — the equal semitone irrational, the keyboard third wide by about two thirds of a comma — in exchange for the freedom to move from key to key", "It was a good trade-off, which the course does not grudge. What it minds is that hardly anyone sitting down at a piano knows a trade was made at all."],
     ["The concords themselves, which the modern keyboard has abandoned", "They are not abandoned but approximated, and the lesson gives the size of the error. An approximation that works well is not an absence."],
-    ["Nothing was traded; the modern tuning is simply better", "Then there would be nothing to know when you meet an approximation, and the fourth thing would collapse. The lesson insists something was given up, and names it."],
+    ["Nothing was traded; the modern tuning is simply better", "Then there would be nothing to know when we meet an approximation, and the fourth thing would collapse. The lesson insists something was given up, and names it."],
     ["The freedom to move from key to key, surrendered for the sake of exact ratios", "You have the bargain the wrong way round: that freedom is what was bought, not what was sold. Which side of it does a modern keyboard actually enjoy?"]
   ]},
   { q: "Why does the lesson think holding one case of a known approximation is worth having?", a: 1, o: [
     ["Because it shows that modern instruments are badly made", "The trade is called a good one, made knowingly by men who understood the arithmetic. Nothing here is a complaint about workmanship."],
-    ["Because we live among approximations that work so well we forget they approximate, and one case you can hear in ten seconds is a small education in a habit of mind", "Worth a great deal more than the case itself, the lesson says. The habit generalises even though the arithmetic does not."],
+    ["Because we live among approximations that work so well we forget they approximate, and one case that we can hear in ten seconds is a small education in a habit of mind", "The lesson says this is worth a great deal more than the case itself, because the habit generalizes even though the arithmetic does not."],
     ["Because it lets you correct the tuning of a piano", "No practical skill is promised anywhere in this lesson, which has already refused to argue that the art is useful. Ask what it says the case is a small education <em>in</em>."],
     ["Because approximations are always to be preferred to exact ratios in music", "The lesson takes no such side. It says a trade was made and was worth making, in one case and for a stated reason; preference in general is not on offer."]
   ]},
   { q: "Why does the closing section say the smallness of the art is the point?", a: 3, o: [
     ["Because a small art is finished quickly, leaving time for greater ones", "Economy of time is nowhere at issue. The reason given has to do with a kind of experience a student can have here and will rarely have elsewhere."],
-    ["Because sound matters less than being, and so suits beginners", "The lesson denies exactly this — <em>not because sound matters more than being</em>, it says, and it does not assert the reverse either. The quadrivium’s reason concerned what a young man can accomplish, not the rank of the subject."],
-    ["Because a small art has fewer objections to answer", "No objections are being counted. Re-read the closing section and notice what it says almost everything else a man studies is studied in."],
-    ["Because a man can possess the whole of it through its causes at once — an experience he might otherwise never have", "One string, three concords, a step, and a scale. That is what a liberal education is trying to give: the discovery of what it is like to know something all the way down."]
+    ["Because sound matters less than being, and so suits beginners", "The lesson denies exactly this. It says the reason was <em>not</em> that sound matters more than being, and it does not assert the reverse either. The quadrivium’s reason concerned what a young man can accomplish, not the rank of the subject."],
+    ["Because a small art has fewer objections to answer", "No objections are being counted. Re-read the closing section and note what it says almost everything else a man studies is studied in."],
+    ["Because a man can possess the whole of it through its causes at once — an experience he might otherwise never have", "The art is one string, three concords, a step, and a scale, and a liberal education is trying to give the experience of knowing something thoroughly."]
   ]}
 ]
 
@@ -2826,65 +2826,65 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 ],
 
 "ex-iudic": [
-  { q: "What have you just been doing, according to this page?", a: 2, o: [
+  { q: "What have we just been doing, according to this lesson?", a: 2, o: [
     ["Computing lengths on the string", "That is E3, which is next."],
     ["Naming the five kinds of ratio", "That is E5."],
-    ["Judging pairs as blending or standing apart, without being shown the ratio first", "E2. This page asks where the standard of that judgement came from."],
-    ["Reading Boethius I.34 in Latin", "That waits among the contemplations. This page is about an act you have already performed."]
+    ["Judging pairs as blending or standing apart, without being shown the ratio first", "That was E2, and this lesson asks where the standard of that judgment came from."],
+    ["Reading Boethius I.34 in Latin", "That waits among the contemplations; this lesson is about an act we have already performed."]
   ]},
-  { q: "Why can the standard of that judgement not have come from the sound?", a: 0, o: [
-    ["Because you used it to find the sound wanting, or well measured; a standard given by the sound could not correct the sound", "The page’s first reason."],
-    ["Because sound has no number in it", "The sounding body has numbers — Augustine’s sonantes. They are not the judging numbers."],
-    ["Because E2 forbids listening", "E2 requires listening. It forbids looking up the ratio first."],
+  { q: "Why can the standard of that judgment not have come from the sound?", a: 0, o: [
+    ["Because we used it to find the sound wanting, or well measured; a standard given by the sound could not correct the sound", "That is the lesson’s first reason."],
+    ["Because sound has no number in it", "The sounding body has numbers (Augustine’s sonantes), but they are not the judging numbers."],
+    ["Because E2 forbids listening", "E2 requires listening; it forbids looking up the ratio first."],
     ["Because Ptolemy trusts reason alone", "Ptolemy forbids trusting either criterion alone."]
   ]},
   { q: "Why can it not have come from memory of this pair?", a: 1, o: [
-    ["Because memory is always false", "Augustine names rememberable numbers. He does not call memory false. He says it is not the standard."],
-    ["Because you can judge a pair you have never heard", "So the standard is not this pair stored."],
-    ["Because the palaestra shuffles, and shuffling destroys memory as such", "Shuffling keeps you from memorising a page. The philosophical point is wider: you can judge a measure you have never heard."],
-    ["Because Boethius omitted memory", "Augustine’s list, not Boethius’s three kinds."]
+    ["Because memory is always false", "Augustine names rememberable numbers and does not call memory false; he says only that it is not the standard."],
+    ["Because we can judge a pair we have never heard", "So the standard is not a memory of this pair."],
+    ["Because the palaestra shuffles, and shuffling destroys memory as such", "Shuffling keeps us from memorizing a page. The philosophical point is wider: we can judge a measure we have never heard."],
+    ["Because Boethius omitted memory", "The list is Augustine’s, not Boethius’s three kinds."]
   ]},
   { q: "What does Augustine call the numbers by which that judging is done?", a: 3, o: [
     ["Sonantes — the numbers in the sounding body", "Those are last in dignity. Most men would have stopped there and called that the music."],
-    ["Occursores — the numbers in the ear as it meets the sound", "Encountering numbers. They are made from the sounding ones."],
-    ["Progressores — the numbers in the act of uttering", "The soul’s own act. Not the standard by which the act is judged."],
-    ["Iudiciales — first in dignity, last in the order of discovery", "Not the sounding body. The page says so."]
+    ["Occursores — the numbers in the ear as it meets the sound", "These are the encountering numbers, in the sense as it meets the sounding ones."],
+    ["Progressores — the numbers in the act of uttering", "These are in the soul’s own act, and they are not the standard by which the act is judged."],
+    ["Iudiciales — first in dignity, last in the order of discovery", "They are not the sounding body, as the lesson says."]
   ]},
-  { q: "Does this page replace Augustine’s sixth book?", a: 0, o: [
-    ["No. That book is the place, and it waits in Chapter X and among the contemplations", "Nothing here is scored. The palaestra goes on. The question has been raised at the first honest judgement."],
-    ["Yes: once you have judged E2 you have the sixth book", "Hearing a pair is where the fact is met. The book is the ascent from that fact."],
-    ["Yes, because St. Thomas superseded it", "St. Thomas grants the fact and disputes the account of the light. Neither is this page."],
-    ["No, because Augustine is not an authority of this course", "He is. His metrics are not taught. His sixth book is named as the place."]
+  { q: "Does this lesson replace Augustine’s sixth book?", a: 0, o: [
+    ["No. That book is the place, and it waits in Chapter X and among the contemplations", "The palaestra goes on, but the question has been raised at the first honest judgment."],
+    ["Yes: once you have judged E2 you have the sixth book", "Hearing a pair is where we meet the fact; the book is the ascent from that fact."],
+    ["Yes, because St. Thomas superseded it", "St. Thomas grants the fact and disputes Augustine’s account of the light; he does not supersede the book."],
+    ["No, because Augustine is not an authority of this course", "He is one. His metrics are not taught, but his sixth book is named as the place."]
   ]},
-  { q: "What is Socrates’ warning, as this page uses it?", a: 2, o: [
-    ["Do not hear concords at all", "He does not say that. The empirics who only hear are one rejected kind. The Pythagoreans who only number the heard are the other."],
+  { q: "What is Socrates’ warning, as this lesson uses it?", a: 2, o: [
+    ["Do not hear concords at all", "He does not say that. The empirics who only hear are one kind he rejects, and the Pythagoreans who only number what is heard are the other."],
     ["Do not use a monochord", "The string is this course’s instrument."],
-    ["Do not stop at the numbers in the concords you happen to hear, and never ask which numbers are concordant of themselves, and why", "This course will not answer that for you. It will also not let the palaestra go on as if the question had not arisen."],
-    ["Name every mode before you judge an interval", "Species and ethos are other pages. This one is the standard of judgement."]
+    ["Do not stop at the numbers in the concords you happen to hear, and never ask which numbers are concordant of themselves, and why", "This course will not answer that question for us, but it will also not let the palaestra go on as if the question had not arisen."],
+    ["Name every mode before you judge an interval", "Species and ethos belong to other lessons; this one concerns the standard of judgment."]
   ]},
   { q: "Why is this a pause in the palaestra and not a block?", a: 1, o: [
     ["Because it cannot be heard", "The act it concerns has just been heard, in E2."],
     ["Because nothing here is scored; it is the question raised by the act, not another draw", "E3 is next when you are ready."],
-    ["Because Guided practice forbids extra pages", "Guided practice returns blocks. This is not a block."],
-    ["Because Augustine forbade exercises", "He wrote a treatise. He did not forbid the palaestra of this course."]
+    ["Because Guided practice forbids extra pages", "Guided practice brings back blocks, and this is not a block."],
+    ["Because Augustine forbade exercises", "He wrote a treatise; he did not forbid the palaestra of this course."]
   ]},
-  { q: "What is first in dignity, and last in the order of discovery, according to this page?", a: 3, o: [
+  { q: "What is first in dignity, and last in the order of discovery, according to this lesson?", a: 3, o: [
     ["The sounding body", "Most men would have called that the music. It is last in dignity."],
     ["The palaestra’s score", "Nothing here is scored."],
     ["The ratio 3:2", "3:2 is a concord of the art. The judging numbers are the standard by which such a concord is judged, not the concord itself."],
-    ["The judging numbers", "Last found, first in rank. That reversal is the sixth book’s."]
+    ["The judging numbers", "They are found last and rank first, and that reversal comes from the sixth book."]
   ]},
-  { q: "The palaestra, after this page, goes on. Why raise the question now rather than only in Chapter X?", a: 0, o: [
-    ["So that the palaestra does not go on as if the question had not arisen at the first honest judgement", "Chapter X remains the place the course treats the ascent at length."],
+  { q: "The palaestra, after this lesson, goes on. Why raise the question now rather than only in Chapter X?", a: 0, o: [
+    ["So that the palaestra does not go on as if the question had not arisen at the first honest judgment", "Chapter X remains the place the course treats the ascent at length."],
     ["So that E3 can be skipped", "E3 is next."],
     ["So that Guided turns itself on", "Guided remains your choice, named at the end of the musician chapter."],
-    ["So that the East can be understood", "E10 waits on the Eastern chapter. This pause is not that."]
+    ["So that the East can be understood", "E10 waits on the Eastern chapter, and this pause has nothing to do with it."]
   ]},
   { q: "What will this course not do with Socrates’ question why these numbers please?", a: 2, o: [
     ["Mention it", "It has mentioned it, here and in Chapter I and in Chapter X."],
-    ["Put you in a position to ask it, with the fact in your possession", "That is what E2 plus this page have done."],
-    ["Answer it for you, or let the palaestra go on as if it had not arisen", "The two refusals of the last paragraph."],
-    ["Connect it to Augustine’s judging numbers", "The page connects them. Both are about a measure not made by you."]
+    ["Put us in a position to ask it, with the fact in our possession", "That is what E2 and this lesson have done."],
+    ["Answer it for you, or let the palaestra go on as if it had not arisen", "Those are the two refusals in the last paragraph."],
+    ["Connect it to Augustine’s judging numbers", "The lesson connects them; both are about a measure we did not make."]
   ]}
 ]
 
