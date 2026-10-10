@@ -1492,58 +1492,58 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["c. 1320; a staff of five lines with a clef", "That date names the <span class=\"latin\">ars nova</span> and not Guido, and the lesson says nothing about five lines or clefs. Look again at the row that opens the timeline."]
   ]},
   { q: "What difficulty were the singers of about the year 1000 actually facing?", a: 0, o: [
-    ["An enormous chant repertory carried in the memory, which had to be taught, corrected, and sent four hundred miles without error", "A problem of transmission, not of theory. The schools were teaching Boethius and answering a quite different question."],
-    ["That the Boethian ratios had been shown to be false", "Nothing in this chapter refutes the ratios, and the boxed remark insists on that in so many words. Ask what the singers wanted that the science was not being asked for."],
+    ["An enormous chant repertory carried in the memory, which had to be taught, corrected, and sent four hundred miles without error", "This was a problem of transmission, not of theory. The schools were teaching Boethius and answering a quite different question."],
+    ["That the Boethian ratios had been shown to be false", "Nothing in this chapter refutes the ratios, and the remark says so explicitly. Ask what the singers wanted that the science was not being asked for."],
     ["That they could not agree which intervals were concords", "The concords were settled and assumed. The trouble lay in getting a particular melody from one place and one memory to another intact."],
     ["That the chant repertory was too small to fill the liturgical year", "The lesson says it had grown enormous, which is the opposite complaint. Re-read the paragraph describing what the men who sang were up against."]
   ]},
   { q: "The lesson is careful about what Guido did <em>not</em> do. Which statement does it make?", a: 3, o: [
     ["He invented the hexachord with its mutations and its famous hand", "That system is the elaboration of later theorists working on what he left them. The lesson separates the man from the tradition built in his name."],
     ["He invented notation out of nothing", "He presents himself as improving what he found, and something was already in use before him. Ask what kind of notation the ninth and tenth centuries already had."],
-    ["He composed the hymn to St. John from which the syllables come", "The syllables are taken from a hymn whose lines happen to begin one step higher each time. Taking a thing and making it are different acts."],
-    ["He drew his syllables from a hymn already in existence, and improved a notation already in use", "The hexachord system, with its mutations and its hand, is later theorists’ work and not his. Reformers are more often improvers than inventors."]
+    ["He composed the hymn to St. John from which the syllables come", "The syllables are taken from a hymn whose lines happen to begin one step higher each time. Using a hymn that already existed is different from composing it."],
+    ["He drew his syllables from a hymn already in existence, and improved a notation already in use", "The hexachord system, with its mutations and its hand, is later theorists’ work and not his. He presents himself as improving what he found."]
   ]},
   { q: "Where do the syllables <span class=\"latin\">ut re mi fa sol la</span> come from?", a: 1, o: [
-    ["From the Greek tetrachord names, latinised", "The Greeks are elsewhere in this course, and their names are not these. Look for a source in the liturgy that Guido’s singers already had by heart."],
-    ["From a hymn to St. John whose lines happen to begin one step higher each time", "The word ‘happen’ is doing real work there: it was a found convenience and not a design. Teaching devices are very often like this."],
+    ["From the Greek tetrachord names, latinized", "The Greeks are elsewhere in this course, and their names are not these. Look for a source in the liturgy that Guido’s singers already had by heart."],
+    ["From a hymn to St. John whose lines happen to begin one step higher each time", "The word ‘happen’ matters, because the arrangement was a convenience Guido found, not one he designed."],
     ["From the first six letters used to fix the semitone on the staff", "Letters and syllables are two different devices, and the lesson names them separately. Ask where a set of six words, rather than six letters, would have to come from."],
     ["From Boethius, who lists them in <span class=\"latin\">De institutione musica</span>", "Boethius has no such syllables, and the whole point of the split described here is that the singers needed what the science had never given them."]
   ]},
   { q: "What did the medieval schools mean by <span class=\"latin\">musica speculativa</span> and <span class=\"latin\">musica practica</span>?", a: 1, o: [
     ["A theory of composition, and a theory of performance", "Both halves of what you have named would fall on one side of this split. One of the two terms names a quadrivial science, not a theory about music-making."],
-    ["The science — Boethius, ratio, the monochord, the quadrivium — and the singer’s art", "Boethius had already ruled that the <span class=\"latin\">musicus</span> is the one who judges. The medievals kept the honour with the judge and gave the work to the singer."],
-    ["Music heard in the mind, and music actually sounded", "This makes the division one of where the music occurs. The lesson divides by what kind of knowing or doing is involved, which is a different cut altogether."],
+    ["The science (Boethius, ratio, the monochord, the quadrivium), and the singer’s art", "Boethius had already ruled that the <span class=\"latin\">musicus</span> is the one who judges. The medievals kept the honor with the judge and gave the work to the singer."],
+    ["Music heard in the mind, and music actually sounded", "This makes the division one of where the music occurs. The lesson divides by what kind of knowing or doing is involved, which is a different division altogether."],
     ["Sacred music, and secular music", "Neither term concerns the use to which music is put. Both name disciplines, and they are distinguished by their principles and their practitioners."]
   ]},
   { q: "Over the four centuries after Guido, what happened to the two musics?", a: 0, o: [
-    ["They drifted apart, the honour staying with the judge and the work going to the singer", "That divorce sets up the whole chapter. A discipline can keep its dignity for a long while after it has stopped being asked the questions that matter to the men working."],
+    ["They drifted apart, the honor staying with the judge and the work going to the singer", "That separation is the starting point of the whole chapter. A discipline can keep its dignity for a long while after it has stopped being asked the questions that matter to the men doing the work."],
     ["The science absorbed the practice and gave it rules drawn from ratio", "The chapter tells the opposite story, and the next lesson shows that the working rules came from somewhere other than ratio. Re-read the paragraph on the split."],
-    ["The practice was condemned by the schools as unlearned", "No condemnation is described. The medievals honoured the judge without attacking the singer; what happened between them was slower and quieter than a quarrel."],
+    ["The practice was condemned by the schools as unlearned", "No condemnation is described. The medievals honored the judge without attacking the singer; what happened between them was slower and quieter than a quarrel."],
     ["They were fused by Guido’s staff into a single discipline", "The staff gave the practice a record of its own, which made it more able to stand apart rather than less. Ask what a written practice can now do without the science."]
   ]},
-  { q: "The boxed remark says this is ‘not yet a decline’. Why not?", a: 2, o: [
-    ["Because the science continued to grow through these centuries", "Growth is not what the box claims. It claims something weaker and more precise about the science’s standing, which is compatible with its producing nothing new at all."],
-    ["Because the practice remained subordinate to the science throughout", "The lesson has just described the two drifting apart. Subordination is exactly what was lost, and the box defends the science on other grounds."],
-    ["Because the science was not refuted; it stopped being asked the questions that interested the men doing the work", "Silence is not error. But the box adds a warning: a discipline silent for four centuries while its subject matter flourishes may find that someone else has taken the subject matter."],
-    ["Because no one in this period doubted Boethius", "What people happened to believe is not the point being made. The box is distinguishing two ways a science can fall out of use, only one of which is a failure of the science."]
+  { q: "The remark says this is ‘not yet a decline’. Why not?", a: 2, o: [
+    ["Because the science continued to grow through these centuries", "Growth is not what the remark claims. It claims something weaker and more precise about the science’s standing, which is compatible with its producing nothing new at all."],
+    ["Because the practice remained subordinate to the science throughout", "The lesson has just described the two drifting apart. Subordination is exactly what was lost, and the remark defends the science on other grounds."],
+    ["Because the science was not refuted; it stopped being asked the questions that interested the men doing the work", "Silence is not error, but the remark adds a warning: a discipline silent for four centuries while its subject matter flourishes may find that someone else has taken the subject matter."],
+    ["Because no one in this period doubted Boethius", "What people happened to believe is not the point being made. The remark distinguishes two ways a science can fall out of use, only one of which is a failure of the science."]
   ]},
-  { q: "What does the boxed remark say the first ratios <em>cannot</em> tell you?", a: 3, o: [
-    ["What a fifth is", "That is offered as an example of what they can do, and it is the very thing the box grants the science. Read the sentence through to its second half."],
+  { q: "What does the remark say the first ratios <em>cannot</em> tell us?", a: 3, o: [
+    ["What a fifth is", "That is offered as an example of what they can do, and it is the very thing the remark grants the science. Read the sentence through to its second half."],
     ["Which of two strings is the longer", "That is not a musical question at all, and nothing in the chapter raises it. Look for the two questions the singers had that the science had no means to answer."],
     ["Why 2:1 sounds concordant", "This is precisely what a middle science does answer, by giving the cause in ratio. You have named a success of the art and called it a limit."],
     ["How two independent voices should move against one another, or how long a syllable should be held", "A middle science answers what its principles can reach. Both of these become the business of the next lesson, and neither is settled by ratio."]
   ]},
   { q: "The chapter’s timeline gives ‘temperament: the ratios deliberately bent’ under which dates?", a: 1, o: [
-    ["1300–1558", "Those dates belong to a different row, and to a widening of concord rather than a bending of ratios. Go back to the six rows and match each phrase to its span."],
-    ["1523–1850", "The word ‘deliberately’ is the point: what had been a bound of reason became a thing to be adjusted. That story is told in its own lesson later in the chapter."],
+    ["1300–1558", "Those dates belong to a different row, and to a widening of concord rather than a bending of ratios. Re-read the six rows and match each phrase to its span."],
+    ["1523–1850", "The word ‘deliberately’ matters, because what had been a bound of reason became something to be adjusted. That story is told in a later lesson of this chapter."],
     ["1636–1737", "That span belongs to the row about a new cause for concord, not about the tuning of it. The rows run in order; count down from the top."],
     ["1547–1830", "That is the last row of the six, and it concerns an architecture in time rather than tuning. Check which phrase sits beside those years."]
   ]},
-  { q: "For what three reasons does the chapter say we walk this road?", a: 0, o: [
-    ["To see what later ages added, what they gave up and why, and which of your six lines still stand", "The third reason is the governing one. The chapter is a test of the principles you already hold, not a substitute for them."],
+  { q: "For what three reasons does the chapter say we follow this history?", a: 0, o: [
+    ["To see what later ages added, what they gave up and why, and which of our six lines still stand", "The third reason is the governing one. The chapter is a test of the principles we already hold, not a substitute for them."],
     ["To learn the repertory, to learn the notation, and to learn to compose", "None of these is offered as a purpose, and the course elsewhere places composition among the things that are not first. Re-read the opening paragraph."],
-    ["To show that the Boethian art was superseded", "The chapter says that what follows is not a new set of principles, and its box denies that the science was refuted. You have named the conclusion it is guarding against."],
-    ["To trace the history of the Church’s chant", "The chant appears as the occasion of one difficulty, not as the subject of the journey. Ask what the road is said to lead <em>to</em>."]
+    ["To show that the Boethian art was superseded", "The chapter says that what follows is not a new set of principles, and its remark denies that the science was refuted. You have named the conclusion it is guarding against."],
+    ["To trace the history of the Church’s chant", "The chant appears as the occasion of one difficulty, not as the subject of the chapter. Ask what the history is said to lead <em>to</em>."]
   ]},
   { q: "Which phrase does the timeline attach to the years 1300–1558?", a: 3, o: [
     ["Guido of Arezzo: pitch is written down", "That row stands at the top of the timeline with a single date, and the date is nowhere near this span. Match the rows to their years again."],
@@ -1556,37 +1556,37 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 "vii-2": [
   { q: "What is the <span class=\"latin\">Musica enchiriadis</span>, and to whom is it now ascribed?", a: 1, o: [
     ["A treatise of about 1100 by Johannes Cotto, giving the rules of organum", "Cotto’s <span class=\"latin\">De musica</span> is real and is cited here, but it is later and it is not the first of its kind. Check the date the lesson gives for the first surviving rules."],
-    ["An anonymous treatise from near the end of the ninth century, once ascribed to Hucbald and now to no one in particular", "It is the first surviving text that gives rules for singing two lines together. Notice that the great turn in the art’s object comes from a book with no author."],
+    ["An anonymous treatise from near the end of the ninth century, once ascribed to Hucbald and now to no one in particular", "It is the first surviving text that gives rules for singing two lines together. The great change in the art’s object comes from a book with no known author."],
     ["Hucbald’s treatise, the first to give rules for two voices", "The ascription to Hucbald was made and has since been given up. Half of your answer is what the lesson says; the other half is what it says was once believed."],
     ["A twelfth-century Notre Dame treatise on the singing of many voices", "Notre Dame belongs to this lesson, but two centuries later and under two names. The treatise in question is older than the polyphony of Leoninus."]
   ]},
   { q: "In parallel organum, what does the added voice do?", a: 0, o: [
-    ["It doubles the given chant at the fifth or the fourth throughout", "The other manner the treatise describes begins in unison, opens out, and bends back — precisely to avoid the harsh interval that strict parallel motion would produce."],
+    ["It doubles the given chant at the fifth or the fourth throughout", "The other manner the treatise describes begins in unison, opens out, and bends back, so as to avoid the harsh interval that strict parallel motion would produce."],
     ["It moves always contrary to the chant", "Contrary motion is not what the word ‘parallel’ describes, and the lesson gives it as the other manner’s remedy rather than as the rule. Re-read the first paragraph."],
     ["It doubles the chant at the third or the sixth", "Those intervals are not admitted as concords for another four hundred years, which is the matter of the next lesson. Ask which intervals this art has so far demonstrated."],
-    ["It repeats the chant a beat later, in imitation", "Nothing in this treatise concerns entries at different times, and measured time is not yet on the page at all. That comes later in this very lesson."]
+    ["It repeats the chant a beat later, in imitation", "Nothing in this treatise concerns entries at different times, and measured time is not yet on the page at all. That comes later in this lesson."]
   ]},
   { q: "How did the object of the art change with organum?", a: 3, o: [
     ["From sound to number", "Number was the cause from the beginning; that is what made the art a middle science. The change described here is in what the art considers, not in what explains it."],
     ["From the interval to the scale", "Both of these belong to classical harmonics, and the lesson names them together as what came before. The new object is neither of them."],
     ["From the voice to the instrument", "Voice and instrument were never separated in this art’s subject, since both sound. Ask what is new in what is being looked at, not in what produces it."],
-    ["From an interval, and then a scale, to a succession of simultaneities", "Not what a fifth is, but how a whole line of them may lawfully move. That question cannot be answered by ratio alone, and the rules that answer it are of another kind."]
+    ["From an interval, and then a scale, to a succession of simultaneities", "The question is not what a fifth is, but how a whole line of them may lawfully move, and that question cannot be answered by ratio alone, and the rules that answer it are of another kind."]
   ]},
-  { q: "Given a chant and the rules of organum, what can you do — and what can you not?", a: 2, o: [
-    ["You can derive why 3:2 is a concord, but cannot generate any particular organum", "You have the two capacities exactly reversed. Ask what a rule saying ‘this combination is admissible’ is able to produce, and what it must simply assume."],
-    ["You can do both, since the rules follow from the ratios", "The lesson denies that they follow from the ratios at all: they are not demonstrations. Were they, the next four centuries would look very different."],
-    ["You can generate every organum of that style; you cannot derive from them why 3:2 is a concord", "That was already known, and assumed. A grammar of a practice takes its materials as given and legislates only over their combination."],
-    ["You can do neither without Boethius at your elbow", "The rules work on their own for the purpose they were made for. What they cannot do is prove the thing they take for granted."]
+  { q: "Given a chant and the rules of organum, what can we do, and what can we not do?", a: 2, o: [
+    ["We can derive why 3:2 is a concord, but cannot generate any particular organum", "You have the two capacities exactly reversed. Ask what a rule saying ‘this combination is admissible’ is able to produce, and what it must simply assume."],
+    ["We can do both, since the rules follow from the ratios", "The lesson denies that they follow from the ratios at all: they are not demonstrations. Were they, the next four centuries would look very different."],
+    ["We can generate every organum of that style, but we cannot derive from them why 3:2 is a concord", "That was already known, and assumed. A grammar of a practice takes its materials as given and legislates only over their combination."],
+    ["We can do neither without Boethius at our elbow", "The rules work on their own for the purpose they were made for. What they cannot do is prove the thing they take for granted."]
   ]},
-  { q: "The boxed remark distinguishes two kinds of principle. Which kind is most music theory since the tenth century?", a: 1, o: [
-    ["Deriving: principles from which the patterns follow necessarily", "That is the kind the first ratios belong to, and the diatonic scale is what follows from them. The box says most later theory is of the other kind."],
-    ["Restricting: saying which things are admissible, without generating any particular one", "The box adds that this is not a criticism but a statement of what sort of knowledge it is. The rules of counterpoint restrict; the first ratios derive."],
-    ["Neither, since counterpoint rules are demonstrations from a new set of ratios", "No new ratios are offered by the rules of counterpoint, and the lesson is at pains to say that they are not demonstrations. Look at the two kinds the box actually names."],
-    ["Both at once, since every rule both restricts and derives", "The box separates them precisely because they come apart. A rule can forbid a great deal and still produce nothing whatever on its own."]
+  { q: "The remark distinguishes two kinds of principle. Which kind is most music theory since the tenth century?", a: 1, o: [
+    ["Deriving: principles from which the patterns follow necessarily", "That is the kind the first ratios belong to, and the diatonic scale is what follows from them. The remark says most later theory is of the other kind."],
+    ["Restricting: saying which things are admissible, without generating any particular one", "The remark adds that this is not a criticism but a statement of what sort of knowledge it is. The rules of counterpoint restrict; the first ratios derive."],
+    ["Neither, since counterpoint rules are demonstrations from a new set of ratios", "No new ratios are offered by the rules of counterpoint, and the lesson takes care to say that they are not demonstrations. Look at the two kinds the remark actually names."],
+    ["Both at once, since every rule both restricts and derives", "The remark separates them because they do come apart. A rule can forbid a great deal and still produce nothing whatever on its own."]
   ]},
   { q: "Leoninus and Perotinus worked at Notre Dame in roughly which years, and what difficulty did their music make unavoidable?", a: 3, o: [
     ["1160 to 1230; the need to widen the bound of concord to the third", "The dates are right and the difficulty is not. The third is admitted much later, and by a quite different route."],
-    ["1280 to 1320; the need to write the length of every note", "The difficulty is right, and those dates belong to the men who answered it rather than to the men who created it. Keep a problem and its solution apart in time."],
+    ["1280 to 1320; the need to write the length of every note", "The difficulty is right, and those dates belong to the men who answered it rather than to the men who created it. A problem and its solution need not belong to the same date."],
     ["1100 to 1160; the need for a staff of fixed pitch", "Pitch was already on the page before them, as the previous lesson describes. Ask what second quantity a note possesses besides its height."],
     ["1160 to 1230; the need to write the length of every note, and not merely its height", "Three men singing different lines at once cannot be coordinated by pitch alone. Augustine’s half of the art at last receives an instrument."]
   ]},
@@ -1594,7 +1594,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["About 1280: that the shape of a note carries its duration", "The system is still ternary and still context-dependent, and Franco gathers up practices already in motion rather than inventing alone. But time is now on the page."],
     ["About 1321: the admission of duple as well as triple division", "That date and that innovation belong to the next generation and to another treatise. Franco’s achievement is more basic than a choice between two divisions."],
     ["About 1030: the fixing of pitch by lines and letters", "You have gone back to the previous lesson and to another man entirely. Franco’s subject is the other quantity a written note can carry."],
-    ["About 1330: a defence of the ancients against the moderns", "That is the work of an aged critic writing against what Franco’s system made possible. Franco stands on the other side of that quarrel, and earlier."]
+    ["About 1330: a defense of the ancients against the moderns", "That is the work of an aged critic writing against what Franco’s system made possible. Franco stands on the other side of that quarrel, and earlier."]
   ]},
   { q: "What did the <span class=\"latin\">ars nova</span> of the 1320s admit, and under whose name do its texts circulate?", a: 2, o: [
     ["The third as a concord; the texts are Odington’s", "That is another lesson’s business and another country’s. The <span class=\"latin\">ars nova</span> is a reform of time, not of the bound of concord."],
@@ -1604,7 +1604,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Jacobus of Liège wrote the <span class=\"latin\">Speculum musicae</span> against the moderns. What was his complaint?", a: 1, o: [
     ["That the new music is out of tune", "The lesson says expressly that this is not the complaint. Tuning is untouched by the quarrel; ask which of the art’s two quantities the <span class=\"latin\">ars nova</span> had altered."],
-    ["That it is restless, and that the old proportions of time have been broken", "A conservative complaint about measure rather than about pitch. Notice that it concedes the moderns their concords and disputes only what they do in time."],
+    ["That it is restless, and that the old proportions of time have been broken", "This is a conservative complaint about measure rather than about pitch. It concedes the moderns their concords and disputes only what they do in time."],
     ["That polyphony obscures the words of the liturgy", "That objection belongs to the moral treatment of the use of music, which this course places elsewhere. Jacobus is arguing about proportion."],
     ["That notation had made singers lazy in memory", "Nothing of the kind appears here, and the lesson treats notation as the enabling gain of the whole chapter. His grievance is about what the new music does, not how it is recorded."]
   ]},
@@ -1617,40 +1617,40 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What does the lesson say the extension into measured time cost?", a: 2, o: [
     ["The loss of the first concords, which no longer held", "The concords are untouched, and the lesson ends by insisting they are not like the rules that followed. Nothing in the chapter revokes 2:1, 3:2 or 4:3."],
     ["Nothing; the gain was pure", "The lesson sets a gain and a cost side by side in its last paragraph. Read to the end and see what it says about the working rules from here forward."],
-    ["That from here forward the working rules of music are the grammar of a practice — historical, revisable, and different in 1400 from 1300", "And the first concords are not like that. Holding both facts at once is what keeps this chapter from being either a triumph or a lament."],
-    ["That written polyphony ceased to develop in Europe", "The lesson counts that polyphony among the gains, and says no other civilisation developed it to this degree. You have made a gain into a loss."]
+    ["That from here forward the working rules of music are the grammar of a practice (historical, revisable, and different in 1400 from 1300)", "The first concords are not like that. Holding both facts together keeps this chapter from being either a celebration or a lament."],
+    ["That written polyphony ceased to develop in Europe", "The lesson counts that polyphony among the gains, and says no other civilization developed it to this degree. You have made a gain into a loss."]
   ]}
 ],
 
 "vii-3": [
   { q: "What question did the earlier lesson leave standing, and what did it say about it?", a: 2, o: [
-    ["That 81:64 is false, and that Thomas had shown it so", "Thomas is said to have left the matter open, not to have decided it. Be careful which questions an authority actually closes and which he simply does not treat."],
+    ["That 81:64 is false, and that Thomas had shown it so", "Thomas is said to have left the matter open, not to have decided it. It matters which questions an authority actually closes and which he simply does not treat."],
     ["That the ditone and 5:4 are the same interval under two names", "They stand about a tenth of a tone apart, which is why the dispute was possible at all. Two names for one thing would not have taken two hundred years to sort out."],
     ["That two tones compounded give the ditone 81:64 while singers seem to want the gentler 5:4; the dispute was real, Thomas had not closed it, and a first-principles course could leave it open", "The tradition did not leave it open. It took about two hundred years to answer, and the answer came from practice before it came from theory."],
-    ["That the ditone is a concord and 5:4 a dissonance, as the first four numbers require", "The lesson calls neither one a dissonance; it says one is bright and hard and the other settles. And the restriction to the first four numbers is exactly what later gets broken."]
+    ["That the ditone is a concord and 5:4 a dissonance, as the first four numbers require", "The lesson calls neither one a dissonance; it says one is bright and hard and the other settles. And the restriction to the first four numbers is what is later broken."]
   ]},
   { q: "What did Walter Odington observe, and about when?", a: 1, o: [
     ["About 1482, that a monochord division can yield 5:4 outright", "That is a later man’s achievement and a bolder one: it alters the division rather than describing what singers do. Odington’s observation is about the choir."],
-    ["About 1300, that the ditone 81:64 and the semiditone 32:27 are close neighbours to 5:4 and 6:5, and that singers draw them into a sweet blend by the subtlety of the voice", "The ratio on the monochord and the interval in the choir are not the same. The choir is doing something the theory has not accounted for."],
+    ["About 1300, that the ditone 81:64 and the semiditone 32:27 are close neighbors to 5:4 and 6:5, and that singers draw them into a sweet blend by the subtlety of the voice", "The ratio on the monochord and the interval in the choir are not the same. The choir is doing something the theory has not accounted for."],
     ["About 1300, that 81:64 should be struck from the tables", "He proposes no abolition. He reports a discrepancy between what the string gives and what the voice does with it, which is a far more careful thing to do."],
-    ["About 1441, that the English have a sweeter manner of singing", "That is a French poet’s remark about a later generation, not an English monk’s treatise. Two different observations about English singing, a century and a half apart."]
+    ["About 1441, that the English have a sweeter manner of singing", "That is a French poet’s remark about a later generation, not an English monk’s treatise. These are two different observations about English singing, made a century and a half apart."]
   ]},
   { q: "How far apart do the ditone and 5:4 stand?", a: 1, o: [
     ["A whole tone", "A gap that size would be an obvious mistuning rather than a subtle preference, and no one would have argued about it for two centuries. The lesson gives a much smaller figure."],
-    ["About a tenth of a tone; the next lesson gives the gap its name", "Small enough to be sung past, large enough to matter. Every European ear from the fifteenth century onward has preferred the gentler of the two."],
-    ["A semitone", "Still far too wide. The two are described as close neighbours, near enough that a voice can draw one toward the other without the change being noticed."],
+    ["About a tenth of a tone; the next lesson gives the gap its name", "The gap is small enough for singers to adjust across it, but large enough to matter. Every European ear from the fifteenth century onward has preferred the gentler of the two."],
+    ["A semitone", "That is still far too wide. The two are described as close neighbors, near enough that a voice can draw one toward the other without the change being noticed."],
     ["They are identical in size and differ only in derivation", "Then the ear could not have preferred one to the other, and the whole history in this lesson would have no occasion. Re-read the paragraph beside the comparison."]
   ]},
   { q: "In 1441 Martin le Franc praised a <span class=\"latin\">contenance angloise</span>. What does the lesson say about it?", a: 0, o: [
-    ["He names John Dunstaple as its source and says Du Fay and Binchois took up his manner; he does not say what he meant, and the third-and-sixth reading is the received one, supplied by later scholars", "The lesson keeps evidence and interpretation apart. That the reading fits the music is a good reason to hold it, and not a proof."],
-    ["He defines it as the use of thirds and sixths", "He does not define it at all, and that silence is the point of the paragraph. Distinguish what a source says from what scholars have since made of it."],
+    ["He names John Dunstaple as its source and says Du Fay and Binchois took up his manner; he does not say what he meant, and the third-and-sixth reading is the received one, supplied by later scholars", "The lesson keeps evidence and interpretation apart. That the reading fits the music is a good reason to hold it, but not a proof."],
+    ["He defines it as the use of thirds and sixths", "He does not define it at all, and that silence is the point of the paragraph. What a source says must be kept apart from what scholars have since made of it."],
     ["He names Zarlino as its source", "Zarlino is a Venetian of the following century who settles the theoretical question. A poet writing in 1441 could not have named him."],
-    ["He condemns it as a corruption of the Boethian concords", "The verb in the lesson is ‘praises’. And the whole movement of this chapter is practice leading theory, not practice being scolded by it."]
+    ["He condemns it as a corruption of the Boethian concords", "The verb in the lesson is ‘praises’, and throughout this chapter practice leads theory rather than being corrected by it."]
   ]},
   { q: "What did Ramis de Pareia publish in 1482, and what was bold about it?", a: 2, o: [
-    ["<span class=\"latin\">Musices opusculum</span>, defending the Boethian bound", "That title belongs to the man who attacked him, five years later. You have taken the assailant’s book for the book assailed."],
+    ["<span class=\"latin\">Musices opusculum</span>, defending the Boethian bound", "That title belongs to the man who attacked him, five years later. You have taken the attacker’s book for the book attacked."],
     ["<span class=\"latin\">Le istitutioni harmoniche</span>, setting the bound at the senario", "That is another man, another city, and seventy-six years later. Ramis is earlier and blunter, and he offers a division of the string rather than a bound argued from number."],
-    ["<span class=\"latin\">Musica practica</span>, with a monochord division yielding the thirds as 5:4 and 6:5 outright — breaking the Boethian restriction to the first four numbers", "He was teaching at Bologna, and the book began a quarrel that outlived him. Burtius attacked in 1487, and Gaffurio joined the assault."],
+    ["<span class=\"latin\">Musica practica</span>, with a monochord division yielding the thirds as 5:4 and 6:5 outright, and so breaking the Boethian restriction to the first four numbers", "He was teaching at Bologna, and the book began a quarrel that outlived him. Burtius attacked in 1487, and Gaffurio joined the assault."],
     ["<span class=\"latin\">Summa de speculatione musicae</span>, reporting what singers do", "That is the treatise of about 1300, which only observed the discrepancy. Ramis does something stronger than observe: he alters the division of the string itself."]
   ]},
   { q: "Who attacked Ramis, and how long did the quarrel run?", a: 3, o: [
@@ -1661,7 +1661,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Where and when did Zarlino settle the question for his century?", a: 0, o: [
     ["Venice, 1558, in <span class=\"latin\">Le istitutioni harmoniche</span>, as chapel master of St. Mark’s", "There he sets the bound of consonance at the senario, and within it the thirds and the major sixth stand as concords by right."],
-    ["Bologna, 1482, in <span class=\"latin\">Musica practica</span>", "That is the city and the book of the man who opened the question, not of the man who closed it. Keep the two Italians and their two dates apart."],
+    ["Bologna, 1482, in <span class=\"latin\">Musica practica</span>", "That is the city and the book of the man who opened the question, not of the man who closed it. The two Italians and their two dates must be kept apart."],
     ["Venice, 1571, in the <span class=\"latin\">Dimostrationi</span>", "The city is right and the book is the later one, in which he does something quite different and much more practical. Look for his great systematic work first."],
     ["Paris, 1558, in <span class=\"latin\">Le champion des dames</span>", "You have joined a Venetian’s date to a French poem of a hundred years earlier. Check both halves of a citation before you accept it."]
   ]},
@@ -1669,21 +1669,21 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because six is the first perfect number: 1+2+3 is both its sum of parts and its product", "The bound is argued from the nature of number, not from what happens to please. That is what makes the settlement a work of reason rather than a surrender to the ear."],
     ["Because six is the number of voices in a full choir", "Nothing in the argument depends on how many men sing. Ask what property of the number six itself could carry the weight of a bound."],
     ["Because 6:5 is the smallest ratio a voice can sing accurately", "That would make the bound depend on the throat, which is exactly the sort of ground the lesson says was <em>not</em> used. Look instead for a property of number."],
-    ["Because Ptolemy had already fixed it there", "Zarlino invokes Ptolemy for the resulting tuning, not for the bound’s justification. Distinguish the authority a writer claims from the argument he actually gives."]
+    ["Because Ptolemy had already fixed it there", "Zarlino invokes Ptolemy for the resulting tuning, not for the bound’s justification. The authority a writer claims is different from the argument he actually gives."]
   ]},
   { q: "Zarlino does not present the senario as an innovation. What does he do instead?", a: 2, o: [
     ["He credits Ramis with the discovery", "Ramis is nowhere claimed as his authority, and Zarlino’s ground is arithmetical rather than a matter of descent. Ask which of the ancient authorities he reaches for."],
     ["He claims to be restoring Boethius", "Boethius’s restriction to the first four numbers is precisely what the senario breaks. It cannot be the authority under which the breaking is done."],
-    ["He identifies the resulting tuning with the syntonic diatonic of Ptolemy, the second authority the art always had", "The art had two ancient authorities, and one was available when the other ran out. Innovation dressed as recovery is a very old move, and here an honest one."],
-    ["He presents it as a concession to singers", "The lesson insists that the ear was heard and then answered with an argument, not merely indulged. A concession is the very thing the boxed remark denies took place."]
+    ["He identifies the resulting tuning with the syntonic diatonic of Ptolemy, the second authority the art always had", "The art had two ancient authorities, and one was available when the other could not serve. Presenting an innovation as a recovery is an old practice, and here it is an honest one."],
+    ["He presents it as a concession to singers", "The lesson insists that the ear was heard and then answered with an argument, not merely indulged. A concession is the very thing the remark denies took place."]
   ]},
-  { q: "The boxed remark denies that the ear simply overruled reason. How does it put the matter?", a: 1, o: [
-    ["Reason gave way, and the ear became the judge of concord", "That is the reading the box exists to forbid. Were it so, the settlement would be a defeat for the method rather than a vindication of it."],
-    ["The ear was heard, and then a different arithmetic was given for what it heard — a bound at six rather than at four, argued from the nature of number", "That is Ptolemy’s method: sense and reason correcting one another, neither despising the other. It vindicates the method, not either party to the old quarrel."],
-    ["The ear was disregarded, and the senario derived from number alone", "Two centuries of singers are the occasion of the whole story, beginning with what Odington heard in a choir. The box does not pretend the ear was silent."],
-    ["Neither faculty was involved; the change was a matter of fashion", "Fashion explains nothing about why a bound moved from four to six rather than to five or to seven. The box gives a reason of quite another kind."]
+  { q: "The remark denies that the ear simply overruled reason. How does it put the matter?", a: 1, o: [
+    ["Reason gave way, and the ear became the judge of concord", "That is the reading the remark rules out. Were it so, the settlement would be a defeat for the method rather than a vindication of it."],
+    ["The ear was heard, and then a different arithmetic was given for what it heard (a bound at six rather than at four, argued from the nature of number)", "That is Ptolemy’s method: sense and reason correcting one another, neither despising the other. It vindicates the method, not either party to the old quarrel."],
+    ["The ear was disregarded, and the senario derived from number alone", "Two centuries of singers are the occasion of the whole story, beginning with what Odington heard in a choir. The remark does not pretend the ear was silent."],
+    ["Neither faculty was involved; the change was a matter of fashion", "Fashion explains nothing about why a bound moved from four to six rather than to five or to seven. The remark gives a reason of quite another kind."]
   ]},
-  { q: "The lesson says the strain in the senario shows honestly. Where?", a: 3, o: [
+  { q: "The lesson says the difficulties of the senario show plainly. Where?", a: 3, o: [
     ["In the ditone, which the senario cannot express", "The senario has no difficulty there, and 81:64 was never the interval it was made to accommodate. Look for an interval that needs a number outside the first six."],
     ["In the major third, which needs a seven", "That interval falls comfortably inside the first six numbers; it is the one the whole reform was made to admit. Check the ratios of the sixths instead."],
     ["In Ptolemy’s syntonic diatonic, which Zarlino had to abandon", "He identifies his tuning with it rather than abandoning it. The strain the lesson names concerns a particular interval, and a particular practical retreat."],
@@ -1697,70 +1697,70 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 
 "vii-4": [
-  { q: "Twelve pure fifths are set against how many diapasons, and what happens where the two journeys meet?", a: 1, o: [
-    ["Twelve diapasons, and the two arrive together exactly", "You have matched the count of fifths with an equal count of diapasons, which no arithmetic requires and which the lesson never claims. Go back and read how many diapasons are actually stacked against the twelve."],
-    ["Seven diapasons, and the fifths overshoot", "Seven, and the overshoot is the comma. On a keyboard the two journeys are supposed to arrive at the same sound; that they do not is the fact the next three centuries are answering."],
-    ["Seven diapasons, and the fifths fall short", "The count is right and the direction is wrong. Walk the twelve fifths on the widget and attend to whether you land above or below the seventh diapason before you choose again."],
-    ["Five diapasons, and the two arrive together exactly", "Neither the number nor the result. Take 3:2 to the twelfth power and 2 to the fifth, set them side by side, and see how far apart they stand before deciding anything agrees."]
+  { q: "Twelve pure fifths are set against how many diapasons, and how do the two series compare at the end?", a: 1, o: [
+    ["Twelve diapasons, and the two arrive together exactly", "You have matched the count of fifths with an equal count of diapasons, which no arithmetic requires and which the lesson never claims. Re-read how many diapasons are actually stacked against the twelve."],
+    ["Seven diapasons, and the fifths overshoot", "There are seven, and the overshoot is the comma. On a keyboard the two series are supposed to arrive at the same sound, and the next three centuries respond to the fact that they do not."],
+    ["Seven diapasons, and the fifths fall short", "The count is right and the direction is wrong. Follow the twelve fifths in the sound example and note whether they end above or below the seventh diapason."],
+    ["Five diapasons, and the two arrive together exactly", "Both the number and the result are wrong. Compare 3:2 raised to the twelfth power with 2 raised to the fifth, and see how far apart they stand."]
   ]},
   { q: "Stacking one interval upon another is what operation upon their ratios?", a: 2, o: [
-    ["Adding them, so that twelve fifths give 36:24", "Ratios are not added, and 36:24 reduces to 3:2 — the very interval you began with, written in larger numbers. Return to the earlier lesson on compounding and read what the operation is."],
-    ["Averaging them, so that twelve fifths give one mean interval", "An average would give you a single interval lying somewhere among the twelve, not the span of all twelve laid end to end. Ask what quantity you actually want when you stack."],
-    ["Multiplying them, so that twelve fifths give 3:2 raised to the twelfth power", "Compounding is multiplying, and this whole lesson is that one rule applied twice. Notice that it settles a question about instruments by pure arithmetic, with no instrument anywhere in the room."],
-    ["Subtracting the smaller term from the larger", "Subtracting terms treats a ratio as a difference between two numbers rather than a relation between them; 3 less 2 tells you nothing about the interval. Return to how the art defines a ratio."]
+    ["Adding them, so that twelve fifths give 36:24", "Ratios are not added, and 36:24 reduces to 3:2, the very interval you began with, written in larger numbers. Re-read the earlier lesson on compounding to see what the operation is."],
+    ["Averaging them, so that twelve fifths give one mean interval", "An average would give a single interval lying somewhere among the twelve, not the span of all twelve laid end to end. Ask what quantity is wanted when intervals are stacked."],
+    ["Multiplying them, so that twelve fifths give 3:2 raised to the twelfth power", "Compounding is multiplying, and this whole lesson is that one rule applied twice. It settles a question about instruments by arithmetic alone, without any instrument."],
+    ["Subtracting the smaller term from the larger", "Subtracting terms treats a ratio as a difference between two numbers rather than a relation between them; 3 less 2 says nothing about the interval. Re-read how the art defines a ratio."]
   ]},
   { q: "The Pythagorean comma is which ratio?", a: 1, o: [
-    ["81:80, the excess of twelve fifths over seven diapasons", "You have paired a real ratio with the wrong journey. That number is the residue of a comparison between two kinds of third, not of a circle of fifths. Ask which comparison each comma settles."],
-    ["531441:524288", "About 23.46 cents, and roughly a ninth of a tone. It is the exact measure of how far a keyboard tuned in pure fifths fails to close, and no adjustment of the twelve will make it vanish."],
-    ["81:64, the ditone", "That is an interval in the story, not a discrepancy between two arrivals. A comma is the small remainder left over when two journeys that should have met do not. Ask what is left over here."],
-    ["5:4, the third the singers want", "That is an interval one might desire, not a difference between two arrivals. Ask yourself what quantity remains when twelve fifths are set against seven diapasons, and give that quantity its name."]
+    ["81:80, the excess of twelve fifths over seven diapasons", "You have paired a real ratio with the wrong comparison. That number is the residue of a comparison between two kinds of third, not of a circle of fifths. Ask which comparison each comma settles."],
+    ["531441:524288", "It is about 23.46 cents, roughly a ninth of a tone, and it is the exact measure of how far a keyboard tuned in pure fifths fails to close; no arrangement of twelve pure fifths will make it vanish."],
+    ["81:64, the ditone", "That is an interval in the story, not a discrepancy between two arrivals. A comma is the small remainder left over when two series that should have met do not. Ask what is left over here."],
+    ["5:4, the third the singers want", "That is an interval one might desire, not a difference between two arrivals. Ask what quantity remains when twelve fifths are set against seven diapasons, and give that quantity its name."]
   ]},
   { q: "The syntonic comma is found by comparing which two quantities?", a: 0, o: [
-    ["The ditone 81:64, got from four pure fifths, against the just third 5:4, written as 80:64", "And their difference is 81:80, about a tenth of a tone. This is why a fixed instrument cannot hold pure fifths and pure thirds together: the thirds the fifths deliver are not the thirds the singers want."],
+    ["The ditone 81:64, got from four pure fifths, against the just third 5:4, written as 80:64", "Their difference is 81:80, about a tenth of a tone. This is why a fixed instrument cannot hold pure fifths and pure thirds together: the thirds the fifths deliver are not the thirds the singers want."],
     ["Twelve pure fifths against seven diapasons", "That comparison belongs to the closing of the circle, not to the quarrel between two kinds of third. Ask which of the two commas the previous lesson made urgent, and why thirds were the reason."],
     ["The tone 9:8 against the just third 5:4", "You are setting a step against a concord, and their difference is far larger than any comma. Look again at the two quantities the lesson actually places side by side when it reaches the third."],
-    ["Seven diapasons against four pure fifths", "You have crossed the terms of the two journeys. The seven diapasons belong to the comparison that closes the circle; the ditone is reached from four fifths. Re-read the paragraph that arrives at 81:64."]
+    ["Seven diapasons against four pure fifths", "You have mixed the terms of the two comparisons. The seven diapasons belong to the comparison that closes the circle; the ditone is reached from four fifths. Re-read the paragraph that arrives at 81:64."]
   ]},
   { q: "Which of these correctly compares the two commas?", a: 2, o: [
     ["They are one interval under two names, since both are called a comma", "They arise from different comparisons and have different ratios; the word comma names a size of interval, not a single interval. Set 531441:524288 beside 81:80 and ask whether those could be one thing."],
-    ["The syntonic is roughly twice the Pythagorean", "Neither is anywhere near double the other; the two lie within a few cents. Return to the sources line and read the two cent figures side by side before you compare them."],
-    ["The Pythagorean is the larger — about 23.46 cents against about 21.5", "A few cents apart, and both near a tenth of a tone. The cent is a later logarithmic measure, admitted here only so that ratios of very different sizes of number can be compared at a glance."],
+    ["The syntonic is roughly twice the Pythagorean", "Neither is anywhere near double the other; the two lie within a few cents. Re-read the two cent figures in the sources line side by side before you compare them."],
+    ["The Pythagorean is the larger — about 23.46 cents against about 21.5", "They are a few cents apart, and both are near a tenth of a tone. The cent is a later logarithmic measure, admitted here only so that ratios of very different sizes of number can be compared at a glance."],
     ["The syntonic is the larger by about a whole tone", "A whole tone is some two hundred cents, and each comma is a small fraction of one. Whatever their order, they differ from each other by very little. Read the two figures in the sources line."]
   ]},
   { q: "The lesson gives each comma a rough size in tones. Which account is right?", a: 3, o: [
-    ["Both about a ninth of a tone, the two being indistinguishable in size", "The lesson gives each its own fraction and the sources line gives each its own cent value. They are close, and the page is nonetheless careful to keep them apart. Read the two figures rather than merging them."],
+    ["Both about a ninth of a tone, the two being indistinguishable in size", "The lesson gives each its own fraction and the sources line gives each its own cent value. They are close, and the lesson is nonetheless careful to keep them apart. Read the two figures rather than merging them."],
     ["Both about a quarter of a tone", "A quarter of a tone is a large and unmistakable interval. A comma is small enough that most listeners meet it only as a grinding when two arrivals sound together. Re-read the two size estimates."],
     ["The Pythagorean about half a tone; the syntonic about a ninth of a tone", "Half a tone is a semitone, an interval of the scale and no residue at all. Had the failure to close been that large, nobody would have needed arithmetic to notice it. Look up the figure given."],
-    ["The Pythagorean about a ninth of a tone; the syntonic about a tenth", "Near enough in size that a careless reader treats them as one, and different enough in origin that the confusion spoils everything after. Keep the two journeys, and therefore the two commas, apart."]
+    ["The Pythagorean about a ninth of a tone; the syntonic about a tenth", "They are near enough in size that a careless reader treats them as one, and different enough in origin that the confusion spoils everything after, so the two comparisons, and therefore the two commas, must be kept apart."]
   ]},
   { q: "Why is the failure of the circle to close a matter of principle rather than of careless workmanship?", a: 0, o: [
-    ["Because 2 and 3 are prime, so no power of 3 is ever a power of 2", "A theorem of arithmetic, not a defect of craft. No tuner however skilful can bring twelve pure fifths to meet seven diapasons, and the impossibility stands established before any instrument is touched."],
-    ["Because strings and pipes are never made accurately enough", "A real difficulty of workmanship, and the wrong kind of reason altogether. The lesson claims the two journeys cannot meet even for a perfect instrument. Ask what would establish so strong a claim."],
+    ["Because 2 and 3 are prime, so no power of 3 is ever a power of 2", "This is a theorem of arithmetic, not a defect of craft. No tuner, however skillful, can bring twelve pure fifths to meet seven diapasons, and the impossibility stands established before any instrument is touched."],
+    ["Because strings and pipes are never made accurately enough", "That is a real difficulty of workmanship, but the wrong kind of reason altogether. The lesson claims the two journeys cannot meet even for a perfect instrument. Ask what would establish so strong a claim."],
     ["Because the ear cannot judge a fifth to better than a comma", "The lesson says the grinding of the two arrivals is plainly audible, so the ear does better than that. And a limit of hearing would not stop two quantities from being equal. Ask where the impossibility lives."],
     ["Because the fifth is only approximately 3:2 on any real instrument", "The argument takes the fifth to be exactly 3:2 and still fails to close; that is what makes it a theorem rather than a complaint. Grant the pure ratio and work the arithmetic through."]
   ]},
   { q: "Whose difficulty is the comma?", a: 2, o: [
     ["The singer’s above all, since he has no frets to guide him", "His freedom is exactly what spares him: the lesson says he takes each interval as it comes and adjusts. Ask what condition an instrument must be under for the comma to trap it."],
     ["The violinist’s, since the fingerboard fixes his string lengths", "The lesson names the violinist among those who escape, his fingers being free, and an unfretted fingerboard fixes nothing. Ask what it is about certain other instruments that leaves them no such liberty."],
-    ["The keyboard’s and the fretted lute’s — instruments whose pitches must be fixed in advance", "Organ, harpsichord, lute, and eventually the piano. The history of temperament is the history of what men did to keyboards, not what they did to the truth."],
+    ["The keyboard’s and the fretted lute’s — instruments whose pitches must be fixed in advance", "These are the organ, the harpsichord, the lute, and eventually the piano. The history of temperament is the history of what men did to keyboards, not what they did to the truth."],
     ["Everyone’s equally, since the arithmetic is the same for all", "The arithmetic is indeed the same for all, and the predicament is not: some musicians may adjust in the moment and some may not. Ask what the lesson says a singer does that a fixed instrument cannot."]
   ]},
   { q: "The lesson insists that the comma is ‘not a defeat for the liberal art’. On what ground?", a: 1, o: [
-    ["Because the comma is too small to matter in practice", "Its smallness is not the ground, and the lesson calls the grinding of the two arrivals plainly audible. A defence resting on inaudibility would concede that the art had been caught out. Look for the reason actually given."],
-    ["Because the impossibility is itself a result of the art, established by arithmetic — the art’s own middle term", "The art proves the very limit that everything after it responds to. Three centuries of tuning are a reply to a theorem the Pythagoreans could themselves have stated, which is a strange sort of defeat."],
-    ["Because later ages never found the comma either", "They found it, measured it, and spent three centuries dealing with it; that is the story the chapter tells. The defence offered is not one of successful concealment. Re-read the boxed remark."],
+    ["Because the comma is too small to matter in practice", "Its smallness is not the ground, and the lesson calls the grinding of the two arrivals plainly audible. A defense resting on inaudibility would concede that the art had been caught out. Look for the reason actually given."],
+    ["Because the impossibility is itself a result of the art, established by arithmetic (the art’s own middle term)", "The art proves the very limit that everything after it responds to. Three centuries of tuning are a reply to a theorem the Pythagoreans could themselves have stated, so it would be strange to call it a defeat."],
+    ["Because later ages never found the comma either", "They found it, measured it, and spent three centuries dealing with it; that is the story the chapter tells. The defense offered does not depend on concealment. Re-read the remark."],
     ["Because 2:1 and 3:2 were afterwards shown to be wrong", "Nothing here abandons those two ratios: the argument is built out of them and would collapse without them. Ask whether a proof drawn from a principle can discredit the principle it uses."]
   ]},
   { q: "Which pair of facts does the lesson say follows from the first two ratios of the art?", a: 3, o: [
-    ["That the fifth is not really 3:2, and that the third is not really 5:4", "Both ratios stand untouched; they are the premises of the argument, not its casualties. The trouble arises from what happens when they are stacked and compared. Re-read the sentence beginning ‘So:’."],
+    ["That the fifth is not really 3:2, and that the third is not really 5:4", "Both ratios stand untouched; they are the premises of the argument, not its casualties. The trouble arises from what happens when they are stacked and compared. Re-read the sentence beginning ‘So a fixed instrument’."],
     ["That a pure fifth cannot be tuned, and that a pure third cannot be tuned", "Any single fifth may be tuned pure without the least difficulty, and so may any single third. The difficulty appears only when several are required to agree at once. Ask what a fixed instrument cannot do."],
     ["That the diapason must be tempered while the fifth is left pure", "The diapason is never the interval tempered in this story; it is the fixed frame within which the error is shared out. And the lesson denies just what this option grants about the fifth."],
-    ["That a fixed instrument cannot have all its fifths pure and still close its circle, and cannot have pure fifths and pure thirds at once", "Two facts, and the lesson calls them facts. Everything in the next lesson — meantone, well temperament, equal temperament — is a way of choosing which of the two evils to suffer, and where."]
+    ["That a fixed instrument cannot have all its fifths pure and still close its circle, and cannot have pure fifths and pure thirds at once", "The lesson calls both of them facts. Everything in the next lesson (meantone, well temperament, equal temperament) is a way of choosing which of the two faults to accept, and where."]
   ]},
   { q: "What is the cent, as this course uses it?", a: 2, o: [
     ["The unit in which Pythagorean arithmetic states its ratios", "The old art states ratios as ratios, in whole numbers. A unit that cuts an interval into equal parts is a thing of quite another kind. Ask when the cent was devised and by whom it is used here."],
-    ["A ratio of small whole numbers, like the comma itself", "The sources line calls it a logarithmic measure, which is precisely not a ratio of whole numbers. That difference is the one this chapter turns upon. Read the last sentence of the sources line."],
-    ["A later logarithmic measure, admitted only so that intervals may be compared", "It is no part of the art being expounded, and the lesson flags it as a convenience so that you do not mistake a modern unit for a Pythagorean quantity. Borrowed tools should be labelled."],
+    ["A ratio of small whole numbers, like the comma itself", "The sources line calls it a logarithmic measure, which is precisely not a ratio of whole numbers. This chapter depends on that difference. Read the last sentence of the sources line."],
+    ["A later logarithmic measure, admitted only so that intervals may be compared", "It is no part of the art being expounded, and the lesson marks it as a convenience so that a modern unit is not mistaken for a Pythagorean quantity."],
     ["The smallest interval the ear can detect", "The lesson makes no claim about limits of hearing, and a unit of measure is not defined by what can be heard. Ask what the sources line says the cent is, and why it is admitted at all."]
   ]}
 ],
@@ -1769,136 +1769,136 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What did Pietro Aaron’s <span class=\"latin\">Toscanello in musica</span> (1523) contribute?", a: 2, o: [
     ["The first mathematical account of meantone, dividing the syntonic comma into quarters", "He offers no arithmetic whatever; he describes the thing by ear. The mathematics of the varieties arrives half a century later and by another hand. Check which name the lesson attaches to which service."],
     ["The first proposal that the diapason be divided into twelve equal parts", "That proposal belongs to a lutenist arguing about frets, and to a different decade. Aaron is giving instructions for tuning thirds and fifths, not for equal division. Read the paragraph again."],
-    ["The first clear practical instruction: tune the major third pure and let the fifths sit a little flat", "By ear, and without arithmetic. Our name for his procedure, quarter-comma meantone, is a later reading of it — worth remembering when a textbook makes the sixteenth century tidier than it was."],
-    ["The first circulating temperament, in which all keys are usable", "His procedure leaves one fifth grotesquely wide and four thirds unusable, so that you may play in some keys and not in others. Ask what the wolf is, and when it was finally driven out."]
+    ["The first clear practical instruction, which is to tune the major third pure and let the fifths sit a little flat", "He worked by ear and without arithmetic. Our name for his procedure, quarter-comma meantone, is a later reading of it, and so a textbook can make the sixteenth century look tidier than it was."],
+    ["The first circulating temperament, in which all keys are usable", "His procedure leaves one fifth grotesquely wide and four thirds unusable, so that one may play in some keys and not in others. Ask what the wolf is, and when it was finally driven out."]
   ]},
   { q: "What did Francisco de Salinas do for temperament in 1577?", a: 0, o: [
     ["Supplied the mathematics, and distinguished the varieties", "Practice ran ahead of theory by half a century here: a procedure was described in 1523, and Salinas afterwards showed what it was. That order is common throughout this chapter."],
-    ["Gave the first practical instruction for tuning by ear", "Such an instruction was already in print in 1523, and by another hand. Salinas’s service is of a different kind — ask what a practical instruction given by ear conspicuously lacks."],
-    ["Devised the first well temperament, so that the circle closes", "The closing of the circle belongs to a later century and to a German organist. Salinas is working on the family of tunings that still leaves a wolf. Fix the two dates well apart in your mind."],
+    ["Gave the first practical instruction for tuning by ear", "Such an instruction was already in print in 1523, and by another hand. Salinas’s service is of a different kind; ask what a practical instruction given by ear conspicuously lacks."],
+    ["Devised the first well temperament, so that the circle closes", "The closing of the circle belongs to a later century and to a German organist. Salinas is working on the family of tunings that still leaves a wolf. The two dates are far apart."],
     ["Proved that equal temperament is the only tuning that closes the circle", "Nothing in the lesson credits him with such a proof, and it could not be proved, since the well temperaments close the circle without being equal. Ask what the lesson says he distinguished."]
   ]},
   { q: "In quarter-comma meantone, what is done to the fifths?", a: 3, o: [
     ["Each is narrowed by a quarter of the Pythagorean comma", "You have the right fraction attached to the wrong comma. The previous lesson distinguished two of them, and the force of that distinction is that they cannot be exchanged. Settle which comparison yields which."],
     ["All twelve are narrowed equally, so that the circle closes", "Narrowing all twelve alike is a quite different tuning, and meantone does not close: one fifth is left grotesquely wide. Ask what the wolf is and why this procedure cannot avoid it."],
-    ["The fifths are left pure and the thirds narrowed instead", "Were the fifths left pure, the third arrived at would be the hard ditone — and a beautiful third was the whole object. Ask which interval the 1523 instruction told you to tune pure."],
-    ["Each of four fifths is narrowed by a quarter of the syntonic comma, so that four of them, less two diapasons, land exactly on the pure 5:4", "Hence the name. The thirds are beautiful, and the price is paid elsewhere: eight good major thirds, four unusable ones, and one fifth left grotesquely wide."]
+    ["The fifths are left pure and the thirds narrowed instead", "Were the fifths left pure, the third arrived at would be the hard ditone, and a beautiful third was the whole object. Ask which interval the 1523 instruction says to tune pure."],
+    ["Each of four fifths is narrowed by a quarter of the syntonic comma, so that four of them, less two diapasons, land exactly on the pure 5:4", "That is the reason for the name. The thirds are beautiful, and the cost falls elsewhere: eight good major thirds, four unusable ones, and one fifth left grotesquely wide."]
   ]},
   { q: "What is the practical consequence of quarter-comma meantone for a keyboard player?", a: 1, o: [
-    ["Every key is available to him, though each has its own colour", "That description belongs to a later kind of temperament, built precisely to remove the restriction this one imposes. Meantone leaves an interval nobody can use. Count the good thirds and the bad ones."],
-    ["Eight good major thirds and four unusable ones, with one grotesquely wide fifth: he may play in some keys and not in others", "The wolf. It is why the next century states its problem as ‘so that all keys may be used’, and why a circulating tuning was worth the labour of inventing."],
-    ["All thirds are equally good and all fifths equally poor", "Meantone distributes its error unevenly on purpose: it buys pure thirds in some places by ruining others. Nothing in it is spread out equally. Re-read the sentence about the wolf."],
+    ["Every key is available to him, though each has its own color", "That description belongs to a later kind of temperament, built precisely to remove the restriction this one imposes. Meantone leaves an interval nobody can use. Count the good thirds and the bad ones."],
+    ["Eight good major thirds and four unusable ones, with one grotesquely wide fifth: he may play in some keys and not in others", "This is the wolf, and it is why the next century states its problem as ‘so that all keys may be used’, and why a circulating tuning was worth the labor of inventing."],
+    ["All thirds are equally good and all fifths equally poor", "Meantone distributes its error unevenly on purpose: it gains pure thirds in some places by spoiling others. Nothing in it is spread out equally. Re-read the sentence about the wolf."],
     ["The fifths are all pure and only the thirds suffer", "That is the tuning meantone was devised to escape. Were all the fifths pure the circle would not close at all, which is the trouble the previous lesson established by arithmetic."]
   ]},
   { q: "What is the standing of Vincenzo Galilei’s 18:17 rule for placing frets?", a: 2, o: [
     ["A derivation of the equal semitone from first principles", "The equal semitone is not a ratio of whole numbers at all, so no rule stated as one could yield it exactly. Ask what relation 18:17 can stand in to a quantity it cannot equal."],
     ["The first appearance of equal fretting among lutenists", "The lesson says equal fretting was already common when he wrote, so it cannot have begun with him. What he added was the statement and the argument, not the practice itself."],
-    ["A practical approximation to an equal semitone, for placing frets", "Not a derivation of one. His contribution is to state the rule and defend it, equal fretting being already common among lutenists — practice preceding theory once more, as with Aaron."],
-    ["A well temperament for fretted instruments, in which each key keeps its colour", "He argues for dividing the diapason into twelve equal parts, which is the opposite of letting each key keep a colour: equal division makes them alike. Ask what irregularity means in a temperament."]
+    ["A practical approximation to an equal semitone, for placing frets", "It is not a derivation of one. His contribution is to state the rule and defend it, since equal fretting was already common among lutenists, so that practice again comes before theory, as with Aaron."],
+    ["A well temperament for fretted instruments, in which each key keeps its color", "He argues for dividing the diapason into twelve equal parts, which is the opposite of letting each key keep a color, because equal division makes them alike. Ask what irregularity means in a temperament."]
   ]},
   { q: "What distinguishes the well temperaments of Werckmeister’s <span class=\"latin\">Musicalische Temperatur</span> (1691) and his successors?", a: 2, o: [
-    ["They divide the diapason into twelve equal parts", "Equal division would make the keys indistinguishable from one another, and these tunings were prized for the contrary quality. Ask what work the word irregular is doing in the lesson’s description."],
+    ["They divide the diapason into twelve equal parts", "Equal division would make the keys indistinguishable from one another, and these tunings were prized for the contrary quality. Ask what the word irregular means in the lesson’s description."],
     ["They tune eight thirds pure and leave four unusable", "That is the bargain of the older family of tunings, the one with a wolf in it. Werckmeister’s object was that all keys should be usable. Ask what must happen to the wolf for that to be so."],
-    ["They are irregular: the circle closes, every key is playable, and no two keys sound quite alike", "Because the error is distributed unevenly. That unevenness is not a defect but the very thing composers valued, and it is what makes a journey through all twenty-four keys worth writing."],
+    ["They are irregular: the circle closes, every key is playable, and no two keys sound quite alike", "This is because the error is distributed unevenly. That unevenness is not a defect but the very thing composers valued, and it is what makes a journey through all twenty-four keys worth writing."],
     ["They keep every fifth pure and accept that the circle will not close", "An instrument whose circle does not close cannot be played in all keys, and closing it was the whole motive. The previous lesson also showed that pure fifths and closure cannot be had together."]
   ]},
   { q: "<span class=\"latin\">Das wohltemperirte Clavier</span> (1722) is commonly said to celebrate equal temperament. What does the lesson say of that claim?", a: 3, o: [
     ["It is correct, since twenty-four keys are possible only under equal temperament", "Twenty-four keys are possible under any circulating tuning, equal or not, and one such had been in print since 1691. Ask what circulating means, and whether it entails equality of any kind."],
-    ["It is correct, since Bach is known to have tuned his own instruments equally", "Which particular temperament Bach wanted is unknown and much conjectured; the lesson says so plainly. A claim about his practice cannot be the ground of anything here. Read the boxed remark."],
-    ["It cannot be judged, since <span class=\"latin\">wohltemperirt</span> has no settled meaning", "The lesson gives the word a settled meaning and says the negative claim is secure even where the positive one is not. Distinguish what is genuinely unknown here from what is perfectly well known."],
-    ["It is false: <span class=\"latin\">wohltemperirt</span> names a circulating but unequal tuning, in which each key keeps its own colour", "The negative claim is secure; which temperament he wanted is not. And the unevenness is the point — twenty-four identical exercises would hardly have been worth composing."]
+    ["It is correct, since Bach is known to have tuned his own instruments equally", "Which particular temperament Bach wanted is unknown and much conjectured; the lesson says so plainly. A claim about his practice cannot be the ground of anything here. Read the remark."],
+    ["It cannot be judged, since <span class=\"latin\">wohltemperirt</span> has no settled meaning", "The lesson gives the word a settled meaning and says the negative claim is secure even where the positive one is not. What is unknown here must be kept apart from what is well known."],
+    ["It is false: <span class=\"latin\">wohltemperirt</span> names a circulating but unequal tuning, in which each key keeps its own color", "The negative claim is secure, but which temperament he wanted is not. The unevenness matters, because twenty-four identical exercises would hardly have been worth composing."]
   ]},
   { q: "When did equal temperament become the English norm?", a: 1, o: [
     ["By 1722, with the publication of Bach’s title", "That title names a different kind of tuning altogether, and a German title would settle nothing about English instruments in any case. The lesson gives England a date of its own, far from this one."],
     ["In the 1840s and 1850s, a century after Bach died", "It spread on the Continent from the later eighteenth century, and England came late. The dating rests on Ellis’s appendices to Helmholtz, and the lesson warns that the chronology is a range, not a threshold."],
-    ["In 1691, with Werckmeister", "Werckmeister’s temperaments are irregular, and he was not writing for England. You have folded two distinct answers to the arithmetic problem into one. Check what the lesson says each of the three is."],
+    ["In 1691, with Werckmeister", "Werckmeister’s temperaments are irregular, and he was not writing for England. You have merged two distinct answers to the arithmetic problem into one. Check what the lesson says each of the three is."],
     ["In 1577, when Salinas supplied the mathematics", "Salinas was distinguishing the varieties of a tuning that still leaves a wolf, and the sixteenth century is far too early for the adoption in question. Find the decade the lesson actually gives England."]
   ]},
   { q: "By how much is the equal-tempered fifth out of tune, and how does its third fare?", a: 1, o: [
     ["The fifth is narrow by a quarter of the syntonic comma, and the third is pure", "That description belongs to the tuning that buys a pure third at the fifth’s expense. Equal temperament leaves no interval pure but the diapason. Compare the two deviations the lesson actually gives."],
-    ["The fifth is narrow by only about a twelfth of the Pythagorean comma; the third is wide by roughly two-thirds of a syntonic comma", "Which is why the tuning is tolerable: the error is put where least noticed, and the audible cost falls upon the thirds. You have been hearing those wide thirds all your life."],
-    ["The fifth is wide by a full syntonic comma and the third narrow by a twelfth of it", "Both intervals and both directions are crossed here. Go back to the paragraph that measures the three tunings and read the two clauses about equal temperament through in order."],
-    ["Both fifth and third are out by a whole comma", "The whole art of temperament lies in the fractions — a quarter here, a twelfth there, two-thirds elsewhere. Reading them all as one comma throws away the very distinctions the lesson is drawing."]
+    ["The fifth is narrow by only about a twelfth of the Pythagorean comma; the third is wide by roughly two-thirds of a syntonic comma", "That is why the tuning is tolerable: the error is put where it is least noticed, and the audible cost falls upon the thirds, which we have been hearing all our lives."],
+    ["The fifth is wide by a full syntonic comma and the third narrow by a twelfth of it", "Both intervals and both directions are reversed here. Re-read the paragraph that measures the three tunings, and read the two clauses about equal temperament in order."],
+    ["Both fifth and third are out by a whole comma", "The whole art of temperament lies in the fractions: a quarter here, a twelfth there, two-thirds elsewhere. Reading them all as one comma throws away the very distinctions the lesson is drawing."]
   ]},
   { q: "In Pythagorean tuning, where the fifths are pure, what is the state of the third?", a: 0, o: [
-    ["Hard — wide by a full syntonic comma, since it is the ditone", "Which is precisely the comparison that defined that comma. It is also why a purely Pythagorean keyboard became intolerable once thirds began to matter, and why Aaron wrote as he did."],
+    ["Hard, wide by a full syntonic comma, since it is the ditone", "That is the comparison that defined that comma, and it is also why a purely Pythagorean keyboard became intolerable once thirds began to matter, and why Aaron wrote as he did."],
     ["Pure, since pure fifths generate pure thirds", "Four pure fifths give the ditone 81:64, which is not 5:4; the whole of the previous lesson turned on that gap. Work the four fifths through and compare the result with what the singers want."],
     ["Narrow by a quarter of a comma", "Narrowing by a quarter of a comma is a deliberate act performed by a tuner, not something pure fifths do of themselves. Ask what four untouched fifths deliver when they are folded back."],
-    ["Wide by about two-thirds of a comma", "That figure belongs to a different tuning in the same paragraph — one in which no fifth is left pure at all. Read the three clauses in order and keep each measurement with its own tuning."]
+    ["Wide by about two-thirds of a comma", "That figure belongs to a different tuning in the same paragraph, one in which no fifth is left pure at all. Read the three clauses in order and keep each measurement with its own tuning."]
   ]},
-  { q: "What does temperament buy, and what does it sell?", a: 3, o: [
-    ["It buys purer concords and sells nothing of consequence", "Temperament deliberately mistunes; nothing in it is made purer than the ratio it departs from. And the lesson calls what is surrendered the sharpest single break between the liberal art and modern practice."],
-    ["It buys ease of tuning and sells nothing but a little sweetness in the thirds", "Tempering a keyboard is not easier than tuning it pure; it is harder, and it is undertaken for something else entirely. What is given up is more than sweetness. Read the paragraph on what is traded."],
-    ["It buys modulation and sells the diapason, which is no longer 2:1", "The diapason stays 2:1 in every temperament in this story; it is the frame within which the error is shared out. Look again at the paragraph headed ‘What is being traded’ and see what it names as sold."],
-    ["It buys modulation, and sells the whole-number ratio: the equal semitone is the twelfth root of two, an irrational quantity", "Boethius’s art measures sound by proportions of whole numbers, and a modern piano cannot in principle be so measured. The break was made deliberately, by men who understood the arithmetic perfectly well."]
+  { q: "What does temperament give, and what does it give up?", a: 3, o: [
+    ["It gives purer concords and gives up nothing of consequence", "Temperament deliberately mistunes; nothing in it is made purer than the ratio it departs from. And the lesson calls what is surrendered the sharpest single break between the liberal art and modern practice."],
+    ["It gives ease of tuning and gives up nothing but a little sweetness in the thirds", "Tempering a keyboard is not easier than tuning it pure; it is harder, and it is undertaken for something else entirely. What is given up is more than sweetness. Re-read the remark on what is traded."],
+    ["It gives modulation and gives up the diapason, which is no longer 2:1", "The diapason stays 2:1 in every temperament in this story; it is the frame within which the error is shared out. Re-read the remark headed ‘What is being traded’ and see what it says is given up."],
+    ["It gives modulation, and gives up the whole-number ratio: the equal semitone is the twelfth root of two, an irrational quantity", "Boethius’s art measures sound by proportions of whole numbers, and a modern piano cannot in principle be so measured. The break was made deliberately, by men who understood the arithmetic perfectly well."]
   ]}
 ],
 
 "vii-6": [
   { q: "What was Zarlino’s quiet novelty?", a: 1, o: [
     ["He replaced the interval with the chord as the unit of composition", "That change comes with a practice around 1600 and with a theorist a century after that. Zarlino’s step is smaller and earlier. Ask what he did with the two kinds of third."],
-    ["He distinguished the major third from the minor by the way the fifth is divided — harmonically for the one, arithmetically for the other", "Which is to treat a three-note sonority as a single thing with a nature of its own. That is the first move toward taking the chord rather than the interval as the object of study."],
+    ["He distinguished the major third from the minor by the way the fifth is divided (harmonically for the one, arithmetically for the other)", "That is to treat a three-note sonority as a single thing with a nature of its own, and it is the first step toward taking the chord rather than the interval as the object of study."],
     ["He derived the triad from the resonance of a sounding body", "Resonance as a ground arrives more than a century later, by way of two men who had first to hear the partials and account for them. Zarlino argues from divisions and proportions."],
     ["He proposed the figured bass", "The figured bass is a practice of players and composers around 1600, not a proposal of his. His novelty is a way of telling two thirds apart. Re-read the opening sentences of the lesson."]
   ]},
   { q: "The <span class=\"latin\">basso continuo</span> becomes universal around 1600. What does the lesson say this signifies?", a: 3, o: [
-    ["That performers had ceased to read counterpoint", "The lesson makes no claim about what performers could read, and realising a figured bass is itself an exercise of considerable skill. Its significance lies in what musicians take themselves to be handling."],
+    ["That performers had ceased to read counterpoint", "The lesson makes no claim about what performers could read, and realizing a figured bass is itself an exercise of considerable skill. Its significance lies in what musicians take themselves to be handling."],
     ["That temperament had at last been settled", "Temperament remains unsettled for two centuries more, as the previous lesson showed. The continuo marks a change in the working material of music, not in its tuning. Read the first paragraph again."],
-    ["That the overtone series had been accepted as the ground of harmony", "Nobody has yet reported the partials in print at this date, and the man who first does so cannot explain them. Keep the practice and its much later physical grounding well apart."],
-    ["That the working unit of European music is no longer the interval", "A bass line with figures, from which a player realises chords. Once the unit changes, a theory of chords becomes necessary — and Rameau’s is the answer that arrives."]
+    ["That the overtone series had been accepted as the ground of harmony", "Nobody has yet reported the partials in print at this date, and the man who first does so cannot explain them. The practice and its much later physical grounding must be kept apart."],
+    ["That the working unit of European music is no longer the interval", "The continuo is a bass line with figures, from which a player realizes chords. Once the unit changes, a theory of chords becomes necessary, and Rameau supplies one."]
   ]},
   { q: "What did Mersenne report in the <span class=\"latin\">Harmonie universelle</span> (1636)?", a: 0, o: [
-    ["That in one low string he hears faint higher sounds — the octave, the twelfth, the fifteenth, the seventeenth — and that he cannot explain how one string sounds five things", "He says so outright, which is a good habit. The explanation waits upon another man’s measurements, and the harmonic grounding of the chord waits upon both."],
+    ["That in one low string he can hear faint higher sounds (the octave above, the twelfth, the fifteenth, the seventeenth), and that he cannot explain how one string sounds five things", "He says so outright. The explanation waits upon another man’s measurements, and the harmonic grounding of the chord waits upon both."],
     ["That the partials are produced at nodes dividing the string’s length", "Locating the nodes is the work of the man who came after him and gave the sounds their name. Mersenne reports a puzzle rather than an anatomy. Ask what he says he cannot do."],
     ["That the major triad is given by nature in one sounding body", "That claim is made a century later by a theorist rebuilding his system, and it needs an account of the partials Mersenne could not supply. What he offers is a report, not a doctrine."],
-    ["That absolute frequency can be measured by counting beats", "The counting of beats and the measuring of absolute frequency belong to memoirs read to the Paris Academy around 1700. Fix in your mind which man did which, and in which decade."]
+    ["That absolute frequency can be measured by counting beats", "The counting of beats and the measuring of absolute frequency belong to memoirs read to the Paris Academy around 1700. Keep apart which man did which, and in which decade."]
   ]},
   { q: "Joseph Sauveur, in memoirs to the Paris Academy around 1700, did which of these?", a: 2, o: [
-    ["Made the chord the unit and set a fundamental bass beneath the written one", "That is a theorist’s claim about the structure of music, made in 1722 and by another man. Sauveur is measuring a string and naming what it sounds. Distinguish the physicist’s work from the theorist’s."],
+    ["Made the chord the unit and set a fundamental bass beneath the written one", "That is a theorist’s claim about the structure of music, made in 1722 and by another man. Sauveur is measuring a string and naming what it sounds. The physicist’s work is different from the theorist’s."],
     ["Ranked intervals by a degree of agreeableness computed from prime factors", "That is a later arithmetical attempt, by a mathematician trying to keep number as the ground of the art. Sauveur’s work is measurement, not ranking. Check the last paragraph of the lesson."],
-    ["Named the partials <span class=\"latin\">sons harmoniques</span>, located the nodes, measured absolute frequency by counting beats, and proposed that the new study be called <span class=\"latin\">acoustique</span>", "A new science, and a new name for it. Note that all this had been available for two decades before the theorist who most needed it learned of it."],
+    ["Named the partials <span class=\"latin\">sons harmoniques</span>, located the nodes, measured absolute frequency by counting beats, and proposed that the new study be called <span class=\"latin\">acoustique</span>", "This is a new science with a new name. All this had been available for two decades before the theorist who most needed it learned of it."],
     ["Reported faint higher sounds in a low string without being able to explain them", "That report was in print in 1636, and its author said plainly that he could not explain it. Sauveur’s contribution is what follows such a report. Ask what he could do that his predecessor could not."]
   ]},
   { q: "On what does Rameau argue in the <span class=\"latin\">Traité de l’harmonie</span> (1722)?", a: 3, o: [
     ["On the overtone series, which the book takes as its first principle", "That is how a modern harmony textbook begins, and it is exactly the anachronism this lesson warns against. In 1722 he had not yet learned of the partials. Set his three dates side by side."],
     ["On the resonance of the <span class=\"latin\">corps sonore</span>", "The resonating body becomes his ground only after he learns of another man’s work, and the books resting on it come later. Put 1722, 1726, and 1737 in order and see which belongs where."],
     ["On the beating of upper partials in the ear", "That explanation of consonance belongs to the nineteenth century, and the course names it among the developments lying past its stopping point. Nothing of the sort is available to a theorist in 1722."],
-    ["In the old manner: from divisions of a string, and from number", "Worth insisting on, because the textbook picture reverses it. The physical grounding is a later repair, running from the <span class=\"latin\">Nouveau système</span> of 1726 through the <span class=\"latin\">Génération harmonique</span> of 1737."]
+    ["In the old manner: from divisions of a string, and from number", "This needs stressing, because the textbook picture reverses it. The physical grounding is a later repair, running from the <span class=\"latin\">Nouveau système</span> of 1726 through the <span class=\"latin\">Génération harmonique</span> of 1737."]
   ]},
   { q: "What does Rameau’s <span class=\"latin\">basse fondamentale</span> assert?", a: 0, o: [
     ["That the inversions of a chord are one chord, and that beneath the written bass stands the real root, whose motion is what harmony consists in", "The unit is now the chord, and the subject of harmony is the motion of roots. This is the frame within which a later century’s talk of function becomes possible at all."],
-    ["That the lowest sounding note governs the chord above it", "Were that so, an inversion would be a different chord from its root position — and the doctrine exists precisely to deny that. Re-read what the written bass is said <em>not</em> to be."],
-    ["That the bass line should be figured, so that a player may realise chords", "That is the practice of the continuo, universal a century earlier and no invention of his. His doctrine concerns the identity of chords, not the manner of notating a bass."],
+    ["That the lowest sounding note governs the chord above it", "Were that so, an inversion would be a different chord from its root position, and the doctrine exists to deny that. Re-read what the written bass is said <em>not</em> to be."],
+    ["That the bass line should be figured, so that a player may realize chords", "That is the practice of the continuo, universal a century earlier and no invention of his. His doctrine concerns the identity of chords, not the manner of notating a bass."],
     ["That the triad is a gift of nature, since one sounding body already sounds it", "That claim belongs to his later re-founding, after he had learned of the partials. The doctrine asked about here is present in 1722 already, and is argued from number."]
   ]},
   { q: "How did Rameau’s system change after 1722?", a: 2, o: [
     ["He abandoned the chord as the unit and returned to the interval", "Nothing of the kind: the chord as unit is his permanent contribution. What changed was the ground he offered for it. Compare the books of 1726 and 1737 with the first one."],
     ["He adopted equal temperament as the ground of harmony", "Temperament is not the ground of his system at any stage. The change came of something he learned after 1722 and had not known when he wrote. Ask what that was, and from whom."],
-    ["From the <span class=\"latin\">Nouveau système</span> (1726) through the <span class=\"latin\">Génération harmonique</span> (1737) he re-founded it on the <span class=\"latin\">corps sonore</span>", "The major triad is then no construction but a gift of nature. With that, the middle term of the science changes — and its place among the sciences changes with the middle term."],
-    ["He replaced number with a ranking of intervals by prime factors", "That was another man’s project, published in 1739, and it was an attempt to keep an arithmetic ground rather than to leave one. Two quite different responses to the same moment."]
+    ["From the <span class=\"latin\">Nouveau système</span> (1726) through the <span class=\"latin\">Génération harmonique</span> (1737) he re-founded it on the <span class=\"latin\">corps sonore</span>", "The major triad is then no construction but a gift of nature. With that, the middle term of the science changes, and its place among the sciences changes with it."],
+    ["He replaced number with a ranking of intervals by prime factors", "That was another man’s project, published in 1739, and it was an attempt to keep an arithmetic ground rather than to leave one. These were two quite different responses to the same moment."]
   ]},
   { q: "What did Euler attempt in the <span class=\"latin\">Tentamen novae theoriae musicae</span> (1739)?", a: 1, o: [
     ["To ground harmony in the resonance of bodies, following Rameau", "His attempt runs the other way about: it is the last great effort to keep an arithmetic ground, at the moment when the ground was shifting to physics. Re-read the sentence in which his name appears."],
-    ["To keep an arithmetic ground, ranking intervals by a <span class=\"latin\">gradus suavitatis</span> computed from the prime factors of the ratio", "Ingenious — and Euler himself allowed that it agreed poorly with what musicians did. That candid admission is worth as much to a student as the system itself."],
-    ["To popularise Rameau’s system for a general readership", "That service was performed by d’Alembert in 1752. Euler’s book is earlier and its purpose quite different: it is a mathematician’s proposal, not an exposition of somebody else’s."],
+    ["To keep an arithmetic ground, ranking intervals by a <span class=\"latin\">gradus suavitatis</span> computed from the prime factors of the ratio", "It is ingenious, and Euler himself allowed that it agreed poorly with what musicians did. That candid admission is worth as much to a student as the system itself."],
+    ["To popularize Rameau’s system for a general readership", "That service was performed by d’Alembert in 1752. Euler’s book is earlier and its purpose quite different: it is a mathematician’s proposal, not an exposition of somebody else’s."],
     ["To explain consonance by the beating of partials in the ear", "That explanation arrives in 1863 and belongs to the developments the course says lie past its stopping point. Euler’s method is arithmetical from beginning to end."]
   ]},
   { q: "Which pairing of man and date does the lesson give?", a: 3, o: [
     ["Mersenne, 1700–1701", "Those memoirs to the Paris Academy are another man’s, and the <span class=\"latin\">Harmonie universelle</span> is a good deal earlier. Set the dates of this lesson out in order before choosing again."],
-    ["Euler, 1752", "1752 is the year of a popularisation by a different hand entirely. Euler’s book stands earlier, and its purpose is not popular exposition. Check the closing paragraph of the lesson."],
+    ["Euler, 1752", "1752 is the year of a popularization by a different hand entirely. Euler’s book stands earlier, and its purpose is not popular exposition. Check the closing paragraph of the lesson."],
     ["The <span class=\"latin\">Génération harmonique</span>, 1726", "1726 is the year of the <span class=\"latin\">Nouveau système</span>; the <span class=\"latin\">Génération harmonique</span> is later still. The two together mark the re-founding, and the lesson gives each its own year."],
-    ["D’Alembert, 1752", "He popularised the system, and popularisation is how a theory becomes the air a discipline breathes. Within a generation the overtone series is simply where a textbook begins."]
+    ["D’Alembert, 1752", "He popularized the system, and that is how a theory becomes the common assumption of a discipline. Within a generation the overtone series is simply where a textbook begins."]
   ]},
-  { q: "Why does the lesson say the art went sideways rather than down?", a: 2, o: [
-    ["Because the new science predicted what musicians would do more successfully", "The lesson makes no such claim, and it notes an arithmetical system agreeing poorly with practice without letting that settle anything about kind. Classification here turns on something else entirely."],
+  { q: "Why does the lesson say the art did not decline but moved into another science?", a: 2, o: [
+    ["Because the new science predicted what musicians would do more successfully", "The lesson makes no such claim, and it notes an arithmetical system agreeing poorly with practice without letting that settle anything about kind. Classification here depends on something else entirely."],
     ["Because harmonics was expelled from the quadrivium by the universities", "The argument is not about statutes or faculties but about what a demonstration runs through. Re-read the definition of a middle science that the course gave at the outset."],
-    ["Because the middle term changed: number gave way to the resonance of bodies, and a science demonstrating through the natures of bodies is physics", "Sideways, not down. Good physics, and in the nineteenth century very good physics — but no longer arithmetic applied to sound."],
-    ["Because the subject changed from sounding pitch to vibrating bodies", "The subject stays exactly where it was: every one of these men begins at the ear, with sounding pitch. Look at the two little schemes set out in the boxes and see which line differs."]
+    ["Because the middle term changed: number gave way to the resonance of bodies, and a science demonstrating through the natures of bodies is physics", "It is good physics, and in the nineteenth century very good physics, but it is no longer arithmetic applied to sound."],
+    ["Because the subject changed from sounding pitch to vibrating bodies", "The subject stays exactly where it was: every one of these men begins at the ear, with sounding pitch. Look at the two short schemes set out in the lesson and see which line differs."]
   ]},
   { q: "What does the lesson say happened to the quadrivial <span class=\"latin\">musica</span>?", a: 0, o: [
     ["It was not refuted; its middle term was replaced, and the classification went with the middle term", "This is the transformation a modern reader is least likely to notice, because nothing in a harmony textbook announces it. The book simply begins with the overtone series, as though that had always been the beginning."],
     ["It was refuted by the discovery of the partials", "A discovery about what a string sounds does not falsify a proportion; 2:1 is what it always was. Ask what change the lesson actually locates, and whereabouts in the argument that change sits."],
-    ["It survived unaltered, since the ratios still hold", "The ratios do still hold, and the lesson does not say that nothing happened. Something in the structure of the demonstration moved. Look at the two boxed schemes and compare them line by line."],
+    ["It survived unaltered, since the ratios still hold", "The ratios do still hold, and the lesson does not say that nothing happened. Something in the structure of the demonstration moved. Look at the two schemes in the lesson and compare them line by line."],
     ["It was absorbed into natural philosophy without loss", "The lesson is exact about what was given up: a demonstration through number is not the same as a demonstration through the natures of bodies, whatever the merits of the latter. ‘Without loss’ hides the change."]
   ]}
 ],
@@ -1906,117 +1906,117 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 "vii-7": [
   { q: "What did Glarean’s <span class=\"latin\">Dodecachordon</span> (1547) do?", a: 2, o: [
     ["Reduced the church modes to two, major and minor", "The reduction to two happens within a century and a half after him, and not by his hand: he was adding, not subtracting. Count the modes before his book and after it."],
-    ["Added a thirteenth mode on B", "He considered a pair on B and refused it as unusable. What he did add was a different pair altogether. Read the opening sentence of the lesson once more, slowly."],
+    ["Added a thirteenth mode on B", "He considered a pair on B and refused it as unusable. What he did add was a different pair altogether. Re-read the opening sentences of the lesson."],
     ["Added the Ionian and the Aeolian to the eight church modes, making twelve, and refused a thirteenth pair on B as unusable", "He thought he was restoring an ancient system. Within a century and a half his twelve had collapsed into the two we call major and minor, which is not at all what he intended."],
     ["Named the hierarchy of tonic, dominant, and subdominant", "That vocabulary belongs to the tonality the nineteenth century named, two hundred years after him. Glarean’s subject is modes and their number, not the functions of chords."]
   ]},
   { q: "What did Glarean take himself to be doing, and what came of it?", a: 0, o: [
-    ["He thought he was restoring an ancient system; within a century and a half his twelve had collapsed into two", "A common shape in this history: a man reaches back and, without meaning to, hands the future one of its instruments. The two survivors are what we call major and minor."],
+    ["He thought he was restoring an ancient system; within a century and a half his twelve had collapsed into two", "This happens often in this history: a man looks back to the past and, without meaning to, supplies the future with one of its instruments. The two survivors are what we call major and minor."],
     ["He knew he was preparing the way for major and minor, and said so", "Nothing in the lesson credits him with such foresight, and the collapse took a century and a half to complete. Ask what he believed he was doing when he wrote."],
     ["He was proposing a new temperament for keyboards", "His subject is modes, not tunings. Temperament is a separate strand of this chapter, and the lesson brings the strands together only afterwards. Read the first paragraph again."],
     ["He was codifying a practice already universal", "The modes he named were additions to the eight, and his system did not survive as he left it. Ask what he says about antiquity, and what in fact became of his twelve."]
   ]},
   { q: "Which three developments does the lesson put together to produce tonality?", a: 1, o: [
-    ["The overtone series, the fundamental bass, and equal temperament", "Two of these belong to the physical grounding of the chord and one to a tuning that arrives late. The lesson’s three are of different kinds. Re-read the paragraph beginning ‘Now put the three developments together.’"],
-    ["Temperament, making each of the twelve sounds a possible home; figured bass, making the chord the unit; and the reduction of the modes to two", "Three strands from three parts of the story, none of them sufficient alone. What comes out of the three together is what the nineteenth century named tonality."],
+    ["The overtone series, the fundamental bass, and equal temperament", "Two of these belong to the physical grounding of the chord and one to a tuning that arrives late. The lesson’s three are of different kinds. Re-read the paragraph beginning ‘These three developments go together.’"],
+    ["Temperament, making each of the twelve sounds a possible home; figured bass, making the chord the unit; and the reduction of the modes to two", "These are three strands from three parts of the story, and none of them is sufficient alone. What comes out of the three together is what the nineteenth century named tonality."],
     ["Sonata form, the symphony, and the string quartet", "Those are things built with tonality, not conditions of it. Ask what had to be in place before a drama of keys could be composed at all, and by whom each piece was supplied."],
     ["Counterpoint, measured time, and written polyphony", "The lesson names such things among what the ancients and medievals did have, and says they did not yield an art of large-scale form. Look for what was added afterwards, not for what was there already."]
   ]},
   { q: "‘A key is not a scale but a hierarchy.’ What does the lesson mean by this?", a: 3, o: [
     ["That the twelve sounds are ranked by the purity of their ratios", "Purity cannot be the ranking, since a tempered instrument has almost no pure intervals to rank. Ask what the lesson says the members of this hierarchy actually are, and what each of them does."],
-    ["That one key is superior to all the others", "The claim is not that one key outranks another; it concerns an order within a single key. Read the clause that follows the dash and see what is being ordered there."],
+    ["That one key is superior to all the others", "The claim is not that one key outranks another; it concerns an order within a single key. Read the words in parentheses that follow and see what is being ordered there."],
     ["That the scale must be sung upwards from the tonic", "Nothing here concerns the direction in which a scale is sung. A hierarchy is an order of importance among things, not an order of performance. Ask what things are ordered."],
-    ["That within a key there is a tonic, a dominant that demands it, and a subdominant that prepares it — chords with functions, which is to say that they point somewhere", "Pointing is the whole of it. Because a chord points, a listener can hear that we have left home and not yet returned, and on that hearing a long form is built."]
+    ["That within a key there is a tonic, a dominant that demands it, and a subdominant that prepares it, and chords have functions, which is to say that they point somewhere", "Everything depends on this pointing. Because a chord points, a listener can hear that we have left home and not yet returned, and on that hearing a long form is built."]
   ]},
   { q: "What does the hierarchy of key give a composer?", a: 0, o: [
-    ["Form: a structure whose real subject is departure and return, sustainable for twenty minutes without a word of text", "That is what sonata form is — a drama of keys. The same principle carries a Haydn quartet, a Mozart concerto, a Beethoven symphony, a Schubert sonata."],
-    ["Freedom from the need to temper his instrument", "The order runs the other way about: temperament is one of the three conditions that made key available at all. It is something bought with, not escaped by, this hierarchy."],
+    ["Form: a structure whose real subject is departure and return, sustainable for twenty minutes without a word of text", "That is what sonata form is: a drama of keys. The same principle carries a Haydn quartet, a Mozart concerto, a Beethoven symphony, a Schubert sonata."],
+    ["Freedom from the need to temper his instrument", "The order runs the other way about: temperament is one of the three conditions that made key available at all. Temperament is a condition of this hierarchy, not something the hierarchy frees him from."],
     ["A demonstration of the first concords from tonic and dominant", "The lesson denies exactly this: functional harmony is not demonstrated from 2:1, 3:2, and 4:3. Ask what kind of knowledge the rules of this art are said to be."],
     ["A method of setting words more expressively", "The achievement the lesson names requires no text whatever, which is precisely what makes it remarkable. The paragraph on form says what it is that words are not needed for."]
   ]},
   { q: "What does the lesson say sonata form is?", a: 2, o: [
     ["A fixed sequence of themes and key areas prescribed by theorists", "The lesson does not define it by a scheme of sections at all; it describes what happens in it. Re-read the sentence that begins ‘That is what sonata form is’."],
     ["A style of melody characteristic of Haydn and Mozart", "It is not a manner of writing tunes: the four composers named write very differently and use the same form. Look for something structural rather than melodic."],
-    ["A drama of keys, in which the second key is a genuine conflict and the return a genuine resolution", "Which is why it needs a listener who can hear that we have left home. Take that hearing away and the form becomes an arbitrary succession of sections."],
-    ["The eighteenth century’s name for the reduction of the modes to two", "The modes reduce to two as one of the conditions of tonality, not as a form; and the term in question is a later coinage. Keep conditions and constructions apart throughout this lesson."]
+    ["A drama of keys, in which the second key is a genuine conflict and the return is a genuine resolution", "That is why it needs a listener who can hear that we have left home. Without that hearing, the form becomes an arbitrary succession of sections."],
+    ["The eighteenth century’s name for the reduction of the modes to two", "The modes reduce to two as one of the conditions of tonality, not as a form; and the term in question is a later coinage. Conditions and constructions must be kept apart throughout this lesson."]
   ]},
   { q: "When people say <em>classical music</em>, what does the lesson say they very largely mean?", a: 1, o: [
     ["All music written before the twentieth century", "The lesson is narrower and more exact than that. It marks off a period by a technical fact about how the music is built. Ask what that fact is, and re-read the end of the third paragraph."],
-    ["The music of the period in which key was structural", "Which is why the phrase, loose as it is, picks out something real. The style lasted about two hundred years and then dissolved, and the lesson is careful to say so."],
+    ["The music of the period in which key was structural", "That is why the phrase, loose as it is, picks out something real. The style lasted about two hundred years and then dissolved, and the lesson is careful to say so."],
     ["Music written in the church modes", "The modes had collapsed into two before this music was written; the period in view is later. Set Glarean’s date against Haydn’s century and see how much lies between them."],
-    ["Any music composed to a written score", "Notation is far older than the period the lesson has in view — the course has met a written polyphony after 900. Notation is not what marks off this repertory from the rest."]
+    ["Any music composed to a written score", "Notation is far older than the period the lesson has in view; the course has met a written polyphony after 900. Notation is not what marks off this repertory from the rest."]
   ]},
   { q: "What does the lesson say the Greeks and the medievals had, and what they did not?", a: 3, o: [
     ["They had neither notation nor polyphony, and so no form", "The lesson credits them with a written polyphony after 900. Their lack was of another order, and it was not a lack of means. Read the sentence and take its items one at a time."],
     ["They had harmony but not melody", "The list runs the other way about: melody they certainly had, along with mode and measured time. Read the sentence again and take its items in the order given."],
     ["They had large forms, but only with a text to carry them", "The lesson does not qualify their lack in that way. Read what it says they had, and then what it says they had not, without adding a condition of your own."],
-    ["They had melody, mode, measured time, and after 900 a written polyphony; they had no art of large-scale intelligible form in sound", "A real addition to human making, and a liberal education has no reason to be grudging about it. Whoever calls everything after Boethius decline has not accounted for the late Beethoven quartets."]
+    ["They had melody, mode, measured time, and after 900 a written polyphony; they had no art of large-scale intelligible form in sound", "This is a real addition to human making, and a liberal education has no reason to be grudging about it. Anyone who holds that everything after Boethius is decline has not accounted for the late Beethoven quartets."]
   ]},
   { q: "What kind of knowledge are the rules of functional harmony?", a: 0, o: [
-    ["The grammar of a style — one that lasted about two hundred years and then dissolved", "Not a demonstration from 2:1, 3:2, and 4:3. Calling it a grammar belittles nothing; the lesson calls it a very great style. The claim is about what kind of thing it is."],
-    ["Demonstrations from the first concords, like the rest of the art", "The lesson says flatly that functional harmony is not demonstrated from those ratios. Ask what became of these rules when the style ended, and whether the first concords fared the same way."],
+    ["The grammar of a style, which lasted about two hundred years and then dissolved", "It is not a demonstration from 2:1, 3:2, and 4:3. Calling it a grammar belittles nothing, since the lesson calls it a very great style; the claim is about what kind of thing it is."],
+    ["Demonstrations from the first concords, like the rest of the art", "The lesson says plainly that functional harmony is not demonstrated from those ratios. Ask what became of these rules when the style ended, and whether the first concords fared the same way."],
     ["Laws of the ear, valid wherever men hear", "Something valid wherever men hear would not have a date; what is described here has one, and an end as well. Ask which things in this chapter have dates and which have none."],
     ["Conventions of notation, alterable at will", "The rules are not about how music is written down, and the lesson treats them as binding within their period rather than arbitrary. Ask what sort of thing has rules, a date, and an ending."]
   ]},
   { q: "Why does the lesson insist that the first concords are not a style?", a: 2, o: [
     ["Because they were never used in composition", "They are used everywhere in composition, so that cannot be the distinction. The point concerns what happens to them when a particular manner of writing goes out of use."],
     ["Because they are conventions older than any surviving style", "Age is not the difference; an old convention is a convention still, and might lapse like any other. Ask what standing the first concords have that a convention lacks altogether."],
-    ["Because they were the same for Nicomachus and are the same for you, and did not dissolve when the style dissolved", "Which is the whole use of having walked the old road first. You can tell a permanent thing from a period thing only if you have handled both of them."],
-    ["Because they belong to arithmetic and not to sound", "They belong to both: the course has had you hear them on a string from the very beginning. Their standing does not come of being cut off from sound. Ask where it does come from."]
+    ["Because they were the same for Nicomachus and are the same for us, and did not dissolve when the style dissolved", "That is the reason for studying the old art first, because we can tell a permanent thing from a thing of one period only if we have handled both."],
+    ["Because they belong to arithmetic and not to sound", "They belong to both: the course has sounded them on a string from the very beginning. Their standing does not come of being cut off from sound. Ask where it does come from."]
   ]},
   { q: "Where does the word <em>tonality</em> come from, as the lesson gives it?", a: 1, o: [
     ["From Rameau, in the Traité of 1722", "Rameau supplies the fundamental bass, which the term later describes; he does not supply the term. The lesson gives the naming its own decade and its own author. Check the sources line."],
-    ["It is a nineteenth-century name — Fétis’s, in the 1840s — for something the eighteenth century was already practising", "The practice precedes the name, as usual in this chapter. And the 1840s are also when equal temperament became the English norm, which is a coincidence worth holding on to."],
+    ["It is a nineteenth-century name — Fétis’s, in the 1840s — for something the eighteenth century was already practicing", "The practice precedes the name, as usual in this chapter. The 1840s are also when equal temperament became the English norm, which is a notable coincidence."],
     ["From Glarean, in 1547", "Glarean is naming modes and counting them to twelve; the hierarchy this word describes had not yet formed. Three centuries lie between his book and the coining of the term."],
     ["From the Greek theorists, by way of Boethius", "The thing named is a development of the seventeenth and eighteenth centuries, and no ancient term could have named it. Look at the sources line for the coiner and his decade."]
   ]}
 ],
 
 "vii-8": [
-  { q: "On the audit of the six lines, what has become of the <em>subject</em> of the art?", a: 1, o: [
-    ["Replaced: the subject is now the vibrating body", "The vibrating body enters this audit on a different line, as a candidate cause and not as what the art is about. Distinguish what a science studies from what it explains its subject by."],
-    ["Unchanged: sounding pitch, as heard", "Odington, Zarlino, Vincenzo Galilei, Rameau — every one of them began where you began, at the ear. That is why the whole of this history can be told as one story and not two."],
-    ["Divided among three candidates", "Division into three candidates is the audit’s verdict on another line altogether. The subject is one thing throughout, and the lesson disposes of it in a single word. Read the six entries in order."],
-    ["Superseded: the subject is now the composition", "The composition does appear on the audit, but on the line concerning the work of the art rather than its subject. What a man makes is not the same as what he studies."]
+  { q: "In the lesson’s review of the six lines, what has become of the <em>subject</em> of the art?", a: 1, o: [
+    ["Replaced: the subject is now the vibrating body", "The vibrating body enters this review on a different line, as a candidate cause and not as what the art is about. What a science studies is different from what it explains its subject by."],
+    ["Unchanged: sounding pitch, as heard", "Odington, Zarlino, Vincenzo Galilei, and Rameau all began where we began, at the ear. That is why the whole of this history can be told as one story and not two."],
+    ["Divided among three candidates", "Division into three candidates is the review’s verdict on another line altogether. The subject is one thing throughout, and the lesson disposes of it in a single word. Read the six entries in order."],
+    ["Superseded: the subject is now the composition", "The composition does appear in the review, but on the line concerning the work of the art rather than its subject. What a man makes is not the same as what he studies."]
   ]},
   { q: "What has become of the <em>cause</em>?", a: 3, o: [
-    ["Unchanged: it is still ratio", "The audit gives that verdict to a different line. Ratio is now one candidate among several, and the several belong to different sciences. Read the second entry again and count what it lists."],
-    ["Refuted, along with the hammers in the smithy", "The smithy story is refuted; the doctrine of ratio as cause is not. Keep refutation and replacement apart — the lesson says that difference is the whole point of the chapter."],
-    ["Reduced to one: the resonance of bodies", "Resonance is one of the candidates, and the audit names more than one. The lesson also observes that not one of them is a middle science, which would be an odd thing to say of a single candidate."],
-    ["Divided: where there was one cause there are now three candidates — the resonance of bodies, the response of the ear, and the conventions of a style", "Three different sciences, and not one of them a middle science. That is why the old art could not simply be continued under new management."]
+    ["Unchanged: it is still ratio", "The review gives that verdict to a different line. Ratio is now one candidate among several, and the several belong to different sciences. Read the second entry again and count what it lists."],
+    ["Refuted, along with the hammers in the smithy", "The smithy story is refuted; the doctrine of ratio as cause is not. Refutation and replacement must be kept apart; the lesson says that difference is the main point of the chapter."],
+    ["Reduced to one: the resonance of bodies", "Resonance is one of the candidates, and the review names more than one. The lesson also observes that not one of them is a middle science, which would be an odd thing to say of a single candidate."],
+    ["Divided: where there was one cause there are now three candidates: the resonance of bodies, the response of the ear, and the conventions of a style", "These belong to three different sciences, and not one of them is a middle science, so the old art could not simply be continued in a new form."]
   ]},
-  { q: "What does the audit say of the first concords?", a: 0, o: [
-    ["Foundational for all music: not one tuning in the whole story abandons 2:1, 3:2, 4:3", "Temperament is defined by its deviation from them. You cannot state what a piano tuner is doing without 3:2, which is a stronger claim than bare survival."],
-    ["Abandoned, since temperament put irrational quantities in their place", "Temperament approximates them; it does not do without them. An approximation requires the thing approximated in order to be described at all. Ask how you would state what a tuner is doing."],
+  { q: "What does the review say of the first concords?", a: 0, o: [
+    ["Foundational for all music: not one tuning in the whole story abandons 2:1, 3:2, 4:3", "Temperament is defined by its deviation from them. We cannot state what a piano tuner is doing without 3:2, which is a stronger claim than bare survival."],
+    ["Abandoned, since temperament put irrational quantities in their place", "Temperament approximates them; it does not do without them. An approximation requires the thing approximated in order to be described at all. Ask how one would state what a tuner is doing."],
     ["Kept as a historical curiosity, of no use to a working tuner", "The lesson says the opposite of the tuner in particular. Ask what quantity he narrows, and by what fraction of what, and whether he could say so without the old ratios."],
-    ["Reduced to 2:1 alone, the only interval left pure", "The diapason is indeed left pure, but the audit’s claim covers all three ratios and concerns their indispensability, not their purity. Distinguish being left pure from being needed."]
+    ["Reduced to 2:1 alone, the only interval left pure", "The diapason is indeed left pure, but the review’s claim covers all three ratios and concerns their indispensability, not their purity. Being left pure is different from being needed."]
   ]},
-  { q: "What does the audit say of the step — the tone?", a: 2, o: [
-    ["Unchanged at 9:8", "That was its value in the old art. The audit assigns this line one of its harsher verdicts, and the reason lies in how a tempered keyboard divides the diapason. Work out what a whole step there must be."],
-    ["Refuted, like the hanging weights", "Nothing about 9:8 was shown to be false; a tone in that ratio is exactly what it always was. The keyboard simply stopped using it. Keep refutation apart from disuse throughout this lesson."],
-    ["Replaced: the keyboard’s whole step is the sixth root of two, and no ratio of whole numbers", "Six equal whole steps to the diapason. This is the same break as the twelfth root of two for the semitone, and it is the line on which the old art and the modern instrument part company."],
-    ["Divided among three candidates", "That verdict belongs to another entry of the audit. The step has one modern value and no rivals; the trouble with it is what kind of quantity it turns out to be. Read the fourth entry."]
+  { q: "What does the review say of the step, that is, the tone?", a: 2, o: [
+    ["Unchanged at 9:8", "That was its value in the old art. The review assigns this line one of its harsher verdicts, and the reason lies in how a tempered keyboard divides the diapason. Work out what a whole step there must be."],
+    ["Refuted, like the hanging weights", "Nothing about 9:8 was shown to be false; a tone in that ratio is exactly what it always was. The keyboard simply stopped using it. Refutation must be kept apart from disuse throughout this lesson."],
+    ["Replaced: the keyboard’s whole step is the sixth root of two, and no ratio of whole numbers", "There are six equal whole steps to the diapason. This is the same break as the twelfth root of two for the semitone, and it is the line on which the old art and the modern instrument part company."],
+    ["Divided among three candidates", "That verdict belongs to another entry of the review. The step has one modern value and no rivals; the trouble with it is what kind of quantity it turns out to be. Read the fourth entry."]
   ]},
-  { q: "What does the audit say of the work — the <span class=\"latin\">opus</span> — of the art?", a: 3, o: [
-    ["Unchanged: it is still the scale", "The scale was the opus of harmonics, and the audit does not leave this line where it found it. Read the fifth entry and see what it puts in the scale’s place."],
+  { q: "What does the review say of the work (the <span class=\"latin\">opus</span>) of the art?", a: 3, o: [
+    ["Unchanged: it is still the scale", "The scale was the opus of harmonics, and the review does not leave this line where it found it. Read the fifth entry and see what it puts in the scale’s place."],
     ["Ended, and relocated to the academies", "That verdict belongs to the last of the six, about the kind of science and where its live work was carried on. The work of an art is what it produces, not where it is housed."],
     ["Refuted by Vincenzo Galilei’s experiments", "His weights refute a claim about proportions and tension, not an account of what the art is for. Refutation appears in the lesson’s second half and touches only three things. Count them."],
-    ["Superseded: the opus of harmonics was the scale; the work of the modern art is the composition", "Which is why a modern reader opening a Boethian treatise finds no music in it. What is being produced there is a scale, exactly as the audit says, and not a piece."]
+    ["Superseded: the opus of harmonics was the scale; the work of the modern art is the composition", "That is why a modern reader opening a Boethian treatise finds no music in it. What is being produced there is a scale, exactly as the review says, and not a piece."]
   ]},
-  { q: "What does the audit say of the kind of science?", a: 1, o: [
+  { q: "What does the review say of the kind of science?", a: 1, o: [
     ["Unchanged: musica is still a middle science, taught in the arts course", "It kept its statutory place into the seventeenth century, increasingly as a Boethian formality, while the live work went elsewhere. A place on a syllabus is not a kind of science."],
-    ["Ended, and relocated: the live mathematical work moved to the academies, and the nineteenth-century chair of music teaches history, criticism, and composition", "Mersenne, Sauveur, Euler — all of them working outside the arts faculty. The name stayed in the university and the science left it."],
+    ["Ended, and relocated: the live mathematical work moved to the academies, and the nineteenth-century chair of music teaches history, criticism, and composition", "Mersenne, Sauveur, and Euler all worked outside the arts faculty. The name stayed in the university and the science left it."],
     ["Unchanged in kind, but renamed acoustics", "A renaming would leave the demonstrations where they stood. What moved was both the manner of demonstrating and the institution in which the work was done. Read the sixth entry closely."],
     ["Refuted by the collapse of the quadrivium", "The lesson nowhere says the quadrivium collapsed, and refutation is not the verdict on this line. It distinguishes carefully between being shown false and being left behind."]
   ]},
   { q: "What did Vincenzo Galilei’s experiment with hanging weights show?", a: 2, o: [
-    ["That pitch varies directly with tension, as the sources had said", "He found otherwise, which is why the lesson calls this a genuine refutation. Hang the weights in imagination and ask what doubling the tension actually gives you in the way of pitch."],
-    ["That 2:1, 3:2, and 4:3 are false for string lengths", "For lengths they hold, and the course has had you produce them on a monochord from the beginning. What was under test was whether the same proportions govern a second quantity as well."],
-    ["That raising a string by a diapason takes four times the tension, not twice, because pitch varies as the square root of the tension", "A claim the tradition transmitted, tested and found false. Vincenzo, being a humanist, concluded that Pythagoras must have known the truth and been garbled in transmission."],
+    ["That pitch varies directly with tension, as the sources had said", "He found otherwise, which is why the lesson calls this a genuine refutation. Ask what doubling the tension actually does to the pitch."],
+    ["That 2:1, 3:2, and 4:3 are false for string lengths", "For lengths they hold, and the course has produced them on a monochord from the beginning. What was under test was whether the same proportions govern a second quantity as well."],
+    ["That raising a string by a diapason takes four times the tension, not twice, because pitch varies as the square root of the tension", "This is a claim the tradition transmitted, tested and found false. Vincenzo, being a humanist, concluded that Pythagoras must have known the truth and been garbled in transmission."],
     ["That the music of the spheres is inaudible", "That denial was made long before, by Aristotle, and it needed no weights at all. The experiment in question concerns strings and the things that stretch them."]
   ]},
   { q: "What does the lesson say about audible music of the spheres?", a: 0, o: [
-    ["It goes — but Aristotle had already denied it, so the tradition corrected itself from within, long before", "Worth remembering when this story is told as science overturning philosophy. A good deal of the correcting was done by philosophers, and on philosophical grounds."],
+    ["It goes — but Aristotle had already denied it, so the tradition corrected itself from within, long before", "This matters when the story is told as science overturning philosophy, because a good deal of the correcting was done by philosophers, on philosophical grounds."],
     ["It was refuted by Sauveur’s measurement of absolute frequency", "The denial is centuries older than any measurement of frequency, and it was reached by argument rather than by instruments. Look at the authorities the lesson cites for it."],
     ["It still stands, since the heavens are in ratio", "The lesson lists it among the three things that go. Whatever the proportions of the heavens may be, the audible music is not defended here. Re-read the three items marked as refuted."],
     ["It was never part of the tradition at all", "It was very much part of it, which is why the denial had to be recorded and dated. A tradition that never held a doctrine has no occasion to correct itself of it."]
@@ -2024,20 +2024,20 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "The lesson distinguishes what was refuted from what was left behind. What does being left behind amount to?", a: 2, o: [
     ["That it was quietly shown false, without anyone announcing it", "Then it would belong with the refuted items, and the lesson would have no need of two categories. Being shown false is precisely what did not happen to these. Ask what did happen to them."],
     ["That it was forgotten through neglect, and might be recovered by scholarship", "Neglect is not the reason given. The lesson names a cause, and it is one that leaves the old claims perfectly true while making them idle. Re-read the sentence after the three refutations."],
-    ["That the questions changed, so the claims ceased to be asked about — not that they were shown false", "And the difference is the whole point of the chapter. A tradition is not honoured by defending what is false, nor by conceding what was never disproved."],
+    ["That the questions changed, so the claims ceased to be asked about — not that they were shown false", "The lesson calls that difference the main point of the chapter. A tradition is not honored by defending what is false, nor by conceding what was never disproved."],
     ["That it was absorbed into physics and survives there under other names", "Some of it was; but absorption is not the category the lesson draws here, and much on the list was simply no longer at issue. Ask why a claim stops being discussed at all."]
   ]},
   { q: "What debt does the lesson say the modern reader will not guess?", a: 1, o: [
-    ["That modern acoustics took its instruments from the medieval organ builders", "Nothing of the kind is claimed. The debt named concerns a manner of proceeding rather than apparatus. Look at the boxed remark and see what it says was practised in the study of music first."],
-    ["That the experimental manner — state a principle, contrive an experiment, let the result correct the principle — was practised in the study of music before it was practised in the study of the heavens", "Vincenzo filled a cellar in Pisa with lutes and strings and hung weights on them to test a claim of Boethius. His son grew up in that cellar."],
-    ["That Kepler learned his method from Galileo’s monochords", "The lesson has Kepler learning the habit from philology, and Galileo learning it from his father’s monochords. You have crossed the two attributions. Read the last sentences of the boxed remark."],
-    ["That the liberal art of music is best defended by nostalgia", "The lesson says outright that this would be a worse defence than the one it offers. Ask what it proposes instead in the final sentence of that remark."]
+    ["That modern acoustics took its instruments from the medieval organ builders", "Nothing of the kind is claimed. The debt named concerns a manner of proceeding rather than apparatus. Look at the remark and see what it says was practiced in the study of music first."],
+    ["That the experimental manner (state a principle, contrive an experiment, let the result correct the principle) was practiced in the study of music before it was practiced in the study of the heavens", "Vincenzo filled a cellar in Pisa with lutes and strings and hung weights on them to test a claim of Boethius. His son grew up in that cellar."],
+    ["That Kepler learned his method from Galileo’s monochords", "The lesson has Kepler learning the habit from philology, and Galileo learning it from his father’s monochords. You have exchanged the two attributions. Read the last sentences of the remark."],
+    ["That the liberal art of music is best defended by nostalgia", "The lesson says outright that this would be a worse defense than the one it offers. Ask what it proposes instead in the final sentence of that remark."]
   ]},
   { q: "What did Helmholtz’s account of consonance (1863) do to the ratios?", a: 3, o: [
-    ["Abandoned them, explaining consonance by the ear alone", "The lesson says the account did not abandon them. Read the sentence again and notice carefully what it says the explanation was an explanation <em>of</em>."],
+    ["Abandoned them, explaining consonance by the ear alone", "The lesson says the account did not abandon them. Read the sentence again and note what it says the explanation was an explanation <em>of</em>."],
     ["Restored them as the middle term of a middle science", "An explanation running through the beating of upper partials in the ear is physical and physiological; it does not return the art to arithmetic. Ask what kind of demonstration this is."],
     ["Showed that the simple ratios sound rough", "The account explains why they sound as they have always sounded to everyone, not the reverse. Read the sentence through to its end and take the two halves in order."],
-    ["Explained why the simple ones sound smooth — their partials coincide instead of beating — without abandoning them", "Dissonance becomes a roughness in the ear. That is an explanation of the ratios’ effect by physiology, which is one further step away from arithmetic as the middle term."]
+    ["Explained why the simple ones sound smooth, because their partials coincide instead of beating, without abandoning them", "Dissonance becomes a roughness in the ear. That is an explanation of the ratios’ effect by physiology, which is one further step away from arithmetic as the middle term."]
   ]}
 ]
 
