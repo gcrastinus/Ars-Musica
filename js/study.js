@@ -1206,137 +1206,137 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 "sys-1": [
   { q: "What is the <span class=\"latin\">proslambanomenos</span>, and what does its name mean?", a: 1, o: [
     ["The highest sound of the system, added above the tetrachord hyperbolaion; ‘the one taken in addition’", "The name is right and the place is not. Ask at which end of the system a sound must be added for the whole to come out at exactly two diapasons, and work the arithmetic from there."],
-    ["A sound added below the tetrachord hypaton; ‘the one taken in addition’", "It belongs to no tetrachord, which is why the name calls it an addition. Remove it and the span of the system falls short of two diapasons by exactly one tone."],
-    ["The middle sound of the system, from which the other sounds take their order", "The system does have a sound of which that is said, and the Peripatetic remark further down this page concerns it. But its name is not built on the idea of addition; read what the name itself says."],
+    ["A sound added below the tetrachord hypaton; ‘the one taken in addition’", "It belongs to no tetrachord, which is why the name calls it an addition. Without it, the span of the system falls short of two diapasons by exactly one tone."],
+    ["The middle sound of the system, from which the other sounds take their order", "The system does have a sound of which that is said, and the Peripatetic passage later in this lesson concerns it. But its name is not built on the idea of addition; read what the name itself says."],
     ["A movable sound belonging to the tetrachord hypaton", "It stands among the sounds the lesson lists as fixed, and it is not reckoned within any tetrachord at all. Check the list of the <span class=\"latin\">hestotes</span> and see whether the name appears there."]
   ]},
   { q: "Running upward from the bottom, in what order do the four tetrachords stand?", a: 3, o: [
-    ["Hypaton, diezeugmenon, meson, hyperbolaion", "Two of these have been exchanged. Take the names at their word: one means ‘of the middle’ and one ‘of the disjunct’, and the disjunct one cannot stand before the tone that makes it disjunct."],
-    ["Meson, hypaton, hyperbolaion, diezeugmenon", "You have begun in the middle. Whatever else is so, the tetrachord named ‘of the lowest’ cannot stand above the one named ‘of the middle’; sort the four names by their meanings first."],
-    ["Hyperbolaion, diezeugmenon, meson, hypaton", "That is the list read downward. The question asked for the ascent, and in this art the order of terms is never a formality — it decides which sound you are naming."],
-    ["Hypaton, meson, diezeugmenon, hyperbolaion", "Of the lowest, of the middle, of the disjunct, of the highest — with the proslambanomenos below them all. Four tetrachords of four sounds each, sharing sounds at the conjunctions, and fifteen in all."]
+    ["Hypaton, diezeugmenon, meson, hyperbolaion", "Two of these have been exchanged. The names mean what they say: one means ‘of the middle’ and one ‘of the disjunct’, and the disjunct one cannot stand before the tone that makes it disjunct."],
+    ["Meson, hypaton, hyperbolaion, diezeugmenon", "You have begun in the middle. The tetrachord named ‘of the lowest’ cannot stand above the one named ‘of the middle’; sort the four names by their meanings first."],
+    ["Hyperbolaion, diezeugmenon, meson, hypaton", "That is the list read downward. The question asked for the ascent, and in this art the order of terms is never a formality, because it decides which sound is being named."],
+    ["Hypaton, meson, diezeugmenon, hyperbolaion", "The names mean of the lowest, of the middle, of the disjunct, and of the highest, and the proslambanomenos stands below them all. There are four tetrachords of four sounds each, sharing sounds at the conjunctions, and fifteen sounds in all."]
   ]},
   { q: "Where does the tone of disjunction stand?", a: 0, o: [
-    ["Between the tetrachord meson and the tetrachord diezeugmenon", "Which is why the tetrachord above it is called ‘of the disjunct’. The joins on either side are conjunct: hypaton to meson below, diezeugmenon to hyperbolaion above."],
+    ["Between the tetrachord meson and the tetrachord diezeugmenon", "That is why the tetrachord above it is called ‘of the disjunct’. The joins on either side are conjunct: hypaton to meson below, diezeugmenon to hyperbolaion above."],
     ["Between the proslambanomenos and the tetrachord hypaton", "A tone does stand at the bottom of the system, but a tone of disjunction is one that separates two tetrachords. A single added sound is not a tetrachord; count what lies on each side of the gap."],
     ["Between the tetrachord diezeugmenon and the tetrachord hyperbolaion", "Those two are joined the other way, sharing a sound between them. Were a tone standing there as well, the system would come out wider than two diapasons; check the count of fourths and tones."],
-    ["Between the tetrachord hypaton and the tetrachord meson", "Those two are conjunct — the highest sound of the one is the lowest of the next, with nothing between them. Walk the system upward from the bottom and mark each join as you pass it."]
+    ["Between the tetrachord hypaton and the tetrachord meson", "Those two are conjunct: the highest sound of the one is the lowest of the next, with nothing between them. Go through the system upward from the bottom and mark each join."]
   ]},
-  { q: "Two diatonic tetrachords joined conjunct: what do the pair span?", a: 2, o: [
+  { q: "What do two diatonic tetrachords span when they are joined conjunct?", a: 2, o: [
     ["2:1, the diapason", "That is what the other manner of joining yields, and it requires something standing between the two tetrachords to make up the difference. Multiply 4:3 by 4:3 and see what you actually get."],
     ["4:3, since the two share their ratio", "Sharing a sound is not sharing a span. Two fourths laid end to end are wider than one fourth; multiply the two ratios together rather than repeating one of them."],
-    ["16:9 — a tone short of the diapason", "(4:3) × (4:3) = 16:9, and 16:9 multiplied by 9:8 gives 2:1. That missing tone is exactly what the disjunction supplies in the Greater Perfect System."],
+    ["16:9, a tone short of the diapason", "(4:3) × (4:3) = 16:9, and 16:9 multiplied by 9:8 gives 2:1. That missing tone is exactly what the disjunction supplies in the Greater Perfect System."],
     ["81:64, the ditone", "That is the sum of two tones, not of two fourths, and it is narrower than either interval you were asked to add together. Check first what ratio a single diatonic tetrachord spans."]
   ]},
   { q: "The lesson checks the system as a tone, four fourths, and a tone. What does the multiplication give?", a: 1, o: [
-    ["3:1, a diapason and a diapente", "Work the middle term first. (4:3)⁴ is 256:81, and the two tones together make 81:64. Multiply those two and watch what cancels; nothing but the 81 should go."],
-    ["4:1, two diapasons exactly", "(81:64) × (256:81) = 4:1. Nothing has been fitted by hand: the fifteen sounds fall where the ratios put them, and the frame closes of its own accord."],
+    ["3:1, a diapason and a diapente", "Work out the middle term first. (4:3)⁴ is 256:81, and the two tones together make 81:64. When those two are multiplied, only the 81 cancels."],
+    ["4:1, exactly two diapasons", "(81:64) × (256:81) = 4:1. Nothing has been fitted by hand, because the fifteen sounds fall where the ratios put them, and the system closes exactly without adjustment."],
     ["2:1, one diapason", "A single pair of disjunct tetrachords already spans that much. The Greater system holds four tetrachords and two tones besides; a total no larger than a part of it cannot be right."],
-    ["It does not come out exactly, and the ancients adjusted the tone of disjunction to close it", "No adjustment is made or needed, and the lesson says as much. The whole point of the check is that the numbers close by themselves; run the multiplication and see them do it."]
+    ["It does not come out exactly, and the ancients adjusted the tone of disjunction to close it", "No adjustment is made or needed, and the lesson says as much. The purpose of the check is to show that the numbers close without adjustment; work the multiplication through."]
   ]},
-  { q: "<span class=\"latin\">Hypate</span> — what does the name tell you, and what does the string sound?", a: 0, o: [
-    ["It is the highest-placed and most honoured string, and it sounds the lowest", "The names describe the strings of a lyre and not pitches. Once that is fixed the whole vocabulary becomes legible, and stays legible for a thousand years of treatises."],
+  { q: "What does the name <span class=\"latin\">hypate</span> mean, and what does the string sound?", a: 0, o: [
+    ["It is the highest-placed and most honored string, and it sounds the lowest", "The names describe the strings of a lyre and not pitches. Once that is understood, the whole vocabulary becomes legible, and stays legible for a thousand years of treatises."],
     ["It is the highest-sounding string of the system", "You have read the name as though it described a pitch. It describes a position on an instrument, and here position and sound run opposite ways. Ask what exactly is being called highest."],
-    ["It is the middle string, by which the others are ordered", "That description belongs to another name on this page, and the Peripatetic remark concerns that one. Two names cannot both mean the middle; separate them before choosing."],
-    ["It is the last string, and sounds the highest", "‘Last’ is the sense of a different name in the same sentence, and the pitch you have assigned travels with it. Read the four glosses the lesson gives and match each to its own name."]
+    ["It is the middle string, by which the others are ordered", "That description belongs to another name in this lesson, and the Peripatetic passage concerns that one. Two names cannot both mean the middle; separate them before choosing."],
+    ["It is the last string, and sounds the highest", "‘Last’ is the sense of a different name in the same sentence, and the pitch you have assigned goes with it. Read the four glosses the lesson gives and match each to its own name."]
   ]},
   { q: "Which gloss does the lesson give for <span class=\"latin\">lichanos</span>?", a: 3, o: [
     ["The last string", "That is the sense of a different name in the same sentence, and it belongs to the string at the far end of the series. Take the four glosses one at a time and match them."],
-    ["The most honoured string", "Honour attaches to another of the names, and it goes with a string that sounds at the bottom of the order. Nothing in this gloss concerns rank; read the sentence that lists all four."],
-    ["The middle string", "The middle has a name of its own on this page, and a good deal is said about it further down. Two names cannot both mean the middle; read the glosses through in order."],
-    ["The string the forefinger takes", "The name records a manner of playing rather than a place in the order. That is the general lesson of this vocabulary: it describes a lyre, and only afterwards a scale."]
+    ["The most honored string", "Honor belongs to another of the names, and it goes with a string that sounds at the bottom of the order. Nothing in this gloss concerns rank; read the sentence that lists all four."],
+    ["The middle string", "The middle has a name of its own in this lesson, and a good deal is said about it further down. Two names cannot both mean the middle; read the glosses through in order."],
+    ["The string the forefinger takes", "The name records a manner of playing rather than a place in the order. That is true of this vocabulary in general: it describes a lyre, and only afterwards a scale."]
   ]},
   { q: "Which of these is <em>not</em> among the <span class=\"latin\">hestotes</span>?", a: 2, o: [
     ["<span class=\"latin\">Paramese</span>", "It stands in the list of fixed sounds, at the upper end of the tone of disjunction. Read that list again and count it: there are seven names in it, and this is one of them."],
     ["<span class=\"latin\">Nete diezeugmenon</span>", "Every tetrachord has two outer sounds and both of them stand fixed; this is the upper one of its own tetrachord. Ask instead which sounds of a tetrachord are described as moving."],
     ["<span class=\"latin\">Lichanos</span>", "It is an inner sound of its tetrachord, and the inner sounds are the <span class=\"latin\">kinoumenoi</span>. What moves them is the genus, which is the matter of the lesson immediately following."],
-    ["<span class=\"latin\">Proslambanomenos</span>", "It is named first in the list of fixed sounds. Standing outside every tetrachord does not make a sound movable — what moves is settled by lying inside a fourth, not beside one."]
+    ["<span class=\"latin\">Proslambanomenos</span>", "It is named first in the list of fixed sounds. Standing outside every tetrachord does not make a sound movable, because only the sounds inside a fourth move."]
   ]},
   { q: "What does the Peripatetic <em>Problems</em> observe about the <span class=\"latin\">mese</span>, and how does the lesson treat the source?", a: 0, o: [
-    ["That if it is put out of tune the whole instrument sounds wrong — and the lesson takes the observation while declining the authority", "The compilation is not securely Aristotle’s. The remark likens it to a conjunction among words: the thing by which the rest of the sentence hangs together."],
-    ["That it is the highest-sounding string, and the lesson accepts this on Aristotle’s authority", "Two errors travel together here. The lesson expressly declines to lean on that authority, and the pitch you have assigned belongs with a different name in the vocabulary."],
-    ["That it never moves when the genus changes, and the lesson makes this its architectural point", "It does stand among the fixed sounds, but that is drawn from the structure of the tetrachords, not from the compilation. The remark quoted there is about tuning and about melody."],
+    ["That if it is put out of tune the whole instrument sounds wrong — and the lesson takes the observation while declining the authority", "The compilation is not securely Aristotle’s. The passage likens the mese to a conjunction among words, the thing by which the rest hangs together."],
+    ["That it is the highest-sounding string, and the lesson accepts this on Aristotle’s authority", "This option contains two errors. The lesson expressly declines to rely on that authority, and the pitch you have assigned belongs with a different name in the vocabulary."],
+    ["That it never moves when the genus changes, and the lesson makes this its architectural point", "It does stand among the fixed sounds, but that is drawn from the structure of the tetrachords, not from the compilation. The observation quoted there is about tuning and about melody."],
     ["That it should be tuned last, and the lesson rejects the advice as unmusical", "No such advice is given and nothing is rejected here. What the lesson sets aside is the weight of the name attached to the book, not the content of the observation."]
   ]},
   { q: "What is the Lesser Perfect System?", a: 3, o: [
-    ["The Greater system with the proslambanomenos removed, giving fourteen sounds", "Removing one sound gives a shortened version of the same system, not a second system, and your count does not match the boxed remark either. That remark describes something added, not something taken away."],
-    ["A system of eleven sounds that uses the disjunction twice over", "The count is right and the reason is not. Doubling the disjunction would widen the span past two diapasons, and this is the narrower of the two systems. Re-read the boxed remark."],
-    ["The name Boethius gave to the church tones of the Latin Middle Ages", "The boxed remark warns against exactly that sort of transfer, and its warning concerns the names Dorian and Phrygian, not this one. What is described here is a structure of sounds."],
-    ["A fourth tetrachord synemmenon, conjunct, branching upward from the mese in place of the disjunction — eleven sounds spanning 8:3", "Taken together with the Greater it was called the Immutable System. Note that 8:3 is a diapason and a diatessaron, so the branch stops a fourth above the octave."]
+    ["The Greater system with the proslambanomenos removed, giving fourteen sounds", "Removing one sound gives a shortened version of the same system, not a second system, and your count does not match the remark either. That remark describes something added, not something taken away."],
+    ["A system of eleven sounds that uses the disjunction twice over", "The count is right and the reason is not. Doubling the disjunction would widen the span past two diapasons, and this is the narrower of the two systems. Re-read the remark."],
+    ["The name Boethius gave to the church tones of the Latin Middle Ages", "The remark warns against that sort of transfer, and its warning concerns the names Dorian and Phrygian, not this one. What is described here is a structure of sounds."],
+    ["A fourth tetrachord synemmenon, conjunct, branching upward from the mese in place of the disjunction — eleven sounds spanning 8:3", "Together with the Greater it was called the Immutable System. Since 8:3 is a diapason and a diatessaron, the system reaches a fourth above the diapason."]
   ]},
-  { q: "The boxed remark warns about the names Dorian, Phrygian and Lydian. What is the warning?", a: 1, o: [
+  { q: "The remark warns about the names Dorian, Phrygian and Lydian. What is the warning?", a: 1, o: [
     ["That the Greeks never used them, and they are a medieval invention", "The remark says the Greeks did use them, of tonoi and harmoniai. The trouble is not that the names are late, but that they were carried across to something else and kept their sound."],
-    ["That the Greek tonoi and harmoniai and the Latin church tones are not the same thing, though the names were taken over", "The transmission itself is where the tangle begins, and the course lists the question among those it leaves open. “Dorian” did not mean one thing to Ptolemy and to a tenth-century cantor."],
-    ["That Boethius invented the Greek names to fill a gap in his sources", "He is charged with tangling a transmission, which is a different fault from fabricating one, and the remark treats it as a difficulty rather than a deception. Read what the tangle is said to consist in."],
-    ["That the modes are the same in both traditions, so the modern confusion does no harm", "The remark exists in order to deny precisely that. Were they the same there would be nothing to warn against, and no open question to be listed in the Appendix."]
+    ["That the Greek tonoi and harmoniai and the Latin church tones are not the same thing, though the names were taken over", "The confusion begins in the transmission itself, and the course lists the question among those it leaves open. “Dorian” did not mean one thing to Ptolemy and to a tenth-century cantor."],
+    ["That Boethius invented the Greek names to fill a gap in his sources", "The lesson says the tradition became confused in his transmission, which is a different fault from fabricating one, and the remark treats it as a difficulty rather than a deception. Read what the confusion is said to consist in."],
+    ["That the modes are the same in both traditions, so the modern confusion does no harm", "The remark is there to deny that. Were they the same there would be nothing to warn against, and no open question to be listed in the Appendix."]
   ]}
 ],
 
 "sys-2": [
   { q: "What is a genus, on this lesson’s definition?", a: 3, o: [
     ["A way of tuning the whole two-diapason system to a different pitch", "Nothing here moves the system as a whole, and the frame of fourths is expressly said to stand. What changes lies inside a single fourth; find how much of that fourth is at liberty."],
-    ["A choice of which tetrachords to use in building a system", "The tetrachords are all present either way; what a genus alters happens within one of them. Count how many sounds of a tetrachord are free to move and you will have the scope of the thing."],
-    ["A scale of eight sounds, of which the Greeks had three", "The lesson never counts sounds to define it. It points at a fourth and asks how that fourth is filled — and a fourth holds four sounds, not eight."],
-    ["A way of dividing the standing fourth: the outer sounds never move, the two inner ones do", "One and the same fourth is made to sound like a different world. Nothing about the concord itself has changed, and that is the structural point the lesson wants carried into the next chapter."]
+    ["A choice of which tetrachords to use in building a system", "The tetrachords are all present either way; what a genus alters happens within one of them. Count how many sounds of a tetrachord are free to move."],
+    ["A scale of eight sounds, of which the Greeks had three", "The lesson never counts sounds to define it. It takes a fourth and asks how that fourth is filled, and a fourth holds four sounds, not eight."],
+    ["A way of dividing the standing fourth: the outer sounds never move, the two inner ones do", "One and the same fourth takes on a different character. Nothing about the concord itself has changed, and that is the structural point the lesson carries into the next chapter."]
   ]},
   { q: "Ascending from the fixed lower sound, how is the diatonic fourth divided?", a: 1, o: [
     ["Tone, tone, leimma", "The three steps are right and their order is not. Read the ascent as the lesson gives it, from the fixed lower sound upward, and note carefully which step is named first."],
-    ["Leimma, tone, tone — 256:243, then 9:8, then 9:8", "Multiply the three and you get 4:3 exactly. This is the genus you already possess, and the one the Middle Ages taught first; the other two are variations on the same fixed frame."],
-    ["Leimma, apotome, trihemitone", "Those are the steps of another genus on this page, crowding two intervals at the bottom before a wide one at the top. Set the three divisions side by side and match each to its name."],
-    ["Two dieses and a ditone", "That is the division of a third genus on this page — the one whose smallest steps have no whole-number ratio at all. Match each of the three divisions to its name before choosing."]
+    ["Leimma, tone, tone — 256:243, then 9:8, then 9:8", "The product of the three is exactly 4:3. This is the genus we already possess, and the one the Middle Ages taught first; the other two are variations on the same fixed frame."],
+    ["Leimma, apotome, trihemitone", "Those are the steps of another genus in this lesson, which puts two small intervals close together at the bottom and a wide one at the top. Set the three divisions side by side and match each to its name."],
+    ["Two dieses and a ditone", "That is the division of a third genus in this lesson, the one whose smallest steps have no whole-number ratio at all. Match each of the three divisions to its name before choosing."]
   ]},
   { q: "The chromatic fourth is divided by which three ratios?", a: 2, o: [
     ["256:243, then 9:8, then 9:8", "You have given a division whose two upper steps are equal. The genus asked about is not built that way; read the three ratios the lesson prints immediately beside its name."],
     ["256:243, then 2187:2048, then 81:64", "Your third step is a ditone, two whole tones, and it will not fit. Take a leimma and an apotome from the bottom of a fourth and work out exactly how much room is left above them."],
-    ["256:243, then 2187:2048, then 32:27 — leimma, apotome, trihemitone", "The first two together make exactly one whole tone, so the bottom of the fourth is crowded while the top step, of three semitones, yawns. And the fourth itself has not changed at all."],
+    ["256:243, then 2187:2048, then 32:27 — leimma, apotome, trihemitone", "The first two together make exactly one whole tone, so the two lower steps lie close together at the bottom, while the top step (three semitones) is wide. The fourth itself has not changed at all."],
     ["Two dieses, then a trihemitone", "You have mixed the small steps of one genus with the wide step of another, and left yourself only two intervals where three are wanted. Find the sentence that prints three ratios for this genus."]
   ]},
   { q: "In the chromatic division, what do the leimma and the apotome come to when taken together?", a: 0, o: [
-    ["Exactly one whole tone", "256:243 multiplied by 2187:2048 is 9:8. That is why the lesson can say the two lower steps crowd together: between them they occupy no more than a single step of the diatonic."],
-    ["A semitone, since each is half of one", "Neither is half of anything — the earlier lesson proved that no such halving exists in this art. Multiply the two ratios out before assuming that the names divide anything evenly."],
+    ["Exactly one whole tone", "256:243 multiplied by 2187:2048 is 9:8. That is why the lesson can say the two lower steps lie close together: between them they occupy no more than a single step of the diatonic."],
+    ["A semitone, since each is half of one", "Neither is half of anything; an earlier lesson proved that no such halving exists in this art. Multiply the two ratios out before assuming that the names divide anything evenly."],
     ["Three semitones", "That is the size the lesson gives to the step standing above them, not to the two beneath. Multiply 256:243 by 2187:2048 and compare the result with the interval you have named."],
     ["A ditone, 81:64", "A ditone is what remains of the fourth in another genus entirely, and it is far too wide to sit at the bottom here. Work the multiplication: much of 2187 and 2048 cancels against 243 and 256."]
   ]},
   { q: "How is the enharmonic fourth divided?", a: 3, o: [
     ["Two dieses and a trihemitone", "The wide step you name belongs to another genus, and it is smaller than what must remain here. Take a fourth, remove two very small steps from the bottom, and ask how much is left above."],
-    ["A diesis, a tone, and a tone", "Two of the intervals you name are the ordinary steps of another division on this page. Count how many small steps this genus is said to have before you place anything above them."],
+    ["A diesis, a tone, and a tone", "Two of the intervals you name are the ordinary steps of another division in this lesson. Count how many small steps this genus is said to have before you place anything above them."],
     ["A leimma, an apotome, and a ditone", "Those first two steps together are the mark of a different genus, where they make up a whole tone. This one is named from being well-fitted, and its lowest intervals are smaller than either."],
-    ["Two very small steps called dieses, then a ditone of 81:64", "81:64 multiplied by 256:243 gives 4:3, so the two dieses together must make up the leimma, and each is half of it. That is precisely where the art runs out."]
+    ["Two very small steps called dieses, then a ditone of 81:64", "81:64 multiplied by 256:243 gives 4:3, so the two dieses together must make up the leimma, and each is half of it. That is where the art runs out."]
   ]},
   { q: "What must the two enharmonic dieses amount to when taken together?", a: 1, o: [
     ["A whole tone, 9:8", "Then the ditone above them would have to shrink, and it does not: the lesson fixes it at 81:64. Take that away from a fourth and see how much room is actually left at the bottom."],
-    ["The leimma, 256:243 — each diesis being half of it", "Which is exactly the trouble. The leimma cannot be halved in ratio, so the diesis has no whole-number ratio at all, and Boethius accordingly gives it none."],
-    ["An apotome, 2187:2048", "That interval belongs to the coloured genus, where it stands above a leimma rather than beneath a ditone. Compute what remains of 4:3 once 81:64 has been taken away from the top."],
-    ["Nothing exact, since neither of them has a ratio", "The pair has an exact ratio although neither member does, and that asymmetry is the very thing the lesson reports. Subtract the ditone from the fourth and you will have their sum in whole numbers."]
+    ["The leimma, 256:243 — each diesis being half of it", "That is the difficulty, because the leimma cannot be halved in ratio, so the diesis has no whole-number ratio at all, and Boethius accordingly gives it none."],
+    ["An apotome, 2187:2048", "That interval belongs to the chromatic (‘colored’) genus, where it stands above a leimma rather than beneath a ditone. Compute what remains of 4:3 once 81:64 has been taken away from the top."],
+    ["Nothing exact, since neither of them has a ratio", "The pair has an exact ratio although neither member does, and the lesson reports that difference. If the ditone is taken from the fourth, the remainder is their sum in whole numbers."]
   ]},
   { q: "What does the lesson report about the numbers in Boethius’s fourth book?", a: 0, o: [
-    ["That his monochord string-lengths for the chromatic and enharmonic are approximations, and do not agree with the exact ratios of his first book", "The lesson refuses to hide it. A genus the art could name and could not measure will show itself as a discrepancy the moment anyone tries to cut a string to it."],
+    ["That his monochord string-lengths for the chromatic and enharmonic are approximations, and do not agree with the exact ratios of his first book", "The lesson says it should not be hidden. A genus that the art could name but could not measure appears as a discrepancy as soon as anyone tries to cut a string to it."],
     ["That he corrected the ratios of his first book, having found them mistaken", "No correction is claimed. The disagreement between the two books is not a change of mind but the mark of a division that cannot be given exactly in whole numbers at all."],
     ["That he omitted the chromatic and enharmonic from the monochord altogether", "He supplies numbers for them; the difficulty lies in what sort of numbers they are. Read the sentence about the fourth book again and note what it says he sets out there."],
-    ["That the discrepancy is carelessness, which the lesson excuses on his behalf", "The lesson says expressly that it is not carelessness, and it excuses nothing — it reports. Ask what would have to be true of the art itself for exact numbers to be unavailable here."]
+    ["That the discrepancy is carelessness, which the lesson excuses on his behalf", "The lesson says expressly that it is not carelessness, and it excuses nothing; it reports. Ask what would have to be true of the art itself for exact numbers to be unavailable here."]
   ]},
   { q: "What does the lesson suggest follows from the enharmonic being nameable but not measurable?", a: 2, o: [
-    ["That the ancients reckoned it the crudest of the three", "They reckoned it the opposite, and the lesson ties that estimate to its difficulty rather than against it. A thing hard to sing was not, for them, a thing held cheap."],
+    ["That the ancients reckoned it the crudest of the three", "They reckoned it the opposite, and the lesson connects that estimate with its difficulty. For them, what was hard to sing was not therefore held in low regard."],
     ["That it was never actually sung", "The lesson says it was hard to sing and that it fell out of use, both of which presuppose that it was once in use. Difficulty of execution is not impossibility."],
     ["That it was very likely reckoned the most refined of the three, the hardest to sing, and the first to fall out of use", "The lesson draws a further point from this: an art that knows where its own instruments stop is in better condition than one that does not."],
-    ["That the theorem of the earlier lesson must be mistaken", "The theorem stands, and the lesson leans upon it rather than doubting it. Where a demonstration and a practice disagree, this page gives an honest report; it does not withdraw the proof."]
+    ["That the theorem of the earlier lesson must be mistaken", "The theorem stands, and the lesson relies upon it rather than doubting it. Where a demonstration and a practice disagree, this lesson gives an honest report; it does not withdraw the proof."]
   ]},
-  { q: "The boxed remark concerns the characters ascribed to the genera. What does the lesson do with them?", a: 3, o: [
-    ["It builds the doctrine of the genera upon them, as Aristotle does in the <em>Politics</em>", "The lesson names that book and grants that such ascriptions were taken seriously, but says in the same breath that nothing demonstrated in this course rests upon them."],
+  { q: "The remark concerns the characters ascribed to the genera. What does the lesson do with them?", a: 3, o: [
+    ["It builds the doctrine of the genera upon them, as Aristotle does in the <em>Politics</em>", "The lesson names that book and grants that such ascriptions were taken seriously, but says in the same remark that nothing demonstrated in this course rests upon them."],
     ["It denies that any such ascriptions were ever made", "It reports that the ascription was made, and cites a legislator who took it seriously enough to act on it. Denying the fact is a different thing from declining to build on it."],
-    ["It treats them as part of the arithmetic, since character follows from ratio", "The remark assigns them elsewhere — to a different study of music, named in the first chapter of this course. Character is not among the things these ratios demonstrate."],
-    ["It reports that the ascription was made, assigns the matter to the second study of music, and builds nothing upon it", "The same discipline governs the Peripatetic remark about the mese in the previous lesson: take what is observed, and do not lean on the authority attached to it."]
+    ["It treats them as part of the arithmetic, since character follows from ratio", "The remark assigns them to a different study of music, named in the first chapter of this course. Character is not among the things these ratios demonstrate."],
+    ["It reports that the ascription was made, assigns the matter to the second study of music, and builds nothing upon it", "The same discipline governs the Peripatetic observation about the mese in the previous lesson, where the course keeps what is observed and does not rely on the authority attached to it."]
   ]},
   { q: "What is the structural lesson said to govern everything in Chapter VII?", a: 1, o: [
     ["That the fourth may be filled in three ways and no more", "Three is a fact about Greek practice, not a limit the arithmetic imposes. The closing paragraph looks forward to fillings of the diapason that the Greeks never used at all."],
-    ["The concords are fixed by number and do not move; the filling is a choice within limits", "Which is why later Europe, filling the diapason with a third at 5:4 and then with twelve equal steps, is doing what the Greeks did — on a larger scale and for a different reason."],
-    ["That every division must come out in whole numbers", "One of the three divisions on this very page does not, and the lesson refuses to conceal the fact. A rule contradicted by the page that states it is not the rule being taught."],
+    ["The concords are fixed by number and do not move; the filling is a choice within limits", "That is why later Europe, filling the diapason with a third at 5:4 and then with twelve equal steps, is doing what the Greeks did, on a larger scale and for a different reason."],
+    ["That every division must come out in whole numbers", "One of the three divisions in this lesson does not, and the lesson does not conceal the fact, so that cannot be the rule being taught."],
     ["That the genus determines which concords are available", "The concords stand whatever the genus does, which is the whole force of saying the outer sounds never move. You have made the variable govern the fixed; look again at which is which."]
   ]},
   { q: "Across all three genera, what does <em>not</em> change?", a: 2, o: [
     ["The size of the second step up from the bottom", "That step is a tone in one division, an apotome in another and a diesis in a third. Compare the three lists the lesson prints and see how little the inner sounds have in common."],
     ["The number of small steps at the bottom of the fourth", "One division begins with a single small step, another with two crowded together at the bottom. Set the three ascents side by side and count them before you choose."],
-    ["The outer sounds, and so the fourth itself — 4:3 in every genus", "Multiply the three steps of any one of the divisions and you get 4:3. The frame is fixed by the arithmetic; only what stands inside it is at liberty to move."],
+    ["The outer sounds, and so the fourth itself — 4:3 in every genus", "The product of the three steps of any one of the divisions is 4:3. The frame is fixed by the arithmetic, and only what stands inside it is free to move."],
     ["The character the genus is said to bear", "The lesson reports that different characters were ascribed to the different genera, so this is precisely what did not hold constant. And the matter is in any case assigned to another study."]
   ]}
 ]
@@ -1348,77 +1348,77 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 
 "vi-1": [
   { q: "Which of Boethius’s three kinds of music is the proper subject of the liberal art this course has been teaching?", a: 2, o: [
-    ["<span class=\"latin\">Musica mundana</span>, since the ratios were first found in the heavens", "The ratios of this art were found on a string, and the lesson denies that the heavens sound at all. Return to the first paragraphs and ask which kind the monochord has been demonstrating all along."],
-    ["<span class=\"latin\">Musica humana</span>, the proportion of soul to body", "That is a real analogy in Boethius, but the lesson sends it to Ethics and <span class=\"latin\">De anima</span>, which treat it more properly. A liberal art is known by the subject its own principles can reach."],
-    ["<span class=\"latin\">Musica instrumentalis</span> — sounding music of string, wind and voice", "Everything you have heard on the monochord belongs here. The other two are not thereby dismissed; they are handed to sciences whose principles can carry them further than harmonics can."],
+    ["<span class=\"latin\">Musica mundana</span>, since the ratios were first found in the heavens", "The ratios of this art were found on a string, and the lesson denies that the heavens sound at all. Re-read the first paragraphs and ask which kind the monochord has been demonstrating all along."],
+    ["<span class=\"latin\">Musica humana</span>, the proportion of soul to body", "That is a real analogy in Boethius, but the lesson assigns it to Ethics and <span class=\"latin\">De anima</span>, which treat it more properly. A liberal art is known by the subject its own principles can reach."],
+    ["<span class=\"latin\">Musica instrumentalis</span> — sounding music of string, wind and voice", "Everything we have heard on the monochord belongs here. The other two are not thereby dismissed; they are assigned to sciences whose principles can take them further than harmonics can."],
     ["All three equally, since Boethius makes no order among them", "The lesson does make an order, and it turns on which kind the art’s own principles can reach. Re-read what it says harmonics may claim without trespassing."]
   ]},
   { q: "Aristotle, in <span class=\"latin\">De caelo</span> II, denies that the heavenly bodies make sound. On what ground?", a: 0, o: [
-    ["They do not strike a medium, as a string strikes the air", "Sound requires a body struck and a medium to carry it. So this course says there is no concert in the sky."],
+    ["They do not strike a medium, as a string strikes the air", "Sound requires a body that strikes and a medium to carry it, so the course holds, with Aristotle, that the heavens do not sound."],
     ["The spheres move too slowly for their motion to be audible", "Speed is not the objection, and those who held the doctrine thought the motion very fast indeed. Ask what a sound needs in order to exist at all, rather than how fast a thing must move."],
-    ["Their sound is too constant, so that we have grown deaf to it", "That is the old defence of the doctrine, offered by those who held it. You have chosen the reply Aristotle is arguing against, and mistaken it for his argument."],
+    ["Their sound is too constant, so that we have grown deaf to it", "That is the old defense of the doctrine, offered by those who held it. You have chosen the reply Aristotle is arguing against, and mistaken it for his argument."],
     ["Scripture nowhere mentions such a sound", "This is an argument of natural philosophy about bodies and media, not an argument from silence in the sacred text. The lesson cites Wisdom for something else entirely."]
   ]},
   { q: "In what sense does the lesson allow <span class=\"latin\">musica mundana</span> to be true?", a: 3, o: [
-    ["As audible chords sounded by the planets, faint but real", "This is precisely the physical claim the lesson rejects with Aristotle. Distinguish a doctrine of cosmic order from the claim that something is actually heard."],
-    ["As a poetic figure with no truth in it, tolerated out of respect for Boethius", "The lesson refuses both mockery and inflation. It holds that the doctrine is true in one sense, not that it is empty and politely endured. Re-read the boxed remark."],
-    ["As a proof that the human soul is tuned like a string", "You have crossed from the world to the human being, which is the second of Boethius’s three kinds. And the lesson warns against turning any tetrachord into a map of the soul."],
+    ["As audible chords sounded by the planets, faint but real", "This is precisely the physical claim the lesson rejects with Aristotle. A doctrine of cosmic order is different from the claim that something is actually heard."],
+    ["As a poetic figure with no truth in it, tolerated out of respect for Boethius", "The lesson refuses both mockery and inflation. It holds that the doctrine is true in one sense, not that it is empty and politely endured. Re-read the remark."],
+    ["As a proof that the human soul is tuned like a string", "You have moved from the world to the human being, which is the second of Boethius’s three kinds. And the lesson warns against turning any tetrachord into a map of the soul."],
     ["As the ordering of the cosmos in number, measure and weight — Wisdom 11:21", "So stated it is a cosmological truth, and astronomy is the middle science that shows that order to the eye as harmonics shows order to the ear."]
   ]},
-  { q: "<span class=\"latin\">Musica humana</span>, in Boethius, names what?", a: 1, o: [
+  { q: "What does <span class=\"latin\">musica humana</span> name in Boethius?", a: 1, o: [
     ["The art of singing, as distinct from playing on instruments", "Voice is counted with the instruments in this division, since it too strikes the air. You have divided by the means of sounding, where Boethius is dividing by something else."],
     ["The proportion of soul to body, and of the parts of the soul to one another", "Boethius means a real analogy: the order that makes two strings concordant is the kind of order that makes a living human being one. Ethics and <span class=\"latin\">De anima</span> treat it more properly."],
-    ["Music considered as a human invention rather than a natural fact", "Nothing in the division turns on invention or discovery. Ask what each of the three kinds is a proportion <em>of</em>, and you will see the principle by which Boethius cuts."],
+    ["Music considered as a human invention rather than a natural fact", "Nothing in the division turns on invention or discovery. Ask what each of the three kinds is a proportion <em>of</em>, and the principle of Boethius’s division will be clear."],
     ["The moral effect of melody upon the hearer", "That effect is real, and Thomas grants it; but this course treats it under the use of music. This kind is defined by what it is a harmony of, not by what it does to a listener."]
   ]},
   { q: "St. Thomas, quoting Augustine at ST II-II q.91 a.2 ad 5, says that music moves the passions by what?", a: 2, o: [
-    ["A direct causal action of number upon the humours", "That is a stronger and more mechanical claim than the text makes, and it would need a physiology the lesson never supplies. Look for the guarded phrase Thomas actually uses."],
+    ["A direct causal action of number upon the humors", "That is a stronger and more mechanical claim than the text makes, and it would need a physiology the lesson never supplies. Look for the guarded phrase Thomas actually uses."],
     ["An imitation of the motions of the heavens", "The heavens are elsewhere in this lesson, and their motion is offered as the cause of nothing in the soul. You have joined two of Boethius’s kinds that the lesson keeps carefully apart."],
-    ["A “hidden correspondence” of melody to affection", "Hidden — that is, admitted as a fact and not explained by harmonics. A first-principles course may grant this much, and should not inflate it into a demonstration."],
-    ["The 3:2 of the sesquialter ratio, found in the soul as in the string", "This is exactly the forcing the lesson forbids: a ratio of sounding lengths pressed into service as a proof in psychology. Analogy is not demonstration."]
+    ["A “hidden correspondence” of melody to affection", "‘Hidden’ means admitted as a fact but not explained by harmonics. A first-principles course may grant this much, but should not inflate it into a demonstration."],
+    ["The 3:2 of the sesquialter ratio, found in the soul as in the string", "This is what the lesson forbids, namely forcing a ratio of sounding lengths to serve as a proof in psychology, because analogy is not demonstration."]
   ]},
   { q: "How does the lesson describe the relation between music and astronomy?", a: 1, o: [
     ["As two performances of one symphony, the audible and the inaudible", "The lesson uses that phrase only in order to deny it. Ask what the two sciences are said to share, and how narrowly the sharing is bounded."],
-    ["As companions in a limited sense: the same first ratios that please in sound are among the first ratios by which ordered motion is intelligible", "Companionship, not identity. Notice how carefully the claim is bounded — this is what harmonics may say without trespassing on cosmology."],
+    ["As companions in a limited sense: the same first ratios that please in sound are among the first ratios by which ordered motion is intelligible", "The two are companions, not one science. The claim is carefully bounded, because this is what harmonics may say without trespassing on cosmology."],
     ["As identical sciences, differing only in the sense to which they address themselves", "They share a kind, both being middle sciences, but they have different subjects and different demonstrations. Sameness of method is not sameness of science."],
     ["As unrelated, since astronomy has no use for ratio", "Astronomy is described here as the middle science that shows order to the eye. To deny it ratio is to deny it the very thing that makes it a middle science."]
   ]},
   { q: "Plato’s <span class=\"latin\">Timaeus</span> uses the musical ratios to mark out the world-soul. How does the lesson classify that use?", a: 0, o: [
-    ["As a cosmological claim, and not a harmonics class", "The ratios travel; the science does not travel with them. Harmonics keeps its own bounds even when its numbers are borrowed by another discipline."],
+    ["As a cosmological claim, not a lesson in harmonics", "Another discipline may use the ratios without becoming harmonics, and harmonics keeps its own bounds even when its numbers are borrowed."],
     ["As a demonstration within harmonics, since the ratios are the same", "Sameness of numbers does not make sameness of science. Ask what the subject of harmonics is, and whether a world-soul is a sounding body."],
     ["As an error that Thomas corrects in his commentary", "What Thomas corrects, following Aristotle, is the claim that the heavens sound. The <span class=\"latin\">Timaeus</span> passage is not treated here as a thing to be refuted."],
-    ["As a poetic ornament with no doctrinal weight", "The lesson does not dismiss it; it places it, assigning it to the discipline that can properly carry it. Placing a claim and voiding it are different acts."]
+    ["As a poetic ornament with no doctrinal weight", "The lesson does not dismiss it; it places it, assigning it to the discipline that can properly carry it. Assigning a claim to its discipline is different from dismissing it."]
   ]},
   { q: "‘Analogy is not demonstration.’ What error is that sentence guarding against?", a: 3, o: [
-    ["Denying that any analogy holds between soul and sound", "The lesson explicitly refuses to call the analogy empty. The warning cuts the other way, against a certain use of analogy rather than against its existence."],
+    ["Denying that any analogy holds between soul and sound", "The lesson explicitly refuses to call the analogy empty. The warning is directed the other way, against a certain use of analogy rather than against its existence."],
     ["Using demonstrations where an analogy would be more persuasive", "Persuasion is not the issue; what a given argument establishes is. Ask which of the two the lesson says may never be substituted for the other."],
     ["Boethius’s division of music into three kinds", "The division is part of the tradition and the lesson keeps it. What it guards against is a particular way of pressing one of the three kinds into service."],
     ["Turning every tetrachord into a map of the soul, or a string’s 3:2 into a proof in psychology", "The art does not become more liberal by being inflated into a worldview. It becomes more liberal by being known as far as its principles go, and by knowing where they stop."]
   ]},
   { q: "How does the lesson say Boethius’s threefold division ought to be read?", a: 2, o: [
-    ["As a finished physics of the heavens, since Boethius received the tradition", "Boethius received it. To read the division as if it had settled the physics is to lose the correction the lesson is at pains to make."],
-    ["Against Boethius, since Aristotle overturns the third kind", "The lesson refuses that posture. It does not set the tradition and the correction at war; it reads the one in the light of the other. Look at the first paragraph again."],
+    ["As a finished physics of the heavens, since Boethius received the tradition", "Boethius received it. To read the division as if it had settled the physics is to lose the correction the lesson takes care to make."],
+    ["Against Boethius, since Aristotle overturns the third kind", "The lesson does not take that position. It does not set the tradition and the correction against each other; it reads the one in the light of the other. Re-read the first paragraph."],
     ["With Aristotle’s correction of the spheres: not as if Boethius had settled the physics", "Both halves of that instruction matter. The division stands as tradition, one part of it is corrected by natural philosophy, and neither fact cancels the other."],
     ["As superseded, now that the monochord has replaced it", "The monochord demonstrates within one of the three kinds. An instrument that works inside a division cannot by itself abolish the division."]
   ]},
   { q: "A student says the art would be grander if every interval were shown to mirror something in the soul or the heavens. What does the lesson answer?", a: 1, o: [
-    ["That he is right, and this is why <span class=\"latin\">musica mundana</span> stands first in Boethius", "Order in a division is not a ranking by grandeur, and the lesson warns against inflation in plain terms. Re-read the boxed remark before you answer."],
-    ["That the art does not become more liberal by being inflated into a worldview, but by being known as far as its principles go and knowing where they stop", "Knowing the bound is itself part of the knowledge. This is the same discipline that let you say what the monochord shows and what it cannot show."],
+    ["That he is right, and this is why <span class=\"latin\">musica mundana</span> stands first in Boethius", "Order in a division is not a ranking by grandeur, and the lesson warns against inflation in plain terms. Re-read the remark."],
+    ["That the art does not become more liberal by being inflated into a worldview, but by being known as far as its principles go and knowing where they stop", "Knowing the bound is itself part of the knowledge. This is the same discipline that let us say what the monochord shows and what it cannot show."],
     ["That such mirroring is impossible, since number in sound and number in the soul are merely equivocal", "The lesson nowhere denies the correspondence; it declines to treat it as proved by harmonics. A refusal to demonstrate is not a denial."],
-    ["That Boethius should be mocked for having tried it", "The boxed remark opens by forbidding exactly that. Distinguish correcting a physical claim from ridiculing the man who made it."]
+    ["That Boethius should be mocked for having tried it", "The remark opens by refusing to do that. Correcting a physical claim is different from ridiculing the man who made it."]
   ]},
   { q: "Where does the singing voice fall in Boethius’s division?", a: 0, o: [
-    ["Under <span class=\"latin\">musica instrumentalis</span>, which the lesson expressly extends to the voice", "The division cuts by what sounds, not by whether wood or flesh does the sounding. This is why everything demonstrated on the monochord carries over to a choir."],
+    ["Under <span class=\"latin\">musica instrumentalis</span>, which the lesson expressly extends to the voice", "The division is made by what sounds, not by whether wood or flesh produces the sound. This is why everything demonstrated on the monochord carries over to a choir."],
     ["Under <span class=\"latin\">musica humana</span>, since the voice is human", "The name misleads if it is taken that way. That kind is defined by a proportion within the living being, not by whether a human being is producing the sound."],
-    ["Under both, since the voice is an instrument of the soul", "A graceful thought that blurs the cut Boethius is making. Ask what each of those two kinds is a proportion of, and you will find that they do not overlap."],
+    ["Under both, since the voice is an instrument of the soul", "That is a graceful thought, but it blurs the division Boethius is making. Ask what each of those two kinds is a proportion of; the two do not overlap."],
     ["Outside the division, which concerns only artificial instruments", "Then the greater part of the music this lesson is about would fall outside music altogether. Re-read the sentence naming what instrumental music includes."]
   ]}
 ],
 
 "vi-2": [
   { q: "Boethius divides those who have to do with music into three. Which three?", a: 1, o: [
-    ["Those who compose, those who teach, and those who judge", "Teaching does not appear in the division at all. Two of the three you have named are in it; go back and see what stands in the place of the third."],
-    ["Those who play instruments, those who invent songs, and those who judge", "And only the last are <span class=\"latin\">musici</span> in the strict sense. The other two have skill or gift, which the division neither denies them nor confuses with science."],
+    ["Those who compose, those who teach, and those who judge", "Teaching does not appear in the division at all. Two of the three you have named are in it; re-read the division and see what stands in the place of the third."],
+    ["Those who play instruments, those who invent songs, and those who judge", "Only the last are <span class=\"latin\">musici</span> in the strict sense. The other two have skill or gift, which the division neither denies them nor confuses with science."],
     ["Those who sing, those who listen, and those who write music down", "Listening and writing are not terms of this division. Notation is four centuries later than Boethius, and it belongs to a different chapter of this course."],
     ["The theorist, the performer, and the patron", "The patron has no place in a division made by what habit a man possesses. Ask what each of the three <em>does</em> with respect to the art itself."]
   ]},
@@ -1426,16 +1426,16 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because judging is harder than performing", "Difficulty is not the criterion, and the lesson is careful to say the definition requires no contempt for singers. Ask what kind of habit the division is sorting by."],
     ["Because judges are ordinarily also the best performers", "The lesson says the reverse can happen in either direction: a flawless performer may lack the science, and a judge of ratios who cannot perform may have it."],
     ["Because performers work for pay and so are not free men", "That argument appears nowhere in this lesson. The distinction drawn here is between two habits, one of them belonging to the hands or the throat."],
-    ["Because they possess the science; the art is a work of reason", "Thomas’s account of the liberal arts agrees in substance. Notice the cost of the definition: it must not be confused with contempt for the man who sings."]
+    ["Because they possess the science; the art is a work of reason", "Thomas’s account of the liberal arts agrees in substance. The definition has a condition attached, which is that it must not be confused with contempt for the man who sings."]
   ]},
   { q: "What practical qualification does the lesson attach to this definition?", a: 2, o: [
     ["That a performer should never be consulted about ratios", "The lesson attaches no such prohibition, and it warns against reading the definition as contempt. You have taken a distinction of habits for a ranking of persons."],
     ["That the science is useless without performance", "The science is complete as science; that is the whole point of calling the judge a <span class=\"latin\">musicus</span>. The qualification the lesson offers is milder, and it runs the other way."],
-    ["That in practice the ear that has never sung is a poor judge", "So the definition separates two habits without recommending that either be neglected. A distinction drawn in principle is not a programme for a life."],
+    ["That in practice the ear that has never sung is a poor judge", "So the definition separates two habits without recommending that either be neglected; a distinction drawn in principle is not a plan for how to live."],
     ["That judging requires no ear at all, only arithmetic", "The subject of this art is sounding pitch as heard, so an art without an ear would have lost its subject. Re-read the line the lesson gives as the subject."]
   ]},
-  { q: "Song in church and the delight of hearing belong to what, and are treated where?", a: 0, o: [
-    ["To the <em>use</em> of music, which Thomas treats in ST II-II q.91", "None of it is the liberal art, and none of it is cancelled by the liberal art. The science tells you what a concord is; prudence tells you when to sing."],
+  { q: "To what do song in church and the delight of hearing belong, and where are they treated?", a: 0, o: [
+    ["To the <em>use</em> of music, which Thomas treats in ST II-II q.91", "None of it is the liberal art, and none of it is cancelled by the liberal art. The science tells us what a concord is, and prudence tells us when to sing."],
     ["To the liberal art, as its practical part", "The lesson denies that they belong to the art at all, while insisting they are not thereby abolished. Ask which habit judges the fittingness of singing on a given occasion."],
     ["To <span class=\"latin\">musica humana</span>, as a proportion of soul to body", "You have reached back to Boethius’s division of the kinds of music rather than to the question of use. The lesson gives a precise place in Thomas for this matter."],
     ["To no discipline, being matters of taste", "Thomas gives them a question of their own in the <span class=\"latin\">Summa</span>, with distinctions about when they are salutary and when abused. That is not what taste means."]
@@ -1443,18 +1443,18 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "According to the lesson, when is song abused?", a: 2, o: [
     ["When it employs instruments of any kind", "Instruments are treated with caution in one respect only, and caution is not prohibition. Look for the two specific faults the lesson names."],
     ["When it departs from the diatonic genus", "The genera are listed among the things that remain and are not first, and they have nothing to do with the moral question. This is a matter of use, not of tuning."],
-    ["When it aims at display, or when the tune swallows the words", "Both faults are disorders of end: the song is for devotion, and devotion is what gets displaced. Instruments that move to pleasure rather than to a good disposition draw the same caution."],
+    ["When it aims at display, or when the tune swallows the words", "Both faults are disorders of end, because the song is for devotion, and in both it is devotion that is displaced. Instruments that move to pleasure rather than to a good disposition draw the same caution."],
     ["Whenever it gives pleasure", "Melody moves the soul, and that is exactly why the lesson calls song a salutary help to devotion. Pleasure is not the fault; ask what the fault does to the end of singing."]
   ]},
-  { q: "‘The science tells you what a concord is; prudence tells you when to sing.’ What is that sentence dividing?", a: 3, o: [
+  { q: "‘The science tells us what a concord is, and prudence tells us when to sing.’ What is that sentence dividing?", a: 3, o: [
     ["Theory from practice within the liberal art", "Both halves would then be parts of one art, which is what the sentence denies. One of the two habits named is not a liberal art at all."],
     ["Boethius from Thomas", "They are not opposed in this lesson; Thomas’s account is said to agree with Boethius in substance. The sentence divides two habits, not two authorities."],
     ["Arithmetic from harmonics", "That division is real and belongs to the account of a middle science, but neither of those two settles an occasion. Ask which habit governs a choice about acting."],
-    ["The liberal art from moral science", "Each is sovereign in its own order, and neither answers the other’s question. Confusing them is the commonest way of misjudging what this course has been teaching."]
+    ["The liberal art from moral science", "Each has authority in its own order, and neither answers the other’s question. Confusing them is the commonest way of misjudging what this course has been teaching."]
   ]},
   { q: "The lesson lists the first principles. What does it give as the <em>subject</em> of the art?", a: 1, o: [
-    ["Number, considered absolutely", "That is the subject of arithmetic. This art borrows arithmetic’s demonstrations but does not take over its subject; that is precisely what makes it a middle science."],
-    ["Sounding pitch, as heard", "As heard — the ear is never dismissed here. What is added to hearing is the cause, which the same list gives on its own separate line."],
+    ["Number, considered absolutely", "That is the subject of arithmetic. This art borrows arithmetic’s demonstrations but does not take over its subject; that is what makes it a middle science."],
+    ["Sounding pitch, as heard", "The words ‘as heard’ mean that the ear is never dismissed. What is added to hearing is the cause, which the same list gives on its own separate line."],
     ["The ratio of the sounding quantities", "The list names this too, but on a different line and under a different heading. You have taken the cause of a thing for the thing itself; keep the two apart."],
     ["The diatonic filling of the diapason", "That is named in the list as the art’s work, which is what the art does with its subject rather than what it is about. Re-read the six lines in order."]
   ]},
@@ -1465,20 +1465,20 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Practical, since its end is a work", "The list does name a work, but a science is classed by how it knows and not only by what it produces. And the whole lesson turns on the art being a habit of the intellect."]
   ]},
   { q: "Which of these does the lesson place among the things that ‘remain, and are not first’?", a: 2, o: [
-    ["The ratio 9:8 as the step of the scale", "That is one of the six lines you are told you now possess. What remains is what could not properly be had until those lines were in place."],
+    ["The ratio 9:8 as the step of the scale", "That is one of the six lines the lesson says we now possess. What remains is what could not properly be had until those lines were in place."],
     ["The demonstration that 2:1 is the first concord", "The first concords are listed among the principles already gained. You have chosen from the wrong side of the divide the lesson draws."],
-    ["The church modes and the Guidonian hexachord", "So too the chromatic and enharmonic genera, the Greater Perfect System, Ptolemy’s complete tables, Augustine’s metrics, composition, and the ethics of melody in full."],
-    ["The claim that the musician is the one who judges", "That claim is the substance of this very lesson, and of Boethius I.34 behind it. Ask what the phrase ‘not first’ is being contrasted with."]
+    ["The church modes and the Guidonian hexachord", "The same is true of the chromatic and enharmonic genera, the Greater Perfect System, Ptolemy’s complete tables, Augustine’s metrics, composition, and the ethics of melody in full."],
+    ["The claim that the musician is the one who judges", "That claim is the substance of this lesson, and of Boethius I.34 behind it. Ask what the phrase ‘not first’ is being contrasted with."]
   ]},
-  { q: "Why does the course go on to walk one of the roads it calls ‘not first’?", a: 3, o: [
-    ["Because the first principles are incomplete without it", "The lesson says the opposite: you now have the first principles, and the later road is expressly not first. Incompleteness is not the reason given."],
-    ["Because later music refuted the Boethian art", "That is the very claim the lesson wants you armed against. Ask why a student might be vulnerable to it, and you will have the reason for the journey."],
-    ["Because the tempered instruments of later Europe are more perfect", "No such judgment is offered. The chapter is described as asking a question at its end, not as awarding a prize to one age over another."],
-    ["Because a student who knows the art and nothing of what became of it is easy prey for the claim that the art was refuted", "And the chapter ends by asking which of the six lines still stand. The lesson adds a caution: it is not for reading before the string is known by ear."]
+  { q: "Why does the course go on to treat one of the subjects it calls ‘not first’?", a: 3, o: [
+    ["Because the first principles are incomplete without it", "The lesson says the opposite: we now have the first principles, and the later subject is expressly not first. Incompleteness is not the reason given."],
+    ["Because later music refuted the Boethian art", "That is the claim the lesson wants the student to be able to answer. Ask why a student might be persuaded by it, and that is the reason for the chapter."],
+    ["Because the tempered instruments of later Europe are more perfect", "No such judgment is offered. The chapter is described as asking a question at its end, not as judging one age superior to another."],
+    ["Because a student who knows the art and nothing of what became of it is easily persuaded by the claim that the art was refuted", "And the chapter ends by asking which of the six lines still stand. The lesson adds a caution: it is not for reading before the string is known by ear."]
   ]},
   { q: "The lesson returns to the monochord. At what points is the string named?", a: 1, o: [
     ["At 1, 2/3, 1/2 and 1/3", "Three of these are on the list and the fourth is not. Count the four stopping points the lesson names, and ask what ratio each sounds against the open string."],
-    ["At 1, 3/4, 2/3 and 1/2", "Which is to say the unison, the diatessaron, the diapente and the diapason. Apart and together, if you can say what you are hearing, you have begun the art."],
+    ["At 1, 3/4, 2/3 and 1/2", "Which is to say the unison, the diatessaron, the diapente and the diapason. If we can say what we are hearing, apart and together, we have begun the art."],
     ["At 8/9, 3/4 and 2/3 only", "One of these gives the tone, which is the step rather than a concord, and the open string itself is missing. Four points are named, and they begin with the string unstopped."],
     ["Wherever the ear finds a pleasing sound", "The whole method of the instrument is that the lengths are fixed in advance and the ear then judges what they give. Reversing that order gives up the demonstration."]
   ]}
