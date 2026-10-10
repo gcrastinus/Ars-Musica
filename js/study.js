@@ -43,14 +43,14 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "By the end of the course, which of these should you be able to say from first principles?", a: 1, o: [
     ["How to compose, cantor, and write the history of later European music", "The remark names those as other studies, and says you will not yet be those things."],
-    ["What this art is; what an interval is; why the first concords are 2:1, 3:2, and 4:3; what a tone is; how a scale is built; and who counts as a musician", "That is the list under ‘What you will possess.’ It names the art, not the neighboring studies."],
+    ["What this art is; what an interval is; why the first concords are 2:1, 3:2, and 4:3; what a tone is; how a scale is built; and who counts as a musician", "That is the list under ‘What we will possess.’ It names the art, not the neighboring studies."],
     ["Which modes are safe in church, and which are not", "That belongs to the second study of music, ethics and politics, which this course reports and does not legislate."],
     ["The names of the notes on a treble staff", "The opening paragraph has already set those aside."]
   ]},
   { q: "The remark says the course teaches the mathematical skill of the art in full. What does it say about the doctrine?", a: 2, o: [
     ["The doctrine is also taught in full, and nothing remains to be read", "The second sentence of the remark states a limit, not a boast. Look at where it says the full demonstration is found."],
     ["The doctrine is omitted, because this is only a skill course", "The remark says the doctrine is shown faithfully enough to be believed and returned to, so it does not claim that the doctrine is omitted."],
-    ["It is shown faithfully enough to be believed and returned to, but the full demonstration lives in the books the course points toward", "The course teaches the skill, shows the doctrine as far as a first-principles course can, and leaves the rest to the books."],
+    ["It is shown faithfully enough to be believed and returned to, but the full demonstration of the doctrine is in the books the course points toward", "The course teaches the skill, shows the doctrine as far as a first-principles course can, and leaves the rest to the books."],
     ["Doctrine is a matter of taste, and the course takes no side", "The course takes sides where the art does. The remark concerns how much a course of this kind can show, not the standing of the teaching."]
   ]},
   { q: "Most lessons, the page says, ask you to do what?", a: 0, o: [
@@ -74,7 +74,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Why are the pictures on the lessons there?", a: 2, o: [
     ["As decoration, to keep a long page from looking bare", "The page says they are not decoration."],
     ["To show how a modern score is laid out", "No staff is required, and none is being taught."],
-    ["They are to the ear what a Euclidean diagram is to the eye: the little bridge on the string, then the reason the sound is as it is", "We hear first, and then learn the cause; that is the method of the whole course."],
+    ["They are to the ear what a Euclidean diagram is to the eye, because they show the little bridge on the string and then the reason the sound is as it is", "We hear first, and then learn the cause; that is the method of the whole course."],
     ["To prove the harmony of the spheres", "The contemplative pages later decline that ascent, and the opening page speaks only of the string."]
   ]}
 ],
@@ -181,7 +181,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What does the lesson say of parents who watch what is sung in the house, and of lawgivers who watch what is sung in the city?", a: 2, o: [
     ["They practice the liberal art in its applied form", "The lesson allows no such applied form. It separates the studies by their ends, and the end of what these men do is a citizen of a certain stamp, not a piece of knowledge."],
     ["They exercise the fine art at second hand", "The fine art makes something beautiful to hear. These men make nothing; they watch what is heard by others, and they watch it for the sake of what it does to those others."],
-    ["They are not doing mathematics; they are forming character", "The lesson says plainly that this is real work, and moral work, but that it is training. It belongs to the second study, and this course is the third."],
+    ["They are not doing mathematics but forming character", "The lesson says plainly that this is real work, and moral work, but that it is training. It belongs to the second study, and this course is the third."],
     ["They are doing something no part of the threefold division covers", "The lesson gives their activity a place, and names the science it can be a part of. Re-read the paragraph that cites the Politics and the prologue of Boethius."]
   ]},
   { q: "What is the <span class=\"latin\">opus</span> of music considered as a liberal art?", a: 3, o: [
@@ -217,7 +217,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "A student concludes that the other two studies are therefore false or worthless. What does the lesson say?", a: 2, o: [
     ["They are false, being founded upon delight rather than truth", "The lesson calls them real. It denies them a place at the head of the quadrivium, not a standing of their own; and one of them it allows to be part of a science."],
     ["They are worthless for a liberal education, though harmless enough as amusements", "That is harsher than the lesson. It calls the two real, and says one of them can be part of moral science — which is not a description of something worthless."],
-    ["They are real; they are not first, and they are not what the quadrivium names <span class=\"latin\">musica</span>", "The force of the lesson lies in that ‘and’, because the other two studies are real but are not first. A study can be genuine and worth pursuing, and still be a different study from the one we are learning."],
+    ["They are real studies, but they are not first, and they are not what the quadrivium names <span class=\"latin\">musica</span>", "The force of the lesson lies in that ‘and’, because the other two studies are real but are not first. A study can be genuine and worth pursuing, and still be a different study from the one we are learning."],
     ["They are the same study as harmonics, seen from different angles", "Then the lesson would have had no reason to divide them, and its warning about mixing the senses of the word would be idle. The lesson named three ends, and they are not one end."]
   ]},
   { q: "Why is delight not enough to make a study liberal?", a: 3, o: [
@@ -381,7 +381,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Of a heap of wheat we ask how much; of the potatoes in a sack, how many. Which science answers which?", a: 2, o: [
     ["Geometry answers “how many”, arithmetic “how much”", "Both sciences are named, but each is given the other’s question. Ask which question is answered by counting units, and which by measuring a magnitude that has no natural unit inside it."],
     ["Both belong to arithmetic, since both end in a number", "A measurement can be reported in numbers without its subject being number. The lesson divides quantity itself into two kinds <em>before</em> it assigns any science. Re-read the sentence about the heap and the sack."],
-    ["Geometry answers “how much” — continuous quantity, magnitude; arithmetic “how many” — discrete quantity, number", "Aristotle’s division in the <span class=\"latin\">Categories</span>, and it is what puts these two sciences first. The whole quadrivium is built on this one division."],
+    ["Geometry answers “how much” (continuous quantity, or magnitude); arithmetic answers “how many” (discrete quantity, or number)", "Aristotle’s division in the <span class=\"latin\">Categories</span>, and it is what puts these two sciences first. The whole quadrivium is built on this one division."],
     ["Music answers “how much” and astronomy “how many”", "Those two enter the quadrivium later in the lesson, and for a quite different reason. The question is about the two sciences that treat quantity in itself."]
   ]},
   { q: "Why are arithmetic and geometry first among the four?", a: 3, o: [
@@ -698,7 +698,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "“The names can wait, but the hearing must come first.” What is being asked of you?", a: 1, o: [
     ["To memorise the vocabulary before listening again", "The sentence sets the two in the opposite order of urgency. Read it once more and ask which of them it says may be postponed."],
-    ["To have the experience now, since the terms will be idle without it", "A name given to an experience we have not had is of no use to us. The course is built so that every term arrives after the thing it names."],
+    ["To have the experience now, since the terms will be idle without it", "A name given to an experience we have not had gives us no knowledge of that experience. The course is built so that every term arrives after the thing it names."],
     ["To distrust the names when they come", "Nothing casts doubt on the names; the whole course is arranged to earn them. What is said is which comes first, not which is trustworthy."],
     ["To wait for a scale before listening at all", "The lesson has just had you listen twice, with no scale and no vocabulary. Ask what it says cannot wait."]
   ]},
@@ -709,7 +709,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Both: one after the other, as in a melody, and at once, as in a chord", "The art claims both, and then chooses one to start with for a reason of evidence: the blending shows itself more plainly when the two sound together."]
   ]},
   { q: "Why does the remark say melody must wait?", a: 0, o: [
-    ["Because melody will come when there is a scale to walk on", "That sets the order of the chapters ahead: intervals first, then a scale built from them, and only then movement along it."],
+    ["Because melody will come once we have a scale", "That sets the order of the chapters ahead: intervals first, then a scale built from them, and only then movement along it."],
     ["Because melody belongs to practice, not to the liberal art", "The remark says the liberal art knows sounds heard one after another, so melody is not being put outside it. What is missing at this point is something to move upon."],
     ["Because succession is harder to hear than simultaneity", "The remark’s point about clearness concerns where a concord first shows itself, not what melody requires. Ask what melody needs that has not been built."],
     ["Because the ear judges melody unreliably", "No such doubt about the ear is raised anywhere in this lesson. The reason given is that something is still missing, and it is not a faculty."]
@@ -771,7 +771,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Unknown, since no one has tested it", "The verdict is given plainly, not left open. Re-read the sentence beginning ‘As a piece of metallurgy’ and see how firm it is."]
   ]},
   { q: "Why does the lesson keep the story even so?", a: 0, o: [
-    ["Because as teaching it says the right thing: the concords are not arbitrary tastes but track number", "A false account of the how may still carry a true doctrine of the what. The lesson keeps the doctrine and hands the demonstration over to the string."],
+    ["Because as teaching it says the right thing, namely that the concords are not arbitrary tastes but correspond to number", "A false account of the how may still carry a true doctrine of the what. The lesson keeps the doctrine and hands the demonstration over to the string."],
     ["Because tradition must be preserved whether or not it is true", "The lesson gives a reason, and a reason of use rather than of reverence. Ask what the story manages to say correctly, apart from the smithy."],
     ["Because the story is charming and holds a beginner’s attention", "Charm is not the merit claimed for it. The claim concerns the content of what the story asserts. Read again what the remark says the story ‘says.’"],
     ["Because the authority of Pythagoras settles the ratios", "This course settles ratios by demonstration on a measured string, not by a name. And the lesson has just called part of the story doubtful, so authority is plainly not the ground."]
@@ -2531,7 +2531,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The judgement that the practical musician is beneath notice", "No ranking of musicians is at issue here; that belongs to another part of the course. Re-read the two sentences beginning <em>So take from Plato</em>."],
     ["The demand for ascent: from the heard instance to the ratio, and from the isolated ratio to the order and kinship of the mathematical sciences", "That kinship is what he asks for at 531c. The demand survives the disagreement about ladders, which is why it can be kept while the rest is refused."]
   ]},
-  { q: "The remark headed ‘The question put to you’ makes an admission about this course. What is it?", a: 0, o: [
+  { q: "The remark headed ‘The question put to us’ makes an admission about this course. What is it?", a: 0, o: [
     ["That the course has not answered Socrates’ question, and has been careful not to pretend to", "What it claims instead is to have put you where the question can be asked honestly — with the fact in your possession rather than on report. A smaller claim, and a real one."],
     ["That the ratios themselves answer the question once a student holds them", "Then it would be impossible to finish the course and still not have asked it, and the remark says plainly that it is possible. Holding a fact and having its reason are different acquisitions."],
     ["That the question is unanswerable, and a student does better to set it aside", "Unanswered and unanswerable are not the same, and the remark asserts only the first. Socrates himself thought the pursuit worth calling useful for the search after the beautiful and the good."],

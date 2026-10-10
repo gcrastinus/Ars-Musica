@@ -27,7 +27,7 @@ MusicaArs.LESSONS = [
 <p>Each lesson is short. Most of them ask you to <em>hear</em> something: one sound, then another, then both together. The pictures are not decoration. They are to the ear what a Euclidean diagram is to the eye, because they show the little bridge on the string and then the reason the sound is as it is.</p>
 <p>There are two practical notes. First, click <strong>Enable sound</strong> when asked, or press any Play button; the browser will stay silent until you do. Second, this course uses the old intonation of the art (whole-number ratios of a single string), not the slightly adjusted pitches of a modern piano. If a piano is nearby, it will be close, but it will not be exact. That difference is part of what you are here to learn. The <strong>String</strong> button at the top is a free monochord; return to it whenever you want to hear a ratio again.</p>
 <div class="remark">
-  <h4>What you will possess</h4>
+  <h4>What we will possess</h4>
   <p>By the end you should be able to say, from first principles, what this art is; what an interval is; why the first concords are 2:1, 3:2, and 4:3; what a tone is; how a scale is built from these; and who, in this tradition, counts as a musician. You will not yet be a composer, a cantor, or a historian of later European music. Those are other studies.</p>
   <p>This course teaches the mathematical skill of the art in full, and shows the doctrine of the whole faithfully enough to be believed and returned to, but the full demonstration of the doctrine is in the books it points you toward.</p>
 </div>
@@ -70,7 +70,7 @@ MusicaArs.LESSONS = [
 <h4 class="sec">Second: its work. The <span class="latin">opus</span> stays in the one who makes it.</h4>
 <p>An objection arises at once. If the thing is ordered to knowing, why call it an <em>art</em> at all? An art is right reason about things to be made; a science is knowledge of causes. Which is this?</p>
 <p>St. Thomas answers the same question in his commentary on Boethius. The seven are called arts among the sciences <span class="latin">quia non solum habent cognitionem, sed opus aliquod, quod est immediate ipsius rationis</span> (because they have not only knowledge, but a certain work, which is immediately of reason itself). And he lists the works: to construct a syllogism; to form a speech; to number; to measure; <span class="latin">melodias formare</span>, to form melodies; to compute the courses of the stars.</p>
-<p>A work of this kind differs from the work of a craft. A cobbler’s work ends in a shoe, which is something outside him and stays on the bench when he has forgotten how it was made. The work of a liberal art ends <em>in the one who does it</em>. When we have found the diapason on the string and know why it is 2:1, the work we have made is a possession of our reason, and there is nothing left over on the bench.</p>
+<p>These works are of the following kind. A cobbler’s work ends in a shoe, which is something outside him and stays on the bench when he has forgotten how it was made. The work of a liberal art ends <em>in the one who does it</em>. When we have found the diapason on the string and know why it is 2:1, the work we have made is a possession of our reason, and there is nothing left over on the bench.</p>
 <div class="remark">
   <h4>On <span class="latin">melodias formare</span></h4>
   <p>Thomas’s phrase for the work of <span class="latin">musica</span> is “to form melodies,” and a hasty reader will take that to mean composition after all, but it does not. In his list, each work named is performed by reason <em>immediately</em>, without passing into outward matter. A melody formed by reason is an ordered set of pitches known in their proportions, which is what this course has been calling the scale. That is why <span class="xref" data-to="v-2"></span> can say that the filled diapason is the <span class="latin">opus</span> of the art, and why a man who writes a beautiful song without knowing a ratio has not performed it.</p>
@@ -366,7 +366,7 @@ MusicaArs.LESSONS = [
 </div>
 <p>Nicomachus calls this the most perfect proportion, and reports that Pythagoras brought it out of Babylon. Whatever the history, the thing itself is clear. The tone, which <span class="xref" data-to="v-1"></span> derived by taking a fourth away from a fifth, turns out to be the interval between the harmonic and the arithmetic mean of the diapason, so that two different derivations arrive at the same interval.</p>
 
-<h4 class="sec">A theorem you are owed</h4>
+<h4 class="sec">A theorem we are owed</h4>
 <p>The next lesson will say that the leimma is not half a tone, and that the halving of 9:8 is not something this art can take as a principle. So far that has only been asserted, but the proof is short.</p>
 <p>Suppose the tone 9:8 could be divided into two equal intervals. Then there would be a number <em>x</em> standing to 8 as 9 stands to <em>x</em>, that is, a geometric mean. Then <em>x</em>² = 72. But 72 is not a square, so there is no such number.</p>
 <p>And this is not a peculiarity of 9 and 8. <strong>Archytas proved that no superparticular ratio, in its least terms, admits a mean proportional at all.</strong> Boethius reports the demonstration, having already argued the point against Aristoxenus earlier in the same book; the same theorem stands in the <span class="latin">Sectio canonis</span> attributed to Euclid. Every concord and every step of this art except the diapason and its compounds is superparticular. <em>None of them can be halved in ratio.</em></p>
@@ -613,7 +613,7 @@ MusicaArs.LESSONS = [
   ch: "ex",
   n: "·",
   kicker: "Palaestra",
-  title: "The measure you did not make",
+  title: "The measure we did not make",
   html: `
 <p>We have just judged pairs as blending or standing apart, without being shown the ratio first. While the act is still fresh, we may ask where the standard of that judgment came from.</p>
 <p>It did not come from the sound, because we used it to find the sound wanting, or to find it well measured, and a standard given by the sound could not correct the sound.</p>
@@ -1211,7 +1211,7 @@ MusicaArs.LESSONS = [
 <p>The first put their ears before their minds. They measure heard concords against one another, torture the strings, argue whether there is a smaller interval still. They make the ear the measure, and they never arrive at anything.</p>
 <p>The second criticism is the one that should trouble us, because it is aimed at our own teachers. The Pythagoreans, Socrates says, are better, but they do the same thing the astronomers do. <em>They seek the numbers in these heard concords, and do not ascend to problems.</em> They never ask which numbers are concordant of themselves, and which are not, and <strong>why</strong>. Pursued that far, he says, the study is useful for the search after the beautiful and the good; pursued otherwise, it is labor lost.</p>
 <div class="remark">
-  <h4>The question put to you</h4>
+  <h4>The question put to us</h4>
   <p>It is entirely possible to finish this course, hold every ratio, pass every exercise, and never once have asked Socrates’ question. Why <em>these</em> numbers? Why should simplicity of ratio have anything to do with pleasing a sense? Why is the world such that the first numbers and the first concords are the same first? This course has not answered that, and has been careful not to pretend to. It has put us in the one position from which the question can be asked honestly, which is with the fact in our possession rather than on report.</p>
 </div>
 
@@ -1269,21 +1269,21 @@ MusicaArs.LESSONS = [
 <p>This last lesson asks why a man alive now should have spent these weeks on one string.</p>
 <p>Nothing here will be an argument that the art is <em>useful</em>, because that would give away the case in the first sentence. These are four things that are true of you now and were not before.</p>
 
-<h4 class="sec">1. You hold a counterexample.</h4>
+<h4 class="sec">1. We now have a counterexample.</h4>
 <p>The educated modern picture is roughly this: quantity is real and out in the world; quality (beauty, fittingness, harmony) is in us, and is projected onto things. Almost nobody arrives at that picture by argument. It is absorbed, and then it is presupposed.</p>
 <p>Harmonics is a place where it can be tested cheaply, by anyone, with a string. We hear that some pairs please; we measure, and the pleasing ones are the simple ratios; we alter the ratio, and the pleasure alters with it, and it does this for everyone who tries, in every century that has tried. So the delight <em>varies with</em> something the mind can state. St. Thomas’s claim that beauty consists in due proportion, and that sense is itself a kind of reason, is in this one domain not a pious formula but a verified result.</p>
 <p>One counterexample does not overthrow a picture of the world. But it does mean that we can no longer hold that picture innocently, and a man who has checked one case himself argues about the rest differently from a man who has checked none.</p>
 
-<h4 class="sec">2. You have practiced something useless, on purpose.</h4>
+<h4 class="sec">2. We have practiced something useless, on purpose.</h4>
 <p>Aristotle says that <em>to be always seeking after the useful does not become free and exalted souls.</em> Every institution a student now passes through will ask what a study is <em>for</em>, and by that will mean what it gets the student. This one has no answer, and the absence of an answer is intended.</p>
 <p>Newman, defending the same tradition in a modern university that had already begun to lose it, put it as well as it can be put: <em>“Knowledge is capable of being its own end. Such is the constitution of the human mind, that any kind of knowledge, if it be really such, is its own reward.”</em> He is a modern witness and not an authority of this art; but he is evidence that the case still had to be made, and could be.</p>
 <p>The formation is in the doing, not in the agreeing. A man who has spent weeks getting 3:2 into his ear for no reward whatever has done something to himself that no quantity of assent to Aristotle would have done.</p>
 
-<h4 class="sec">3. You can ask: by what measure?</h4>
+<h4 class="sec">3. We can ask by what measure it works.</h4>
 <p>Boethius’s three classes are found in every age. Most men stand toward sound as those who are moved by it. Some stand as those who make it. Very few stand as those who can say what has been done to them, and how.</p>
 <p>This course has said nothing about what anyone ought to listen to, and will not begin now; that is the second study of music and belongs to prudence <span class="xref" data-to="i-1"></span>. The remark is about a <em>position</em>, not a repertory. Sound is arranged, now as in every age, so as to work upon the passions, and the arranging is often skillful and often good. The free man is not the one who resists it but the one who can ask by what measure it works, not because asking spoils the pleasure, but because a pleasure a man can account for is his own, and a pleasure he cannot account for is something that is happening to him.</p>
 
-<h4 class="sec">4. You know an approximation when you meet one.</h4>
+<h4 class="sec">4. We can recognize an approximation when we meet one.</h4>
 <p><span class="xref" data-ch="VII"></span> laid out the trade-off exactly. The equal semitone is irrational; the third on a modern keyboard is wide by about two thirds of a comma; and the whole arrangement was adopted knowingly, by men who understood the arithmetic, in exchange for the freedom to move from key to key. It was a good trade-off, and this course does not grudge it.</p>
 <p>But it was a trade-off, and hardly anyone who sits down at a piano knows one was made. We live among approximations that work so well that we forget they approximate, and forget that something was given up to get them. To hold one case in which we know precisely what was given up, and can hear it in ten seconds, is a small education in a habit of mind that is worth a great deal more than the case.</p>
 
