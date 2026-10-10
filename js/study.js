@@ -791,104 +791,104 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 ],
 
 "iv-1": [
-  { q: "The lesson introduces 3:2 by saying it comes ‘after the double.’ After in what sense?", a: 2, o: [
+  { q: "The lesson says that 3:2 comes ‘after the double.’ In what sense does it come after?", a: 2, o: [
     ["It sounds less pleasant than the double, and so ranks lower", "Pleasantness is not what is being ranked, and the lesson later denies that the concords were settled by liking. Ask what property of the numbers themselves puts one before another."],
-    ["It is heard later in the course, and so comes after in the telling", "The order of the pages follows the order of the matter, not the reverse. Ask what it is about 3 and 2 that earns them the place they are given."],
+    ["It is heard later in the course, and so comes after in the telling", "The order of the pages follows the order of the matter, not the reverse. Ask what it is about 3 and 2 that gives them their place."],
     ["It is the next simplest inequality of whole numbers after 2:1", "Simplicity of number, not of sound, fixes the order. That is how this art can say which concord is first without consulting anyone’s taste."],
-    ["It is produced by stopping the string further from the end", "Where the bridge falls is a consequence, not a reason; the same argument would order the concords by carpentry. Ask what makes one pair of numbers stand before another."]
+    ["It is produced by stopping the string further from the end", "Where the bridge falls is a consequence of the ratio, not the reason for its rank. Ask what makes one pair of numbers stand before another."]
   ]},
   { q: "Where is the string stopped to sound the <span class=\"latin\">diapente</span>?", a: 1, o: [
-    ["So that the sounding length is three-halves of the open string", "That would leave the sounding part longer than the whole it was taken from, which the instrument cannot do. Turn the ratio into a fraction of the open length and see which way it points."],
-    ["So that the sounding length is two-thirds of the open string", "Two-thirds sounding, and the lengths therefore 3 to 2. Keep the habit of naming the fraction of the string and the ratio of the lengths in one breath."],
+    ["So that the sounding length is three-halves of the open string", "That would leave the sounding part longer than the whole it was taken from, which the instrument cannot do. Write the ratio as a fraction of the open length and ask whether that fraction is more or less than the whole."],
+    ["So that the sounding length is two-thirds of the open string", "Two-thirds of the string sounds, so the lengths are 3 to 2. It is a good habit to name the fraction of the string and the ratio of the lengths together."],
     ["So that the sounding length is three-quarters of the open string", "That fraction belongs to the other concord this lesson introduces, and it gives a tighter interval than the one asked for. Read again which fraction the lesson attaches to 3:2."],
     ["So that the sounding length is one-third of the open string", "You have taken the part damped off rather than the part left sounding. Ask which portion of the wire is free to vibrate when the bridge stands two parts along in three."]
   ]},
   { q: "The lengths are 3:2, open to stopped. How do the lesson’s words run for the pitches?", a: 0, o: [
     ["3:2 the other way about — stopped to open", "The ratio keeps its magnitude and reverses its order. The shorter string is the higher sound, so the greater term of the pitch comparison belongs to the stopped side."],
-    ["3:2, open to stopped, exactly as the lengths run", "Then the longer piece of wire would be the higher sound. Sound the open string and the stopped one, ask which you would call higher, and then look at the order again."],
-    ["2:3, stopped to open, since the pitch ratio is the reciprocal", "You have inverted the terms and the order both, and the two inversions undo each other. Write down which sound is higher, then which term of a ratio names it."],
+    ["3:2, open to stopped, exactly as the lengths run", "Then the longer piece of wire would be the higher sound. Ask which of the two sounds, the open string or the stopped one, is higher, and then look at the order again."],
+    ["2:3, stopped to open, since the pitch ratio is the reciprocal", "You have inverted the terms and the order both, and the two inversions cancel each other. Ask which sound is higher, and then which term of the ratio names it."],
     ["9:4, since inverting squares the ratio", "Nothing in the operation squares anything; one comparison is being read in the opposite order, not compounded with itself. Look at what inverting a ratio actually does to its two terms."]
   ]},
   { q: "Which pairing of names and ratios does the lesson give?", a: 3, o: [
-    ["3:2 is the <span class=\"latin\">diatessaron</span>; 4:3 is the <span class=\"latin\">diapente</span>", "You have crossed the two. One name travels with the two-thirds stopping and the other with the three-quarters; go back and see which sentence introduces which."],
+    ["3:2 is the <span class=\"latin\">diatessaron</span>; 4:3 is the <span class=\"latin\">diapente</span>", "You have exchanged the two names. One name belongs to the two-thirds stopping and the other to the three-quarters; re-read which sentence introduces which."],
     ["3:2 is the <span class=\"latin\">diapason</span>; 4:3 is the <span class=\"latin\">diapente</span>", "The first name belongs to the concord of the preceding chapter, sounded at half the string, and neither stopping on this page falls at the halfway point."],
-    ["3:2 is the tone; 4:3 is the <span class=\"latin\">diapente</span>", "The lesson calls both of its intervals concords, and neither is called a step. Look at the two sentences that introduce the stoppings and take the name each one gives."],
-    ["3:2 is the <span class=\"latin\">diapente</span>, the fifth; 4:3 is the <span class=\"latin\">diatessaron</span>, the fourth", "Keep the Greek beside the ratio rather than beside the modern ordinal. The ratio is what is demonstrated on the string; the name is a label fastened to it afterwards."]
+    ["3:2 is the tone; 4:3 is the <span class=\"latin\">diapente</span>", "The lesson calls both of its intervals concords, and neither is called a step. Look at the two sentences that introduce the stoppings and at the name each one gives."],
+    ["3:2 is the <span class=\"latin\">diapente</span>, the fifth; 4:3 is the <span class=\"latin\">diatessaron</span>, the fourth", "It is better to associate the Greek name with the ratio than with the modern ordinal, because the ratio is what is demonstrated on the string, and the name is given to it afterwards."]
   ]},
   { q: "How does the lesson describe the way the <span class=\"latin\">diapente</span> blends?", a: 2, o: [
-    ["So completely that the two seem one sound raised", "That was the course’s description of the concord of the preceding chapter, and this lesson says expressly that the blending here is not of that kind. Read the sentence after the first widget."],
+    ["So completely that the two seem one sound raised", "That was the course’s description of the concord of the preceding chapter, and this lesson says expressly that the blending here is not of that kind. Re-read the sentence that follows the first sound example."],
     ["It does not blend at all; the two sounds merely stand side by side", "The lesson calls it a concord and says that it blends. You have described what the art will say of a step, not what it says here."],
-    ["It blends, but not as the <span class=\"latin\">diapason</span> blends: you hear two, and you hear that they belong", "Two, and evidently together. Set that beside the earlier description, where the higher seemed to be the lower raised, and you have the difference between the first concord and the second."],
-    ["It blends only when the sounding length is very short", "Nothing on the page makes blending depend on absolute length; the whole doctrine concerns the ratio between two lengths. Ask what the lesson says you hear, in its own words."]
+    ["It blends, but not as the <span class=\"latin\">diapason</span> blends; we hear two sounds, and we hear that they belong together", "We hear two sounds, and they are evidently together. In the earlier description the higher sound seemed to be the lower one raised, and that contrast is the difference between the first concord and the second."],
+    ["It blends only when the sounding length is very short", "Nothing on the page makes blending depend on absolute length; the whole doctrine concerns the ratio between two lengths. Ask what the lesson says we hear, in its own words."]
   ]},
   { q: "The lesson observes that many who cannot yet match a 2:1 will still find a 3:2 with the voice. What does it draw from this?", a: 0, o: [
-    ["That the fifth is the other great standing-apart in song", "An observation about singers set beside the arithmetic, not in place of it. The ratio remains the reason; the singing is a sign that the ratio is no arbitrary choice."],
-    ["That the fifth is easier to hear than the double, and therefore more fundamental", "Ease in the throat is not this page’s measure of what comes first; it is at pains to order the concords by number. Ask what the remark is a remark about."],
+    ["That the fifth is the other great standing-apart in song", "This is an observation about singers set beside the arithmetic, not in place of it. The ratio remains the reason, and the singing is a sign that the ratio is not an arbitrary choice."],
+    ["That the fifth is easier to hear than the double, and therefore more fundamental", "Ease of singing is not the lesson’s measure of what comes first; the lesson takes care to order the concords by number. Ask what the remark is a remark about."],
     ["That untrained singers are unreliable and want correction", "The remark is admiring rather than corrective: it notes what such singers find, not what they get wrong. Read the sentence again and see whom it is about."],
-    ["That the voice, not the string, is the true instrument of the art", "The chapter before settled the instrument, and this page goes on measuring stoppings throughout. The remark is an aside about song, not a change of method."]
+    ["That the voice, not the string, is the true instrument of the art", "The preceding chapter settled the instrument, and this lesson goes on measuring stoppings throughout. The remark is an aside about song, not a change of method."]
   ]},
   { q: "At what fraction is the string stopped for the <span class=\"latin\">diatessaron</span>, and what are the lengths?", a: 3, o: [
-    ["At four-thirds; the lengths are 4:3", "The ratio is right and the fraction cannot be: four-thirds of the string is more string than there is. Convert the ratio into a part of the whole and see which term goes underneath."],
-    ["At two-thirds; the lengths are 4:3", "That fraction was already spent on the concord this lesson introduces first, and two different stoppings cannot stand at one point. Check the fraction against the ratio."],
+    ["At four-thirds; the lengths are 4:3", "The ratio is right, but the fraction cannot be, because four-thirds of the string is more string than there is. Write the ratio as a part of the whole and ask which term belongs in the denominator."],
+    ["At two-thirds; the lengths are 4:3", "That fraction already belongs to the concord this lesson introduces first, and two different stoppings cannot stand at one point. Check the fraction against the ratio."],
     ["At one-quarter; the lengths are 4:1", "You have taken the piece damped off rather than the piece left sounding, and the ratio has followed the mistake. Ask which part of the wire is free to vibrate."],
-    ["At three-quarters; the lengths are 4:3", "Three parts sounding out of four. Set the three stoppings side by side — the half, the two-thirds, the three-quarters — and the ratios 2:1, 3:2, 4:3 read straight off the wire."]
+    ["At three-quarters; the lengths are 4:3", "Three parts out of four are left sounding. If we set the three stoppings side by side (the half, the two-thirds, the three-quarters), the ratios 2:1, 3:2 and 4:3 can be read directly from the string."]
   ]},
   { q: "How does the lesson compare the fourth with the fifth as heard?", a: 1, o: [
-    ["The fourth is not really a concord, but is admitted by custom", "The lesson calls it a concord in the same breath in which it names it, and counts it among the first three. Read the sentence that follows the second widget."],
-    ["The fourth is a concord, and tighter, less open, than the fifth", "A difference of character within concord, not a difference between concord and discord. The art uses both, and a later chapter takes the fourth in particular and divides it."],
-    ["The fourth is the more open and spacious of the two", "You have the comparison the wrong way about. Sound both against the same open string and ask which of them feels the more closed in."],
-    ["The two are alike in character and differ only in ratio", "Then the lesson would not have troubled to describe how the second one sounds. It says something definite about the character of the fourth; find that clause."]
+    ["The fourth is not really a concord, but is admitted by custom", "The lesson calls it a concord in the same breath in which it names it, and counts it among the first three. Re-read the sentence that follows the second sound example."],
+    ["The fourth is a concord, and it is tighter, less open, than the fifth", "This is a difference of character within concord, not a difference between concord and discord. The art uses both, and a later chapter divides the fourth in particular."],
+    ["The fourth is the more open and spacious of the two", "You have the comparison the wrong way about. Ask which of the two, sounded against the same open string, is the more closed."],
+    ["The two are alike in character and differ only in ratio", "Then the lesson would not have troubled to describe how the second one sounds. Re-read the clause in which it says something definite about the character of the fourth."]
   ]},
   { q: "On what ground does the lesson say 2:1, 3:2 and 4:3 are the first concords?", a: 2, o: [
-    ["Because a committee of composers agreed upon them", "The lesson raises that possibility only to deny it in as many words. Read the sentence beginning ‘They are not chosen’ and see what it puts in place of choosing."],
-    ["Because no one has ever called any other ratio a concord", "The page names a later writer who argued for at least one more, and calls the argument a real dispute. Look for a positive reason rather than a claim of monopoly."],
-    ["They are the first multiple and the first two superparticulars, and they are the concords the ear most readily grants", "An arithmetical order that the ear confirms. Both halves matter: the numbers give the ranking, and the hearing shows the ranking is no private arrangement."],
-    ["Because they are the only ratios a monochord can sound", "A monochord will sound whatever ratio you set the bridge to, and later lessons set it to a good many. Ask what distinguishes these three among all the ratios available."]
+    ["Because composers happened to like them", "The lesson raises that possibility only to deny it explicitly. Read the sentence beginning ‘They are not chosen’ and see what it puts in place of choosing."],
+    ["Because no one has ever called any other ratio a concord", "The page names a later writer who argued for at least one more, and calls the argument a real dispute. Look for a positive reason rather than a claim that no other ratio was ever proposed."],
+    ["They are the first multiple and the first two superparticulars, and they are the concords the ear most readily grants", "This is an arithmetical order that the ear confirms. Both halves matter, because the numbers give the ranking, and the hearing shows that the ranking is not a private arrangement."],
+    ["Because they are the only ratios a monochord can sound", "A monochord will sound whatever ratio the bridge is set to, and later lessons set it to a good many. Ask what distinguishes these three among all the ratios available."]
   ]},
   { q: "What does the lesson say of 5:4 and of writers such as Ptolemy?", a: 0, o: [
-    ["That whether such ratios should be counted concords is a real dispute, but not the first question", "The course marks the dispute and keeps it in its place in the order of learning. You will meet 5:4 again when the ditone is computed and found not to equal it."],
-    ["That Ptolemy was mistaken, since only the first three are concords", "The lesson grants that the question is genuine rather than closing it. Weigh the two short sentences that follow the mention of 5:4 and see what each concedes."],
+    ["That whether such ratios should be counted concords is a real dispute, but not the first question", "The course marks the dispute and keeps it in its place in the order of learning. We will meet 5:4 again when the ditone is computed and found not to equal it."],
+    ["That Ptolemy was mistaken, since only the first three are concords", "The lesson grants that the question is genuine rather than closing it. Re-read the sentence that follows the mention of 5:4 and see what it concedes."],
     ["That 5:4 is a concord, so the list of three is incomplete", "The page neither rules it in nor rules it out; at this stage it declines to decide. Ask what a course may do with a question besides answering it."],
-    ["That the dispute is merely verbal and dissolves on inspection", "One word in the lesson’s verdict on the dispute forbids that reading. Find the adjective it fastens to the word ‘dispute.’"]
+    ["That the dispute is merely verbal and dissolves on inspection", "One word in the lesson’s verdict on the dispute rules out that reading. Look for the adjective it attaches to the word ‘dispute.’"]
   ]},
   { q: "A string 12 units long is stopped for each of the three first concords. At what lengths does the bridge stand?", a: 3, o: [
     ["6, 4 and 3 units", "You have divided by the greater term of each ratio instead of taking the fraction the lesson names. Ask what part of the whole is left sounding for each concord, then apply it to twelve."],
     ["24, 18 and 16 units", "Every one of these is longer than the string you began with. You have multiplied where the fraction called for taking a part; check the direction before dividing."],
     ["6, 8 and 10 units", "The first two follow the fractions named on the page and the third answers to no stopping the lesson gives. Work out three-quarters of twelve and compare."],
-    ["6, 8 and 9 units", "Half, two-thirds, three-quarters. Against the open twelve they give 12:6, 12:8 and 12:9 — that is, 2:1, 3:2 and 4:3, read off in whole numbers."]
+    ["6, 8 and 9 units", "The fractions are a half, two-thirds and three-quarters. Against the open twelve they give 12:6, 12:8 and 12:9, which are 2:1, 3:2 and 4:3 in whole numbers."]
   ]}
 ],
 
 "iv-2": [
-  { q: "The boxed remark warns against a particular error in compounding. What is it?", a: 3, o: [
-    ["Measuring by ratio instead of by leftover inches", "The box says the art does measure by ratio, and says it approvingly. You have taken its recommendation for its warning; read the last two sentences of the box and see which is which."],
-    ["Comparing lengths rather than pitches", "The whole method compares lengths and reads pitches off them, and nothing in the box objects to that. The warning concerns an operation performed on two intervals, not the choice of quantity measured."],
-    ["Using a rod at all, since the art forbids physical measurement", "The course has spent a chapter on a measured string and will spend more; measuring is its method. The box contrasts two ways of handling the measurements, not measurement with none."],
-    ["Adding string-lengths, or the leftover bits of them, instead of multiplying ratios", "Ratios compound by multiplication; inches accumulate by addition. Confuse the two and you will arrive at a pitch that does not exist, which is why the art is filed under arithmetic."]
+  { q: "The remark warns against a particular error in compounding. What is it?", a: 3, o: [
+    ["Measuring by ratio instead of by leftover inches", "The remark says, with approval, that the art measures by ratio. You have taken its recommendation for its warning; re-read the last two sentences of the remark and see which is which."],
+    ["Comparing lengths rather than pitches", "The whole method compares lengths and reads pitches off them, and nothing in the remark objects to that. The warning concerns an operation performed on two intervals, not the choice of quantity measured."],
+    ["Using a rod at all, since the art forbids physical measurement", "The course has spent a chapter on a measured string and will spend more; measuring is its method. The remark contrasts two ways of handling the measurements, not measurement with none."],
+    ["Adding string-lengths, or the leftover bits of them, instead of multiplying ratios", "Ratios compound by multiplication, but inches accumulate by addition. If we confuse the two, we arrive at the wrong pitch, and this is one reason the art belongs to arithmetic."]
   ]},
-  { q: "The stopping at two-thirds and the stopping at one half: what interval lies between those two sounds, and how is it got?", a: 0, o: [
-    ["A fourth, since (2/3) : (1/2) = 4:3", "Two-thirds divided by one half is two-thirds multiplied by two, which is four-thirds. So the road from the fifth up to the double is exactly a fourth."],
+  { q: "What interval lies between the sound of the two-thirds stopping and the sound of the half stopping, and how is it found?", a: 0, o: [
+    ["A fourth, since (2/3) : (1/2) = 4:3", "Two-thirds divided by one half is two-thirds multiplied by two, which is four-thirds. So the interval from the fifth up to the double is exactly a fourth."],
     ["A fifth, since the two-thirds stopping is where the fifth was found", "Two-thirds gives a fifth measured from the open string, not measured from the half. Divide two-thirds by one half and see what number comes out before you name it."],
-    ["A tone, since the two stoppings lie close together on the wire", "Nearness on the wire is not an interval; the interval is whatever the division of the two lengths yields. Perform the division on the fractions themselves rather than eyeing the gap."],
+    ["A tone, since the two stoppings lie close together on the wire", "Nearness on the wire is not an interval; the interval is whatever the division of the two lengths yields. Perform the division on the fractions themselves rather than judging by the distance between them."],
     ["1:6, since two-thirds less one half is one-sixth", "You have subtracted the fractions, which gives a length of wire and not a ratio of pitches. Two lengths are compared in this art by division; try it that way."]
   ]},
   { q: "In the lesson’s own worked example the fifth is taken first and the fourth above it. Which three sounds are used?", a: 2, o: [
     ["The open string, three-quarters, and one half", "Those are three real sounds and the middle one is a genuine stopping of this art, but it is not the arrangement the lesson works through. Re-read the sentence after the equation and note which stopping it names first."],
-    ["The open string, one half, and one quarter", "That carries you past the double and into a second span, which is a different compounding altogether. The example on this page stays inside a single diapason; see where it stops."],
-    ["The open string, two-thirds, and one half", "Open to two-thirds is the fifth; two-thirds to one half is the fourth; open to one half is the diapason. Three sounds, two steps, one span."],
-    ["The open string, two-thirds, and one third", "Work out the ratio from two-thirds to one third: it comes to a double all by itself, so your two steps together overshoot the span the example fills. Compute before you choose."]
+    ["The open string, one half, and one quarter", "That goes past the double and into a second span, which is a different compounding altogether. The example in this lesson stays inside a single diapason; see where it stops."],
+    ["The open string, two-thirds, and one half", "Open to two-thirds is the fifth; two-thirds to one half is the fourth; open to one half is the diapason. So three sounds give two intervals, which together make one span."],
+    ["The open string, two-thirds, and one third", "The ratio from two-thirds to one third is a double by itself, so the two intervals together exceed the span the example fills."]
   ]},
   { q: "What is the tetractys?", a: 1, o: [
     ["The four concords of the art, set in order", "The art counts three first concords, not four, and the tetractys is no list of intervals at all. Look at what the word is said to be a heap of."],
-    ["The triangular heap of the first four numbers", "One, two, three, four, set in a triangle. The lesson’s interest in the figure is entirely in which ratios those four numbers make available."],
-    ["A square array of ten counters", "The count of ten is right and the shape is not — and the lesson warns against making the ten the point in any case. Look at the word it uses for the figure."],
-    ["The tetrachord under another name", "Two similar-sounding words for two different things: one is a figure of counters, the other a stretch of sound to be divided. Check what this one is said to be made of."]
+    ["The triangular heap of the first four numbers", "It is the numbers one, two, three and four, set in a triangle. The lesson’s interest in the figure lies entirely in the ratios that those four numbers make available."],
+    ["A square array of ten counters", "The count of ten is right, but the shape is not, and in any case the lesson warns against making the ten the point. Look at the word it uses for the figure."],
+    ["The tetrachord under another name", "These are two similar words for two different things, because one is a figure of counters and the other is a stretch of sound to be divided. Check what this one is said to be made of."]
   ]},
   { q: "What does the lesson say the tetractys claim is <em>not</em>?", a: 3, o: [
     ["A claim about number at all; it is a claim about the ear", "The whole paragraph concerns what can be formed from 1, 2, 3 and 4. Ask what the lesson says the observation is an observation about, in the last sentence of that paragraph."],
     ["A claim of the Pythagoreans; the lesson credits it to Boethius", "The page names the Pythagoreans as the ones who pointed to the figure. Read the sentence that introduces it and see whose gesture it is."],
     ["A geometrical figure, since it has no shape", "It is described as triangular, so shape is exactly what it has. The disclaimer concerns what significance is claimed for the figure, not what it looks like."],
-    ["A mysticism about the number ten; it is an observation about which ratios come first", "The lesson lets the Pythagoreans point at the figure, then states the point in plain arithmetic. Notice that it also concedes a limit: the four numbers do not yield every later interval."]
+    ["A mysticism about the number ten; it is an observation about which ratios are first", "The lesson lets the Pythagoreans point to the figure and then states the claim in plain arithmetic. It also concedes a limit, because the four numbers do not yield every later interval without further work."]
   ]},
   { q: "From the numbers of the tetractys the lesson forms 4:1. What is it?", a: 0, o: [
     ["The double diapason — two diapasons compounded, since (2:1)×(2:1)=4:1", "Multiplying a ratio by itself compounds the interval with itself. Four to one is therefore two doublings, not one doubling made twice as large."],
@@ -896,34 +896,34 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["A fourth above a diapason", "The fourth is 4:3, and the numeral four standing in a ratio does not by itself make an interval a fourth. Compound the double with itself and see what ratio comes out."],
     ["The interval between the first and the fourth counter of the figure", "Counters in a heap are not sounds and have no interval between them; the figure supplies numbers, and the numbers are then made into ratios. Form 4 to 1 and ask what compounding yields it."]
   ]},
-  { q: "And 3:1 — what does the lesson call it, and how is it compounded?", a: 2, o: [
+  { q: "What does the lesson call 3:1, and how is it compounded?", a: 2, o: [
     ["A triple diapason: (2:1)×(2:1)×(2:1)", "Compounding the double three times gives a ratio with an eight in it, not a three. Multiply the three out before naming the result."],
-    ["The diapason plus a fourth: (2:1)×(4:3)", "Multiply that out and you get eight to three, which is not the ratio asked about. Do the multiplication first and compare it with the target before choosing."],
-    ["The diapason-plus-fifth: (2:1)×(3:2)=6:2, that is 3:1", "Six to two reduces to three to one, and reducing is part of the arithmetic rather than an optional tidiness. Compound the other way about and the same 3:1 appears."],
-    ["5:3, since a diapason and a fifth are 2:1 and 3:2 added term by term", "Adding term to term is no operation on ratios at all, and the boxed remark on this very page forbids it. Compound the two properly and see what you get."]
+    ["The diapason plus a fourth: (2:1)×(4:3)", "That product is eight to three, which is not the ratio asked about. Do the multiplication first and compare it with the target before choosing."],
+    ["The diapason-plus-fifth: (2:1)×(3:2)=6:2, that is 3:1", "Six to two reduces to three to one, and reducing is part of the arithmetic, not an optional tidying. Compounded in the other order, the two give the same 3:1."],
+    ["5:3, since a diapason and a fifth are 2:1 and 3:2 added term by term", "Adding term to term is not an operation on ratios at all, and the remark in this lesson rules it out. Ask what the two give when they are properly compounded."]
   ]},
   { q: "What limit does the lesson set upon the tetractys?", a: 1, o: [
     ["The four numbers yield the concords but no further ratios whatever", "The page forms two more ratios from them in the same paragraph. Count how many the lesson says can be made from the four before deciding where the limit falls."],
-    ["You cannot form every later interval from the four numbers without further work", "The claim is about firstness, not about sufficiency. Later lessons compound and divide these ratios to reach intervals that 1, 2, 3 and 4 do not hand you directly."],
-    ["The four numbers yield nothing until the number ten is added to them", "The lesson goes out of its way to say the ten is not the point. Look at what it grants the four numbers do yield, and where it says the yielding stops."],
+    ["We cannot form every later interval from these four without further work", "The claim is about firstness, not about sufficiency. Later lessons compound and divide these ratios to reach intervals that 1, 2, 3 and 4 do not give directly."],
+    ["The four numbers yield nothing until the number ten is added to them", "The lesson says expressly that the ten is not the point. Look at what it grants the four numbers do yield, and where it says the yielding stops."],
     ["The tetractys holds for lengths only, not for pitches", "Lengths and pitches stand in the same ratios read in opposite order, as the earlier chapter established, and nothing here confines the figure to one of them. Find the sentence that states the limitation."]
   ]},
-  { q: "Why does the boxed remark say the art belongs to arithmetic rather than to a merely geometric cutting of a rod?", a: 0, o: [
+  { q: "Why does the remark say the art belongs to arithmetic rather than to a merely geometric cutting of a rod?", a: 0, o: [
     ["Because intervals are compounded by multiplying ratios, an operation upon numbers, and not by laying lengths end to end", "A rod may be cut and its pieces added, which gives sums of inches. The art needs products of ratios, and products are the business of arithmetic."],
-    ["Because geometry cannot handle ratios at all", "Ratio is a thoroughly geometrical notion as well as an arithmetical one, and the box does not say otherwise. Its objection is to a particular way of handling the rod."],
+    ["Because geometry cannot handle ratios at all", "Ratio is a thoroughly geometrical notion as well as an arithmetical one, and the remark does not say otherwise. Its objection is to a particular way of handling the rod."],
     ["Because the monochord is a numbered instrument and not a measured one", "The monochord is measured throughout, and the lesson before this one insisted upon it. The distinction drawn here is between two operations, not between counting and measuring."],
     ["Because arithmetic is the higher of the two arts", "No ranking of the arts is offered here, and a ranking would not explain why one of the operations gives the wrong pitch. Look for a reason drawn from what compounding does."]
   ]},
-  { q: "Compound a fourth with a fourth. What ratio results?", a: 3, o: [
-    ["8:6, that is 4:3 over again", "You have added the terms of the two ratios instead of multiplying them, and got back the interval you began with — which should itself have warned you. Compounding is multiplication; do it."],
+  { q: "What ratio results when a fourth is compounded with a fourth?", a: 3, o: [
+    ["8:6, that is 4:3 over again", "You have added the terms of the two ratios instead of multiplying them, and so got back the interval you began with, which is itself a sign of the mistake. Compounding is multiplication."],
     ["8:3", "That is four-thirds doubled as a fraction, not four-thirds multiplied by itself. Multiplying a number by two and multiplying it by itself are different operations; perform the second."],
     ["16:6", "You have multiplied the terms above and added those below. Whatever is done must be done to both terms alike; carry the multiplication through underneath as well."],
-    ["16:9", "Four-thirds times four-thirds. Note that this is not a ratio the tetractys hands you: it wants a nine and a sixteen, and so belongs to the further work the lesson mentions."]
+    ["16:9", "Four-thirds times four-thirds is sixteen-ninths. This is not a ratio the tetractys gives directly, because it needs a nine and a sixteen, and so it belongs to the further work the lesson mentions."]
   ]},
   { q: "Would a fourth taken first, with a fifth above it, also give a diapason?", a: 1, o: [
-    ["No: the fifth must come first, being the larger concord", "Multiplication does not care which factor is written first, and the lesson’s operation is multiplication. Ask whether the product of two numbers depends on the order you set them down."],
+    ["No: the fifth must come first, being the larger concord", "In multiplication the order of the factors makes no difference, and the lesson’s operation is multiplication. Ask whether the product of two numbers depends on the order you set them down."],
     ["Yes: (4:3)×(3:2) is the same product as (3:2)×(4:3), namely 2:1", "The order of compounding does not change the span, though it changes the sound of the middle. In the one case the middle stopping falls at three-quarters, in the other at two-thirds."],
-    ["No: the two compound only in the order the lesson gives", "Then the art would have an arithmetic of its own, unlike everybody else’s. Work the product both ways on paper and see whether the two results differ."],
+    ["No: the two compound only in the order the lesson gives", "Then the art would need an arithmetic different from ordinary arithmetic. Work the product both ways on paper and see whether the two results differ."],
     ["Yes, but the result is 12:6, a slightly different interval from 2:1", "Twelve to six and two to one are one ratio written twice; reducing does not alter a comparison, it only tidies the writing. Divide both terms by six and look."]
   ]}
 ],
