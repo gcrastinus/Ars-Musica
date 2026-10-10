@@ -206,7 +206,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because Socrates disapproved of song", "Nothing in the lesson makes him hostile to song; it makes him precise about a word. The point of the remark is a distinction between two senses, not a verdict upon poetry."],
     ["Because the Greek word is older than the Latin one", "The age of words is not the argument. The remark separates two things that a single word covers, and it says what each of them is. Ask yourself which two."],
     ["Because ‘music’ in the poet’s sense means song, while the study in question is the science of the ratios from which song is possible", "The one is the gift of the Muses; the other is what makes the gift possible at all. Keeping the two apart is the main task of this first lesson."],
-    ["Because harmonics takes in astronomy as well", "The lesson says no such thing, and the quadrivium keeps its four sciences distinct. Re-read the remark and notice that it contrasts two senses of one word, not two sciences."]
+    ["Because harmonics takes in astronomy as well", "The lesson says no such thing, and the quadrivium keeps its four sciences distinct. Re-read the remark; it contrasts two senses of one word, not two sciences."]
   ]},
   { q: "The lesson says the third study considers the scale ‘as a nature.’ What does that mean?", a: 1, o: [
     ["That the scale is found in the world rather than made by men", "The lesson does not argue about where scales come from. To consider something as a nature is a way of considering it, and the sentence tells you what that way is ordered to."],
@@ -2473,7 +2473,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That possessing a thing through its causes and possessing it by habit are two different possessions", "The cantors held the chant in memory and passed it on by voice, and they could not have explained why 3:2 is a concord. Boethius could have explained it, and could not have sung a <span class=\"latin\">sticheron</span>."],
     ["That the liberal art is the higher of the two possessions", "The lesson denies this explicitly, and the denial is deliberate. It says the liberal art is a <em>different</em> possession, not a higher one; re-read the last paragraph."],
     ["That the cantors’ art was defective for want of theory", "Nothing in the lesson calls it defective. It says the cantors held the chant well enough to carry a large repertory for many centuries."],
-    ["That knowing the ratios makes a man sing better", "The course says outright that this is not the reason for having the second possession. Ask what reason it does give, and notice that the reason is not about performance at all."]
+    ["That knowing the ratios makes a man sing better", "The course says outright that this is not the reason for having the second possession. Ask what reason it does give, and note that the reason is not about performance at all."]
   ]}
 ]
 
