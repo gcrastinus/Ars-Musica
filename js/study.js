@@ -975,7 +975,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["It settles it for the ditone, on the authority of Boethius", "The lesson declines to give a verdict and says so plainly. Read the last two sentences of that paragraph and note what they say is not required."],
     ["It settles it for 5:4, following Ptolemy", "The lesson calls this a dispute it will name rather than decide, and it goes on working with the older arithmetic. Look at how the paragraph ends."],
     ["It treats the question as meaningless, since the ear has no favorites", "The lesson speaks of the ear’s favorite without embarrassment; what the ear reports is part of the subject matter. What it withholds is a verdict, not the question."],
-    ["It names the dispute and declines to settle it, noting that the first principles do not require a settlement", "A liberal art may leave a real question open without ceasing to be a science. The course says the same of St. Thomas: he does not settle it either."]
+    ["It names the dispute and declines to settle it, noting that the first principles do not require a settlement", "A liberal art may leave a real question open without ceasing to be a science. The first principles of the art do not depend on how it is settled."]
   ]},
   { q: "The remark distinguishes the senses of ‘tone.’ What does the word mean in this art?", a: 1, o: [
     ["Any sound of definite pitch", "That is one of the ordinary English senses that the remark lists in order to set them aside. Read on to the sentence that says what the word means here."],
@@ -1192,7 +1192,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What does the lesson do with the question whether 5:4 is a concord in the strict sense?", a: 2, o: [
     ["It settles it in the negative, on Pythagorean grounds", "The lesson names that severity an overreach when it arrives with contempt for the ear. It does not adopt the verdict; look at the last sentence before the sources are listed."],
     ["It settles it in the affirmative, on Ptolemy’s authority", "Admitting a ratio into a method is not the same as making it a first principle, and the lesson draws that line explicitly. Nor does it treat any of the three as an authority that decides."],
-    ["It leaves the question open, noting that the authorities disagree and that Thomas has not closed it", "A first-principles course may leave a question open without embarrassment. That is very different from leaving it unexamined, because the lesson states exactly why it stands open."],
+    ["It leaves the question open, noting that the authorities of the art disagree", "A first-principles course may leave a question open without embarrassment. That is very different from leaving it unexamined, because the lesson states exactly why it stands open."],
     ["It refers the question to a different study of music altogether", "This is a question about what counts as a concord, which belongs to this study. Deferring it would be a way of avoiding it; ask what the lesson does instead."]
   ]},
   { q: "Why must a middle science of music begin with the ear?", a: 0, o: [
@@ -1624,9 +1624,9 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 
 "vii-3": [
   { q: "What question did the earlier lesson leave standing, and what did it say about it?", a: 2, o: [
-    ["That 81:64 is false, and that Thomas had shown it so", "Thomas is said to have left the matter open, not to have decided it. It matters which questions an authority actually closes and which he simply does not treat."],
+    ["That 81:64 is false, and that the course had shown it so", "The lesson says the dispute was real and could be left open, not that it was decided. A question left open has not been settled against either side."],
     ["That the ditone and 5:4 are the same interval under two names", "They stand about a tenth of a tone apart, which is why the dispute was possible at all. Two names for one thing would not have taken two hundred years to sort out."],
-    ["That two tones compounded give the ditone 81:64 while singers seem to want the gentler 5:4; the dispute was real, Thomas had not closed it, and a first-principles course could leave it open", "The tradition did not leave it open. It took about two hundred years to answer, and the answer came from practice before it came from theory."],
+    ["That two tones compounded give the ditone 81:64 while singers seem to want the gentler 5:4; the dispute was real, and a first-principles course could leave it open", "The tradition did not leave it open. It took about two hundred years to answer, and the answer came from practice before it came from theory."],
     ["That the ditone is a concord and 5:4 a dissonance, as the first four numbers require", "The lesson calls neither one a dissonance; it says one is bright and hard and the other settles. And the restriction to the first four numbers is what is later broken."]
   ]},
   { q: "What did Walter Odington observe, and about when?", a: 1, o: [
@@ -2343,7 +2343,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What is required of the <span class=\"latin\">isokratai</span>, whose office is the held sound?", a: 2, o: [
     ["That they double the melody an octave below it", "That sets two moving lines against each other, which is the one thing the office is defined against. Ask what the held sound is required never to become."],
     ["That they hold a single pitch unaltered from the first note to the last, whatever the melody does", "That is nearly right, but too rigid. The lesson allows the held sound one kind of change, occasioned by the melody itself. Re-read the list of demands to the end."],
-    ["That it be steady, unobtrusive, ready to follow the melody’s ground when the melody moves to a new one, and never a second melody", "Holding it well is reckoned an art of its own. These are singers with an office, not a mechanism running underneath the chant."],
+    ["That it be steady, not draw attention, follow the melody’s ground when the melody moves to a new one, and never become a second melody", "Holding it well is reckoned an art of its own. These are singers with an office, not a mechanism running underneath the chant."],
     ["That they change pitch at every phrase to supply a bass", "Supplying a bass belongs to another kind of music altogether, and a sound changing that often is no longer held. The lesson does permit one sort of movement; find what occasions it."]
   ]},
   { q: "What is the traditional reading of the <span class=\"latin\">ison</span>, as the lesson gives it?", a: 0, o: [
@@ -2422,7 +2422,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["A set of resemblances: blind great cantors, the cantor’s hand-signs, and immense vocalises on a single vowel", "The great cantors named are Muʿallim Takla and Muʿallim al-Batanūnī; the hand-signs are set beside those carved on Old Kingdom tomb walls, the relief from the tomb of Nencheftka, of about 2700 BC, being the one usually shown."]
   ]},
   { q: "Who was Hans Hickmann, and what did he say of Coptic chant?", a: 0, o: [
-    ["Trained in Berlin under Hornbostel and Curt Sachs, and for twenty years the leading student of ancient Egyptian instruments; he called the chant a living link between the past and the present", "He worked on the comparison of the cantor’s chironomy with the hand-signs of the tomb reliefs. The phrase is his and the page gives it as his."],
+    ["A student of ancient Egyptian instruments who worked on the comparison of the cantor’s hand-signs with those of the tomb reliefs, and called the chant a living link between the past and the present", "The lesson gives the phrase as his. He stands on the side of the comparison with ancient Egypt."],
     ["A Western musician who heard the chant in Cairo in 1926 and lectured on it in 1931", "That describes the other Western figure the lesson names, who spoke at Oxford and at Cambridge and through whom the claim largely entered Western discussion. Two men and two roles; match them again."],
     ["A cantor of the Coptic Church, blind from birth", "The blind cantors named in the lesson are two, and neither of them is this man. The one in question is a scholar who worked on the comparison rather than a singer who embodies it."],
     ["A scholar who showed the Coptic melodies to be of Byzantine origin", "Nothing of the sort is reported of him. The lesson places him on the side of the comparison with ancient Egypt and quotes a phrase he used for the chant; find the phrase."]
@@ -2442,8 +2442,8 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What does the lesson report of John Koukouzeles?", a: 3, o: [
     ["The deacon who received the scroll at Blachernae", "That account stands at the beginning of the line, in the reign of Anastasius, and concerns a man from Syria. The figure asked about here stands centuries further along it."],
     ["The compiler of the <span class=\"latin\">Octoechos</span> at Mar Saba", "The hymnographers of Mar Saba belong to the eighth century, and the page names them as a stage in the line rather than as this man’s work. Check which century the question’s subject belongs to."],
-    ["The last <span class=\"latin\">protopsaltes</span> of Hagia Sophia before 1453", "The lesson names no such person, and the office it does describe continues past 1453 rather than ending there. The man in question is remembered for a style of singing and for the manner of his discovery."],
-    ["A boy from Dyrrachium taken into the imperial choir, who fled to be a shepherd on Mount Athos and was found out by his singing", "He is the master of the fourteenth-century <span class=\"latin\">kalophonia</span>, ‘beautiful sound’. He is honored as a saint, and the manuscripts call him <span class=\"latin\">maïstōr</span>, the master."]
+    ["The last <span class=\"latin\">protopsaltes</span> of Hagia Sophia before 1453", "The lesson names no such person, and the office it does describe continues past 1453 rather than ending there. The man in question is remembered as the master of a style of singing."],
+    ["A boy from Dyrrachium taken into the imperial choir, who left the palace for Mount Athos", "He is the master of the fourteenth-century <span class=\"latin\">kalophonia</span>, ‘beautiful sound’. He is honored as a saint, and the manuscripts call him <span class=\"latin\">maïstōr</span>, the master."]
   ]},
   { q: "What have scholars observed about the melodies of Romanos?", a: 0, o: [
     ["That none survives which can be assigned to Romanos himself, the settings of his <span class=\"latin\">kontakia</span> in the later books being Constantinopolitan work of the twelfth century and after", "They add that the notation changed fundamentally in the late twelfth century and again in 1814, so that the received performing tradition can be documented in detail from the later seventeenth century."],
