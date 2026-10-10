@@ -696,7 +696,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Concords (consonances) and discords (dissonances)", "The names are supplied and then set aside — the lesson insists they can wait. They will be earned later by ratio rather than by assertion."],
     ["Multiples and superparticulars", "Those are kinds of ratio, and no ratio has been assigned to anything you have heard. What is wanted are names for what the ear reports."]
   ]},
-  { q: "“The names can wait. The hearing cannot.” What is being asked of you?", a: 1, o: [
+  { q: "“The names can wait, but the hearing must come first.” What is being asked of you?", a: 1, o: [
     ["To memorise the vocabulary before listening again", "The sentence sets the two in the opposite order of urgency. Read it once more and ask which of them it says may be postponed."],
     ["To have the experience now, since the terms will be idle without it", "A name laid over an experience you have not had is a counter you cannot spend. The course is built so that every term arrives after the thing it names."],
     ["To distrust the names when they come", "Nothing casts doubt on the names; the whole course is arranged to earn them. What is said is which comes first, not which is trustworthy."],
@@ -2501,7 +2501,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That they put their ears before their minds, making the heard concord the measure, and so arrive at nothing", "They torture the strings and dispute whether a smaller interval remains, and the dispute never closes — an ear cannot settle what the ear itself is being asked to judge."],
     ["That they call harmonics the sister of astronomy", "That kinship is reported without any blame attached; it is how the study is introduced, not a charge against anyone. Re-read the sentence in which Socrates arrives at harmonics."]
   ]},
-  { q: "Why does the lesson say the <em>second</em> of the two criticisms is the one that should trouble you?", a: 3, o: [
+  { q: "Why does the lesson say the <em>second</em> of the two criticisms is the one that should trouble us?", a: 3, o: [
     ["Because it shows that Socrates thought harmonics no science at all", "He is choosing studies that turn the soul, and he keeps this one; pursued far enough he calls it useful for the search after the beautiful and the good. His complaint is about how far, not about whether."],
     ["Because it is aimed at men who trust their ears rather than their minds", "That charge falls on the other sort, and against them the second group is called better. You have merged two rejections which the lesson takes trouble to keep separate."],
     ["Because Socrates there declares the whole study labour lost", "He says that of the study pursued in one manner only, and offers a condition under which it is not. Re-read the close of that paragraph and see what turns on the word <em>otherwise</em>."],
@@ -2606,7 +2606,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Memory highest, since without it nothing measured could be held together", "Memory’s numbers are ranked below those of sense, on the ground that they are traces and passive. Holding is not doing, and it is not judging; check where the lesson puts them."],
     ["The sounding body highest, since the other four depend upon it", "That is the ranking of the man who thinks the music is the sound. The order of discovery does begin there — but discovery and dignity are two different orders on this page."]
   ]},
-  { q: "Augustine argues that the numbers by which you judge are not numbers you made. What are his two grounds?", a: 3, o: [
+  { q: "Augustine argues that the numbers by which we judge are not numbers we made. What are his two grounds?", a: 3, o: [
     ["That they are innate, and that all men agree in them", "Neither is the argument on the page. Innateness is nowhere appealed to and universal agreement is nowhere claimed; his grounds are taken from what the measure does, not from where it came from."],
     ["That sound is fleeting, and that memory is fallible", "Fleetingness and fallibility are not the reasons given. He does not say that sound and memory are too weak to supply a measure; he says something stronger than weakness about each."],
     ["That they come from God, and that God is unchangeable", "That is his conclusion, not the ground he reaches it from. The argument has to stand on something a man can check in himself before any conclusion about the unchangeable can be drawn."],
@@ -2700,7 +2700,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 
 "v-time": [
-  { q: "Why does this lesson exist, given that the course follows Boethius’s centre of gravity, which is pitch?", a: 2, o: [
+  { q: "Why does this lesson exist, given that the course follows Boethius in making pitch its chief subject?", a: 2, o: [
     ["Because Franco has already put duration on the page, and the student must catch up", "Franco is later history. This lesson is not his notation."],
     ["Because verse is the true subject of harmonics", "The lesson refuses to become a treatise on verse. Augustine’s five books remain his."],
     ["Because Augustine’s definition is of measuring well in motion, and motion is in time as well as in height, and Boethius’s musicus judges rhythmos as well as interval", "One honest case of duration, not a new centre of gravity."],
@@ -2730,7 +2730,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because the pitches were the same; what changed was the measuring of the times", "An interval of pitch is a comparison of heights. This was a comparison of durations."],
     ["Because Augustine forbids calling anything an interval except 2:1", "He does not."]
   ]},
-  { q: "The judge of a lame foot, the lesson says, is already at work in you. What is that meant to show?", a: 0, o: [
+  { q: "The judge of a lame foot, the lesson says, is already at work in us. What is that meant to show?", a: 0, o: [
     ["That measuring well is of time also, and you did not invent the measure for the occasion", "The fact this lesson exists to give."],
     ["That you are already a poet", "No verse has been asked of you."],
     ["That pitch was a mistake as the subject of the art", "The course does not change its centre of gravity."],

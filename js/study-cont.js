@@ -49,7 +49,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["No authority may be named", "Boethius, Ptolemy, Plato, Aristotle, Augustine, and St. Thomas are the matter of the themes."],
     ["Study questions are forbidden on these pages", "Each theme has study questions on the doctrine of the page. They are not a test."]
   ]},
-  { q: "When a return is waiting, what will the app do?", a: 2, o: [
+  { q: "When a return is waiting, what will the course do?", a: 2, o: [
     ["Lock the rest of the course until you open the theme", "The page says it will not block you."],
     ["Reset the palaestra, so that doctrine and skill stay together", "The two uses are independent."],
     ["Invite you. It will not block you", "The whole course can be walked without these pages."],
@@ -460,7 +460,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Teaching you to compose in five parts", "These are not parts of a piece. They are kinds of number in the act of hearing and judging."],
     ["Proving the harmony of the spheres", "These pages do not climb through the spheres. The ascent is through the soul that hears."]
   ]},
-  { q: "In judging a proportion you use a measure you did not make. What does this page say is <em>not</em> disputed between Augustine and St. Thomas?", a: 2, o: [
+  { q: "In judging a proportion we use a measure we did not make. What does this page say is <em>not</em> disputed between Augustine and St. Thomas?", a: 2, o: [
     ["Whether the light by which we judge is an illumination from without, or the agent intellect as a created participation", "That is disputed: <span class=\"latin\">ST</span> I q.79 a.4; q.84 a.5. The page names the dispute so as not to hide it."],
     ["Whether the judging numbers are in the sounding body", "Augustine takes them out of the body, and out of time and place. That is his step. The fact underneath is wider."],
     ["The fact the ascent starts from: in judging a proportion you use a measure you did not make", "Neither doctor treats the measure as your invention."],
