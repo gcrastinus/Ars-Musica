@@ -242,7 +242,7 @@ MusicaArs.LESSONS = [
 <p>We sound the open string, then the stopped string, then both; one quantity changes, and another quantity changes with it. That is the whole method of the art, and it is not a song.</p>
 <div class="remark">
   <h4>The story of the hammers</h4>
-  <p>Nicomachus and Boethius tell how Pythagoras, passing a smithy, heard hammers of different weights sounding concords, and so discovered the ratios. The story is the traditional <em>inventio</em> of the science. As a piece of metallurgy it is doubtful, because hammer-weight does not behave as the story needs. As a piece of pedagogy it is useful, because it says the right thing, namely that the concords are not arbitrary tastes but correspond to number. What actually shows the number cleanly is the string, and so we will rely on the string.</p>
+  <p>Nicomachus and Boethius tell how Pythagoras, passing a smithy, heard hammers of different weights sounding concords, and so discovered the ratios. The story is the traditional <em>inventio</em> of the science. As a piece of metallurgy it is doubtful, because hammer-weight does not behave as the story needs. As a piece of pedagogy it is useful, because it says the right thing, namely that the concords are not arbitrary tastes but correspond to number. What actually shows the number cleanly is the string, and so we will trust the string.</p>
 </div>
 `,
   sources: "Boethius, De inst. mus. I.10–11; Nicomachus, Manual 6; Kalkavage, On the Measurement of Tones (the monochord as the student’s first instrument)."

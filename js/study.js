@@ -81,39 +81,39 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 
 "iii-2": [
   { q: "The string is stopped at its midpoint. What is the ratio of the whole string to the part left sounding?", a: 0, o: [
-    ["2:1", "And because the lengths stand as 2:1, the pitches stand as 2:1 the other way about. Hold both halves of that sentence."],
-    ["1:2, since the part is half the whole", "The ratio is the same magnitude either way; what you have chosen is the comparison of the part to the whole, and the question asked for the whole to the part. In this art the order of the terms is not a formality — it is what tells you which sound is which."],
+    ["2:1", "And because the lengths stand as 2:1, the pitches stand as 2:1 the other way about. Both halves of that sentence are needed."],
+    ["1:2, since the part is half the whole", "The ratio is the same magnitude either way; what you have chosen is the comparison of the part to the whole, and the question asked for the whole to the part. In this art the order of the terms is not a formality; it is what tells us which sound is which."],
     ["4:3, the first superparticular", "You have named a ratio the art does use, but not the one a halved string gives. Count again: how many of the stopped length go into the open string?"],
     ["It cannot be given as a ratio, since a half is not a whole number", "A ratio compares two quantities; neither of them has to be a whole number of the other for the comparison to be exact. Here one of them is, which is what makes this the simplest case of all."]
   ]},
   { q: "Why does the art call 2:1 the <em>first</em> concord?", a: 2, o: [
     ["Because it is the easiest interval for an untrained voice to sing", "That may well be true, and it is a fact about singers rather than about number. The art’s reason for calling anything first has to be a reason of the same kind as the thing it orders."],
     ["Because it was historically the first to be discovered", "The art is not making a claim about who noticed what, and it could not prove such a claim if it made it. Look for a reason that would hold whether or not anyone had ever discovered it."],
-    ["Because it is the first ratio after equality: the first multiple, and the double is the first of the multiples", "Exactly — and this reason is available only to someone who has the kinds of ratio. Without them, ‘first’ is a word rather than an argument."],
+    ["Because it is the first ratio after equality: the first multiple, and the double is the first of the multiples", "This reason is available only to someone who has the kinds of ratio. Without them, ‘first’ is a word rather than an argument."],
     ["Because it is the smallest interval the ear can distinguish", "The diapason is nothing like the smallest interval the ear can distinguish; you have been hearing far finer ones since the second chapter. And smallness is not what ‘first’ means here."]
   ]},
   { q: "What is the Greek name for this interval, and what does it mean?", a: 1, o: [
-    ["<span class=\"latin\">Diapente</span>, ‘through five’", "You have taken the name of a different concord, and one that this course has not yet reached at this point. The number in that name is a counting of steps, which is exactly what the present interval is being kept free of."],
-    ["<span class=\"latin\">Diapason</span>, ‘through all’", "Through all — that is, through the whole compass of the strings. The name describes the span itself and does not count anything, which is why the course prefers it at this stage."],
+    ["<span class=\"latin\">Diapente</span>, ‘through five’", "You have taken the name of a different concord, and one that this course has not yet reached at this point. The number in that name is a counting of steps, which is what the present interval is being kept free of."],
+    ["<span class=\"latin\">Diapason</span>, ‘through all’", "‘Through all’ means through the whole compass of the strings. The name describes the span itself and does not count anything, which is why the course prefers it at this stage."],
     ["<span class=\"latin\">Diatessaron</span>, ‘through four’", "Another concord of this art, but not this one, and again a name built on a count. Ask which name describes the interval without numbering the sounds inside it."],
-    ["<span class=\"latin\">Tonos</span>, ‘stretching’", "That word names the step by which a scale is walked, not the span within which it is walked. The interval in question here is the frame, not one of the paces."]
+    ["<span class=\"latin\">Tonos</span>, ‘stretching’", "That word names the step by which a scale proceeds, not the span within which it proceeds. The interval in question here is the whole span, not one of the steps."]
   ]},
   { q: "Why does this course prefer <span class=\"latin\">diapason</span> to the more familiar word <em>octave</em>?", a: 3, o: [
     ["Because <em>octave</em> is a modern coinage, unknown before the eighteenth century", "The Latin name is medieval, not modern, and the course has no objection to old words. The objection is to what this particular word takes for granted."],
     ["Because <em>octave</em> refers to a slightly different interval, tempered rather than pure", "That confusion belongs much later in the story, and it is not the reason given here. At this point in the course, temperament has not entered at all."],
-    ["Because the Greek name is more accurate about the ratio involved", "Neither name states a ratio. One of them states a count, and it is the count that is the trouble — not any inaccuracy about number."],
-    ["Because <em>octave</em> means ‘the eighth’, and so presupposes a scale of eight steps that has not yet been built", "Just so. The interval is prior to the scale that fills it, and a name that counts the filling puts the cart before the horse. You do not need eight sounds to hear this concord; you need two lengths, one the double of the other."]
+    ["Because the Greek name is more accurate about the ratio involved", "Neither name states a ratio. One of them states a count, and the trouble is the count, not any inaccuracy about number."],
+    ["Because <em>octave</em> means ‘the eighth’, and so presupposes a scale of eight steps that has not yet been built", "The interval is prior to the scale that fills it, and a name that counts the filling reverses that order. We do not need eight sounds to hear this concord; we need two lengths, one the double of the other."]
   ]},
   { q: "Two sounds are heard together and blend so completely that the higher seems to be the lower, raised. Which interval is described?", a: 2, o: [
-    ["The tone, 9:8", "That is the step by which a scale is walked, and it does the opposite of blending: the two sounds stand next to one another and remain plainly two."],
-    ["The <span class=\"latin\">diapente</span>, 3:2", "This does blend, and well — but you hear two sounds that belong together, not one sound raised. The description in the question is stronger than that."],
+    ["The tone, 9:8", "That is the step by which a scale proceeds, and it does the opposite of blending: the two sounds stand next to one another and remain plainly two."],
+    ["The <span class=\"latin\">diapente</span>, 3:2", "This does blend, and well, but we hear two sounds that belong together, not one sound raised. The description in the question is stronger than that."],
     ["The <span class=\"latin\">diapason</span>, 2:1", "This is why singers who have never heard the word still find it when they try to sing ‘the same tune higher’. The blending is so complete that the two are nearly taken for one."],
-    ["The unison", "In a unison there is no higher and no lower — the pitches are equal. The description speaks of one sound seeming to be another <em>raised</em>, which requires that they differ."]
+    ["The unison", "In a unison there is no higher and no lower; the pitches are equal. The description speaks of one sound seeming to be another <em>raised</em>, which requires that they differ."]
   ]},
   { q: "The lengths of the open and the stopped string stand as 2:1. How do their pitches stand?", a: 1, o: [
     ["Also 2:1, the open string being the higher", "The ratio is right and the assignment is backwards. Ask yourself which of the two sounds you would call higher, and then which of the two lengths produced it."],
-    ["2:1 the other way about — the stopped string, being shorter, is the higher", "The pitch ratio is the length ratio inverted. This one sentence is the hinge of the whole art, and everything later in the course rests on your having it without thinking."],
-    ["1:1, since it is the same string", "It is the same string, and that is precisely what makes the case instructive: the same string, at a different sounding length, gives a different sound. Sameness of material is not sameness of quantity."],
+    ["2:1 the other way about — the stopped string, being shorter, is the higher", "The pitch ratio is the length ratio inverted. This one sentence is the principle of the whole art, and everything later in the course depends on our having it without thinking."],
+    ["1:1, since it is the same string", "It is the same string, and that is what makes the case instructive: the same string, at a different sounding length, gives a different sound. Sameness of material is not sameness of quantity."],
     ["4:1, since halving the length doubles the pitch twice over", "Halving the length doubles the pitch once. There is no second doubling anywhere in the operation described."]
   ]},
   { q: "Among the kinds of ratio, to which does 2:1 belong?", a: 0, o: [
@@ -128,10 +128,10 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The interval and the scale are the same thing under two names", "If that were so, the warning about the word <em>octave</em> would have no point at all. The lesson took trouble to separate them."],
     ["The interval is prior; the scale is one way of filling it", "And so a name for the interval that counts the filling is a name borrowed from something later. You can hear 2:1 with two sounds and no scale whatever."]
   ]},
-  { q: "The course says the other first concords are found ‘nearby’. Where, exactly?", a: 2, o: [
-    ["In the next multiples — 3:1 and 4:1", "Those are indeed the next multiples, and the art does recognise them as concords compounded from the first. But they are not where the course said to look for the two that come <em>next</em>."],
+  { q: "The course says the other first concords are found ‘nearby’. Where are they?", a: 2, o: [
+    ["In the next multiples — 3:1 and 4:1", "Those are indeed the next multiples, and the art does recognize them as concords compounded from the first. But they are not where the course said to look for the two that come <em>next</em>."],
     ["In the superpartient ratios, 5:3 and 7:4", "The art allows no concord in that class at all. You are looking one class too far along."],
-    ["In the first superparticular ratios — 3:2 and 4:3", "The sesquialter and the sesquitertian. The three first concords are therefore the first multiple and the first two superparticulars, which is a claim of arithmetical order and not of taste."],
+    ["In the first superparticular ratios — 3:2 and 4:3", "They are the sesquialter and the sesquitertian, and so the three first concords are the first multiple and the first two superparticulars, which is a claim of arithmetical order and not of taste."],
     ["In the ratios formed from the numbers 5 and 6", "That is where a later century would look, and the course tells that story in its own place. It is not where the Pythagorean art looks, because its bound stands lower."]
   ]},
   { q: "A student says: ‘I can hear the diapason, so I have understood it.’ How would this course answer?", a: 1, o: [
@@ -144,7 +144,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because otherwise the string would break", "A practical worry, and not the methodological one. Ask what the experiment would fail to <em>show</em> if two things changed at once."],
     ["Because the tradition requires that the instrument be used exactly as Pythagoras used it", "The course treats the string as the honest instrument of the art, not as a relic to be handled by rule. Its reason is about demonstration, not about custom."],
     ["Because only then can the change in pitch be attributed to the change in length alone", "One quantity varies and another varies with it, and nothing else is admitted. That is the whole method of a middle science, worked with a piece of wire."],
-    ["Because tension and thickness have no effect on pitch", "They have a very great effect — a later lesson turns on the discovery of exactly how much. That is precisely why they must be held still."]
+    ["Because tension and thickness have no effect on pitch", "They have a very great effect, and a later lesson turns on the discovery of how much. That is why they must be held still."]
   ]}
 ]
 
@@ -724,7 +724,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 "iii-1": [
   { q: "The lesson opens by asking how we shall measure high and low ‘instead of merely noticing them.’ What is the force of that contrast?", a: 1, o: [
     ["Noticing pitch is an error of the untrained ear, which measurement corrects", "The lesson never says the ear errs; it takes what the ear reports as the very thing to be accounted for. Ask what measuring adds to a report that is already true."],
-    ["Anyone with ears notices that one sound is higher; the art wants a quantity that can be compared, so that the difference may be stated and not merely felt", "And the quantity chosen is a length, which can be halved and thirded and compared exactly. Notice how much of the art follows from picking something measurable to vary."],
+    ["Anyone with ears notices that one sound is higher; the art wants a quantity that can be compared, so that the difference may be stated and not merely felt", "And the quantity chosen is a length, which can be halved and thirded and compared exactly. Much of the art follows from choosing something measurable to vary."],
     ["Only trained musicians notice high and low at all, so the untrained must measure instead", "Noticing high and low is common to everyone, and the lesson assumes you have done it since childhood. The contrast drawn is not between two classes of men. Re-read the first sentence."],
     ["High and low are qualities, and qualities cannot be studied", "If that were so the lesson would have no subject and would stop at its first line. It does the opposite: it proceeds. Ask what it does with the quality it began from."]
   ]},
@@ -738,12 +738,12 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The tension, which the bridge increases", "A bridge set against the string changes where it may vibrate, not how hard it is drawn. Look at the list the lesson gives of what stays the same, and see whether this stands on it."],
     ["The thickness of the vibrating part", "The wire is as thick as it was; stopping it does not thin it. Read the lesson’s list of what is held fixed, and count the items on it."],
     ["The string itself, since half a string is a different string", "It is the same wire throughout, and the lesson says so in as many words. Half of a thing is not another thing; ask what quantity of it has changed."],
-    ["The sounding length, and nothing else", "That is the whole design of the instrument. Because one thing only has moved, whatever changed in the sound may be laid at its door — the method of a middle science, worked with a piece of wire."]
+    ["The sounding length, and nothing else", "That is the whole design of the instrument. Because one thing only has moved, whatever changed in the sound may be attributed to it, and that is the method of a middle science, worked with a piece of wire."]
   ]},
   { q: "The lesson strings together three claims: about a length, about two lengths, and about pitches. Which order does it give?", a: 2, o: [
     ["A length is a ratio; two lengths compared make a magnitude; the pitches follow the magnitude", "You have swapped the two words. One of them belongs to a single thing measured, the other to a comparison of two. Settle which is which before going further."],
     ["The pitches are the magnitudes, and the lengths are ratios taken among them", "This puts the derived thing first and the measured thing second. On the instrument you set one of these by hand; ask which, and it will not be the sound."],
-    ["A length is a magnitude; two lengths compared make a ratio; the pitches stand in that same ratio, taken the other way about", "Every later computation in this course runs along that chain. Keep the last clause especially: same ratio, opposite order, the shorter string the higher sound."],
+    ["A length is a magnitude; two lengths compared make a ratio; the pitches stand in that same ratio, taken the other way about", "Every later computation in this course runs along that chain. The last clause matters most: the ratio is the same, the order is opposite, and the shorter string gives the higher sound."],
     ["A length is a magnitude; two lengths compared make a ratio; the pitches stand in exactly that ratio, in the same order", "You have the first two steps and have dropped the turn in the third. Ask which string, the long or the short, gives the higher sound, and then see whether the order can stand."]
   ]},
   { q: "An open string measures 12 units. The lesson speaks of a sounding length ‘three-halves as short.’ Where is the bridge set?", a: 0, o: [
@@ -761,23 +761,23 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Who, according to the lesson, tells the story of Pythagoras and the hammers?", a: 1, o: [
     ["Ptolemy and Euclid", "Neither is named on this page at all. Look at the sentence that introduces the smithy and see whose names stand in front of it."],
     ["Nicomachus and Boethius", "The pair recurs throughout this course: the Greek manual and the Latin treatise that carried it into the Middle Ages. Both are named again in the sources line at the foot of the page."],
-    ["St. Thomas, in his commentary", "He appears elsewhere in this course, and not here. The tellers of the story are named in the boxed remark; go back and read its opening words."],
-    ["The lesson gives no source for the story", "It gives two, in the very first words of the boxed remark, and repeats them in the sources line. Read the box again from its first sentence."]
+    ["St. Thomas, in his commentary", "He appears elsewhere in this course, and not here. The tellers of the story are named in the remark; go back and read its opening words."],
+    ["The lesson gives no source for the story", "It gives two, in the very first words of the remark, and repeats them in the sources line. Read the remark again from its first sentence."]
   ]},
   { q: "How does the lesson judge the smithy story considered as a piece of metallurgy?", a: 2, o: [
-    ["Sound, since heavier hammers do sound lower", "The lesson makes no such concession; it says flatly that the behaviour the story requires is not the behaviour of hammers. Read the sentence that weighs the story as metal-work."],
+    ["Sound, since heavier hammers do sound lower", "The lesson makes no such concession; it says flatly that the behavior the story requires is not the behavior of hammers. Read the sentence that weighs the story as metal-work."],
     ["Irrelevant, since metallurgy is not a liberal art", "The lesson does not dismiss the question on grounds of discipline. It answers it, and answers it about hammers. Look for what it actually says of the weights."],
-    ["Doubtful, because hammer-weight does not behave as the story needs", "The story wants weight to stand to pitch as length does, and it does not. Notice that the lesson names the defect rather than passing over it, and keeps the story for a different reason."],
+    ["Doubtful, because hammer-weight does not behave as the story needs", "The story wants weight to stand to pitch as length does, and it does not. The lesson names the defect rather than passing over it, and keeps the story for a different reason."],
     ["Unknown, since no one has tested it", "The verdict is given plainly, not left open. Re-read the sentence beginning ‘As a piece of metallurgy’ and see how firm it is."]
   ]},
   { q: "Why does the lesson keep the story even so?", a: 0, o: [
     ["Because as teaching it says the right thing: the concords are not arbitrary tastes but track number", "A false account of the how may still carry a true doctrine of the what. The lesson keeps the doctrine and hands the demonstration over to the string."],
     ["Because tradition must be preserved whether or not it is true", "The lesson gives a reason, and a reason of use rather than of reverence. Ask what the story manages to say correctly, apart from the smithy."],
-    ["Because the story is charming and holds a beginner’s attention", "Charm is not the merit claimed for it. The claim concerns the content of what the story asserts. Read again what the box says the story ‘says.’"],
-    ["Because the authority of Pythagoras settles the ratios", "This course settles ratios by demonstration on a measured string, not by a name. And the lesson has just called part of the story doubtful, so authority is plainly not doing the work."]
+    ["Because the story is charming and holds a beginner’s attention", "Charm is not the merit claimed for it. The claim concerns the content of what the story asserts. Read again what the remark says the story ‘says.’"],
+    ["Because the authority of Pythagoras settles the ratios", "This course settles ratios by demonstration on a measured string, not by a name. And the lesson has just called part of the story doubtful, so authority is plainly not the ground."]
   ]},
   { q: "The lesson calls the story ‘the traditional <span class=\"latin\">inventio</span> of the science.’ What does that mean?", a: 3, o: [
-    ["The invention, that is, the fiction, made up to decorate the science", "The Latin word does not mean a fabrication, and the lesson is not calling the story an ornament — it keeps it for what it teaches. Consider what the verb <span class=\"latin\">invenire</span> does to a thing."],
+    ["The invention, that is, the fiction, made up to decorate the science", "The Latin word does not mean a fabrication, and the lesson is not calling the story an ornament; it keeps it for what it teaches. Consider what the verb <span class=\"latin\">invenire</span> does to a thing."],
     ["The founding principle from which the science is deduced", "Nothing in this course is deduced from a smithy, and the lesson makes the string, not the story, do the demonstrating. Ask what kind of account the word names."],
     ["The order in which the science ought to be taught", "That would be an order of learning, whereas the phrase concerns something that happened once, at the beginning. Ask whether the word points to an order or to an event."],
     ["The received account of how the science was found — its story of discovery", "The word is the noun of finding. A science may have a true doctrine and a legendary account of its finding; this lesson separates the two and keeps them apart."]
@@ -785,7 +785,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "‘We will trust the string.’ What is the ground of that preference?", a: 1, o: [
     ["That strings were the instruments the Greeks actually played", "What the Greeks played is a fact about their music, not about demonstration, and the lesson’s reason is a reason about showing. Ask what the string does that the alternative fails to do."],
     ["That the string shows the number cleanly: one quantity is varied and the sound follows it, with nothing else intervening", "Trust here is earned by transparency, not by antiquity. Everything in the chapters that follow is measured on this one wire, which is why a whole lesson is spent on it."],
-    ["That a string can be tuned and a hammer cannot", "Tuning is not the issue; the lesson holds tension fixed throughout precisely so that tuning shall not come into question. Ask what the lesson says the string displays."],
+    ["That a string can be tuned and a hammer cannot", "Tuning is not the issue; the lesson holds tension fixed throughout so that tuning shall not come into question. Ask what the lesson says the string displays."],
     ["That the string is older than the smithy", "No claim of age is made anywhere on the page, and the lesson has already refused to decide by antiquity. Look for a reason drawn from what can be measured and seen."]
   ]}
 ],
