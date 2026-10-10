@@ -21,43 +21,43 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["How to read a treble clef and play piano pieces from the 1700s", "Those are later skills, and the opening paragraph names them as things this course is not. The art here begins before staff, piano, and the names of notes."],
     ["The liberal art of music: the science of numbered sound, from hearing and from ratio", "You need a quiet room and a way to hear two sounds. Composition and moral training are real studies of music, but they are not this art, and they are not first."],
     ["How to compose songs, and which modes are morally safe", "Making songs is a fine art; choosing them for character is a part of ethics. Both are named here as other studies. The one this course takes up is a science of sounding number."],
-    ["The history of European concert music from Guido to Beethoven", "Later chapters walk that road so that the art is not left looking refuted. They are not first, and the opening page does not put them first."]
+    ["The history of European concert music from Guido to Beethoven", "Later chapters treat that history so that the art does not appear to have been refuted. They are not first, and the opening page does not put them first."]
   ]},
   { q: "What does the opening page say you need?", a: 2, o: [
     ["A piano, a staff, and the names of the notes", "The first paragraph names those as things you do not need. Read what it puts in their place."],
-    ["A teacher who will sing the intervals for you", "No such provision is made. The page asks for a quiet room and a way to hear two sounds."],
+    ["A teacher who will sing the intervals for you", "The course makes no such provision. Read the first paragraph again for what it does ask for."],
     ["A quiet room and a way to hear two sounds", "The pictures are to the ear what a Euclidean diagram is to the eye. Without two sounds, there is nothing yet to measure."],
-    ["A copy of Boethius in Latin", "Boethius is the spine of the course, but the opening page does not make a library the first requirement."]
+    ["A copy of Boethius in Latin", "Boethius is the main authority of the course, but the opening page does not make a library the first requirement."]
   ]},
   { q: "Why does the course use the old intonation of whole-number ratios, not the pitches of a modern piano?", a: 0, o: [
-    ["Because that difference is part of what you are here to learn; a piano will be close, but it will not be exact", "The String at the top is a free monochord for the same reason. Exactness here is the ratio, not the keyboard."],
+    ["Because that difference is part of what you are here to learn; a piano will be close, but it will not be exact", "The String button at the top is a free monochord for the same reason, because the exactness that matters here is that of the ratio, not of the keyboard."],
     ["Because pianos cannot play two sounds", "They can. The objection is not to polyphony but to the slight adjustment of the pitches."],
     ["Because Boethius had never heard a keyboard", "Historical accident is not the reason given. The reason is that the art measures by whole-number ratios of a single string."],
-    ["Because equal temperament has been refuted", "Later chapters treat temperament as a trade, not as a refutation. The opening page is simpler: the piano is close and not exact."]
+    ["Because equal temperament has been refuted", "Later chapters treat temperament as a trade-off, not as a refutation. The opening page is simpler: the piano is close and not exact."]
   ]},
   { q: "What is the String button at the top of the page?", a: 3, o: [
-    ["A recording of an ancient monochord", "It is a free monochord you can return to whenever a lesson names a ratio you cannot yet hear. Nothing is being played back from a museum."],
+    ["A recording of an ancient monochord", "It is a free monochord that we can return to whenever a lesson names a ratio we cannot yet hear. It does not play back a recording."],
     ["The palaestra, under another name", "The palaestra is the exercise blocks. The String is the instrument itself, available from any page."],
     ["A way to hear equal temperament beside the old ratios", "The course does not put a modern keyboard there. The String sounds the ratios of one string."],
-    ["A free monochord, for hearing a ratio again whenever you want", "The second practical note of the opening page. The art is in the comparison, with the ear and with the number."]
+    ["A free monochord, for hearing a ratio again whenever you want", "This is the second practical note of the opening page. The art lies in the comparison, made both by the ear and by number."]
   ]},
   { q: "By the end of the course, which of these should you be able to say from first principles?", a: 1, o: [
-    ["How to compose, cantor, and write the history of later European music", "The boxed remark names those as other studies, and says you will not yet be those things."],
-    ["What this art is; what an interval is; why the first concords are 2:1, 3:2, and 4:3; what a tone is; how a scale is built; and who counts as a musician", "That is the list under ‘What you will possess.’ It is the art, not the neighbouring studies."],
+    ["How to compose, cantor, and write the history of later European music", "The remark names those as other studies, and says you will not yet be those things."],
+    ["What this art is; what an interval is; why the first concords are 2:1, 3:2, and 4:3; what a tone is; how a scale is built; and who counts as a musician", "That is the list under ‘What you will possess.’ It names the art, not the neighboring studies."],
     ["Which modes are safe in church, and which are not", "That belongs to the second study of music, ethics and politics, which this course reports and does not legislate."],
     ["The names of the notes on a treble staff", "The opening paragraph has already set those aside."]
   ]},
-  { q: "The boxed remark says the course teaches the mathematical skill of the art in full. What does it say about the doctrine?", a: 2, o: [
-    ["The doctrine is also taught in full, and nothing remains to be read", "The second sentence of the box is a limit, not a boast. Look at where it says the demonstration lives."],
-    ["The doctrine is omitted, because this is only a skill course", "The box says the doctrine is shown faithfully enough to be believed and returned to. Omission is not the claim."],
-    ["It is shown faithfully enough to be believed and returned to, but the full demonstration lives in the books the course points toward", "Skill here; doctrine as far as a first-principles course can show it; the books for the rest."],
-    ["Doctrine is a matter of taste, and the course takes no side", "The course takes sides where the art does. The box is about the limit of a page, not about the standing of the teaching."]
+  { q: "The remark says the course teaches the mathematical skill of the art in full. What does it say about the doctrine?", a: 2, o: [
+    ["The doctrine is also taught in full, and nothing remains to be read", "The second sentence of the remark states a limit, not a boast. Look at where it says the full demonstration is found."],
+    ["The doctrine is omitted, because this is only a skill course", "The remark says the doctrine is shown faithfully enough to be believed and returned to, so it does not claim that the doctrine is omitted."],
+    ["It is shown faithfully enough to be believed and returned to, but the full demonstration lives in the books the course points toward", "The course teaches the skill, shows the doctrine as far as a first-principles course can, and leaves the rest to the books."],
+    ["Doctrine is a matter of taste, and the course takes no side", "The course takes sides where the art does. The remark concerns how much a course of this kind can show, not the standing of the teaching."]
   ]},
   { q: "Most lessons, the page says, ask you to do what?", a: 0, o: [
-    ["Hear something: one sound, then another, then both together", "The pictures are not decoration. They are the little bridge on the string, then the reason the sound is as it is."],
-    ["Memorise a table of intervals", "No table is offered on this page, and later the palaestra is built so that a page cannot be memorised — only the skill."],
+    ["Hear something: one sound, then another, then both together", "The pictures are not decoration; they show the little bridge on the string, and then the reason the sound is as it is."],
+    ["Memorise a table of intervals", "No table is offered on this page, and later the palaestra is built so that an exercise block cannot be memorized; only the skill can be learned."],
     ["Write a short essay on Boethius", "Reading is required; the distinctive demand of the lessons is hearing."],
-    ["Pass a check before the next lesson will open", "Nothing on the opening page is gated. The whole course can be walked."]
+    ["Pass a check before the next lesson will open", "Nothing on the opening page is gated, and every part of the course is open."]
   ]},
   { q: "When does the browser make sound?", a: 3, o: [
     ["As soon as the page loads", "The page says the browser will stay silent until you allow it."],
@@ -67,15 +67,15 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "What is this course, as the first sentence states it?", a: 1, o: [
     ["A course in concert-going, as that was understood from Pythagoras through Boethius", "Concert-going is named in the next sentence as a thing this course is not."],
-    ["A course in the liberal art of music, as that art was understood from Pythagoras through Boethius", "The rest of the paragraph then names the neighbouring studies it is not."],
+    ["A course in the liberal art of music, as that art was understood from Pythagoras through Boethius", "The rest of the paragraph then names the neighboring studies it is not."],
     ["A history of notation from neumes to the staff", "Notation is treated later, and only so far as the art requires. It is not the opening definition."],
     ["A method for learning an instrument without a teacher", "Playing is a skill of the hands. The art here is a science of numbered sound."]
   ]},
   { q: "Why are the pictures on the lessons there?", a: 2, o: [
     ["As decoration, to keep a long page from looking bare", "The page says they are not decoration."],
     ["To show how a modern score is laid out", "No staff is required, and none is being taught."],
-    ["They are to the ear what a Euclidean diagram is to the eye: the little bridge on the string, then the reason the sound is as it is", "Hearing first, then the cause. That is the method of the whole course."],
-    ["To prove the harmony of the spheres", "The contemplative pages later refuse that climb. The opening page has not yet left the string."]
+    ["They are to the ear what a Euclidean diagram is to the eye: the little bridge on the string, then the reason the sound is as it is", "We hear first, and then learn the cause; that is the method of the whole course."],
+    ["To prove the harmony of the spheres", "The contemplative pages later decline that ascent, and the opening page speaks only of the string."]
   ]}
 ],
 
@@ -170,61 +170,61 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because it requires more natural talent", "Talent may be needed, and it settles nothing about the kind of study. Shoemaking has gifts of its own. The comparison turns on what the activity is ordered to, not on how rare the aptitude is."],
     ["Because it deals with number, as the liberal arts do", "Rhythm can indeed be counted, but the lesson does not rest the comparison on number. Re-read the sentence about shoemaking and notice which pair of terms it actually uses to make the ranking."],
     ["Because it is taught in schools rather than in workshops", "Where an art is taught is an accident of custom. The lesson grades the studies by what they belong to and what they aim at, not by the buildings in which they are learned."],
-    ["Because it belongs to leisure and aims at the beautiful", "Two marks, and both real — which is why the lesson must still add that nearness is not identity. Liberal study aims at truth as such, and delight measured by truth is not the same as truth."]
+    ["Because it belongs to leisure and aims at the beautiful", "Both marks are real, and that is why the lesson must still add that nearness is not identity. Liberal study aims at truth as such, and delight measured by truth is not the same as truth."]
   ]},
   { q: "Aristotle in the <span class=\"latin\">Politics</span> and Boethius in his prologue both hold that different melodies move the soul in different ways. Where does that claim belong in the division?", a: 1, o: [
     ["To the liberal art, since it concerns what sounds do", "The liberal art considers numbered sound as a nature; it does not treat the effects of sound upon hearers. Ask whether the claim you have chosen is about ratios or about what happens to a man who listens."],
-    ["To the second study — music as a part of ethics and politics", "Which is why parents and lawgivers watch what is sung. That is the forming of character, and it can be a part of moral science; but it is training, and training is not the art this course teaches."],
+    ["To the second study — music as a part of ethics and politics", "That is why parents and lawgivers watch what is sung. That is the forming of character, and it can be a part of moral science; but it is training, and training is not the art this course teaches."],
     ["To fine art, since composers exploit these effects", "A composer may well use the fact, but using a claim is not the study of it. The lesson assigns a claim by the science it belongs to, not by who happens to find it handy."],
-    ["Nowhere in the division; it is a remark of natural philosophy about the passions", "The lesson does not leave it homeless. It uses the same observation when the question is asked whether God should be praised with song, and places it squarely within one of the three studies."]
+    ["Nowhere in the division; it is a remark of natural philosophy about the passions", "The lesson does give it a place. It uses the same observation when the question is asked whether God should be praised with song, and places it squarely within one of the three studies."]
   ]},
-  { q: "Parents who watch what is sung in the house, and lawgivers who watch what is sung in the city — what does the lesson say of them?", a: 2, o: [
-    ["They practise the liberal art in its applied form", "The lesson allows no such applied form. It separates the studies by their ends, and the end of what these men do is a citizen of a certain stamp, not a piece of knowledge."],
+  { q: "What does the lesson say of parents who watch what is sung in the house, and of lawgivers who watch what is sung in the city?", a: 2, o: [
+    ["They practice the liberal art in its applied form", "The lesson allows no such applied form. It separates the studies by their ends, and the end of what these men do is a citizen of a certain stamp, not a piece of knowledge."],
     ["They exercise the fine art at second hand", "The fine art makes something beautiful to hear. These men make nothing; they watch what is heard by others, and they watch it for the sake of what it does to those others."],
-    ["They are not doing mathematics; they are forming character", "The lesson is blunt about it: real work, and moral work, but training. It belongs to the second study, and this course is the third."],
+    ["They are not doing mathematics; they are forming character", "The lesson says plainly that this is real work, and moral work, but that it is training. It belongs to the second study, and this course is the third."],
     ["They are doing something no part of the threefold division covers", "The lesson gives their activity a place, and names the science it can be a part of. Re-read the paragraph that cites the Politics and the prologue of Boethius."]
   ]},
   { q: "What is the <span class=\"latin\">opus</span> of music considered as a liberal art?", a: 3, o: [
-    ["A song", "The lesson denies exactly this, and in those words. A song is the gift of the Muses. The question is what the science makes, and a science does not make songs."],
+    ["A song", "The lesson denies this in those very words. A song is the gift of the Muses. The question is what the science makes, and a science does not make songs."],
     ["A performance judged by a trained ear", "No performance is the work of this study, and a trained ear is nowhere called its product. Look again at the sentence in which the third study’s work is named."],
-    ["A treatise on the effects of melody upon the soul, such as a lawgiver could use", "That would be a work of the second study, if of any. You have answered for the wrong one of the three."],
-    ["A scale — an ordered system of pitches generated from the first numerical ratios", "Not a song but a scale. And it is considered as a nature, for the sake of the truth about numbered sound, which is what keeps the study from being either a concert or a civic programme."]
+    ["A treatise on the effects of melody upon the soul, such as a lawgiver could use", "That would be a work of the second study, if of any, and the question asks about the third."],
+    ["A scale — an ordered system of pitches generated from the first numerical ratios", "The work is not a song but a scale, and it is considered as a nature, for the sake of the truth about numbered sound; that is what keeps the study from being either a concert or a civic program."]
   ]},
   { q: "Which of these is the liberal art of music?", a: 2, o: [
     ["Learning to sing well, so as to please a hearer", "Singing well is a fine art, or a craft. It aims at a work that delights. The liberal art aims at truth about numbered sound."],
-    ["Choosing songs that form a good character in the young", "That is ethical or political: the forming of character. It matters, and it is not this science."],
+    ["Choosing songs that form a good character in the young", "That is ethical or political: the forming of character. It matters, but it is not this science."],
     ["Knowing, from number, why certain pitches belong together as a scale", "The liberal art considers the scale as a nature. Singing well and choosing songs for character are real studies; neither is harmonics."],
-    ["Knowing the history of the church modes and the names Dorian, Phrygian, and Lydian", "Those names come later, and they are one of the places the tradition itself became tangled. They are not what this lesson names as the art."]
+    ["Knowing the history of the church modes and the names Dorian, Phrygian, and Lydian", "Those names come later, and they are one of the places where the tradition itself became confused. They are not what this lesson names as the art."]
   ]},
   { q: "What did the Greeks call this study when they were being careful?", a: 1, o: [
     ["<span class=\"latin\">Musica</span>", "That is the Latin name the quadrivium uses, and the English word this course keeps descends from it. But the question asked what the Greeks said when they wished to be exact, which was a different word."],
-    ["<em>Harmonics</em>", "And the course keeps the English word music only because the tradition does, meaning harmonics unless it says otherwise. Watch for that silent substitution; it prevents a great deal of confusion later."],
-    ["The music of the Muses — that is, song", "The lesson sets that phrase on the far side of the distinction: the gift of the Muses is song, and this science is not song but what makes song possible. You have named the poet’s sense."],
-    ["<span class=\"latin\">Quadrivium</span>", "That is the name of the group of four sciences, not of one of them. A member is not its class. Look for the word Socrates uses when he turns to this study in the seventh book."]
+    ["<em>Harmonics</em>", "And the course keeps the English word music only because the tradition does, meaning harmonics unless it says otherwise. If we watch for that silent substitution, we avoid a great deal of confusion later."],
+    ["The music of the Muses — that is, song", "The lesson places that phrase on the other side of the distinction, because the gift of the Muses is song, and this science is not song but what makes song possible. You have named the poet’s sense."],
+    ["<span class=\"latin\">Quadrivium</span>", "That is the name of the group of four sciences, not the name of any one of them. Look for the word Socrates uses when he turns to this study in the seventh book."]
   ]},
-  { q: "Why does the boxed remark insist that Socrates says harmonics rather than music?", a: 2, o: [
-    ["Because Socrates disapproved of song", "Nothing in the lesson makes him hostile to song; it makes him precise about a word. The point of the box is a distinction between two senses, not a verdict upon poetry."],
-    ["Because the Greek word is older than the Latin one", "The age of words is not the argument. The box separates two things that a single word covers, and it says what each of them is. Ask yourself which two."],
-    ["Because ‘music’ in the poet’s sense means song, while the study in question is the science of the ratios from which song is possible", "The one is the gift of the Muses; the other is what makes the gift possible at all. Keeping the two apart is the whole labour of this first lesson."],
-    ["Because harmonics takes in astronomy as well", "The lesson says no such thing, and the quadrivium keeps its four sciences distinct. Re-read the box and notice that it contrasts two senses of one word, not two sciences."]
+  { q: "Why does the remark insist that Socrates says harmonics rather than music?", a: 2, o: [
+    ["Because Socrates disapproved of song", "Nothing in the lesson makes him hostile to song; it makes him precise about a word. The point of the remark is a distinction between two senses, not a verdict upon poetry."],
+    ["Because the Greek word is older than the Latin one", "The age of words is not the argument. The remark separates two things that a single word covers, and it says what each of them is. Ask yourself which two."],
+    ["Because ‘music’ in the poet’s sense means song, while the study in question is the science of the ratios from which song is possible", "The one is the gift of the Muses; the other is what makes the gift possible at all. Keeping the two apart is the main task of this first lesson."],
+    ["Because harmonics takes in astronomy as well", "The lesson says no such thing, and the quadrivium keeps its four sciences distinct. Re-read the remark and notice that it contrasts two senses of one word, not two sciences."]
   ]},
   { q: "The lesson says the third study considers the scale ‘as a nature.’ What does that mean?", a: 1, o: [
     ["That the scale is found in the world rather than made by men", "The lesson does not argue about where scales come from. To consider something as a nature is a way of considering it, and the sentence tells you what that way is ordered to."],
-    ["That it is considered for the sake of the truth about numbered sound, and not for a concert or for the making of citizens", "The phrase marks an end, not an origin. It is the move by which any science takes its subject: you ask what the thing is, and leave off asking what it is good for."],
+    ["That it is considered for the sake of the truth about numbered sound, and not for a concert or for the making of citizens", "The phrase marks an end, not an origin. Any science takes its subject in this way: it asks what the thing is, and leaves off asking what it is good for."],
     ["That the scale must be sung before it can be understood", "That would make the study a matter of performance, which is what this lesson has been at pains to separate out. The phrase concerns the manner of consideration, not a required activity."],
     ["That the scale is a natural object rather than a mathematical one", "The first paragraph places this art among the mathematical sciences. You have taken a phrase about how a thing is considered and turned it into a claim about which science owns it."]
   ]},
   { q: "A student concludes that the other two studies are therefore false or worthless. What does the lesson say?", a: 2, o: [
     ["They are false, being founded upon delight rather than truth", "The lesson calls them real. It denies them a place at the head of the quadrivium, not a standing of their own; and one of them it allows to be part of a science."],
-    ["They are worthless for a liberal education, though harmless enough as amusements", "Harsher than the lesson. It calls the two real, and says one of them can be part of moral science — which is not a description of something worthless."],
-    ["They are real; they are not first, and they are not what the quadrivium names <span class=\"latin\">musica</span>", "The whole force of the lesson lies in that ‘and’. A study can be genuine, worth pursuing, and still be a different study from the one you have sat down to learn."],
-    ["They are the same study as harmonics, seen from different angles", "Then the lesson would have had no reason to divide them, and its warning about mixing the senses of the word would be idle. Three ends were named, and they were not one end."]
+    ["They are worthless for a liberal education, though harmless enough as amusements", "That is harsher than the lesson. It calls the two real, and says one of them can be part of moral science — which is not a description of something worthless."],
+    ["They are real; they are not first, and they are not what the quadrivium names <span class=\"latin\">musica</span>", "The force of the lesson lies in that ‘and’, because the other two studies are real but are not first. A study can be genuine and worth pursuing, and still be a different study from the one we are learning."],
+    ["They are the same study as harmonics, seen from different angles", "Then the lesson would have had no reason to divide them, and its warning about mixing the senses of the word would be idle. The lesson named three ends, and they are not one end."]
   ]},
   { q: "Why is delight not enough to make a study liberal?", a: 3, o: [
-    ["Because delight is a passion, and passions fall outside the intellect", "The lesson makes no such psychological argument, and it does not disparage delight — it calls delight good when measured by truth. Look at the comparison it actually draws between two ends."],
+    ["Because delight is a passion, and passions fall outside the intellect", "The lesson makes no such psychological argument, and it does not disparage delight; it calls delight good when measured by truth. Look at the comparison it actually draws between two ends."],
     ["Because a delightful work is made for another’s sake and not its own", "That is an argument about ends and uses which the course makes elsewhere. It is not the sentence here. This lesson sets delight beside one other thing and says the two are not the same."],
-    ["Because the fine arts belong to work rather than to leisure", "The lesson grants fine art to leisure — that is the very reason it stands nearer the liberal arts than shoemaking does. You have denied the concession the lesson itself makes."],
-    ["Because liberal study aims at truth as such, and delight, however good, is not truth", "Good when measured by truth, and still not the same thing. Keep this distinction; it is what decides which of the three studies you are standing in at any moment."]
+    ["Because the fine arts belong to work rather than to leisure", "The lesson grants fine art to leisure, and that is the very reason it stands nearer the liberal arts than shoemaking does. You have denied the concession the lesson itself makes."],
+    ["Because liberal study aims at truth as such, and delight, however good, is not truth", "Delight is good when measured by truth, and still it is not the same thing as truth. This distinction decides which of the three studies we are pursuing at any moment."]
   ]}
 ],
 
@@ -232,36 +232,36 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What does the tradition mean by calling an art liberal?", a: 2, o: [
     ["That it is difficult, and so fit for able men", "Difficulty grades nothing here. Some servile arts are very hard, and some liberal exercises are easy. The lesson rejects this reading outright and puts one definition in its place."],
     ["That it befits a gentleman, being refined rather than coarse", "Seneca does say that liberal studies are worthy of a free man, and the lesson refuses to stop at that clause. It names a mark that would hold whether or not anyone thought them refined."],
-    ["That it is ordered to knowing", "<span class=\"latin\">Illae solae artes liberales dicuntur, quae ad sciendum ordinantur.</span> Everything else in the lesson — the work that stays in the maker, the judge who is free — hangs upon that ordering."],
+    ["That it is ordered to knowing", "<span class=\"latin\">Illae solae artes liberales dicuntur, quae ad sciendum ordinantur.</span> Everything else in the lesson (the work that stays in the maker, and the judge who is free) depends on that ordering."],
     ["That it does not require the use of the hands", "The geometer draws and the astronomer looks, as the second objection answers. Employing the body is not the criterion. Ask instead what the art is ordered to."]
   ]},
   { q: "Where does the sentence dividing liberal from mechanical arts occur?", a: 1, o: [
     ["In the <span class=\"latin\">Summa</span>, in the question on the parts of prudence", "The sources line is pointed about this: the sentence is not in the Summa. The Summa is cited in this lesson for a different rationale altogether, about the body and the soul."],
-    ["In St. Thomas’s commentary on the <span class=\"latin\">Metaphysics</span>, expounding Aristotle on the free man", "And the setting matters: the division follows immediately upon the sentence about the man who is his own cause. The two are one argument, not two separate quotations."],
+    ["In St. Thomas’s commentary on the <span class=\"latin\">Metaphysics</span>, expounding Aristotle on the free man", "The setting matters, because the division follows immediately upon the sentence about the man who is his own cause. The two are one argument, not two separate quotations."],
     ["In Aristotle’s <span class=\"latin\">Politics</span>, where he discusses what the free man should learn", "The Politics is quoted here for a practical consequence about not always seeking the useful. The dividing sentence comes later, and its wording is St. Thomas’s rather than Aristotle’s."],
     ["In Boethius, at the close of his first book", "That is where the three sorts of men concerned with music are divided — another division, for another purpose. Check which author is being quoted in the paragraph on the art’s end."]
   ]},
   { q: "In what sense does Aristotle call the highest science free?", a: 0, o: [
-    ["As we call a man free who exists for his own sake and not for another’s", "St. Thomas sharpens it: he is not for another’s sake but is his own cause. The likeness between a free man and a free science is the hinge on which the whole doctrine turns."],
+    ["As we call a man free who exists for his own sake and not for another’s", "St. Thomas sharpens it: he is not for another’s sake but is his own cause. The likeness between a free man and a free science is the principle of the whole doctrine."],
     ["Because it is unconstrained by the demands of any teacher or school", "Freedom here is not independence from other men. It is a matter of what a thing exists for, and the comparison is drawn with a kind of man, not with a kind of institution."],
-    ["Because its conclusions are not necessitated but freely chosen", "Nothing in the lesson makes this knowledge less necessary than any other. Ask what the analogy actually compares — a science and a man, in respect of what?"],
-    ["Because it frees the one who studies it from error", "An effect; and the lesson does treat an effect, but under a different heading and with a different author. The opening of the Metaphysics asks why a science is sought, not what it cures."]
+    ["Because its conclusions are not necessitated but freely chosen", "Nothing in the lesson makes this knowledge less necessary than any other. Ask what the analogy compares: a science and a man, but in respect of what?"],
+    ["Because it frees the one who studies it from error", "That is an effect, and the lesson does treat an effect, but under a different heading and with a different author. The opening of the Metaphysics asks why a science is sought, not what it cures."]
   ]},
   { q: "If the thing is ordered to knowing, why call it an art at all? What is St. Thomas’s answer?", a: 3, o: [
     ["That the word ‘art’ is used loosely here, and would be better dropped", "He keeps the word and gives a reason for keeping it. Nothing in the passage recommends abandoning the name the tradition uses for all seven."],
-    ["That the seven are arts in their elementary teaching and become sciences only at their height", "A tidy scheme, and not his. He does not divide one study into a lower phase and a higher; he points to something the study has throughout."],
+    ["That the seven are arts in their elementary teaching and become sciences only at their height", "The scheme is tidy, but it is not his. He does not divide one study into a lower phase and a higher; he points to something the study has throughout."],
     ["That they are arts because they can be applied to the making of instruments and buildings", "That would order them to something outside, which is the very mark the lesson gives for the servile. Ask what kind of work the objection has failed to consider."],
-    ["That they are called arts among the sciences because they have not only knowledge but a certain work, which is immediately of reason itself", "And he lists them: to construct a syllogism, to form a speech, to number, to measure, <span class=\"latin\">melodias formare</span>, to compute the courses of the stars. Six works, and no matter touched."]
+    ["That they are called arts among the sciences because they have not only knowledge but a certain work, which is immediately of reason itself", "And he lists them: to construct a syllogism, to form a speech, to number, to measure, <span class=\"latin\">melodias formare</span>, to compute the courses of the stars. None of the six works passes into outward matter."]
   ]},
-  { q: "The boxed remark warns against a hasty reading of <span class=\"latin\">melodias formare</span>. What is the misreading, and why is it wrong?", a: 1, o: [
-    ["That it means singing; wrong because St. Thomas nowhere mentions the voice", "The box does not turn on whether the voice is mentioned. It turns on a principle governing every item in the list, and on what a melody must be if that principle holds."],
-    ["That it means composition; wrong because each work in the list is performed by reason immediately, without passing into outward matter", "So a melody formed by reason is an ordered set of pitches known in their proportions — the scale. A man who writes a beautiful song and knows no ratio has not performed this work."],
-    ["That it means the invention of new modes; wrong because the modes were fixed by tradition", "Neither half of that appears in the lesson. The box makes no claim about which modes exist or who settled them; it corrects a mistake about what sort of act forming is."],
-    ["That it means teaching melodies to others; wrong because teaching is a servile art", "Teaching is nowhere called servile in this lesson, and the misreading the box actually names is a far commoner one than this. Re-read its opening sentence."]
+  { q: "The remark warns against a hasty reading of <span class=\"latin\">melodias formare</span>. What is the misreading, and why is it wrong?", a: 1, o: [
+    ["That it means singing; wrong because St. Thomas nowhere mentions the voice", "The remark does not turn on whether the voice is mentioned. It turns on a principle governing every item in the list, and on what a melody must be if that principle holds."],
+    ["That it means composition; wrong because each work in the list is performed by reason immediately, without passing into outward matter", "So a melody formed by reason is an ordered set of pitches known in their proportions, that is, the scale. A man who writes a beautiful song and knows no ratio has not performed this work."],
+    ["That it means the invention of new modes; wrong because the modes were fixed by tradition", "Neither half of that appears in the lesson. The remark makes no claim about which modes exist or who settled them; it corrects a mistake about what sort of act forming is."],
+    ["That it means teaching melodies to others; wrong because teaching is a servile art", "Teaching is nowhere called servile in this lesson, and the misreading the remark actually names is a far commoner one than this. Re-read its opening sentence."]
   ]},
   { q: "The cobbler’s work ends in a shoe. What is the point of the comparison?", a: 0, o: [
-    ["That the work of a liberal art ends in the one who does it, with nothing left over on the bench", "Which is why such a possession cannot be inspected, lent, or sold. When you know why the diapason is 2:1, the work you have made is a state of your own reason."],
-    ["That handwork is beneath a free man", "The lesson does not sneer at the cobbler; it distinguishes him. And the Politics passage it quotes says the free man should learn useful things — only not all of them, and not as an artisan does."],
+    ["That the work of a liberal art ends in the one who does it, with nothing left over on the bench", "That is why such a possession cannot be inspected, lent, or sold. When we know why the diapason is 2:1, the work we have made is a state of our own reason."],
+    ["That handwork is beneath a free man", "The lesson does not sneer at the cobbler; it distinguishes him. And the Politics passage it quotes says the free man should learn useful things, though not all of them, and not as an artisan does."],
     ["That a shoe is an imperfect thing whereas knowledge is perfect", "No comparison of quality is being drawn. The two works are compared by where each of them ends up, and the shoe is allowed to be a good shoe."],
     ["That the cobbler’s art has no work of reason in it at all", "Making a shoe well plainly takes reason. The contrast is not between thought and thoughtlessness but between two destinations for a finished work."]
   ]},
@@ -272,67 +272,67 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The one who judges, for the whole of it is placed in reason", "And such a judge is free in Aristotle’s sense: not an instrument of the art but its master. Anyone at all can be moved by a sound; only he can say what was done to him, and by what."]
   ]},
   { q: "To what purpose is Seneca quoted?", a: 1, o: [
-    ["To establish that liberal studies are those worthy of a free man, and that this is the whole account of them", "His first clause says exactly that, and the lesson takes him for the clause that follows — the one that corrects the first. Read his sentence through to its end."],
+    ["To establish that liberal studies are those worthy of a free man, and that this is the whole account of them", "His first clause says that, but the lesson quotes him for the clause that follows, which corrects the first. Read his sentence through to its end."],
     ["To add that one study is truly liberal: the one that makes free", "Worthiness is where he begins, not where he stops. The lesson wants the second clause because it names an effect, and an effect is the third of the three marks."],
-    ["To show that liberal studies are useless, and honourably so", "Seneca is not quoted on usefulness at all, and the lesson goes on to deny that being usable makes an art servile. You have imported a claim from the objections."],
+    ["To show that liberal studies are useless, and honorably so", "Seneca is not quoted on usefulness at all, and the lesson goes on to deny that being usable makes an art servile. You have imported a claim from the objections."],
     ["To prove that the quadrivium is older than the trivium", "Nothing here dates the arts against one another. Seneca supplies a formula about what a study does to the man who has it, not a chronology."]
   ]},
   { q: "‘But music is useful — in the liturgy, in the forming of the young. Does that not make it servile?’ How is this met?", a: 2, o: [
-    ["Yes, in that use; the art is liberal only so long as no use is made of it", "Then the art would change its kind whenever a choirmaster picked it up. The lesson locates the difference somewhere a bystander’s use cannot reach."],
+    ["Yes, in that use; the art is liberal only so long as no use is made of it", "Then the art would change its kind whenever a choirmaster picked it up. The lesson places the difference in the art itself, where another person’s use of it cannot reach."],
     ["No, because the uses named are sacred and civic rather than commercial", "The lesson never grades uses by their dignity. Medicine is called noble in the very example given, and its nobility does not save it. Ask what actually does the dividing."],
-    ["No: an art is not made servile by being usable, but by being ordered to use", "Hence medicine, a noble art, is not liberal — because it is ordered to health. The difference lies in the end, not in whether anyone ever profits by the art."],
+    ["No: an art is not made servile by being usable, but by being ordered to use", "Hence medicine, a noble art, is not liberal, because it is ordered to health. The difference lies in the end, not in whether anyone ever profits by the art."],
     ["No, because St. Thomas never in fact treats the use of song", "He does, at ST II-II q.91, and the lesson says so while still calling the art liberal. The answer does not depend on denying that the use exists."]
   ]},
   { q: "‘But it needs the body. You have to listen.’ How is this met?", a: 0, o: [
     ["The sense supplies the subject; it is not the work — as the astronomer must look and the geometer draw", "What would make the art servile is if the knowing were for the sake of the doing. A middle science takes its subject from sense and does its work in reason."],
-    ["By denying it: the ratios can be known without ever hearing a sound", "The lesson does not take that escape, and the course would collapse without hearing. It grants the listening, and then shows why granting it costs nothing."],
+    ["By denying it: the ratios can be known without ever hearing a sound", "The lesson does not deny that we must listen, and the course could not proceed without hearing. It grants the listening, and then shows that granting it does not make the art servile."],
     ["By admitting that the art is servile in part and liberal in part", "No such division is offered. The reply is a single distinction, applied to astronomy and geometry as well, and it leaves the art wholly on one side."],
-    ["Because listening is a passive reception, and passivity cannot be servile", "The lesson argues nothing about activity and passivity. It asks what office the sense holds in the science — and holding an office is not the same as being the work."]
+    ["Because listening is a passive reception, and passivity cannot be servile", "The lesson argues nothing about activity and passivity. It asks what office the sense holds in the science, and holding an office is not the same as being the work."]
   ]},
-  { q: "The boxed remark calls St. Thomas’s second rationale the better one. What is it?", a: 2, o: [
-    ["That the liberal arts are those the Church has always taught", "Nothing in the box appeals to custom or to the Church’s teaching. The rationale offered is drawn from what the arts are, and it ends in a sentence about the soul and the body."],
-    ["That the liberal arts alone have a work of their own, while the mechanical arts merely repeat what others have already found out", "The mechanical arts plainly have works — that is their whole character. The contrast is not between work and no work, but between two ways in which a work may be carried out."],
+  { q: "The remark calls St. Thomas’s second rationale the better one. What is it?", a: 2, o: [
+    ["That the liberal arts are those the Church has always taught", "Nothing in the remark appeals to custom or to the Church’s teaching. The rationale offered is drawn from what the arts are, and it ends in a sentence about the soul and the body."],
+    ["That the liberal arts alone have a work of their own, while the mechanical arts merely repeat what others have already found out", "The mechanical arts plainly have works; that is their whole character. The contrast is not between work and no work, but between two ways in which a work may be carried out."],
     ["That arts ordered to bodily works are servile inasmuch as the body is servilely subject to the soul, and man according to the soul is free", "So the freedom in question is first the soul’s freedom over the body. That is why these arts are the ones that befit a man precisely as man."],
-    ["That speculative matters have no work at all, and so cannot be servile", "The box says the opposite in its first line: even in speculative matters there is something after the manner of a work, and it names several. Re-read that sentence."]
+    ["That speculative matters have no work at all, and so cannot be servile", "The remark says the opposite in its first line: even in speculative matters there is something after the manner of a work, and it names several. Re-read that sentence."]
   ]}
 ],
 
 "lib-2": [
-  { q: "The first of the four things is called the great one. Why need you not take its central claim on the word of a wise man?", a: 1, o: [
+  { q: "The first of the four things is called the great one. Why do we not need to take its central claim on the word of a wise man?", a: 1, o: [
     ["Because the claim is self-evident once it is stated", "The lesson calls it a large claim, and grants that in most matters you would have to take it on authority. Something peculiar to this art removes the need here, and it is not obviousness."],
-    ["Because you can measure the pleasing pairs of sounds, alter the ratio, and watch the pleasure alter with it", "The delight is tracking something the mind can state, and you have seen it track. That is why the art is worth more than its size: one string, three ratios, and a verified instance."],
-    ["Because St. Thomas’s authority is weaker in this matter than elsewhere", "The lesson does not weigh his authority at all. It says that here you have something better than authority ready to hand — a remark about your situation, not about his."],
-    ["Because the claim is a definition, and definitions stand in need of no proof", "It is not offered as a definition, and the lesson treats it as something that could in principle be doubted. That is precisely why it is worth checking rather than assuming."]
+    ["Because you can measure the pleasing pairs of sounds, alter the ratio, and watch the pleasure alter with it", "The delight varies with something the mind can state, and we have heard it vary. That is why the art matters more than its size would suggest: it is one string and three ratios, but it is a verified instance."],
+    ["Because St. Thomas’s authority is weaker in this matter than elsewhere", "The lesson does not weigh his authority at all. It says that here we have something better than authority at hand; that is a remark about our situation, not about his."],
+    ["Because the claim is a definition, and definitions stand in need of no proof", "It is not offered as a definition, and the lesson treats it as something that could in principle be doubted. That is why it is worth checking rather than assuming."]
   ]},
   { q: "How do the beautiful and the good stand to one another?", a: 3, o: [
     ["They are two distinct perfections, found in different things", "Then a thing could be good and in no way beautiful, and the reason given here — that beauty is due proportion, which pleases — would have nothing to fasten on. The lesson makes them one somewhere and two somewhere."],
     ["The beautiful is a species contained under the good", "Containment is not the relation given. The formula sets the two side by side and locates their difference in one place only. Ask yourself which place that is."],
     ["The good is what pleases when seen; the beautiful is what all desire", "The halves have been swapped. Look again at which formula belongs to which term: <span class=\"latin\">pulchra dicuntur quae visa placent</span>."],
-    ["They are the same in the thing and differ in notion", "The good is what all desire; things are called beautiful which please when seen. One reality, two accounts of it — which is why a demonstration about proportion touches both at once."]
+    ["They are the same in the thing and differ in notion", "The good is what all desire; things are called beautiful which please when seen. They are one reality with two accounts of it, and that is why a demonstration about proportion bears on both at once."]
   ]},
   { q: "Why do the senses delight in things duly proportioned?", a: 2, o: [
-    ["Because the soul is itself made in due proportion and recognises its like", "The lesson makes no claim about the soul’s own proportions. Its reason concerns what sense is, is stated in three Latin words, and is stronger than mere resemblance."],
+    ["Because the soul is itself made in due proportion and recognizes its like", "The lesson makes no claim about the soul’s own proportions. Its reason concerns what sense is, is stated in three Latin words, and is stronger than mere resemblance."],
     ["Because habit accustoms them to whatever they meet most often", "That would make the delight a product of custom, and the whole point is that it is not arbitrary. Custom would also make it alterable by training, which the argument does not allow."],
-    ["Because sense is itself a certain reason, and so delights in what is after its own kind", "<span class=\"latin\">Sensus ratio quaedam est.</span> That is the premise doing the work: were sense not a kind of reason, its pleasures could tell you nothing whatever about the intelligible."],
-    ["Because proportioned things are easier for the sense organ to receive without strain", "A physiological guess, and not the reason given. The lesson’s reason is about what sense is, not about how comfortably an organ does its work."]
+    ["Because sense is itself a certain reason, and so delights in what is after its own kind", "<span class=\"latin\">Sensus ratio quaedam est.</span> The argument rests on that premise, because if sense were not a kind of reason, its pleasures could tell us nothing whatever about the intelligible."],
+    ["Because proportioned things are easier for the sense organ to receive without strain", "That is a physiological guess, not the reason given. The lesson’s reason is about what sense is, not about how comfortably an organ does its work."]
   ]},
-  { q: "What exactly is overturned by measuring the ratios honestly on a string in a quiet room?", a: 0, o: [
-    ["The conviction that beauty is nothing but private preference", "Not argued against — refuted, in your own hearing, by you. That is a different and a better thing to be able to say, and the lesson insists on the difference."],
+  { q: "What is overturned by measuring the ratios honestly on a string in a quiet room?", a: 0, o: [
+    ["The conviction that beauty is nothing but private preference", "The conviction is not merely argued against; it is refuted, in our own hearing and by us. That is a different and a better thing to be able to say, and the lesson insists on the difference."],
     ["The claim that the senses can deceive", "The lesson nowhere denies that senses deceive; it insists elsewhere that sense and reason must correct one another. What is overturned here is a claim about beauty, not a claim about reliability."],
-    ["The opinion that music can be a fine art", "The lesson holds that music as a fine art is a real study; it simply is not this one. Nothing done on the string decides that question either way."],
+    ["The opinion that music can be a fine art", "The lesson holds that music as a fine art is a real study, but it is not this one. Nothing done on the string decides that question either way."],
     ["The doctrine that the good and the beautiful differ", "They do differ, in notion, and the lesson says so plainly. What the experiment touches is a modern opinion about whether beauty is in the thing at all."]
   ]},
   { q: "What is Ptolemy’s rule, as the lesson gives it?", a: 1, o: [
-    ["That the ear must be trained until it agrees with the ratios", "That subordinates one criterion to the other, and the rule forbids just such subordination — in either direction. Ask what it says about how the two must treat each other."],
-    ["That neither criterion may despise the other", "Set beside St. Thomas: all our knowledge begins in the senses and is completed in the intellect. The Pythagorean who will not listen and the empiric who will not demonstrate are both crippled."],
-    ["That reason judges while sense merely reports", "A hierarchy, and the rule as given is not a hierarchy. Both are called criteria, and the sentence stating the rule is symmetrical between them."],
-    ["That where sense and reason conflict, the matter must be left undecided", "Nothing so despairing. The rule is a discipline for using two criteria together, not a counsel for giving up whenever they disagree."]
+    ["That the ear must be trained until it agrees with the ratios", "That subordinates one criterion to the other, and the rule forbids just such subordination, in either direction. Ask what it says about how the two must treat each other."],
+    ["That neither criterion may despise the other", "The lesson sets it beside the principle that all our knowledge begins in the senses and is completed in the intellect. The Pythagorean who will not listen and the empiric who will not demonstrate both fall short."],
+    ["That reason judges while sense merely reports", "That is a hierarchy, and the rule as given is not one. Both are called criteria, and the sentence stating the rule is symmetrical between them."],
+    ["That where sense and reason conflict, the matter must be left undecided", "The rule is not so despairing; it is a discipline for using two criteria together, not a counsel for giving up whenever they disagree."]
   ]},
-  { q: "Liberal education does not chiefly make you able to do more things. What does it make you able to do?", a: 3, o: [
-    ["To appreciate what better men have made", "That is the connoisseur, whom the boxed remark expressly declines to produce. Appreciation is a kind of taste; the lesson is after something that can be stated and defended."],
+  { q: "Liberal education does not chiefly make us able to do more things. What does it make us able to do?", a: 3, o: [
+    ["To appreciate what better men have made", "That is the connoisseur, whom the remark expressly declines to produce. Appreciation is a kind of taste; the lesson is after something that can be stated and defended."],
     ["To teach the art to others", "Teaching may follow from it, and the lesson does not name it here. Look at Boethius’s three sorts of men and ask which of them is being described in this paragraph."],
     ["To hear finer distinctions than an untrained ear can", "A trained ear is useful and is not the mark named. The distinction being drawn is between doing and knowing, and a finer ear is still a power of doing."],
-    ["To say what is the case, and why", "The judge’s work. In this art the difference is unusually sharp, because the art is small enough to be possessed entire: either 3:2 is in your ear and your reason, or it is not."]
+    ["To say what is the case, and why", "That is the work of the judge. In this art the difference is unusually sharp, because the art is small enough to be possessed entire: either 3:2 is in our ear and in our reason, or it is not."]
   ]},
   { q: "‘The quadrivium is not four hobbies attached to arithmetic.’ What is it, on the authority quoted?", a: 1, o: [
     ["Four applications of one mathematical method", "That still leaves the other three as appendages of the first, which is the picture the sentence rejects. The image quoted is not of a method but of a journey."],
@@ -343,14 +343,14 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "In <span class=\"latin\">Republic</span> VII Socrates dismisses two sorts of student. What is wrong with the second sort?", a: 2, o: [
     ["They put their ears before their minds and torture strings", "That is the first sort. The second is distinguished from it precisely by seeking numbers at all. Read the two dismissals in order and notice what the later group has that the earlier lacks."],
     ["They study numbers and never listen at all, so their science is of arithmetic and not of sound", "Their fault is not deafness; they take their numbers from concords they have in fact heard. What they fail to do comes after the hearing and after the numbering."],
-    ["They take their numbers only from the concords they happen to hear, and never ascend to problems", "They never ask which numbers are concordant of themselves, and why. And these are the Pythagoreans, the school this art descends from — which is why the warning is aimed at you."],
+    ["They take their numbers only from the concords they happen to hear, and never ascend to problems", "They never ask which numbers are concordant of themselves, and why. And these are the Pythagoreans, the school from which this art descends, and that is why the warning applies to us."],
     ["They mistake astronomy for harmonics", "No such confusion is charged against them. Both sorts are studying sound; what separates them is how far each carries the study."]
   ]},
   { q: "Why, Augustine tells Memorius, did he write <span class=\"latin\">De musica</span>?", a: 0, o: [
-    ["Because the power of number in all motion is most easily studied in sounds, and because that study offers a way of rising to higher secrets of truth", "Most easily — a convenient starting place for something much larger. The paths ascend as it were gradually, and the ascent is the point of the whole book."],
-    ["Because the chant of the Church stood in need of a theoretical defence", "Nothing about liturgy appears in the reason he gives. He speaks of number in motion, and of a rising by paths that mount by degrees."],
+    ["Because the power of number in all motion is most easily studied in sounds, and because that study offers a way of rising to higher secrets of truth", "He says ‘most easily,’ so sounds are a convenient starting place for something much larger. The paths ascend as it were gradually, and the ascent is the point of the whole book."],
+    ["Because the chant of the Church stood in need of a theoretical defense", "Nothing about liturgy appears in the reason he gives. He speaks of number in motion, and of a rising by paths that mount by degrees."],
     ["Because no Latin author had yet treated harmonics", "The lesson makes no claim about who wrote first, and his stated reason is not one of priority. It concerns what sound is convenient for."],
-    ["Because sounds are the only place in which number appears in motion", "He says most easily studied, not only found. Overstating a claim is one way of losing it, and the gap between ‘easiest’ and ‘only’ matters a great deal here."]
+    ["Because sounds are the only place in which number appears in motion", "He says that number in motion is most easily studied in sounds, not that it is found only there, and the difference between ‘easiest’ and ‘only’ matters a great deal here."]
   ]},
   { q: "Among the kinds of number Augustine names in the sixth book, which are the <span class=\"latin\">iudiciales</span>?", a: 3, o: [
     ["Those in the sounding body itself", "Those are the <span class=\"latin\">sonantes</span>, and they stand at the foot of the ascent. The kind asked after stands at its head, and is marked off by something we cannot do to it."],
@@ -358,11 +358,11 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Those held in memory, by which a melody once heard can be run through again", "The <span class=\"latin\">recordabiles</span>, fourth of the five. But the ascent does not halt there, and the lesson says it runs past even its own last term. Re-read the list to its end."],
     ["Those by which we judge, which we did not make and cannot alter", "The last of the five, and the ascent runs from the first to the last and past the last. Everything below them is in some degree ours; these are not."]
   ]},
-  { q: "What does the boxed remark say the art will not do?", a: 0, o: [
+  { q: "What does the remark say the art will not do?", a: 0, o: [
     ["It will not by itself make you good; the forming of character belongs to the second study of music", "Aristotle and Boethius both hold that music has much to do with character, but this course does not undertake that. Nor will the art make you happy. It is one small true thing, thoroughly known."],
-    ["It will not make you able to judge concords", "Judging is exactly what it claims to do — the third of the four things. You have taken one of the promises for one of the denials."],
-    ["It will not show you anything about the beautiful", "The first and greatest of the four things is a demonstration about the beautiful. The box denies the art several offices, and that is not among them."],
-    ["It will not connect with the other quadrivial sciences", "The fourth thing is that the art is a road, and roads lead somewhere. The box denies particular accomplishments; it does not deny the ascent."]
+    ["It will not make you able to judge concords", "Judging is what the art claims to do; it is the third of the four things. This answer takes one of the promises for one of the denials."],
+    ["It will not show you anything about the beautiful", "The first and greatest of the four things is a demonstration about the beautiful. The remark denies the art several offices, and that is not among them."],
+    ["It will not connect with the other quadrivial sciences", "The fourth thing is that the art is a road, and roads lead somewhere. The remark denies particular accomplishments; it does not deny the ascent."]
   ]}
 ]
 
@@ -372,28 +372,28 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 
 "i-2": [
-  { q: "The seven liberal arts are two roads. What divides them?", a: 1, o: [
-    ["The trivium treats what is easy, the quadrivium what is hard", "That is a judgement about difficulty, which is a fact about students rather than about subjects. Ask instead what each of the two roads is <em>about</em> — what kind of thing it takes for its matter."],
-    ["The trivium concerns speech; the quadrivium concerns quantity", "And that is why arithmetic is prior to music in a way grammar is not: the second road is one subject matter divided, not a list of accomplishments."],
-    ["The trivium concerns words, the quadrivium concerns things", "Near enough to sound right, and far too wide: every science concerns things of some sort. The lesson names one determinate kind of thing for the second road. Re-read the sentence that lists its four members."],
-    ["The trivium is the pagan learning, the quadrivium the Christian", "Nothing in the lesson divides the arts that way, and both roads reach the Middle Ages from the same ancient sources. Look again at the parenthesis after each name and ask what its members have in common."]
+  { q: "The seven liberal arts form two groups. What divides them?", a: 1, o: [
+    ["The trivium treats what is easy, the quadrivium what is hard", "That is a judgment about difficulty, which is a fact about students rather than about subjects. Ask instead what each of the two groups is <em>about</em>, that is, what kind of thing it takes for its matter."],
+    ["The trivium concerns speech; the quadrivium concerns quantity", "That is why arithmetic is prior to music in a way that grammar is not, because the quadrivium is one subject matter divided, not a list of accomplishments."],
+    ["The trivium concerns words, the quadrivium concerns things", "That sounds nearly right, but it is far too wide, because every science concerns things of some sort. The lesson names one determinate kind of thing for the second group. Re-read the sentence that lists its four members."],
+    ["The trivium is the pagan learning, the quadrivium the Christian", "Nothing in the lesson divides the arts that way, and both groups reach the Middle Ages from the same ancient sources. Look again at the parenthesis after each name and ask what its members have in common."]
   ]},
   { q: "Of a heap of wheat we ask how much; of the potatoes in a sack, how many. Which science answers which?", a: 2, o: [
-    ["Geometry answers “how many”, arithmetic “how much”", "You have both sciences and have crossed them. Ask which question is answered by counting units, and which by measuring a magnitude that has no natural unit inside it."],
+    ["Geometry answers “how many”, arithmetic “how much”", "Both sciences are named, but each is given the other’s question. Ask which question is answered by counting units, and which by measuring a magnitude that has no natural unit inside it."],
     ["Both belong to arithmetic, since both end in a number", "A measurement can be reported in numbers without its subject being number. The lesson divides quantity itself into two kinds <em>before</em> it assigns any science. Re-read the sentence about the heap and the sack."],
-    ["Geometry answers “how much” — continuous quantity, magnitude; arithmetic “how many” — discrete quantity, number", "Aristotle’s division in the <span class=\"latin\">Categories</span>, and it is what puts these two sciences first. Notice that the whole quadrivium is built on this one cut."],
+    ["Geometry answers “how much” — continuous quantity, magnitude; arithmetic “how many” — discrete quantity, number", "Aristotle’s division in the <span class=\"latin\">Categories</span>, and it is what puts these two sciences first. The whole quadrivium is built on this one division."],
     ["Music answers “how much” and astronomy “how many”", "Those two enter the quadrivium later in the lesson, and for a quite different reason. The question is about the two sciences that treat quantity in itself."]
   ]},
   { q: "Why are arithmetic and geometry first among the four?", a: 3, o: [
     ["Because they were discovered first", "The lesson orders the four by what they treat, not by when anyone found them. An order of that kind would shift with every new piece of history. Ask what these two have in common as sciences."],
     ["Because they are the easier two", "Ease is a fact about learners. The order given here is drawn from the subjects themselves — from how far each stands from the bodies in which we first meet quantity."],
     ["Because the other two are not sciences but applications", "The lesson calls the other two sciences in the full sense; being applied does not unmake a science, since a middle science demonstrates. Ask instead what the first two treat that the second two do not."],
-    ["Because they treat quantity in itself, abstracted from the movable bodies in which we first meet it", "Which is also why they do not yet touch the world we hear and see — and that lack is exactly what the other two are added to repair."]
+    ["Because they treat quantity in itself, abstracted from the movable bodies in which we first meet it", "That is also why they do not yet touch the world we hear and see, and the other two are added to supply that lack."]
   ]},
   { q: "Following Aristotle’s <span class=\"latin\">Physics</span> II, St. Thomas names three middle sciences. Which three?", a: 0, o: [
     ["Optics, harmonics, astronomy", "Light, sound, and the heavens — three natural subjects handled by mathematical middle terms. Each is a natural thing proved through number or figure, which is the whole shape of this kind of science."],
     ["Arithmetic, geometry, astronomy", "Two of those treat quantity abstracted from body, and so cannot stand in the middle of anything. A middle science needs something natural at one end. Ask what optics has that geometry lacks."],
-    ["Grammar, logic, rhetoric", "That is the other road entirely, and it concerns speech. Middle sciences are being distinguished within the road that concerns quantity."],
+    ["Grammar, logic, rhetoric", "That is the other group entirely, and it concerns speech. Middle sciences are being distinguished within the group that concerns quantity."],
     ["Physics, harmonics, optics", "Two of those are rightly placed, and the lesson says in as many words that this art is not physics. Ask which third science it names, and where that one gets its middle terms."]
   ]},
   { q: "Optics is a middle science. From which science does it take its middle terms?", a: 2, o: [
@@ -404,7 +404,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "And astronomy — from where does it take its middle terms?", a: 1, o: [
     ["From geometry only, since the planets move in circles", "The circle is indeed geometry’s, and the lesson does say astronomy cannot be had without it. But of the three lines in the list, the one for astronomy is the only one that names more than one source."],
-    ["From both geometry and arithmetic", "Which is why it is the fullest of the three. The lesson also uses it as its standing comparison: geometry stands to astronomy as arithmetic stands to music."],
+    ["From both geometry and arithmetic", "That is why it is the fullest of the three. The lesson also uses it as its standing comparison: geometry stands to astronomy as arithmetic stands to music."],
     ["From arithmetic only, since the periods are counted", "Counting periods is part of it; the path a body traces is not counted but described. Read the three lines of the list together and notice which one is unlike the others."],
     ["From neither — astronomy is a natural science outright", "Then it would sit with physics rather than in the quadrivium, and the lesson puts it squarely among the four. A middle science has a natural subject and still demonstrates mathematically."]
   ]},
@@ -412,31 +412,31 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The number is the natural thing; the sound supplies the middle term", "You have exchanged the two ends. A middle term is what a demonstration runs through; a subject is what it is about. Which of these two could be struck with a plectrum?"],
     ["Both are natural: the string and the sound it makes", "The string and the sound are both natural, so you have named the subject twice over. A middle science has two ends, and the second is not found on the instrument."],
     ["Both are mathematical; the string is only an illustration", "If the string were an illustration, the science would be arithmetic with a picture attached, and the lesson denies exactly that. Ask what the demonstration is <em>about</em>."],
-    ["The sound is the natural thing; the arithmetic ratio supplies the middle term", "So the proof that this string at this length sounds the fifth is an arithmetic proof about a natural thing. Hold both halves; dropping either one turns the art into something else."]
+    ["The sound is the natural thing; the arithmetic ratio supplies the middle term", "So the proof that this string at this length sounds the fifth is an arithmetic proof about a natural thing. We need both halves, because without either one the art becomes something else."]
   ]},
   { q: "Commenting on Boethius’s <span class=\"latin\">De Trinitate</span>, St. Thomas puts mathematics after logic. What does he call the quadrivium’s sciences?", a: 2, o: [
     ["The highest of the philosophical disciplines", "He places them after one thing and before others, which is not the station of a highest science. Read what he says they lead toward."],
     ["A preparation for the trivium", "The order runs the other way — logic first, mathematics after. Read the clause about what one should learn once logic is had."],
-    ["“Like paths leading the mind to the other philosophical disciplines”", "A path is travelled and left behind. That is the exact status this course claims for itself: an ordering of the mind toward wisdom, not the terminus."],
-    ["Sciences of the divine, since number is eternal", "That is a Platonising claim the lesson does not make, and it would put the quadrivium at the end of the road rather than partway along it. Look at the phrase about paths."]
+    ["“Like paths leading the mind to the other philosophical disciplines”", "A path is traveled and then left behind. This course claims the same status for itself, because it orders the mind toward wisdom and is not the end of the way."],
+    ["Sciences of the divine, since number is eternal", "That is a Platonizing claim the lesson does not make, and it would put the quadrivium at the end of the way rather than partway along it. Look at the phrase about paths."]
   ]},
   { q: "Music is neither “math about nothing in particular” nor physics. What does that leave?", a: 0, o: [
-    ["Arithmetic applied to sound", "Which is why the next lesson is about ratio and not about melody. Take away the arithmetic and nothing is demonstrated; take away the sound and nothing is demonstrated <em>of</em>."],
+    ["Arithmetic applied to sound", "That is why the next lesson is about ratio and not about melody. Without the arithmetic nothing is demonstrated, and without the sound there is nothing for the demonstration to be about."],
     ["A practical art, ordered to performance", "The lesson seats it in the quadrivium, among the sciences of quantity, never among skills of the hands. Ask what its middle terms are and which science supplies them."],
-    ["Geometry applied to sound", "The right shape of answer with the wrong mathematics in it. Look at the three lines listing the middle sciences and see which one harmonics stands beside."],
+    ["Geometry applied to sound", "The answer has the right form but the wrong mathematics. Look at the three lines listing the middle sciences and see which one harmonics stands beside."],
     ["Natural philosophy that borrows numbers for convenience", "If the numbers were a convenience the demonstrations would go through without them, and they do not. The lesson also says outright that this art is not physics."]
   ]},
-  { q: "“If you do not yet know what a ratio of whole numbers is, you cannot possess this art.” What comparison does the lesson draw?", a: 1, o: [
-    ["That you cannot sing before you can speak", "The lesson’s comparisons are between sciences, and singing is not one of them. Look at the sentence that names two members of the quadrivium in a single breath."],
+  { q: "“If we do not yet know what a ratio of whole numbers is, we cannot possess this art.” What comparison does the lesson draw?", a: 1, o: [
+    ["That you cannot sing before you can speak", "The lesson’s comparisons are between sciences, and singing is not one of them. Look at the sentence that names two members of the quadrivium together."],
     ["That you cannot possess astronomy without the circle", "Priority of that kind is not a matter of teaching order but of what the demonstrations are made of. A man without ratios does not have a partial harmonics; he has none."],
     ["That you cannot read before you know the letters", "A reasonable comparison, and not the one drawn here. The lesson’s example is taken from inside the quadrivium, from the science that stands to its own mathematics as this one stands to arithmetic."],
     ["That you cannot do arithmetic without geometry", "The lesson sets those two side by side as the first pair, not one under the other. Look for the comparison that pairs a middle science with the mathematics beneath it."]
   ]},
-  { q: "The boxed remark reports Hattrup: music and astronomy are mathematics applied to periodic motion, one for the ear and one for the eye. How does the course use this?", a: 2, o: [
-    ["As St. Thomas’s own account of the subject of harmonics", "The box is at pains to deny exactly this, and gives Thomas’s own phrase separately, calling it the more exact one. Re-read its last two sentences."],
-    ["It rejects it as a modern intrusion", "The box adopts the account and uses it, and gives a reason why. What it declines to do is smaller and more precise than rejection — read its closing sentences."],
+  { q: "The remark reports Hattrup: music and astronomy are mathematics applied to periodic motion, one for the ear and one for the eye. How does the course use this?", a: 2, o: [
+    ["As St. Thomas’s own account of the subject of harmonics", "The remark is at pains to deny exactly this, and gives Thomas’s own phrase separately, calling it the more exact one. Re-read its last two sentences."],
+    ["It rejects it as a modern intrusion", "The remark adopts the account and uses it, and gives a reason why. What it declines to do is smaller and more precise than rejection. Read its closing sentences."],
     ["As a pedagogical order that matches St. Thomas’s account of the middle sciences, while refusing to pass “periodic motion” off as his phrase", "A useful account may be borrowed without being attributed. Thomas’s own phrase is given right after: harmonics considers a natural thing through the numbers of arithmetic."],
-    ["As a demonstration that the quadrivium must have exactly four members", "The box offers a reason why the two later members belong, not a proof that no others could. Taking a fitting account for a demonstration is precisely the error to watch for here."]
+    ["As a demonstration that the quadrivium must have exactly four members", "The remark offers a reason why the two later members belong, not a proof that no others could. Taking a fitting account for a demonstration is the error to watch for here."]
   ]}
 ],
 
@@ -445,19 +445,19 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["It is a kind of inequality, namely the ratio 1:1", "You have made equality a species of its own opposite. The lesson sets the two against each other at the head of the division, and puts one before the other as unity is before number."],
     ["It is the first of the multiples", "The multiples are a kind of inequality, and each of them compares two terms that differ. Ask what there is to compare when the two terms do not differ at all."],
     ["It is a limiting case with no sounding image", "The lesson does give it a sounding image, and names it in the same sentence. Look again at the paragraph on equality before going on to the kinds."],
-    ["It is one and simple, with nothing in it to divide; its sounding image is the unison", "Boethius holds that all inequality proceeds from equality as all number proceeds from unity — which is why the art treats the unison before it treats any interval at all."]
+    ["It is one and simple, with nothing in it to divide; its sounding image is the unison", "Boethius holds that all inequality proceeds from equality as all number proceeds from unity, and this is why the art treats the unison before it treats any interval at all."]
   ]},
   { q: "<span class=\"latin\">Multiplex</span> — what does the name cover, and which ratios did the lesson list under it?", a: 0, o: [
-    ["The greater contains the less a whole number of times with nothing over: <span class=\"latin\">duplus</span> 2:1, <span class=\"latin\">triplus</span> 3:1, <span class=\"latin\">quadruplus</span> 4:1", "The simplest inequality there is, since the division comes out even. Note that “the first concords” means, exactly, the first multiple and the first two superparticulars."],
+    ["The greater contains the less a whole number of times with nothing over: <span class=\"latin\">duplus</span> 2:1, <span class=\"latin\">triplus</span> 3:1, <span class=\"latin\">quadruplus</span> 4:1", "It is the simplest inequality, since the division comes out even. The phrase “the first concords” means the first multiple and the first two superparticulars."],
     ["The greater contains the less once and one part besides: 3:2, 4:3, 5:4", "You have described the next kind in the table and given its examples. Ask what is left over when the smaller term is fitted into the larger in 3:1."],
     ["Any ratio whose terms both exceed unity: 3:2, 5:3, 9:8", "That would sweep nearly the whole table into one class and leave the other four empty. The definitions turn on how the division comes out, not on the size of the terms."],
-    ["Several times, and one part besides: 9:4", "That is one of the two compound kinds, and its name begins with the word you were asked about — a hint about how the compounds are built, not a definition of the simple kind."]
+    ["Several times, and one part besides: 9:4", "That is one of the two compound kinds, and its name begins with the word in the question, which shows how the compounds are built but does not define the simple kind."]
   ]},
-  { q: "What exactly does <span class=\"latin\">superparticularis</span> require?", a: 2, o: [
+  { q: "What does <span class=\"latin\">superparticularis</span> require?", a: 2, o: [
     ["That the greater contain the less a whole number of times with nothing left over", "That is the kind in which the division comes out even. The word before you has a second element, and that element is what the division leaves behind."],
-    ["That the greater contain the less once, and more than one aliquot part besides", "One word too many. Count how many parts this definition is allowed to leave over, then look for the kind that allows more."],
+    ["That the greater contain the less once, and more than one aliquot part besides", "The definition has one word too many. Count how many parts this definition is allowed to leave over, then look for the kind that allows more."],
     ["That the greater contain the less once, and one aliquot part of it besides", "Hence <span class=\"latin\">sesqui-</span>, which says “and a part again”. The class holds 3:2, 4:3, 5:4 and 9:8, which is why membership in it settles nothing about being a concord."],
-    ["That both its terms fall within the tetractys", "The bound at four is a further restriction the Pythagoreans lay on which ratios may be concords. It does not put a ratio in one class or another — 9:8 is proof enough of that."]
+    ["That both its terms fall within the tetractys", "The bound at four is a further restriction the Pythagoreans lay on which ratios may be concords. It does not put a ratio in one class or another, as 9:8 shows."]
   ]},
   { q: "What is 4:3 called, and what does the name say?", a: 1, o: [
     ["<span class=\"latin\">Sesquialter</span> — “a half again”", "Both halves of that are true of a different ratio in the table. Fit 3 into 4, ask what fraction of 3 is left over, and then look for the name that states that fraction."],
@@ -468,7 +468,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "5:4 is a superparticular. What is its name, and where does it stand among them?", a: 2, o: [
     ["<span class=\"latin\">Sesquiquintus</span>, the fourth of them", "You have taken the prefix from the greater term. In these names the suffix counts the <em>part</em> that is added, not the number on top — and the order follows the same count."],
     ["<span class=\"latin\">Sesquiquartus</span>, the eighth of them", "The name is right and the place is not. Count the superparticulars in order from the first — 3:2, then 4:3 — and see how far along 5:4 actually falls."],
-    ["<span class=\"latin\">Sesquiquartus</span>, the third of them", "Which is what makes the seam in the tradition visible: 5:4 stands early in the order and is refused all the same, so the refusal cannot rest on the kind of ratio. It rests on a bound."],
+    ["<span class=\"latin\">Sesquiquartus</span>, the third of them", "That shows where the tradition will later divide, because 5:4 stands early in the order and is refused all the same, so the refusal cannot rest on the kind of ratio. It rests on a bound."],
     ["<span class=\"latin\">Duplex sesquiquartus</span>, which is why it is refused", "That name belongs to a ratio in which the greater contains the less several whole times over. Fit 4 into 5 and count the whole times before reaching for a two-word name."]
   ]},
   { q: "To which kind does 5:3 belong, and what is it called?", a: 0, o: [
@@ -481,31 +481,31 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Three times, and a quarter besides", "You have read the first element as a count of whole times, when it counts something else. Ask which word in the name says how often the less goes into the greater."],
     ["Seven parts of four", "That is a way of reading the figures, not of reading the name. The name carries two counts: how many whole times, and how many parts of what sort. Take the words apart."],
     ["Once, and three parts besides, the parts being thirds", "The whole and the number of parts are right, and the parts are taken from the wrong denominator. The last word of the name tells you what sort of part is meant."],
-    ["Once, and three parts besides, the parts being quarters", "The Latin is not ornament: the name is the arithmetic said aloud. Once you read names this way, a ratio you have never met can be classed on sight."]
+    ["Once, and three parts besides, the parts being quarters", "The Latin name states the arithmetic in words, so once we read names this way, we can class a ratio we have never met as soon as we see it."]
   ]},
   { q: "9:4 is <span class=\"latin\">duplex sesquiquartus</span>. To which of the five kinds does it belong?", a: 1, o: [
     ["<span class=\"latin\">Multiplex</span>", "If it were a pure multiple, 4 would go into 9 with nothing over. Do the division and look at what remains."],
-    ["<span class=\"latin\">Multiplex superparticularis</span>", "Twice, and one aliquot part besides. The two compound kinds are simply the first three joined, and their names are read in the same order as the division is done."],
+    ["<span class=\"latin\">Multiplex superparticularis</span>", "The greater contains the less twice, and one aliquot part besides. The two compound kinds are the first three joined, and their names are read in the same order as the division is done."],
     ["<span class=\"latin\">Superparticularis</span>", "In a superparticular the greater contains the less <em>once</em>, and only then a part. Here it goes in more often than that, and the name says so in its first word."],
     ["<span class=\"latin\">Multiplex superpartiens</span>", "That kind leaves more than one like part over once the whole times are taken. Divide 9 by 4 and count the remainder in quarters."]
   ]},
   { q: "What is 8:3?", a: 2, o: [
     ["<span class=\"latin\">Duplex sesquiquartus</span>", "The first word is right and the second is not; that whole name is given in the table to a different ratio. Take 6 from 8 and count the remainder in thirds."],
-    ["<span class=\"latin\">Triplex</span>, near enough", "“Near enough” has no standing in this art. Three goes into 8 twice with something left, and a name saying three times is simply false of it. Do the division exactly."],
-    ["<span class=\"latin\">Duplex superbipartiens tertias</span>", "Twice, and two thirds over. Notice that the compound names are longer for the same reason the divisions are: nothing in them is decoration."],
-    ["<span class=\"latin\">Superbipartiens tertias</span>", "The leftover is exactly right and the whole times have been dropped. That name belongs to a ratio in which the greater contains the less once. Ask how often 3 goes into 8."]
+    ["<span class=\"latin\">Triplex</span>, near enough", "An approximate name has no standing in this art. Three goes into 8 twice with something left, so a name saying three times is false of it. Do the division exactly."],
+    ["<span class=\"latin\">Duplex superbipartiens tertias</span>", "The greater contains the less twice, with two thirds over. The compound names are longer because the divisions are longer, and nothing in them is decoration."],
+    ["<span class=\"latin\">Superbipartiens tertias</span>", "The leftover is right, but the whole times have been dropped. That name belongs to a ratio in which the greater contains the less once. Ask how often 3 goes into 8."]
   ]},
   { q: "What is 2:3 called, and why is such a name seldom heard?", a: 1, o: [
     ["<span class=\"latin\">Subduplus</span>; the art prefers the greater ratio", "The prefix is right and the stem is not. <span class=\"latin\">Duplus</span> belongs to a ratio that comes out in whole times; what you have here leaves a part over."],
-    ["<span class=\"latin\">Subsesquialter</span>; each of the five kinds has a lesser counterpart in <span class=\"latin\">sub-</span>, and the art speaks of the greater and lets the lesser be understood", "Which is why you may read a whole treatise without meeting one. It also means the order of terms is never idle: 3:2 and 2:3 are two comparisons, not one."],
+    ["<span class=\"latin\">Subsesquialter</span>; each of the five kinds has a lesser counterpart in <span class=\"latin\">sub-</span>, and the art speaks of the greater and lets the lesser be understood", "That is why we may read a whole treatise without meeting one. It also means that the order of terms always matters, because 3:2 and 2:3 are two comparisons, not one."],
     ["It has no name; ratios are always taken greater to less", "The lesson says each of the five kinds has a lesser counterpart, and shows how it is formed. Being usually left unspoken is not the same as being unnamed."],
     ["<span class=\"latin\">Sesquialter</span> still, since the ratio is the same magnitude", "The magnitude is the same and the comparison is not, and the art marks the difference with a prefix. Ask which of the two terms is being measured against the other."]
   ]},
-  { q: "The boxed remark says the later dispute is never about whether ratios govern concord. What is it about?", a: 3, o: [
-    ["Whether the ear may overrule number", "The box denies precisely this reading, and calls the later development one argued with the art’s own instruments. Re-read its last two sentences."],
-    ["Whether 9:8 is a concord or a step", "That is settled inside the Pythagorean art and is not what the two parties quarrel over. The box points to something they disagree about, and it is a placement."],
-    ["Whether Boethius or Augustine is the better guide", "Neither is a party to the dispute the box describes, which concerns number and a date in the sixteenth century. Read the box again for the two positions it actually names."],
-    ["Where the bound stands: the Pythagoreans put it at four, Zarlino at six", "In 1558 Zarlino proposed the <span class=\"latin\">senario</span>, and the thirds and sixths came in with it — a development inside the art, argued with the art’s own instruments."]
+  { q: "The remark says the later dispute is never about whether ratios govern concord. What is it about?", a: 3, o: [
+    ["Whether the ear may overrule number", "The remark denies precisely this reading, and calls the later development one argued with the art’s own instruments. Re-read its last two sentences."],
+    ["Whether 9:8 is a concord or a step", "That is settled inside the Pythagorean art and is not what the two parties quarrel over. The remark points to something they disagree about, and it is a placement."],
+    ["Whether Boethius or Augustine is the better guide", "Neither is a party to the dispute the remark describes, which concerns number and a date in the sixteenth century. Read the remark again for the two positions it actually names."],
+    ["Where the bound stands: the Pythagoreans put it at four, Zarlino at six", "In 1558 Zarlino proposed the <span class=\"latin\">senario</span>, and the thirds and sixths came in with it; that was a development inside the art, argued with the art’s own instruments."]
   ]}
 ],
 
@@ -513,7 +513,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "<span class=\"latin\">Musica est scientia bene modulandi</span>. How does the lesson render it?", a: 2, o: [
     ["The art of singing well", "Two words are altered at once. One of them names a habit of the intellect rather than a knack, and the other is not about the voice at all. Take the Latin word by word."],
     ["The science of composing well", "One word is right, the other is the one the lesson warns is mishandled by a modern ear. Ask what a <span class=\"latin\">modus</span> is before you decide what <span class=\"latin\">modulari</span> does."],
-    ["The science of measuring well", "Augustine’s definition, which the Middle Ages did not discard. Both nouns in it are contested, and the lesson spends its length keeping each from being rushed past."],
+    ["The science of measuring well", "Augustine’s definition, which the Middle Ages did not discard. Both nouns in it are contested, and the lesson takes care to explain each of them."],
     ["The measure of good science", "You have turned the sentence inside out. <span class=\"latin\">Scientia</span> is the noun the definition begins from, and the gerund tells you what it is a science <em>of</em>. Construe it again."]
   ]},
   { q: "<span class=\"latin\">Modulari</span> is called a difficult word. What does it mean here?", a: 0, o: [
@@ -524,7 +524,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "A player strikes the right string by custom or by ear. What does the lesson say of him?", a: 3, o: [
     ["He has the science, since the result is correct", "Then the definition would need neither of its two hard words, and the nightingale would be a <span class=\"latin\">musicus</span> too. Ask what Augustine’s first concern is said to be."],
-    ["He has no art at all and merely imitates", "The lesson does not strip him of everything — it grants that he strikes the right string. What it withholds is of another order. Re-read the sentence and notice exactly which words are denied him."],
+    ["He has no art at all and merely imitates", "The lesson does not strip him of everything — it grants that he strikes the right string. What it withholds is of another order. Re-read the sentence and see which words are denied him."],
     ["He has the science in a lower degree", "The distinction is not one of degree. It divides the one who possesses the art from the one who merely does the thing, and such a division admits no half measures."],
     ["He does not know why that length is the right length", "The knowing of the cause is the whole difference, and it is why a monochord and a ratio are worth the trouble. Doing the thing and possessing the art are two acts."]
   ]},
@@ -537,11 +537,11 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What does the lesson name as the work of harmonics?", a: 2, o: [
     ["The performed song", "The lesson names this expressly as what the work is <em>not</em>. A work in the sense meant is a product of reason itself, and it lasts after the singing stops."],
     ["The trained ear", "Training the ear is a habit of sense, and the paragraph has just separated the possessor of the art from the one who does the thing well. Ask what reason produces."],
-    ["The known scale", "A product of reason, not of the throat or the fingers. Keep it in view when a later chapter builds a scale: the building is the art’s own work, not a preparation for something else."],
+    ["The known scale", "The known scale is a product of reason, not of the throat or the fingers. So when a later chapter builds a scale, the building is the art’s own work, not a preparation for something else."],
     ["The instrument, rightly tuned", "Tuning is done with the hands upon a thing, and the work in question is a product of reason itself. Ask what the art still has when the instrument is put away."]
   ]},
   { q: "Boethius says the same at the end of his first book. In what words?", a: 0, o: [
-    ["The true <span class=\"latin\">musicus</span> is the one who judges by reason", "An act of the intellect, not a skill of the hand — and note that this is a definition of a man, not of a repertoire. The course will hold you to it."],
+    ["The true <span class=\"latin\">musicus</span> is the one who judges by reason", "Judging is an act of the intellect, not a skill of the hand, and this is a definition of a man, not of a repertoire. The rest of the course keeps to this definition."],
     ["The true <span class=\"latin\">musicus</span> is the one who sings by rule", "Singing by rule is still singing, and a rule followed is not a judgement made. The distinction being drawn turns on an act of the intellect."],
     ["The true <span class=\"latin\">musicus</span> is the one who has learned the whole of arithmetic", "Arithmetic is presupposed by this art, and having it is not what the definition turns on. The mark named is an act, not a list of prior studies."],
     ["The true <span class=\"latin\">musicus</span> is the one who hears most finely", "A fine ear is a gift of sense, and the point of the whole distinction is that sense is not what makes the man. Ask which power is being named."]
@@ -554,27 +554,27 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Augustine’s treatise turns for five books to meter. How does the course treat that?", a: 3, o: [
     ["It denies that meter belongs to music at all", "The lesson says the opposite in plain words: it grants meter a place, and then explains why this course goes another way. Read the two sentences after the mention of the five books."],
-    ["It follows Augustine there and defers pitch", "The next chapters are announced as high and low and the lengths of a string, which is not meter. Ask which author is named as the quadrivium’s center of gravity."],
-    ["It treats meter as a metaphor for pitch", "The lesson refuses metaphor in this very paragraph and takes time to be really numbered. Two things really measured are not a figure for one another."],
-    ["Meter is the numbering of time and belongs to the art in a wide sense", "The course follows the quadrivium’s center of gravity, which is Boethius, and numbers pitch — while refusing to pretend Augustine wrote a book about the monochord."]
+    ["It follows Augustine there and defers pitch", "The next chapters are announced as high and low and the lengths of a string, which is not meter. Ask which author is named as the chief authority of the quadrivium."],
+    ["It treats meter as a metaphor for pitch", "The lesson refuses metaphor in this very paragraph and takes time to be really numbered. Since time and pitch are both really measured, neither is a figure for the other."],
+    ["Meter is the numbering of time and belongs to the art in a wide sense", "The course follows the chief authority of the quadrivium, Boethius, and numbers pitch, while refusing to pretend that Augustine wrote a book about the monochord."]
   ]},
   { q: "“We also will not pretend that ‘measuring well’ is a metaphor.” What is ruled out?", a: 1, o: [
     ["That music has any effect on the soul", "Nothing is said here about effects on the soul, and that would not be a question about the word “measuring” at all. Read the two sentences that stand together, one refusing a pretence and one affirming."],
-    ["The reading on which “measure” is only a figure of speech", "The art really measures — which is why a string and a ruler are proper to it, and why the definition can be tested rather than merely admired."],
+    ["The reading on which “measure” is only a figure of speech", "The art really measures, and that is why a string and a ruler are proper to it, and why the definition can be tested rather than merely admired."],
     ["The use of numbers at all", "The sentence defends measuring rather than retiring it. Ask what would be lost if “measure” were taken as a figure of speech."],
     ["That the art can be taught", "The whole course is a teaching of it, so nothing here could rule that out. The sentence concerns the word “measuring” and how literally it is to be taken."]
   ]},
-  { q: "The boxed remark lists what the course will not begin from. Which does it name?", a: 2, o: [
-    ["The monochord", "The course leans on the string rather than avoiding it. The box’s refusals are all of a later kind of label — things described there as names for what must first be known in itself."],
-    ["The ratios of Boethius", "Ratios are the course’s own instrument, and it reaches them as soon as it can. The refusals in the box are all of labels that come after the things they name."],
-    ["The treble clef, the names C-D-E, and “major” and “minor”", "Later labels for things we must first know in themselves. Notice the pattern: each is a notation or a category that presupposes a system this course has not yet built."],
-    ["The Greek names of the concords", "The course uses those freely and defends them elsewhere against a more modern word. The box refuses a different vocabulary, one belonging to a much later practice."]
+  { q: "The remark lists what the course will not begin from. Which does it name?", a: 2, o: [
+    ["The monochord", "The course depends on the string rather than avoiding it. The remark’s refusals are all of a later kind of label — things described there as names for what must first be known in itself."],
+    ["The ratios of Boethius", "Ratios are the course’s own instrument, and it reaches them as soon as it can. The refusals in the remark are all of labels that come after the things they name."],
+    ["The treble clef, the names C-D-E, and “major” and “minor”", "They are later labels for things we must first know in themselves, and each is a notation or a category that presupposes a system this course has not yet built."],
+    ["The Greek names of the concords", "The course uses those freely and defends them elsewhere against a more modern word. The remark refuses a different vocabulary, one belonging to a much later practice."]
   ]},
-  { q: "What else does the boxed remark refuse?", a: 0, o: [
-    ["To treat equal temperament as the nature of the intervals, and to treat the ancient authorities as if they agreed", "Where they dispute, the course follows St. Thomas when he has spoken and otherwise leaves the question open rather than inventing a school. Watch for that policy at every later seam."],
+  { q: "What else does the remark refuse?", a: 0, o: [
+    ["To treat equal temperament as the nature of the intervals, and to treat the ancient authorities as if they agreed", "Where they disagree, the course says so and leaves the rest open rather than inventing a school. The course keeps to that policy at every later point of disagreement."],
     ["To read any author later than Boethius", "The lesson cites St. Thomas, who is later, and the course promises a sixteenth-century dispute of its own. The refusals concern imported categories, not dates."],
-    ["To admit that the ancients ever disagreed", "The box says the reverse: it expects disputes and states what to do when it meets one. Read its last sentence, which describes a policy for exactly those places."],
-    ["To use a keyboard instrument at any point", "The complaint is against taking the piano’s tuning for the nature of the intervals, not against the instrument. Ask what is fudged, and what is being mistaken for what."]
+    ["To admit that the ancients ever disagreed", "The remark says the reverse: it expects disputes and states what to do when it meets one. Read its last sentence, which describes a policy for exactly those places."],
+    ["To use a keyboard instrument at any point", "The complaint is against taking the piano’s tuning for the nature of the intervals, not against the instrument. Ask what is narrowed, and what is being mistaken for what."]
   ]}
 ],
 
