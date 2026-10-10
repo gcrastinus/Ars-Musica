@@ -1624,7 +1624,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 
 "vii-3": [
   { q: "What question did the earlier lesson leave standing, and what did it say about it?", a: 2, o: [
-    ["That 81:64 is false, and that the course had shown it so", "The lesson says the dispute was real and could be left open, not that it was decided. A question left open has not been settled against either side."],
+    ["That 81:64 is false, and that this had been proved", "The lesson says the dispute was real and could be left open, not that it was decided. A question left open has not been settled against either side."],
     ["That the ditone and 5:4 are the same interval under two names", "They stand about a tenth of a tone apart, which is why the dispute was possible at all. Two names for one thing would not have taken two hundred years to sort out."],
     ["That two tones compounded give the ditone 81:64 while singers seem to want the gentler 5:4; the dispute was real, and a first-principles course could leave it open", "The tradition did not leave it open. It took about two hundred years to answer, and the answer came from practice before it came from theory."],
     ["That the ditone is a concord and 5:4 a dissonance, as the first four numbers require", "The lesson calls neither one a dissonance; it says one is bright and hard and the other settles. And the restriction to the first four numbers is what is later broken."]
