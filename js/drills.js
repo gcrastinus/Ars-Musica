@@ -48,10 +48,10 @@ function two(a, b, mode) { return { voices: [a, b], mode: mode || "both" }; }
 
 const NAMED = [
   { r: 1,     nm: "Unison — one sound twice",       why: "The pitches are equal. There is no interval yet, only the measure by which difference is heard." },
-  { r: 2,     nm: "Diapason — the eighth (2:1)",    why: "The half of the string against the whole. It blends so completely that the higher seems the lower raised." },
-  { r: 3 / 2, nm: "Diapente — the fifth (3:2)",     why: "Two thirds of the string against the whole. It blends, but you plainly hear two." },
-  { r: 4 / 3, nm: "Diatessaron — the fourth (4:3)", why: "Three quarters of the string against the whole. A concord, tighter and less open than the fifth." },
-  { r: 9 / 8, nm: "Tone (9:8)",                     why: "The fifth diminished by the fourth. It is a step, not a concord: the two sounds do not blend, they stand next to one another." }
+  { r: 2,     nm: "Diapason — the eighth (2:1)",    why: "This is half the string against the whole, and it blends so completely that the higher seems the lower raised." },
+  { r: 3 / 2, nm: "Diapente — the fifth (3:2)",     why: "This is two thirds of the string against the whole; it blends, but two sounds are plainly heard." },
+  { r: 4 / 3, nm: "Diatessaron — the fourth (4:3)", why: "This is three quarters of the string against the whole: a concord, tighter and less open than the fifth." },
+  { r: 9 / 8, nm: "Tone (9:8)",                     why: "This is the fifth diminished by the fourth. It is a step, not a concord, because the two sounds do not blend but stand next to one another." }
 ];
 
 const CONCORD = [
@@ -106,8 +106,8 @@ function judgeClarity() {
     ["Unimpaired — the fifth as the art measures it", "Injured — near a fifth, but the blend is not clean"],
     wide ? 1 : 0,
     wide
-      ? "The upper sound was moved by about a comma. Due proportion is approached, not kept. Clarity, which St. Thomas names with proportion among the conditions of beauty, is what has been lost."
-      : "That was 3:2. The blend is the diapente.",
+      ? "The upper sound was moved by about a comma, so due proportion is approached but not kept. Clarity, which St. Thomas names with proportion among the conditions of beauty, is what has been lost."
+      : "That was 3:2, the blend of the diapente.",
     two(1, r)
   );
 }
@@ -122,8 +122,8 @@ function judgeIntegrity() {
     options: ["Complete — the tetrachord as the art fills it", "Incomplete — a step is missing"],
     answer: missing ? 1 : 0,
     why: missing
-      ? "A standing fourth with a hole in it. Integrity is a condition of beauty: what is impaired is, by that fact, ugly."
-      : "Leimma, tone, tone. The fourth is filled.",
+      ? "The fourth was missing one of its steps. Integrity is a condition of beauty, so what is impaired is, by that fact, ugly."
+      : "Leimma, tone, and tone fill the fourth.",
     sound: { voices: rel, mode: "seq", many: true }
   };
 }
@@ -131,38 +131,38 @@ function judgeIntegrity() {
 /* ---------- E3 · length and pitch ---------- */
 const LENGTH_ITEMS = [
   () => ratio("The string is stopped at <b>3/4</b> of its length. What is the pitch of the stopped string to the open string? Give it as a ratio.",
-    ["4:3"], "Lengths 4:3, so pitches 4:3 the other way. Shorter length, higher pitch — the pitch ratio is the reciprocal of the length ratio.",
+    ["4:3"], "The lengths are 4:3, so the pitches are 4:3 the other way. The shorter length gives the higher pitch, because the pitch ratio is the reciprocal of the length ratio.",
     two(1, 4 / 3, "seq")),
   () => ratio("The string is stopped at <b>2/3</b> of its length. What is the pitch of the stopped string to the open string?",
-    ["3:2"], "The diapente. Two thirds of the length gives three halves the pitch.",
+    ["3:2"], "This is the diapente: two thirds of the length gives three halves the pitch.",
     two(1, 3 / 2, "seq")),
   () => ratio("The string is stopped at <b>8/9</b> of its length. What interval sounds against the open string? Give the ratio.",
-    ["9:8"], "The tone. The invariable rule: pitch ratio is the length ratio inverted.",
+    ["9:8"], "This is the tone. The rule does not vary: the pitch ratio is the length ratio inverted.",
     two(1, 9 / 8, "seq")),
-  () => ratio("You want the <b>diapason</b> above the open string. At what fraction of the length do you stop? Answer as a fraction, e.g. 3:4.",
-    ["1:2"], "Half the string. The first and simplest concord."),
-  () => ratio("You want the <b>diatessaron</b> above the open string. At what fraction of the length do you stop?",
-    ["3:4"], "Three quarters. Lengths 4:3 give pitches 4:3 inverted."),
-  () => ratio("You want the <b>diapente</b> above the open string. At what fraction of the length do you stop?",
-    ["2:3"], "Two thirds. This is the stopping-place a beginner should be able to find without thinking."),
+  () => ratio("To sound the <b>diapason</b> above the open string, at what fraction of the length is the string stopped? Answer as a fraction, e.g. 3:4.",
+    ["1:2"], "Half the string gives the first and simplest concord."),
+  () => ratio("To sound the <b>diatessaron</b> above the open string, at what fraction of the length is the string stopped?",
+    ["3:4"], "Three quarters: lengths of 4:3 give pitches of 4:3, inverted."),
+  () => ratio("To sound the <b>diapente</b> above the open string, at what fraction of the length is the string stopped?",
+    ["2:3"], "Two thirds. This is the stopping-place a beginner should learn to find without hesitation."),
   () => ratio("A length of 2/3 sounds a fifth above the open string. What length sounds a fifth above <em>that</em>?",
-    ["4:9"], "Two thirds of two thirds. Intervals compound by multiplying the lengths, not by taking equal bites out of the string.",
+    ["4:9"], "It is two thirds of two thirds, because intervals compound by multiplying the lengths, not by taking equal pieces off the string.",
     null),
-  () => mc("You shorten the sounding length and change nothing else. The pitch",
+  () => mc("If the sounding length is shortened and nothing else is changed, the pitch",
     ["gets higher", "gets lower", "stays the same, since it is the same string"], 0,
-    "Shorter sounding length, higher pitch. Everything in the art rests on this one observed rule."),
+    "A shorter sounding length gives a higher pitch, and everything in the art depends on this one observed rule."),
   () => mc("The lengths of two sounding strings stand as 3:2. Their pitches stand as",
     ["3:2, but the other way about — the shorter string is the higher",
      "3:2, the longer string being the higher",
      "2:3, the shorter string being the lower"], 0,
     "The ratio is the same; which term belongs to which sound is inverted. Getting this backwards is the commonest error in the whole art."),
   () => ratio("Two strings sound the ratio 16:9. If the first is 144 units long, how long is the second? Give your answer as a ratio of the two lengths, shorter to longer.",
-    ["9:16"], "Lengths are inverse to pitches. You need not know 144 at all — the question is testing whether the inversion is automatic in you yet."),
+    ["9:16"], "Lengths are inverse to pitches. The figure 144 is not needed at all; the question tests whether the inversion has become automatic."),
   () => mc("Why does the art measure by <em>ratio</em> rather than by leftover inches of string?",
     ["Because intervals compound by multiplication, and inches would have you add",
      "Because inches were not yet invented in Greece",
      "Because the string is not really straight"], 0,
-    "Compounding a fifth with a fourth is (3:2)×(4:3), not 'add the bits you did not use'. This is why harmonics is arithmetic applied to sound and not a geometrical cutting of a rod.")
+    "Compounding a fifth with a fourth is (3:2)×(4:3), not the adding of leftover pieces of string. This is why harmonics is arithmetic applied to sound and not a geometrical cutting of a rod.")
 ];
 
 /* ---------- E4 · the arithmetic of intervals ---------- */
@@ -194,28 +194,28 @@ const ARITH_ITEMS = [
   () => ratio("A <b>ditone</b> taken away from a <b>diapason</b>.",
     ["128:81"], "(2:1) ÷ (81:64) = 128:81."),
   () => ratio("Twelve <b>diapentes</b> compounded, then seven <b>diapasons</b> taken away. What is left?",
-    ["531441:524288"], "The Pythagorean comma. It is not nothing, and that is why no instrument of fixed pitch can close its circle with pure fifths."),
+    ["531441:524288"], "This is the Pythagorean comma. It is not zero, and that is why no instrument of fixed pitch can close its circle with pure fifths."),
   () => mc("To compound two intervals, you",
     ["multiply their ratios", "add their ratios", "add the string lengths"], 0,
-    "Compounding is multiplying. This single fact is what makes harmonics a part of arithmetic.")
+    "Compounding is multiplying, and this single fact is what makes harmonics a part of arithmetic.")
 ];
 
 /* ---------- E5 · the kinds of ratio ---------- */
 const KIND_OPTS = ["Multiplex", "Superparticularis", "Superpartiens", "Multiplex superparticularis", "Multiplex superpartiens"];
 const KINDS = [
-  { r: "2:1",   k: 0, nm: "duplus",                          why: "The greater contains the less exactly twice and nothing over: a multiple, and the first of them." },
-  { r: "3:1",   k: 0, nm: "triplus",                         why: "Three times exactly. A multiple." },
-  { r: "4:1",   k: 0, nm: "quadruplus",                      why: "Four times exactly. A multiple." },
-  { r: "3:2",   k: 1, nm: "sesquialter",                     why: "Once, and half of the less over. A superparticular, and the first of them." },
-  { r: "4:3",   k: 1, nm: "sesquitertius",                   why: "Once, and a third of the less over. The second superparticular." },
-  { r: "5:4",   k: 1, nm: "sesquiquartus",                   why: "Once, and a fourth over. A superparticular — the third of them, and the ratio the sixteenth century would admit as a concord." },
-  { r: "9:8",   k: 1, nm: "sesquioctavus",                   why: "Once, and an eighth over. A superparticular, but far down the order: this is why the tone is lawful and yet not a concord." },
-  { r: "5:3",   k: 2, nm: "superbipartiens tertias",         why: "Once, and two thirds of the less over — more than one like part. A superpartient." },
-  { r: "7:4",   k: 2, nm: "supertripartiens quartas",        why: "Once, and three quarters over. A superpartient." },
-  { r: "16:9",  k: 2, nm: "superseptipartiens nonas",        why: "Once, and seven ninths over. A superpartient — the class the ancients allowed no concord to." },
-  { r: "256:243", k: 2, nm: "a superpartient",               why: "Once, and thirteen parts of two hundred forty-three over. The leimma is a superpartient, which is one reason it is the least noble interval in the scale." },
-  { r: "9:4",   k: 3, nm: "duplex sesquiquartus",            why: "Twice, and a quarter of the less over: a multiple with a superparticular part." },
-  { r: "8:3",   k: 4, nm: "duplex superbipartiens tertias",  why: "Twice, and two thirds over. The diapason-plus-diatessaron falls in this class — which is exactly why the Pythagoreans refused it the name of concord and Ptolemy allowed it." }
+  { r: "2:1",   k: 0, nm: "duplus",                          why: "The greater contains the less exactly twice and nothing over, so it is a multiple, and the first of them." },
+  { r: "3:1",   k: 0, nm: "triplus",                         why: "The greater contains the less three times exactly, so it is a multiple." },
+  { r: "4:1",   k: 0, nm: "quadruplus",                      why: "The greater contains the less four times exactly, so it is a multiple." },
+  { r: "3:2",   k: 1, nm: "sesquialter",                     why: "The greater contains the less once, and half of the less over, so it is a superparticular, and the first of them." },
+  { r: "4:3",   k: 1, nm: "sesquitertius",                   why: "The greater contains the less once, and a third of the less over; it is the second superparticular." },
+  { r: "5:4",   k: 1, nm: "sesquiquartus",                   why: "The greater contains the less once, and a fourth over. It is a superparticular, the third of them, and the ratio the sixteenth century would admit as a concord." },
+  { r: "9:8",   k: 1, nm: "sesquioctavus",                   why: "The greater contains the less once, and an eighth over. It is a superparticular, but far down the order, which is why the tone is lawful and yet not a concord." },
+  { r: "5:3",   k: 2, nm: "superbipartiens tertias",         why: "The greater contains the less once, and two thirds of the less over, which is more than one like part, so it is a superpartient." },
+  { r: "7:4",   k: 2, nm: "supertripartiens quartas",        why: "The greater contains the less once, and three quarters over, so it is a superpartient." },
+  { r: "16:9",  k: 2, nm: "superseptipartiens nonas",        why: "The greater contains the less once, and seven ninths over. It is a superpartient, the class in which the ancients allowed no concord." },
+  { r: "256:243", k: 2, nm: "a superpartient",               why: "The greater contains the less once, and thirteen parts of two hundred forty-three over. The leimma is a superpartient, which is one reason it is the least noble interval in the scale." },
+  { r: "9:4",   k: 3, nm: "duplex sesquiquartus",            why: "The greater contains the less twice, and a quarter of the less over, so it is a multiple with a superparticular part." },
+  { r: "8:3",   k: 4, nm: "duplex superbipartiens tertias",  why: "The greater contains the less twice, and two thirds over. The diapason-plus-diatessaron falls in this class, which is why the Pythagoreans refused it the name of concord and Ptolemy allowed it." }
 ];
 function kindItem() {
   const t = R.pick(KINDS);
@@ -240,7 +240,7 @@ const KIND_EXTRA = [
     ["Because their bound was the tetractys: concord arises only within the first four numbers",
      "Because 5:4 cannot be sounded on a string",
      "Because 5 is not a prime number"], 0,
-    "The bound was set at four. Zarlino later moved it to six — the senario — which is how the third was admitted. The dispute is about where the bound belongs, not about whether ratios matter.")
+    "The bound was set at four. Zarlino later moved it to six (the senario), and that is how the third was admitted. The dispute is about where the bound belongs, not about whether ratios matter.")
 ];
 
 /* ---------- E6 · the means ---------- */
@@ -257,19 +257,19 @@ const MEAN_ITEMS = [
   () => num("What is the <b>harmonic</b> mean of 3 and 6?",
     [4], "3 : 4 : 6 gives the diatessaron and then the diapente, filling the diapason — the same figure as 6:8:12."),
   () => num("What is the <b>arithmetic</b> mean of 3 and 6?",
-    [4.5, "4.5", "9/2"], "Four and a half — not a whole number, which is why the tetrad is written 6:8:9:12 rather than 3:4:...:6."),
+    [4.5, "4.5", "9/2"], "Four and a half, which is not a whole number, and that is why the tetrad is written 6:8:9:12 rather than 3:4:...:6."),
   () => ratio("In the musical proportion <b>6 : 8 : 9 : 12</b>, what interval stands between 6 and 8?",
-    ["4:3"], "The diatessaron."),
+    ["4:3"], "That is the diatessaron."),
   () => ratio("In <b>6 : 8 : 9 : 12</b>, what interval stands between 6 and 9?",
-    ["3:2"], "The diapente."),
+    ["3:2"], "That is the diapente."),
   () => ratio("In <b>6 : 8 : 9 : 12</b>, what interval stands between 8 and 9?",
-    ["9:8"], "The tone — and it is exactly the difference between the harmonic and the arithmetic mean."),
+    ["9:8"], "That is the tone, and it is exactly the difference between the harmonic and the arithmetic mean."),
   () => ratio("In <b>6 : 8 : 9 : 12</b>, what interval stands between 8 and 12?",
-    ["3:2"], "The diapente again, from the other mean."),
+    ["3:2"], "That is the diapente again, from the other mean."),
   () => ratio("In <b>6 : 8 : 9 : 12</b>, what interval stands between 9 and 12?",
-    ["4:3"], "The diatessaron again."),
+    ["4:3"], "That is the diatessaron again."),
   () => ratio("In <b>6 : 8 : 9 : 12</b>, what interval stands between 6 and 12?",
-    ["2:1"], "The diapason. All four concords, and the tone, live in four numbers."),
+    ["2:1"], "That is the diapason. All four concords, and the tone, are contained in four numbers."),
   () => mc("Why can the tone 9:8 not be divided into two equal intervals?",
     ["Because a superparticular ratio in least terms admits no mean proportional in whole numbers",
      "Because the ear cannot hear so small a difference",
@@ -284,7 +284,7 @@ const MEAN_ITEMS = [
 
 /* ---------- E7 · building the diapason ---------- */
 const SCALE_ITEMS = [
-  () => mc("In the diatonic genus, the tetrachord — a fourth — is filled by",
+  () => mc("In the diatonic genus, the tetrachord (a fourth) is filled by",
     ["two tones and a remnant", "three equal steps", "a tone and two equal semitones"], 0,
     "Two tones make 81:64; what remains of 4:3 is 256:243, the leimma. The three steps are not equal and cannot be made so."),
   () => ratio("Compute the remnant: a <b>diatessaron</b> less <b>two tones</b>.",
@@ -293,7 +293,7 @@ const SCALE_ITEMS = [
     ["a tone of disjunction", "a leimma", "nothing — two fourths already make a diapason"], 0,
     "(4:3) × (9:8) × (4:3) = 2:1. Two fourths alone give 16:9, which falls short by exactly that tone."),
   () => ratio("Verify it: compound <b>4:3</b>, <b>9:8</b> and <b>4:3</b>. What results?",
-    ["2:1"], "The diapason. The scale is not a convention; it is a consequence."),
+    ["2:1"], "That is the diapason. The scale is not a convention but a consequence."),
   () => mc("Why does the filled diapason have eight standing sounds?",
     ["Because 4:3 + 9:8 + 4:3 fills it, and that path has eight sounds counting both ends",
      "Because there are eight planets",
@@ -303,7 +303,7 @@ const SCALE_ITEMS = [
     ["leimma, tone, tone, tone, leimma, tone, tone",
      "tone, tone, tone, leimma, tone, tone, leimma",
      "seven equal steps"], 0,
-    "Where the leimmata fall depends on where you begin — which is what the ancients meant by the species of the diapason, and the medievals by the modes."),
+    "Where the leimmata fall depends on where we begin, which is what the ancients meant by the species of the diapason, and the medievals by the modes."),
   () => ratio("Two tetrachords are joined <em>without</em> a tone between them — conjunct, sharing a sound. What interval do they span together?",
     ["16:9"], "(4:3) × (4:3) = 16:9, a tone short of the diapason. This is the conjunct arrangement of the Lesser Perfect System."),
   () => mc("The leimma 256:243 is",
@@ -315,7 +315,7 @@ const SCALE_ITEMS = [
     ["Because 9:8 is superparticular, and no superparticular admits a mean proportional",
      "Because the ear cannot tell halves apart",
      "Because Boethius forbade it as a matter of taste"], 0,
-    "Archytas’s theorem. The leimma is therefore a remnant, not a half, and the eight sounds of the diapason are a consequence of that arithmetic."),
+    "This is Archytas’s theorem, and so the leimma is a remnant, not a half, and the eight sounds of the diapason are a consequence of that arithmetic."),
   () => ratio("A <b>tone of disjunction</b> compounded with <b>two fourths</b>. What interval results?",
     ["2:1"], "(9:8) × (4:3) × (4:3) = 2:1. That is the disjunct filling of the diapason.")
 ];
@@ -330,25 +330,25 @@ const SCI_OPTS = [
   "Sacred doctrine"
 ];
 const SCI = [
-  ["The diapente is the ratio 3:2.", 0, "A claim about sounding pitch demonstrated through number: the middle science itself."],
-  ["A fifth compounded with a fourth makes a diapason.", 0, "Sounding intervals, demonstrated arithmetically. Harmonics."],
-  ["The tone cannot be divided into two equal ratios.", 1, "This is a theorem about superparticular ratios. It is true of every superparticular, sounding or not — so it belongs to arithmetic, which harmonics borrows."],
-  ["All inequality proceeds from equality.", 1, "Pure arithmetic. Harmonics presupposes it and does not prove it."],
-  ["A struck string moves the air, and the moved air the ear.", 2, "A causal account of a natural process through the natures of bodies: natural philosophy, not harmonics."],
-  ["The heavens make no sound, because they do not strike a medium.", 2, "Aristotle's argument in the De caelo. It is a claim about bodies, settled in natural philosophy."],
-  ["The pitch of a string varies as the square root of the tension.", 2, "Vincenzo Galilei's law. Its middle term is the nature of a stretched body, so it belongs to physics."],
-  ["Boys should be taught music so far as it forms them, and no further.", 3, "Aristotle in the Politics. The end is the character of the citizen: moral and political science."],
+  ["The diapente is the ratio 3:2.", 0, "It is a claim about sounding pitch demonstrated through number, and so belongs to the middle science itself."],
+  ["A fifth compounded with a fourth makes a diapason.", 0, "It concerns sounding intervals, demonstrated arithmetically, and so belongs to harmonics."],
+  ["The tone cannot be divided into two equal ratios.", 1, "This is a theorem about superparticular ratios. It is true of every superparticular, sounding or not, so it belongs to arithmetic, which harmonics borrows."],
+  ["All inequality proceeds from equality.", 1, "This is pure arithmetic; harmonics presupposes it and does not prove it."],
+  ["A struck string moves the air, and the moved air the ear.", 2, "It gives a causal account of a natural process through the natures of bodies, and so belongs to natural philosophy, not harmonics."],
+  ["The heavens make no sound, because they do not strike a medium.", 2, "This is Aristotle's argument in the De caelo, a claim about bodies settled in natural philosophy."],
+  ["The pitch of a string varies as the square root of the tension.", 2, "This is Vincenzo Galilei's law. Its middle term is the nature of a stretched body, so it belongs to physics."],
+  ["Boys should be taught music so far as it forms them, and no further.", 3, "This is Aristotle in the Politics. Its end is the character of the citizen, so it belongs to moral and political science."],
   ["The soul is moved in various ways by various melodies.", 3, "St. Thomas cites this when asking about song in divine praise. It concerns the passions and their ordering."],
-  ["This antiphon is beautifully made, and delights the hearer.", 4, "A judgement about a work made to please: the fine art, which is not the liberal art."],
-  ["The composer should not let the tune swallow the words.", 4, "Advice about making a work well — with a moral edge, but its subject is the making."],
+  ["This antiphon is beautifully made, and delights the hearer.", 4, "It is a judgment about a work made to please, and so belongs to the fine art, which is not the liberal art."],
+  ["The composer should not let the tune swallow the words.", 4, "It is advice about making a work well; it has a moral side, but its subject is the making."],
   ["God ought to be praised with song.", 5, "St. Thomas treats this at ST II-II q.91. Its principles are revealed, not arithmetical."],
-  ["Beauty requires integrity, due proportion, and clarity.", 5, "A claim about being as such, made in sacred doctrine at ST I q.39 a.8. Harmonics gives it one verified instance; it does not establish it."],
-  ["Two thirds of the string sounds a fifth above the whole.", 0, "The middle science: a physical subject, an arithmetical middle term."],
+  ["Beauty requires integrity, due proportion, and clarity.", 5, "It is a claim about being as such, made in sacred doctrine at ST I q.39 a.8. Harmonics gives it one verified instance; it does not establish it."],
+  ["Two thirds of the string sounds a fifth above the whole.", 0, "This is the middle science, with a physical subject and an arithmetical middle term."],
   ["Twelve fifths overshoot seven diapasons.", 1, "No power of 3 is a power of 2. The proof needs no sound at all."],
-  ["The Dorian produces a moderate and settled temper.", 3, "Aristotle in Politics VIII. The claim is about character, not about a ratio. Moral and political science."],
-  ["Even in mere melodies there is an imitation of character.", 3, "Aristotle again. Harmonics can say what interval you heard. It cannot demonstrate this."],
-  ["Ethical melodies are to be preferred in the education of the young.", 3, "A rule for formation in the city. The end is the citizen, not the scale."],
-  ["The Phrygian inspires enthusiasm.", 3, "An effect ascribed to a mode. The ascription is ethics, whether or not one accepts it."]
+  ["The Dorian produces a moderate and settled temper.", 3, "This is Aristotle in Politics VIII. The claim is about character, not about a ratio, so it belongs to moral and political science."],
+  ["Even in mere melodies there is an imitation of character.", 3, "This is Aristotle again. Harmonics can say what interval was heard, but it cannot demonstrate this."],
+  ["Ethical melodies are to be preferred in the education of the young.", 3, "This is a rule for formation in the city; its end is the citizen, not the scale."],
+  ["The Phrygian inspires enthusiasm.", 3, "This is an effect ascribed to a mode, and the ascription belongs to ethics, whether or not one accepts it."]
 ];
 function sciItem() {
   const t = R.pick(SCI);
@@ -370,7 +370,7 @@ function eastGenItem() {
     ask: "Four sounds, filling one fourth. How is the fourth divided?",
     options: opts,
     answer: opts.indexOf(t.name),
-    why: `That was the <b>${t.name.toLowerCase()}</b> — ${t.note}.` +
+    why: `That was the <b>${t.name.toLowerCase()}</b> (${t.note}).` +
       (t.era === "1881"
         ? " A division of the Patriarchal Committee of 1881; its fourth is 500¢, two cents wider than the true 4:3."
         : " An ancient division; its fourth is the true 4:3, 498.04¢."),
@@ -411,7 +411,7 @@ function isonItem() {
       options: opts,
       answer: opts.indexOf(t.nm),
       why: `It rested ${t.nm.toLowerCase().replace("on the held sound itself", "on the held sound")}. ` +
-        "Against a fixed sound, a resting place is heard as a relation and not merely as a pitch — which is the whole use of an ison.",
+        "Against a fixed sound, a resting place is heard as a relation and not merely as a pitch, and that is the whole use of an ison.",
       sound: { voices: isonWalk(t.i), mode: "seq", drone: 1, many: true }
     };
   }
@@ -422,8 +422,8 @@ function isonItem() {
     options: ["It stays on one pitch throughout", "It moves once, part way through"],
     answer: moved ? 1 : 0,
     why: moved
-      ? "It shifted. Isokratai do move — the drone follows the mode where the melody demands it, and a shifting ison is not a mistake."
-      : "It held. The commonest case, and the one that gives the line its measure.",
+      ? "It shifted. The isokratai do move: the drone follows the melody’s ground where the melody demands it, so a shifting ison is not a mistake."
+      : "It held. That is the commonest case, and the one that gives the line its measure.",
     sound: { voices: isonWalk(R.pick([0, 1, 3, 4])), mode: "seq", drone: 1, droneShift: moved ? 4 / 3 : 0, many: true }
   };
 }
