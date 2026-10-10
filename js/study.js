@@ -580,48 +580,48 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 
 "ii-1": [
   { q: "St. Thomas, reading Aristotle’s <span class=\"latin\">De anima</span>, treats sound as what?", a: 1, o: [
-    ["A quality of the air, and only indirectly of the body struck", "The medium is affected, and the lesson says so. But the question asks what sound is to a power of the soul — not what it happens to travel through. Those are two different claims about one event."],
-    ["The proper object of hearing, as color is of sight", "Which fixes where the art must start. A proper object is what its sense alone reaches, so nothing but hearing can hand this art its subject."],
-    ["A common sensible, reached by more than one sense", "A common sensible is one several senses attain — motion, or number. The lesson pairs sound with color, and color is reached by one sense only. Ask what that pairing implies."],
-    ["An accident of motion known only by reason", "If sound were known only by reason, the art would not begin where the lesson insists it begins. Read the short sentence that closes that paragraph."]
+    ["A quality of the air, and only indirectly of the body struck", "The medium is affected, and the lesson says so. But the question asks what sound is to a power of the soul, not what it happens to travel through. Those are two different claims about one event."],
+    ["The proper object of hearing, as color is of sight", "That fixes where the art must start. A proper object is what its sense alone reaches, so nothing but hearing can give this art its subject."],
+    ["A common sensible, reached by more than one sense", "A common sensible is one several senses attain (motion, or number). The lesson pairs sound with color, and color is reached by one sense only. Ask what that pairing implies."],
+    ["An accident of motion known only by reason", "If sound were known only by reason, the art would not begin where the lesson insists it begins. Read the sentence that closes that paragraph."]
   ]},
   { q: "“We do not first have a theory and then go looking for a noise.” What order does this insist on?", a: 3, o: [
-    ["That theory and sense are simultaneous", "The sentence is about which comes first, and the two words that close the paragraph settle it. Simultaneity would leave the boxed remark nothing to argue."],
-    ["That theory is unnecessary in this art", "The lesson gives reason a great deal to do — it is what knows why the sounds stand as they do. What is fixed here is which comes first, not whether both are wanted."],
-    ["That the ear judges the ratios", "The lesson assigns the knowing of why to reason using arithmetic, and gives the ear the sound. You have handed one power the other’s office. Read the boxed remark to the end."],
-    ["That the art begins from a thing heard, and the mathematics comes to it afterward", "The shape of a middle science, stated as a rule of learning. Reverse it and you are doing arithmetic and hunting for a noise to fit."]
+    ["That theory and sense are simultaneous", "The sentence is about which comes first, and the clause that closes the paragraph settles it. Simultaneity would leave the remark nothing to argue."],
+    ["That theory is unnecessary in this art", "The lesson gives reason a great deal to do; it is what knows why the sounds stand as they do. What is fixed here is which comes first, not whether both are wanted."],
+    ["That the ear judges the ratios", "The lesson assigns the knowing of why to reason using arithmetic, and gives the ear the sound. You have handed one power the other’s office. Read the remark to the end."],
+    ["That the art begins from a thing heard, and the mathematics comes to it afterward", "That is the shape of a middle science, stated as a rule of learning. If we reverse it, we are doing arithmetic and looking for a noise to fit."]
   ]},
   { q: "Why is a stone at rest silent, and the same stone, struck, not?", a: 0, o: [
-    ["Because sound is caused: a body is struck or otherwise moved with a certain violence, and the medium is affected so as to be audible", "Notice how little is being claimed. No physics textbook is invoked; the lesson asks only that you notice what you already know."],
-    ["Because the stone at rest has no pitch", "Height is a further question, and many things sound without any definite height — the lesson names a scrape and a cough. Ask first what makes anything audible at all."],
+    ["Because sound is caused: a body is struck or otherwise moved with a certain violence, and the medium is affected so as to be audible", "Little is being claimed. No physics textbook is invoked; the lesson asks only that we notice what we already know."],
+    ["Because the stone at rest has no pitch", "Height is a further question, and many things sound without any definite height; the lesson names a scrape and a cough. Ask first what makes anything audible at all."],
     ["Because stone is not a sounding body", "The example is chosen so that one and the same stone does both, which would be impossible if the material settled it. Notice what changed between the halves of the sentence."],
     ["Because the air must be still for sound to travel", "You have made the medium’s stillness the cause, where the lesson makes its being affected the cause. Ask what is done to the air when the stone sounds."]
   ]},
   { q: "“A taut string sounds in a way a heap of wool does not.” What is this for?", a: 2, o: [
     ["To show that strings are the only proper subject of the art", "Bells and sung vowels are named a moment later. The wool is there to make a comparison, not to narrow the art to one instrument."],
     ["To show that sound requires a hard body", "Hardness is not what the lesson picks out, and a sung vowel comes from nothing hard. Ask what the string has that the wool lacks when each is struck."],
-    ["To show that not every body sounds equally", "And the lesson adds that no physics textbook is needed for this — only attention to what you already know. The art begins from ordinary noticing."],
+    ["To show that not every body sounds equally", "And the lesson adds that no physics textbook is needed for this, only attention to what we already know. The art begins from ordinary noticing."],
     ["To show that the medium matters more than the body", "Both bodies sit in the same air and behave differently, so the difference cannot be laid at the medium’s door. Compare the two bodies, not their surroundings."]
   ]},
   { q: "Some sounds last and have a definite height; others do not. Which examples belong to the second kind, and which kind does the art take?", a: 1, o: [
-    ["A bell and a sung vowel; the art takes those", "Both of those stand on the other side of the division — they last and they have a height. Read the two lists again and notice which examples are given no height at all."],
-    ["A scrape, a cough, a wave on gravel; the art of harmonics is about the first kind", "Which quietly narrows the subject before any ratio appears. Everything later in the course is about sounds that last long enough to be compared."],
+    ["A bell and a sung vowel; the art takes those", "Both of those stand on the other side of the division; they last and they have a height. Read the two lists again and notice which examples are given no height at all."],
+    ["A scrape, a cough, a wave on gravel; the art of harmonics is about the first kind", "That narrows the subject before any ratio appears. Everything later in the course is about sounds that last long enough to be compared."],
     ["A scrape and a cough; the art takes both kinds equally", "The examples are right and the scope is wrong. The sentence following the lists says plainly which kind harmonics is about, and it does not say both."],
     ["A plucked string; harmonics is about the second kind", "A plucked string lasts and has a definite height, which puts it on the other side of the division. Sort the examples again before deciding which side the art takes."]
   ]},
   { q: "“Acute” and “grave” are the old vocabulary for what?", a: 2, o: [
     ["Loud and soft", "Strength of sound is a different difference altogether, and nothing in the lesson turns on it. Ask which difference the paragraph has just been at pains to introduce."],
     ["Long and short", "Duration is named in the lesson, and it is not what these two words mark. Read the sentence they appear in and see which pair of English words they stand beside."],
-    ["High and low", "The old pair has the merit of not sounding like positions in space — which is the very confusion the next sentence goes on to head off."],
+    ["High and low", "The old pair has the merit of not sounding like positions in space, and that is the very confusion the next sentence goes on to prevent."],
     ["Concord and discord", "Those say how two sounds stand together, and only one sound is in question here. Ask how many sounds you need before the word in the lesson applies."]
   ]},
   { q: "Why insist that “high” and “low” are not places in a room?", a: 0, o: [
-    ["Because they are differences of the sound itself, as red and blue are differences of color", "The parallel with color is doing real work: it makes height a quality of the thing heard rather than a report of where it came from."],
+    ["Because they are differences of the sound itself, as red and blue are differences of color", "The parallel with color matters, because it makes height a quality of the thing heard rather than a report of where it came from."],
     ["Because the words were borrowed from Greek notation", "The lesson says nothing about where the English words came from, and its point does not depend on their history. Ask what kind of difference it says they mark."],
     ["Because higher sounds are not literally above lower ones on a staff", "A staff is a piece of later notation, and this course has not introduced one. The point concerns the sounds themselves, before any way of writing them."],
     ["Because the ear cannot locate sounds in space", "The ear locates sounds well enough, and no claim about that is made. What is denied is that these words are reports of location at all."]
   ]},
-  { q: "What does the lesson say made the pitched sound you heard?", a: 3, o: [
+  { q: "What does the lesson say made the pitched sound we heard?", a: 3, o: [
     ["A body vibrating at a fixed number of hertz", "The count is admitted a little further on as a measure, and the lesson refuses to start there. Say first what the body was doing, in words needing no instrument to state."],
     ["A motion of the air alone", "The air is the medium that carries it, and the lesson names something that was moved. Ask what was set going before the air was affected."],
     ["A single motion that does not return", "A motion that does not return gives a knock, not a lasting height. Look at the word the lesson uses for what this motion does."],
@@ -633,16 +633,16 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["It allows the count as a measure, while refusing to begin by saying pitch is a number of hertz", "The number measures the motion that is the sound. That is a modest place for it, and it keeps the order of a middle science intact."],
     ["It treats frequency as a metaphor", "Nothing is called a metaphor here, and the count is taken as literally true of the motion. The reservation concerns the order of learning."]
   ]},
-  { q: "The boxed remark asks why this order. What would go wrong if the art began from numbers?", a: 1, o: [
-    ["The numbers would come out false", "The arithmetic is nowhere in doubt in this course. The box’s worry is about which science you would be doing, not about whether the figures work."],
-    ["You would be doing arithmetic and then looking around for a noise that fitted it", "Which would leave the natural subject as decoration. A middle science demonstrates about a real thing, so the real thing must be had first."],
-    ["The student would find it too hard", "Difficulty is not the objection. The box gives a reason of another kind, one about how a middle science is put together. Read it through to the end."],
-    ["The ratios would have to be taken on authority", "Authority is not what the box guards against here; it is guarding an order. Ask which end a middle science starts from."]
+  { q: "The remark asks why this order. What would go wrong if the art began from numbers?", a: 1, o: [
+    ["The numbers would come out false", "The arithmetic is nowhere in doubt in this course. The remark’s worry is about which science we would be doing, not about whether the figures work."],
+    ["You would be doing arithmetic and then looking around for a noise that fitted it", "That would leave the natural subject as decoration. A middle science demonstrates about a real thing, so the real thing must be had first."],
+    ["The student would find it too hard", "Difficulty is not the objection. The remark gives a reason of another kind, one about how a middle science is put together. Read it through to the end."],
+    ["The ratios would have to be taken on authority", "The remark is not guarding against authority here but guarding an order. Ask which end a middle science starts from."]
   ]},
-  { q: "What does the box give as the ground for this order?", a: 0, o: [
-    ["That all our knowledge begins in the senses", "The ear gives us sound; reason, using arithmetic, knows why these sounds stand to one another as they do. Two distinct offices, and the art needs both."],
+  { q: "What does the remark give as the ground for this order?", a: 0, o: [
+    ["That all our knowledge begins in the senses", "The ear gives us sound; reason, using arithmetic, knows why these sounds stand to one another as they do. These are two distinct offices, and the art needs both."],
     ["That the senses never deceive", "No such claim is made, and the art would be in trouble if it rested on one. What is claimed concerns where knowing starts, not whether sense can err."],
-    ["That mathematics is less certain than sense", "Nothing here ranks the two for certainty. The claim is about the order in which knowledge comes to us. Read the box’s last two sentences."],
+    ["That mathematics is less certain than sense", "Nothing here ranks the two for certainty. The claim is about the order in which knowledge comes to us. Read the remark’s last two sentences."],
     ["That hearing is the noblest of the senses", "The lesson pairs hearing with sight and ranks neither, and a ranking would do no work in the argument. Ask what claim about <em>all</em> knowledge is being made."]
   ]}
 ],
@@ -651,67 +651,67 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "“One rod is long or short only by comparison.” What does that show about a sound?", a: 2, o: [
     ["That pitch is not a real difference in the sound", "The previous lesson made height a difference of the sound itself, and this one does not take it back. Being known by comparison is not the same as being unreal."],
     ["That a sound must be measured against a fixed standard pitch", "No standard is fixed anywhere in this course, and none is needed to hear that one sound stands above another. The comparison is between the two sounds you have."],
-    ["That a sound is called high or low only in relation to another", "Which is why this lesson comes before any ratio: the art’s whole business is with pairs. A single sound in isolation gives the art nothing to work on."],
+    ["That a sound is called high or low only in relation to another", "That is why this lesson comes before any ratio; the art’s whole business is with pairs. A single sound in isolation gives the art nothing to work on."],
     ["That high and low are matters of opinion", "A rod’s length is no matter of opinion for being known by comparison, and neither is a pitch. Distinguish what a thing is from what it takes to see it."]
   ]},
   { q: "What does the word <em>interval</em> mean at this stage?", a: 0, o: [
-    ["A gap, a standing-apart: these two pitches, as compared", "Nothing is counted yet and nothing is named. That bareness is deliberate — it leaves room for the ratios to arrive as a discovery rather than a definition."],
+    ["A gap, a standing-apart: these two pitches, as compared", "Nothing is counted yet and nothing is named. That bareness is deliberate; it leaves room for the ratios to arrive as a discovery rather than a definition."],
     ["A distance on a keyboard", "That is a measurement taken on an instrument this course has not introduced, and it presupposes a scale already laid out. Ask what the word says before any instrument exists."],
     ["A number of semitones", "Counting semitones supposes a scale already divided, which you do not yet have. Read the sentence that says what the word does <em>not</em> yet mean."],
     ["A concord", "Some intervals blend and some grind, and the word covers both without prejudice. You have narrowed it to one of its sorts before the sorts have been named."]
   ]},
   { q: "Play a sound, then another. How many outcomes does the lesson allow, and what are they?", a: 3, o: [
-    ["Three: unison, concord, discord", "You have jumped a stage. Blending and grinding are noticed only after the two are found to differ at all. Read the sentence directly after “Play a sound, then another.”"],
+    ["Three: unison, concord, discord", "You have jumped a stage. Blending and grinding are noticed only after the two are found to differ at all. Read the sentence that begins “One sound, then another.”"],
     ["Three: same, higher, lower", "Higher and lower are two ways of differing, and the lesson does not yet separate them. It draws its line one step earlier and more simply. Look at the word “Either”."],
     ["As many as there are semitones between them", "Semitones divide something not yet built, and the lesson refuses that count outright at this stage. The division it draws needs no counting whatever."],
-    ["Two: either they are the same in height, or they are not", "A division of that bareness can be made by anyone with ears, which is exactly why it is put first. Everything the art builds hangs from this one cut."]
+    ["Two: either they are the same in height, or they are not", "Anyone with ears can make a division that simple, and that is why it is put first. Everything the art builds depends on this one division."]
   ]},
   { q: "What is unison?", a: 1, o: [
     ["The smallest interval", "An interval was said to be a standing-apart, and what you have named has no apartness in it. Ask whether there are two different sounds here, or one."],
-    ["The equality of pitches — one sound", "Which is why the arithmetic puts equality before all inequality and gives it this as its sounding image. The two lessons meet exactly here."],
+    ["The equality of pitches — one sound", "That is why the arithmetic puts equality before all inequality and gives it this as its sounding image, and so the two lessons meet here."],
     ["Two sounds an octave apart, since they blend completely", "Complete blending is not sameness of height, and no named interval has been reached yet. Ask what the word itself says: one <em>what</em>?"],
     ["Any pair of sounds that blend", "Blending is what the art will call concord, and concords are made of sounds that differ. Notice how many sounds the word before you names."]
   ]},
   { q: "Why is unison “not yet a concord in the sense the art cares about most”?", a: 2, o: [
     ["Because 1:1 is not a ratio", "The arithmetic treats equality alongside the kinds of inequality and gives it a place rather than denying it one. The reason here is about hearing two things blend."],
     ["Because it is too easy to sing", "Ease of performance is a fact about voices, and nothing is settled by it in this art. Ask what a blending requires before it can happen at all."],
-    ["Because there are not yet two different sounds to blend", "Concord is a relation between things that differ, so sameness cannot be its best case. Note that the lesson withholds the title without withholding the importance."],
-    ["Because it is a discord", "It is nothing of the kind — a discord is a pair that remains two, and restless. You have gone past the difficulty instead of into it."]
+    ["Because there are not yet two different sounds to blend", "Concord is a relation between things that differ, so sameness cannot be its best case. The lesson withholds the title without withholding the importance."],
+    ["Because it is a discord", "It is nothing of the kind, because a discord is a pair that remains two, and restless. This answer avoids the difficulty instead of addressing it."]
   ]},
   { q: "If unison is not the chief sort of concord, what office does the lesson give it?", a: 0, o: [
-    ["It is the measure against which difference is heard", "A measure need not be a member of what it measures. Keep this in mind when equality turns up at the head of the kinds of ratio."],
+    ["It is the measure against which difference is heard", "A measure need not be a member of what it measures, and the same holds when equality appears at the head of the kinds of ratio."],
     ["It is the first of the intervals", "An interval was defined as a standing-apart, and here nothing stands apart. Granting it that title would undo the division the lesson has just drawn."],
     ["It is a limiting case of no use to the art", "The lesson gives it an office in the very sentence that withholds the other title. Read that sentence to its end rather than stopping at the withholding."],
-    ["It is the last thing the art arrives at", "It is put first, before any difference is examined, precisely because of the work it does. Ask why a lesson on comparison would open with sameness."]
+    ["It is the last thing the art arrives at", "It is put first, before any difference is examined, because of the office it has. Ask why a lesson on comparison would open with sameness."]
   ]},
   { q: "After the second listening, the lesson asks you to notice one thing. What?", a: 3, o: [
     ["Which of the two sounds is higher", "You could report that much and still miss what is asked, which concerns the two sounds taken together rather than their order. Read the question put just before the listening."],
     ["How many semitones lie between them", "The lesson says in as many words that you need no vocabulary yet, and a count of semitones is vocabulary of the heaviest sort. Read what it does ask you to notice."],
-    ["Whether the pair is a fifth or a fourth", "Names of intervals are exactly what is postponed here. What is asked for is a difference you can hear while knowing no name at all."],
-    ["That some pairs blend, almost into a single richer sound, and some remain two, and restless", "That is the whole datum the art will later explain by ratio. Get it firmly by ear now, because every demonstration ahead is answerable to it."]
+    ["Whether the pair is a fifth or a fourth", "Names of intervals are what is postponed here. What is asked for is a difference you can hear while knowing no name at all."],
+    ["That some pairs blend, almost into a single richer sound, and some remain two, and restless", "That is the whole datum the art will later explain by ratio. We should hold it firmly by ear now, because every demonstration ahead must answer to it."]
   ]},
   { q: "What will the art call these two kinds of pair?", a: 2, o: [
     ["Unisons and intervals", "Those say whether two pitches are the same or differ, which is a division made earlier. The pairs in question here already differ."],
-    ["Melodies and chords", "Those distinguish sounds heard in succession from sounds heard at once, and the boxed remark keeps that division separate from this one. Ask what is being divided: how they are played, or how they sound together."],
-    ["Concords (consonances) and discords (dissonances)", "The names are supplied and then set aside — the lesson insists they can wait. They will be earned later by ratio rather than by assertion."],
+    ["Melodies and chords", "Those distinguish sounds heard in succession from sounds heard at once, and the remark keeps that division separate from this one. Ask what is being divided: how they are played, or how they sound together."],
+    ["Concords (consonances) and discords (dissonances)", "The names are supplied and then set aside; the lesson insists they can wait. They will be earned later by ratio rather than by assertion."],
     ["Multiples and superparticulars", "Those are kinds of ratio, and no ratio has been assigned to anything you have heard. What is wanted are names for what the ear reports."]
   ]},
   { q: "“The names can wait, but the hearing must come first.” What is being asked of you?", a: 1, o: [
     ["To memorise the vocabulary before listening again", "The sentence sets the two in the opposite order of urgency. Read it once more and ask which of them it says may be postponed."],
-    ["To have the experience now, since the terms will be idle without it", "A name laid over an experience you have not had is a counter you cannot spend. The course is built so that every term arrives after the thing it names."],
+    ["To have the experience now, since the terms will be idle without it", "A name given to an experience we have not had is of no use to us. The course is built so that every term arrives after the thing it names."],
     ["To distrust the names when they come", "Nothing casts doubt on the names; the whole course is arranged to earn them. What is said is which comes first, not which is trustworthy."],
     ["To wait for a scale before listening at all", "The lesson has just had you listen twice, with no scale and no vocabulary. Ask what it says cannot wait."]
   ]},
-  { q: "The boxed remark distinguishes two ways a pair of pitches may be heard. Which does the liberal art know?", a: 3, o: [
-    ["Only in succession, since melody is the older practice", "The box makes no claim about which practice is older, and it says the blending that reveals a concord is often clearer the other way. Read the sentence that opens the box."],
-    ["Only at once, since blending needs simultaneity", "Blending is indeed often clearer that way, and the box says so — from which it does not follow that the other way falls outside the art. Read the sentence that names both."],
-    ["Neither, since the art is about single sounds", "The whole lesson is about two sounds compared. Ask what a pair could possibly be if not heard in one of the two ways the box names."],
+  { q: "The remark distinguishes two ways a pair of pitches may be heard. Which does the liberal art know?", a: 3, o: [
+    ["Only in succession, since melody is the older practice", "The remark makes no claim about which practice is older, and it says the blending that reveals a concord is often clearer the other way. Read the sentence that opens the remark."],
+    ["Only at once, since blending needs simultaneity", "Blending is indeed often clearer that way, and the remark says so, but it does not follow that the other way falls outside the art. Read the sentence that names both."],
+    ["Neither, since the art is about single sounds", "The whole lesson is about two sounds compared. Ask what a pair could possibly be if not heard in one of the two ways the remark names."],
     ["Both: one after the other, as in a melody, and at once, as in a chord", "The art claims both, and then chooses one to start with for a reason of evidence: the blending shows itself more plainly when the two sound together."]
   ]},
-  { q: "Why does the box say melody must wait?", a: 0, o: [
-    ["Because melody will come when there is a scale to walk on", "Which sets the order of the chapters ahead: intervals first, then a scale built from them, and only then movement along it."],
-    ["Because melody belongs to practice, not to the liberal art", "The box says the liberal art knows sounds heard one after another, so melody is not being put outside it. What is missing at this point is something to move upon."],
-    ["Because succession is harder to hear than simultaneity", "The box’s remark about clearness concerns where a concord first shows itself, not what melody requires. Ask what melody needs that has not been built."],
+  { q: "Why does the remark say melody must wait?", a: 0, o: [
+    ["Because melody will come when there is a scale to walk on", "That sets the order of the chapters ahead: intervals first, then a scale built from them, and only then movement along it."],
+    ["Because melody belongs to practice, not to the liberal art", "The remark says the liberal art knows sounds heard one after another, so melody is not being put outside it. What is missing at this point is something to move upon."],
+    ["Because succession is harder to hear than simultaneity", "The remark’s point about clearness concerns where a concord first shows itself, not what melody requires. Ask what melody needs that has not been built."],
     ["Because the ear judges melody unreliably", "No such doubt about the ear is raised anywhere in this lesson. The reason given is that something is still missing, and it is not a faculty."]
   ]}
 ]
