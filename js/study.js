@@ -929,17 +929,17 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 ],
 
 "v-1": [
-  { q: "To divide one ratio by another — 3:2 by 4:3, say — what does the lesson do?", a: 1, o: [
+  { q: "How does the lesson divide one ratio by another, for example 3:2 by 4:3?", a: 1, o: [
     ["Subtracts term from term: 3−4 above, 2−3 below", "The words ‘plus’ and ‘minus’ are used of intervals, but the operations behind them are not addition and subtraction of the terms. Look at the line of arithmetic the lesson actually writes out."],
-    ["Inverts the divisor and multiplies: (3:2)×(3:4)", "The same move as dividing by a fraction. Get it into the hand now: the remnant that fills out the tetrachord is obtained by exactly this operation."],
-    ["Inverts the dividend and multiplies: (2:3)×(4:3)", "You have turned over the wrong one of the two. Carry it through and the terms come out the other way up, which would put the leftover on the wrong side of unity."],
+    ["Inverts the divisor and multiplies: (3:2)×(3:4)", "This is the same operation as dividing by a fraction. It is worth learning well now, because the remnant that fills out the tetrachord is obtained by this operation."],
+    ["Inverts the dividend and multiplies: (2:3)×(4:3)", "You have turned over the wrong one of the two. If it is carried through, the terms come out inverted, and the leftover falls on the wrong side of unity."],
     ["Divides term by term: 3÷4 above, 2÷3 below", "That leaves two quotients and no single comparison. A ratio is one thing, and dividing one ratio by another must yield one ratio; look at the line the lesson sets down."]
   ]},
   { q: "Is the tone a concord?", a: 2, o: [
-    ["Yes — it is the fourth concord, after 2:1, 3:2 and 4:3", "The lesson says in as many words that it is not one, and the concords were settled in the preceding chapter. Read the sentence immediately after the ratio is computed."],
+    ["Yes — it is the fourth concord, after 2:1, 3:2 and 4:3", "The lesson says explicitly that it is not one, and the concords were settled in the preceding chapter. Read the sentence immediately after the ratio is computed."],
     ["Yes, but only when sounded on a string rather than sung", "Nothing in the art makes concord depend on the instrument; the ratio is the same however it is produced. Ask what the lesson says these two sounds do when played together."],
-    ["No — the two sounds do not blend as 2:1, 3:2 and 4:3 blend; they step", "Concord and step are two offices, not two degrees of one thing. The art wants both: concords to frame the span, steps to walk across it."],
-    ["The question does not apply, since 9:8 is a remainder and not an interval", "A remainder of two intervals is itself an interval and can be sounded — the lesson tells you to play it. Having played it, ask what it does and does not do."]
+    ["No — the two sounds do not blend as 2:1, 3:2 and 4:3 blend; they form a step", "Concord and step are two different functions, not two degrees of one thing. The art needs both, concords to bound the span and steps to fill it."],
+    ["The question does not apply, since 9:8 is a remainder and not an interval", "A remainder of two intervals is itself an interval and can be sounded, and the lesson sounds it. Ask what the two sounds do and do not do together."]
   ]},
   { q: "Where is the string stopped to sound a tone above the open string?", a: 0, o: [
     ["At eight-ninths of the open length", "The lengths then stand as 9 to 8 and the pitches the other way about. When a ratio becomes a fraction of the whole string, its smaller term goes above and its greater below."],
@@ -947,83 +947,83 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["At one-ninth of the open length", "You have taken the piece stopped off rather than the piece left sounding, and a ninth of a wire sounds very far above a tone. Ask which part is free to vibrate."],
     ["At eight-ninths above the halfway point", "The lesson measures its fraction from the whole open string, not from some other stopping. Read the sentence beginning ‘On the string’ and see what the fraction is a fraction of."]
   ]},
-  { q: "The fourth and the fifth are stopped at three-quarters and two-thirds. What lies between them, worked out?", a: 3, o: [
-    ["1:12, since three-quarters less two-thirds is one twelfth", "You have subtracted the fractions and produced a length, not a ratio of sounds. Two lengths are compared in this art by division; do it that way."],
-    ["1:2, a diapason, since three-quarters times two-thirds is one half", "You have multiplied the two fractions instead of dividing one by the other — and a whole diapason between two stoppings that close should have looked wrong at once. Settle which operation compares two lengths."],
+  { q: "The fourth and the fifth are stopped at three-quarters and two-thirds. What interval lies between them, when it is worked out?", a: 3, o: [
+    ["1:12, since three-quarters less two-thirds is one twelfth", "You have subtracted the fractions and produced a length, not a ratio of sounds. Two lengths are compared in this art by division; try it that way."],
+    ["1:2, a diapason, since three-quarters times two-thirds is one half", "You have multiplied the two fractions instead of dividing one by the other, and a whole diapason between two stoppings so close together is itself a sign of the mistake. Ask which operation compares two lengths."],
     ["8:9, so the fourth is the higher of the two", "The magnitude is right and the comparison is read the wrong way round, making the longer sounding length the higher sound. Ask which of three-quarters and two-thirds is the shorter piece of wire."],
-    ["(3/4) : (2/3) = 9:8, a tone", "Three-quarters times three-halves is nine-eighths. So the tone is found either as the leftover of two concords or as the gap between two stoppings: one interval by two roads."]
+    ["(3/4) : (2/3) = 9:8, a tone", "Three-quarters times three-halves is nine-eighths. So the tone is found in two ways, as the leftover of two concords or as the interval between two stoppings, and both ways give the same interval."]
   ]},
-  { q: "Two tones compounded. What ratio?", a: 1, o: [
-    ["18:16, that is 9:8 again", "You have added the terms of the two ratios rather than multiplying them, and so compounded a tone with nothing. If two tones gave back one tone the operation would be idle; check it."],
-    ["81:64", "Nine-eighths times nine-eighths. Notice how fast the numbers climb: compounding multiplies, and the terms of Pythagorean intervals grow large for that reason alone."],
+  { q: "What ratio results when two tones are compounded?", a: 1, o: [
+    ["18:16, that is 9:8 again", "You have added the terms of the two ratios rather than multiplying them, and so compounded a tone with nothing. If two tones gave back one tone, the operation would have done nothing."],
+    ["81:64", "Nine-eighths times nine-eighths is eighty-one sixty-fourths. The numbers grow quickly because compounding multiplies, and that is the reason the terms of Pythagorean intervals become large."],
     ["5:4", "That ratio belongs to a later and different account of the distance of two tones, which this lesson names in order to set it aside. Compute the compound from 9:8 itself and compare the numbers."],
     ["81:8, since the terms above multiply and those below do not", "Whatever is done must be done to both terms or it is not an operation on the ratio at all. Multiply underneath as well as above."]
   ]},
   { q: "How does the ditone stand to the later ‘major third’ of 5:4?", a: 0, o: [
-    ["The ditone is the larger step, and the Pythagorean art takes 81:64 as what two tones really are", "Set 81:64 beside 80:64 and the difference is small but real. The art does not pretend the two are one interval, and this course names the divergence rather than papering it over."],
-    ["They are the same interval, 81:64 being merely 5:4 written in larger numbers", "Reduce 81:64 as far as it will go and see whether a five ever appears. Two ratios that reduce differently are two ratios."],
-    ["The ditone is the smaller of the two", "Bring both to a common denominator — sixty-fourths will serve, since one of them is already there — and then say which is the greater."],
-    ["5:4 is the true two-tone interval and 81:64 an error of the old arithmetic", "The lesson calls the later ratio an admission made on other grounds, not the correction of a mistake, and it declines to settle the quarrel. Before ranking either as true, ask whether the page claims to have decided anything."]
+    ["The ditone is the larger step, and the Pythagorean art takes 81:64 as what two tones really are", "Beside 80:64 (which is 5:4), 81:64 is larger by a small but real difference. The art does not pretend the two are one interval, and this course names the divergence rather than concealing it."],
+    ["They are the same interval, 81:64 being merely 5:4 written in larger numbers", "Reduce 81:64 as far as it will go and see whether a five ever appears. Ratios that reduce to different lowest terms are different ratios."],
+    ["The ditone is the smaller of the two", "Write both with a common denominator (sixty-fourths will serve, since one of them already has it) and then ask which is the greater."],
+    ["5:4 is the true two-tone interval and 81:64 an error of the old arithmetic", "The lesson calls the later ratio an admission made on other grounds, not the correction of a mistake, and it declines to settle the quarrel. Before ranking either as true, ask whether the lesson claims to have decided anything."]
   ]},
   { q: "On what basis, the lesson says, did Ptolemy and others admit 5:4?", a: 2, o: [
     ["By measurement upon a longer monochord", "No new instrument is mentioned, and a longer string sets the same ratios as a short one. The difference pointed to is in what was allowed to count as a reason."],
     ["By the authority of the ancients", "Ptolemy is himself one of the ancients, and the lesson presents him as arguing rather than deferring. Look at the clause that says on what grounds the admission was made."],
-    ["By combining sense with a different arithmetic", "Not by mere preference, and not by the arithmetic used here. Where a dispute turns on which principles are admitted, naming the principles is worth more than declaring a winner."],
-    ["By rejecting the ear entirely in favour of number", "Rejecting the ear would lead no one to a ratio commended for the way it sounds. Read the clause that gives the grounds of the admission, and count how many grounds it names."]
+    ["By combining sense with a different arithmetic", "It was not by mere preference, and not by the arithmetic used here. Where a dispute depends on which principles are admitted, it is more useful to name the principles than to declare a winner."],
+    ["By rejecting the ear entirely in favor of number", "Rejecting the ear would lead no one to a ratio commended for the way it sounds. Read the clause that gives the grounds of the admission, and count how many grounds it names."]
   ]},
-  { q: "What does the lesson do with the question whether the ear’s favourite third is the ditone or 5:4?", a: 3, o: [
-    ["It settles it for the ditone, on the authority of Boethius", "The page declines to give a verdict and says so plainly. Read the last two sentences of that paragraph and note what they say is not required."],
+  { q: "What does the lesson do with the question whether the ear’s favorite third is the ditone or 5:4?", a: 3, o: [
+    ["It settles it for the ditone, on the authority of Boethius", "The lesson declines to give a verdict and says so plainly. Read the last two sentences of that paragraph and note what they say is not required."],
     ["It settles it for 5:4, following Ptolemy", "The lesson calls this a dispute it will name rather than decide, and it goes on working with the older arithmetic. Look at how the paragraph ends."],
-    ["It treats the question as meaningless, since the ear has no favourites", "The lesson speaks of the ear’s favourite without embarrassment; what the ear reports is part of the subject matter. What it withholds is a verdict, not the question."],
+    ["It treats the question as meaningless, since the ear has no favorites", "The lesson speaks of the ear’s favorite without embarrassment; what the ear reports is part of the subject matter. What it withholds is a verdict, not the question."],
     ["It names the dispute and declines to settle it, noting that the first principles do not require a settlement", "A liberal art may leave a real question open without ceasing to be a science. The course says the same of St. Thomas: he does not settle it either."]
   ]},
-  { q: "The boxed remark distinguishes the senses of ‘tone.’ What does the word mean in this art?", a: 1, o: [
-    ["Any sound of definite pitch", "That is one of the ordinary English senses the box gathers in order to set aside. Read on to the sentence that says what the word means here."],
-    ["One interval, 9:8, and nothing else", "Not a sound, not a colour of voice, not a key on a keyboard. A term with one meaning is a term you can compute with, which is why the art insists upon it."],
-    ["The quality or colour of a voice", "Another of the ordinary senses the box collects before narrowing the word. What the art means by it is a quantity, not a quality."],
-    ["A whole step on a keyboard", "The box treats that as a stand-in and says it is slightly off from the thing itself. A near-copy is not the meaning of the word."]
+  { q: "The remark distinguishes the senses of ‘tone.’ What does the word mean in this art?", a: 1, o: [
+    ["Any sound of definite pitch", "That is one of the ordinary English senses that the remark lists in order to set them aside. Read on to the sentence that says what the word means here."],
+    ["One interval, 9:8, and nothing else", "It is not a sound, not a color of voice, and not a key on a keyboard. A term with one meaning can be used in computation, which is why the art insists upon it."],
+    ["The quality or color of a voice", "This is another of the ordinary senses that the remark lists before narrowing the word. What the art means by it is a quantity, not a quality."],
+    ["A whole step on a keyboard", "The remark treats that as a substitute and says it is slightly off from the thing itself, so it cannot be the meaning of the word."]
   ]},
   { q: "What does the lesson say of a piano’s whole-step?", a: 0, o: [
-    ["A tempered stand-in, slightly off, as that instrument’s fifth is slightly off from 3:2 — close enough to sing with, but not the thing itself", "The lesson concedes the usefulness and denies the identity. Both halves are needed if you are to use a keyboard without being taught wrong by it."],
-    ["Exactly 9:8, since the instrument is tuned by the art", "The box says that instrument’s fifth departs from the pure ratio, and its whole-step along with it. Read what it says about how close the stand-in comes."],
-    ["So far from 9:8 as to be useless for learning", "The box grants it a definite usefulness in the same sentence in which it denies its exactness. Look for the concession as well as the denial."],
-    ["5:4 divided in half", "No such halving is performed anywhere on this page, and the art does not take halves of ratios as first principles. Ask what the keyboard’s step is compared with, and how nearly it matches."]
+    ["A tempered substitute, slightly off, as that instrument’s fifth is slightly off from 3:2; it is close enough to sing with, but it is not the thing itself", "The lesson concedes the usefulness and denies the identity. Both halves are needed if we are to use a keyboard without being misled by it."],
+    ["Exactly 9:8, since the instrument is tuned by the art", "The remark says that instrument’s fifth departs from the pure ratio, and its whole-step along with it. Read what it says about how close the substitute comes."],
+    ["So far from 9:8 as to be useless for learning", "The remark grants it a definite usefulness in the same sentence in which it denies its exactness. Look for the concession as well as the denial."],
+    ["5:4 divided in half", "No such halving is performed anywhere in this lesson, and the art does not take halves of ratios as first principles. Ask what the keyboard’s step is compared with, and how nearly it matches."]
   ]},
-  { q: "What office does the tone hold in the art?", a: 2, o: [
-    ["It is the smallest interval the art recognises", "The next lesson divides a fourth and finds something smaller left over. Nothing on this page claims a lower bound; look at what the tone is said to be used for."],
-    ["It is the frame within which the concords are set", "You have exchanged frame and filling. Ask which of the two, the concord or the step, spans the greater distance, and which is used to walk across the other."],
-    ["It is the ordinary step by which the art fills the fourth and the diapason", "The concords give the frame; this gives the pacing. When the tetrachord is divided in a later lesson, this is the unit that does most of the dividing."],
+  { q: "What function does the tone have in the art?", a: 2, o: [
+    ["It is the smallest interval the art recognizes", "The next lesson divides a fourth and finds something smaller left over. Nothing in this lesson claims a lower bound; look at what the tone is said to be used for."],
+    ["It is the frame within which the concords are set", "You have exchanged frame and filling. Ask which of the two, the concord or the step, spans the greater distance, and which is used to fill the other."],
+    ["It is the ordinary step by which the art fills the fourth and the diapason", "The concords bound the span, and the tone divides it. When the tetrachord is divided in a later lesson, this is the unit that does most of the dividing."],
     ["It is a concord used to check the tuning of the others", "The lesson refuses it the name of concord in the sentence just after the ratio is computed. Its use is not a matter of checking anything."]
   ]}
 ],
 
 "v-2": [
   { q: "What does the lesson say is the work of harmonics as a liberal art?", a: 0, o: [
-    ["The scale: the diapason filled, so that one may go from a sound to its double by a known path", "Not a ladder drawn on paper but a path actually walked in sound. Everything computed in the last two chapters is gathered here into a single journey."],
+    ["The scale: the diapason filled, so that we can go from a sound to its double through a known path", "The scale is not a ladder drawn on paper but a path through sounds that are actually heard. Everything computed in the last two chapters is gathered here into a single ordered series."],
     ["The classification of concords and discords", "That work was done in an earlier chapter and is presupposed here rather than aimed at. Read the first two sentences and see what they say the work is."],
-    ["The tuning of instruments to the pure ratios", "Tuning is an application; the art is after the structure a tuning would realise. Look for what the lesson says is filled, and with what."],
+    ["The tuning of instruments to the pure ratios", "Tuning is an application; the art is concerned with the structure a tuning would realize. Look for what the lesson says is filled, and with what."],
     ["The drawing of a ladder of eight equal steps", "The lesson refuses both halves of that: it is not a drawing, and it insists afterwards that the steps are not equal. Read what the second sentence denies."]
   ]},
   { q: "What is a tetrachord?", a: 2, o: [
-    ["A four-stringed instrument on which the art is demonstrated", "The instrument of this course is one string, and has been since the third chapter. Here the word names an interval and its division, not a piece of furniture."],
+    ["A four-stringed instrument on which the art is demonstrated", "The instrument of this course is one string, and has been since the third chapter. Here the word names an interval and its division, not an instrument."],
     ["A group of four concords", "The art knows three first concords, not four, and the word names something the lesson proceeds to divide rather than a collection. Look at the clause that defines it in the second paragraph."],
-    ["A fourth, divided", "The old unit of filling. Two of them, with a tone between, will span the whole double — which is the argument of this page."],
-    ["The tetractys under another name", "One is a triangular heap of counters from an earlier lesson, the other a stretch of sound to be divided. Similar words, different things; check what this one is said to be made of."]
+    ["A fourth, divided", "This is the old unit of filling. Two of them, with a tone between, span the whole double, as the lesson goes on to show."],
+    ["The tetractys under another name", "One is a triangular heap of counters from an earlier lesson, and the other is a stretch of sound to be divided. The words are similar, but the things are different; check what this one is said to be made of."]
   ]},
   { q: "In the diatonic genus, how is the fourth filled?", a: 1, o: [
-    ["By three tones", "Multiply 9:8 by itself three times and set the result against 4:3: you have overshot. Count how many whole tones the fourth will really hold."],
-    ["By two tones and a leftover", "Two whole steps and a remnant that is not a step of the same size. That inequality is why the finished scale is not a ladder of equal rungs."],
-    ["By two tones and a third tone cut in half", "Halving a tone is precisely the operation the lesson says the art will not take as a first principle. Whatever remains must be got by dividing ratios, not by cutting one in two."],
+    ["By three tones", "If 9:8 is multiplied by itself three times, the result is larger than 4:3. Count how many whole tones the fourth will really hold."],
+    ["By two tones and a leftover", "There are two whole steps and a remnant that is not a step of the same size, and that inequality is why the finished scale is not a ladder of equal rungs."],
+    ["By two tones and a third tone cut in half", "Halving a tone is precisely the operation the lesson says the art will not take as a first principle. Whatever remains must be found by dividing ratios, not by cutting one in two."],
     ["By four equal steps", "The lesson says twice over that the steps of this system are not equal. Read the paragraph on the tetrachord and count the parts it names."]
   ]},
-  { q: "Compute the leftover: the fourth, less two tones.", a: 3, o: [
+  { q: "What is the leftover when two tones are taken from the fourth?", a: 3, o: [
     ["(4:3) ÷ (81:64) = 243:256", "The arithmetic is right and the terms stand upside down. A remnant taken out of a larger interval must come out greater than unity; check which way the division runs."],
     ["(4:3) × (81:64) = 27:16", "You have multiplied where the question asked you to take away, and so made an interval larger than the one you began with. To remove one ratio from another, invert before multiplying."],
     ["(4−81) : (3−64), which will not reduce", "Ratios are not taken apart by subtracting their terms; the first computation of the preceding lesson shows the operation used instead. Look at how a ratio is divided by a ratio."],
-    ["(4:3) ÷ (81:64) = 256:243", "Four-thirds times sixty-four eighty-firsts. Its name is the leimma, the remnant, and its awkward numbers are a permanent feature of this scale rather than a blemish to be smoothed away."]
+    ["(4:3) ÷ (81:64) = 256:243", "Four-thirds times sixty-four eighty-firsts is 256:243. Its name is the leimma, the remnant, and its awkward numbers are a permanent feature of this scale, not a flaw to be removed."]
   ]},
   { q: "Why does the lesson insist that the leimma is not ‘half a tone’?", a: 0, o: [
-    ["Because half of 9:8 would be a mean the art does not take as a first principle, and 256:243 is not that mean in any case", "Two objections in one sentence: the operation is not admitted, and the number would not answer to it if it were. Keep the first — it is why this art has no ‘semitone’ properly so called."],
+    ["Because half of 9:8 would be a mean the art does not take as a first principle, and 256:243 is not that mean in any case", "The sentence makes two objections: the operation is not admitted, and the number would not correspond to it if it were. The first is the more important, because it is why this art has no ‘semitone’ properly so called."],
     ["Because it is larger than a tone, not smaller", "The lesson says outright that it is smaller than a tone. Read the sentence just before the denial and note which way the comparison runs."],
     ["Because a tone cannot be divided at all, being a first principle", "The art’s reluctance concerns what it will take as a starting point, not what is mathematically possible. Read what the lesson says halving would require."],
     ["Because 256:243 is a concord, and half-tones are not", "Nothing on the page calls this remnant a concord; the concords were settled two chapters ago, and this is what was left when one of them was divided. The objection made here is arithmetical."]
@@ -1031,38 +1031,38 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Count the steps of the filled diapason as the lesson lists them. How many of each?", a: 2, o: [
     ["Six tones and one leimma", "Read the pattern the lesson prints and count each name in it separately. How many remnants there are follows from how many tetrachords there are."],
     ["Seven tones", "Then every step would be equal, and the lesson says twice that they are not. Read the printed pattern and see how many kinds of step it contains."],
-    ["Five tones and two leimmata", "Tone, tone, leimma, tone, tone, tone, leimma — seven steps between eight sounds. Compound the five tones with the two remnants and the product comes to exactly 2:1."],
-    ["Four tones and three leimmata", "Count the printed pattern name by name rather than estimating. There are seven steps in all; get the two sorts of them in their right numbers."]
+    ["Five tones and two leimmata", "Tone, tone, leimma, tone, tone, tone, leimma make seven steps between eight sounds. Five tones compounded with two remnants come to exactly 2:1."],
+    ["Four tones and three leimmata", "Count the printed pattern name by name rather than estimating. There are seven steps in all; count each sort separately."]
   ]},
   { q: "How do two tetrachords make a diapason?", a: 1, o: [
-    ["They are laid end to end, two fourths being a diapason", "Compound 4:3 with 4:3 and set the product against 2:1: you have not arrived. Ask what must be inserted to make up the shortfall."],
-    ["They are separated by a tone, and the two fourths with that tone between them fill 2:1", "Two fourths alone fall short of the double, and the joining tone makes up the difference exactly. Compound 4:3, 9:8 and 4:3 and you land on 2:1."],
+    ["They are laid end to end, two fourths being a diapason", "Two fourths compounded give 16:9, which is less than 2:1. Ask what must be inserted to make up the difference."],
+    ["They are separated by a tone, and the two fourths with that tone between them fill 2:1", "Two fourths alone fall short of the double, and the tone between them makes up the difference exactly, because 4:3, 9:8 and 4:3 compounded give 2:1."],
     ["They overlap by a tone, the second beginning below where the first ends", "Overlapping would make the span smaller than two fourths, and two fourths already fall short. Work out the product and see which way the correction has to go."],
-    ["Three are needed, not two", "Compound 4:3 three times and you overshoot the double considerably. Count the fourths the lesson names, and ask what small thing is set between them."]
+    ["Three are needed, not two", "Three fourths compounded exceed the double considerably. Count the fourths the lesson names, and ask what small thing is set between them."]
   ]},
-  { q: "The lesson gives the order tone, tone, leimma, tone, tone, tone, leimma — ‘or a permutation of that pattern.’ On what does the permutation depend?", a: 3, o: [
+  { q: "The lesson gives the order tone, tone, leimma, tone, tone, tone, leimma, ‘or a permutation of that pattern.’ On what does the permutation depend?", a: 3, o: [
     ["On the genus — diatonic, chromatic or enharmonic", "A change of genus changes the sizes of the steps themselves and not merely their order, and the lesson keeps the genera for its closing remark. The permutation here is within one genus."],
     ["On the tuning of the instrument", "The ratios are fixed by the art and not by any instrument’s tuning; the same seven steps are in question throughout. Ask what may be moved without changing what the steps are."],
     ["On whether one sings ut re mi or some other set of syllables", "The syllables are a later help laid upon the system and do not determine its structure; the closing remark says as much. Look at the clause immediately after the printed pattern."],
-    ["On where the tetrachords are set", "The same seven steps taken from a different starting place. The materials do not change; only the point at which the path is entered."]
+    ["On where the tetrachords are set", "The same seven steps are taken from a different starting place. The materials do not change; only the starting point does."]
   ]},
   { q: "The lesson says the eight sounds are built only from certain ratios. Which?", a: 0, o: [
-    ["3:2, 4:3, and their difference 9:8", "Two concords and the step that separates them; nothing else is admitted. The double is the span being filled, so it is not one of the materials but the thing made."],
+    ["3:2, 4:3, and their difference 9:8", "These are two concords and the step that separates them, and nothing else is admitted. The double is the span being filled, so it is not one of the materials but the thing made."],
     ["5:4 and 6:5, the thirds", "Neither ratio appears in this construction, and the preceding lesson set the first of them aside as a later admission. Look at what the lesson lists after the word ‘only.’"],
     ["9:8 and 256:243 alone", "Those are the steps that result, not the materials the construction starts from; the remnant was itself computed out of something larger. Ask which intervals had to be known before either step could be found."],
-    ["The twelve ratios of the tetractys", "The tetractys is four numbers, not twelve ratios, and the lesson names a short list here rather than a heap. Read the sentence after the instruction to play the eight."]
+    ["The twelve ratios of the tetractys", "The tetractys is four numbers, not twelve ratios, and the lesson names a short list here rather than a heap. Read the sentence that follows the sounding of the eight."]
   ]},
   { q: "What does the lesson say about ‘C major,’ clefs and piano keys?", a: 2, o: [
     ["They are errors of modern practice which the art corrects", "The lesson calls them names rather than mistakes, and allows that they may sit upon a slightly altered version of the system. Read the last sentence of that paragraph."],
     ["They are the origin of the intervals, from which the ratios were afterwards derived", "That reverses the order of the whole course, which builds the intervals out of ratios before any name is given to them. Ask which of the two the lesson says came first."],
-    ["They are labels stuck on this system, or on a slightly adjusted version of it", "The order of dependence matters more than the vocabulary: the structure is first and the names come after. A student who learns the names first will think the structure was made to fit them."],
+    ["They are labels put on this system, or on a slightly adjusted version of it", "The order of dependence matters more than the vocabulary: the structure is first and the names come after. A student who learns the names first is likely to think the structure was made to fit them."],
     ["They are equivalent ways of saying the same thing, neither prior to the other", "The lesson’s phrasing puts one of the two plainly on top of the other. Look at the verb it uses for what the modern names do to this system."]
   ]},
   { q: "The closing remark treats the other genera and the Guidonian syllables together. What do they have in common there?", a: 1, o: [
-    ["Both are rejected by this course as later corruptions", "The box calls one of them part of the full art and the other useful. An order of learning is not the same as approval or rejection; read what it grants to each."],
-    ["Each is a real part or help of the art that is not first: the diatonic path and the ratios come before them", "The box is an exercise in ordering rather than in excluding. Nothing is denied a place; each is given the place it has, after the thing it presupposes."],
-    ["Both are Greek, and so prior to the Latin tradition", "One of the two is described as medieval and made for singers. Check the origin the box gives each before grouping them by nation."],
-    ["Both are ways of dividing the tetrachord", "Only one of the two divides anything; the other is a set of names for singing. Read the box’s two halves separately and see what each is said to be."]
+    ["Both are rejected by this course as later corruptions", "The remark calls one of them part of the full art and the other useful. An order of learning is not the same as approval or rejection; read what it grants to each."],
+    ["Each is a real part or help of the art that is not first: the diatonic path and the ratios come before them", "The remark orders these things rather than excluding them. Nothing is denied a place; each is given the place it has, after the thing it presupposes."],
+    ["Both are Greek, and so prior to the Latin tradition", "One of the two is described as medieval and made for singers. Check the origin the remark gives each before grouping them by nation."],
+    ["Both are ways of dividing the tetrachord", "Only one of the two divides anything; the other is a set of names for singing. Read the remark’s two halves separately and see what each is said to be."]
   ]}
 ]
 
@@ -1073,133 +1073,133 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 
 "means-1": [
   { q: "Between 6 and 12 the arithmetic mean is 9. What makes it the <em>arithmetic</em> mean?", a: 0, o: [
-    ["The differences are equal: 9−6 = 3 = 12−9", "Equal differences, and nothing else is asked of it. Notice that this is the only one of the three means here that a man could find by guessing at the middle of the span."],
+    ["The differences are equal: 9−6 = 3 = 12−9", "The arithmetic mean requires equal differences and nothing else. It is the only one of the three means here that could be found by guessing at the middle of the span."],
     ["9 stands to 6 as 12 stands to 9", "That is the condition for a different mean altogether, and 9 does not satisfy it: 9 divided by 6 is not 12 divided by 9. Work the two quotients out and see which condition you have described."],
-    ["9 exceeds 6 and falls short of 12 by the same part of each", "Test it. 9−6 = 3, which is half of 6; 12−9 = 3, which is a quarter of 12. Half and a quarter are not the same part, so this is not the condition 9 satisfies."],
-    ["9 lies at the middle of the span the ear hears between 6 and 12", "The mean was not chosen by listening; it was got by a rule of number, and the sound came after. Go back to the rule the lesson states for this mean and check the two subtractions."]
+    ["9 exceeds 6 and falls short of 12 by the same part of each", "9−6 = 3, which is half of 6; 12−9 = 3, which is a quarter of 12. Half and a quarter are not the same part, so this is not the condition 9 satisfies."],
+    ["9 lies at the middle of the span the ear hears between 6 and 12", "The mean was not chosen by listening; it was found by a rule of number, and the sound came after. Re-read the rule the lesson states for this mean and check the two subtractions."]
   ]},
   { q: "Between 6 and 12 the harmonic mean is 8. Which statement gives the reason?", a: 2, o: [
     ["The differences 2 and 4 are equal", "Two and four are not equal, and if they were you would have described the mean of equal differences instead. Do the two subtractions again, and then ask what the lesson requires of <em>this</em> mean."],
-    ["8 is the number whose square is 72", "Square 8 and you get 64, not 72. A mean defined by squaring is a third kind entirely, and the lesson says no whole number answers to it here. Read the condition stated for the mean you were asked about."],
-    ["8−6 = 2, a third of 6; and 12−8 = 4, a third of 12 — the same part of each", "Equal parts, not equal differences. Equivalently the differences 2 and 4 stand as the extremes 6 and 12, which is a second way of stating the same condition."],
-    ["8 belongs there because 6:8 is the diatessaron", "That 6 to 8 is a fourth is something you read off afterwards; it is not the rule that produced the number 8. The lesson gets that number from a condition on differences — find the condition first."]
+    ["8 is the number whose square is 72", "The square of 8 is 64, not 72. A mean defined by squaring is a third kind entirely, and the lesson says no whole number answers to it here. Read the condition stated for the mean you were asked about."],
+    ["8−6 = 2, a third of 6; and 12−8 = 4, a third of 12 — the same part of each", "The mean requires equal parts, not equal differences. Equivalently, the differences 2 and 4 stand as the extremes 6 and 12, which is a second way of stating the same condition."],
+    ["8 belongs there because 6:8 is the diatessaron", "That 6 to 8 is a fourth is something we observe afterwards; it is not the rule that produced the number 8. The lesson finds that number from a condition on differences, and the condition comes first."]
   ]},
   { q: "What does the lesson say of the geometric mean between 6 and 12?", a: 3, o: [
     ["It is 9, since 9 stands midway between them", "Midway by difference is one condition; equal ratios are another, and 9 fails the second: 9 to 6 is 3:2 while 12 to 9 is 4:3. Ask what a geometric mean requires of its two ratios."],
     ["It is 8, since a constant ratio runs through 6, 8 and 12", "Check the two ratios. 8 to 6 reduces to 4:3; 12 to 8 reduces to 3:2. They are not the same, so nothing constant runs through those three numbers at all."],
-    ["There is no geometric mean between 6 and 12 in any sense", "The lesson denies you a whole number, which is not the same as denying that any quantity whatever stands in that relation. Be exact about what is missing: a kind of quantity, or a kind of number?"],
-    ["It would be a number whose square is 72 — and there is none in whole numbers", "This is the whole hinge of the theorem that follows. The tetrad 6:8:9:12 has an arithmetic and a harmonic mean sitting in it, and the third kind of mean is simply absent."]
+    ["There is no geometric mean between 6 and 12 in any sense", "The lesson denies that there is a whole number, which is not the same as denying that any quantity whatever stands in that relation. Ask exactly what is missing, a kind of quantity or a kind of number."],
+    ["It would be a number whose square is 72; and there is none in whole numbers", "The theorem that follows depends on this. The tetrad 6:8:9:12 contains an arithmetic and a harmonic mean, but the third kind of mean is absent."]
   ]},
   { q: "Which two pairs within 6 : 8 : 9 : 12 sound the diatessaron?", a: 1, o: [
-    ["6 : 9 and 8 : 12", "Reduce them. Six to nine divides by 3, eight to twelve divides by 4, and both give three to two. That is a concord of this art, and the tetrad holds it twice — but it is not the one named here."],
-    ["6 : 8 and 9 : 12", "Both reduce to 4:3, and so the fourth appears twice over, just as the fifth does. Every interval the course has taught is inside these four numbers, and none of them was put there by hand."],
-    ["6 : 12 and 8 : 9", "You have paired the widest span in the tetrad with the narrowest. One is a double and the other a single step; check each against 4:3 separately and neither will survive."],
+    ["6 : 9 and 8 : 12", "Six to nine divides by 3, eight to twelve divides by 4, and both give three to two. That is a concord of this art, and the tetrad holds it twice, but it is not the one named here."],
+    ["6 : 8 and 9 : 12", "Both reduce to 4:3, and so the fourth appears twice over, just as the fifth does. Every interval the course has taught is inside these four numbers, and none of them was chosen."],
+    ["6 : 12 and 8 : 9", "You have paired the widest span in the tetrad with the narrowest. One is a double and the other a single step; check each against 4:3 separately, and neither matches."],
     ["8 : 12 and 9 : 12", "The first reduces to two to three and the second to three to four. Those are different ratios, so they cannot both be the concord asked for. Test each pair on its own before pairing them."]
   ]},
   { q: "6 : 9 and 8 : 12 both reduce to which ratio, and what is it called?", a: 3, o: [
-    ["4:3, the diatessaron", "Divide the first pair by 3 and the second by 4 and see what you actually hold. The tetrad does contain the fourth twice, but in other pairs than these; run the reductions before assigning names."],
+    ["4:3, the diatessaron", "Divide the first pair by 3 and the second by 4 and see what results. The tetrad does contain the fourth twice, but in other pairs than these; reduce each pair before naming it."],
     ["2:1, the diapason", "A double requires the greater to contain the less exactly twice with nothing over. Nine is not twice six, and twelve is not twice eight. Only one pair in the tetrad is a double; find which."],
     ["9:8, the tone", "The tone is the narrowest interval named in this tetrad, and it stands between two numbers that differ by one. Six to nine and eight to twelve are plainly wider; reduce them and compare."],
-    ["3:2, the diapente", "The fifth, twice over — once from the lesser extreme to the arithmetic mean, once from the harmonic mean to the greater. The two means each make a fifth with one of the extremes."]
+    ["3:2, the diapente", "It is the fifth, twice over: once from the lesser extreme to the arithmetic mean, and once from the harmonic mean to the greater. The two means each make a fifth with one of the extremes."]
   ]},
   { q: "In 6 : 8 : 9 : 12, which pair sounds the tone?", a: 0, o: [
-    ["8 : 9", "The distance between the two means themselves. The lesson makes much of this: the tone, which was first got by taking a fourth from a fifth, turns up here as the gap between the harmonic and the arithmetic mean."],
-    ["6 : 8", "Reduce it and you have a superparticular, but not 9:8 — the lesson lists it among the concords, not among the steps. Go back and test each adjacent pair in the tetrad in turn."],
+    ["8 : 9", "This is the distance between the two means themselves. The lesson stresses that the tone, which was first found by taking a fourth from a fifth, appears here as the interval between the harmonic and the arithmetic mean."],
+    ["6 : 8", "It reduces to a superparticular, but not to 9:8; the lesson lists it among the concords, not among the steps. Test each adjacent pair in the tetrad in turn."],
     ["6 : 12", "That is the whole span of the tetrad, the frame within which everything else falls. A single step of the scale cannot be the same size as the compass that contains it."],
     ["9 : 12", "Nine to twelve reduces to three to four, which the lesson names among the concords. Read its list of pairs again and check the ratio it assigns to each one."]
   ]},
-  { q: "The lesson says the tone reaches us here by a second road. What are the two roads?", a: 2, o: [
-    ["Halving the tone, and halving the leimma", "Neither halving is available in this art, and this very lesson spends a page proving that the first is impossible. A road that cannot be walked is not one of the two."],
-    ["Adding two leimmata, and subtracting a leimma from a tone", "Two leimmata do not make a tone — the lesson says plainly that they fall short, and the shortfall is the point. The second operation would in any case leave you with something other than what you set out to find."],
-    ["Taking a fourth away from a fifth, and taking the interval between the harmonic and the arithmetic mean of the diapason", "Two roads, one place. That the same interval arrives by subtraction of concords and by the doctrine of means is the sort of coincidence a middle science is entitled to notice."],
-    ["Measuring a string, and consulting Nicomachus", "One of those is not a derivation at all, and the lesson is careful to set the reported history aside and attend to the thing itself. Both roads it means are roads of number."]
+  { q: "The lesson says that two different derivations arrive at the tone. What are they?", a: 2, o: [
+    ["Halving the tone, and halving the leimma", "Neither halving is available in this art, and this lesson proves that the first is impossible, so it cannot be one of the two derivations."],
+    ["Adding two leimmata, and subtracting a leimma from a tone", "Two leimmata do not make a tone; the lesson says plainly that they fall short, and the shortfall matters. The second operation would in any case give something other than what is sought."],
+    ["Taking a fourth away from a fifth, and taking the interval between the harmonic and the arithmetic mean of the diapason", "Two derivations give one interval. That the same interval is reached by taking one concord from another and by the doctrine of means is the kind of agreement a middle science may rightly point out."],
+    ["Measuring a string, and consulting Nicomachus", "One of those is not a derivation at all, and the lesson sets the reported history aside and attends to the thing itself. Both derivations it means are derivations in number."]
   ]},
   { q: "Archytas’s theorem, as this lesson reports it, denies a mean proportional to which ratios?", a: 1, o: [
     ["Every ratio whatever", "Then the diapason and its compounds would be caught as well, and the lesson exempts them by name. The theorem concerns one class of ratio, not ratio as such; look at how the class is described."],
-    ["Every superparticular ratio in its least terms", "Which is why the theorem does the work it does: every concord and every step of this art, save the diapason and its compounds, falls in that class. None of them can be halved in ratio."],
-    ["Only the ratio 9:8", "The lesson says expressly that this is not a peculiarity of 9 and 8. A theorem holding for one pair of numbers could not carry the weight the lesson puts on it; look again at how wide it casts."],
+    ["Every superparticular ratio in its least terms", "That is why the theorem matters so much, because every concord and every step of this art, except the diapason and its compounds, falls in that class. None of them can be halved in ratio."],
+    ["Only the ratio 9:8", "The lesson says expressly that this is not a peculiarity of 9 and 8. A theorem holding for one pair of numbers could not support what the lesson rests on it; re-read how widely it is stated."],
     ["Every superpartient ratio", "That is a different class from the one the demonstration is stated about, and the lesson’s proof concerns the very ratios that make up this art’s concords and steps. Re-read the sentence in which Archytas is named."]
   ]},
   { q: "Why does the lesson say that ‘semitone is a name and not a measure’?", a: 3, o: [
     ["Because the ear cannot hear so small an interval", "It is plainly audible, and nothing in this art rests on its being too fine for the ear. The objection raised here is arithmetical, and it is not a complaint about the acuteness of hearing."],
-    ["Because two leimmata make exactly one tone, so the name adds nothing", "They do not. The lesson says they fall short, and that shortfall is the whole difficulty. Work out what would follow if they did add up exactly, and you will see why it is denied."],
+    ["Because two leimmata make exactly one tone, so the name adds nothing", "They do not; the lesson says they fall short, and that shortfall is the whole difficulty. Ask what would follow if they did add up exactly."],
     ["Because the semitone belongs to a later European practice and not to this art", "The interval it names is present in this art from the beginning; what is being challenged is the word <em>half</em> inside the name. Ask what a measure must do that a mere name need not."],
-    ["Because the leimma 256:243 is what is left over, not half of anything", "A remainder, and named as one — <span class=\"latin\">leimma</span> is the leaving. The whole difficulty later Europe met in building instruments of fixed pitch begins in this one arithmetical fact."]
+    ["Because the leimma 256:243 is what is left over, not half of anything", "It is a remainder, and named as one, since <span class=\"latin\">leimma</span> means ‘what is left’. The whole difficulty later Europe met in building instruments of fixed pitch begins in this one arithmetical fact."]
   ]},
   { q: "What does the lesson report from Nicomachus about 6 : 8 : 9 : 12, and how does it treat the report?", a: 0, o: [
-    ["That he calls it the most perfect proportion and says Pythagoras brought it out of Babylon — and the lesson sets the history aside to attend to the thing itself", "Whatever the history, the numbers are checkable, and the course prefers what it can check. The same discipline is applied to authorities elsewhere: take the observation, leave the pedigree."],
-    ["That Nicomachus discovered it, which is why the course teaches it", "No claim about who discovered it is made, and the teaching would not be rested on such a claim in any case. Notice what the lesson tells you to do with the history it does report."],
-    ["That Boethius rejected the proportion as Babylonian and unfit for Latin use", "Nothing of the kind is said anywhere on the page. The caution attaches to the report of its origin, not to the proportion, which the lesson then unfolds interval by interval."],
-    ["That the proportion is called perfect because it pleases the ear more than any other", "The lesson is at pains to say the two inner numbers were not picked for their sound. Ask where their perfection is supposed to come from, if not from a verdict of taste."]
+    ["That he calls it the most perfect proportion and says Pythagoras brought it out of Babylon — and the lesson sets the history aside to attend to the thing itself", "Whatever the history, the numbers are checkable, and the course prefers what it can check. The same discipline is applied to authorities elsewhere, where the course keeps the observation and sets aside the question of its origin."],
+    ["That Nicomachus discovered it, which is why the course teaches it", "No claim about who discovered it is made, and the teaching would not be rested on such a claim in any case. Ask what the lesson does with the history it does report."],
+    ["That Boethius rejected the proportion as Babylonian and unfit for Latin use", "Nothing of the kind is said anywhere in the lesson. The caution attaches to the report of its origin, not to the proportion, which the lesson then unfolds interval by interval."],
+    ["That the proportion is called perfect because it pleases the ear more than any other", "The lesson takes care to say the two inner numbers were not picked for their sound. Ask where their perfection is supposed to come from, if not from a verdict of taste."]
   ]},
-  { q: "The boxed remark says this is where the scale stops looking like a choice. Why?", a: 2, o: [
-    ["Because the ancients agreed upon it, and their agreement settles the matter", "The remark appeals to nothing of the sort, and this very lesson tells you to take the thing rather than the authority. Ask what in the remark does the work that consent would otherwise have to do."],
-    ["Because the ear approves the result, and approval makes a consequence", "Approval is a response to a result, not a derivation of one. The remark describes what it is like to <em>possess</em> a middle science rather than to judge one; read what it says that feels like."],
-    ["Because the two inner numbers are simply what the arithmetic yields when you ask for the means of 6 and 12, and the sound follows after", "Consequence, not choice. That order — number first, sound after, and no fitting by hand — is what the remark says distinguishes possessing a middle science from having heard about one."],
+  { q: "The remark says this is where the scale stops looking like a choice. Why?", a: 2, o: [
+    ["Because the ancients agreed upon it, and their agreement settles the matter", "The remark appeals to nothing of the sort, and this lesson prefers the thing to the authority. Ask what in the remark does the work that consent would otherwise have to do."],
+    ["Because the ear approves the result, and approval makes a consequence", "Approval is a response to a result, not a derivation of one. The remark describes what it is to <em>possess</em> a middle science; re-read what it says that possession is."],
+    ["Because the two inner numbers are simply what the arithmetic yields when we ask for the means of 6 and 12, and the sound follows after", "The scale is a consequence, not a choice. That order (number first, sound after, and nothing chosen to fit) is what the remark says distinguishes possessing a middle science from having heard about one."],
     ["Because no other numbers could ever be used to build a scale", "The lesson makes no such claim, and it points forward to later European attempts of quite another kind. The remark is about where these particular inner numbers came from, not about what is possible."]
   ]}
 ],
 
 "v-3": [
   { q: "How does the lesson state Aristoxenus’s answer to the question why some ratios please?", a: 2, o: [
-    ["That the first numbers are the cause, and the ear merely registers what number has settled", "You have given the answer of the school he argued against. Beside whose name does the claim about first ratios from first numbers stand? Sort the four positions in the opening paragraph before choosing."],
-    ["That sense and reason must both be heard, and neither may despise the other", "That is a third position in the same paragraph, and its force is that it refuses to make either faculty the sole judge. The man in question was not so even-handed; find whose formula this is."],
-    ["That the ear judges, and the interval is a continuum rather than a ratio", "Which is why the lesson can call him right about the ear and wrong about the ratio. A continuum may be divided anywhere, and that is exactly what the arithmetic of the earlier lesson refuses."],
-    ["That number is the cause, though the study still begins from what is heard", "That is the Latin settlement the lesson attributes to the teacher of the West, not to the Greek theorist named beside him. Four positions are listed there; match each to its own man."]
+    ["That the first numbers are the cause, and the ear merely registers what number has settled", "You have given the answer of the school he argued against. Ask whose name stands beside the claim about first ratios from first numbers, and sort the four positions in the second paragraph."],
+    ["That sense and reason must both be heard, and neither may despise the other", "That is a third position in the same paragraph, and its force is that it refuses to make either faculty the sole judge. Aristoxenus was not so even-handed; ask whose formula this is."],
+    ["That the ear judges, and the interval is a continuum rather than a ratio", "That is why the lesson can call him right about the ear and wrong about the ratio. A continuum may be divided anywhere, and that is what the arithmetic of the earlier lesson denies."],
+    ["That number is the cause, though the study still begins from what is heard", "That is the Latin settlement the lesson attributes to the teacher of the West, not to the Greek theorist named beside him. Four positions are listed there; match each position to its author."]
   ]},
-  { q: "On the lesson’s judgement, what is Aristoxenus right about and what is he wrong about?", a: 0, o: [
+  { q: "In the lesson’s judgment, what is Aristoxenus right about and what is he wrong about?", a: 0, o: [
     ["Right that the ear is not optional; wrong if he means the art stops at the ear, or that ratio is a fiction", "The concession is real and not a courtesy. A middle science has a physical subject, and here that subject is sounding bodies as heard. What he may not do is make the hearing the whole of it."],
-    ["Right about everything touching sense, wrong about everything touching number", "The lesson’s verdict is finer than a partition of territory. It grants him a principle the course itself holds, and refuses him only one further step. Read the paragraph that begins with the senses."],
-    ["Wrong throughout, since ratio is the cause and sense contributes nothing", "That is the overreach the lesson warns the other school against. Nothing on this page dismisses the ear, and the whole method begins there. Ask what is conceded to him before he is corrected."],
-    ["Right that the interval is a continuum, wrong that the ear can judge it", "The lesson does not part his position along that seam. Take his two claims separately — one about who judges, one about what an interval is — and ask which of them this course could ever concede."]
+    ["Right about everything touching sense, wrong about everything touching number", "The lesson’s verdict is more precise than a division into two areas. It grants him a principle the course itself holds, and refuses him only one further step. Read the paragraph that begins with the senses."],
+    ["Wrong throughout, since ratio is the cause and sense contributes nothing", "That is the overreach the lesson warns the other school against. Nothing in this lesson dismisses the ear, and the whole method begins there. Ask what is conceded to him before he is corrected."],
+    ["Right that the interval is a continuum, wrong that the ear can judge it", "The lesson does not divide his position in that way. His two claims, one about who judges and one about what an interval is, should be taken separately; ask which of them this course could ever concede."]
   ]},
-  { q: "Where, on this page, do the Pythagoreans overreach?", a: 3, o: [
+  { q: "Where, according to this lesson, do the Pythagoreans overreach?", a: 3, o: [
     ["In holding that the concord is a ratio", "The lesson grants them that outright, and the whole course is built upon it. Their fault lies elsewhere, and it is a fault of attitude rather than of doctrine. Read the sentence that follows the concession."],
-    ["In counting 4:3 among the first concords", "Nothing on this page questions that. The concords they name first are the ratios the arithmetic names first, and the lesson endorses the agreement. Look for something they do beyond naming ratios."],
+    ["In counting 4:3 among the first concords", "Nothing in this lesson questions that. The concords they name first are the ratios the arithmetic names first, and the lesson endorses the agreement. Look for something they do beyond naming ratios."],
     ["In beginning from what is heard rather than from number", "They are not accused of beginning from hearing; if anything the complaint runs the other way. Ask what the lesson says they do with the ear, and whether that is a beginning or a dismissal."],
-    ["In treating the ear as a nuisance, and in calling every later pleasure of sense — 5:4, for instance — a moral failure", "The lesson keeps their cause and refuses their contempt. Note that it does not thereby admit 5:4 as a first principle; it only declines to make a vice of hearing it with pleasure."]
+    ["In treating the ear as a nuisance, and in insisting that every later pleasure of the ear (5:4, for instance) is a moral failure of sense", "The lesson keeps their cause and refuses their contempt. It does not thereby admit 5:4 as a first principle; it only declines to make a vice of hearing it with pleasure."]
   ]},
   { q: "Ptolemy’s method is called the nearest of the three to a middle science. What qualification is attached?", a: 1, o: [
     ["That his method is nevertheless the least fruitful of the three in practice", "No such comparison is drawn, and fruitfulness is not the measure being applied. The qualification concerns what does and does not follow from a method being of the right shape."],
-    ["That being the right method does not make every ratio he admits a first principle — first principles are few", "The distinction is between a way of proceeding and the results reached along it. A sound method may still be used to admit more than a demonstration will carry, and the lesson keeps the two apart."],
-    ["That his method is really the Pythagorean one under another name", "They are listed as distinct positions, and his formula expressly refuses to let either faculty despise the other — which is not what the other school is faulted for. Compare the two sentences again."],
+    ["That being the right method does not make every ratio he admits a first principle, because first principles are few", "The distinction is between a way of proceeding and the results reached along it. A sound method may still be used to admit more than a demonstration will carry, and the lesson keeps the two apart."],
+    ["That his method is really the Pythagorean one under another name", "They are listed as distinct positions, and his formula expressly refuses to let either faculty despise the other, which is not what the other school is faulted for. Compare the two sentences again."],
     ["That the method is rejected, having closed the question elsewhere", "The lesson says the opposite about closure: one question at least is left expressly open. The method is used as a rule applied to the art, not as a party rejecting one."]
   ]},
   { q: "How does the lesson describe Boethius’s own position?", a: 2, o: [
-    ["He follows Aristoxenus, making the ear the judge and treating ratio as a convenience", "That is not the side he takes in teaching the West, and this course leans on him elsewhere for the contrary. Look at which of the two Greek parties the lesson says he sides with."],
-    ["He suspends judgement between the parties and reports them without deciding", "The lesson has him choose. Reporting without deciding is nearer to what this page does with a single disputed ratio at the end, and that is one ratio, not the whole question of cause."],
-    ["He sides with number as the cause, while still beginning from what is heard", "Which is how he can be the Latin West’s Pythagorean and still open his work with the ear. Holding those two together is precisely what a middle science demands of him."],
-    ["He identifies beauty with due proportion and names its three conditions", "Those are the words of a far later writer, quoted in the boxed remark on this page, and they belong to theology rather than to harmonics. Attend to the opening paragraph and the Latin teacher named in it."]
+    ["He follows Aristoxenus, making the ear the judge and treating ratio as a convenience", "That is not the side he takes in teaching the West, and this course depends on him elsewhere for the contrary. Look at which of the two Greek parties the lesson says he sides with."],
+    ["He suspends judgment between the parties and reports them without deciding", "The lesson has him choose. Reporting without deciding is nearer to what this lesson does with a single disputed ratio at the end, and that is one ratio, not the whole question of cause."],
+    ["He sides with number as the cause, while still beginning from what is heard", "That is how he can be the Latin West’s Pythagorean and still open his work with the ear, and holding those two together is what a middle science requires."],
+    ["He identifies beauty with due proportion and names its three conditions", "Those are the words of a far later writer, quoted in the remark in this lesson, and they belong to theology rather than to harmonics. Re-read the second paragraph and the Latin teacher named in it."]
   ]},
   { q: "At <em>Summa</em> I q.5 a.4, how are beauty and goodness related?", a: 0, o: [
     ["They are the same in the thing and differ in notion: goodness is what all desire, beauty what pleases in being seen", "The difference is of notion, not of subject. That is why a concord may be called beautiful without inventing in it some second quality standing beside its proportion."],
     ["Beauty is a species of goodness, confined to what is heard", "The article is not dividing a genus into species, and the extension to hearing is made in this lesson by analogy rather than by shutting beauty up in one sense. Read what the two are said to share."],
-    ["They are wholly distinct, goodness belonging to the will and beauty to private taste", "If beauty were private taste the argument of this page would collapse, since it denies at length that the pleasure of a concord is taste tacked onto a ratio. Re-read the boxed remark."],
-    ["They differ in the thing and are the same in notion", "You have exchanged the two terms. Ask which of them — the thing itself, or the way it is considered — the article says admits the difference; the order of that sentence carries the whole point."]
+    ["They are wholly distinct, goodness belonging to the will and beauty to private taste", "If beauty were private taste the argument of this lesson would fail, since it denies that the pleasure of a concord is a private taste added to a ratio. Re-read the remark."],
+    ["They differ in the thing and are the same in notion", "You have exchanged the two terms. Ask which of them — the thing itself, or the way it is considered — the article says admits the difference; the order of that sentence is what matters."]
   ]},
   { q: "What work does the phrase ‘even sense is a sort of reason’ do in the argument?", a: 1, o: [
-    ["It concedes that the ear is unreliable and must be corrected by number", "The quotation dignifies sense rather than demoting it. And nothing on this page asks that the ear be corrected: the ear supplies the very subject upon which the science then works."],
-    ["It explains why the sense is pleased by a ratio: the senses delight in things duly proportioned, as in what is after their own kind", "So the pleasure is not tacked onto the ratio from outside. The sense answers to proportion because it is itself a kind of reason — which is why the ear here is a witness and not a whim."],
-    ["It reduces hearing to a calculation the mind performs without the ear", "Then the senses would have nothing left to delight in, and the sentence is expressly about their delight. A thing may be a sort of reason without being reason unaided; hold on to the words <em>a sort of</em>."],
-    ["It licenses the ear to overrule a demonstration when the two disagree", "No such licence is given, and the closing sentences refuse to replace demonstration with the ear. The phrase accounts for a pleasure; it does not erect a court of appeal."]
+    ["It concedes that the ear is unreliable and must be corrected by number", "The quotation dignifies sense rather than demoting it. And nothing in this lesson asks that the ear be corrected: the ear supplies the very subject upon which the science then works."],
+    ["It explains why the sense is pleased by a ratio: the senses delight in things duly proportioned, as in what is after their own kind", "So the pleasure is not added to the ratio from outside. The sense responds to proportion because it is itself a kind of reason, and that is why the ear here is a reliable witness and not a matter of whim."],
+    ["It reduces hearing to a calculation the mind performs without the ear", "Then the senses would have nothing left to delight in, and the sentence is expressly about their delight. A thing may be a sort of reason without being reason unaided; the words <em>a sort of</em> matter."],
+    ["It licenses the ear to overrule a demonstration when the two disagree", "No such license is given, and the closing sentences refuse to replace demonstration with the ear. The phrase accounts for a pleasure; it does not make the ear a judge over demonstration."]
   ]},
   { q: "At I q.39 a.8, which three conditions of beauty are named?", a: 3, o: [
-    ["Proportion, clarity, and delight", "Delight is the response to beauty in this account, not a condition of it — the boxed remark says the senses delight in what is duly proportioned. Count the three terms in that article again."],
-    ["Integrity, clarity, and utility", "Utility belongs to another order of judgement; the useful is measured by an end outside itself. Look again at the three terms in the boxed remark and see which one you have displaced."],
+    ["Proportion, clarity, and delight", "Delight is the response to beauty in this account, not a condition of it; the remark says the senses delight in what is duly proportioned. Count the three terms in that article again."],
+    ["Integrity, clarity, and utility", "Utility belongs to another order of judgment; the useful is measured by an end outside itself. Look again at the three terms in the remark and see which one you have displaced."],
     ["Integrity, due proportion, and moderation", "Moderation is a virtue of the appetite and does not appear in the list. Two of your three are right; recover the third from the sentence that gives the article its number."],
     ["Integrity, due proportion or <span class=\"latin\">consonantia</span>, and clarity", "The middle term is the one this art can measure, and its Latin name is the very word the tradition uses for concord. That coincidence of vocabulary is not an accident."]
   ]},
   { q: "What does the lesson do with the question whether 5:4 is a concord in the strict sense?", a: 2, o: [
     ["It settles it in the negative, on Pythagorean grounds", "The lesson names that severity an overreach when it arrives with contempt for the ear. It does not adopt the verdict; look at the last sentence before the sources are listed."],
     ["It settles it in the affirmative, on Ptolemy’s authority", "Admitting a ratio into a method is not the same as making it a first principle, and the lesson draws that line explicitly. Nor does it treat any of the three as an authority that decides."],
-    ["It leaves the question open, noting that the authorities disagree and that Thomas has not closed it", "A first-principles course may leave a question open without embarrassment. Notice how far that is from leaving it unexamined: the lesson states exactly why it stands open."],
-    ["It refers the question to a different study of music altogether", "This is a question about what counts as a concord, which is precisely the business of this study. Deferring it would be a way of dodging it; ask what the lesson does instead."]
+    ["It leaves the question open, noting that the authorities disagree and that Thomas has not closed it", "A first-principles course may leave a question open without embarrassment. That is very different from leaving it unexamined, because the lesson states exactly why it stands open."],
+    ["It refers the question to a different study of music altogether", "This is a question about what counts as a concord, which belongs to this study. Deferring it would be a way of avoiding it; ask what the lesson does instead."]
   ]},
   { q: "Why must a middle science of music begin with the ear?", a: 0, o: [
-    ["Because all knowledge of nature begins in the senses, and this science has a physical subject — sounding bodies as heard", "Which is why the ear cannot be treated as an obstacle to be cleared away. The cause remains numerical; but a cause is the cause of something, and the something arrives by hearing."],
+    ["Because all knowledge of nature begins in the senses, and this science has a physical subject — sounding bodies as heard", "That is why the ear cannot be treated as an obstacle. The cause remains numerical, but a cause is the cause of something, and that something is known by hearing."],
     ["Because the ratios cannot be calculated until an instrument has been measured", "Measuring a string is not the same as sensation being the origin of knowledge, and the arithmetic of this course runs well ahead of any instrument. Look for the general principle, not the practical step."],
     ["Because the ear is more certain than reason about small intervals", "No such comparison is made, and the earlier proof about halving a tone shows what comes of asking the ear to adjudicate a quantity. Certainty is not the reason the lesson gives."],
-    ["Because Aristoxenus is the oldest authority on the point", "Something is conceded to him, but not on account of his age, and this course tells you to take an observation and leave the authority. Ask what principle makes the concession necessary."]
+    ["Because Aristoxenus is the oldest authority on the point", "Something is conceded to him, but not on account of his age, and this course keeps the observation and sets aside the authority. Ask what principle makes the concession necessary."]
   ]}
 ],
 
@@ -2701,127 +2701,127 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 
 "v-time": [
   { q: "Why does this lesson exist, given that the course follows Boethius in making pitch its chief subject?", a: 2, o: [
-    ["Because Franco has already put duration on the page, and the student must catch up", "Franco is later history. This lesson is not his notation."],
-    ["Because verse is the true subject of harmonics", "The lesson refuses to become a treatise on verse. Augustine’s five books remain his."],
-    ["Because Augustine’s definition is of measuring well in motion, and motion is in time as well as in height, and Boethius’s musicus judges rhythmos as well as interval", "One honest case of duration, not a new centre of gravity."],
+    ["Because Franco has already put duration on the page, and the student must catch up", "Franco belongs to later history, and this lesson does not teach his notation."],
+    ["Because verse is the true subject of harmonics", "The lesson says it will not become a treatise on verse, and Augustine’s five books remain his."],
+    ["Because Augustine’s definition is of measuring well in motion, and motion is in time as well as in height, and Boethius’s musicus judges rhythmos as well as interval", "The lesson gives one honest case of measure in duration; it does not change the chief subject of the course."],
     ["Because the palaestra needed another block", "The lesson says it is not a palaestra block."]
   ]},
-  { q: "What is the difference between the two sets of four times you are asked to hear?", a: 0, o: [
-    ["The pitches are the same; in one the third time is late", "The offence, if you felt it, is not of height."],
+  { q: "What is the difference between the two sets of four times that the lesson sounds?", a: 0, o: [
+    ["The pitches are the same; in one the third time is late", "The offense, if we felt it, did not come from the height of the sounds."],
     ["One is a fifth, the other a fourth", "No interval of pitch is being compared."],
-    ["One is the diatonic genus, the other the chromatic", "Genera divide a fourth in pitch."],
-    ["One uses equal temperament", "Temperament is not in this lesson."]
+    ["One is the diatonic genus, the other the chromatic", "The genera are divisions of a fourth in pitch, and no pitch changes here."],
+    ["One uses equal temperament", "Temperament has no part in this lesson."]
   ]},
-  { q: "If you found the lame set wanting, where did the standard of that judgement come from?", a: 3, o: [
+  { q: "If we found the lame set wanting, where did the standard of that judgment come from?", a: 3, o: [
     ["From the sound as a pitch", "The pitches were the same in both sets."],
-    ["From a rule of Franco’s you had memorised", "Franco has not yet been taught, and the lesson does not ask for his names."],
-    ["From the names of the feet of verse", "The lesson says you need no name of a foot."],
-    ["Not from the sound, and not invented for the occasion — you used it to find the sound wanting", "The same kind of number by which you judge a grinding pair."]
+    ["From a rule of Franco’s you had memorized", "Franco has not yet been taught, and the lesson does not ask for his names."],
+    ["From the names of the feet of verse", "The lesson says we need no name of a foot."],
+    ["Not from the sound, and not invented for the occasion; we used it to find the sound wanting", "It is the same kind of number by which we judge a grinding pair."]
   ]},
   { q: "What will this course not do with Augustine’s books I–V?", a: 1, o: [
     ["Admit that they belong to the art in a wide sense", "The opening of the course already admitted that. It still does not teach them."],
-    ["Teach them. They remain his", "Meter is not this course’s work. The one comparison in duration is what it will not omit."],
-    ["Mention time at all, even in history", "Franco and the ars nova are later, as history."],
-    ["Allow that the musicus judges rhythms", "Boethius I.34 is cited here for that very judging."]
+    ["Teach them. They remain his", "Meter is not the work of this course, but the course will not omit the one comparison in duration."],
+    ["Mention time at all, even in history", "Franco and the ars nova come later, and are treated as history."],
+    ["Allow that the musicus judges rhythms", "Boethius I.34 is cited in this lesson for that judging."]
   ]},
   { q: "Why is the lame set not a new interval?", a: 2, o: [
-    ["Because 9:8 cannot be lame", "9:8 is a pitch ratio. This lesson is not using it."],
+    ["Because 9:8 cannot be lame", "9:8 is a ratio of pitch, and this lesson does not use it."],
     ["Because four clicks always make a concord", "Clicks here are times, not concords."],
     ["Because the pitches were the same; what changed was the measuring of the times", "An interval of pitch is a comparison of heights. This was a comparison of durations."],
-    ["Because Augustine forbids calling anything an interval except 2:1", "He does not."]
+    ["Because Augustine forbids calling anything an interval except 2:1", "Augustine says nothing of the kind."]
   ]},
   { q: "The judge of a lame foot, the lesson says, is already at work in us. What is that meant to show?", a: 0, o: [
-    ["That measuring well is of time also, and you did not invent the measure for the occasion", "The fact this lesson exists to give."],
-    ["That you are already a poet", "No verse has been asked of you."],
-    ["That pitch was a mistake as the subject of the art", "The course does not change its centre of gravity."],
+    ["That measuring well is of time also, and we did not invent the measure for the occasion", "That is the fact this lesson is meant to give."],
+    ["That you are already a poet", "The lesson asks for no verse."],
+    ["That pitch was a mistake as the subject of the art", "The course keeps pitch as its chief subject."],
     ["That the palaestra should be abandoned", "E3 is still to come, in its own place."]
   ]},
   { q: "What is <span class=\"latin\">modulari</span>, as this lesson uses Augustine’s definition?", a: 3, o: [
     ["To write a modern melody", "The first chapter already refused that reading."],
-    ["To tune a piano", "Not in this course."],
-    ["To name the Greek feet in order", "The lesson says you need no name of a foot."],
-    ["To measure a motion so that it is well measured — here, a motion in time", "Pitch remains the centre. Time is not therefore nothing."]
+    ["To tune a piano", "Tuning a piano is not part of this course."],
+    ["To name the Greek feet in order", "The lesson says we need no name of a foot."],
+    ["To measure a motion so that it is well measured — here, a motion in time", "Pitch remains the chief subject, but that does not mean time has no place."]
   ]},
   { q: "When duration is later put on the page, whose work will that be, according to this lesson?", a: 1, o: [
-    ["Augustine’s books I–V, taught at last", "Those books remain untaught. The later work is historical."],
-    ["Franco, as history, which will wait", "A development of practica, not this lesson’s demonstration."],
+    ["Augustine’s books I–V, taught at last", "Those books remain untaught here, and the later work is treated as history."],
+    ["Franco, as history, which will wait", "Franco’s notation is a development of practical music, not part of this lesson’s demonstration."],
     ["Ptolemy’s kanon", "The kanon measures pitch."],
-    ["The palaestra’s E9", "E9 is a mixed draw of the art you already have."]
+    ["The palaestra’s E9", "E9 is a mixed set of exercises on the art already learned."]
   ]},
-  { q: "Why does the lesson compare this offence with the offence at a grinding pair?", a: 2, o: [
+  { q: "Why does the lesson compare this offense with the offense at a grinding pair?", a: 2, o: [
     ["Because a lame foot is a discord of 9:8", "No such ratio is assigned."],
     ["Because both are failures of performance", "The lesson is not about performing."],
-    ["Because both are judged by a measure not taken from the sound judged", "Pitch or time: the standard is not the passion of the sounding body."],
+    ["Because both are judged by a measure not taken from the sound judged", "In pitch and in time alike, the standard is not a passion of the sounding body, that is, not something the body undergoes."],
     ["Because Augustine and Boethius never distinguished them", "They did distinguish rhythm and interval. The lesson says the numbers are of the same kind, not that the objects are the same."]
   ]},
-  { q: "What does the boxed remark say this lesson is not?", a: 0, o: [
-    ["A course in meter, or a palaestra block", "One comparison in duration, so that Augustine’s definition is not reduced to pitch only."],
+  { q: "What does the remark say this lesson is not?", a: 0, o: [
+    ["A course in meter, or a palaestra block", "It is one comparison in duration, so that Augustine’s definition is not reduced to pitch only."],
     ["Part of the liberal art at all", "It is part of measuring well. It is not the whole of Augustine’s treatise."],
-    ["Audible", "It is the one thing this lesson asks you to hear."],
+    ["Audible", "It is the one thing this lesson sounds."],
     ["Connected to Boethius I.34", "The musicus who judges rhythmos is the reason Boethius is cited."]
   ]}
 ],
 
 "v-species": [
   { q: "What is a species of the diapason, as this lesson uses the word?", a: 1, o: [
-    ["A new scale, with new concords", "The sounds are the same. The concords are the same."],
-    ["The same eight sounds, walked from another of them to its double, so that the remnant falls in another seat", "Seven places to begin before you have only repeated the first."],
-    ["The church’s eight tones", "The lesson says that mapping is not settled here, and is left open."],
+    ["A new scale, with new concords", "The sounds are the same, and so are the concords."],
+    ["The same eight sounds, walked from another of them to its double, so that the remnant falls in another seat", "There are seven places to begin before we only repeat the first."],
+    ["The church’s eight tones", "The lesson says that mapping is not settled, and leaves it open."],
     ["Aristotle’s ethical harmonia, demonstrated from 4:3", "Character ascribed to a mode is not demonstrated by this arithmetic."]
   ]},
   { q: "How many species are there, and why?", a: 2, o: [
-    ["Eight, because there are eight sounds", "Begin at the eighth and you have only repeated the first an octave higher. Seven places remain."],
-    ["Three, the three genera", "Genera divide the fourth. Species walk the filled diapason from another start."],
-    ["Seven, because there are seven places to begin before you have only repeated the first", "The filling is one. The starting-place is a choice."],
+    ["Eight, because there are eight sounds", "To begin at the eighth is only to repeat the first a diapason higher, so seven places remain."],
+    ["Three, the three genera", "The genera divide the fourth, but a species takes the filled diapason from another starting place."],
+    ["Seven, because there are seven places to begin before we only repeat the first", "The filling is one, but the starting-place is a choice."],
     ["Four, from the tetractys", "The tetractys gives the first concords, not the species."]
   ]},
-  { q: "Why does the lesson tell you not to name these Dorian or Phrygian yet?", a: 0, o: [
-    ["Because the names of the Greek harmoniai and of the later church tones are not settled onto these seven in one way, and the course leaves that mapping open", "The Appendix has already listed the tangle among questions left open."],
+  { q: "Why does the lesson not yet name these Dorian or Phrygian?", a: 0, o: [
+    ["Because the names of the Greek harmoniai and of the later church tones are not settled onto these seven in one way, and the course leaves that mapping open", "The Appendix lists this confusion of names among the questions left open."],
     ["Because Dorian is not a species but a concord", "Dorian is a name of a mode or harmonia. The caution is about mapping, not about whether the word exists."],
-    ["Because Aristotle forbade the names", "He used them. He used them in ethics, which is not this arithmetic."],
-    ["Because Boethius never discussed species", "He did, in the fourth book. The lesson cites him."]
+    ["Because Aristotle forbade the names", "He used them, but in ethics, which is not this arithmetic."],
+    ["Because Boethius never discussed species", "He did, in the fourth book, and the lesson cites him."]
   ]},
   { q: "What is demonstrated here, and what is chosen?", a: 3, o: [
-    ["The names of the modes are demonstrated; the filling is chosen", "The reverse. The filling follows from the first ratios. The starting-place is a choice."],
+    ["The names of the modes are demonstrated; the filling is chosen", "It is the reverse: the filling follows from the first ratios, and the starting-place is a choice."],
     ["Nothing is demonstrated; both are taste", "The filling of 2:1 by 3:2, 4:3, and 9:8 is a consequence, not a taste."],
     ["Ethos is demonstrated; the remnant is chosen", "Ethos is not demonstrated by this arithmetic."],
-    ["The filling is one, and demonstrated; the starting-place is a choice; character later ascribed to a mode is a claim of ethics", "The distinction this art exists to keep."]
+    ["The filling is one, and demonstrated, but the starting-place is a choice; the character that later writers ascribe to a mode is a claim of ethics", "This is the distinction this art exists to keep."]
   ]},
   { q: "Why does this come now, before the Greater Perfect System?", a: 1, o: [
-    ["Because the GPS is only a species under another name", "The GPS is the filling enlarged, with more tetrachords. Species are views of one diapason."],
-    ["Because without it the filled diapason looks like a single tune, and it is a system", "Later ‘modes’ will otherwise look like new scales, and the distinction between what is demonstrated and what is chosen will be lost."],
-    ["Because E7 cannot be done until the seven are named", "E7 builds the filling. It does not require the names of species."],
+    ["Because the GPS is only a species under another name", "The Greater Perfect System is the filling enlarged, with more tetrachords, but the species are views of one diapason."],
+    ["Because without it the filled diapason looks like a single tune, when it is a system", "Later ‘modes’ will otherwise look like new scales, and the distinction between what is demonstrated and what is chosen will be lost."],
+    ["Because E7 cannot be done until the seven are named", "E7 builds the filling, and it does not require the names of the species."],
     ["Because church chant must be taught before the GPS", "Chant is not being taught here."]
   ]},
-  { q: "What stays the same when you begin from the fifth rather than from the first?", a: 0, o: [
-    ["The eight sounds, and the concords that bind them", "What changes is where, in the walk, you meet the remnant."],
-    ["The pattern of remnant and tone as you meet them", "That is exactly what changes."],
+  { q: "What stays the same when we begin from the fifth sound rather than from the first?", a: 0, o: [
+    ["The eight sounds, and the concords that bind them", "What changes is where, in the series, we meet the remnant."],
+    ["The pattern of remnant and tone as we meet them", "That is exactly what changes."],
     ["The ethical effect on the hearer, which is thereby proved", "No such proof is offered."],
-    ["Nothing; you have left the art", "You have not left the filling. You have walked it from another of its own sounds."]
+    ["Nothing; you have left the art", "Beginning elsewhere does not leave the filling; it takes the filling from another of its own sounds."]
   ]},
-  { q: "The church tones, much later, are what in relation to this?", a: 2, o: [
-    ["The same seven species, proved identical", "The lesson will not say that. The mapping is left open."],
+  { q: "What, in relation to this, are the church tones of a much later age?", a: 2, o: [
+    ["The same seven species, proved identical", "The lesson does not say that, because the mapping is left open."],
     ["A refutation of the filling", "They are another grammar laid on such a system, not a refutation of 2:1."],
-    ["Another grammar laid on such a system", "If you take every later mode as a new scale, you have lost what this lesson is for."],
+    ["Another grammar laid on such a system", "If we take every later mode as a new scale, we have lost the distinction this lesson is meant to keep."],
     ["The Greater Perfect System under a Christian name", "The GPS is Greek and larger than one diapason."]
   ]},
-  { q: "What should you take from the widget, according to the lesson?", a: 1, o: [
-    ["The correct Greek name for each starting-place", "You are told not to name them Dorian or Phrygian yet."],
-    ["That the remnant falls in a different seat when the same filling is walked from another sound", "Smaller than a theory of modes, and not left open."],
-    ["That species replace genera", "Genera still divide the fourth. Species walk the diapason."],
-    ["That seven is a sacred number, which is why there are seven", "The seven are the remaining starting-places. No mysticism is being taught."]
+  { q: "What does the sound example show, according to the lesson?", a: 1, o: [
+    ["The correct Greek name for each starting-place", "The lesson does not yet name them Dorian or Phrygian."],
+    ["That the remnant falls in a different seat when the same filling is walked from another sound", "This conclusion is smaller than a theory of modes, and it is not left open."],
+    ["That species replace genera", "The genera still divide the fourth, and the species take the diapason from different starting places."],
+    ["That seven is a sacred number, which is why there are seven", "There are seven because that is the number of starting places before the first repeats; no mysticism is being taught."]
   ]},
-  { q: "Character ascribed to a mode — settled, enthusiastic, grave — is, on this page, what?", a: 3, o: [
+  { q: "According to this lesson, what is the character ascribed to a mode (settled, enthusiastic, grave)?", a: 3, o: [
     ["Demonstrated once you have heard the seven", "The lesson says it is not demonstrated by this arithmetic."],
     ["A theorem of harmonics, like 3:2", "3:2 is a ratio of the art. Ethos is named as a claim of ethics."],
-    ["False, because Boethius tangled the names", "The names being tangled does not settle whether melody moves character. That claim is another science’s."],
-    ["A claim of ethics, to be named as one", "It will be named as one. It is not proved here."]
+    ["False, because Boethius tangled the names", "The confusion of the names does not settle whether melody moves character; that claim belongs to another science."],
+    ["A claim of ethics, to be named as one", "It will be named as one, and it is not proved here."]
   ]},
   { q: "What makes later history intelligible, according to the spirit of this lesson and of the system that follows?", a: 0, o: [
-    ["The distinction between what the art demonstrates and what it permits or chooses inside that demonstration", "The fourths do not shift. Starting-place, genus, later grammar do."],
+    ["The distinction between what the art demonstrates and what it permits or chooses inside that demonstration", "The fourths do not change, but the starting-place, the genus and the later grammar do."],
     ["The identity of Dorian with the first species", "That identity is not asserted."],
     ["The replacement of ratio by the staff", "Guido is later, and the ratios do not go away."],
-    ["The silence of the spheres", "Another chapter."]
+    ["The silence of the spheres", "That belongs to another chapter."]
   ]}
 ],
 

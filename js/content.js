@@ -329,7 +329,7 @@ MusicaArs.LESSONS = [
   ch: "V",
   title: "Two times compared",
   html: `
-<p>The tone is a measured step in pitch. Augustine’s definition of the art (the science of measuring well) is of motion, and motion is in time as well as in height. This course follows Boethius in making pitch its chief subject, and it will not become a treatise on verse; but it must include one honest case of measure in duration, because the <span class="latin">musicus</span> of Boethius I.34 judges <span class="latin">rhythmos</span> as well as interval, and because the numbers by which we judge a lame foot are the same kind of number by which you judge a grinding pair.</p>
+<p>The tone is a measured step in pitch. Augustine’s definition of the art (the science of measuring well) is of motion, and motion is in time as well as in height. This course follows Boethius in making pitch its chief subject, and it will not become a treatise on verse; but it must include one honest case of measure in duration, because the <span class="latin">musicus</span> of Boethius I.34 judges <span class="latin">rhythmos</span> as well as interval, and because the numbers by which we judge a lame foot are the same kind of number by which we judge a grinding pair.</p>
 <p>Four times, equal:</p>
 <div class="widget" data-kind="pulse" data-label="Four equal times" data-times="0,0.48,0.96,1.44"></div>
 <p>The same four, with the third late:</p>
