@@ -126,7 +126,7 @@ function mountIntegrity(el) {
   const head = document.createElement("div");
   head.className = "whead";
   head.innerHTML = `<strong>A fourth filled, and a fourth with a hole</strong>
-    <span class="readout">leimma, tone, tone — then a step omitted</span>`;
+    <span class="readout">leimma, tone, tone, then a step omitted</span>`;
   const play = document.createElement("div");
   play.className = "playrow";
   play.innerHTML = `
@@ -347,7 +347,7 @@ function mountComma(el) {
     title = "Twelve fifths against seven diapasons";
     lines = [
       ["Twelve pure fifths, folded back", "a comma sharp", builtR],
-      ["Seven diapasons — where you meant to land", "the open string", 1]
+      ["Seven diapasons, where the fifths should have landed", "the open string", 1]
     ];
     buildSeq = [];
     for (let i = 0; i <= 12; i++) buildSeq.push(fold(Math.pow(3 / 2, i)));
@@ -452,7 +452,7 @@ function mountTetrad(el) {
   const f = n => Audio.freqFromLength(6 / n * 0.5);  /* 6 is the longest = lowest */
   const head = document.createElement("div");
   head.className = "whead";
-  head.innerHTML = `<strong>The musical proportion</strong><span class="readout">6 : 8 : 9 : 12 — lengths of one string</span>`;
+  head.innerHTML = `<strong>The musical proportion</strong><span class="readout">6 : 8 : 9 : 12, lengths of one string</span>`;
 
   const keys = document.createElement("div");
   keys.className = "scale-keys";
@@ -500,7 +500,7 @@ const GPS_STEPS = [
   ["Hypate meson", T, "joins the two lower tetrachords"],
   ["Parhypate meson", L, ""],
   ["Lichanos meson", T, ""],
-  ["Mese", T, "the middle — the ruling sound"],
+  ["Mese", T, "the middle, the ruling sound"],
   ["Paramese", T, "across the tone of disjunction"],
   ["Trite diezeugmenon", L, ""],
   ["Paranete diezeugmenon", T, ""],
@@ -528,7 +528,7 @@ function mountGPS(el) {
   const base = Audio.base * 0.55;
   const head = document.createElement("div");
   head.className = "whead";
-  head.innerHTML = `<strong>The Greater Perfect System</strong><span class="readout">fifteen sounds, spanning 4:1 — two diapasons</span>`;
+  head.innerHTML = `<strong>The Greater Perfect System</strong><span class="readout">fifteen sounds, spanning 4:1 (two diapasons)</span>`;
 
   const list = document.createElement("div");
   list.className = "gps";
@@ -667,7 +667,7 @@ function mountByzGenera(el) {
   const note = document.createElement("p");
   note.className = "readout";
   note.style.margin = "10px 0 0";
-  note.textContent = "The spans: the two ancient divisions close on 498.04¢, the true 4:3. The 1881 divisions close on 500¢ — a fourth already tempered, two cents wide, before a note is sung.";
+  note.textContent = "The spans: the two ancient divisions close on 498.04¢, the true 4:3. The 1881 divisions close on 500¢, which is a fourth already tempered, two cents wide, before a note is sung.";
   el.append(head, tab, note);
 }
 
@@ -725,7 +725,7 @@ function mountObikhod(el) {
   const note = document.createElement("p");
   note.className = "readout";
   note.style.margin = "10px 0 0";
-  note.innerHTML = "The third sound of the first trichord and the first of the fourth stand an <em>octave apart by name</em> and 1086¢ apart in fact — a diminished octave, inside one system, with no modulation. That is the signature of building by threes rather than by fourths.";
+  note.innerHTML = "The third sound of the first trichord and the first of the fourth stand an <em>octave apart by name</em> and 1086¢ apart in fact. This diminished octave arises inside one system, with no modulation, and it follows from building by threes rather than by fourths.";
   el.append(head, rows, play, note);
 }
 
@@ -1065,7 +1065,7 @@ function mountDrill(el) {
       word = perfect
         ? "A whole fresh draw, answered rightly. Draw another when you like."
         : (right >= items.length - 1
-          ? "Close. One more draw — the items and the order will be different, so what you have is the skill and not the memory of a page."
+          ? "Close. Draw once more; the items and the order will be different, so what is trained is the skill and not the memory of a page."
           : "Not yet. The lessons this block rests on will serve before another draw. There is no hurry, and no penalty.");
     } else if (perfect) {
       const days = rec.interval == null ? 1 : rec.interval;
@@ -1077,7 +1077,7 @@ function mountDrill(el) {
       word = "The interval shortens. A miss does not take the block away; it brings it back soon. Draw again when you like.";
     } else {
       word = right >= items.length - 1
-        ? "Close. One more draw — the items and the order will be different, so what you have is the skill and not the memory of a page."
+        ? "Close. Draw once more; the items and the order will be different, so what is trained is the skill and not the memory of a page."
         : "Not yet. The lessons this block rests on will serve before another draw. There is no hurry, and no penalty; the only thing that would be lost is the art.";
     }
     body.innerHTML = `
