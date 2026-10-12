@@ -55,7 +55,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Most lessons, the page says, ask you to do what?", a: 0, o: [
     ["Hear something: one sound, then another, then both together", "The pictures are not decoration; they show the little bridge on the string, and then the reason the sound is as it is."],
-    ["Memorise a table of intervals", "No table is offered in this lesson, and later the palaestra is built so that an exercise block cannot be memorized; only the skill can be learned."],
+    ["Memorize a table of intervals", "No table is offered in this lesson, and later the palaestra is built so that an exercise block cannot be memorized; only the skill can be learned."],
     ["Write a short essay on Boethius", "Reading is required; the distinctive demand of the lessons is hearing."],
     ["Pass a check before the next lesson will open", "Nothing on the opening page is gated, and every part of the course is open."]
   ]},
@@ -697,7 +697,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Multiples and superparticulars", "Those are kinds of ratio, and no ratio has been assigned to anything you have heard. What is wanted are names for what the ear reports."]
   ]},
   { q: "“The names can wait, but the hearing must come first.” What is being asked of you?", a: 1, o: [
-    ["To memorise the vocabulary before listening again", "The sentence sets the two in the opposite order of urgency. Read it once more and ask which of them it says may be postponed."],
+    ["To memorize the vocabulary before listening again", "The sentence sets the two in the opposite order of urgency. Read it once more and ask which of them it says may be postponed."],
     ["To have the experience now, since the terms will be idle without it", "A name given to an experience we have not had gives us no knowledge of that experience. The course is built so that every term arrives after the thing it names."],
     ["To distrust the names when they come", "Nothing casts doubt on the names; the whole course is arranged to earn them. What is said is which comes first, not which is trustworthy."],
     ["To wait for a scale before listening at all", "The lesson has just had you listen twice, with no scale and no vocabulary. Ask what it says cannot wait."]
@@ -753,7 +753,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["At 6 units", "Six is half of twelve, and the halving is the other stopping this lesson names. Being three-halves as short is a smaller shortening than that; convert the phrase into a fraction before setting the bridge."]
   ]},
   { q: "Dragging the bridge, the lesson says, you are ‘not playing a song.’ What are you doing?", a: 3, o: [
-    ["Training the ear to recognise intervals by their names", "Naming comes later, and at this point the lesson has given you a name for nothing you hear. Ask instead what is being varied and what is being watched while it varies."],
+    ["Training the ear to recognize intervals by their names", "Naming comes later, and at this point the lesson has given you a name for nothing you hear. Ask instead what is being varied and what is being watched while it varies."],
     ["Testing whether the string is in tune", "There is nothing for it to be in tune with: one string alone has no standard but itself. Ask what two things the exercise sets side by side."],
     ["Learning to place the bridge accurately by hand", "Accuracy of hand is a knack, and the lesson is not teaching a knack. Ask what the exercise is meant to show about the relation between two quantities."],
     ["Changing one quantity and hearing another quantity change with it", "That sentence is the method of the whole art in a dozen words. What makes this a science is not the sound but the dependence of one measured thing upon another."]
@@ -2590,7 +2590,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Which of the five kinds are the <span class=\"latin\">progressores</span>?", a: 0, o: [
     ["Those in the soul’s own act, as it produces a movement", "The soul is doing here, not undergoing, which is why they stand second in the order of dignity, above the numbers of sense. Producing outranks receiving."],
-    ["Those in the sounding body, which proceeds outward from the instrument", "The sounding body has its own name in the list and is the only bodily kind. You have read the word as though it described sound travelling rather than a power at work."],
+    ["Those in the sounding body, which proceeds outward from the instrument", "The sounding body has its own name in the list and is the only bodily kind. You have read the word as though it described sound traveling rather than a power at work."],
     ["Those by which the soul progresses from bodily things to incorporeal ones", "That is the program of the whole book, not the definition of one member of a list. A name among five has to pick out one of them, not the aim of them all."],
     ["Those in memory, which run back through what was heard", "Memory’s numbers are named separately, and the lesson calls them traces and passive. The word <em>progressores</em> speaks of going forward: ask what in a man goes forward when a verse is spoken."]
   ]},
@@ -2602,7 +2602,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "How does Augustine rank the five kinds in dignity?", a: 1, o: [
     ["The same as the order of discovery, from the sounding body upward", "The two orders are close to inverse, not identical, and the lesson says so directly. Were they the same, the ascent would have nothing to teach."],
-    ["Judgement highest, then the soul’s act, then sense, then memory, and the sounding body lowest of all", "It is nearly the reverse of the order of discovery, but not quite: memory falls below sense, being only traces and passive. And the lowest is what most men would have called the music."],
+    ["Judgment highest, then the soul’s act, then sense, then memory, and the sounding body lowest of all", "It is nearly the reverse of the order of discovery, but not quite: memory falls below sense, being only traces and passive. And the lowest is what most men would have called the music."],
     ["Memory highest, since without it nothing measured could be held together", "Memory’s numbers are ranked below those of sense, on the ground that they are traces and passive. Holding is not doing, and it is not judging; check where the lesson puts them."],
     ["The sounding body highest, since the other four depend upon it", "That is the ranking of the man who thinks the music is the sound. The order of discovery does begin there, but discovery and dignity are two different orders in this lesson."]
   ]},
