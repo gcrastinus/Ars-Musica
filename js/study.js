@@ -2740,7 +2740,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["To write a modern melody", "The first chapter already refused that reading."],
     ["To tune a piano", "Tuning a piano is not part of this course."],
     ["To name the Greek feet in order", "The lesson says we need no name of a foot."],
-    ["To measure a motion so that it is well measured — here, a motion in time", "Pitch remains the chief subject, but that does not mean time has no place."]
+    ["To measure a motion so that it is well measured — here, a motion in time", "Augustine defines <span class=\"latin\">modulari</span> as measuring a motion well, and the motion measured here is a motion in time."]
   ]},
   { q: "When duration is later put on the page, whose work will that be, according to this lesson?", a: 1, o: [
     ["Augustine’s books I–V, taught at last", "Those books remain untaught here, and the later work is treated as history."],
