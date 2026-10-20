@@ -30,7 +30,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["A copy of Boethius in Latin", "Boethius is the main authority of the course, but the opening page does not make a library the first requirement."]
   ]},
   { q: "Why does the course use the old intonation of whole-number ratios, not the pitches of a modern piano?", a: 0, o: [
-    ["Because that difference is part of what you are here to learn; a piano will be close, but it will not be exact", "The String button at the top is a free monochord for the same reason, because the exactness that matters here is that of the ratio, not of the keyboard."],
+    ["Because that difference is part of what this course teaches; a piano will be close, but it will not be exact", "The String button at the top is a free monochord for the same reason, because the exactness that matters here is that of the ratio, not of the keyboard."],
     ["Because pianos cannot play two sounds", "They can. The objection is not to polyphony but to the slight adjustment of the pitches."],
     ["Because Boethius had never heard a keyboard", "Historical accident is not the reason given. The reason is that the art measures by whole-number ratios of a single string."],
     ["Because equal temperament has been refuted", "Later chapters treat temperament as a trade-off, not as a refutation. The opening page is simpler: the piano is close and not exact."]
@@ -260,7 +260,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That it means teaching melodies to others; wrong because teaching is a servile art", "Teaching is nowhere called servile in this lesson, and the misreading the remark actually names is a far commoner one than this. Re-read its opening sentence."]
   ]},
   { q: "The cobbler’s work ends in a shoe. What is the point of the comparison?", a: 0, o: [
-    ["That the work of a liberal art ends in the one who does it, with nothing left over on the bench", "That is why such a possession cannot be inspected, lent, or sold. When we know why the diapason is 2:1, the work we have made is a state of our own reason."],
+    ["That the work of a liberal art ends in the one who does it, with no product remaining outside us", "That is why such a possession cannot be inspected, lent, or sold. When we know why the diapason is 2:1, the work we have made is a state of our own reason."],
     ["That handwork is beneath a free man", "The lesson does not sneer at the cobbler; it distinguishes him. And the Politics passage it quotes says the free man should learn useful things, though not all of them, and not as an artisan does."],
     ["That a shoe is an imperfect thing whereas knowledge is perfect", "No comparison of quality is being drawn. The two works are compared by where each of them ends up, and the shoe is allowed to be a good shoe."],
     ["That the cobbler’s art has no work of reason in it at all", "Making a shoe well plainly takes reason. The contrast is not between thought and thoughtlessness but between two destinations for a finished work."]
@@ -277,14 +277,14 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["To show that liberal studies are useless, and honorably so", "Seneca is not quoted on usefulness at all, and the lesson goes on to deny that being usable makes an art servile. You have imported a claim from the objections."],
     ["To prove that the quadrivium is older than the trivium", "Nothing here dates the arts against one another. Seneca supplies a formula about what a study does to the man who has it, not a chronology."]
   ]},
-  { q: "‘But music is useful — in the liturgy, in the forming of the young. Does that not make it servile?’ How is this met?", a: 2, o: [
+  { q: "‘But music is useful in the liturgy and in the forming of the young. Does that not make it servile?’ How is this met?", a: 2, o: [
     ["Yes, in that use; the art is liberal only so long as no use is made of it", "Then the art would change its kind whenever a choirmaster picked it up. The lesson places the difference in the art itself, where another person’s use of it cannot reach."],
     ["No, because the uses named are sacred and civic rather than commercial", "The lesson never grades uses by their dignity. Medicine is called noble in the very example given, and its nobility does not save it. Ask what actually does the dividing."],
-    ["No: an art is not made servile by being usable, but by being ordered to use", "Hence medicine, a noble art, is not liberal, because it is ordered to health. The difference lies in the end, not in whether anyone ever profits by the art."],
+    ["It does not, because an art is not made servile by being usable, but by being ordered to use", "Hence medicine, a noble art, is not liberal, because it is ordered to health. The difference lies in the end, not in whether anyone ever profits by the art."],
     ["No, because St. Thomas never in fact treats the use of song", "He does, at ST II-II q.91, and the lesson says so while still calling the art liberal. The answer does not depend on denying that the use exists."]
   ]},
-  { q: "‘But it needs the body. You have to listen.’ How is this met?", a: 0, o: [
-    ["The sense supplies the subject; it is not the work — as the astronomer must look and the geometer draw", "What would make the art servile is if the knowing were for the sake of the doing. A middle science takes its subject from sense and does its work in reason."],
+  { q: "‘But it needs the body, because one has to listen.’ How is this met?", a: 0, o: [
+    ["The sense supplies the subject, but it is not the work, as the astronomer must look and the geometer draw", "What would make the art servile is if the knowing were for the sake of the doing. A middle science takes its subject from sense and does its work in reason."],
     ["By denying it: the ratios can be known without ever hearing a sound", "The lesson does not deny that we must listen, and the course could not proceed without hearing. It grants the listening, and then shows that granting it does not make the art servile."],
     ["By admitting that the art is servile in part and liberal in part", "No such division is offered. The reply is a single distinction, applied to astronomy and geometry as well, and it leaves the art wholly on one side."],
     ["Because listening is a passive reception, and passivity cannot be servile", "The lesson argues nothing about activity and passivity. It asks what office the sense holds in the science, and holding an office is not the same as being the work."]
@@ -332,7 +332,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["To appreciate what better men have made", "That is the connoisseur, whom the remark expressly declines to produce. Appreciation is a kind of taste; the lesson is after something that can be stated and defended."],
     ["To teach the art to others", "Teaching may follow from it, and the lesson does not name it here. Look at Boethius’s three sorts of men and ask which of them is being described in this paragraph."],
     ["To hear finer distinctions than an untrained ear can", "A trained ear is useful and is not the mark named. The distinction being drawn is between doing and knowing, and a finer ear is still a power of doing."],
-    ["To say what is the case, and why", "That is the work of the judge. In this art the difference is unusually sharp, because the art is small enough to be possessed entire: either 3:2 is in our ear and in our reason, or it is not."]
+    ["To say what is the case, and why", "That is the work of the judge. In this art the difference is unusually clear, because the art is small enough to be possessed entire: either 3:2 is in our ear and in our reason, or it is not."]
   ]},
   { q: "‘The quadrivium is not four hobbies attached to arithmetic.’ What is it, on the authority quoted?", a: 1, o: [
     ["Four applications of one mathematical method", "That still leaves the other three as appendages of the first, which is the picture the sentence rejects. The image quoted is not of a method but of a journey."],
@@ -359,7 +359,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Those by which we judge, which we did not make and cannot alter", "The last of the five, and the ascent runs from the first to the last and past the last. Everything below them is in some degree ours; these are not."]
   ]},
   { q: "What does the remark say the art will not do?", a: 0, o: [
-    ["It will not by itself make you good; the forming of character belongs to the second study of music", "Aristotle and Boethius both hold that music has much to do with character, but this course does not undertake that. Nor will the art make you happy. It is one small true thing, thoroughly known."],
+    ["It does not by itself make anyone good; the forming of character belongs to the second study of music", "Aristotle and Boethius both hold that music has much to do with character, but this course does not undertake that. Nor does the art make anyone happy; it is one small truth, thoroughly known."],
     ["It will not make you able to judge concords", "Judging is what the art claims to do; it is the third of the four things. This answer takes one of the promises for one of the denials."],
     ["It will not show you anything about the beautiful", "The first and greatest of the four things is a demonstration about the beautiful. The remark denies the art several offices, and that is not among them."],
     ["It will not connect with the other quadrivial sciences", "The fourth thing is that the art is a road, and roads lead somewhere. The remark denies particular accomplishments; it does not deny the ascent."]
@@ -558,8 +558,8 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["It treats meter as a metaphor for pitch", "The lesson refuses metaphor in this very paragraph and takes time to be really numbered. Since time and pitch are both really measured, neither is a figure for the other."],
     ["Meter is the numbering of time and belongs to the art in a wide sense", "The course follows the chief authority of the quadrivium, Boethius, and numbers pitch, while refusing to pretend that Augustine wrote a book about the monochord."]
   ]},
-  { q: "“We also will not pretend that ‘measuring well’ is a metaphor.” What is ruled out?", a: 1, o: [
-    ["That music has any effect on the soul", "Nothing is said here about effects on the soul, and that would not be a question about the word “measuring” at all. Read the two sentences that stand together, one refusing a pretence and one affirming."],
+  { q: "The lesson says that “measuring well” is not a metaphor. What is ruled out?", a: 1, o: [
+    ["That music has any effect on the soul", "Nothing is said here about effects on the soul, and that would not be a question about the word “measuring” at all. Read the sentence that denies that “measuring well” is a metaphor, and the reason it gives."],
     ["The reading on which “measure” is only a figure of speech", "The art really measures, and that is why a string and a ruler are proper to it, and why the definition can be tested rather than merely admired."],
     ["The use of numbers at all", "The sentence defends measuring rather than retiring it. Ask what would be lost if “measure” were taken as a figure of speech."],
     ["That the art can be taught", "The whole course is a teaching of it, so nothing here could rule that out. The sentence concerns the word “measuring” and how literally it is to be taken."]
