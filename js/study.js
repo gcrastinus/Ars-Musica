@@ -1435,7 +1435,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That judging requires no ear at all, only arithmetic", "The subject of this art is sounding pitch as heard, so an art without an ear would have lost its subject. Re-read the line the lesson gives as the subject."]
   ]},
   { q: "To what do song in church and the delight of hearing belong, and where are they treated?", a: 0, o: [
-    ["To the <em>use</em> of music, which Thomas treats in ST II-II q.91", "None of it is the liberal art, and none of it is cancelled by the liberal art. The science tells us what a concord is, and prudence tells us when to sing."],
+    ["To the <em>use</em> of music, which Thomas treats in ST II-II q.91", "None of it is the liberal art, and none of it is canceled by the liberal art, because the science tells us what a concord is, while prudence tells us when to sing."],
     ["To the liberal art, as its practical part", "The lesson denies that they belong to the art at all, while insisting they are not thereby abolished. Ask which habit judges the fittingness of singing on a given occasion."],
     ["To <span class=\"latin\">musica humana</span>, as a proportion of soul to body", "You have reached back to Boethius’s division of the kinds of music rather than to the question of use. The lesson gives a precise place in Thomas for this matter."],
     ["To no discipline, being matters of taste", "Thomas gives them a question of their own in the <span class=\"latin\">Summa</span>, with distinctions about when they are salutary and when abused. That is not what taste means."]
@@ -1446,7 +1446,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["When it aims at display, or when the tune swallows the words", "Both faults are disorders of end, because the song is for devotion, and in both it is devotion that is displaced. Instruments that move to pleasure rather than to a good disposition draw the same caution."],
     ["Whenever it gives pleasure", "Melody moves the soul, and that is exactly why the lesson calls song a salutary help to devotion. Pleasure is not the fault; ask what the fault does to the end of singing."]
   ]},
-  { q: "‘The science tells us what a concord is, and prudence tells us when to sing.’ What is that sentence dividing?", a: 3, o: [
+  { q: "‘The science tells us what a concord is, while prudence tells us when to sing.’ What is that clause dividing?", a: 3, o: [
     ["Theory from practice within the liberal art", "Both halves would then be parts of one art, which is what the sentence denies. One of the two habits named is not a liberal art at all."],
     ["Boethius from Thomas", "They are not opposed in this lesson; Thomas’s account is said to agree with Boethius in substance. The sentence divides two habits, not two authorities."],
     ["Arithmetic from harmonics", "That division is real and belongs to the account of a middle science, but neither of those two settles an occasion. Ask which habit governs a choice about acting."],
@@ -1474,7 +1474,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because the first principles are incomplete without it", "The lesson says the opposite: we now have the first principles, and the later subject is expressly not first. Incompleteness is not the reason given."],
     ["Because later music refuted the Boethian art", "That is the claim the lesson wants the student to be able to answer. Ask why a student might be persuaded by it, and that is the reason for the chapter."],
     ["Because the tempered instruments of later Europe are more perfect", "No such judgment is offered. The chapter is described as asking a question at its end, not as judging one age superior to another."],
-    ["Because a student who knows the art and nothing of what became of it is easily persuaded by the claim that the art was refuted", "And the chapter ends by asking which of the six lines still stand. The lesson adds a caution: it is not for reading before the string is known by ear."]
+    ["Because a student who knows the art and nothing of what became of it is easily persuaded by the claim that the art was refuted", "And the chapter ends by asking which of the six lines still stand. The lesson adds a caution: that history should not be read before the string is known by ear."]
   ]},
   { q: "The lesson returns to the monochord. At what points is the string named?", a: 1, o: [
     ["At 1, 2/3, 1/2 and 1/3", "Three of these are on the list and the fourth is not. Count the four stopping points the lesson names, and ask what ratio each sounds against the open string."],
@@ -2877,7 +2877,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "The palaestra, after this lesson, goes on. Why raise the question now rather than only in Chapter X?", a: 0, o: [
     ["So that the palaestra does not go on as if the question had not arisen at the first honest judgment", "Chapter X remains the place the course treats the ascent at length."],
     ["So that E3 can be skipped", "E3 is next."],
-    ["So that Guided turns itself on", "Guided remains your choice, named at the end of the musician chapter."],
+    ["So that Guided turns itself on", "Guided remains your choice, as the lesson on using the palaestra explains."],
     ["So that the East can be understood", "E10 waits on the Eastern chapter, and this pause has nothing to do with it."]
   ]},
   { q: "What will this course not do with Socrates’ question why these numbers please?", a: 2, o: [
