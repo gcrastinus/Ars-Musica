@@ -426,6 +426,12 @@ blockquote.note, .remark {
 }
 .dl dt { font-weight: 600; color: var(--ember); }
 .dl dd { margin: 0; color: var(--ink); }
+/* The separator is for text that is copied, extracted, or read aloud; the grid
+   already separates term and gloss on screen. */
+.dl-sep {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
+}
 .widget, .lab {
   background: var(--panel);
   border: 1px solid var(--rule);
