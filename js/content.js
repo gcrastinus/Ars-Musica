@@ -447,7 +447,7 @@ MusicaArs.LESSONS = [
 <h4 class="sec">Reading the names</h4>
 <p>The names describe the strings of a lyre, not pitches. <span class="latin">Hypate</span> is the highest-placed and most honored string, and it sounds the <em>lowest</em>; <span class="latin">nete</span> is the last, and sounds the highest; <span class="latin">lichanos</span> is the one the forefinger takes; <span class="latin">mese</span> is the middle. Once we know that hypate means the lowest sound, the whole vocabulary becomes legible, and stays legible for a thousand years of treatises.</p>
 
-<h4 class="sec">The mese rules</h4>
+<h4 class="sec">The rules of the mese</h4>
 <p>The Peripatetic <span class="latin">Problems</span> observes that if the mese is put out of tune, the whole instrument sounds wrong, because all good melodies use the mese often, and having left it soon return; the mese is likened to a conjunction among words, the thing by which the rest hangs together. Elsewhere in the same book the other sounds are said to take their order in relation to it. The <span class="latin">Problems</span> are a Peripatetic compilation and not securely Aristotle’s. The observation is a good one; the authority is not.</p>
 
 <h4 class="sec">Standing and moving</h4>
@@ -1209,7 +1209,7 @@ MusicaArs.LESSONS = [
 <h4 class="sec">Two kinds of student Socrates will not have</h4>
 <p>In <em>Republic</em> VII, choosing the studies that turn the soul from becoming to being, Socrates comes to harmonics (which the Pythagoreans call astronomy’s sister) and rejects two sorts of practitioner.</p>
 <p>The first put their ears before their minds. They measure heard concords against one another, torture the strings, argue whether there is a smaller interval still. They make the ear the measure, and they never arrive at anything.</p>
-<p>The second criticism is the one that should trouble us, because it is aimed at our own teachers. The Pythagoreans, Socrates says, are better, but they do the same thing the astronomers do. <em>They seek the numbers in these heard concords, and do not ascend to problems.</em> They never ask which numbers are concordant of themselves, and which are not, and <strong>why</strong>. Pursued that far, he says, the study is useful for the search after the beautiful and the good; pursued otherwise, it is labor lost.</p>
+<p>The second criticism concerns us more closely, because it is aimed at the teachers whom this course follows. The Pythagoreans, Socrates says, are better, but they do the same thing the astronomers do. <em>They seek the numbers in these heard concords, and do not ascend to problems.</em> They never ask which numbers are concordant of themselves, and which are not, and <strong>why</strong>. Pursued that far, he says, the study is useful for the search after the beautiful and the good; pursued otherwise, it is labor lost.</p>
 <div class="remark">
   <h4>The question put to us</h4>
   <p>It is entirely possible to finish this course, hold every ratio, pass every exercise, and never once have asked Socrates’ question. Why <em>these</em> numbers? Why should simplicity of ratio have anything to do with pleasing a sense? Why is the world such that the first numbers and the first concords are the same first? This course has not answered that, and has been careful not to pretend to. It has put us in the one position from which the question can be asked honestly, which is with the fact in our possession rather than on report.</p>
