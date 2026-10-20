@@ -311,14 +311,14 @@ MusicaArs.LESSONS = [
   title: "The tone",
   html: `
 <p>If a fifth plus a fourth makes a diapason, then a fifth <em>minus</em> a fourth is the leftover that distinguishes them. In ratios, this is division: <strong>(3:2) ÷ (4:3) = (3:2)×(3:4) = 9:8</strong>.</p>
-<p>This leftover is the <em>tone</em> (Greek <span class="latin">tonos</span>, Latin <span class="latin">tonus</span>). It is not a concord. The two sounds do not blend as 2:1, 3:2, and 4:3 blend; they form a step. The tone is the ordinary step by which the art will fill the fourth and the diapason.</p>
+<p>This leftover is the <em>tone</em> (Greek <span class="latin">tonos</span>, Latin <span class="latin">tonus</span>). It is not a concord, because the two sounds do not blend as 2:1, 3:2, and 4:3 blend; they form a step. The tone is the ordinary step by which the art will fill the fourth and the diapason.</p>
 <div class="widget" data-kind="interval" data-a="1" data-b="8/9" data-name="The tone — 9:8"></div>
-<p>On the string: the open string to 8/9 of itself is a tone upward (because the lengths are 9:8). The interval between the fourth and the fifth, both measured from the same open string (3/4 and 2/3), is the same tone: (3/4) : (2/3) = 9:8.</p>
+<p>On the string, the open string to 8/9 of itself is a tone upward (because the lengths are 9:8). The interval between the fourth and the fifth, both measured from the same open string (3/4 and 2/3), is the same tone: (3/4) : (2/3) = 9:8.</p>
 <div class="widget" data-kind="interval" data-a="3/4" data-b="2/3" data-name="Fourth to fifth, same open string — also 9:8"></div>
-<p>Two tones compounded are a <em>ditone</em>: (9:8)×(9:8)=81:64. That is a larger step than the later “major third” of 5:4, which Ptolemy and others admitted by combining sense and a different arithmetic. The Pythagorean art, which is the first layer of the liberal art, takes 81:64 as what two tones really are. Whether the ear’s favorite “third” is that ditone or the gentler 5:4 is a dispute we will name, not settle. The first principles do not require it.</p>
+<p>Two tones compounded are a <em>ditone</em>: (9:8)×(9:8)=81:64. That is a larger step than the later “major third” of 5:4, which Ptolemy and others admitted by combining sense and a different arithmetic. The Pythagorean art, which is the first layer of the liberal art, takes 81:64 as what two tones really are. Whether the ear’s favorite “third” is that ditone or the gentler 5:4 is a dispute that we name but do not settle, because the first principles do not require us to settle it.</p>
 <div class="remark">
   <h4>What a tone is not</h4>
-  <p>In modern English, “tone” can mean a sound, a color of voice, or a whole-step on a piano. Here it means one interval, 9:8. A piano’s whole-step is a tempered substitute for this, slightly off, as its fifth is slightly off from 3:2. It is close enough to sing with, but it is not the thing itself.</p>
+  <p>In modern English, “tone” can mean a sound, a color of voice, or a whole-step on a piano. Here it means one interval, 9:8. A piano’s whole-step is a tempered substitute for this, slightly different from it, as its fifth is slightly different from 3:2; it is close enough to sing with, but it is not the thing itself.</p>
 </div>
 `,
   sources: "Boethius, De inst. mus. I.16–18, II.28–31; Euclid, Sectio canonis; Ptolemy, Harmonics I.7, I.15 (the 5:4 as a later, open question)."
@@ -329,16 +329,16 @@ MusicaArs.LESSONS = [
   ch: "V",
   title: "Two times compared",
   html: `
-<p>The tone is a measured step in pitch. Augustine’s definition of the art (the science of measuring well) is of motion, and motion is in time as well as in height. This course follows Boethius in making pitch its chief subject, and it will not become a treatise on verse; but it must include one honest case of measure in duration, because the <span class="latin">musicus</span> of Boethius I.34 judges <span class="latin">rhythmos</span> as well as interval, and because the numbers by which we judge a lame foot are the same kind of number by which we judge a grinding pair.</p>
+<p>The tone is a measured step in pitch. Augustine’s definition of the art (the science of measuring well) is of motion, and motion is in time as well as in height. This course follows Boethius in making pitch its chief subject, and it will not become a treatise on verse; but it must include one honest case of measure in duration, because the <span class="latin">musicus</span> of Boethius I.34 judges <span class="latin">rhythmos</span> as well as interval, and because the numbers by which we judge a lame foot are the same kind of number by which we judge a discordant pair of sounds.</p>
 <p>Four times, equal:</p>
 <div class="widget" data-kind="pulse" data-label="Four equal times" data-times="0,0.48,0.96,1.44"></div>
 <p>The same four, with the third late:</p>
 <div class="widget" data-kind="pulse" data-label="Four times, the third lame" data-times="0,0.48,1.18,1.66"></div>
-<p>We need no name of a foot. One of these is well measured, and the other is not. The offense, if we felt it, did not come from the sound as a pitch, because the pitches were the same. It came from a measure of time that we did not invent for the occasion and did not take from the sound; we used it to find the sound wanting.</p>
-<p>This lesson is meant to give only that. Augustine spent five books numbering such times in the feet of verse, and those books remain his. Franco, later, will put duration on the page; that is history, and we leave it for later. What we now have is the fact that measuring well is of time also, and that the judge of a lame foot is already at work in us.</p>
+<p>We need no name of a foot to hear that one of these is well measured and the other is not. The offense, if we felt it, did not come from the sound as a pitch, because the pitches were the same; it came from a measure of time that we did not invent for the occasion and did not take from the sound; we used it to find the sound wanting.</p>
+<p>That is all this comparison is meant to give. Augustine spent five books numbering such times in the feet of verse, and those books remain his. Franco of Cologne, much later, will write duration into the notation; but that is history, and we leave it for later. What we now have is the fact that measuring well is of time also, and that the judge of a lame foot is already at work in us.</p>
 <div class="remark">
   <h4>What this is not</h4>
-  <p>It is not a course in meter, and it is not a palaestra block. It is the one comparison in duration this art, as we are teaching it, must not omit, or Augustine’s definition would be a sentence about pitch only, which it is not.</p>
+  <p>This comparison is not a course in meter. It is the one comparison in duration that this art, as we are teaching it, must not omit, because otherwise Augustine’s definition would be a sentence about pitch only, which it is not.</p>
 </div>
 `,
   sources: "Augustine, De musica I.2 and I–V (meter, which this course does not teach); Boethius, De inst. mus. I.34 (the musicus judges rhythms as well as intervals)."
@@ -357,26 +357,26 @@ MusicaArs.LESSONS = [
 </div>
 <p>The two extremes with both means between them:</p>
 <div class="widget" data-kind="tetrad"></div>
-<p>The four, and each pair, contain everything the art has taught, and nothing has been chosen:</p>
+<p>The four numbers, taken in pairs, contain every interval the art has taught so far, and none of them has been chosen:</p>
 <div class="dl">
   <dt>6 : 12</dt><dd>the diapason, 2:1</dd>
   <dt>6 : 9 and 8 : 12</dt><dd>the diapente, 3:2, twice over</dd>
   <dt>6 : 8 and 9 : 12</dt><dd>the diatessaron, 4:3, twice over</dd>
   <dt>8 : 9</dt><dd>the tone, 9:8, which is the distance between the two means</dd>
 </div>
-<p>Nicomachus calls this the most perfect proportion, and reports that Pythagoras brought it out of Babylon. Whatever the history, the thing itself is clear. The tone, which <span class="xref" data-to="v-1"></span> derived by taking a fourth away from a fifth, turns out to be the interval between the harmonic and the arithmetic mean of the diapason, so that two different derivations arrive at the same interval.</p>
+<p>Nicomachus calls this the most perfect proportion, and reports that Pythagoras brought it out of Babylon. Whatever the history may be, the arithmetic is clear: the tone, which <span class="xref" data-to="v-1"></span> derived by taking a fourth away from a fifth, turns out to be the interval between the harmonic and the arithmetic mean of the diapason, so that two different derivations arrive at the same interval.</p>
 
 <h4 class="sec">A theorem we are owed</h4>
-<p>The next lesson will say that the leimma is not half a tone, and that the halving of 9:8 is not something this art can take as a principle. So far that has only been asserted, but the proof is short.</p>
-<p>Suppose the tone 9:8 could be divided into two equal intervals. Then there would be a number <em>x</em> standing to 8 as 9 stands to <em>x</em>, that is, a geometric mean. Then <em>x</em>² = 72. But 72 is not a square, so there is no such number.</p>
-<p>And this is not a peculiarity of 9 and 8. <strong>Archytas proved that no superparticular ratio, in its least terms, admits a mean proportional at all.</strong> Boethius reports the demonstration, having already argued the point against Aristoxenus earlier in the same book; the same theorem stands in the <span class="latin">Sectio canonis</span> attributed to Euclid. Every concord and every step of this art except the diapason and its compounds is superparticular. <em>None of them can be halved in ratio.</em></p>
-<p>So <em>semitone</em> is a name and not a measure. The leimma 256:243 is what is <strong>left</strong>, not what is <strong>half</strong>. Two leimmata fall short of a tone; and the whole difficulty that later Europe met when it tried to build instruments of fixed pitch <span class="xref" data-to="vii-4"></span> begins in this one arithmetical fact.</p>
+<p><span class="xref" data-to="v-2"></span> will say that the leimma is not half a tone, and that the halving of 9:8 is not something this art can take as a principle. So far that has only been asserted, but the proof is short.</p>
+<p>Suppose the tone 9:8 could be divided into two equal intervals. Then there would be a number <em>x</em> standing to 8 as 9 stands to <em>x</em>, that is, a geometric mean, and so <em>x</em>² = 72. But 72 is not a square, so there is no such number.</p>
+<p>And this is not a peculiarity of 9 and 8. <strong>Archytas proved that no superparticular ratio, in its least terms, admits a mean proportional at all.</strong> Boethius reports the demonstration, having already argued the point against Aristoxenus earlier in the same book; the same theorem stands in the <span class="latin">Sectio canonis</span> attributed to Euclid. Every concord and every step of this art except the diapason and its compounds is superparticular; therefore <em>none of them can be halved in ratio</em>.</p>
+<p>So “semitone” is a name and not a measure. The leimma 256:243 is what is <strong>left</strong>, not what is <strong>half</strong>. Two leimmata fall short of a tone; and the whole difficulty that later Europe met when it tried to build instruments of fixed pitch <span class="xref" data-to="vii-4"></span> begins in this one arithmetical fact.</p>
 <div class="remark">
   <h4>Why a course in sounding number stops for the doctrine of means</h4>
-  <p>Because this is the point at which the scale stops looking like a choice and starts looking like a consequence. The two inner numbers of 6:8:9:12 were not picked because they sounded well. They are what the arithmetic yields when we ask for the means of 6 and 12, and the sound follows after. This is what it is to possess a middle science rather than to have heard about one.</p>
+  <p>Because this is the point at which the scale is shown to be a consequence and not a choice. The two inner numbers of 6:8:9:12 were not picked because they sounded well; they are what the arithmetic yields when we ask for the means of 6 and 12, and the sound follows after. This is what it is to possess a middle science rather than to have heard about one.</p>
 </div>
 `,
-  sources: "Boethius, De institutione arithmetica II.40–54 (the means; the maxima et perfecta harmonia) and De institutione musica II.12–17; Nicomachus, Introduction to Arithmetic II.29 (the musical proportion, reported as Babylonian); Boethius, De inst. mus. III.1 (against Aristoxenus) and III.11 (Archytas’s demonstration, which Boethius also criticises as loosely stated); Euclid, Sectio canonis prop. 3."
+  sources: "Boethius, De institutione arithmetica II.40–54 (the means; the maxima et perfecta harmonia) and De institutione musica II.12–17; Nicomachus, Introduction to Arithmetic II.29 (the musical proportion, reported as Babylonian); Boethius, De inst. mus. III.1 (against Aristoxenus) and III.11 (Archytas’s demonstration, which Boethius also criticizes as loosely stated); Euclid, Sectio canonis prop. 3."
 },
 
 {
@@ -385,13 +385,13 @@ MusicaArs.LESSONS = [
   title: "Filling the diapason",
   html: `
 <p>The work of harmonics, as a liberal art, is the scale. A scale is not a ladder drawn on paper but the diapason, filled with concords and with the tone, so that we can go from a sound to its double through a known path.</p>
-<p>The old way of filling is the <em>tetrachord</em>: a fourth, divided. In the diatonic genus (the ordinary one, the one the Middle Ages taught first) the fourth is filled by two tones and a leftover. Two tones are 81:64. The fourth is 4:3. The leftover is (4:3)÷(81:64)=256:243. This leftover is the <em>leimma</em>, the remnant. It is smaller than a tone. It is not “half a tone,” because half of 9:8 would be a mean the Pythagorean art does not take as a first principle, and 256:243 is not that mean.</p>
+<p>The old way of filling is the <em>tetrachord</em>: a fourth, divided. In the diatonic genus (the ordinary one, the one the Middle Ages taught first) the fourth is filled by two tones and a leftover. Two tones are 81:64 and the fourth is 4:3, so the leftover is (4:3)÷(81:64)=256:243. This leftover is the <em>leimma</em> (the remnant), which is smaller than a tone; but it is not “half a tone,” because half of 9:8 would be a mean the Pythagorean art does not take as a first principle, and 256:243 is not that mean.</p>
 <p>Two such tetrachords, separated by a tone, fill the diapason. That is why the filled diapason has eight standing sounds (hence “octave”), and why the eight are not eight equal steps. They are tone, tone, leimma, tone, tone, tone, leimma, or a permutation of that pattern, depending on where we set the tetrachords.</p>
 <div class="widget" data-kind="scale"></div>
 <p>The eight, low to high, are the diatonic filling of 2:1, built only from 3:2, 4:3, and their difference 9:8. There is no piano key, no clef, and no “C major” in it. If we later meet those names, they are labels put on this system, or on a slightly adjusted version of it.</p>
 <div class="remark">
   <h4>Other genera, left open</h4>
-  <p>The Greeks also divided the tetrachord chromatically and enharmonically, with smaller intervals. Boethius reports them, and they are part of the full art, but they are not first; first is the diatonic path through the diapason. Likewise the Guidonian names <em>ut re mi fa sol la</em> are a medieval help for singers, a hexachord laid upon this system. They are useful later, but they are not the origin of the intervals.</p>
+  <p>The Greeks also divided the tetrachord chromatically and enharmonically, with smaller intervals. Boethius reports them, and they are part of the full art, but they are not first; first is the diatonic path through the diapason. Likewise the Guidonian names “ut re mi fa sol la” are a medieval help for singers, a hexachord laid upon this system; they are useful later, but they are not the origin of the intervals.</p>
 </div>
 `,
   sources: "Boethius, De inst. mus. I.21–27, II; Nicomachus, Manual 7–9; the leimma 256:243 is the standard Pythagorean remainder. Hattrup: the opus of harmonics is the scale generated from 2:1, 3:2, 4:3."
@@ -405,10 +405,10 @@ MusicaArs.LESSONS = [
 <p>We have filled the diapason. The eight sounds, and the pattern of tones and remnant that joins them, are a consequence of 2:1, 3:2, 4:3, and 9:8. If we begin at a different one of those eight and take the same steps to the double of that beginning, the sounds are the same, but the pattern of remnant and tone, as we meet them, is not.</p>
 <p>That change is what the ancients called a <em>species</em> of the diapason. There are seven, because there are seven places to begin before we only repeat the first. We sound them here without yet naming them Dorian or Phrygian. The names of the Greek <span class="latin">harmoniai</span> and of the later church tones are not settled onto these seven in one way, and this course leaves that mapping open.</p>
 <div class="widget" data-kind="species"></div>
-<p>What we can conclude is smaller and is not left open. The filling is one, but the starting-place is a choice. The character that later writers ascribe to a mode (settled, enthusiastic, grave) is not demonstrated by this arithmetic; it is a claim of ethics, and it will be named as one. The arithmetic we have just heard shows only that the same concords, taken from another of their own sounds, put the remnant in a different place.</p>
+<p>What we can conclude is smaller, and it is not left open: the filling is one, but the starting-place is a choice. The character that later writers ascribe to a mode (settled, enthusiastic, grave) is not demonstrated by this arithmetic; it is a claim of ethics, and we name it as one. The arithmetic we have just heard shows only that the same concords, taken from another of their own sounds, put the remnant in a different place.</p>
 <div class="remark">
   <h4>Why this comes now</h4>
-  <p>Because without it, the filled diapason looks like a single tune, when it is a system. The Greater Perfect System in the next chapter is that system enlarged. The church tones, much later, are another grammar laid on such a system. If we do not hear the seven species as seven views of one filling, we will take every later “mode” as a new scale, and we will have lost the distinction this art exists to keep, between what is demonstrated and what is chosen inside the demonstration.</p>
+  <p>Because without it, the filled diapason looks like a single tune, when it is a system. The Greater Perfect System, which we consider in <span class="xref" data-ch="sys"></span>, is that system enlarged. The church tones, much later, are another grammar laid on such a system. If we do not hear the seven species as seven views of one filling, we will take every later “mode” as a new scale, and we will have lost the distinction this art exists to keep, between what is demonstrated and what is chosen inside the demonstration.</p>
 </div>
 `,
   sources: "Boethius, De inst. mus. IV.14–15 (species of the diapason); I.21–27 (the filling). The mapping of these species onto named Greek harmoniai and onto the church tones is listed among the questions the Appendix leaves open."
@@ -420,9 +420,9 @@ MusicaArs.LESSONS = [
   title: "Consonance, the ear, and reason",
   html: `
 <p>Why do 2:1, 3:2, and 4:3 please, and 9:8 not, when both are ratios of whole numbers? The tradition gives more than one answer, and they are not all the same.</p>
-<p>The Pythagoreans say: because these are the first ratios, from the first numbers. Aristoxenus says: because the ear judges, and the interval is a continuum, not a ratio. Ptolemy says: reason and sense must both be heard; neither may despise the other. Boethius, teaching the Latin West, sides with number as the cause, while still beginning from what is heard.</p>
-<p>All knowledge of nature begins in the senses. A middle science has a physical subject: here, sounding bodies as heard. So Aristoxenus is right that the ear is not optional. He is wrong if he means that the art stops at the ear, or that ratio is a fiction.</p>
-<p>Science is of the cause, and the cause here is numerical proportion in the sounding motion. So the Pythagoreans are right that the concord is a ratio, and that the first concords are the first ratios. They overreach if they treat the ear as a nuisance, or if they insist that every later pleasure of the ear (5:4, for instance) is a moral failure of sense.</p>
+<p>The Pythagoreans say that they please because these are the first ratios, from the first numbers. Aristoxenus says that the ear judges, and that the interval is a continuum, not a ratio. Ptolemy says that reason and sense must both be heard, and that neither may despise the other. Boethius, teaching the Latin West, sides with number as the cause, while still beginning from what is heard.</p>
+<p>All knowledge of nature begins in the senses, and a middle science has a physical subject, here sounding bodies as heard; so Aristoxenus is right that the ear is not optional. But he is wrong if he means that the art stops at the ear, or that ratio is a fiction.</p>
+<p>Science is of the cause, and the cause here is numerical proportion in the sounding motion. So the Pythagoreans are right that the concord is a ratio, and that the first concords are the first ratios. But they go too far if they treat the ear as a nuisance, or if they insist that every later pleasure of the ear (5:4, for instance) is a moral failure of sense.</p>
 <p>Ptolemy’s method (sense and reason together) is, as a <em>method</em>, the nearest of the three to a middle science. But that does not by itself make every ratio that Ptolemy admits a first principle, because first principles are few.</p>
 <div class="remark">
   <h4>Beauty as proportion</h4>

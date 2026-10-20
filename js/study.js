@@ -984,7 +984,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["A whole step on a keyboard", "The remark treats that as a substitute and says it is slightly off from the thing itself, so it cannot be the meaning of the word."]
   ]},
   { q: "What does the lesson say of a piano’s whole-step?", a: 0, o: [
-    ["A tempered substitute, slightly off, as that instrument’s fifth is slightly off from 3:2; it is close enough to sing with, but it is not the thing itself", "The lesson concedes the usefulness and denies the identity. Both halves are needed if we are to use a keyboard without being misled by it."],
+    ["A tempered substitute, slightly different from it, as that instrument’s fifth is slightly different from 3:2; it is close enough to sing with, but it is not the thing itself", "The lesson concedes the usefulness and denies the identity. Both halves are needed if we are to use a keyboard without being misled by it."],
     ["Exactly 9:8, since the instrument is tuned by the art", "The remark says that instrument’s fifth departs from the pure ratio, and its whole-step along with it. Read what it says about how close the substitute comes."],
     ["So far from 9:8 as to be useless for learning", "The remark grants it a definite usefulness in the same sentence in which it denies its exactness. Look for the concession as well as the denial."],
     ["5:4 divided in half", "No such halving is performed anywhere in this lesson, and the art does not take halves of ratios as first principles. Ask what the keyboard’s step is compared with, and how nearly it matches."]
@@ -1024,7 +1024,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Why does the lesson insist that the leimma is not ‘half a tone’?", a: 0, o: [
     ["Because half of 9:8 would be a mean the art does not take as a first principle, and 256:243 is not that mean in any case", "The sentence makes two objections: the operation is not admitted, and the number would not correspond to it if it were. The first is the more important, because it is why this art has no ‘semitone’ properly so called."],
-    ["Because it is larger than a tone, not smaller", "The lesson says outright that it is smaller than a tone. Read the sentence just before the denial and note which way the comparison runs."],
+    ["Because it is larger than a tone, not smaller", "The lesson says outright that it is smaller than a tone. Read the clause just before the denial and note which way the comparison runs."],
     ["Because a tone cannot be divided at all, being a first principle", "The art’s reluctance concerns what it will take as a starting point, not what is mathematically possible. Read what the lesson says halving would require."],
     ["Because 256:243 is a concord, and half-tones are not", "Nothing in the lesson calls this remnant a concord; the concords were settled two chapters ago, and this is what was left when one of them was divided. The objection made here is arithmetical."]
   ]},
@@ -1132,7 +1132,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That Boethius rejected the proportion as Babylonian and unfit for Latin use", "Nothing of the kind is said anywhere in the lesson. The caution attaches to the report of its origin, not to the proportion, which the lesson then unfolds interval by interval."],
     ["That the proportion is called perfect because it pleases the ear more than any other", "The lesson takes care to say the two inner numbers were not picked for their sound. Ask where their perfection is supposed to come from, if not from a verdict of taste."]
   ]},
-  { q: "The remark says this is where the scale stops looking like a choice. Why?", a: 2, o: [
+  { q: "The remark says this is where the scale is shown to be a consequence and not a choice. Why?", a: 2, o: [
     ["Because the ancients agreed upon it, and their agreement settles the matter", "The remark appeals to nothing of the sort, and this lesson prefers the thing to the authority. Ask what in the remark does the work that consent would otherwise have to do."],
     ["Because the ear approves the result, and approval makes a consequence", "Approval is a response to a result, not a derivation of one. The remark describes what it is to <em>possess</em> a middle science; re-read what it says that possession is."],
     ["Because the two inner numbers are simply what the arithmetic yields when we ask for the means of 6 and 12, and the sound follows after", "The scale is a consequence, not a choice. That order (number first, sound after, and nothing chosen to fit) is what the remark says distinguishes possessing a middle science from having heard about one."],
@@ -1144,7 +1144,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "How does the lesson state Aristoxenus’s answer to the question why some ratios please?", a: 2, o: [
     ["That the first numbers are the cause, and the ear merely registers what number has settled", "You have given the answer of the school he argued against. Ask whose name stands beside the claim about first ratios from first numbers, and sort the four positions in the second paragraph."],
     ["That sense and reason must both be heard, and neither may despise the other", "That is a third position in the same paragraph, and its force is that it refuses to make either faculty the sole judge. Aristoxenus was not so even-handed; ask whose formula this is."],
-    ["That the ear judges, and the interval is a continuum rather than a ratio", "That is why the lesson can call him right about the ear and wrong about the ratio. A continuum may be divided anywhere, and that is what the arithmetic of the earlier lesson denies."],
+    ["That the ear judges, and that the interval is a continuum rather than a ratio", "That is why the lesson can call him right about the ear and wrong about the ratio. A continuum may be divided anywhere, and that is what the arithmetic of the earlier lesson denies."],
     ["That number is the cause, though the study still begins from what is heard", "That is the Latin settlement the lesson attributes to the teacher of the West, not to the Greek theorist named beside him. Four positions are listed there; match each position to its author."]
   ]},
   { q: "In the lesson’s judgment, what is Aristoxenus right about and what is he wrong about?", a: 0, o: [
@@ -2701,10 +2701,10 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 
 "v-time": [
   { q: "Why does this lesson exist, given that the course follows Boethius in making pitch its chief subject?", a: 2, o: [
-    ["Because Franco has already put duration on the page, and the student must catch up", "Franco belongs to later history, and this lesson does not teach his notation."],
+    ["Because Franco has already written duration into the notation, and the student must catch up", "Franco belongs to later history, and this lesson does not teach his notation."],
     ["Because verse is the true subject of harmonics", "The lesson says it will not become a treatise on verse, and Augustine’s five books remain his."],
     ["Because Augustine’s definition is of measuring well in motion, and motion is in time as well as in height, and Boethius’s musicus judges rhythmos as well as interval", "The lesson gives one honest case of measure in duration; it does not change the chief subject of the course."],
-    ["Because the palaestra needed another block", "The lesson says it is not a palaestra block."]
+    ["Because the palaestra needed another block", "The lesson gives its own reason, and that reason concerns Augustine’s definition, not the exercises."]
   ]},
   { q: "What is the difference between the two sets of four times that the lesson sounds?", a: 0, o: [
     ["The pitches are the same; in one the third time is late", "The offense, if we felt it, did not come from the height of the sounds."],
@@ -2716,7 +2716,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["From the sound as a pitch", "The pitches were the same in both sets."],
     ["From a rule of Franco’s you had memorized", "Franco has not yet been taught, and the lesson does not ask for his names."],
     ["From the names of the feet of verse", "The lesson says we need no name of a foot."],
-    ["Not from the sound, and not invented for the occasion; we used it to find the sound wanting", "It is the same kind of number by which we judge a grinding pair."]
+    ["Not from the sound, and not invented for the occasion; we used it to find the sound wanting", "It is the same kind of number by which we judge a discordant pair of sounds."]
   ]},
   { q: "What will this course not do with Augustine’s books I–V?", a: 1, o: [
     ["Admit that they belong to the art in a wide sense", "The opening of the course already admitted that. It still does not teach them."],
@@ -2731,7 +2731,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because Augustine forbids calling anything an interval except 2:1", "Augustine says nothing of the kind."]
   ]},
   { q: "The judge of a lame foot, the lesson says, is already at work in us. What is that meant to show?", a: 0, o: [
-    ["That measuring well is of time also, and we did not invent the measure for the occasion", "That is the fact this lesson is meant to give."],
+    ["That measuring well is of time also, and we did not invent the measure for the occasion", "That is the fact this comparison is meant to give."],
     ["That you are already a poet", "The lesson asks for no verse."],
     ["That pitch was a mistake as the subject of the art", "The course keeps pitch as its chief subject."],
     ["That the palaestra should be abandoned", "E3 is still to come, in its own place."]
@@ -2815,7 +2815,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Demonstrated once you have heard the seven", "The lesson says it is not demonstrated by this arithmetic."],
     ["A theorem of harmonics, like 3:2", "3:2 is a ratio of the art. Ethos is named as a claim of ethics."],
     ["False, because Boethius tangled the names", "The confusion of the names does not settle whether melody moves character; that claim belongs to another science."],
-    ["A claim of ethics, to be named as one", "It will be named as one, and it is not proved here."]
+    ["A claim of ethics, which we name as one", "We name it as one, and it is not proved here."]
   ]},
   { q: "What makes later history intelligible, according to the spirit of this lesson and of the system that follows?", a: 0, o: [
     ["The distinction between what the art demonstrates and what it permits or chooses inside that demonstration", "The fourths do not change, but the starting-place, the genus and the later grammar do."],
