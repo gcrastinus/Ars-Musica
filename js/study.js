@@ -112,12 +112,12 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "The lengths of the open and the stopped string stand as 2:1. How do their pitches stand?", a: 1, o: [
     ["Also 2:1, the open string being the higher", "The ratio is right and the assignment is backwards. Ask yourself which of the two sounds you would call higher, and then which of the two lengths produced it."],
-    ["2:1 the other way about — the stopped string, being shorter, is the higher", "The pitch ratio is the length ratio inverted. This one sentence is the principle of the whole art, and everything later in the course depends on our having it without thinking."],
+    ["2:1 the other way about: the stopped string, being shorter, is the higher", "The pitch ratio is the length ratio inverted. This one sentence is the principle of the whole art, and everything later in the course depends on our having it without thinking."],
     ["1:1, since it is the same string", "It is the same string, and that is what makes the case instructive: the same string, at a different sounding length, gives a different sound. Sameness of material is not sameness of quantity."],
     ["4:1, since halving the length doubles the pitch twice over", "Halving the length doubles the pitch once. There is no second doubling anywhere in the operation described."]
   ]},
   { q: "Among the kinds of ratio, to which does 2:1 belong?", a: 0, o: [
-    ["The multiple — and it is the first of them, the double", "The greater contains the less exactly twice with nothing over. That is what makes it the simplest inequality there is."],
+    ["The multiple, and it is the first of them, the double", "The greater contains the less exactly twice with nothing over. That is what makes it the simplest inequality there is."],
     ["The superparticular", "In a superparticular the greater contains the less <em>once</em>, and one aliquot part of it besides. Check whether anything at all is left over when you fit the smaller term into the larger here."],
     ["The superpartient", "A superpartient leaves more than one like part over. Fit the smaller term into the larger and see how much remains."],
     ["It belongs to no kind, being equality", "Equality is 1:1, in which there is nothing to compare. Two terms that differ are not equal, however simply they differ."]
@@ -129,16 +129,16 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The interval is prior; the scale is one way of filling it", "And so a name for the interval that counts the filling is a name borrowed from something later. You can hear 2:1 with two sounds and no scale whatever."]
   ]},
   { q: "The course says the other first concords are found ‘nearby’. Where are they?", a: 2, o: [
-    ["In the next multiples — 3:1 and 4:1", "Those are indeed the next multiples, and the art does recognize them as concords compounded from the first. But they are not where the course said to look for the two that come <em>next</em>."],
+    ["In the next multiples, 3:1 and 4:1", "Those are indeed the next multiples, and the art does recognize them as concords compounded from the first. But they are not where the course said to look for the two that come <em>next</em>."],
     ["In the superpartient ratios, 5:3 and 7:4", "The art allows no concord in that class at all. You are looking one class too far along."],
-    ["In the first superparticular ratios — 3:2 and 4:3", "They are the sesquialter and the sesquitertian, and so the three first concords are the first multiple and the first two superparticulars, which is a claim of arithmetical order and not of taste."],
+    ["In the first superparticular ratios, 3:2 and 4:3", "They are the sesquialter and the sesquitertian, and so the three first concords are the first multiple and the first two superparticulars, which is a claim of arithmetical order and not of taste."],
     ["In the ratios formed from the numbers 5 and 6", "That is where a later century would look, and the course tells that story in its own place. It is not where the Pythagorean art looks, because its bound stands lower."]
   ]},
   { q: "A student says: ‘I can hear the diapason, so I have understood it.’ How would this course answer?", a: 1, o: [
-    ["Rightly — the ear is the judge in this art, and hearing is understanding", "The ear gives the art its subject and is never dismissed here. But the course has been careful to say that possessing the subject is not the same act as knowing the cause."],
+    ["Rightly, because the ear is the judge in this art, and hearing is understanding", "The ear gives the art its subject and is never dismissed here. But the course has been careful to say that possessing the subject is not the same act as knowing the cause."],
     ["Hearing it is where the art begins and not where it ends; he has the thing, and the art also wants the reason for it", "The nightingale hears too. What the science adds is the ratio, and the demonstration that this ratio is first."],
-    ["Wrongly — the ear is unreliable and the interval must be taken on the authority of Boethius", "The course never says that, and it would contradict its own first principles about where knowledge begins. Nothing in it asks you to distrust what you have heard."],
-    ["Wrongly — until he can sing it he has not understood it", "Singing is a skill of the throat, and the course is explicit that such a skill is not what makes a man a <span class=\"latin\">musicus</span>. Look for the answer that adds something to hearing without making it a matter of performance."]
+    ["Wrongly, because the ear is unreliable and the interval must be taken on the authority of Boethius", "The course never says that, and it would contradict its own first principles about where knowledge begins. Nothing in it asks you to distrust what you have heard."],
+    ["Wrongly, because until he can sing it he has not understood it", "Singing is a skill of the throat, and the course is explicit that such a skill is not what makes a man a <span class=\"latin\">musicus</span>. Look for the answer that adds something to hearing without making it a matter of performance."]
   ]},
   { q: "On the monochord, everything except the sounding length is deliberately held constant. Why does that matter?", a: 2, o: [
     ["Because otherwise the string would break", "A practical worry, and not the methodological one. Ask what the experiment would fail to <em>show</em> if two things changed at once."],
@@ -174,7 +174,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Aristotle in the <span class=\"latin\">Politics</span> and Boethius in his prologue both hold that different melodies move the soul in different ways. Where does that claim belong in the division?", a: 1, o: [
     ["To the liberal art, since it concerns what sounds do", "The liberal art considers numbered sound as a nature; it does not treat the effects of sound upon hearers. Ask whether the claim you have chosen is about ratios or about what happens to a man who listens."],
-    ["To the second study — music as a part of ethics and politics", "That is why parents and lawgivers watch what is sung. That is the forming of character, and it can be a part of moral science; but it is training, and training is not the art this course teaches."],
+    ["To the second study, music as a part of ethics and politics", "That is why parents and lawgivers watch what is sung. That is the forming of character, and it can be a part of moral science; but it is training, and training is not the art this course teaches."],
     ["To fine art, since composers exploit these effects", "A composer may well use the fact, but using a claim is not the study of it. The lesson assigns a claim by the science it belongs to, not by who happens to find it handy."],
     ["Nowhere in the division; it is a remark of natural philosophy about the passions", "The lesson does give it a place. It uses the same observation when the question is asked whether God should be praised with song, and places it squarely within one of the three studies."]
   ]},
@@ -188,7 +188,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["A song", "The lesson denies this in those very words. A song is the gift of the Muses. The question is what the science makes, and a science does not make songs."],
     ["A performance judged by a trained ear", "No performance is the work of this study, and a trained ear is nowhere called its product. Look again at the sentence in which the third study’s work is named."],
     ["A treatise on the effects of melody upon the soul, such as a lawgiver could use", "That would be a work of the second study, if of any, and the question asks about the third."],
-    ["A scale — an ordered system of pitches generated from the first numerical ratios", "The work is not a song but a scale, and it is considered as a nature, for the sake of the truth about numbered sound; that is what keeps the study from being either a concert or a civic program."]
+    ["A scale, that is, an ordered system of pitches generated from the first numerical ratios", "The work is not a song but a scale, and it is considered as a nature, for the sake of the truth about numbered sound; that is what keeps the study from being either a concert or a civic program."]
   ]},
   { q: "Which of these is the liberal art of music?", a: 2, o: [
     ["Learning to sing well, so as to please a hearer", "Singing well is a fine art, or a craft. It aims at a work that delights. The liberal art aims at truth about numbered sound."],
@@ -199,7 +199,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What did the Greeks call this study when they were being careful?", a: 1, o: [
     ["<span class=\"latin\">Musica</span>", "That is the Latin name the quadrivium uses, and the English word this course keeps descends from it. But the question asked what the Greeks said when they wished to be exact, which was a different word."],
     ["<em>Harmonics</em>", "And the course keeps the English word music only because the tradition does, meaning harmonics unless it says otherwise. If we watch for that silent substitution, we avoid a great deal of confusion later."],
-    ["The music of the Muses — that is, song", "The lesson places that phrase on the other side of the distinction, because the gift of the Muses is song, and this science is not song but what makes song possible. You have named the poet’s sense."],
+    ["The music of the Muses, that is, song", "The lesson places that phrase on the other side of the distinction, because the gift of the Muses is song, and this science is not song but what makes song possible. You have named the poet’s sense."],
     ["<span class=\"latin\">Quadrivium</span>", "That is the name of the group of four sciences, not the name of any one of them. Look for the word Socrates uses when he turns to this study in the seventh book."]
   ]},
   { q: "Why does the remark insist that Socrates says harmonics rather than music?", a: 2, o: [
@@ -216,7 +216,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "A student concludes that the other two studies are therefore false or worthless. What does the lesson say?", a: 2, o: [
     ["They are false, being founded upon delight rather than truth", "The lesson calls them real. It denies them a place at the head of the quadrivium, not a standing of their own; and one of them it allows to be part of a science."],
-    ["They are worthless for a liberal education, though harmless enough as amusements", "That is harsher than the lesson. It calls the two real, and says one of them can be part of moral science — which is not a description of something worthless."],
+    ["They are worthless for a liberal education, though harmless enough as amusements", "That is harsher than the lesson. It calls the two real, and says one of them can be part of moral science, which is not a description of something worthless."],
     ["They are real studies, but they are not first, and they are not what the quadrivium names <span class=\"latin\">musica</span>", "The force of the lesson lies in that ‘and’, because the other two studies are real but are not first. A study can be genuine and worth pursuing, and still be a different study from the one we are learning."],
     ["They are the same study as harmonics, seen from different angles", "Then the lesson would have had no reason to divide them, and its warning about mixing the senses of the word would be idle. The lesson named three ends, and they are not one end."]
   ]},
@@ -239,7 +239,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["In the <span class=\"latin\">Summa</span>, in the question on the parts of prudence", "The sources line is pointed about this: the sentence is not in the Summa. The Summa is cited in this lesson for a different rationale altogether, about the body and the soul."],
     ["In St. Thomas’s commentary on the <span class=\"latin\">Metaphysics</span>, expounding Aristotle on the free man", "The setting matters, because the division follows immediately upon the sentence about the man who is his own cause. The two are one argument, not two separate quotations."],
     ["In Aristotle’s <span class=\"latin\">Politics</span>, where he discusses what the free man should learn", "The Politics is quoted here for a practical consequence about not always seeking the useful. The dividing sentence comes later, and its wording is St. Thomas’s rather than Aristotle’s."],
-    ["In Boethius, at the close of his first book", "That is where the three sorts of men concerned with music are divided — another division, for another purpose. Check which author is being quoted in the paragraph on the art’s end."]
+    ["In Boethius, at the close of his first book", "That is where the three sorts of men concerned with music are divided; that is another division, for another purpose. Check which author is being quoted in the paragraph on the art’s end."]
   ]},
   { q: "In what sense does Aristotle call the highest science free?", a: 0, o: [
     ["As we call a man free who exists for his own sake and not for another’s", "St. Thomas sharpens it: he is not for another’s sake but is his own cause. The likeness between a free man and a free science is the principle of the whole doctrine."],
@@ -305,7 +305,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because the claim is a definition, and definitions stand in need of no proof", "It is not offered as a definition, and the lesson treats it as something that could in principle be doubted. That is why it is worth checking rather than assuming."]
   ]},
   { q: "How do the beautiful and the good stand to one another?", a: 3, o: [
-    ["They are two distinct perfections, found in different things", "Then a thing could be good and in no way beautiful, and the reason given here — that beauty is due proportion, which pleases — would have nothing to fasten on. The lesson makes them one somewhere and two somewhere."],
+    ["They are two distinct perfections, found in different things", "Then a thing could be good and in no way beautiful, and the reason given here (that beauty is due proportion, which pleases) would have nothing to fasten on. The lesson makes them one somewhere and two somewhere."],
     ["The beautiful is a species contained under the good", "Containment is not the relation given. The formula sets the two side by side and locates their difference in one place only. Ask yourself which place that is."],
     ["The good is what pleases when seen; the beautiful is what all desire", "The halves have been swapped. Look again at which formula belongs to which term: <span class=\"latin\">pulchra dicuntur quae visa placent</span>."],
     ["They are the same in the thing and differ in notion", "The good is what all desire; things are called beautiful which please when seen. They are one reality with two accounts of it, and that is why a demonstration about proportion bears on both at once."]
@@ -338,7 +338,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Four applications of one mathematical method", "That still leaves the other three as appendages of the first, which is the picture the sentence rejects. The image quoted is not of a method but of a journey."],
     ["Roads by which the living mind enters into the secrets of philosophy", "Hugh of St. Victor’s image, and St. Thomas adds in his own voice that by these the mind is prepared for the other philosophical disciplines. A road exists for the sake of somewhere else."],
     ["The four sciences in which certainty is possible", "Certainty is not the ground offered, and no comparison with the trivium is made on that head. The image quoted says what the four are for, not how sure they are."],
-    ["A curriculum fixed by custom, whose order is finally arbitrary", "The lesson holds the opposite — that there is an ascent, and that it goes somewhere. What is arbitrary would not be called a road."]
+    ["A curriculum fixed by custom, whose order is finally arbitrary", "The lesson holds the opposite, that there is an ascent, and that it goes somewhere. What is arbitrary would not be called a road."]
   ]},
   { q: "In <span class=\"latin\">Republic</span> VII Socrates dismisses two sorts of student. What is wrong with the second sort?", a: 2, o: [
     ["They put their ears before their minds and torture strings", "That is the first sort. The second is distinguished from it precisely by seeking numbers at all. Read the two dismissals in order and notice what the later group has that the earlier lacks."],
@@ -386,27 +386,27 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Why are arithmetic and geometry first among the four?", a: 3, o: [
     ["Because they were discovered first", "The lesson orders the four by what they treat, not by when anyone found them. An order of that kind would shift with every new piece of history. Ask what these two have in common as sciences."],
-    ["Because they are the easier two", "Ease is a fact about learners. The order given here is drawn from the subjects themselves — from how far each stands from the bodies in which we first meet quantity."],
+    ["Because they are the easier two", "Ease is a fact about learners. The order given here is drawn from the subjects themselves, that is, from how far each stands from the bodies in which we first meet quantity."],
     ["Because the other two are not sciences but applications", "The lesson calls the other two sciences in the full sense; being applied does not unmake a science, since a middle science demonstrates. Ask instead what the first two treat that the second two do not."],
     ["Because they treat quantity in itself, abstracted from the movable bodies in which we first meet it", "That is also why they do not yet touch the world we hear and see, and the other two are added to supply that lack."]
   ]},
   { q: "Following Aristotle’s <span class=\"latin\">Physics</span> II, St. Thomas names three middle sciences. Which three?", a: 0, o: [
-    ["Optics, harmonics, astronomy", "Light, sound, and the heavens — three natural subjects handled by mathematical middle terms. Each is a natural thing proved through number or figure, which is the whole shape of this kind of science."],
+    ["Optics, harmonics, astronomy", "Light, sound, and the heavens: three natural subjects handled by mathematical middle terms. Each is a natural thing proved through number or figure, which is the whole shape of this kind of science."],
     ["Arithmetic, geometry, astronomy", "Two of those treat quantity abstracted from body, and so cannot stand in the middle of anything. A middle science needs something natural at one end. Ask what optics has that geometry lacks."],
     ["Grammar, logic, rhetoric", "That is the other group entirely, and it concerns speech. Middle sciences are being distinguished within the group that concerns quantity."],
     ["Physics, harmonics, optics", "Two of those are rightly placed, and the lesson says in as many words that this art is not physics. Ask which third science it names, and where that one gets its middle terms."]
   ]},
   { q: "Optics is a middle science. From which science does it take its middle terms?", a: 2, o: [
     ["Arithmetic", "That is where another of the three goes. Ask what a ray of light has about it that would be handled by figure rather than by counting."],
-    ["Physics", "Physics is where its <em>subject</em> comes from — a ray is a natural thing. The middle terms of a middle science are drawn from the other end of it, the mathematical end."],
+    ["Physics", "Physics is where its <em>subject</em> comes from, since a ray is a natural thing. The middle terms of a middle science are drawn from the other end of it, the mathematical end."],
     ["Geometry", "And this is the clearest case of the pattern: a natural subject, a mathematical middle term. Harmonics has the same shape with a different mathematics."],
     ["From both arithmetic and geometry", "One of the three does draw on both, and the lesson says so plainly of that one alone. Read the three lines again and ask whether they are alike."]
   ]},
-  { q: "And astronomy — from where does it take its middle terms?", a: 1, o: [
+  { q: "And from where does astronomy take its middle terms?", a: 1, o: [
     ["From geometry only, since the planets move in circles", "The circle is indeed geometry’s, and the lesson does say astronomy cannot be had without it. But of the three lines in the list, the one for astronomy is the only one that names more than one source."],
     ["From both geometry and arithmetic", "That is why it is the fullest of the three. The lesson also uses it as its standing comparison: geometry stands to astronomy as arithmetic stands to music."],
     ["From arithmetic only, since the periods are counted", "Counting periods is part of it; the path a body traces is not counted but described. Read the three lines of the list together and notice which one is unlike the others."],
-    ["From neither — astronomy is a natural science outright", "Then it would sit with physics rather than in the quadrivium, and the lesson puts it squarely among the four. A middle science has a natural subject and still demonstrates mathematically."]
+    ["From neither, since astronomy is a natural science outright", "Then it would sit with physics rather than in the quadrivium, and the lesson puts it squarely among the four. A middle science has a natural subject and still demonstrates mathematically."]
   ]},
   { q: "In harmonics, which is the natural thing and which supplies the middle term?", a: 3, o: [
     ["The number is the natural thing; the sound supplies the middle term", "You have exchanged the two ends. A middle term is what a demonstration runs through; a subject is what it is about. Which of these two could be struck with a plectrum?"],
@@ -416,12 +416,12 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Commenting on Boethius’s <span class=\"latin\">De Trinitate</span>, St. Thomas puts mathematics after logic. What does he call the quadrivium’s sciences?", a: 2, o: [
     ["The highest of the philosophical disciplines", "He places them after one thing and before others, which is not the station of a highest science. Read what he says they lead toward."],
-    ["A preparation for the trivium", "The order runs the other way — logic first, mathematics after. Read the clause about what one should learn once logic is had."],
+    ["A preparation for the trivium", "The order runs the other way: logic first, mathematics after. Read the clause about what one should learn once logic is had."],
     ["“Like paths leading the mind to the other philosophical disciplines”", "A path is traveled and then left behind. This course claims the same status for itself, because it orders the mind toward wisdom and is not the end of the way."],
     ["Sciences of the divine, since number is eternal", "That is a Platonizing claim the lesson does not make, and it would put the quadrivium at the end of the way rather than partway along it. Look at the phrase about paths."]
   ]},
   { q: "Music is neither “math about nothing in particular” nor physics. What does that leave?", a: 0, o: [
-    ["Arithmetic applied to sound", "That is why the next lesson is about ratio and not about melody. Without the arithmetic nothing is demonstrated, and without the sound there is nothing for the demonstration to be about."],
+    ["Arithmetic applied to sound", "That is why the course turns next to ratio and not to melody. Without the arithmetic nothing is demonstrated, and without the sound there is nothing for the demonstration to be about."],
     ["A practical art, ordered to performance", "The lesson seats it in the quadrivium, among the sciences of quantity, never among skills of the hands. Ask what its middle terms are and which science supplies them."],
     ["Geometry applied to sound", "The answer has the right form but the wrong mathematics. Look at the three lines listing the middle sciences and see which one harmonics stands beside."],
     ["Natural philosophy that borrows numbers for convenience", "If the numbers were a convenience the demonstrations would go through without them, and they do not. The lesson also says outright that this art is not physics."]
@@ -447,7 +447,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["It is a limiting case with no sounding image", "The lesson does give it a sounding image, and names it in the same sentence. Look again at the paragraph on equality before going on to the kinds."],
     ["It is one and simple, with nothing in it to divide; its sounding image is the unison", "Boethius holds that all inequality proceeds from equality as all number proceeds from unity, and this is why the art treats the unison before it treats any interval at all."]
   ]},
-  { q: "<span class=\"latin\">Multiplex</span> — what does the name cover, and which ratios did the lesson list under it?", a: 0, o: [
+  { q: "What does the name <span class=\"latin\">multiplex</span> cover, and which ratios did the lesson list under it?", a: 0, o: [
     ["The greater contains the less a whole number of times with nothing over: <span class=\"latin\">duplus</span> 2:1, <span class=\"latin\">triplus</span> 3:1, <span class=\"latin\">quadruplus</span> 4:1", "It is the simplest inequality, since the division comes out even. The phrase “the first concords” means the first multiple and the first two superparticulars."],
     ["The greater contains the less once and one part besides: 3:2, 4:3, 5:4", "You have described the next kind in the table and given its examples. Ask what is left over when the smaller term is fitted into the larger in 3:1."],
     ["Any ratio whose terms both exceed unity: 3:2, 5:3, 9:8", "That would sweep nearly the whole table into one class and leave the other four empty. The definitions turn on how the division comes out, not on the size of the terms."],
@@ -460,19 +460,19 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That both its terms fall within the tetractys", "The bound at four is a further restriction the Pythagoreans lay on which ratios may be concords. It does not put a ratio in one class or another, as 9:8 shows."]
   ]},
   { q: "What is 4:3 called, and what does the name say?", a: 1, o: [
-    ["<span class=\"latin\">Sesquialter</span> — “a half again”", "Both halves of that are true of a different ratio in the table. Fit 3 into 4, ask what fraction of 3 is left over, and then look for the name that states that fraction."],
-    ["<span class=\"latin\">Sesquitertius</span> — “a third again”", "The name states the ratio, which is the point of learning it: a man with the names does not stop to think what 4:3 is. It is the second superparticular and the third of the first concords."],
-    ["<span class=\"latin\">Quadruplus</span> — “fourfold”", "You have taken the name from the larger figure alone. That name belongs to a ratio in which the greater contains the less four whole times with nothing over, which 4:3 plainly does not."],
-    ["<span class=\"latin\">Supertripartiens quartas</span> — “once and three quarters”", "That name stands in the table beside a ratio whose remainder is more than one part. Divide 4 by 3 and count what is actually left."]
+    ["<span class=\"latin\">Sesquialter</span> (“a half again”)", "Both halves of that are true of a different ratio in the table. Fit 3 into 4, ask what fraction of 3 is left over, and then look for the name that states that fraction."],
+    ["<span class=\"latin\">Sesquitertius</span> (“a third again”)", "The name states the ratio, which is the point of learning it: a man with the names does not stop to think what 4:3 is. It is the second superparticular and the third of the first concords."],
+    ["<span class=\"latin\">Quadruplus</span> (“fourfold”)", "You have taken the name from the larger figure alone. That name belongs to a ratio in which the greater contains the less four whole times with nothing over, which 4:3 plainly does not."],
+    ["<span class=\"latin\">Supertripartiens quartas</span> (“once and three quarters”)", "That name stands in the table beside a ratio whose remainder is more than one part. Divide 4 by 3 and count what is actually left."]
   ]},
   { q: "5:4 is a superparticular. What is its name, and where does it stand among them?", a: 2, o: [
-    ["<span class=\"latin\">Sesquiquintus</span>, the fourth of them", "You have taken the prefix from the greater term. In these names the suffix counts the <em>part</em> that is added, not the number on top — and the order follows the same count."],
-    ["<span class=\"latin\">Sesquiquartus</span>, the eighth of them", "The name is right and the place is not. Count the superparticulars in order from the first — 3:2, then 4:3 — and see how far along 5:4 actually falls."],
+    ["<span class=\"latin\">Sesquiquintus</span>, the fourth of them", "You have taken the prefix from the greater term. In these names the suffix counts the <em>part</em> that is added, not the number on top, and the order follows the same count."],
+    ["<span class=\"latin\">Sesquiquartus</span>, the eighth of them", "The name is right and the place is not. Count the superparticulars in order from the first (3:2, then 4:3) and see how far along 5:4 actually falls."],
     ["<span class=\"latin\">Sesquiquartus</span>, the third of them", "That shows where the tradition will later divide, because 5:4 stands early in the order and is refused all the same, so the refusal cannot rest on the kind of ratio. It rests on a bound."],
     ["<span class=\"latin\">Duplex sesquiquartus</span>, which is why it is refused", "That name belongs to a ratio in which the greater contains the less several whole times over. Fit 4 into 5 and count the whole times before reaching for a two-word name."]
   ]},
   { q: "To which kind does 5:3 belong, and what is it called?", a: 0, o: [
-    ["<span class=\"latin\">Superpartiens</span>: <span class=\"latin\">superbipartiens tertias</span> — once and two thirds", "The name reads off the division in order: how many whole times, how many parts, and parts of what sort. Every name in the table is built to be read that way."],
+    ["<span class=\"latin\">Superpartiens</span>: <span class=\"latin\">superbipartiens tertias</span>, once and two thirds", "The name reads off the division in order: how many whole times, how many parts, and parts of what sort. Every name in the table is built to be read that way."],
     ["<span class=\"latin\">Superparticularis</span>: <span class=\"latin\">sesquibitertius</span>", "The <span class=\"latin\">sesqui-</span> names allow exactly one part over, and you have tried to make one carry two. When more than one part remains, the table sends you to another kind altogether."],
     ["<span class=\"latin\">Multiplex</span>: <span class=\"latin\">quintuplus tertias</span>", "A multiple leaves nothing over at all, and 3 does not go into 5 a whole number of times. Do the division before choosing a class."],
     ["<span class=\"latin\">Superpartiens</span>: <span class=\"latin\">supertripartiens quartas</span>", "The class is right; that name belongs to another member of it. Count how many parts are left when 3 is taken from 5, and of what sort those parts are."]
@@ -517,14 +517,14 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The measure of good science", "You have turned the sentence inside out. <span class=\"latin\">Scientia</span> is the noun the definition begins from, and the gerund tells you what it is a science <em>of</em>. Construe it again."]
   ]},
   { q: "<span class=\"latin\">Modulari</span> is called a difficult word. What does it mean here?", a: 0, o: [
-    ["To measure a motion so that it is well measured", "Augustine applies it to the numbering of time as much as of sound — the feet of verse are measured in the same sense. The word is about measure, not about invention."],
+    ["To measure a motion so that it is well measured", "Augustine applies it to the numbering of time as much as of sound; the feet of verse are measured in the same sense. The word is about measure, not about invention."],
     ["To write a melody, in something like the modern sense", "The lesson names this expressly as the meaning to be refused, and it is the one a modern ear supplies first. Ask what the word shares with <span class=\"latin\">modus</span>, a measure."],
     ["To modulate from one key to another", "That sense belongs to a much later theory of keys, which this course has not built and warns against importing. Nothing in the definition yet supposes a key at all."],
     ["To perform with due restraint", "You have taken the word morally, as of a man who is moderate. The lesson takes it quantitatively, of something done to a motion. Read the sentence just after “difficult word”."]
   ]},
   { q: "A player strikes the right string by custom or by ear. What does the lesson say of him?", a: 3, o: [
     ["He has the science, since the result is correct", "Then the definition would need neither of its two hard words, and the nightingale would be a <span class=\"latin\">musicus</span> too. Ask what Augustine’s first concern is said to be."],
-    ["He has no art at all and merely imitates", "The lesson does not strip him of everything — it grants that he strikes the right string. What it withholds is of another order. Re-read the sentence and see which words are denied him."],
+    ["He has no art at all and merely imitates", "The lesson does not strip him of everything; it grants that he strikes the right string. What it withholds is of another order. Re-read the sentence and see which words are denied him."],
     ["He has the science in a lower degree", "The distinction is not one of degree. It divides the one who possesses the art from the one who merely does the thing, and such a division admits no half measures."],
     ["He does not know why that length is the right length", "The knowing of the cause is the whole difference, and it is why a monochord and a ratio are worth the trouble. Doing the thing and possessing the art are two acts."]
   ]},
@@ -548,13 +548,13 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "“Measuring well.” What is measured?", a: 2, o: [
     ["Time only, as in the feet of verse", "That is a part of it, and Augustine’s own five books go that way; the lesson grants as much and then says which way this course goes. Read on past the question."],
-    ["The soul’s affections", "Nothing in the definition points to the affections, and a science of them would not belong to the quadrivium at all. Ask what the next chapters are said to be about."],
-    ["Sounding motion", "And the next chapters make it definite: high and low, the comparison of two sounds, the lengths of a string. The definition stays empty until they fill it."],
+    ["The soul’s affections", "Nothing in the definition points to the affections, and a science of them would not belong to the quadrivium at all. Ask what the following chapters are said to be about."],
+    ["Sounding motion", "And the following chapters make it definite: high and low, the comparison of two sounds, the lengths of a string. The definition stays empty until they fill it."],
     ["The intervals of the diatonic scale", "A scale is something the art arrives at, and this course refuses to begin from one. What is wanted is the wider thing of which a scale is a measuring."]
   ]},
   { q: "Augustine’s treatise turns for five books to meter. How does the course treat that?", a: 3, o: [
     ["It denies that meter belongs to music at all", "The lesson says the opposite in plain words: it grants meter a place, and then explains why this course goes another way. Read the two sentences after the mention of the five books."],
-    ["It follows Augustine there and defers pitch", "The next chapters are announced as high and low and the lengths of a string, which is not meter. Ask which author is named as the chief authority of the quadrivium."],
+    ["It follows Augustine there and defers pitch", "The following chapters are announced as high and low and the lengths of a string, which is not meter. Ask which author is named as the chief authority of the quadrivium."],
     ["It treats meter as a metaphor for pitch", "The lesson refuses metaphor in this very paragraph and takes time to be really numbered. Since time and pitch are both really measured, neither is a figure for the other."],
     ["Meter is the numbering of time and belongs to the art in a wide sense", "The course follows the chief authority of the quadrivium, Boethius, and numbers pitch, while refusing to pretend that Augustine wrote a book about the monochord."]
   ]},
@@ -565,7 +565,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That the art can be taught", "The whole course is a teaching of it, so nothing here could rule that out. The sentence concerns the word “measuring” and how literally it is to be taken."]
   ]},
   { q: "The remark lists what the course will not begin from. Which does it name?", a: 2, o: [
-    ["The monochord", "The course depends on the string rather than avoiding it. The remark’s refusals are all of a later kind of label — things described there as names for what must first be known in itself."],
+    ["The monochord", "The course depends on the string rather than avoiding it. The remark’s refusals are all of a later kind of label, that is, of things described there as names for what must first be known in itself."],
     ["The ratios of Boethius", "Ratios are the course’s own instrument, and it reaches them as soon as it can. The refusals in the remark are all of labels that come after the things they name."],
     ["The treble clef, the names C-D-E, and “major” and “minor”", "They are later labels for things we must first know in themselves, and each is a notation or a category that presupposes a system this course has not yet built."],
     ["The Greek names of the concords", "The course uses those freely and defends them elsewhere against a more modern word. The remark refuses a different vocabulary, one belonging to a much later practice."]
@@ -649,7 +649,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 
 "ii-2": [
   { q: "“One rod is long or short only by comparison.” What does that show about a sound?", a: 2, o: [
-    ["That pitch is not a real difference in the sound", "The previous lesson made height a difference of the sound itself, and this one does not take it back. Being known by comparison is not the same as being unreal."],
+    ["That pitch is not a real difference in the sound", "The lesson on sound made height a difference of the sound itself, and this one does not take it back. Being known by comparison is not the same as being unreal."],
     ["That a sound must be measured against a fixed standard pitch", "No standard is fixed anywhere in this course, and none is needed to hear that one sound stands above another. The comparison is between the two sounds you have."],
     ["That a sound is called high or low only in relation to another", "That is why this lesson comes before any ratio; the art’s whole business is with pairs. A single sound in isolation gives the art nothing to work on."],
     ["That high and low are matters of opinion", "A rod’s length is no matter of opinion for being known by comparison, and neither is a pitch. Distinguish what a thing is from what it takes to see it."]
@@ -668,7 +668,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "What is unison?", a: 1, o: [
     ["The smallest interval", "An interval was said to be a standing-apart, and what you have named has no apartness in it. Ask whether there are two different sounds here, or one."],
-    ["The equality of pitches — one sound", "That is why the arithmetic puts equality before all inequality and gives it this as its sounding image, and so the two lessons meet here."],
+    ["The equality of pitches (one sound)", "That is why the arithmetic puts equality before all inequality and gives it this as its sounding image, and so the two lessons meet here."],
     ["Two sounds an octave apart, since they blend completely", "Complete blending is not sameness of height, and no named interval has been reached yet. Ask what the word itself says: one <em>what</em>?"],
     ["Any pair of sounds that blend", "Blending is what the art will call concord, and concords are made of sounds that differ. Notice how many sounds the word before you names."]
   ]},
@@ -780,7 +780,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The invention, that is, the fiction, made up to decorate the science", "The Latin word does not mean a fabrication, and the lesson is not calling the story an ornament; it keeps it for what it teaches. Consider what the verb <span class=\"latin\">invenire</span> does to a thing."],
     ["The founding principle from which the science is deduced", "Nothing in this course is deduced from a smithy, and the lesson makes the string, not the story, do the demonstrating. Ask what kind of account the word names."],
     ["The order in which the science ought to be taught", "That would be an order of learning, whereas the phrase concerns something that happened once, at the beginning. Ask whether the word points to an order or to an event."],
-    ["The received account of how the science was found — its story of discovery", "The word is the noun of finding. A science may have a true doctrine and a legendary account of its finding; this lesson separates the two and keeps them apart."]
+    ["The received account of how the science was found, that is, its story of discovery", "The word is the noun of finding. A science may have a true doctrine and a legendary account of its finding; this lesson separates the two and keeps them apart."]
   ]},
   { q: "‘We will trust the string.’ What is the ground of that preference?", a: 1, o: [
     ["That strings were the instruments the Greeks actually played", "What the Greeks played is a fact about their music, not about demonstration, and the lesson’s reason is a reason about showing. Ask what the string does that the alternative fails to do."],
@@ -804,7 +804,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["So that the sounding length is one-third of the open string", "You have taken the part damped off rather than the part left sounding. Ask which portion of the wire is free to vibrate when the bridge stands two parts along in three."]
   ]},
   { q: "The lengths are 3:2, open to stopped. How do the lesson’s words run for the pitches?", a: 0, o: [
-    ["3:2 the other way about — stopped to open", "The ratio keeps its magnitude and reverses its order. The shorter string is the higher sound, so the greater term of the pitch comparison belongs to the stopped side."],
+    ["3:2 the other way about: stopped to open", "The ratio keeps its magnitude and reverses its order. The shorter string is the higher sound, so the greater term of the pitch comparison belongs to the stopped side."],
     ["3:2, open to stopped, exactly as the lengths run", "Then the longer piece of wire would be the higher sound. Ask which of the two sounds, the open string or the stopped one, is higher, and then look at the order again."],
     ["2:3, stopped to open, since the pitch ratio is the reciprocal", "You have inverted the terms and the order both, and the two inversions cancel each other. Ask which sound is higher, and then which term of the ratio names it."],
     ["9:4, since inverting squares the ratio", "Nothing in the operation squares anything; one comparison is being read in the opposite order, not compounded with itself. Look at what inverting a ratio actually does to its two terms."]
@@ -813,7 +813,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["3:2 is the <span class=\"latin\">diatessaron</span>; 4:3 is the <span class=\"latin\">diapente</span>", "You have exchanged the two names. One name belongs to the two-thirds stopping and the other to the three-quarters; re-read which sentence introduces which."],
     ["3:2 is the <span class=\"latin\">diapason</span>; 4:3 is the <span class=\"latin\">diapente</span>", "The first name belongs to the concord of the preceding chapter, sounded at half the string, and neither stopping in this lesson falls at the halfway point."],
     ["3:2 is the tone; 4:3 is the <span class=\"latin\">diapente</span>", "The lesson calls both of its intervals concords, and neither is called a step. Look at the two sentences that introduce the stoppings and at the name each one gives."],
-    ["3:2 is the <span class=\"latin\">diapente</span>, the fifth; 4:3 is the <span class=\"latin\">diatessaron</span>, the fourth", "It is better to associate the Greek name with the ratio than with the modern ordinal, because the ratio is what is demonstrated on the string, and the name is given to it afterwards."]
+    ["3:2 is the <span class=\"latin\">diapente</span>, the fifth; 4:3 is the <span class=\"latin\">diatessaron</span>, the fourth", "It is better to associate the Greek name with the ratio than with the modern ordinal, because the ratio is what is demonstrated on the string, and the name is given to it afterward."]
   ]},
   { q: "How does the lesson describe the way the <span class=\"latin\">diapente</span> blends?", a: 2, o: [
     ["So completely that the two seem one sound raised", "That was the course’s description of the concord of the preceding chapter, and this lesson says expressly that the blending here is not of that kind. Re-read the sentence that follows the first sound example."],
@@ -891,7 +891,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["A mysticism about the number ten; it is an observation about which ratios are first", "The lesson lets the Pythagoreans point to the figure and then states the claim in plain arithmetic. It also concedes a limit, because the four numbers do not yield every later interval without further work."]
   ]},
   { q: "From the numbers of the tetractys the lesson forms 4:1. What is it?", a: 0, o: [
-    ["The double diapason — two diapasons compounded, since (2:1)×(2:1)=4:1", "Multiplying a ratio by itself compounds the interval with itself. Four to one is therefore two doublings, not one doubling made twice as large."],
+    ["The double diapason (two diapasons compounded), since (2:1)×(2:1)=4:1", "Multiplying a ratio by itself compounds the interval with itself. Four to one is therefore two doublings, not one doubling made twice as large."],
     ["A quadruple diapason, four times as large an interval", "Intervals do not grow by multiplying their size as a magnitude, and compounding twice does not make anything four times anything. Ask how many doublings 4:1 actually contains."],
     ["A fourth above a diapason", "The fourth is 4:3, and the numeral four standing in a ratio does not by itself make an interval a fourth. Compound the double with itself and see what ratio comes out."],
     ["The interval between the first and the fourth counter of the figure", "Counters in a heap are not sounds and have no interval between them; the figure supplies numbers, and the numbers are then made into ratios. Form 4 to 1 and ask what compounding yields it."]
@@ -936,9 +936,9 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Divides term by term: 3÷4 above, 2÷3 below", "That leaves two quotients and no single comparison. A ratio is one thing, and dividing one ratio by another must yield one ratio; look at the line the lesson sets down."]
   ]},
   { q: "Is the tone a concord?", a: 2, o: [
-    ["Yes — it is the fourth concord, after 2:1, 3:2 and 4:3", "The lesson says explicitly that it is not one, and the concords were settled in the preceding chapter. Read the sentence immediately after the ratio is computed."],
+    ["Yes, it is the fourth concord, after 2:1, 3:2 and 4:3", "The lesson says explicitly that it is not one, and the concords were settled in the preceding chapter. Read the sentence immediately after the ratio is computed."],
     ["Yes, but only when sounded on a string rather than sung", "Nothing in the art makes concord depend on the instrument; the ratio is the same however it is produced. Ask what the lesson says these two sounds do when played together."],
-    ["No — the two sounds do not blend as 2:1, 3:2 and 4:3 blend; they form a step", "Concord and step are two different functions, not two degrees of one thing. The art needs both, concords to bound the span and steps to fill it."],
+    ["No, the two sounds do not blend as 2:1, 3:2 and 4:3 blend; they form a step", "Concord and step are two different functions, not two degrees of one thing. The art needs both, concords to bound the span and steps to fill it."],
     ["The question does not apply, since 9:8 is a remainder and not an interval", "A remainder of two intervals is itself an interval and can be sounded, and the lesson sounds it. Ask what the two sounds do and do not do together."]
   ]},
   { q: "Where is the string stopped to sound a tone above the open string?", a: 0, o: [
@@ -990,7 +990,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["5:4 divided in half", "No such halving is performed anywhere in this lesson, and the art does not take halves of ratios as first principles. Ask what the keyboard’s step is compared with, and how nearly it matches."]
   ]},
   { q: "What function does the tone have in the art?", a: 2, o: [
-    ["It is the smallest interval the art recognizes", "The next lesson divides a fourth and finds something smaller left over. Nothing in this lesson claims a lower bound; look at what the tone is said to be used for."],
+    ["It is the smallest interval the art recognizes", "The lesson on filling the diapason divides a fourth and finds something smaller left over. Nothing in this lesson claims a lower bound; look at what the tone is said to be used for."],
     ["It is the frame within which the concords are set", "You have exchanged frame and filling. Ask which of the two, the concord or the step, spans the greater distance, and which is used to fill the other."],
     ["It is the ordinary step by which the art fills the fourth and the diapason", "The concords bound the span, and the tone divides it. When the tetrachord is divided in a later lesson, this is the unit that does most of the dividing."],
     ["It is a concord used to check the tuning of the others", "The lesson refuses it the name of concord in the sentence just after the ratio is computed. Its use is not a matter of checking anything."]
@@ -1002,7 +1002,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The scale: the diapason filled, so that we can go from a sound to its double through a known path", "The scale is not a ladder drawn on paper but a path through sounds that are actually heard. Everything computed in the last two chapters is gathered here into a single ordered series."],
     ["The classification of concords and discords", "That work was done in an earlier chapter and is presupposed here rather than aimed at. Read the first two sentences and see what they say the work is."],
     ["The tuning of instruments to the pure ratios", "Tuning is an application; the art is concerned with the structure a tuning would realize. Look for what the lesson says is filled, and with what."],
-    ["The drawing of a ladder of eight equal steps", "The lesson refuses both halves of that: it is not a drawing, and it insists afterwards that the steps are not equal. Read what the second sentence denies."]
+    ["The drawing of a ladder of eight equal steps", "The lesson refuses both halves of that: it is not a drawing, and it insists afterward that the steps are not equal. Read what the second sentence denies."]
   ]},
   { q: "What is a tetrachord?", a: 2, o: [
     ["A four-stringed instrument on which the art is demonstrated", "The instrument of this course is one string, and has been since the third chapter. Here the word names an interval and its division, not an instrument."],
@@ -1041,7 +1041,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Three are needed, not two", "Three fourths compounded exceed the double considerably. Count the fourths the lesson names, and ask what small thing is set between them."]
   ]},
   { q: "The lesson gives the order tone, tone, leimma, tone, tone, tone, leimma, ‘or a permutation of that pattern.’ On what does the permutation depend?", a: 3, o: [
-    ["On the genus — diatonic, chromatic or enharmonic", "A change of genus changes the sizes of the steps themselves and not merely their order, and the lesson keeps the genera for its closing remark. The permutation here is within one genus."],
+    ["On the genus (diatonic, chromatic, or enharmonic)", "A change of genus changes the sizes of the steps themselves and not merely their order, and the lesson keeps the genera for its closing remark. The permutation here is within one genus."],
     ["On the tuning of the instrument", "The ratios are fixed by the art and not by any instrument’s tuning; the same seven steps are in question throughout. Ask what may be moved without changing what the steps are."],
     ["On whether one sings ut re mi or some other set of syllables", "The syllables are a later help laid upon the system and do not determine its structure; the closing remark says as much. Look at the clause immediately after the printed pattern."],
     ["On where the tetrachords are set", "The same seven steps are taken from a different starting place. The materials do not change; only the starting point does."]
@@ -1054,7 +1054,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "What does the lesson say about ‘C major,’ clefs and piano keys?", a: 2, o: [
     ["They are errors of modern practice which the art corrects", "The lesson calls them names rather than mistakes, and allows that they may sit upon a slightly altered version of the system. Read the last sentence of that paragraph."],
-    ["They are the origin of the intervals, from which the ratios were afterwards derived", "That reverses the order of the whole course, which builds the intervals out of ratios before any name is given to them. Ask which of the two the lesson says came first."],
+    ["They are the origin of the intervals, from which the ratios were afterward derived", "That reverses the order of the whole course, which builds the intervals out of ratios before any name is given to them. Ask which of the two the lesson says came first."],
     ["They are labels put on this system, or on a slightly adjusted version of it", "The order of dependence matters more than the vocabulary: the structure is first and the names come after. A student who learns the names first is likely to think the structure was made to fit them."],
     ["They are equivalent ways of saying the same thing, neither prior to the other", "The lesson’s phrasing puts one of the two plainly on top of the other. Look at the verb it uses for what the modern names do to this system."]
   ]},
@@ -1081,8 +1081,8 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Between 6 and 12 the harmonic mean is 8. Which statement gives the reason?", a: 2, o: [
     ["The differences 2 and 4 are equal", "Two and four are not equal, and if they were you would have described the mean of equal differences instead. Do the two subtractions again, and then ask what the lesson requires of <em>this</em> mean."],
     ["8 is the number whose square is 72", "The square of 8 is 64, not 72. A mean defined by squaring is a third kind entirely, and the lesson says no whole number answers to it here. Read the condition stated for the mean you were asked about."],
-    ["8−6 = 2, a third of 6; and 12−8 = 4, a third of 12 — the same part of each", "The mean requires equal parts, not equal differences. Equivalently, the differences 2 and 4 stand as the extremes 6 and 12, which is a second way of stating the same condition."],
-    ["8 belongs there because 6:8 is the diatessaron", "That 6 to 8 is a fourth is something we observe afterwards; it is not the rule that produced the number 8. The lesson finds that number from a condition on differences, and the condition comes first."]
+    ["8−6 = 2, a third of 6; and 12−8 = 4, a third of 12; the same part of each", "The mean requires equal parts, not equal differences. Equivalently, the differences 2 and 4 stand as the extremes 6 and 12, which is a second way of stating the same condition."],
+    ["8 belongs there because 6:8 is the diatessaron", "That 6 to 8 is a fourth is something we observe afterward; it is not the rule that produced the number 8. The lesson finds that number from a condition on differences, and the condition comes first."]
   ]},
   { q: "What does the lesson say of the geometric mean between 6 and 12?", a: 3, o: [
     ["It is 9, since 9 stands midway between them", "Midway by difference is one condition; equal ratios are another, and 9 fails the second: 9 to 6 is 3:2 while 12 to 9 is 4:3. Ask what a geometric mean requires of its two ratios."],
@@ -1127,7 +1127,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because the leimma 256:243 is what is left over, not half of anything", "It is a remainder, and named as one, since <span class=\"latin\">leimma</span> means ‘what is left’. The whole difficulty later Europe met in building instruments of fixed pitch begins in this one arithmetical fact."]
   ]},
   { q: "What does the lesson report from Nicomachus about 6 : 8 : 9 : 12, and how does it treat the report?", a: 0, o: [
-    ["That he calls it the most perfect proportion and says Pythagoras brought it out of Babylon — and the lesson sets the history aside to attend to the thing itself", "Whatever the history, the numbers are checkable, and the course prefers what it can check. The same discipline is applied to authorities elsewhere, where the course keeps the observation and sets aside the question of its origin."],
+    ["That he calls it the most perfect proportion and says Pythagoras brought it out of Babylon; and the lesson sets the history aside to attend to the thing itself", "Whatever the history, the numbers are checkable, and the course prefers what it can check. The same discipline is applied to authorities elsewhere, where the course keeps the observation and sets aside the question of its origin."],
     ["That Nicomachus discovered it, which is why the course teaches it", "No claim about who discovered it is made, and the teaching would not be rested on such a claim in any case. Ask what the lesson does with the history it does report."],
     ["That Boethius rejected the proportion as Babylonian and unfit for Latin use", "Nothing of the kind is said anywhere in the lesson. The caution attaches to the report of its origin, not to the proportion, which the lesson then unfolds interval by interval."],
     ["That the proportion is called perfect because it pleases the ear more than any other", "The lesson takes care to say the two inner numbers were not picked for their sound. Ask where their perfection is supposed to come from, if not from a verdict of taste."]
@@ -1175,7 +1175,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["They are the same in the thing and differ in notion: goodness is what all desire, beauty what pleases in being seen", "The difference is of notion, not of subject. That is why a concord may be called beautiful without inventing in it some second quality standing beside its proportion."],
     ["Beauty is a species of goodness, confined to what is heard", "The article is not dividing a genus into species, and the extension to hearing is made in this lesson by analogy rather than by shutting beauty up in one sense. Read what the two are said to share."],
     ["They are wholly distinct, goodness belonging to the will and beauty to private taste", "If beauty were private taste the argument of this lesson would fail, since it denies that the pleasure of a concord is a private taste added to a ratio. Re-read the remark."],
-    ["They differ in the thing and are the same in notion", "You have exchanged the two terms. Ask which of them — the thing itself, or the way it is considered — the article says admits the difference; the order of that sentence is what matters."]
+    ["They differ in the thing and are the same in notion", "You have exchanged the two terms. Ask which of them (the thing itself, or the way it is considered) the article says admits the difference; the order of that sentence is what matters."]
   ]},
   { q: "What work does the phrase ‘even sense is a sort of reason’ do in the argument?", a: 1, o: [
     ["It concedes that the ear is unreliable and must be corrected by number", "The quotation dignifies sense rather than demoting it. And nothing in this lesson asks that the ear be corrected: the ear supplies the very subject upon which the science then works."],
@@ -1196,7 +1196,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["It refers the question to a different study of music altogether", "This is a question about what counts as a concord, which belongs to this study. Deferring it would be a way of avoiding it; ask what the lesson does instead."]
   ]},
   { q: "Why must a middle science of music begin with the ear?", a: 0, o: [
-    ["Because all knowledge of nature begins in the senses, and this science has a physical subject — sounding bodies as heard", "That is why the ear cannot be treated as an obstacle. The cause remains numerical, but a cause is the cause of something, and that something is known by hearing."],
+    ["Because all knowledge of nature begins in the senses, and this science has a physical subject, sounding bodies as heard", "That is why the ear cannot be treated as an obstacle. The cause remains numerical, but a cause is the cause of something, and that something is known by hearing."],
     ["Because the ratios cannot be calculated until an instrument has been measured", "Measuring a string is not the same as sensation being the origin of knowledge, and the arithmetic of this course runs well ahead of any instrument. Look for the general principle, not the practical step."],
     ["Because the ear is more certain than reason about small intervals", "No such comparison is made, and the earlier proof about halving a tone shows what comes of asking the ear to adjudicate a quantity. Certainty is not the reason the lesson gives."],
     ["Because Aristoxenus is the oldest authority on the point", "Something is conceded to him, but not on account of his age, and this course keeps the observation and sets aside the authority. Ask what principle makes the concession necessary."]
@@ -1244,7 +1244,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The last string", "That is the sense of a different name in the same sentence, and it belongs to the string at the far end of the series. Take the four glosses one at a time and match them."],
     ["The most honored string", "Honor belongs to another of the names, and it goes with a string that sounds at the bottom of the order. Nothing in this gloss concerns rank; read the sentence that lists all four."],
     ["The middle string", "The middle has a name of its own in this lesson, and a good deal is said about it further down. Two names cannot both mean the middle; read the glosses through in order."],
-    ["The string the forefinger takes", "The name records a manner of playing rather than a place in the order. That is true of this vocabulary in general: it describes a lyre, and only afterwards a scale."]
+    ["The string the forefinger takes", "The name records a manner of playing rather than a place in the order. That is true of this vocabulary in general: it describes a lyre, and only afterward a scale."]
   ]},
   { q: "Which of these is <em>not</em> among the <span class=\"latin\">hestotes</span>?", a: 2, o: [
     ["<span class=\"latin\">Paramese</span>", "It stands in the list of fixed sounds, at the upper end of the tone of disjunction. Read that list again and count it: there are seven names in it, and this is one of them."],
@@ -1262,7 +1262,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The Greater system with the proslambanomenos removed, giving fourteen sounds", "Removing one sound gives a shortened version of the same system, not a second system, and your count does not match the remark either. That remark describes something added, not something taken away."],
     ["A system of eleven sounds that uses the disjunction twice over", "The count is right and the reason is not. Doubling the disjunction would widen the span past two diapasons, and this is the narrower of the two systems. Re-read the remark."],
     ["The name Boethius gave to the church tones of the Latin Middle Ages", "The remark warns against that sort of transfer, and its warning concerns the names Dorian and Phrygian, not this one. What is described here is a structure of sounds."],
-    ["A fourth tetrachord synemmenon, conjunct, branching upward from the mese in place of the disjunction — eleven sounds spanning 8:3", "Together with the Greater it was called the Immutable System. Since 8:3 is a diapason and a diatessaron, the system reaches a fourth above the diapason."]
+    ["A fourth tetrachord synemmenon, conjunct, branching upward from the mese in place of the disjunction, giving eleven sounds spanning 8:3", "Together with the Greater it was called the Immutable System. Since 8:3 is a diapason and a diatessaron, the system reaches a fourth above the diapason."]
   ]},
   { q: "The remark warns about the names Dorian, Phrygian and Lydian. What is the warning?", a: 1, o: [
     ["That the Greeks never used them, and they are a medieval invention", "The remark says the Greeks did use them, of tonoi and harmoniai. The trouble is not that the names are late, but that they were carried across to something else and kept their sound."],
@@ -1277,18 +1277,18 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["A way of tuning the whole two-diapason system to a different pitch", "Nothing here moves the system as a whole, and the frame of fourths is expressly said to stand. What changes lies inside a single fourth; find how much of that fourth is at liberty."],
     ["A choice of which tetrachords to use in building a system", "The tetrachords are all present either way; what a genus alters happens within one of them. Count how many sounds of a tetrachord are free to move."],
     ["A scale of eight sounds, of which the Greeks had three", "The lesson never counts sounds to define it. It takes a fourth and asks how that fourth is filled, and a fourth holds four sounds, not eight."],
-    ["A way of dividing the standing fourth: the outer sounds never move, the two inner ones do", "One and the same fourth takes on a different character. Nothing about the concord itself has changed, and that is the structural point the lesson carries into the next chapter."]
+    ["A way of dividing the standing fourth: the outer sounds never move, the two inner ones do", "One and the same fourth takes on a different character. Nothing about the concord itself has changed, and that is the structural point the lesson carries into the chapter on modern music."]
   ]},
   { q: "Ascending from the fixed lower sound, how is the diatonic fourth divided?", a: 1, o: [
     ["Tone, tone, leimma", "The three steps are right and their order is not. Read the ascent as the lesson gives it, from the fixed lower sound upward, and note carefully which step is named first."],
-    ["Leimma, tone, tone — 256:243, then 9:8, then 9:8", "The product of the three is exactly 4:3. This is the genus we already possess, and the one the Middle Ages taught first; the other two are variations on the same fixed frame."],
+    ["Leimma, tone, tone, that is, 256:243, then 9:8, then 9:8", "The product of the three is exactly 4:3. This is the genus we already possess, and the one the Middle Ages taught first; the other two are variations on the same fixed frame."],
     ["Leimma, apotome, trihemitone", "Those are the steps of another genus in this lesson, which puts two small intervals close together at the bottom and a wide one at the top. Set the three divisions side by side and match each to its name."],
     ["Two dieses and a ditone", "That is the division of a third genus in this lesson, the one whose smallest steps have no whole-number ratio at all. Match each of the three divisions to its name before choosing."]
   ]},
   { q: "The chromatic fourth is divided by which three ratios?", a: 2, o: [
     ["256:243, then 9:8, then 9:8", "You have given a division whose two upper steps are equal. The genus asked about is not built that way; read the three ratios the lesson prints immediately beside its name."],
     ["256:243, then 2187:2048, then 81:64", "Your third step is a ditone, two whole tones, and it will not fit. Take a leimma and an apotome from the bottom of a fourth and work out exactly how much room is left above them."],
-    ["256:243, then 2187:2048, then 32:27 — leimma, apotome, trihemitone", "The first two together make exactly one whole tone, so the two lower steps lie close together at the bottom, while the top step (three semitones) is wide. The fourth itself has not changed at all."],
+    ["256:243, then 2187:2048, then 32:27 (leimma, apotome, trihemitone)", "The first two together make exactly one whole tone, so the two lower steps lie close together at the bottom, while the top step (three semitones) is wide. The fourth itself has not changed at all."],
     ["Two dieses, then a trihemitone", "You have mixed the small steps of one genus with the wide step of another, and left yourself only two intervals where three are wanted. Find the sentence that prints three ratios for this genus."]
   ]},
   { q: "In the chromatic division, what do the leimma and the apotome come to when taken together?", a: 0, o: [
@@ -1305,7 +1305,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "What must the two enharmonic dieses amount to when taken together?", a: 1, o: [
     ["A whole tone, 9:8", "Then the ditone above them would have to shrink, and it does not: the lesson fixes it at 81:64. Take that away from a fourth and see how much room is actually left at the bottom."],
-    ["The leimma, 256:243 — each diesis being half of it", "That is the difficulty, because the leimma cannot be halved in ratio, so the diesis has no whole-number ratio at all, and Boethius accordingly gives it none."],
+    ["The leimma, 256:243, each diesis being half of it", "That is the difficulty, because the leimma cannot be halved in ratio, so the diesis has no whole-number ratio at all, and Boethius accordingly gives it none."],
     ["An apotome, 2187:2048", "That interval belongs to the chromatic (‘colored’) genus, where it stands above a leimma rather than beneath a ditone. Compute what remains of 4:3 once 81:64 has been taken away from the top."],
     ["Nothing exact, since neither of them has a ratio", "The pair has an exact ratio although neither member does, and the lesson reports that difference. If the ditone is taken from the fourth, the remainder is their sum in whole numbers."]
   ]},
@@ -1325,7 +1325,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["It builds the doctrine of the genera upon them, as Aristotle does in the <em>Politics</em>", "The lesson names that book and grants that such ascriptions were taken seriously, but says in the same remark that nothing demonstrated in this course rests upon them."],
     ["It denies that any such ascriptions were ever made", "It reports that the ascription was made, and cites a legislator who took it seriously enough to act on it. Denying the fact is a different thing from declining to build on it."],
     ["It treats them as part of the arithmetic, since character follows from ratio", "The remark assigns them to a different study of music, named in the first chapter of this course. Character is not among the things these ratios demonstrate."],
-    ["It reports that the ascription was made, assigns the matter to the second study of music, and builds nothing upon it", "The same discipline governs the Peripatetic observation about the mese in the previous lesson, where the course keeps what is observed and does not rely on the authority attached to it."]
+    ["It reports that the ascription was made, assigns the matter to the second study of music, and builds nothing upon it", "The same discipline governs the Peripatetic observation about the mese in the lesson on the Greater Perfect System, where the course keeps what is observed and does not rely on the authority attached to it."]
   ]},
   { q: "What is the structural lesson said to govern everything in Chapter VII?", a: 1, o: [
     ["That the fourth may be filled in three ways and no more", "Three is a fact about Greek practice, not a limit the arithmetic imposes. The closing paragraph looks forward to fillings of the diapason that the Greeks never used at all."],
@@ -1336,7 +1336,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Across all three genera, what does <em>not</em> change?", a: 2, o: [
     ["The size of the second step up from the bottom", "That step is a tone in one division, an apotome in another and a diesis in a third. Compare the three lists the lesson prints and see how little the inner sounds have in common."],
     ["The number of small steps at the bottom of the fourth", "One division begins with a single small step, another with two crowded together at the bottom. Set the three ascents side by side and count them before you choose."],
-    ["The outer sounds, and so the fourth itself — 4:3 in every genus", "The product of the three steps of any one of the divisions is 4:3. The frame is fixed by the arithmetic, and only what stands inside it is free to move."],
+    ["The outer sounds, and so the fourth itself, 4:3 in every genus", "The product of the three steps of any one of the divisions is 4:3. The frame is fixed by the arithmetic, and only what stands inside it is free to move."],
     ["The character the genus is said to bear", "The lesson reports that different characters were ascribed to the different genera, so this is precisely what did not hold constant. And the matter is in any case assigned to another study."]
   ]}
 ]
@@ -1350,7 +1350,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Which of Boethius’s three kinds of music is the proper subject of the liberal art this course has been teaching?", a: 2, o: [
     ["<span class=\"latin\">Musica mundana</span>, since the ratios were first found in the heavens", "The ratios of this art were found on a string, and the lesson denies that the heavens sound at all. Re-read the first paragraphs and ask which kind the monochord has been demonstrating all along."],
     ["<span class=\"latin\">Musica humana</span>, the proportion of soul to body", "That is a real analogy in Boethius, but the lesson assigns it to Ethics and <span class=\"latin\">De anima</span>, which treat it more properly. A liberal art is known by the subject its own principles can reach."],
-    ["<span class=\"latin\">Musica instrumentalis</span> — sounding music of string, wind and voice", "Everything we have heard on the monochord belongs here. The other two are not thereby dismissed; they are assigned to sciences whose principles can take them further than harmonics can."],
+    ["<span class=\"latin\">Musica instrumentalis</span>, sounding music of string, wind, and voice", "Everything we have heard on the monochord belongs here. The other two are not thereby dismissed; they are assigned to sciences whose principles can take them further than harmonics can."],
     ["All three equally, since Boethius makes no order among them", "The lesson does make an order, and it turns on which kind the art’s own principles can reach. Re-read what it says harmonics may claim without trespassing."]
   ]},
   { q: "Aristotle, in <span class=\"latin\">De caelo</span> II, denies that the heavenly bodies make sound. On what ground?", a: 0, o: [
@@ -1363,7 +1363,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["As audible chords sounded by the planets, faint but real", "This is precisely the physical claim the lesson rejects with Aristotle. A doctrine of cosmic order is different from the claim that something is actually heard."],
     ["As a poetic figure with no truth in it, tolerated out of respect for Boethius", "The lesson refuses both mockery and inflation. It holds that the doctrine is true in one sense, not that it is empty and politely endured. Re-read the remark."],
     ["As a proof that the human soul is tuned like a string", "You have moved from the world to the human being, which is the second of Boethius’s three kinds. And the lesson warns against turning any tetrachord into a map of the soul."],
-    ["As the ordering of the cosmos in number, measure and weight — Wisdom 11:21", "So stated it is a cosmological truth, and astronomy is the middle science that shows that order to the eye as harmonics shows order to the ear."]
+    ["As the ordering of the cosmos in number, measure, and weight (Wisdom 11:21)", "So stated it is a cosmological truth, and astronomy is the middle science that shows that order to the eye as harmonics shows order to the ear."]
   ]},
   { q: "What does <span class=\"latin\">musica humana</span> name in Boethius?", a: 1, o: [
     ["The art of singing, as distinct from playing on instruments", "Voice is counted with the instruments in this division, since it too strikes the air. You have divided by the means of sounding, where Boethius is dividing by something else."],
@@ -1517,7 +1517,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Over the four centuries after Guido, what happened to the two musics?", a: 0, o: [
     ["They drifted apart, the honor staying with the judge and the work going to the singer", "That separation is the starting point of the whole chapter. A discipline can keep its dignity for a long while after it has stopped being asked the questions that matter to the men doing the work."],
-    ["The science absorbed the practice and gave it rules drawn from ratio", "The chapter tells the opposite story, and the next lesson shows that the working rules came from somewhere other than ratio. Re-read the paragraph on the split."],
+    ["The science absorbed the practice and gave it rules drawn from ratio", "The chapter tells the opposite story, and the lesson on many voices shows that the working rules came from somewhere other than ratio. Re-read the paragraph on the split."],
     ["The practice was condemned by the schools as unlearned", "No condemnation is described. The medievals honored the judge without attacking the singer; what happened between them was slower and quieter than a quarrel."],
     ["They were fused by Guido’s staff into a single discipline", "The staff gave the practice a record of its own, which made it more able to stand apart rather than less. Ask what a written practice can now do without the science."]
   ]},
@@ -1531,7 +1531,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["What a fifth is", "That is offered as an example of what they can do, and it is the very thing the remark grants the science. Read the sentence through to its second half."],
     ["Which of two strings is the longer", "That is not a musical question at all, and nothing in the chapter raises it. Look for the two questions the singers had that the science had no means to answer."],
     ["Why 2:1 sounds concordant", "This is precisely what a middle science does answer, by giving the cause in ratio. You have named a success of the art and called it a limit."],
-    ["How two independent voices should move against one another, or how long a syllable should be held", "A middle science answers what its principles can reach. Both of these become the business of the next lesson, and neither is settled by ratio."]
+    ["How two independent voices should move against one another, or how long a syllable should be held", "A middle science answers what its principles can reach. Both of these become the business of the lesson on many voices and measured time, and neither is settled by ratio."]
   ]},
   { q: "The chapter’s timeline gives ‘temperament: the ratios deliberately bent’ under which dates?", a: 1, o: [
     ["1300–1558", "Those dates belong to a different row, and to a widening of concord rather than a bending of ratios. Re-read the six rows and match each phrase to its span."],
@@ -1563,7 +1563,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "In parallel organum, what does the added voice do?", a: 0, o: [
     ["It doubles the given chant at the fifth or the fourth throughout", "The other manner the treatise describes begins in unison, opens out, and bends back, so as to avoid the harsh interval that strict parallel motion would produce."],
     ["It moves always contrary to the chant", "Contrary motion is not what the word ‘parallel’ describes, and the lesson gives it as the other manner’s remedy rather than as the rule. Re-read the first paragraph."],
-    ["It doubles the chant at the third or the sixth", "Those intervals are not admitted as concords for another four hundred years, which is the matter of the next lesson. Ask which intervals this art has so far demonstrated."],
+    ["It doubles the chant at the third or the sixth", "Those intervals are not admitted as concords for another four hundred years, which is the matter of the lesson on the third. Ask which intervals this art has so far demonstrated."],
     ["It repeats the chant a beat later, in imitation", "Nothing in this treatise concerns entries at different times, and measured time is not yet on the page at all. That comes later in this lesson."]
   ]},
   { q: "How did the object of the art change with organum?", a: 3, o: [
@@ -1587,13 +1587,13 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Leoninus and Perotinus worked at Notre Dame in roughly which years, and what difficulty did their music make unavoidable?", a: 3, o: [
     ["1160 to 1230; the need to widen the bound of concord to the third", "The dates are right and the difficulty is not. The third is admitted much later, and by a quite different route."],
     ["1280 to 1320; the need to write the length of every note", "The difficulty is right, and those dates belong to the men who answered it rather than to the men who created it. A problem and its solution need not belong to the same date."],
-    ["1100 to 1160; the need for a staff of fixed pitch", "Pitch was already on the page before them, as the previous lesson describes. Ask what second quantity a note possesses besides its height."],
+    ["1100 to 1160; the need for a staff of fixed pitch", "Pitch was already written before them, as the lesson on Guido describes. Ask what second quantity a note possesses besides its height."],
     ["1160 to 1230; the need to write the length of every note, and not merely its height", "Three men singing different lines at once cannot be coordinated by pitch alone. Augustine’s part of the art at last receives a notation."]
   ]},
   { q: "What did Franco of Cologne’s <span class=\"latin\">Ars cantus mensurabilis</span> codify, and about when?", a: 0, o: [
     ["About 1280: that the shape of a note carries its duration", "The system is still ternary and still context-dependent, and Franco gathers up practices already in motion rather than inventing alone. But duration is now written."],
     ["About 1321: the admission of duple as well as triple division", "That date and that innovation belong to the next generation and to another treatise. Franco’s achievement is more basic than a choice between two divisions."],
-    ["About 1030: the fixing of pitch by lines and letters", "You have gone back to the previous lesson and to another man entirely. Franco’s subject is the other quantity a written note can carry."],
+    ["About 1030: the fixing of pitch by lines and letters", "You have gone back to Guido, another man entirely. Franco’s subject is the other quantity a written note can carry."],
     ["About 1330: a defense of the ancients against the moderns", "That is the work of an aged critic writing against what Franco’s system made possible. Franco stands on the other side of that quarrel, and earlier."]
   ]},
   { q: "What did the <span class=\"latin\">ars nova</span> of the 1320s admit, and under whose name do its texts circulate?", a: 2, o: [
@@ -1656,7 +1656,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Who attacked Ramis, and how long did the quarrel run?", a: 3, o: [
     ["Zarlino, in 1558, and the quarrel ended at once", "Zarlino comes to settle the matter for his century rather than to open the fight, and he arrives long afterward. Look for names from the 1480s and 1490s."],
     ["Odington, who had already answered the question about 1300", "Odington precedes Ramis by nearly two centuries, and he observes rather than disputes. He is not a party to the quarrel he made possible."],
-    ["Jacobus of Liège, defending the ancients", "Jacobus belongs to the previous lesson and to a quarrel about time rather than about the third. His century is the fourteenth, not the fifteenth."],
+    ["Jacobus of Liège, defending the ancients", "Jacobus belongs to the lesson on measured time and to a quarrel about time rather than about the third. His century is the fourteenth, not the fifteenth."],
     ["Nicolaus Burtius in print in 1487, with Gaffurio joining the assault; Ramis’s pupil Spataro carried it on for another thirty years", "Quarrels of this kind are slow. Two hundred years pass between Odington’s observation and Zarlino’s settlement, and this is one stretch of them."]
   ]},
   { q: "Where and when did Zarlino settle the question for his century?", a: 0, o: [
@@ -1687,7 +1687,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["In the ditone, which the senario cannot express", "The senario has no difficulty there, and 81:64 was never the interval it was made to accommodate. Look for an interval that needs a number outside the first six."],
     ["In the major third, which needs a seven", "That interval falls comfortably inside the first six numbers; it is the one the whole reform was made to admit. Check the ratios of the sixths instead."],
     ["In Ptolemy’s syntonic diatonic, which Zarlino had to abandon", "He identifies his tuning with it rather than abandoning it. The strain the lesson names concerns a particular interval, and a particular practical retreat."],
-    ["In the minor sixth, 8:5, which needs an eight; and by 1571, in the <span class=\"latin\">Dimostrationi</span>, Zarlino recommends a tempered tuning for actual keyboards rather than his own", "Why he had to is the matter of the next lesson. A theory that admits its own awkwardness is in better health than one that hides it."]
+    ["In the minor sixth, 8:5, which needs an eight; and by 1571, in the <span class=\"latin\">Dimostrationi</span>, Zarlino recommends a tempered tuning for actual keyboards rather than his own", "Why he had to is the matter of the lesson on the comma, and the lesson does not hide the awkwardness of the theory."]
   ]}
 ]
 
@@ -1717,14 +1717,14 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "The syntonic comma is found by comparing which two quantities?", a: 0, o: [
     ["The ditone 81:64, got from four pure fifths, against the just third 5:4, written as 80:64", "Their difference is 81:80, about a tenth of a tone. This is why a fixed instrument cannot hold pure fifths and pure thirds together: the thirds the fifths deliver are not the thirds the singers want."],
-    ["Twelve pure fifths against seven diapasons", "That comparison belongs to the closing of the circle, not to the quarrel between two kinds of third. Ask which of the two commas the previous lesson made urgent, and why thirds were the reason."],
+    ["Twelve pure fifths against seven diapasons", "That comparison belongs to the closing of the circle, not to the quarrel between two kinds of third. Ask which of the two commas the admission of the third made pressing, and why."],
     ["The tone 9:8 against the just third 5:4", "You are setting a step against a concord, and their difference is far larger than any comma. Look again at the two quantities the lesson actually places side by side when it reaches the third."],
     ["Seven diapasons against four pure fifths", "You have mixed the terms of the two comparisons. The seven diapasons belong to the comparison that closes the circle; the ditone is reached from four fifths. Re-read the paragraph that arrives at 81:64."]
   ]},
   { q: "Which of these correctly compares the two commas?", a: 2, o: [
     ["They are one interval under two names, since both are called a comma", "They arise from different comparisons and have different ratios; the word comma names a size of interval, not a single interval. Set 531441:524288 beside 81:80 and ask whether those could be one thing."],
     ["The syntonic is roughly twice the Pythagorean", "Neither is anywhere near double the other; the two lie within a few cents. Re-read the two cent figures in the sources line side by side before you compare them."],
-    ["The Pythagorean is the larger — about 23.46 cents against about 21.5", "They are a few cents apart, and both are near a tenth of a tone. The cent is a later logarithmic measure, admitted here only so that ratios of very different sizes of number can be compared at a glance."],
+    ["The Pythagorean is the larger, about 23.46 cents against about 21.5", "They are a few cents apart, and both are near a tenth of a tone. The cent is a later logarithmic measure, admitted here only so that ratios of very different sizes of number can be compared at a glance."],
     ["The syntonic is the larger by about a whole tone", "A whole tone is some two hundred cents, and each comma is a small fraction of one. Whatever their order, they differ from each other by very little. Read the two figures in the sources line."]
   ]},
   { q: "The lesson gives each comma a rough size in tones. Which account is right?", a: 3, o: [
@@ -1749,13 +1749,13 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because the comma is too small to matter in practice", "Its smallness is not the ground, and the lesson calls the grinding of the two arrivals plainly audible. A defense resting on inaudibility would concede that the art had been caught out. Look for the reason actually given."],
     ["Because the impossibility is itself a result of the art, established by arithmetic (the art’s own middle term)", "The art proves the very limit that everything after it responds to. Three centuries of tuning are a reply to a theorem the Pythagoreans could themselves have stated, so it would be strange to call it a defeat."],
     ["Because later ages never found the comma either", "They found it, measured it, and spent three centuries dealing with it; that is the story the chapter tells. The defense offered does not depend on concealment. Re-read the remark."],
-    ["Because 2:1 and 3:2 were afterwards shown to be wrong", "Nothing here abandons those two ratios: the argument is built out of them and would collapse without them. Ask whether a proof drawn from a principle can discredit the principle it uses."]
+    ["Because 2:1 and 3:2 were afterward shown to be wrong", "Nothing here abandons those two ratios: the argument is built out of them and would collapse without them. Ask whether a proof drawn from a principle can discredit the principle it uses."]
   ]},
   { q: "Which pair of facts does the lesson say follows from the first two ratios of the art?", a: 3, o: [
     ["That the fifth is not really 3:2, and that the third is not really 5:4", "Both ratios stand untouched; they are the premises of the argument, not its casualties. The trouble arises from what happens when they are stacked and compared. Re-read the sentence beginning ‘So a fixed instrument’."],
     ["That a pure fifth cannot be tuned, and that a pure third cannot be tuned", "Any single fifth may be tuned pure without the least difficulty, and so may any single third. The difficulty appears only when several are required to agree at once. Ask what a fixed instrument cannot do."],
     ["That the diapason must be tempered while the fifth is left pure", "The diapason is never the interval tempered in this story; it is the fixed frame within which the error is shared out. And the lesson denies just what this option grants about the fifth."],
-    ["That a fixed instrument cannot have all its fifths pure and still close its circle, and cannot have pure fifths and pure thirds at once", "The lesson calls both of them facts. Everything in the next lesson (meantone, well temperament, equal temperament) is a way of choosing which of the two faults to accept, and where."]
+    ["That a fixed instrument cannot have all its fifths pure and still close its circle, and cannot have pure fifths and pure thirds at once", "The lesson calls both of them facts. Everything in the lesson on temperament (meantone, well temperament, equal temperament) is a way of choosing which of the two faults to accept, and where."]
   ]},
   { q: "What is the cent, as this course uses it?", a: 2, o: [
     ["The unit in which Pythagorean arithmetic states its ratios", "The old art states ratios as ratios, in whole numbers. A unit that cuts an interval into equal parts is a thing of quite another kind. Ask when the cent was devised and by whom it is used here."],
@@ -1773,13 +1773,13 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The first circulating temperament, in which all keys are usable", "His procedure leaves one fifth grotesquely wide and four thirds unusable, so that one may play in some keys and not in others. Ask what the wolf is, and when it was finally driven out."]
   ]},
   { q: "What did Francisco de Salinas do for temperament in 1577?", a: 0, o: [
-    ["Supplied the mathematics, and distinguished the varieties", "Practice ran ahead of theory by half a century here: a procedure was described in 1523, and Salinas afterwards showed what it was. That order is common throughout this chapter."],
+    ["Supplied the mathematics, and distinguished the varieties", "Practice ran ahead of theory by half a century here: a procedure was described in 1523, and Salinas afterward showed what it was. That order is common throughout this chapter."],
     ["Gave the first practical instruction for tuning by ear", "Such an instruction was already in print in 1523, and by another hand. Salinas’s service is of a different kind; ask what a practical instruction given by ear conspicuously lacks."],
     ["Devised the first well temperament, so that the circle closes", "The closing of the circle belongs to a later century and to a German organist. Salinas is working on the family of tunings that still leaves a wolf. The two dates are far apart."],
     ["Proved that equal temperament is the only tuning that closes the circle", "Nothing in the lesson credits him with such a proof, and it could not be proved, since the well temperaments close the circle without being equal. Ask what the lesson says he distinguished."]
   ]},
   { q: "In quarter-comma meantone, what is done to the fifths?", a: 3, o: [
-    ["Each is narrowed by a quarter of the Pythagorean comma", "You have the right fraction attached to the wrong comma. The previous lesson distinguished two of them, and the force of that distinction is that they cannot be exchanged. Settle which comparison yields which."],
+    ["Each is narrowed by a quarter of the Pythagorean comma", "You have the right fraction attached to the wrong comma. The lesson on the comma distinguished two of them, and the force of that distinction is that they cannot be exchanged. Settle which comparison yields which."],
     ["All twelve are narrowed equally, so that the circle closes", "Narrowing all twelve alike is a quite different tuning, and meantone does not close: one fifth is left very wide. Ask what the wolf is and why this procedure cannot avoid it."],
     ["The fifths are left pure and the thirds narrowed instead", "Were the fifths left pure, the third arrived at would be the hard ditone, and a beautiful third was the whole object. Ask which interval the 1523 instruction says to tune pure."],
     ["Each of four fifths is narrowed by a quarter of the syntonic comma, so that four of them, less two diapasons, land exactly on the pure 5:4", "That is the reason for the name. The thirds are beautiful, and the cost falls elsewhere: eight good major thirds, four unusable ones, and one fifth left grotesquely wide."]
@@ -1788,7 +1788,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Every key is available to him, though each has its own color", "That description belongs to a later kind of temperament, built precisely to remove the restriction this one imposes. Meantone leaves an interval nobody can use. Count the good thirds and the bad ones."],
     ["Eight good major thirds and four unusable ones, with one grotesquely wide fifth: he may play in some keys and not in others", "This is the wolf, and it is why the next century states its problem as ‘so that all keys may be used’, and why a circulating tuning was worth the labor of inventing."],
     ["All thirds are equally good and all fifths equally poor", "Meantone distributes its error unevenly on purpose: it gains pure thirds in some places by spoiling others. Nothing in it is spread out equally. Re-read the sentence about the wolf."],
-    ["The fifths are all pure and only the thirds suffer", "That is the tuning meantone was devised to escape. Were all the fifths pure the circle would not close at all, which is the trouble the previous lesson established by arithmetic."]
+    ["The fifths are all pure and only the thirds suffer", "That is the tuning meantone was devised to escape. Were all the fifths pure the circle would not close at all, which is the trouble the lesson on the comma established by arithmetic."]
   ]},
   { q: "What is the standing of Vincenzo Galilei’s 18:17 rule for placing frets?", a: 2, o: [
     ["A derivation of the equal semitone from first principles", "The equal semitone is not a ratio of whole numbers at all, so no rule stated as one could yield it exactly. Ask what relation 18:17 can stand in to a quantity it cannot equal."],
@@ -1800,7 +1800,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["They divide the diapason into twelve equal parts", "Equal division would make the keys indistinguishable from one another, and these tunings were prized for the contrary quality. Ask what the word irregular means in the lesson’s description."],
     ["They tune eight thirds pure and leave four unusable", "That is the bargain of the older family of tunings, the one with a wolf in it. Werckmeister’s object was that all keys should be usable. Ask what must happen to the wolf for that to be so."],
     ["They are irregular: the circle closes and every key is playable, but no two keys sound quite alike", "This is because the error is distributed unevenly. That unevenness is not a defect but the very thing composers valued, and it is what makes a set of pieces in all twenty-four keys worth writing."],
-    ["They keep every fifth pure and accept that the circle will not close", "An instrument whose circle does not close cannot be played in all keys, and closing it was the whole motive. The previous lesson also showed that pure fifths and closure cannot be had together."]
+    ["They keep every fifth pure and accept that the circle will not close", "An instrument whose circle does not close cannot be played in all keys, and closing it was the whole motive. The lesson on the comma also showed that pure fifths and closure cannot be had together."]
   ]},
   { q: "<span class=\"latin\">Das wohltemperirte Clavier</span> (1722) is commonly said to celebrate equal temperament. What does the lesson say of that claim?", a: 3, o: [
     ["It is correct, since twenty-four keys are possible only under equal temperament", "Twenty-four keys are possible under any circulating tuning, equal or not, and one such had been in print since 1691. Ask what circulating means, and whether it entails equality of any kind."],
@@ -1822,7 +1822,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "In Pythagorean tuning, where the fifths are pure, what is the state of the third?", a: 0, o: [
     ["Hard, wide by a full syntonic comma, since it is the ditone", "That is the comparison that defined that comma, and it is also why a purely Pythagorean keyboard became intolerable once thirds began to matter, and why Aaron wrote as he did."],
-    ["Pure, since pure fifths generate pure thirds", "Four pure fifths give the ditone 81:64, which is not 5:4; the whole of the previous lesson turned on that gap. Work the four fifths through and compare the result with what the singers want."],
+    ["Pure, since pure fifths generate pure thirds", "Four pure fifths give the ditone 81:64, which is not 5:4; the whole of the lesson on the comma turned on that gap. Work the four fifths through and compare the result with what the singers want."],
     ["Narrow by a quarter of a comma", "Narrowing by a quarter of a comma is a deliberate act performed by a tuner, not something pure fifths do of themselves. Ask what four untouched fifths deliver when they are folded back."],
     ["Wide by about two-thirds of a comma", "That figure belongs to a different tuning in the same paragraph, one in which no fifth is left pure at all. Read the three clauses in order and keep each measurement with its own tuning."]
   ]},
@@ -1843,7 +1843,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "The <span class=\"latin\">basso continuo</span> becomes universal around 1600. What does the lesson say this signifies?", a: 3, o: [
     ["That performers had ceased to read counterpoint", "The lesson makes no claim about what performers could read, and realizing a figured bass is itself an exercise of considerable skill. Its significance lies in what musicians take themselves to be handling."],
-    ["That temperament had at last been settled", "Temperament remains unsettled for two centuries more, as the previous lesson showed. The continuo marks a change in the working material of music, not in its tuning. Read the first paragraph again."],
+    ["That temperament had at last been settled", "Temperament remains unsettled for two centuries more, as the lesson on temperament showed. The continuo marks a change in the working material of music, not in its tuning. Read the first paragraph again."],
     ["That the overtone series had been accepted as the ground of harmony", "Nobody has yet reported the partials in print at this date, and the man who first does so cannot explain them. The practice and its much later physical grounding must be kept apart."],
     ["That the working unit of European music is no longer the interval", "The continuo is a bass line with figures, from which a player realizes chords. Once the unit changes, a theory of chords becomes necessary, and Rameau supplies one."]
   ]},
@@ -1913,14 +1913,14 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What did Glarean take himself to be doing, and what came of it?", a: 0, o: [
     ["He thought he was restoring an ancient system; within a century and a half his twelve had collapsed into two", "This happens often in this history: a man looks back to the past and, without meaning to, supplies the future with one of its instruments. The two survivors are what we call major and minor."],
     ["He knew he was preparing the way for major and minor, and said so", "Nothing in the lesson credits him with such foresight, and the collapse took a century and a half to complete. Ask what he believed he was doing when he wrote."],
-    ["He was proposing a new temperament for keyboards", "His subject is modes, not tunings. Temperament is a separate strand of this chapter, and the lesson brings the strands together only afterwards. Read the first paragraph again."],
+    ["He was proposing a new temperament for keyboards", "His subject is modes, not tunings. Temperament is a separate strand of this chapter, and the lesson brings the strands together only afterward. Read the first paragraph again."],
     ["He was codifying a practice already universal", "The modes he named were additions to the eight, and his system did not survive as he left it. Ask what he says about antiquity, and what in fact became of his twelve."]
   ]},
   { q: "Which three developments does the lesson put together to produce tonality?", a: 1, o: [
     ["The overtone series, the fundamental bass, and equal temperament", "Two of these belong to the physical grounding of the chord and one to a tuning that arrives late. The lesson’s three are of different kinds. Re-read the paragraph beginning ‘These three developments go together.’"],
     ["Temperament, making each of the twelve sounds a possible home; figured bass, making the chord the unit; and the reduction of the modes to two", "These are three strands from three parts of the story, and none of them is sufficient alone. What comes out of the three together is what the nineteenth century named tonality."],
     ["Sonata form, the symphony, and the string quartet", "Those are things built with tonality, not conditions of it. Ask what had to be in place before a drama of keys could be composed at all, and by whom each piece was supplied."],
-    ["Counterpoint, measured time, and written polyphony", "The lesson names such things among what the ancients and medievals did have, and says they did not yield an art of large-scale form. Look for what was added afterwards, not for what was there already."]
+    ["Counterpoint, measured time, and written polyphony", "The lesson names such things among what the ancients and medievals did have, and says they did not yield an art of large-scale form. Look for what was added afterward, not for what was there already."]
   ]},
   { q: "‘A key is not a scale but a hierarchy.’ What does the lesson mean by this?", a: 3, o: [
     ["That the twelve sounds are ranked by the purity of their ratios", "Purity cannot be the ranking, since a tempered instrument has almost no pure intervals to rank. Ask what the lesson says the members of this hierarchy actually are, and what each of them does."],
@@ -1966,7 +1966,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Where does the word <em>tonality</em> come from, as the lesson gives it?", a: 1, o: [
     ["From Rameau, in the Traité of 1722", "Rameau supplies the fundamental bass, which the term later describes; he does not supply the term. The lesson gives the naming its own decade and its own author. Check the sources line."],
-    ["It is a nineteenth-century name — Fétis’s, in the 1840s — for something the eighteenth century was already practicing", "The practice precedes the name, as usual in this chapter. The 1840s are also when equal temperament became the English norm, which is a notable coincidence."],
+    ["It is a nineteenth-century name (Fétis’s, in the 1840s) for something the eighteenth century was already practicing", "The practice precedes the name, as usual in this chapter. The 1840s are also when equal temperament became the English norm, which is a notable coincidence."],
     ["From Glarean, in 1547", "Glarean is naming modes and counting them to twelve; the hierarchy this word describes had not yet formed. Three centuries lie between his book and the coining of the term."],
     ["From the Greek theorists, by way of Boethius", "The thing named is a development of the seventeenth and eighteenth centuries, and no ancient term could have named it. Look at the sources line for the coiner and his decade."]
   ]}
@@ -2016,7 +2016,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That the music of the spheres is inaudible", "That denial was made long before, by Aristotle, and it needed no weights at all. The experiment in question concerns strings and the things that stretch them."]
   ]},
   { q: "What does the lesson say about audible music of the spheres?", a: 0, o: [
-    ["It goes — but Aristotle had already denied it, so the tradition corrected itself from within, long before", "This matters when the story is told as science overturning philosophy, because a good deal of the correcting was done by philosophers, on philosophical grounds."],
+    ["It goes, but Aristotle had already denied it, so the tradition corrected itself from within, long before", "This matters when the story is told as science overturning philosophy, because a good deal of the correcting was done by philosophers, on philosophical grounds."],
     ["It was refuted by Sauveur’s measurement of absolute frequency", "The denial is centuries older than any measurement of frequency, and it was reached by argument rather than by instruments. Look at the authorities the lesson cites for it."],
     ["It still stands, since the heavens are in ratio", "The lesson lists it among the three things that go. Whatever the proportions of the heavens may be, the audible music is not defended here. Re-read the three items marked as refuted."],
     ["It was never part of the tradition at all", "It was very much part of it, which is why the denial had to be recorded and dated. A tradition that never held a doctrine has no occasion to correct itself of it."]
@@ -2024,7 +2024,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "The lesson distinguishes what was refuted from what was left behind. What does being left behind amount to?", a: 2, o: [
     ["That it was quietly shown false, without anyone announcing it", "Then it would belong with the refuted items, and the lesson would have no need of two categories. Being shown false is precisely what did not happen to these. Ask what did happen to them."],
     ["That it was forgotten through neglect, and might be recovered by scholarship", "Neglect is not the reason given. The lesson names a cause, and it is one that leaves the old claims perfectly true while making them idle. Re-read the sentence after the three refutations."],
-    ["That the questions changed, so the claims ceased to be asked about — not that they were shown false", "The lesson calls that difference the main point of the chapter. A tradition is not honored by defending what is false, nor by conceding what was never disproved."],
+    ["That the questions changed, so the claims ceased to be asked about, not that they were shown false", "The lesson calls that difference the main point of the chapter. A tradition is not honored by defending what is false, nor by conceding what was never disproved."],
     ["That it was absorbed into physics and survives there under other names", "Some of it was; but absorption is not the category the lesson draws here, and much on the list was simply no longer at issue. Ask why a claim stops being discussed at all."]
   ]},
   { q: "What debt does the lesson say the modern reader will not guess?", a: 1, o: [
@@ -2115,7 +2115,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "The lesson’s list of dates gives 1814. What does it mark?", a: 3, o: [
     ["Mezenets’s commission in Moscow", "The list dates that to 1669, paired with the Stoglav of 1551, and places it in Russia rather than in the Greek world. Read the last entries of the list over again."],
-    ["Muʿallim Takla’s standardizing of the Coptic hymns", "The list gives 1859 for that, paired with a later date for the man who transcribed the hymns afterwards. The entry asked about belongs to another city and another tradition."],
+    ["Muʿallim Takla’s standardizing of the Coptic hymns", "The list gives 1859 for that, paired with a later date for the man who transcribed the hymns afterward. The entry asked about belongs to another city and another tradition."],
     ["Ibn Kabar’s account of Coptic chant at Old Cairo", "The list dates his death to 1324 and calls his the fullest medieval Coptic account of chant. That is five centuries early, and in the wrong tradition besides."],
     ["The New Method of the Three Teachers at Constantinople", "It is the last Greek entry in the list, and the latest turning point it records on that side. The list is a chronology of the traditions themselves, not of the questions scholars have raised about them."]
   ]}
@@ -2132,7 +2132,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That he carried the eight tones from Byzantium into Francia in the ninth century", "The lesson makes no claim here about how anything was transmitted; it reports only that he knows the cognate formulas, and what he says about them. Ask what he says, not how he came by them."],
     ["That he took the syllables for a corrupted Greek text whose sense had been lost", "He says the opposite about their sense. Look at the two things he asserts of the syllables: what they mean, and what they are an expression of."],
     ["That, writing in Francia in the ninth century, he knows the cognate <span class=\"latin\">noeane</span> formulas, and he says outright that the syllables mean nothing and are an expression of joy", "So the custom is not only Greek. A Frankish witness confirms both the practice and the reading of it that the Greek side gives."],
-    ["That he catalogued the melodic formulas of each tone in a book of his own", "Catalogues of formulas belong to the Slavic half of this lesson and to a much later age. The Frankish witness is cited for a remark about syllables, not for a repertory-book."]
+    ["That he cataloged the melodic formulas of each tone in a book of his own", "Catalogs of formulas belong to the Slavic half of this lesson and to a much later age. The Frankish witness is cited for a remark about syllables, not for a repertory-book."]
   ]},
   { q: "A melody turns aside into another tone or another genus. What marks the change?", a: 0, o: [
     ["A <span class=\"latin\">phthora</span>, a ‘corrupter’", "So the vocabulary is a singer’s vocabulary throughout: the signs bear witness, corrupt, and are grave. Nothing in it is the language of a mathematician."],
@@ -2141,13 +2141,13 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["A second <span class=\"latin\">ēchēma</span>, sung in the middle of the piece", "The vocalise stands before the chant and gives the choir its ground; the lesson does not have it interrupting the text once begun. Look for a sign written into the melody itself."]
   ]},
   { q: "In the old Russian sources, what are <span class=\"latin\">kokizy</span>?", a: 3, o: [
-    ["The books in which the formulas of the eight tones are catalogued", "You have named the volume rather than the thing it holds, and the lesson gives a separate word for such a book. Ask what is listed inside one of them."],
+    ["The books in which the formulas of the eight tones are cataloged", "You have named the volume rather than the thing it holds, and the lesson gives a separate word for such a book. Ask what is listed inside one of them."],
     ["Extended melismas which the manuscript names but does not write out", "That is a different device of the same notation, and the lesson names it from a letter of the alphabet. The word asked about covers the ordinary stock rather than the great flourish."],
     ["Signs warning that a group of ordinary signs is not to be read plainly", "That is the cipher described a little later in the lesson, which has a name of its own meaning ‘face’. The word asked about is the older name for something more basic."],
     ["The melodic formulas themselves, called <span class=\"latin\">popevki</span> in modern usage", "They have characteristic openings, medial turns and cadences. Brazhnikov’s catalogs run to several hundred formulas across the eight tones, and a chant is assembled from that stock as a sentence from a vocabulary."]
   ]},
   { q: "What is a <span class=\"latin\">fita</span>, and what is a <span class=\"latin\">fitnik</span> for?", a: 2, o: [
-    ["An ordinary formula of the tone; the book in which such formulas are catalogued", "You have described the plain stock of a tone and its catalogue, which the lesson treats a paragraph earlier. The thing asked about is singled out as something beyond an ordinary formula."],
+    ["An ordinary formula of the tone; the book in which such formulas are cataloged", "You have described the plain stock of a tone and its catalog, which the lesson treats a paragraph earlier. The thing asked about is singled out as something beyond an ordinary formula."],
     ["A group of ordinary signs to be read as a longer phrase; the key that decodes them", "That is the cipher the lesson calls a ‘face’, whose plain reading is not the intended reading. The item asked about is named from a letter and is not written out at all."],
     ["An extended melisma which the manuscript merely names rather than writing out; the book that spells it out for a singer who does not know it", "It is named from the letter Ѳ that marks it. The notation withholds on purpose and relies on the memory of a trained singer, which is what Brazhnikov calls <span class=\"latin\">tainozamknennost’</span> (‘secret-closedness’)."],
     ["A sign marking that the melody has passed into another tone; the book listing such changes", "A change of tone is marked by a sign the lesson calls a ‘corrupter’, and that belongs to the Greek part of the lesson. The Russian item asked about is a stretch of melody."]
@@ -2159,7 +2159,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The character or affect assigned to each of the eight tones", "Affects appear in this lesson only in the remark about what certain Copto-Arabic writers describe. The Russian word asked about names something visible on the page of a manuscript."]
   ]},
   { q: "What is a <span class=\"latin\">laḥn</span>, and how does it stand to the Greek <span class=\"latin\">ēchos</span>?", a: 0, o: [
-    ["A named, recognizable melody to which suitable texts are set — not a mode at all, since Coptic chant is not organized by mode", "Ibn Kabar, the Copto-Arabic writer of Old Cairo, named some twenty-six of them before 1324, and most are still known by name and occasion in Cairo today: <span class=\"latin\">laḥn al-ḥuzn</span>, ‘of grief’; <span class=\"latin\">laḥn al-faraḥ</span>, ‘of joy’."],
+    ["A named, recognizable melody to which suitable texts are set, and not a mode at all, since Coptic chant is not organized by mode", "Ibn Kabar, the Copto-Arabic writer of Old Cairo, named some twenty-six of them before 1324, and most are still known by name and occasion in Cairo today: <span class=\"latin\">laḥn al-ḥuzn</span>, ‘of grief’; <span class=\"latin\">laḥn al-faraḥ</span>, ‘of joy’."],
     ["The Coptic name for a mode, one of eight as in the Greek system", "Here the comparison fails, and the failure is instructive: the lesson says Coptic chant is not organized by mode at all. Ask what its unit actually is, and what governs which one a given text receives."],
     ["A season of the Coptic year, governing which tune a text receives", "You have named the ordering rather than the thing ordered. Six such categories are listed in the lesson; ask what it is that they distribute among the days."],
     ["A book of tunes for the month of Advent", "One season of the year does have its own book, and that is a fact about that season rather than a definition of the word. Ask what the unit of the repertory itself is called."]
@@ -2177,10 +2177,10 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That no eight-mode system appears in the repertory and no cantor is known to have worked from them, so that the passages belong to a wider Greek and Arabic literature on the moral effects of music", "Ilona Borsai put the question directly in a paper of 1974, asking whether there is an Octoechos in the Coptic system. The lesson reports the reading and leaves it there."]
   ]},
   { q: "Razumovsky and Voznesensky analyzed the <span class=\"latin\">glasy</span> with the Western apparatus of final, dominant, and range. What has been urged against that, and by whom?", a: 1, o: [
-    ["Johann von Gardner held the apparatus too crude to catch the formulas, and Brazhnikov afterwards refined it", "The objection reported is not one of coarseness, and no refinement of that apparatus is described anywhere in the lesson. Ask what becomes of an ambitus when a melody will not stay inside an octave."],
+    ["Johann von Gardner held the apparatus too crude to catch the formulas, and Brazhnikov afterward refined it", "The objection reported is not one of coarseness, and no refinement of that apparatus is described anywhere in the lesson. Ask what becomes of a range when a melody will not stay inside an octave."],
     ["Johann von Gardner and others held that it yields contradictions, since <span class=\"latin\">znamenny</span> melodies range across the whole pitch space rather than sitting within an octave species", "Analysis by formula, following Brazhnikov, is now the more usual approach. The lesson reports the shift without pronouncing the older apparatus refuted."],
     ["Later scholars showed the two had invented their categories, having no manuscripts to work from", "Nothing of the kind is said, and the categories they used were the ordinary Western ones. The difficulty reported concerns how the melodies behave, not what the two men had before them."],
-    ["Brazhnikov held that the tones are not eight at all, but a much larger number", "His contribution in this lesson is a body of catalogues and a method of analysis by formula. The objection reported is about the fit between a Western apparatus and the way the melodies move."]
+    ["Brazhnikov held that the tones are not eight at all, but a much larger number", "His contribution in this lesson is a body of catalogs and a method of analysis by formula. The objection reported is about the fit between a Western apparatus and the way the melodies move."]
   ]},
   { q: "Among which kind of principles does the lesson place these systems?", a: 2, o: [
     ["Among the principles that derive, since a formula can in the end be traced back to a ratio", "The lesson denies exactly this: a Russian singer cannot derive a formula from a ratio, and he was never asked to. Ask instead what he can do with the eight tones, and what he can judge."],
@@ -2231,7 +2231,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["A staff notation for the Russian chant, printed and in use by 1671", "No staff came out of that room, and nothing at all came off a press. The commission worked on the hooks themselves, fixing degrees and sorting signs into classes."],
     ["The <span class=\"latin\">Izveshchenie o soglasneishikh pometakh</span>, which fixed a twelve-degree system and classified every sign; a type-font was cut for it by 1671, but the books were never printed", "The commission sat in Moscow from February 1669 to May 1670. Mezenets was a monk of the Savvino-Storozhevsky monastery."],
     ["Cinnabar letters beside the hooks, naming the degree of each", "Those are credited to a Novgorod singer some seventy years earlier, and it was their unprintability that set the later problem in the first place. The commission’s work was larger and of another kind."],
-    ["A catalogue of the melodic formulas of the eight tones", "Catalogues of formulas are a matter for the previous lesson, and the great ones are modern. This commission fixed degrees and sorted signs."]
+    ["A catalog of the melodic formulas of the eight tones", "Catalogs of formulas belong to the lesson on the eight modes, and the great ones are modern. This commission fixed degrees and sorted signs."]
   ]},
   { q: "What are the <span class=\"latin\">dvoeznamenniki</span>, and why do they matter?", a: 0, o: [
     ["Manuscripts that write the same chant twice down the page, once in hooks and once in Kievan staff notation; they are the reason the older notation can be read at all", "Whoever made them was solving a practical problem for singers who knew one system and not the other, and left a key behind him without intending one."],
@@ -2285,7 +2285,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "The lesson warns of a name-collision. What is it?", a: 1, o: [
     ["That <em>enharmonic</em> is spelled one way in Greek sources and another in Western ones", "Spelling is not the trouble; it is the same word in both places. The trouble stands behind the word. Ask whether the thing named in the one system has the same content as the thing named in the other."],
-    ["That what the modern Byzantine system calls enharmonic is not the ancient enharmonic genus — the same word on two different objects", "The ancient genus is two quarter-tone <span class=\"latin\">dieses</span> and a ditone. The name has outlived the genus it was coined for and now names something else."],
+    ["That what the modern Byzantine system calls enharmonic is not the ancient enharmonic genus; the same word names two different objects", "The ancient genus is two quarter-tone <span class=\"latin\">dieses</span> and a ditone. The name has outlived the genus it was coined for and now names something else."],
     ["That the ancient enharmonic genus was revived unchanged by the Three Teachers", "Had it been revived unchanged there would be no warning to give and the lesson would not have paused over it. The word is raised precisely because the word names two different objects; ask what each contains."],
     ["That the enharmonic is the one genus the Latin West has no use for", "You are thinking of the remark about a <em>chromatic</em> division, which is the one the lesson calls foreign to Western use. That is a claim about a different genus; re-read the sentence about the West."]
   ]},
@@ -2323,7 +2323,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["It is the structural signature of a system built by threes, arising inside one system with no modulation anywhere", "It is a diminished octave with no key change and no borrowed sound to account for it. The lesson says that neither the West nor Byzantium builds a scale this way."],
     ["It shows the scale was tuned by ear and imprecisely", "The figure follows from how the degrees are laid out, not from any inaccuracy in the sounding of them. Ask what stacking four groups of the same shape must produce at the far end."],
     ["It is the trace of a modulation between two chant tones", "The lesson is careful to say that the two sounds stand inside one system with nothing shifting. If a modulation were needed to produce it, the interval would tell you nothing about how the scale is built."],
-    ["It is the Pythagorean comma, which the Russian books measured", "That quantity is far smaller, and no Russian source measures anything — the remark in the lesson says so outright. Compare the size you have chosen with the size given."]
+    ["It is the Pythagorean comma, which the Russian books measured", "That quantity is far smaller, and no Russian source measures anything, as the remark in the lesson says outright. Compare the size you have chosen with the size given."]
   ]},
   { q: "Which of these does the lesson report in its notes on the modern discussion?", a: 2, o: [
     ["That Gardner showed the cinnabar marks to give exact interval sizes", "He is reported as arguing the opposite: that the vocabulary of the marks is deliberately non-quantitative, and that sizes passed by apprenticeship rather than by definition. Re-read what the marks are said not to do."],
@@ -2391,11 +2391,11 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Which instruments does Coptic worship admit, and when do they fall silent?", a: 2, o: [
     ["A frame drum and a sistrum, silent through Lent", "You have named instruments the lesson does not give and a season it does not name. Two instruments are admitted and no others; re-read which two, and the occasions that silence them."],
     ["The cymbals and the triangle, silent only during the Nativity fast", "The instruments are right and the occasion is not. The lesson marks the times of silence by their character (the sorrowful ones), and it names two of them, not one."],
-    ["The hand cymbals, <span class=\"latin\">nāqūs</span>, and a metal triangle — silent in Holy Week and at funerals", "There is no metal in the sorrowful tunes. They are used only with specified pieces, and the reason given within the tradition is that percussion does not sing: it regulates the rhythm and unites the congregation."],
+    ["The hand cymbals, <span class=\"latin\">nāqūs</span>, and a metal triangle, silent in Holy Week and at funerals", "There is no metal in the sorrowful tunes. They are used only with specified pieces, and the reason given within the tradition is that percussion does not sing: it regulates the rhythm and unites the congregation."],
     ["Cymbals, triangle and a small harp, as in Ethiopian practice", "Ethiopian practice is not what this lesson describes, and the Coptic rule is stated as two instruments and no others. A third breaks the very sentence that sets the rule."]
   ]},
   { q: "On what does the silence of instruments rest?", a: 0, o: [
-    ["On continuous usage: it is a custom rather than a canon, and no canon of an ecumenical council forbids instruments", "Behind the custom stands a patristic commonplace, Clement of Alexandria’s word that our instrument is the Word of peace, together with the dissociation of the liturgy from theatre, hippodrome and pagan sacrifice."],
+    ["On continuous usage: it is a custom rather than a canon, and no canon of an ecumenical council forbids instruments", "Behind the custom stands a patristic commonplace, Clement of Alexandria’s word that our instrument is the Word of peace, together with the dissociation of the liturgy from theater, hippodrome and pagan sacrifice."],
     ["On a canon of an ecumenical council", "The lesson is explicit that no such canon exists. A practice can be universal and unbroken without ever having been legislated; ask what the lesson says this one does rest on."],
     ["On Clement of Alexandria’s prohibition in the <span class=\"latin\">Paidagogos</span>", "Clement is quoted there for an image and not for a law, and an image standing behind a custom is not the ground of it. Ask what the lesson names as the ground itself."],
     ["On St. Thomas’s judgment at <span class=\"latin\">ST</span> II-II q.91", "Thomas is reported as coming near the Eastern position without knowing it, centuries later and in the Latin West. His is a judgment of prudence about the use of music, not the foundation of an Eastern practice."]
@@ -2428,9 +2428,9 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["A scholar who showed the Coptic melodies to be of Byzantine origin", "Nothing of the sort is reported of him. The lesson places him on the side of the comparison with ancient Egypt and quotes a phrase he used for the chant; find the phrase."]
   ]},
   { q: "On what grounds have some scholars disputed the descent of Coptic chant from ancient Egypt?", a: 2, o: [
-    ["That the Copts adopted Arabic music after the conquest", "The lesson raises nothing of the kind. Read its list again and note that every item on it is about evidence — what survives, what it covers, what could be compared with what."],
+    ["That the Copts adopted Arabic music after the conquest", "The lesson raises nothing of the kind. Read its list again and note that every item on it is about evidence: what survives, what it covers, what could be compared with what."],
     ["That the blind cantors are a recent custom", "Nothing in the lesson dates that custom or disputes it. Take the list of objections as the lesson actually gives it rather than supplying one of your own."],
-    ["That nothing survives from ancient Egypt with which the Coptic repertory could be compared", "No notation and no theoretical treatise survives. The other grounds given are that hand-signalling for directing unwritten music is found in many traditions, Byzantine, Jewish, Vedic and Balinese; that the seven-vowel reports describe Greco-Egyptian usage of the Roman period; and that no usable transcription exists before 1926."],
+    ["That nothing survives from ancient Egypt with which the Coptic repertory could be compared", "No notation and no theoretical treatise survives. The other grounds given are that hand-signaling for directing unwritten music is found in many traditions, Byzantine, Jewish, Vedic and Balinese; that the seven-vowel reports describe Greco-Egyptian usage of the Roman period; and that no usable transcription exists before 1926."],
     ["That the Coptic melodies have been shown to derive from Byzantine chant", "No such derivation is reported anywhere in the lesson, and the objections listed there propose no alternative parentage at all. They are of a different kind; look at what each of them is about."]
   ]},
   { q: "According to the tradition, what happened to Romanos at Blachernae?", a: 1, o: [
@@ -2452,8 +2452,8 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That the office of <span class=\"latin\">protopsaltes</span> was interrupted by the Ottoman conquest", "The lesson reports the opposite there, and says the office has in fact been filled continuously to the present day. The observation you were asked for concerns melodies, not offices."]
   ]},
   { q: "According to the Primary Chronicle, what did Vladimir’s envoys report of the worship in the Great Church?", a: 2, o: [
-    ["That the singing was in a language they could understand", "They could not have understood it. The rite came afterwards in Slavonic translation, by way of Bulgaria and the work of Cyril and Methodius before that. What the envoys report is not comprehension."],
-    ["That the eight tones were sung more correctly there than elsewhere", "The report the chronicle gives is not a technical judgment, and the ten wise men are nowhere described as musicians. Ask what they said they were unable to do — describe it, or forget it."],
+    ["That the singing was in a language they could understand", "They could not have understood it. The rite came afterward in Slavonic translation, by way of Bulgaria and the work of Cyril and Methodius before that. What the envoys report is not comprehension."],
+    ["That the eight tones were sung more correctly there than elsewhere", "The report the chronicle gives is not a technical judgment, and the ten wise men are nowhere described as musicians. Ask what they said they were unable to do: describe it, or forget it."],
     ["That they knew not whether they were in heaven or on earth, and that God dwells there among men", "“For on earth there is no such splendour or such beauty, and we are at a loss how to describe it.” Vladimir was baptized, and Rus’ with him, in 988."],
     ["That the Greeks had promised to send singers", "Singers do come, in the chronicles’ account, but that is what followed rather than what the envoys said. The words quoted in the lesson are about what they saw and could not account for."]
   ]},
@@ -2508,7 +2508,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because it is aimed at our own teachers, the Pythagoreans whose art this course has been teaching", "The men who found the ratios we have spent the course learning are the ones charged here. A course can teach the whole art and still leave its students open to the complaint."]
   ]},
   { q: "A student says the two criticisms come to one, since both sorts are too attached to what they hear. Where does he go wrong?", a: 0, o: [
-    ["The second sort is charged not with attachment to hearing but with stopping short of problems — and Socrates grants they are the better of the two", "These are two different failures, and only one of them is a failure about the ear. A man may have every ratio right and still stand under the second charge."],
+    ["The second sort is charged not with attachment to hearing but with stopping short of problems; and Socrates grants they are the better of the two", "These are two different failures, and only one of them is a failure about the ear. A man may have every ratio right and still stand under the second charge."],
     ["He does not go wrong; the lesson presents them as one complaint stated twice", "The lesson numbers them, calls one first and the other second, and says of the second that it is the one which should trouble us. That structure is not decoration."],
     ["He goes wrong because the second sort is charged with ignoring the heard concords altogether", "They do not ignore them; they work upon them, and their working is the whole trouble. Re-read what the second sort is said to seek, and where."],
     ["He goes wrong because Socrates rejects only one sort of practitioner, not two", "Two are rejected, by two different arguments, and the lesson gives each its own paragraph. Count the sorts before you weigh the charges."]
@@ -2573,18 +2573,18 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What purpose does Augustine state plainly in the sixth book?", a: 0, o: [
     ["<span class=\"latin\">A corporalibus ad incorporalia transeamus</span> (let us pass from bodily things to things not bodily)", "The whole ascent is announced in one clause. The passage is <em>from</em> the bodily, not away from it in contempt, because he begins where the sounding body is."],
     ["To settle the rules of Latin meter once and for all", "The length of syllables is his material, not his purpose; the lesson says a treatise on syllables was for him a treatise about God. Material and end are not the same thing."],
-    ["To refute those who make the ear the measure of concord", "That complaint belongs to another lesson and another author. The sixth book states its own purpose in a single Latin clause — find it."],
+    ["To refute those who make the ear the measure of concord", "That complaint belongs to another lesson and another author. The sixth book states its own purpose in a single Latin clause; find it."],
     ["To show that the numbers in the sounding body are the highest of the five kinds", "They are the lowest of the five in his order of dignity, and thinking otherwise is exactly the ordinary man’s mistake. Re-read the sentence that ranks them."]
   ]},
   { q: "In what order does Augustine set out the five kinds of number, and what is the direction of that order?", a: 2, o: [
     ["From the highest in dignity down to the lowest", "That order appears in the lesson too, and it is nearly the reverse of the one asked for. Two orderings are given; be sure which is which before you choose."],
     ["From the numbers in memory outward to the numbers in the sounding body", "Memory’s numbers stand at neither end of the sequence as he lays it out, nor are they the first found. Count the five in the order the lesson prints them."],
     ["From the sounding body inward (sound, sense, the soul’s act, memory, judgment): the order of discovery", "It runs from outside inward, each step further from the body than the last. That this is not the order of worth is the principle on which the whole sixth book turns."],
-    ["In no fixed order; the five are coordinate", "He orders them twice, and the two orderings differ — which would be impossible if the kinds were coordinate. The difference between the two is what the lesson is teaching."]
+    ["In no fixed order; the five are coordinate", "He orders them twice, and the two orderings differ, which would be impossible if the kinds were coordinate. The difference between the two is what the lesson is teaching."]
   ]},
   { q: "Which numbers does Augustine call <span class=\"latin\">occursores</span>?", a: 3, o: [
     ["Those in the sounding body itself", "Those have a name of their own among the five, and they are the only bodily ones. Re-read the list, attending to where each kind is located."],
-    ["Those held in memory", "Memory’s numbers carry another name, and the lesson calls them traces and passive. Distinguish holding a measure afterwards from having it at the moment, then look at the five again."],
+    ["Those held in memory", "Memory’s numbers carry another name, and the lesson calls them traces and passive. Distinguish holding a measure afterward from having it at the moment, then look at the five again."],
     ["Those by which we approve one measure and reject another", "Those are the judging numbers, highest of the five, and they are what the whole ascent aims at. The kind asked for stands nearer the beginning of the list than the end."],
     ["Those in the sense as it meets the sound", "The name means the meeting. They are already not bodily: the sound is one thing and the sense receiving it another, which is the first step off the body."]
   ]},
@@ -2615,8 +2615,8 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Where does St. Thomas differ from Augustine on the light by which we judge?", a: 2, o: [
     ["He denies there is any such light, holding judgment to be habit and practice", "Nothing of the kind is said; the lesson has him affirm a light and dispute the account of it. Read again what he is said to withhold and what he is said to grant."],
     ["He agrees entirely, and is cited to confirm Augustine", "The remark opens by saying he does not take over the account of illumination whole. Agreement about a fact and disagreement about its explanation are being distinguished here."],
-    ["For him the light is the agent intellect — a created light, a participation in the uncreated light, but truly ours and truly natural", "So the ascent is real and its explanation is disputed among the doctors. What neither disputes is the fact it starts from: in judging a proportion we use a measure we did not make."],
-    ["He holds that we judge by the numbers in memory rather than by any light", "That would set him against the very argument the lesson says he does not dispute — that a measure never heard can still be judged. He is not being made a sceptic here."]
+    ["For him the light is the agent intellect, a created light, a participation in the uncreated light, but truly ours and truly natural", "So the ascent is real and its explanation is disputed among the doctors. What neither disputes is the fact it starts from: in judging a proportion we use a measure we did not make."],
+    ["He holds that we judge by the numbers in memory rather than by any light", "That would set him against the very argument the lesson says he does not dispute, that a measure never heard can still be judged. He is not being made a skeptic here."]
   ]},
   { q: "What does Augustine conclude in the tenth book of the Confessions about the singing of the Church?", a: 0, o: [
     ["He inclines to approve the custom, that weaker souls may rise to devotion through the delight of the ear, but he confesses that he sins whenever the singing moves him more than the thing sung", "He fluctuates, as he says, between the danger of pleasure and the proof of profit, and by his own reckoning he does not find himself blameless."],
@@ -2627,8 +2627,8 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
 ],
 
 "end-3": [
-  { q: "What does the last lesson announce that it will <em>not</em> argue?", a: 2, o: [
-    ["That the art is beautiful, beauty being a matter of taste", "Beauty is nowhere set aside in this lesson; the first of its four things turns on beauty being intelligible and checkable. Look again at the sentence that says what would give the case away."],
+  { q: "What does this final lesson say that it will <em>not</em> argue?", a: 2, o: [
+    ["That the art is beautiful, beauty being a matter of taste", "Beauty is nowhere set aside in this lesson; the first of its four things turns on beauty being intelligible and checkable. Look again at the sentence that says what would concede the case."],
     ["That the art is difficult, since difficulty is no recommendation", "Difficulty is not the disclaimer. One particular kind of justification is named and refused in the opening sentences; find the word that is refused."],
     ["That the art is useful, because that answer would concede the case at once", "Every institution asks what a study is for and means what it gets the student. This one has no answer, and the absence is intended; what stands in its place are four things now true of us."],
     ["That the art is true, truth being beyond so small a course", "Nothing here doubts the truth of the ratios, and the fourth of the four things depends on their being exact. You have chosen a modesty the page does not show."]
@@ -2648,7 +2648,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What follows, on the lesson’s own account, from holding a single counterexample?", a: 0, o: [
     ["Not the overthrow of the picture, but the loss of any right to hold it innocently", "The conclusion is deliberately modest. What changes is the man’s standing to argue, not the state of the question."],
     ["That the picture must be abandoned by any honest man", "The lesson refuses that step explicitly. One case is one case, and the sentence conceding this is the same sentence that says what the case does accomplish."],
-    ["That the picture may still be held, but only by men ignorant of harmonics", "That is nearly a boast, and the lesson makes none. It speaks of how a man argues afterwards, not of who is entitled to hold what opinion."],
+    ["That the picture may still be held, but only by men ignorant of harmonics", "That is nearly a boast, and the lesson makes none. It speaks of how a man argues afterward, not of who is entitled to hold what opinion."],
     ["Nothing, since a single case proves nothing in philosophy", "Then the first of the four things would not be worth stating, and it is stated first. Something short of proof and considerably more than nothing is being claimed."]
   ]},
   { q: "How does the lesson use Aristotle’s remark that to be always seeking after the useful does not become free and exalted souls?", a: 2, o: [
@@ -2676,7 +2676,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The one who knows the history of how such music came to be arranged", "History is not at issue, and the question meant here could be put to any age’s music, this one included. Ask what question the third of Boethius’s classes is able to put."]
   ]},
   { q: "What does the fourth of the four things say was traded, and for what?", a: 0, o: [
-    ["Exactness — the equal semitone irrational, the keyboard third wide by about two thirds of a comma — in exchange for the freedom to move from key to key", "It was a good trade-off, which the course does not grudge. What it minds is that hardly anyone sitting down at a piano knows a trade was made at all."],
+    ["Exactness (the equal semitone irrational, the keyboard third wide by about two thirds of a comma), in exchange for the freedom to move from key to key", "It was a good trade-off, which the course does not grudge. What it minds is that hardly anyone sitting down at a piano knows a trade was made at all."],
     ["The concords themselves, which the modern keyboard has abandoned", "They are not abandoned but approximated, and the lesson gives the size of the error. An approximation that works well is not an absence."],
     ["Nothing was traded; the modern tuning is simply better", "Then there would be nothing to know when we meet an approximation, and the fourth thing would collapse. The lesson insists something was given up, and names it."],
     ["The freedom to move from key to key, surrendered for the sake of exact ratios", "You have the bargain the wrong way round: that freedom is what was bought, not what was sold. Which side of it does a modern keyboard actually enjoy?"]
@@ -2691,7 +2691,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because a small art is finished quickly, leaving time for greater ones", "Economy of time is nowhere at issue. The reason given has to do with a kind of experience a student can have here and will rarely have elsewhere."],
     ["Because sound matters less than being, and so suits beginners", "The lesson denies exactly this. It says the reason was <em>not</em> that sound matters more than being, and it does not assert the reverse either. The quadrivium’s reason concerned what a young man can accomplish, not the rank of the subject."],
     ["Because a small art has fewer objections to answer", "No objections are being counted. Re-read the closing section and note what it says almost everything else a man studies is studied in."],
-    ["Because a man can possess the whole of it through its causes at once — an experience he might otherwise never have", "The art is one string, three concords, a step, and a scale, and a liberal education is trying to give the experience of knowing something thoroughly."]
+    ["Because a man can possess the whole of it through its causes at once, an experience he might otherwise never have", "The art is one string, three concords, a step, and a scale, and a liberal education is trying to give the experience of knowing something thoroughly."]
   ]}
 ]
 
@@ -2740,7 +2740,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["To write a modern melody", "The first chapter already refused that reading."],
     ["To tune a piano", "Tuning a piano is not part of this course."],
     ["To name the Greek feet in order", "The lesson says we need no name of a foot."],
-    ["To measure a motion so that it is well measured — here, a motion in time", "Augustine defines <span class=\"latin\">modulari</span> as measuring a motion well, and the motion measured here is a motion in time."]
+    ["To measure a motion so that it is well measured, here a motion in time", "Augustine defines <span class=\"latin\">modulari</span> as measuring a motion well, and the motion measured here is a motion in time."]
   ]},
   { q: "When duration is later put on the page, whose work will that be, according to this lesson?", a: 1, o: [
     ["Augustine’s books I–V, taught at last", "Those books remain untaught here, and the later work is treated as history."],
@@ -2845,10 +2845,10 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because Boethius omitted memory", "The list is Augustine’s, not Boethius’s three kinds."]
   ]},
   { q: "What does Augustine call the numbers by which that judging is done?", a: 3, o: [
-    ["Sonantes — the numbers in the sounding body", "Those are last in dignity. Most men would have stopped there and called that the music."],
-    ["Occursores — the numbers in the ear as it meets the sound", "These are the encountering numbers, in the sense as it meets the sounding ones."],
-    ["Progressores — the numbers in the act of uttering", "These are in the soul’s own act, and they are not the standard by which the act is judged."],
-    ["Iudiciales — first in dignity, last in the order of discovery", "They are not the sounding body, as the lesson says."]
+    ["Sonantes: the numbers in the sounding body", "Those are last in dignity. Most men would have stopped there and called that the music."],
+    ["Occursores: the numbers in the ear as it meets the sound", "These are the encountering numbers, in the sense as it meets the sounding ones."],
+    ["Progressores: the numbers in the act of uttering", "These are in the soul’s own act, and they are not the standard by which the act is judged."],
+    ["Iudiciales: first in dignity, last in the order of discovery", "They are not the sounding body, as the lesson says."]
   ]},
   { q: "Does this lesson replace Augustine’s sixth book?", a: 0, o: [
     ["No; that book is the proper place for the question, and we return to it in Chapter X and among the contemplations", "The palaestra goes on, but the question has been raised at the first honest judgment."],

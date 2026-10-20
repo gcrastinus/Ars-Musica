@@ -1,7 +1,7 @@
 /* Exercise sets for the palaestra.
 
    Every set is built fresh on each attempt: the items are drawn from a larger
-   pool and the options are shuffled, so that a block cannot be memorised —
+   pool and the options are shuffled, so that a block cannot be memorized —
    only the skill can be. A block counts as possessed only when a whole fresh
    draw is answered rightly.
 
@@ -47,10 +47,10 @@ function two(a, b, mode) { return { voices: [a, b], mode: mode || "both" }; }
 /* ---------- pools ---------- */
 
 const NAMED = [
-  { r: 1,     nm: "Unison — one sound twice",       why: "The pitches are equal. There is no interval yet, only the measure by which difference is heard." },
-  { r: 2,     nm: "Diapason — the eighth (2:1)",    why: "This is half the string against the whole, and it blends so completely that the higher seems the lower raised." },
-  { r: 3 / 2, nm: "Diapente — the fifth (3:2)",     why: "This is two thirds of the string against the whole; it blends, but two sounds are plainly heard." },
-  { r: 4 / 3, nm: "Diatessaron — the fourth (4:3)", why: "This is three quarters of the string against the whole: a concord, tighter and less open than the fifth." },
+  { r: 1,     nm: "Unison (one sound twice)",       why: "The pitches are equal. There is no interval yet, only the measure by which difference is heard." },
+  { r: 2,     nm: "Diapason (the eighth, 2:1)",     why: "This is half the string against the whole, and it blends so completely that the higher seems the lower raised." },
+  { r: 3 / 2, nm: "Diapente (the fifth, 3:2)",      why: "This is two thirds of the string against the whole; it blends, but two sounds are plainly heard." },
+  { r: 4 / 3, nm: "Diatessaron (the fourth, 4:3)",  why: "This is three quarters of the string against the whole: a concord, tighter and less open than the fifth." },
   { r: 9 / 8, nm: "Tone (9:8)",                     why: "This is the fifth diminished by the fourth. It is a step, not a concord, because the two sounds do not blend but stand next to one another." }
 ];
 
@@ -89,7 +89,7 @@ function judgeItem() {
   const t = R.pick(useConcord ? CONCORD : DISCORD);
   return mc(
     "Sound the two together. Do they blend into one richer sound, or do they stand apart?",
-    ["They blend — a concord", "They stand apart — a discord"],
+    ["They blend, and so make a concord", "They stand apart, and so make a discord"],
     useConcord ? 0 : 1,
     `That was ${t.nm}. ` + (useConcord
       ? "The concords of this art are the multiple and the first superparticular ratios: 2:1, 3:2, 4:3, and what is compounded from them."
@@ -103,7 +103,7 @@ function judgeClarity() {
   const r = wide ? (3 / 2) * Math.pow(2, 22 / 1200) : 3 / 2;
   return mc(
     "Sound these together. Is this the fifth of the art, unimpaired, or is the blend injured?",
-    ["Unimpaired — the fifth as the art measures it", "Injured — near a fifth, but the blend is not clean"],
+    ["Unimpaired: the fifth as the art measures it", "Injured: near a fifth, but the blend is not clean"],
     wide ? 1 : 0,
     wide
       ? "The upper sound was moved by about a comma, so due proportion is approached but not kept. Clarity, which St. Thomas names with proportion among the conditions of beauty, is what has been lost."
@@ -119,7 +119,7 @@ function judgeIntegrity() {
   return {
     type: "mc",
     ask: "A fourth is to be filled by remnant, tone, and tone. Is this fourth complete, or is a step missing?",
-    options: ["Complete — the tetrachord as the art fills it", "Incomplete — a step is missing"],
+    options: ["Complete: the tetrachord as the art fills it", "Incomplete: a step is missing"],
     answer: missing ? 1 : 0,
     why: missing
       ? "The fourth was missing one of its steps. Integrity is a condition of beauty, so what is impaired is, by that fact, ugly."
@@ -152,7 +152,7 @@ const LENGTH_ITEMS = [
     ["gets higher", "gets lower", "stays the same, since it is the same string"], 0,
     "A shorter sounding length gives a higher pitch, and everything in the art depends on this one observed rule."),
   () => mc("The lengths of two sounding strings stand as 3:2. Their pitches stand as",
-    ["3:2, but the other way about — the shorter string is the higher",
+    ["3:2, but the other way about, since the shorter string is the higher",
      "3:2, the longer string being the higher",
      "2:3, the shorter string being the lower"], 0,
     "The ratio is the same; which term belongs to which sound is inverted. Getting this backwards is the commonest error in the whole art."),
@@ -174,7 +174,7 @@ const ARITH_ITEMS = [
   () => ratio("<b>Two tones</b> compounded.",
     ["81:64"], "(9:8) × (9:8) = 81:64, the ditone. Note that it is not 5:4; the difference between them is the syntonic comma."),
   () => ratio("A <b>ditone</b> taken away from a <b>diatessaron</b>.",
-    ["256:243"], "(4:3) ÷ (81:64) = 256:243, the leimma — the remnant that finishes the tetrachord. It is not half a tone."),
+    ["256:243"], "(4:3) ÷ (81:64) = 256:243, the leimma, that is, the remnant that finishes the tetrachord. It is not half a tone."),
   () => ratio("A <b>diapente</b> taken away from a <b>diapason</b>.",
     ["4:3"], "(2:1) ÷ (3:2) = 4:3. The fourth is what the fifth lacks of the diapason."),
   () => ratio("A <b>diapason</b> compounded with a <b>diapente</b>.",
@@ -184,11 +184,11 @@ const ARITH_ITEMS = [
   () => ratio("Two <b>diatessarons</b> compounded.",
     ["16:9"], "(4:3) × (4:3) = 16:9. Two fourths fall short of the diapason by a tone, since (2:1) ÷ (16:9) = 9:8."),
   () => ratio("A <b>tone</b> taken away from a <b>diapason</b>.",
-    ["16:9"], "(2:1) ÷ (9:8) = 16:9 — which is also two fourths compounded. Both roads arrive at the same place."),
+    ["16:9"], "(2:1) ÷ (9:8) = 16:9, which is also two fourths compounded; so both reckonings arrive at the same interval."),
   () => ratio("<b>Three tones</b> compounded.",
     ["729:512"], "(9:8)³ = 729:512. This is slightly more than half the diapason; the excess over 2:1 taken twice is the comma."),
   () => ratio("A <b>tone</b> compounded with a <b>leimma</b>.",
-    ["32:27"], "(9:8) × (256:243) = 32:27, the semiditone — the small third of the Pythagorean reckoning."),
+    ["32:27"], "(9:8) × (256:243) = 32:27, the semiditone, that is, the small third of the Pythagorean reckoning."),
   () => ratio("A <b>diapente</b> compounded with a <b>tone</b>.",
     ["27:16"], "(3:2) × (9:8) = 27:16."),
   () => ratio("A <b>ditone</b> taken away from a <b>diapason</b>.",
@@ -255,7 +255,7 @@ const MEAN_ITEMS = [
      "8, the same as the harmonic mean"], 0,
     "x² = 72 has no whole-number root. This small fact is the reason the tone cannot be halved in ratio."),
   () => num("What is the <b>harmonic</b> mean of 3 and 6?",
-    [4], "3 : 4 : 6 gives the diatessaron and then the diapente, filling the diapason — the same figure as 6:8:12."),
+    [4], "3 : 4 : 6 gives the diatessaron and then the diapente, filling the diapason; it is the same figure as 6:8:12."),
   () => num("What is the <b>arithmetic</b> mean of 3 and 6?",
     [4.5, "4.5", "9/2"], "Four and a half, which is not a whole number, and that is why the tetrad is written 6:8:9:12 rather than 3:4:...:6."),
   () => ratio("In the musical proportion <b>6 : 8 : 9 : 12</b>, what interval stands between 6 and 8?",
@@ -290,7 +290,7 @@ const SCALE_ITEMS = [
   () => ratio("Compute the remnant: a <b>diatessaron</b> less <b>two tones</b>.",
     ["256:243"], "(4:3) ÷ (81:64) = 256:243. You have just derived the leimma yourself."),
   () => mc("Two tetrachords fill the diapason when they are joined by",
-    ["a tone of disjunction", "a leimma", "nothing — two fourths already make a diapason"], 0,
+    ["a tone of disjunction", "a leimma", "nothing, because two fourths already make a diapason"], 0,
     "(4:3) × (9:8) × (4:3) = 2:1. Two fourths alone give 16:9, which falls short by exactly that tone."),
   () => ratio("Verify it: compound <b>4:3</b>, <b>9:8</b> and <b>4:3</b>. What results?",
     ["2:1"], "That is the diapason. The scale is not a convention but a consequence."),
@@ -304,7 +304,7 @@ const SCALE_ITEMS = [
      "tone, tone, tone, leimma, tone, tone, leimma",
      "seven equal steps"], 0,
     "Where the leimmata fall depends on where we begin, which is what the ancients meant by the species of the diapason, and the medievals by the modes."),
-  () => ratio("Two tetrachords are joined <em>without</em> a tone between them — conjunct, sharing a sound. What interval do they span together?",
+  () => ratio("Two tetrachords are joined <em>without</em> a tone between them (conjunct, sharing a sound). What interval do they span together?",
     ["16:9"], "(4:3) × (4:3) = 16:9, a tone short of the diapason. This is the conjunct arrangement of the Lesser Perfect System."),
   () => mc("The leimma 256:243 is",
     ["the remnant of the fourth after two tones, and smaller than half a tone",
