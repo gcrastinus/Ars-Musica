@@ -536,11 +536,11 @@ MusicaArs.LESSONS = [
   title: "How to use the palaestra",
   html: `
 <p>What we have read so far is the art set out in order, and what follows is the art <em>practiced</em>. They are not the same thing, and reading the first will not give us the second.</p>
-<p>St. Thomas holds that an art is a habit (<span class="latin">habitus</span>), and a habit is got by acts, not by assent. We may agree with every sentence in <span class="xref" data-ch="IV"></span> and still be unable to say, with a string sounding in front of us, whether that is a fourth or a fifth, because agreement is not possession. These eleven blocks exist so that we may actually possess what we have been shown.</p>
+<p>St. Thomas holds that an art is a habit (<span class="latin">habitus</span>), and a habit is acquired by acts, not by assent. We may agree with every sentence in <span class="xref" data-ch="IV"></span> and still be unable to say, with a string sounding in front of us, whether that is a fourth or a fifth, because agreement is not possession. These eleven blocks exist so that we may actually possess what we have been shown.</p>
 
 <h4 class="sec">How they work</h4>
 <p>Each block draws a fresh set of items every time you begin it, and shuffles the answers. There is no order to learn and no page to memorize. What can be got by repetition is the skill itself, and nothing else.</p>
-<p>A block is marked as <strong>possessed</strong> only when a whole fresh draw is answered rightly; not most of it, but all of it. This is deliberate, and it is not severity for its own sake. A man who can name the fourth eight times in ten cannot name the fourth; he can guess well. The art is small enough to be had entire, and there is no reason to settle for less. There is no penalty for a poor draw, no timer, and no limit on attempts.</p>
+<p>A block is marked as <strong>possessed</strong> only when a whole fresh draw is answered rightly; not most of it, but all of it. This is deliberate, and it is not severity for its own sake. A man who can name the fourth eight times in ten has not yet acquired the habit of naming it; he guesses well. The art is small enough to be had entire, and there is no reason to settle for less. There is no penalty for a poor draw, no timer, and no limit on attempts.</p>
 <p>You may draw any block whenever you like, and ignore possession altogether. That is the ordinary use of the palaestra. <strong>Guided</strong>, at the top of the page, is the other use: once a block is possessed it is brought back at short intervals, because a habit that is not used is not kept. Turn it on when you want that keeping. Turn it off when you want only the string and the questions.</p>
 <p>Where a question asks for a ratio, type it as <code>4:3</code> or <code>4/3</code>; it will be reduced before it is compared, so <code>8:6</code> is accepted too. Where it asks for a number, type the number.</p>
 
@@ -575,7 +575,7 @@ MusicaArs.LESSONS = [
 <p>You may match these sounds with the voice if it helps the ear, but the art is not the matching. Boethius’s musician is the one who can say what he has heard.</p>
 <div class="why-block">
   <h4>Why this block, and what it is for</h4>
-  <p>Because a middle science takes its <em>subject</em> from the senses. Aristotle states the principle without softening it: if a sense is lacking, some knowledge must be lacking too. The subject of harmonics is sounding pitch <em>as heard</em>, and a man whose ear cannot tell a fourth from a fifth does not have the subject of this science in front of him, but only a page about it.</p>
+  <p>Because a middle science takes its <em>subject</em> from the senses. Aristotle states the principle plainly: if a sense is lacking, some knowledge must be lacking too. The subject of harmonics is sounding pitch <em>as heard</em>, and a man whose ear cannot tell a fourth from a fifth does not have the subject of this science in front of him, but only a page about it.</p>
   <p>Boethius rules that the true <span class="latin">musicus</span> is the one who judges. Judgment here is not a feeling about music; it is the act of saying <em>what this is</em>. This block is where that act is trained. It does not make the ear the master, because the ratio remains the cause, and reason remains the judge. It makes the ear a fit instrument, so that when reason judges, it has something to judge.</p>
 </div>
 `,
@@ -591,17 +591,17 @@ MusicaArs.LESSONS = [
   html: `
 <p>Two sounds are given together. Do they blend into one richer sound, or do they remain two and stand apart? Judge <em>before</em> the ratio is shown to you, because the exercise depends on that order.</p>
 <p>The concords of this art are the multiple and the first two superparticular ratios and what is compounded of them: 2:1, 3:2, 4:3, and also 4:1 and 3:1. The rest of what you will hear here (the tone, the leimma, the ditone, the semiditone) are lawful intervals of the art and necessary steps in the scale, and not concords.</p>
-<p>St. Thomas names three conditions of beauty: integrity, due proportion, and clarity. Concord is due proportion heard. Two other injuries belong with it, and this block now asks for them as well. A fifth moved off 3:2 still resembles a fifth, but the blend is not clean, so that proportion is approached and clarity is lost. A fourth with a step omitted is a tetrachord impaired, so that integrity is lost. Here we hear them first as a matter of hearing, not of history.</p>
+<p>St. Thomas names three conditions of beauty: integrity, due proportion, and clarity. Concord is due proportion heard. Two other defects belong with it, and this block now asks for them as well. A fifth moved off 3:2 still resembles a fifth, but the blend is not clean, so that proportion is approached and clarity is lost. A fourth with a step omitted is a tetrachord impaired, so that integrity is lost. Here we hear them first as a matter of hearing, not of history.</p>
 <div class="widget" data-kind="clarity"></div>
 <div class="widget" data-kind="integrity"></div>
 <div class="why-block">
   <h4>Why this block, and what it is for</h4>
   <p>Because concord and discord is the <em>first</em> distinction of the art, and because Augustine defines music as <span class="latin">scientia bene modulandi</span> (the science of measuring well). To measure well we must first be able to notice that a measure has been well or ill taken, and that noticing comes before every ratio in this course.</p>
-  <p>Judging before the number is shown is not a game, because it keeps the two criteria genuinely independent, so that their agreement means something. If we look at the ratio first and then decide what we hear, we have proved nothing, and we have taught ourselves a bad habit that will follow us out of this subject. Ptolemy’s rule is that sense and reason must correct one another; two witnesses who have conferred beforehand are one witness.</p>
+  <p>Judging before the number is shown is not a game, because it keeps the two criteria genuinely independent, so that their agreement means something. If we look at the ratio first and then decide what we hear, we have proved nothing, and we have taught ourselves a bad habit that will follow us out of this subject. Ptolemy’s rule is that sense and reason must correct one another, and two witnesses who have conferred beforehand count as only one.</p>
 </div>
 <div class="remark">
   <h4>The hard cases</h4>
-  <p>Two intervals in this art are genuinely disputed, and it would be dishonest to grade you on them. The ditone 81:64 and the just third 5:4 both sound tolerably well to a modern ear trained on later music; the Pythagoreans admitted neither as a concord, and Zarlino admitted both. The ear here is not a neutral instrument; it has been formed by four centuries of music the Greeks never heard.</p>
+  <p>Two intervals in this art are genuinely disputed, and so it would be dishonest to grade an answer about them as right or wrong. The ditone 81:64 and the just third 5:4 both sound tolerably well to a modern ear trained on later music; the Pythagoreans admitted neither as a concord, and Zarlino admitted both. The ear here is not a neutral instrument; it has been formed by four centuries of music the Greeks never heard.</p>
   <div class="widget" data-kind="compare" data-title="The disputed third" data-one="81:64" data-one-name="Ditone, 81:64 — Pythagorean" data-two="5:4" data-two-name="Just major third, 5:4 — admitted by Zarlino"></div>
 </div>
 `,
@@ -618,8 +618,8 @@ MusicaArs.LESSONS = [
 <p>We have just judged pairs as blending or standing apart, without being shown the ratio first. While the act is still fresh, we may ask where the standard of that judgment came from.</p>
 <p>It did not come from the sound, because we used it to find the sound wanting, or to find it well measured, and a standard given by the sound could not correct the sound.</p>
 <p>It did not come from memory of this pair, because we can judge a pair we have never heard. Augustine calls the numbers by which that judging is done <span class="latin">iudiciales</span>. They are not the sounding body, which most men would have called the music. They are first in dignity, and last in the order of discovery.</p>
-<p>This lesson does not replace his sixth book. That book is the place, and it waits in <span class="xref" data-to="end-2"></span> and among the contemplations, <span class="xref" data-to="c-ascent"></span>. Socrates, at the same point, warns the Pythagoreans not to stop at the numbers in the concords they happen to hear, and never to ask which numbers are concordant of themselves, and why. This course will not answer that question for us, but it will also not let the palaestra go on as if the question had not arisen at the first honest judgment.</p>
-<p>Nothing here is scored. E3 is next when you are ready.</p>
+<p>This lesson does not replace his sixth book, which is the proper place for the question; we return to it in <span class="xref" data-to="end-2"></span> and among the contemplations <span class="xref" data-to="c-ascent"></span>. Socrates, at the same point, warns the Pythagoreans not to stop at the numbers in the concords they happen to hear, and never to ask which numbers are concordant of themselves, and why. This course will not answer that question for us, but it will also not let the palaestra go on as if the question had not arisen at the first honest judgment.</p>
+<p>E3 is next when you are ready.</p>
 `,
   sources: "Augustine, De musica VI.ii.2 and VI.iv; Plato, Republic VII 531c; Boethius, De inst. mus. I.9."
 },
@@ -635,7 +635,7 @@ MusicaArs.LESSONS = [
 <p>The rule under all of them is one sentence: <strong>the ratio of the pitches is the ratio of the lengths, inverted.</strong> A shorter length gives a higher pitch. If you find yourself computing it each time rather than seeing it, you have not finished this block.</p>
 <div class="why-block">
   <h4>Why this block, and what it is for</h4>
-  <p>Because this reciprocal is the principle on which the whole art depends, and it is the single place where a beginner most often goes wrong. Harmonics is a <em>middle</em> science: a physical subject with mathematical middle terms <span class="xref" data-to="i-2"></span>. The physical subject is a length of sounding body; the mathematical middle term is a ratio; and the passage between them is this inversion. A man who has to stop and work it out every time has the two halves of the science lying side by side. A man in whom it is automatic has the science.</p>
+  <p>Because this reciprocal is the principle on which the whole art depends, and it is the single place where a beginner most often goes wrong. Harmonics is a <em>middle</em> science: a physical subject with mathematical middle terms <span class="xref" data-to="i-2"></span>. The physical subject is a length of sounding body; the mathematical middle term is a ratio; and the passage between them is this inversion. A man who has to stop and work it out every time has the two halves of the science, but he has not yet joined them; a man in whom it is automatic has the science.</p>
   <p>There is a second reason. Working in lengths keeps us accurate about what compounding is. Two fifths are not “two thirds and then another two thirds of what is left”; they are two thirds <em>of</em> two thirds. Ratios multiply, but inches do not.</p>
 </div>
 `,
@@ -649,12 +649,12 @@ MusicaArs.LESSONS = [
   title: "E4 · The arithmetic of intervals",
   drill: "arith",
   html: `
-<p>Compound the intervals named, or take one away from another, and give the ratio that results. Type it as <code>4:3</code> or <code>4/3</code>. You may work it on paper; you should, at first.</p>
+<p>Compound the intervals named, or take one away from another, and give the ratio that results. Type it as <code>4:3</code> or <code>4/3</code>. It may be worked on paper, and at first it should be.</p>
 <p>Compounding is multiplying, and taking away is dividing, which is multiplying by the ratio inverted. There is nothing else in this block, and there is nothing else in the arithmetic of this art.</p>
 <div class="why-block">
   <h4>Why this block, and what it is for</h4>
   <p>Because this is the <span class="latin">opus</span>. St. Thomas says the liberal arts are called arts because they have a work which is <em>immediately of reason itself</em>, namely to construct a syllogism, to number, to measure, to form melodies <span class="xref" data-to="lib-1"></span>. This exercise is that work, in the only form the art has. When we compute that a fifth less a fourth leaves 9:8, we are not preparing to do the art later; we are doing it.</p>
-  <p>And this is where the art’s claim to be a <em>science</em> rather than a collection of observations stands or falls. That a fifth and a fourth make a diapason is not something anyone noticed and wrote down. It is <em>demonstrated</em>: (3:2) × (4:3) = 2:1, and it could not have been otherwise. Until we can produce such a demonstration ourselves, without help, we are taking the art on authority, which is a fine way to begin but a poor place to stop.</p>
+  <p>And this is where the art’s claim to be a <em>science</em> rather than a collection of observations is tested. That a fifth and a fourth make a diapason is not something anyone noticed and wrote down. It is <em>demonstrated</em>: (3:2) × (4:3) = 2:1, and it could not have been otherwise. Until we can produce such a demonstration ourselves, without help, we are taking the art on authority, which is a proper way to begin but not a place to stop.</p>
 </div>
 `,
   sources: "Boethius, De inst. mus. I.16–18, II; Euclid, Sectio canonis; Aquinas, Super Boethium De Trinitate q.5 a.1 ad 3."
@@ -671,8 +671,8 @@ MusicaArs.LESSONS = [
 <div class="why-block">
   <h4>Why this block, and what it is for</h4>
   <p>Because without it, the central claim of the art is a phrase and not a demonstration. “The first concords are 2:1, 3:2 and 4:3” means <em>the first multiple, and the first two superparticulars</em>. If we do not have the classification, we cannot say what <em>first</em> means, and we are only repeating what Boethius told us.</p>
-  <p>Boethius wrote the <span class="latin">De institutione arithmetica</span> before the <span class="latin">De institutione musica</span> and presupposed it throughout, and St. Thomas keeps the same order: arithmetic is prior to music as geometry is prior to astronomy. This block is where that priority stops being a diagram of the curriculum and becomes something in us.</p>
-  <p>The Latin is part of the exercise, not decoration, because the name states the ratio; <span class="latin">Sesquialter</span>, for example, says “a half again.” A man who knows the names can state the arithmetic in words, and reads the tradition’s own books without a glossary.</p>
+  <p>Boethius wrote the <span class="latin">De institutione arithmetica</span> before the <span class="latin">De institutione musica</span> and presupposed it throughout, and St. Thomas keeps the same order: arithmetic is prior to music as geometry is prior to astronomy. In this block that priority becomes a habit in us, and not only an order in the curriculum.</p>
+  <p>The Latin is part of the exercise, not decoration, because the name states the ratio; “<span class="latin">sesquialter</span>,” for example, says “a half again.” A man who knows the names can state the arithmetic in words, and reads the tradition’s own books without a glossary.</p>
 </div>
 `,
   sources: "Boethius, De institutione arithmetica I.21–32; De inst. mus. II.7; Nicomachus, Introduction to Arithmetic I.17–23; Aquinas, Super Boethium De Trinitate q.5 a.1 ad 3."
@@ -722,12 +722,12 @@ MusicaArs.LESSONS = [
   drill: "science",
   html: `
 <p>A statement is given. Say which study it belongs to: the liberal art of music, arithmetic, natural philosophy, moral and political science, the fine art of music, or sacred doctrine.</p>
-<p>Some are easy, but several are not, and those are the ones worth the trouble.</p>
+<p>Some are easy, but several are not, and those give the most useful practice.</p>
 <div class="why-block">
   <h4>Why this block, and what it is for</h4>
   <p>Because this is the distinctively <em>liberal</em> skill, and the one that will still be useful long after we have forgotten what a leimma is.</p>
-  <p>To possess a science is to know its subject, its principles, and its <strong>boundaries</strong>. Aristotle makes the mark of an educated man the ability to look for that degree of precision in each kind of subject which the nature of the subject admits, and no more; and almost every confusion about music, ancient or modern, is a confusion of sciences. A man says “music is mathematical” when he means harmonics, and someone answers “no, music is emotional” meaning the fine art, and the two of them argue for an hour about nothing. A man reads that the heavens make music and cannot tell whether he has been given physics, poetry, or theology.</p>
-  <p>This course has been practicing that discipline the whole way: harmonics is a middle science <span class="xref" data-to="i-2"></span>; the ordering of song to devotion is moral <span class="xref" data-to="vi-1"></span>; the silence of the spheres is settled in natural philosophy; the beauty of due proportion is settled higher up. Learning to make those distinctions quickly and dispassionately is what a liberal education is chiefly for, and this block gives practice in it.</p>
+  <p>To possess a science is to know its subject, its principles, and its <strong>boundaries</strong>. Aristotle makes the mark of an educated man the ability to look for that degree of precision in each kind of subject which the nature of the subject admits, and no more; and almost every confusion about music, ancient or modern, is a confusion of sciences. A man says “music is mathematical” when he means harmonics, and someone answers “no, music is emotional” meaning the fine art, and the two of them argue for an hour without ever speaking of the same thing. A man reads that the heavens make music and cannot tell whether he has been given physics, poetry, or theology.</p>
+  <p>This course has been practicing that discipline the whole way: harmonics is a middle science <span class="xref" data-to="i-2"></span>; the ordering of song to devotion is moral <span class="xref" data-to="vi-1"></span>; the silence of the spheres is settled in natural philosophy; the beauty of due proportion is settled by a higher science. Learning to make those distinctions quickly and dispassionately is what a liberal education is chiefly for, and this block gives practice in it.</p>
 </div>
 `,
   sources: "Aristotle, Nicomachean Ethics I.3 and De partibus animalium I.1 (the educated man and the precision proper to each subject); Aquinas, Super Boethium De Trinitate q.5–6; In Phys. II lect. 3; ST I q.5 a.4, I q.39 a.8, II-II q.91."
@@ -745,7 +745,7 @@ MusicaArs.LESSONS = [
 <div class="why-block">
   <h4>Why this block, and what it is for</h4>
   <p>Because an art is one habit and not eight. Boethius’s <span class="latin">musicus</span> is not a man with a good ear who also happens to do arithmetic; he is a man in whom the ear and the reckoning are a single competence, so that hearing a fifth and knowing it to be 3:2 are one act and not two.</p>
-  <p>When we can pass a mixed draw of these, we may say without exaggeration that we possess the liberal art of music as the quadrivium understood it: its subject, its causes, its first concords, its step, its work, and its place among the sciences. It is a small art, and it will have taken some weeks; but it is the real thing, entire, and there are not many things of which we can say that.</p>
+  <p>When we can pass a mixed draw of these, we may say without exaggeration that we possess the liberal art of music as the quadrivium understood it: its subject, its causes, its first concords, its step, its work, and its place among the sciences. It is a small art, and it will have taken some weeks; but it is possessed entire, and there are not many things of which we can say that.</p>
 </div>
 `,
   sources: "Boethius, De inst. mus. I.34; Aquinas, ST I-II q.49–55."
@@ -762,8 +762,8 @@ MusicaArs.LESSONS = [
 <p>The two chromatics are the easiest once you have heard them twice. The hard part is telling the Pythagorean diatonic from the Byzantine enharmonic, since both are a small step and two large ones, and they differ only in <em>where the small step falls</em>. That discrimination is the reason this block exists.</p>
 <div class="why-block">
   <h4>Why this block, and what it is for</h4>
-  <p>Because the diatonic filling you built in <span class="xref" data-to="v-2"></span> is one division among many, and a man who has heard only one does not know that it was a choice. <span class="xref" data-to="sys-2"></span> made the argument; this exercise makes it a fact in our ear. What is fixed is the fourth, which the arithmetic gives, and what varies is the filling, which it does not.</p>
-  <p>There is a second and sharper reason. Two of these six divisions are ancient and close on 498.04¢, the true 4:3 we proved for ourselves. Four of them are modern and close on 500¢, that is, a fourth already two cents wide before anyone sings. If we can hear which is which, we have caught a tempered interval in a tradition that never went through <span class="xref" data-to="vii-5"></span> at all, and so we see that a measure is not the same thing as a name.</p>
+  <p>Because the diatonic filling we built in <span class="xref" data-to="v-2"></span> is one division among many, and a man who has heard only one does not know that it was a choice. <span class="xref" data-to="sys-2"></span> made the argument, and this exercise lets us hear it. What is fixed is the fourth, which the arithmetic gives, and what varies is the filling, which it does not.</p>
+  <p>There is also a second, more exact reason. Two of these six divisions are ancient and close on 498.04¢, the true 4:3 we proved for ourselves. Four of them are modern and close on 500¢, that is, a fourth already two cents wide before anyone sings. If we can hear which is which, we have found a tempered interval in a tradition that never passed through the temperament of <span class="xref" data-to="vii-5"></span> at all, and so we see that a measure is not the same thing as a name.</p>
 </div>
 `,
   sources: "Boethius, De inst. mus. I.21–23 for the ancient genera; the Patriarchal Musical Committee of 1881 for the four modern Byzantine divisions, as revised from Chrysanthos, Theoretikon Mega (1832)."
@@ -780,8 +780,8 @@ MusicaArs.LESSONS = [
 <p>The lines are generated for the exercise and are not chant. What is not invented is the relation you are being asked to hear.</p>
 <div class="why-block">
   <h4>Why this block, and what it is for</h4>
-  <p>Because every interval we have learned so far, we have heard <em>as a pair</em>, sounded deliberately for us to judge, and that is the laboratory case. Here the interval has to be picked out of a moving line, against a sound that has been going on so long that we have stopped noticing it, and that is the ordinary case, which is much harder.</p>
-  <p>It is also the nearest this course comes to what the tradition itself does. A drone is not harmony and it is not accompaniment; it is a <em>measure</em>, sounded. Against a fixed pitch every degree of a melody declares its relation continuously, and a singer who has that in his ear is doing, by habit and without arithmetic, something close to what we have been doing with a monochord and a ratio. Boethius would not have called him a <span class="latin">musicus</span> <span class="xref" data-to="vi-2"></span>, and Boethius would have been right. But the two of them are measuring the same thing.</p>
+  <p>Because every interval we have learned so far, we have heard <em>as a pair</em>, sounded deliberately for us to judge, and that is the simplest case. Here the interval has to be picked out of a moving line, against a sound that has been going on so long that we have stopped noticing it, and that is the ordinary case, which is much harder.</p>
+  <p>It is also the nearest this course comes to what the tradition itself does. A drone is not harmony and it is not accompaniment; it is a <em>measure</em>, sounded. Against a fixed pitch every degree of a melody declares its relation continuously, and a singer who has that in his ear is doing, by habit and without arithmetic, something close to what we have been doing with a monochord and a ratio. Boethius would not have called him a <span class="latin">musicus</span> <span class="xref" data-to="vi-2"></span>, and rightly; but the singer and the <span class="latin">musicus</span> are measuring the same thing.</p>
 </div>
 `,
   sources: "On the isokratema and its documentation: Martin Crusius, Turcograecia (1584); Dimitri Conomos; Alexander Lingas. The exercise itself is a demonstration of texture, not a transcription."

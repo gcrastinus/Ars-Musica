@@ -2851,7 +2851,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Iudiciales — first in dignity, last in the order of discovery", "They are not the sounding body, as the lesson says."]
   ]},
   { q: "Does this lesson replace Augustine’s sixth book?", a: 0, o: [
-    ["No. That book is the place, and it waits in Chapter X and among the contemplations", "The palaestra goes on, but the question has been raised at the first honest judgment."],
+    ["No; that book is the proper place for the question, and we return to it in Chapter X and among the contemplations", "The palaestra goes on, but the question has been raised at the first honest judgment."],
     ["Yes: once you have judged E2 you have the sixth book", "Hearing a pair is where we meet the fact; the book is the ascent from that fact."],
     ["Yes, because St. Thomas superseded it", "St. Thomas grants the fact and disputes Augustine’s account of the light; he does not supersede the book."],
     ["No, because Augustine is not an authority of this course", "He is one. His metrics are not taught, but his sixth book is named as the place."]
@@ -2864,13 +2864,13 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Why is this a pause in the palaestra and not a block?", a: 1, o: [
     ["Because it cannot be heard", "The act it concerns has just been heard, in E2."],
-    ["Because nothing here is scored; it is the question raised by the act, not another draw", "E3 is next when you are ready."],
+    ["Because it is the question raised by the act, not another draw", "E3 is next when you are ready."],
     ["Because Guided practice forbids extra pages", "Guided practice brings back blocks, and this is not a block."],
     ["Because Augustine forbade exercises", "He wrote a treatise; he did not forbid the palaestra of this course."]
   ]},
   { q: "What is first in dignity, and last in the order of discovery, according to this lesson?", a: 3, o: [
     ["The sounding body", "Most men would have called that the music. It is last in dignity."],
-    ["The palaestra’s score", "Nothing here is scored."],
+    ["The palaestra’s score", "The lesson speaks of the numbers by which we judge, and a score is not one of them."],
     ["The ratio 3:2", "3:2 is a concord of the art. The judging numbers are the standard by which such a concord is judged, not the concord itself."],
     ["The judging numbers", "They are found last and rank first, and that reversal comes from the sixth book."]
   ]},
