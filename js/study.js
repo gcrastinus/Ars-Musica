@@ -1230,12 +1230,12 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "The lesson checks the system as a tone, four fourths, and a tone. What does the multiplication give?", a: 1, o: [
     ["3:1, a diapason and a diapente", "Work out the middle term first. (4:3)⁴ is 256:81, and the two tones together make 81:64. When those two are multiplied, only the 81 cancels."],
-    ["4:1, exactly two diapasons", "(81:64) × (256:81) = 4:1. Nothing has been fitted by hand, because the fifteen sounds fall where the ratios put them, and the system closes exactly without adjustment."],
+    ["4:1, exactly two diapasons", "(81:64) × (256:81) = 4:1. The ratios themselves yield the double diapason, because the fifteen sounds fall where the ratios put them, and the system closes exactly without adjustment."],
     ["2:1, one diapason", "A single pair of disjunct tetrachords already spans that much. The Greater system holds four tetrachords and two tones besides; a total no larger than a part of it cannot be right."],
     ["It does not come out exactly, and the ancients adjusted the tone of disjunction to close it", "No adjustment is made or needed, and the lesson says as much. The purpose of the check is to show that the numbers close without adjustment; work the multiplication through."]
   ]},
   { q: "What does the name <span class=\"latin\">hypate</span> mean, and what does the string sound?", a: 0, o: [
-    ["It is the highest-placed and most honored string, and it sounds the lowest", "The names describe the strings of a lyre and not pitches. Once that is understood, the whole vocabulary becomes legible, and stays legible for a thousand years of treatises."],
+    ["It is the highest-placed and most honored string, and it sounds the lowest", "The names describe the strings of a lyre and not pitches. Once that is understood, the whole vocabulary becomes clear, and it remains the vocabulary of the treatises for a thousand years."],
     ["It is the highest-sounding string of the system", "You have read the name as though it described a pitch. It describes a position on an instrument, and here position and sound run opposite ways. Ask what exactly is being called highest."],
     ["It is the middle string, by which the others are ordered", "That description belongs to another name in this lesson, and the Peripatetic passage concerns that one. Two names cannot both mean the middle; separate them before choosing."],
     ["It is the last string, and sounds the highest", "‘Last’ is the sense of a different name in the same sentence, and the pitch you have assigned goes with it. Read the four glosses the lesson gives and match each to its own name."]
@@ -1249,11 +1249,11 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Which of these is <em>not</em> among the <span class=\"latin\">hestotes</span>?", a: 2, o: [
     ["<span class=\"latin\">Paramese</span>", "It stands in the list of fixed sounds, at the upper end of the tone of disjunction. Read that list again and count it: there are seven names in it, and this is one of them."],
     ["<span class=\"latin\">Nete diezeugmenon</span>", "Every tetrachord has two outer sounds and both of them stand fixed; this is the upper one of its own tetrachord. Ask instead which sounds of a tetrachord are described as moving."],
-    ["<span class=\"latin\">Lichanos</span>", "It is an inner sound of its tetrachord, and the inner sounds are the <span class=\"latin\">kinoumenoi</span>. What moves them is the genus, which is the matter of the lesson immediately following."],
+    ["<span class=\"latin\">Lichanos</span>", "It is an inner sound of its tetrachord, and the inner sounds are the <span class=\"latin\">kinoumenoi</span>. What moves them is the genus, which the lesson says we consider next."],
     ["<span class=\"latin\">Proslambanomenos</span>", "It is named first in the list of fixed sounds. Standing outside every tetrachord does not make a sound movable, because only the sounds inside a fourth move."]
   ]},
   { q: "What does the Peripatetic <em>Problems</em> observe about the <span class=\"latin\">mese</span>, and how does the lesson treat the source?", a: 0, o: [
-    ["That if it is put out of tune the whole instrument sounds wrong — and the lesson takes the observation while declining the authority", "The compilation is not securely Aristotle’s. The passage likens the mese to a conjunction among words, the thing by which the rest hangs together."],
+    ["That if it is put out of tune the whole instrument sounds wrong; and the lesson accepts the observation but not the authority", "The compilation is not securely Aristotle’s. The passage likens the mese to a conjunction among words, that is, the thing by which the rest hangs together."],
     ["That it is the highest-sounding string, and the lesson accepts this on Aristotle’s authority", "This option contains two errors. The lesson expressly declines to rely on that authority, and the pitch you have assigned belongs with a different name in the vocabulary."],
     ["That it never moves when the genus changes, and the lesson makes this its architectural point", "It does stand among the fixed sounds, but that is drawn from the structure of the tetrachords, not from the compilation. The observation quoted there is about tuning and about melody."],
     ["That it should be tuned last, and the lesson rejects the advice as unmusical", "No such advice is given and nothing is rejected here. What the lesson sets aside is the weight of the name attached to the book, not the content of the observation."]
@@ -1266,7 +1266,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "The remark warns about the names Dorian, Phrygian and Lydian. What is the warning?", a: 1, o: [
     ["That the Greeks never used them, and they are a medieval invention", "The remark says the Greeks did use them, of tonoi and harmoniai. The trouble is not that the names are late, but that they were carried across to something else and kept their sound."],
-    ["That the Greek tonoi and harmoniai and the Latin church tones are not the same thing, though the names were taken over", "The confusion begins in the transmission itself, and the course lists the question among those it leaves open. “Dorian” did not mean one thing to Ptolemy and to a tenth-century cantor."],
+    ["That the Greek tonoi and harmoniai and the Latin church tones are not the same thing, though the names were taken over", "The confusion begins in the transmission itself, and the course lists the question among those it leaves open. “Dorian,” for example, did not mean the same thing to Ptolemy as to a tenth-century cantor."],
     ["That Boethius invented the Greek names to fill a gap in his sources", "The lesson says the tradition became confused in his transmission, which is a different fault from fabricating one, and the remark treats it as a difficulty rather than a deception. Read what the confusion is said to consist in."],
     ["That the modes are the same in both traditions, so the modern confusion does no harm", "The remark is there to deny that. Were they the same there would be nothing to warn against, and no open question to be listed in the Appendix."]
   ]}
@@ -1318,7 +1318,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What does the lesson suggest follows from the enharmonic being nameable but not measurable?", a: 2, o: [
     ["That the ancients reckoned it the crudest of the three", "They reckoned it the opposite, and the lesson connects that estimate with its difficulty. For them, what was hard to sing was not therefore held in low regard."],
     ["That it was never actually sung", "The lesson says it was hard to sing and that it fell out of use, both of which presuppose that it was once in use. Difficulty of execution is not impossibility."],
-    ["That it was very likely reckoned the most refined of the three, the hardest to sing, and the first to fall out of use", "The lesson draws a further point from this: an art that knows where its own instruments stop is in better condition than one that does not."],
+    ["That it was very likely reckoned the most refined of the three, the hardest to sing, and the first to fall out of use", "The lesson gives the reason: the art could name the enharmonic but could not measure it."],
     ["That the theorem of the earlier lesson must be mistaken", "The theorem stands, and the lesson relies upon it rather than doubting it. Where a demonstration and a practice disagree, this lesson gives an honest report; it does not withdraw the proof."]
   ]},
   { q: "The remark concerns the characters ascribed to the genera. What does the lesson do with them?", a: 3, o: [
@@ -1329,7 +1329,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "What is the structural lesson said to govern everything in Chapter VII?", a: 1, o: [
     ["That the fourth may be filled in three ways and no more", "Three is a fact about Greek practice, not a limit the arithmetic imposes. The closing paragraph looks forward to fillings of the diapason that the Greeks never used at all."],
-    ["The concords are fixed by number and do not move; the filling is a choice within limits", "That is why later Europe, filling the diapason with a third at 5:4 and then with twelve equal steps, is doing what the Greeks did, on a larger scale and for a different reason."],
+    ["The concords are fixed by number and do not move, but the filling is a choice within limits", "That is why later Europe, filling the diapason with a third at 5:4 and then with twelve equal steps, is doing what the Greeks did, on a larger scale and for a different reason."],
     ["That every division must come out in whole numbers", "One of the three divisions in this lesson does not, and the lesson does not conceal the fact, so that cannot be the rule being taught."],
     ["That the genus determines which concords are available", "The concords stand whatever the genus does, which is the whole force of saying the outer sounds never move. You have made the variable govern the fixed; look again at which is which."]
   ]},
