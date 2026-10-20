@@ -199,13 +199,13 @@ MusicaArs.LESSONS = [
   title: "Sound",
   html: `
 <p>Before there is a ratio, there is a sound. Aristotle’s <em>De anima</em> treats sound as the proper object of hearing. Color is what sight is of; sound is what hearing is of. We do not first have a theory and then go looking for a noise; we begin by hearing.</p>
-<p>Sound is caused. A sounding body is struck, or otherwise moved with a certain violence, and the medium (usually air) is affected so as to be audible. A stone at rest in a field is silent. The same stone, struck, sounds. Not every body sounds equally; a taut string sounds in a way a heap of wool does not. We need no physics textbook for this; we need only to notice what we already know.</p>
+<p>Sound is caused. A sounding body is struck, or otherwise moved with a certain violence, and the medium (usually air) is affected so as to be audible. A stone at rest in a field is silent, but the same stone, struck, sounds. Not every body sounds equally; a taut string sounds in a way a heap of wool does not. This requires no physics textbook, only attention to what we already know.</p>
 <p>Among sounds, some last and have a definite height: the sound of a plucked string, a bell, a sung vowel. Others do not: a scrape, a cough, a wave on gravel. The art of harmonics is about the first kind. A pitch is a sound as high or low (as <em>acute</em> or <em>grave</em>, in the old vocabulary). “High” and “low” here are not places in a room but differences <em>of the sound itself</em>, as red and blue are differences of color.</p>
 <div class="widget" data-kind="listen" data-len="1" data-label="Hear a standing sound"></div>
-<p>What we have just heard is one pitched sound. It was made by a vibrating body whose motion repeats. The tradition names the motion; a later physics names the rate of repetition a <em>frequency</em> and counts it in cycles per second. We may use that count as a measure. We will not begin by saying that pitch <em>is</em> a number of hertz. Pitch is what we hear, and the number measures the motion that is the sound.</p>
+<p>What we have just heard is one pitched sound, made by a vibrating body whose motion repeats. The tradition names the motion; a later physics names the rate of repetition a <em>frequency</em> and counts it in cycles per second. We may use that count as a measure, but we will not begin by saying that pitch <em>is</em> a number of hertz, because pitch is what we hear, and the number measures the motion that is the sound.</p>
 <div class="remark">
   <h4>Why this order</h4>
-  <p>A middle science starts from a natural thing and demonstrates through mathematics. If we started from numbers, we would be doing arithmetic and then looking around for a noise that fitted them. That is not how the art is learned, and it is not how knowledge of nature begins. All our knowledge begins in the senses. The ear gives us sound; reason, using arithmetic, knows why these sounds stand to one another as they do.</p>
+  <p>A middle science starts from a natural thing and demonstrates through mathematics. If we started from numbers, we would be doing arithmetic and then looking for a sound that fitted them; but that is not how the art is learned, nor how knowledge of nature begins, since all our knowledge begins in the senses. The ear gives us sound; reason, using arithmetic, knows why these sounds stand to one another as they do.</p>
 </div>
 `,
   sources: "Aristotle, De anima II.8; Aquinas, In De anima II; ST I q.84 a.6 (knowledge begins from the senses). The caution about frequency follows the order of a middle science, not a quarrel with acoustics."
@@ -216,16 +216,16 @@ MusicaArs.LESSONS = [
   ch: "II",
   title: "Two sounds compared",
   html: `
-<p>One sound is high or low only by comparison, as one rod is long or short only by comparison. One sound, then another: either they are the same in height, or they are not.</p>
-<p>If they are the same, we call that <em>unison</em> (one sound). If they are not, the difference is an <em>interval</em>. That word means a gap, a standing-apart. It does not yet mean a distance on a keyboard or a number of “semitones.” It means these two pitches as compared with each other.</p>
+<p>One sound is high or low only by comparison, as one rod is long or short only by comparison. So when we hear one sound and then another, either they are the same in height, or they are not.</p>
+<p>If they are the same, we call that <em>unison</em> (one sound). If they are not, the difference is an <em>interval</em>. The word “interval” means a gap, a standing-apart; it does not yet mean a distance on a keyboard or a number of “semitones,” but only these two pitches as compared with each other.</p>
 <div class="widget" data-kind="interval" data-a="1" data-b="1" data-name="Unison — the same pitch twice"></div>
-<p>Unison is the equality of pitches. It is not yet a concord in the sense the art cares about most, because there are not yet two different sounds to blend. It is the measure against which difference is heard.</p>
-<p>We now take two sounds that are not the same, and hear first one, then the other, then both at once. Either they belong together, or they grind.</p>
+<p>Unison is the equality of pitches. It is not yet a concord in the principal sense of the art, because there are not yet two different sounds to blend; it is the measure against which difference is heard.</p>
+<p>We now take two sounds that are not the same, and hear first one, then the other, then both at once; either they belong together, or they do not.</p>
 <div class="widget" data-kind="interval" data-a="1" data-b="8/9" data-name="A small difference — not yet named"></div>
-<p>We need no vocabulary yet. Some pairs blend when they sound together, so that we can almost take them for a single richer sound; some pairs remain two, and restless. The art will call the first kind <em>concords</em> (consonances) and the second <em>discords</em> (dissonances). The names can wait, but the hearing must come first.</p>
+<p>We need no vocabulary yet. Some pairs blend when they sound together, so that we can almost take them for a single richer sound; some pairs remain two, and restless. The art will call the first kind <em>concords</em> (consonances) and the second <em>discords</em> (dissonances), but the hearing must come before the names.</p>
 <div class="remark">
   <h4>Together and in succession</h4>
-  <p>A pair of pitches may be heard one after the other (as in a melody) or at once (as in a chord). The liberal art knows both. The blending that first reveals a concord is often clearer when the two sound together. Melody will come once we have a scale.</p>
+  <p>A pair of pitches may be heard one after the other (as in a melody) or at once (as in a chord). The liberal art knows both. The blending that first reveals a concord is often clearer when the two sound together, and so we begin there; melody we consider once we have a scale.</p>
 </div>
 `,
   sources: "Boethius, De inst. mus. I.3–8; Nicomachus, Manual of Harmonics 2, 6, 12."
@@ -237,12 +237,12 @@ MusicaArs.LESSONS = [
   title: "One string",
   html: `
 <p>How shall we measure high and low, instead of merely noticing them? The instrument of this art is the <em>monochord</em>: one string, stretched over a board, which can be stopped at a chosen length. The whole string sounds one pitch. If we stop it halfway, the half that remains free sounds another pitch. The string, the tension, and the thickness are the same; only the sounding length has changed.</p>
-<p>The rule, which we can hear for ourselves, is that <strong>the shorter the sounding length, the higher the pitch.</strong> If the length is made twice as short, the pitch rises by a definite interval that we will name in the next lesson; if it is made three-halves as short, by another. The length is a magnitude; the comparison of two lengths is a ratio; the ratio will turn out to be the same as the comparison of the pitches, taken the other way around.</p>
+<p>The rule, which we can hear for ourselves, is that <strong>the shorter the sounding length, the higher the pitch.</strong> If the length is made twice as short, the pitch rises by a definite interval that we will name shortly; if it is made three-halves as short, by another. The length is a magnitude; the comparison of two lengths is a ratio; the ratio will turn out to be the same as the comparison of the pitches, taken the other way around.</p>
 <div class="widget" data-kind="monochord" data-start="2/3"></div>
-<p>We sound the open string, then the stopped string, then both; one quantity changes, and another quantity changes with it. That is the whole method of the art, and it is not a song.</p>
+<p>We sound the open string, then the stopped string, then both; one quantity changes, and another quantity changes with it. That correspondence of two quantities is the whole method of the art.</p>
 <div class="remark">
   <h4>The story of the hammers</h4>
-  <p>Nicomachus and Boethius tell how Pythagoras, passing a smithy, heard hammers of different weights sounding concords, and so discovered the ratios. The story is the traditional <em>inventio</em> of the science. As a piece of metallurgy it is doubtful, because hammer-weight does not behave as the story needs. As a piece of pedagogy it is useful, because it says the right thing, namely that the concords are not arbitrary tastes but correspond to number. What actually shows the number cleanly is the string, and so we will trust the string.</p>
+  <p>Nicomachus and Boethius tell how Pythagoras, passing a smithy, heard hammers of different weights sounding concords, and so discovered the ratios. The story is the traditional <em>inventio</em> of the science. As a piece of metallurgy it is doubtful, because hammer-weight does not behave as the story needs. As a piece of pedagogy it is useful, because it says the right thing, namely that the concords are not arbitrary tastes but correspond to number. But it is the string that shows the number exactly, and so the art relies on the string.</p>
 </div>
 `,
   sources: "Boethius, De inst. mus. I.10–11; Nicomachus, Manual 6; Kalkavage, On the Measurement of Tones (the monochord as the student’s first instrument)."
@@ -256,12 +256,12 @@ MusicaArs.LESSONS = [
 <p>When the string is stopped at its midpoint, the free half is to the whole as 1 is to 2. We sound the whole, then the half, then both together.</p>
 <div class="widget" data-kind="monochord" data-lock="1/2"></div>
 <p>What we hear is the first and simplest concord. The two sounds are not the same pitch (the half is higher), and yet they blend so completely that the higher seems to be the lower, raised; or the lower, the higher deepened. Singers who have never heard the word still find this interval when they try to sing “the same tune higher.”</p>
-<p>The Greeks called it the <span class="latin">diapason</span>, “through all.” Later Latin, counting the eight steps of the filled scale, called it the <em>octave</em> (the eighth). We will use both names, but we will not let the counting of eight get ahead of the thing itself. The interval is the ratio <strong>2:1</strong> of lengths (whole to half), which is the ratio <strong>2:1</strong> of pitches the other way (half to whole). We do not need eight notes to hear it; we need two lengths, one the double of the other.</p>
+<p>The Greeks called it the <span class="latin">diapason</span>, “through all.” Later Latin, counting the eight steps of the filled scale, called it the <em>octave</em> (the eighth). We will use both names, but the counting of eight is not what the interval is. The interval is the ratio <strong>2:1</strong> of lengths (whole to half), which is the ratio <strong>2:1</strong> of pitches the other way (half to whole). We do not need eight notes to hear it; we need two lengths, one the double of the other.</p>
 <div class="widget" data-kind="interval" data-a="1" data-b="1/2" data-name="Diapason — 2:1"></div>
-<p>Why is this the first concord? Because 2:1 is the first ratio after equality. Among the kinds of ratio the arithmeticians name, the <em>multiple</em> (a number of times) is the simplest, and the first multiple is the double. The art will find its other first concords nearby, in the first <em>superparticular</em> ratios, where the greater exceeds the less by an aliquot part of the less: 3:2 (the sesquialter), 4:3 (the sesquitertian). We will hear those next. 2:1 is “the same, higher,” and is to be recognized without a name.</p>
+<p>Why is this the first concord? Because 2:1 is the first ratio after equality. Among the kinds of ratio the arithmeticians name, the <em>multiple</em> (a number of times) is the simplest, and the first multiple is the double. The art will find its other first concords nearby, in the first <em>superparticular</em> ratios, where the greater exceeds the less by an aliquot part of the less: 3:2 (the sesquialter), 4:3 (the sesquitertian), and we hear those next. 2:1 is “the same, higher,” and is to be recognized without a name.</p>
 <div class="remark">
   <h4>A warning about the word “octave”</h4>
-  <p>If we already sing, we may think of an octave as “eight notes up the scale.” That description <em>presupposes</em> a scale of eight, but the interval 2:1 does not; it is prior. The scale is a way of filling this interval; this interval is not a count of scale-steps. That is why the old name <em>diapason</em> is the better one to begin with.</p>
+  <p>If we already sing, we may think of an octave as “eight notes up the scale.” That description <em>presupposes</em> a scale of eight, but the interval 2:1 does not; it is prior. The scale is a way of filling this interval; this interval is not a count of scale-steps. That is why the old name “diapason” is the better one to begin with.</p>
 </div>
 `,
   sources: "Boethius, De inst. mus. I.7–8, I.16; Nicomachus, Manual 3, 5; Euclid, Sectio canonis (the diapason as duple)."
@@ -274,12 +274,12 @@ MusicaArs.LESSONS = [
   html: `
 <p>After the double comes the next simplest inequality of whole numbers: 3 to 2. We stop the string so that the sounding length is two-thirds of the open string. The lengths are 3:2 (open to stopped). The pitches, inverted, are 3:2 the other way (stopped to open). This concord is the <span class="latin">diapente</span>, the fifth.</p>
 <div class="widget" data-kind="interval" data-a="1" data-b="2/3" data-name="Diapente — 3:2"></div>
-<p>It blends, but not as the diapason blends. We hear two sounds, and we hear that they belong together. Many people who cannot yet match a 2:1 will still find a 3:2 with the voice, because it is the other great standing-apart in song.</p>
+<p>It blends, but not as the diapason blends: we hear two sounds, and we hear that they belong together. Many people who cannot yet match a 2:1 will still find a 3:2 with the voice, because it is the other great standing-apart in song.</p>
 <p>Next comes 4 to 3. We stop the string at three-quarters, and this is the <span class="latin">diatessaron</span>, the fourth.</p>
 <div class="widget" data-kind="interval" data-a="1" data-b="3/4" data-name="Diatessaron — 4:3"></div>
 <p>The fourth is a concord, and it is tighter, less open, than the fifth. The three against the same open string are the half (diapason), the two-thirds (fifth), and the three-quarters (fourth).</p>
 <div class="widget" data-kind="monochord" data-start="2/3"></div>
-<p>These three (2:1, 3:2, 4:3) are the first concords of the art. They are not chosen because composers happened to like them. They are the first multiple and the first two superparticulars, and they are the concords the ear most readily grants. Later writers, Ptolemy among them, will argue about whether still other ratios (5:4, for instance) should be counted as concords. That is a real dispute, but it is not first; first are the three that the numbers 1, 2, 3, and 4 already contain.</p>
+<p>These three (2:1, 3:2, 4:3) are the first concords of the art. They are not chosen because composers happened to like them, but because they are the first multiple and the first two superparticulars; and they are also the concords the ear most readily grants. Later writers, Ptolemy among them, will argue about whether still other ratios (5:4, for instance) should be counted as concords. That is a real dispute, but it is not first; first are the three that the numbers 1, 2, 3, and 4 already contain.</p>
 `,
   sources: "Boethius, De inst. mus. I.7–8, I.16–18; Nicomachus, Manual 5–6; Ptolemy, Harmonics I (for the later, open question of further concords)."
 },
@@ -294,12 +294,12 @@ MusicaArs.LESSONS = [
 <div class="widget" data-kind="interval" data-a="1" data-b="2/3" data-name="Open to 2/3 — a fifth"></div>
 <div class="widget" data-kind="interval" data-a="2/3" data-b="1/2" data-name="2/3 to 1/2 — a fourth"></div>
 <div class="widget" data-kind="interval" data-a="1" data-b="1/2" data-name="Open to 1/2 — a diapason, the two compounded"></div>
-<p>The Pythagoreans pointed to the <em>tetractys</em>: the triangular heap of the first four numbers.</p>
+<p>The Pythagoreans pointed to the <em>tetractys</em>, the triangular arrangement of the first four numbers.</p>
 <div class="widget" data-kind="tetractys"></div>
 <p>From 1, 2, 3, 4 we can form 2:1, 3:2, 4:3, and also 4:1 (the double diapason) and 3:1 (the diapason-plus-fifth). We cannot form every later interval from these four without further work, but we can form the first concords. That is the claim, and it is not a mysticism about the number ten but an observation about which ratios are first.</p>
 <div class="remark">
   <h4>A small exactness</h4>
-  <p>Compounding ratios is not adding string-lengths but multiplying. If we add the leftover bits of string, we will get the wrong pitch. The art measures by <em>ratio</em>, not by leftover inches. This is one reason it belongs to arithmetic rather than to a merely geometric cutting of a rod.</p>
+  <p>Compounding ratios is not adding string-lengths but multiplying. If we add the leftover bits of string, we get the wrong pitch, because the art measures by <em>ratio</em>, not by leftover inches; and this is one reason it belongs to arithmetic rather than to a merely geometric cutting of a rod.</p>
 </div>
 `,
   sources: "Boethius, De inst. mus. I.16–18, II; Nicomachus, Manual 6–8; Euclid, Sectio canonis."

@@ -635,7 +635,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "The remark asks why this order. What would go wrong if the art began from numbers?", a: 1, o: [
     ["The numbers would come out false", "The arithmetic is nowhere in doubt in this course. The remark’s worry is about which science we would be doing, not about whether the figures work."],
-    ["You would be doing arithmetic and then looking around for a noise that fitted it", "That would leave the natural subject as decoration. A middle science demonstrates about a real thing, so the real thing must be had first."],
+    ["You would be doing arithmetic and then looking for a sound that fitted it", "That would leave the natural subject as decoration. A middle science demonstrates about a real thing, so the real thing must be had first."],
     ["The student would find it too hard", "Difficulty is not the objection. The remark gives a reason of another kind, one about how a middle science is put together. Read it through to the end."],
     ["The ratios would have to be taken on authority", "The remark is not guarding against authority here but guarding an order. Ask which end a middle science starts from."]
   ]},
@@ -672,7 +672,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Two sounds an octave apart, since they blend completely", "Complete blending is not sameness of height, and no named interval has been reached yet. Ask what the word itself says: one <em>what</em>?"],
     ["Any pair of sounds that blend", "Blending is what the art will call concord, and concords are made of sounds that differ. Notice how many sounds the word before you names."]
   ]},
-  { q: "Why is unison “not yet a concord in the sense the art cares about most”?", a: 2, o: [
+  { q: "Why is unison “not yet a concord in the principal sense of the art”?", a: 2, o: [
     ["Because 1:1 is not a ratio", "The arithmetic treats equality alongside the kinds of inequality and gives it a place rather than denying it one. The reason here is about hearing two things blend."],
     ["Because it is too easy to sing", "Ease of performance is a fact about voices, and nothing is settled by it in this art. Ask what a blending requires before it can happen at all."],
     ["Because there are not yet two different sounds to blend", "Concord is a relation between things that differ, so sameness cannot be its best case. The lesson withholds the title without withholding the importance."],
@@ -696,8 +696,8 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Concords (consonances) and discords (dissonances)", "The names are supplied and then set aside; the lesson insists they can wait. They will be earned later by ratio rather than by assertion."],
     ["Multiples and superparticulars", "Those are kinds of ratio, and no ratio has been assigned to anything you have heard. What is wanted are names for what the ear reports."]
   ]},
-  { q: "“The names can wait, but the hearing must come first.” What is being asked of you?", a: 1, o: [
-    ["To memorize the vocabulary before listening again", "The sentence sets the two in the opposite order of urgency. Read it once more and ask which of them it says may be postponed."],
+  { q: "“The hearing must come before the names.” What is being asked of the student?", a: 1, o: [
+    ["To memorize the vocabulary before listening again", "The sentence sets the two in the opposite order of urgency. Read it once more and ask which of them it says comes first."],
     ["To have the experience now, since the terms will be idle without it", "A name given to an experience we have not had gives us no knowledge of that experience. The course is built so that every term arrives after the thing it names."],
     ["To distrust the names when they come", "Nothing casts doubt on the names; the whole course is arranged to earn them. What is said is which comes first, not which is trustworthy."],
     ["To wait for a scale before listening at all", "The lesson has just had you listen twice, with no scale and no vocabulary. Ask what it says cannot wait."]
@@ -709,7 +709,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Both: one after the other, as in a melody, and at once, as in a chord", "The art claims both, and then chooses one to start with for a reason of evidence: the blending shows itself more plainly when the two sound together."]
   ]},
   { q: "Why does the remark say melody must wait?", a: 0, o: [
-    ["Because melody will come once we have a scale", "That sets the order of the chapters ahead: intervals first, then a scale built from them, and only then movement along it."],
+    ["Because melody is considered once we have a scale", "That sets the order of the chapters ahead: intervals first, then a scale built from them, and only then movement along it."],
     ["Because melody belongs to practice, not to the liberal art", "The remark says the liberal art knows sounds heard one after another, so melody is not being put outside it. What is missing at this point is something to move upon."],
     ["Because succession is harder to hear than simultaneity", "The remark’s point about clearness concerns where a concord first shows itself, not what melody requires. Ask what melody needs that has not been built."],
     ["Because the ear judges melody unreliably", "No such doubt about the ear is raised anywhere in this lesson. The reason given is that something is still missing, and it is not a faculty."]
@@ -842,7 +842,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "On what ground does the lesson say 2:1, 3:2 and 4:3 are the first concords?", a: 2, o: [
     ["Because composers happened to like them", "The lesson raises that possibility only to deny it explicitly. Read the sentence beginning ‘They are not chosen’ and see what it puts in place of choosing."],
     ["Because no one has ever called any other ratio a concord", "The page names a later writer who argued for at least one more, and calls the argument a real dispute. Look for a positive reason rather than a claim that no other ratio was ever proposed."],
-    ["They are the first multiple and the first two superparticulars, and they are the concords the ear most readily grants", "This is an arithmetical order that the ear confirms. Both halves matter, because the numbers give the ranking, and the hearing shows that the ranking is not a private arrangement."],
+    ["They are the first multiple and the first two superparticulars, and they are also the concords the ear most readily grants", "This is an arithmetical order that the ear confirms. Both halves matter, because the numbers give the ranking, and the hearing shows that the ranking is not a private arrangement."],
     ["Because they are the only ratios a monochord can sound", "A monochord will sound whatever ratio the bridge is set to, and later lessons set it to a good many. Ask what distinguishes these three among all the ratios available."]
   ]},
   { q: "What does the lesson say of 5:4 and of writers such as Ptolemy?", a: 0, o: [
@@ -880,7 +880,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "What is the tetractys?", a: 1, o: [
     ["The four concords of the art, set in order", "The art counts three first concords, not four, and the tetractys is no list of intervals at all. Look at what the word is said to be a heap of."],
-    ["The triangular heap of the first four numbers", "It is the numbers one, two, three and four, set in a triangle. The lesson’s interest in the figure lies entirely in the ratios that those four numbers make available."],
+    ["The triangular arrangement of the first four numbers", "It is the numbers one, two, three and four, set in a triangle. The lesson’s interest in the figure lies entirely in the ratios that those four numbers make available."],
     ["A square array of ten counters", "The count of ten is right, but the shape is not, and in any case the lesson warns against making the ten the point. Look at the word it uses for the figure."],
     ["The tetrachord under another name", "These are two similar words for two different things, because one is a figure of counters and the other is a stretch of sound to be divided. Check what this one is said to be made of."]
   ]},
