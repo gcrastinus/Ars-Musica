@@ -1301,7 +1301,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Two dieses and a trihemitone", "The wide step you name belongs to another genus, and it is smaller than what must remain here. Take a fourth, remove two very small steps from the bottom, and ask how much is left above."],
     ["A diesis, a tone, and a tone", "Two of the intervals you name are the ordinary steps of another division in this lesson. Count how many small steps this genus is said to have before you place anything above them."],
     ["A leimma, an apotome, and a ditone", "Those first two steps together are the mark of a different genus, where they make up a whole tone. This one is named from being well-fitted, and its lowest intervals are smaller than either."],
-    ["Two very small steps called dieses, then a ditone of 81:64", "81:64 multiplied by 256:243 gives 4:3, so the two dieses together must make up the leimma, and each is half of it. That is where the art runs out."]
+    ["Two very small steps called dieses, then a ditone of 81:64", "81:64 multiplied by 256:243 gives 4:3, so the two dieses together must make up the leimma, and each is half of it. That is where the art cannot measure."]
   ]},
   { q: "What must the two enharmonic dieses amount to when taken together?", a: 1, o: [
     ["A whole tone, 9:8", "Then the ditone above them would have to shrink, and it does not: the lesson fixes it at 81:64. Take that away from a fourth and see how much room is actually left at the bottom."],
@@ -1467,7 +1467,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Which of these does the lesson place among the things that ‘remain, and are not first’?", a: 2, o: [
     ["The ratio 9:8 as the step of the scale", "That is one of the six lines the lesson says we now possess. What remains is what could not properly be had until those lines were in place."],
     ["The demonstration that 2:1 is the first concord", "The first concords are listed among the principles already gained. You have chosen from the wrong side of the divide the lesson draws."],
-    ["The church modes and the Guidonian hexachord", "The same is true of the chromatic and enharmonic genera, the Greater Perfect System, Ptolemy’s complete tables, Augustine’s metrics, composition, and the ethics of melody in full."],
+    ["The church modes and the Guidonian hexachord", "The same is true of Ptolemy’s complete tables, Augustine’s metrics, composition, and the ethics of melody in full."],
     ["The claim that the musician is the one who judges", "That claim is the substance of this lesson, and of Boethius I.34 behind it. Ask what the phrase ‘not first’ is being contrasted with."]
   ]},
   { q: "Why does the course go on to treat one of the subjects it calls ‘not first’?", a: 3, o: [
