@@ -10,7 +10,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What is a contemplative theme, as this lesson uses the word?", a: 2, o: [
     ["A drill you pass by scoring well enough", "Nothing in these themes is passed or failed, and the lesson says so in its first sentence; drills belong to the palaestra."],
     ["A disputed question, with objections and a reply", "The lesson refuses that form: the themes show something, and do not ask for an argument about its parts."],
-    ["A passage that unfolds over three returns, meant to draw you up and away", "The author’s words come first, without a gloss in front of them; later come what the text was doing, and a further passage."],
+    ["A passage that unfolds over three returns, meant to lead the mind upward", "The author’s words come first, without a gloss in front of them; later come what the text was doing, and a further passage."],
     ["A summary of the lessons you have already finished", "The first encounter is the author’s words, not a résumé of the course."]
   ]},
   { q: "When you first open a theme, what are you given?", a: 0, o: [
@@ -19,8 +19,8 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["A quiz to see whether you understood the palaestra", "The palaestra is not a gate to these pages, and these pages are not a test of the palaestra."],
     ["Three later passages at once", "The unfolding takes months, and what is waiting is not shown before its time."]
   ]},
-  { q: "What is the ladder these themes climb?", a: 1, o: [
-    ["Sound, then the spheres, then God", "The lesson names the ladder and says that it does not climb through the spheres."],
+  { q: "What is the ascent these themes follow?", a: 1, o: [
+    ["Sound, then the spheres, then God", "The lesson names the ascent and says that it does not pass through the spheres."],
     ["Sound, then the human being, then God", "It rises from what is heard, to the soul that hears, to the measure by which we judge."],
     ["From easy drills to hard drills", "The themes are not drills, and the palaestra has its own order."],
     ["From Plato, to Aristotle, to St. Thomas, as a history of opinions", "The doctors are being read for what they saw, not arranged as a survey."]
@@ -45,7 +45,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "The lesson says these are not disputed questions. What follows from that?", a: 1, o: [
     ["The authors cited never disagree", "Augustine and St. Thomas are later shown to part on illumination. The form of the themes is still not a debate."],
-    ["You should be able to see the truth of harmony and the soul; you need not argue its parts", "The passages are meant to draw you up and away."],
+    ["The aim is to see the truth about harmony and the soul, not to argue its parts", "The passages are meant to lead the mind upward."],
     ["No authority may be named", "Boethius, Ptolemy, Plato, Aristotle, Augustine, and St. Thomas are the matter of the themes."],
     ["Study questions are forbidden on these pages", "Each theme has study questions on the doctrine of the page. They are not a test."]
   ]},
