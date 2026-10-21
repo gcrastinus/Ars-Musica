@@ -496,6 +496,30 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["It adopts the use as the whole measure, so that a song is good exactly as far as it gets the city’s work done", "Recreation is ordered to the rest of the soul under the rule of reason, and work is not its only end."],
     ["It sets the use aside as a matter for the history of music, on which moral philosophy has nothing to say", "The theme measures the use, because recreation belongs to the moral life."]
   ]},
+  { q: "Who is Damon, as this theme presents him?", a: 1, o: [
+    ["A Spartan lawgiver of the seventh century, whose book on the modes is quoted at length in the <em>Laws</em>", "The theme names an Athenian of the fifth century, and it says his writings are lost. What we have of him is what Plato reports."],
+    ["The fifth-century teacher of Pericles, known to us chiefly through Plato, since his own writings are lost", "Plato takes him as the authority for the modes and the rhythms. No writing of Damon’s is cited, because none survives."],
+    ["The Egyptian priest who consecrated the tunes that Plato would have a city copy", "Egypt is Plato’s example of songs fixed by law. Damon is the Athenian whom Plato names in the <em>Republic</em>."],
+    ["Aristotle’s name for the Dorian mode when that mode is used in the education of the young", "Damon is a man, not a mode. Aristotle’s question about the young is a different text, given in the theme on the ethos of the modes."]
+  ]},
+  { q: "What does Plato, reporting Damon, say follows from a change in the modes of music?", a: 0, o: [
+    ["A change in the chief laws of the city", "The words are at <em>Republic</em> IV, 424c. The modes are never disturbed without unsettling of the most fundamental political and social conventions, as Damon affirms, and that unsettling is a change in the chief laws of the city."],
+    ["A change only in the instruments, while the laws of the city remain as they were", "The theme draws the opposite consequence. A new type of music is called a hazard of all our fortunes."],
+    ["Nothing that concerns the city, because the modes belong to harmonics and the laws to another science", "Harmonics does not settle the laws. Plato’s claim, which the theme states and does not prove, is that the modes and the chief laws move together."],
+    ["The silencing of every song, since a city that changes its modes must give up music altogether", "Plato does not silence music. He would keep the modes that fit the character he wants, and he would resist a change."]
+  ]},
+  { q: "In the <em>Laws</em>, what does Plato call the rule of the spectators, and where does he say it leads?", a: 2, o: [
+    ["An aristocracy in music, which he says leads to reverence for the laws", "Aristocracy in music is the order he says was lost. The new rule is the opposite of it, and it leads away from the laws."],
+    ["The consecration of the songs, which he says leads to the stability of Egypt", "Consecration is the remedy he proposes, in Book VII and in the Egyptian example. The name asked about belongs to the decline in Book III."],
+    ["A theatrocracy, which leads on to lawlessness and to contempt for oaths and for the gods", "The name he gives, “theatrocracy,” is at Laws III, 701a, where a base theatrocracy springs up in place of an aristocracy in music. From that conceit of wisdom and that contempt for law come the refusal to obey rulers, then parents, then the laws, and at last the loss of respect for oaths and for the gods."],
+    ["A democracy confined to music, which he says would have ruined the city even had it stayed there", "He does not say that a democracy which stayed inside the music would have ruined the city. The danger he names is that the contempt for law began in the music and did not stay there."]
+  ]},
+  { q: "How does St. Thomas’s teaching stand toward Plato’s fixing of every song by law?", a: 1, o: [
+    ["He adopts it, because the common good requires every act of virtue to be commanded and every vice to be forbidden", "Human law does not forbid all vices, but only the more grievous, and it does not prescribe all the acts of every virtue, but only those that can be ordered to the common good (I–II q.96 a.2–3)."],
+    ["He receives that music shapes character and the city, but the law does not fix every song, and the city is not music’s only end", "The end he states is the praise of God and the right ordering of the soul (II–II q.91 a.1–2). The claim is stated from moral philosophy and theology, and it is not proved from the ratios."],
+    ["He denies that music shapes character, so a city has nothing to order in its songs", "He receives the claim, at II–II q.91 a.2, and Peter of Auvergne states it for the education of citizens. The correction concerns how far the law may go, and not whether melody moves the soul."],
+    ["He leaves the songs to harmonics, which demonstrates from the ratios which songs a city must consecrate", "The ratios are not the premises of this judgment. Music states the application, and the demonstration belongs to political philosophy and to theology."]
+  ]},
   { q: "How does St. Thomas’s teaching judge Bodin’s harmonic justice?", a: 3, o: [
     ["It adopts it as a third kind of justice, demonstrated from the harmonic mean, which a ruler may compute before he gives judgment in any case", "St. Thomas names no third justice, and no ratio demonstrates the virtues of a ruler."],
     ["It rejects the two proportions as well, holding that justice has nothing to do with proportion of any kind, since justice is in the will alone", "He receives both proportions from Aristotle at II–II q.61 a.2, geometrical in distribution and arithmetical in exchange."],
