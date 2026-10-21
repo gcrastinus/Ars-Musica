@@ -884,6 +884,23 @@ code {
 .invite p { margin: 0; }
 .invite p + p { margin-top: 6px; }
 .tbtn:disabled { opacity: .4; cursor: default; }
+/* the hand */
+.hand-box { display: flex; justify-content: center; }
+.hand-svg { width: 100%; max-width: 340px; height: auto; display: block; }
+.hand-skin { fill: color-mix(in srgb, var(--wood) 26%, var(--panel2)); stroke: var(--rule); }
+.hand-skin-line { stroke: color-mix(in srgb, var(--wood) 26%, var(--panel2)); stroke-width: 44; stroke-linecap: round; }
+.hand-back { stroke: var(--rule); stroke-width: 1.5; stroke-dasharray: 3 3; }
+.hand-place { cursor: pointer; outline: none; }
+.hand-place circle { fill: var(--panel); stroke: var(--gold-soft); stroke-width: 1.4; }
+.hand-place.back circle { stroke-dasharray: 3 2; }
+.hand-place text { font-family: var(--serif); font-size: 13px; fill: var(--ink); pointer-events: none; }
+.hand-place:hover circle, .hand-place:focus-visible circle { stroke: var(--gold); stroke-width: 2.2; }
+.hand-place.on circle { fill: color-mix(in srgb, var(--ember) 80%, var(--panel)); stroke: var(--ember); }
+.hand-place.on text { fill: #fff8ee; }
+.hand-read { margin-top: 8px; min-height: 3.2em; }
+.hand-name { margin: 0; font-size: 18px; }
+.hand-syl .pbtn { font-size: 12.5px; }
+.sing-pick .pbtn.on { border-color: var(--gold); color: var(--gold); }
 @media (max-width: 860px) {
   .app {
     grid-template-columns: 1fr;

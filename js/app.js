@@ -290,6 +290,7 @@ function render(lesson) {
       <h2 class="lesson">${lesson.title}</h2>
       <div class="prose">${lesson.html || ""}</div>
       ${lesson.drill ? `<div class="widget" data-kind="drill" data-set="${lesson.drill}"></div>` : ""}
+      ${lesson.coda ? `<div class="prose coda">${lesson.coda}</div>` : ""}
       ${study ? `<div class="widget study" data-kind="study" data-lesson="${lesson.id}"></div>` : ""}
       ${lesson.sources ? `<p class="sources">${lesson.sources}</p>` : ""}
       <div class="pager">
@@ -308,7 +309,7 @@ function render(lesson) {
       go(a.dataset.id);
     });
   });
-  const hasSound = (lesson.html || "").includes("data-kind") || !!lesson.drill;
+  const hasSound = ((lesson.html || "") + (lesson.coda || "")).includes("data-kind") || !!lesson.drill;
   if (!state.sound && hasSound) $("#sound-banner").classList.add("show");
   const onSound = async () => {
     await Audio.unlock();

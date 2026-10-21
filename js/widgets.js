@@ -48,6 +48,9 @@ MusicaArs.mountWidgets = function mountWidgets(root) {
     else if (kind === "byzgenera") mountByzGenera(el);
     else if (kind === "obikhod") mountObikhod(el);
     else if (kind === "ison") mountIson(el);
+    else if (kind === "hand") mountHand(el);
+    else if (kind === "modes") mountModes(el);
+    else if (kind === "singback") mountSingback(el);
     else if (kind === "drill") mountDrill(el);
     else if (kind === "study") mountStudy(el);
   });
@@ -774,6 +777,242 @@ function mountIson(el) {
   el.append(head, play, note);
 }
 
+/* ---- the hand: the twenty places of the gamut -------------------------
+   The common late-medieval layout: from the tip of the thumb down the thumb,
+   across the bases of the fingers, up the little finger, across the tips,
+   and inward; ee on the back of the middle finger. The manuscripts differ
+   in small details. Pitches are the course's Pythagorean ones, with a at
+   the open string. */
+const HAND_AT = {
+  "Γ": [294, 174], "A": [276, 218], "B": [258, 262],
+  "C": [226, 236], "D": [174, 236], "E": [122, 236], "F": [70, 236],
+  "G": [70, 200], "a": [70, 164], "b": [70, 128],
+  "c": [122, 98], "d": [174, 80], "e": [226, 100],
+  "f": [226, 145], "g": [226, 190], "aa": [174, 184], "bb": [122, 190],
+  "cc": [122, 144], "dd": [174, 132], "ee": [174, 34]
+};
+function gamutF(n) { return Audio.base * 4 / 9 * MusicaArs.GAMUT_R[n]; }
+function hexLabel(k) {
+  const h = MusicaArs.HEX[k];
+  return `the ${h.kind} hexachord on ${h.on}`;
+}
+function placeName(g) {
+  return g.place + " " + g.syl.map(x => (/♮$/.test(x.form) ? "♮ " : "") + x.syl).join(" ");
+}
+function mountHand(el) {
+  const G = MusicaArs.GAMUT;
+  const head = document.createElement("div");
+  head.className = "whead";
+  head.innerHTML = `<strong>The hand</strong><span class="readout">twenty places, Γ to ee</span>`;
+
+  const fingers = [[70, 122], [122, 92], [174, 74], [226, 94]];
+  const svg = `<svg class="hand-svg" viewBox="0 0 330 360" role="img" aria-label="The Guidonian hand">
+    <rect class="hand-skin" x="40" y="214" width="214" height="134" rx="34"/>
+    ${fingers.map(([x, top]) => `<line class="hand-skin-line" x1="${x}" y1="${top}" x2="${x}" y2="300"/>`).join("")}
+    <line class="hand-skin-line" x1="246" y1="306" x2="296" y2="168"/>
+    <path class="hand-back" d="M174 52 L174 18" />
+    ${G.map(g => {
+      const [x, y] = HAND_AT[g.place];
+      const back = g.place === "ee";
+      return `<g class="hand-place${back ? " back" : ""}" data-p="${g.place}" tabindex="0" role="button" aria-label="${placeName(g)}">
+        <circle cx="${x}" cy="${y}" r="15"/>
+        <text x="${x}" y="${y + 4.5}" text-anchor="middle">${g.place}</text>
+      </g>`;
+    }).join("")}
+  </svg>`;
+  const box = document.createElement("div");
+  box.className = "hand-box";
+  box.innerHTML = svg;
+
+  const read = document.createElement("div");
+  read.className = "hand-read";
+  read.innerHTML = `<p class="hand-name">Tap a place on the hand.</p><div class="playrow hand-syl"></div>`;
+
+  function pick(place) {
+    const g = G.find(x => x.place === place);
+    if (!g) return;
+    box.querySelectorAll(".hand-place").forEach(n => n.classList.toggle("on", n.dataset.p === place));
+    const f = g.forms.map(gamutF);
+    if (f.length === 1) Audio.tone(f[0], 1.1);
+    else Audio.sequence(f, 0.6, 0.6);
+    read.querySelector(".hand-name").innerHTML = `<b>${placeName(g)}</b>` +
+      (g.forms.length > 1 ? ` <span class="readout">(the round b, ${g.forms[0]}, sounded first, then the square b, ${g.forms[1]})</span>` : "");
+    read.querySelector(".hand-syl").innerHTML = g.syl.map((x, i) =>
+      `<button class="pbtn" data-i="${i}">${x.syl}, in ${hexLabel(x.hex)}</button>`).join("");
+    read.querySelector(".hand-syl").onclick = e => {
+      const b = e.target.closest("button");
+      if (!b) return;
+      const x = g.syl[+b.dataset.i];
+      Audio.sequence(MusicaArs.HEX[x.hex].notes.map(gamutF), 0.42, 0.4);
+    };
+  }
+  box.addEventListener("click", e => {
+    const n = e.target.closest(".hand-place");
+    if (n) pick(n.dataset.p);
+  });
+  box.addEventListener("keydown", e => {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    const n = e.target.closest(".hand-place");
+    if (n) { e.preventDefault(); pick(n.dataset.p); }
+  });
+
+  const play = document.createElement("div");
+  play.className = "playrow";
+  play.innerHTML = ["hardG", "natC", "softF"].map((k, i) =>
+    `<button class="pbtn${i === 1 ? " primary" : ""}" data-k="${k}">${hexLabel(k).replace(/^t/, "T")}</button>`).join("");
+  play.addEventListener("click", e => {
+    const k = e.target.dataset.k;
+    if (k) Audio.sequence(MusicaArs.HEX[k].notes.map(gamutF), 0.42, 0.4);
+  });
+
+  const note = document.createElement("p");
+  note.className = "readout";
+  note.style.margin = "10px 0 0";
+  note.textContent = "The places follow the common late-medieval layout; ee lies on the back of the middle finger. The manuscripts differ in small details.";
+  el.append(head, box, read, play, note);
+}
+
+/* ---- the modes: finals, the two ranges, the eight --------------------- */
+const FINAL_FIG = {
+  D: ["D", "E", "F", "E", "D"],
+  E: ["E", "F", "G", "F", "E"],
+  F: ["F", "E", "F", "G", "a", "G", "F"],
+  G: ["G", "a", "b♮", "c", "b♮", "a", "G"]
+};
+const RANGE_EX = [
+  { label: "On D, authentic", seq: ["D", "F", "a", "c", "d", "c", "a", "F", "E", "D"] },
+  { label: "On D, plagal", seq: ["D", "C", "A", "C", "D", "F", "E", "D"] }
+];
+const LETTERS = ["Γ", "A", "B", "C", "D", "E", "F", "G", "a", "b♮", "c", "d", "e", "f", "g"];
+function modeScale(m) {
+  const i = LETTERS.indexOf(m.fin);
+  const lo = m.auth ? i : i - 3;
+  return LETTERS.slice(lo, lo + 8);
+}
+function playLine(seq, gap, hold) {
+  return (async () => {
+    await Audio.unlock();
+    Audio.stopAll();
+    const now = Audio.ctx.currentTime;
+    seq.forEach((n, i) => {
+      const last = i === seq.length - 1;
+      Audio._voice(gamutF(n), last ? 0.54 + (hold || 0) : 0.54, now + i * gap, 0);
+    });
+  })();
+}
+function mountModes(el) {
+  const show = el.dataset.show || "finals";
+  const head = document.createElement("div");
+  head.className = "whead";
+  const play = document.createElement("div");
+  play.className = "playrow";
+  const note = document.createElement("p");
+  note.className = "readout";
+  note.style.margin = "10px 0 0";
+  let lines = [];
+  if (show === "finals") {
+    head.innerHTML = `<strong>The four finals</strong><span class="readout">each with the steps around it</span>`;
+    lines = ["D", "E", "F", "G"].map(f => ({ label: "The final " + f, seq: FINAL_FIG[f] }));
+    note.textContent = "Each figure begins and ends on its final, so that the steps beside the final can be heard.";
+  } else if (show === "ranges") {
+    head.innerHTML = `<strong>Authentic and plagal</strong><span class="readout">two phrases on the same final</span>`;
+    lines = RANGE_EX;
+    note.textContent = "Both phrases end on D. The first rises to d, the diapason above; the second goes down to A, a fourth below.";
+  } else {
+    head.innerHTML = `<strong>The eight modes</strong><span class="readout">each range, from its lowest sound to its highest</span>`;
+    lines = MusicaArs.MODES.map(m => ({ label: `Mode ${m.n} (${m.name})`, seq: modeScale(m) }));
+    note.textContent = "Each range is sounded from its lowest sound to its highest, and then the final alone. The b is sounded square (b♮).";
+  }
+  play.innerHTML = lines.map((l, i) => `<button class="pbtn${i === 0 ? " primary" : ""}" data-i="${i}">${l.label}</button>`).join("");
+  play.addEventListener("click", e => {
+    const b = e.target.closest("button");
+    if (!b) return;
+    const l = lines[+b.dataset.i];
+    if (show === "eight") {
+      const m = MusicaArs.MODES[+b.dataset.i];
+      playLine(l.seq.concat([m.fin]), 0.4, 0.9);
+    } else {
+      playLine(l.seq, 0.46, 1.0);
+    }
+  });
+  el.append(head, play, note);
+}
+
+/* ---- sing it back -----------------------------------------------------
+   A model is sounded; the student sings or hums it; the model is sounded
+   again to check. Nothing listens and nothing is recorded. */
+const SING = {
+  concords: {
+    purpose: "Singing an interval lets us feel the proportion that we have just calculated.",
+    models: [
+      { label: "The diapason, 2:1", f: () => [Audio.base, Audio.base * 2] },
+      { label: "The diapente, 3:2", f: () => [Audio.base, Audio.base * 3 / 2] },
+      { label: "The diatessaron, 4:3", f: () => [Audio.base, Audio.base * 4 / 3] },
+      { label: "The tone, 9:8", f: () => [Audio.base, Audio.base * 9 / 8] }
+    ]
+  },
+  hexachord: {
+    purpose: "Singing the syllables lets us feel the proportions that we have just reckoned, with the semitone between mi and fa.",
+    models: [
+      { label: "ut re mi fa sol la", seq: ["C", "D", "E", "F", "G", "a"] },
+      { label: "la sol fa mi re ut", seq: ["a", "G", "F", "E", "D", "C"] },
+      { label: "re mi fa", seq: ["D", "E", "F"] },
+      { label: "mi fa sol", seq: ["E", "F", "G"] },
+      { label: "fa mi re", seq: ["F", "E", "D"] },
+      { label: "ut mi sol", seq: ["C", "E", "G"] }
+    ]
+  }
+};
+function mountSingback(el) {
+  const set = SING[el.dataset.set] || SING.concords;
+  let cur = 0;
+  const head = document.createElement("div");
+  head.className = "whead";
+  head.innerHTML = `<strong>Sing it back</strong><span class="readout">optional</span>`;
+  const purpose = document.createElement("p");
+  purpose.textContent = set.purpose + " Hear the model, sing or hum it, and then hear it again to check.";
+  const pickRow = document.createElement("div");
+  pickRow.className = "playrow sing-pick";
+  pickRow.innerHTML = set.models.map((m, i) =>
+    `<button class="pbtn${i === 0 ? " on" : ""}" data-i="${i}" aria-pressed="${i === 0}">${m.label}</button>`).join("");
+  const steps = document.createElement("div");
+  steps.className = "playrow";
+  steps.innerHTML = `<button class="pbtn primary" data-a="model">Hear the model</button>
+    <button class="pbtn" data-a="again">Hear it again</button>`;
+  const said = document.createElement("p");
+  said.className = "readout sing-said";
+  said.style.margin = "10px 0 0";
+  said.textContent = "Choose a model above.";
+  function sound() {
+    const m = set.models[cur];
+    if (m.seq) Audio.sequence(m.seq.map(gamutF), 0.6, 0.62);
+    else {
+      const f = m.f();
+      Audio.interval(f[0], f[1], "seq");
+    }
+  }
+  pickRow.addEventListener("click", e => {
+    const b = e.target.closest("button");
+    if (!b) return;
+    cur = +b.dataset.i;
+    pickRow.querySelectorAll("button").forEach(x => {
+      const on = x === b;
+      x.classList.toggle("on", on);
+      x.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+    said.textContent = set.models[cur].label + ".";
+  });
+  steps.addEventListener("click", e => {
+    const a = e.target.dataset.a;
+    if (!a) return;
+    sound();
+    said.textContent = a === "model"
+      ? set.models[cur].label + ". Now sing or hum it, and then hear it again."
+      : set.models[cur].label + ", again. Compare it with what was sung.";
+  });
+  el.append(head, purpose, pickRow, steps, said);
+}
+
 /* ---- study questions --------------------------------------------------
    A programmed set: the questions of one lesson, shuffled afresh on every
    visit, taken one at a time. A wrong choice is answered with the reason
@@ -933,6 +1172,7 @@ function mountDrill(el) {
         <button class="pbtn primary" data-s="run">Sound it</button>
         <button class="pbtn" data-s="run">Again</button>
         ${sound.drone ? `<button class="pbtn" data-s="nodrone">The line without the held sound</button>` : ""}
+        ${(sound.ref || []).map((r, i) => `<button class="pbtn" data-s="ref" data-r="${i}">${r.label}</button>`).join("")}
       </div>`;
     }
     const seq = sound.mode === "seq";
@@ -952,6 +1192,17 @@ function mountDrill(el) {
     await Audio.unlock();
     Audio.stopAll();
     const now = Audio.ctx.currentTime;
+    /* A line of absolute pitches (the gamut, the modes): an optional pause
+       before the last sound, and a longer last sound for a final. */
+    if (s.freqs) {
+      const f = s.freqs, g = s.gap || gap;
+      f.forEach((x, i) => {
+        const last = i === f.length - 1;
+        const t = now + i * g + (last ? (s.pause || 0) : 0);
+        Audio._voice(x, last ? dur + (s.hold || 0) : dur, t, 0);
+      });
+      return;
+    }
     const span = s.voices.length * gap + 0.5;
     if (withDrone && s.drone) {
       if (s.droneShift) {
@@ -995,6 +1246,12 @@ function mountDrill(el) {
       body.querySelector(".drill-sound").addEventListener("click", e => {
         const m = e.target.dataset.s;
         if (!m) return;
+        if (m === "ref") {
+          const r = s.ref[+e.target.dataset.r];
+          if (r.freqs.length === 1) Audio.tone(r.freqs[0], 1.1);
+          else Audio.sequence(r.freqs, 0.5, 0.46);
+          return;
+        }
         if (s.many) { runMany(s, m !== "nodrone"); return; }
         Audio.interval(Audio.base * s.voices[0], Audio.base * s.voices[1], m);
       });
@@ -1046,7 +1303,8 @@ function mountDrill(el) {
       body.querySelector("#drill-go").disabled = true;
     }
     const why = body.querySelector("#drill-why");
-    why.innerHTML = (ok ? "<b class='good'>Rightly.</b> " : `<b class='bad'>Not so.</b> ${want ? "The answer is <b>" + want + "</b>. " : ""}`) + it.why;
+    const whyNot = !ok && btn && it.whyNot ? it.whyNot[+btn.dataset.orig] : "";
+    why.innerHTML = (ok ? "<b class='good'>Rightly.</b> " : `<b class='bad'>Not so.</b> ${want ? "The answer is <b>" + want + "</b>. " : ""}${whyNot ? whyNot + " " : ""}`) + it.why;
     why.classList.add("show");
     body.querySelector(".drill-next").style.display = "flex";
     /* Focus the Next button only after the keystroke that answered has fully
