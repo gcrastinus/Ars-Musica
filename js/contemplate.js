@@ -123,7 +123,7 @@ MusicaArs.THEMES = {
 },
 
 "c-soul": {
-  honesty: "Boethius states the union of soul and body; he does not prove what a soul is. That the soul is the form of the body is St. Thomas’s teaching, at <span class=\"latin\">ST</span> I q.76. Health as a tempered mixture belongs to natural philosophy and to medicine; so this art can show the image, but it cannot establish the doctrine.",
+  honesty: "Boethius states the union of soul and body; he does not prove what a soul is. That the soul is the form of the body is Saint Thomas’s teaching, at <span class=\"latin\">ST</span> I q.76. Health as a tempered mixture belongs to natural philosophy and to medicine. Music states the image and does not establish the doctrine, because the demonstration belongs to those sciences.",
   first: { passages: [{
     cite: "Boethius, <span class=\"latin\">De institutione musica</span> I.2",
     latin: "Humanam vero musicam quisquis in sese ipsum descendit intellegit. Quid est enim quod illam incorpoream rationis vivacitatem corpori misceat, nisi quaedam coaptatio et veluti gravium leviumque vocum quasi unam consonantiam efficiens temperatio? Quid est autem aliud quod ipsius inter se partes animae coniungat, quae, ut Aristoteli placet, ex rationabili irrationabilique coniuncta est? Quid vero quod corporis elementa permisceat aut partes sibimet rata coaptatione contineat?",
@@ -155,7 +155,7 @@ MusicaArs.THEMES = {
 },
 
 "c-virtue": {
-  honesty: "That virtue is a mean, and that the soul has parts which can be in or out of tune, is not proved on a monochord. It is established in Aristotle’s <em>Nicomachean Ethics</em> II, and in St. Thomas at <span class=\"latin\">ST</span> I–II, especially q.55 and q.64. This course can make the image credible, but it cannot teach the ethics.",
+  honesty: "That virtue is a mean, and that the soul has parts which can be in or out of tune, is not proved on a monochord. It is established in Aristotle’s <em>Nicomachean Ethics</em> II, and in Saint Thomas at <span class=\"latin\">ST</span> I–II, especially q.55 and q.64. Music states the image. The demonstration belongs to ethics.",
   first: { passages: [{
     cite: "Plato, <em>Republic</em> IV, 443c–e (tr. Jowett)",
     english: "But in reality justice was such as we were describing, being concerned however, not with the outward man, but with the inward, which is the true self and concernment of man: for the just man does not permit the several elements within him to interfere with one another, or any of them to do the work of others, — he sets in order his own inner life, and is his own master and his own law, and at peace with himself; and when he has bound together the three principles within him, which may be compared to the higher, lower, and middle notes of the scale, and the intermediate intervals — when he has bound all these together, and is no longer many, but has become one entirely temperate and perfectly adjusted nature, then he proceeds to act, if he has to act, whether in a matter of property, or in the treatment of the body, or in some affair of politics or private business; always thinking and calling that which preserves and co-operates with this harmonious condition, just and good action, and the knowledge which presides over it, wisdom, and that which at any time impairs this condition, he will call unjust action, and the opinion which presides over it ignorance."
@@ -186,7 +186,8 @@ MusicaArs.THEMES = {
 },
 
 "c-ethos": {
-  honesty: "That melody moves character is a claim of ethics and politics, not of harmonics. Aristotle treats it in <em>Politics</em> VIII; Plato in <em>Republic</em> III; St. Thomas when he asks whether God should be praised with song, at <span class=\"latin\">ST</span> II–II q.91. This course reports the claim, but it does not legislate.",
+  lead: "Music here can state what has been discovered for applications of music in other arts and sciences, but in those cases music theory itself is primarily stating the application, not proving that it is true, since the demonstrations belong properly to the other sciences. Just as in arithmetic we might state some of the science’s applications to geometry without proving them in detail, so too in music we might state some of the applications of music to ethics, politics, or even cosmology, but without proving them as conclusions.",
+  honesty: "That melody moves character is an application of music to ethics and politics. Aristotle treats it in <em>Politics</em> VIII; Plato in <em>Republic</em> III; Saint Thomas when he asks whether God should be praised with song, at <span class=\"latin\">ST</span> II–II q.91. Music states that application and does not prove it, because the demonstration belongs to ethics and politics.",
   first: { passages: [{
     cite: "Aristotle, <em>Politics</em> VIII.5 (tr. Jowett)",
     english: "Even in mere melodies there is an imitation of character, for the musical modes differ essentially from one another, and those who hear them are differently affected by each. Some of them make men sad and grave, like the so-called Mixolydian, others enfeeble the mind, like the relaxed modes, another, again, produces a moderate and settled temper, which appears to be the peculiar effect of the Dorian; the Phrygian inspires enthusiasm. \ldots The whole of music is of the nature of an imitation, and the different kinds of melody and rhythm are clearly imitations of different kinds of character."
@@ -200,7 +201,7 @@ MusicaArs.THEMES = {
       }]
     },
     {
-      recast: "Plato is legislating for a city, and Aristotle is describing what the modes do and then asking what a city should use; neither is doing harmonics. So the ratios of the Dorian tetrachord do not prove that Dorian settles the soul, because that is a claim of ethics, tested in the hearing of men and judged by prudence.",
+      recast: "Plato is making laws for a city, and Aristotle is describing what the modes do and then asking what a city should use; neither demonstration belongs to harmonics. Music states the application. The ratios of the Dorian tetrachord do not prove that Dorian settles the soul, because that demonstration belongs to ethics, and it is tested in the hearing of men and judged by prudence.",
       passages: [{
         cite: "Aristotle, <em>Politics</em> VIII.7 (tr. Jowett)",
         english: "We accept the classification of melodies made by some philosophers into ethical, practical, and enthusiastic, each having a nature of its own. \ldots Those which are ethical are to be preferred for education; the others may be used for listening to when others perform."
@@ -415,6 +416,7 @@ MusicaArs.renderContemplation = function (el, id) {
   const rec = recOf(id);
   const stage = availableStage(theme, rec);
   let html = `<div class="contemplation">`;
+  if (theme.lead) html += `<p class="cont-lead">${theme.lead}</p>`;
   (theme.first.passages || []).forEach(p => { html += passageHTML(p); });
   for (let i = 0; i < stage; i++) {
     const r = theme.returns[i];

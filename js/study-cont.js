@@ -114,7 +114,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "The judge, in this passage, weighs more than intervals. What else?", a: 3, o: [
     ["Only the concord of 2:1", "The list is wider than the first concord."],
-    ["The character of the hearer, as a lawgiver would", "That belongs to ethics and politics, which is another theme; Boethius is naming the scope of the science."],
+    ["The character of the hearer, as a lawgiver would", "That application belongs to ethics and politics. Music may state it, and the demonstration belongs to those sciences. Boethius here is naming the scope of harmonics."],
     ["The tension of the string in pounds", "Tension belongs to natural philosophy. He names modes, rhythms, genera, mixings, and the songs of the poets."],
     ["Rhythms, melodies, genera, mixings, and the songs of the poets", "The science is of numbered sound in all the ways it is ordered, not of one interval only."]
   ]},
@@ -170,7 +170,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["A sort of reason, in St. Thomas’s phrase", "That phrase belongs to the treatment of beauty, another theme. Ptolemy is pairing hearing with matter."]
   ]},
   { q: "What does the faculty of harmonics grasp, and with what?", a: 3, o: [
-    ["The characters of the modes, by custom", "Ethos is another claim. Ptolemy is speaking of high and low."],
+    ["The characters of the modes, by custom", "The characters of the modes are an application music may state, and the demonstration belongs to ethics. Ptolemy here is speaking of high and low."],
     ["Only the first three concords, by authority", "The faculty grasps the differences of sounds in respect of high and low, and it uses both criteria."],
     ["The music of the spheres, by reason alone", "These pages do not climb through the spheres."],
     ["The differences of sounds in respect of high and low, using both hearing and reason", "That is the last sentence of the passage."]
@@ -269,7 +269,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Three rival theories, of which you must pick one", "He is showing the same order in three places, not staging a dispute."],
     ["Three kinds of musician", "That was the other theme from Boethius; this one is I.2, on human music."],
     ["Three concords: 2:1, 3:2, 4:3", "The concords are the image, not the list. The list is soul-body, parts of the soul, elements of the body."],
-    ["One analogy in three places: soul to body, parts of the soul, elements of the body", "Each is a measured fitting. The string can show the image, but it does not prove the doctrine."]
+    ["One analogy in three places: soul to body, parts of the soul, elements of the body", "Each is a measured fitting. Music states the image and does not prove the doctrine."]
   ]},
   { q: "Boethius says the soul, as Aristotle holds, is composed of what?", a: 0, o: [
     ["The rational and the irrational", "And what joins those parts, he asks, if not a fitting like that of low and high?"],
@@ -280,7 +280,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Whose teaching does this theme say it is that the soul is the form of the body?", a: 2, o: [
     ["Boethius’s, demonstrated from the monochord", "Boethius states the union of soul and body; he does not prove what a soul is."],
     ["Pythagoras’s, because the soul is a harmony", "Aristotle denies that the soul <em>is</em> a harmony, because a harmony is a proportion of mixed parts, and the soul is not the mixture but its cause."],
-    ["St. Thomas’s, at <span class=\"latin\">ST</span> I q.76", "This art can show the image, but it cannot establish the doctrine."],
+    ["St. Thomas’s, at <span class=\"latin\">ST</span> I q.76", "Saint Thomas teaches it, at I q.76. Music states the image and does not establish the doctrine, because the demonstration belongs to the science of the soul."],
     ["Augustine’s, from the judging numbers", "Augustine is another theme. The soul as form is the Aristotelian teaching as St. Thomas receives it."]
   ]},
   { q: "Where does this theme say health as a tempered mixture belongs?", a: 1, o: [
@@ -305,13 +305,13 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["It can establish what a soul is, and need show no image", "Boethius states the union of soul and body; he does not prove what a soul is."],
     ["It can show nothing; the analogy is empty", "The theme does not call the analogy empty; it calls it an image."],
     ["It can prove health as a concord of 3:2", "Health as a tempered mixture belongs to natural philosophy and to medicine."],
-    ["It can show the image, but it cannot establish the doctrine", "The doctrine is taught by St. Thomas at I q.76, and by Aristotle before him."]
+    ["It states the image and does not establish it", "The doctrine is taught by Saint Thomas at I q.76, and by Aristotle before him. Music states the image, and the demonstration belongs to those sciences."]
   ]},
   { q: "The third question is about the body. What does it ask?", a: 1, o: [
     ["Whether the body is a soul", "The body is what is mixed and held together. The soul is not being reduced to it here."],
     ["What mixes the elements of the body, or holds the parts together by a measured fitting", "This is the same analogia as soul to body and as the parts of the soul to one another."],
     ["How many pounds a string must be stretched", "Tension is a physical quantity. This question is about the body’s own order."],
-    ["Which mode heals which humor", "Ethos and medicine are being kept apart from this analogia."]
+    ["Which mode heals which humor", "That would be an application to medicine, which music may state and does not prove. The third question is not about a cure."]
   ]},
   { q: "Why must the reader descend into himself to understand this music?", a: 2, o: [
     ["Because it is inaudible, unlike instrumental music", "It is understood by analogy with what is heard, not by a second set of ears."],
@@ -326,7 +326,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The outward man, and the city’s laws first of all", "He says in reality it was not with the outward man, but with the inward, which is the true self."],
     ["A fair division of goods", "Goods come later, when the just man proceeds to act. The thing itself is an inner order."],
     ["The inward man: the several elements within him not interfering, bound as the notes of a scale are bound", "He binds them so that he is no longer many, but one entirely temperate and perfectly adjusted nature."],
-    ["The matching of a soul’s temperament to a musical mode", "Modes and ethos are another theme. Here the scale is used to name the inner attunement itself."]
+    ["The matching of a soul’s temperament to a musical mode", "Matching a temperament to a mode is an application to ethics. Music may state it, and the demonstration belongs to ethics. Here the scale names the inner attunement itself."]
   ]},
   { q: "What happens, in this passage, when the three principles have been bound together?", a: 0, o: [
     ["He proceeds to act, and calls just whatever preserves that condition", "Action comes after the attunement, and is measured by it."],
@@ -336,9 +336,9 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Can the monochord prove that virtue is a mean, and that the soul has parts which can be in or out of tune?", a: 3, o: [
     ["Yes: 3:2 is the mean, and that is virtue", "A mean of virtue is not an interval. St. Thomas says the mean of moral virtue is the mean of reason, not the mean of the thing."],
-    ["Yes, if you also sing the Dorian", "Ethos of the modes is another claim, and another theme."],
-    ["No, because virtue is only a metaphor borrowed from music", "The theme does not reduce the ethics to a metaphor; it says the demonstration is not here."],
-    ["No. This course can make the image credible, but it cannot teach the ethics", "The image can be seen here; the ethics is in Aristotle’s <em>Ethics</em> II and in St. Thomas at I–II."]
+    ["Yes, if the Dorian is sung as well", "The ethos of the Dorian is an application to character. Music may state it, and the demonstration belongs to ethics. It is not a proof that virtue is a mean."],
+    ["No, because virtue is only a metaphor borrowed from music", "The theme does not reduce the ethics to a metaphor. It states the image, and the demonstration is not here."],
+    ["No. The image is stated here; the proof is in ethics", "The image can be seen here; the ethics is in Aristotle’s <em>Ethics</em> II and in Saint Thomas at I–II."]
   ]},
   { q: "Plato compares the three principles within a man to what?", a: 1, o: [
     ["Three instruments playing at once", "He names not instruments but notes of a scale, and the intervals between them."],
@@ -350,7 +350,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Boethius I.34", "That theme concerns who the musician is, and it does not establish the ethics."],
     ["The palaestra, once every block is possessed", "The palaestra trains the judgment of intervals; it does not demonstrate a moral mean."],
     ["Aristotle’s <em>Nicomachean Ethics</em> II, and St. Thomas at <span class=\"latin\">ST</span> I–II, especially q.55 and q.64", "The image is here, but the ethics is treated in those books."],
-    ["<em>Republic</em> III, on which modes to keep", "That is ethos, the next theme."]
+    ["<em>Republic</em> III, on which modes to keep", "<em>Republic</em> III states an application of music to which modes a city keeps. The demonstration that virtue is a mean belongs to ethics, and it is not given in that passage."]
   ]},
   { q: "The just man, in this passage, does not permit the several elements within him to do what?", a: 0, o: [
     ["Interfere with one another, or any of them to do the work of others", "He sets in order his own inner life, and is his own master and his own law."],
@@ -372,7 +372,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Unjust action, in this passage, is named by what mark?", a: 2, o: [
     ["That it breaks a written law", "He is his own law here. The mark is inner."],
-    ["That it uses the wrong mode", "Modes are the next theme."],
+    ["That it uses the wrong mode", "A wrong mode would be an application to character, which music may state. The mark in this passage is whether the act impairs the harmonious condition."],
     ["That it impairs the harmonious condition; and the opinion which presides over it, ignorance", "Just and good action is that which preserves and co-operates with the condition."],
     ["That it fails to please the ear", "Pleasure of the ear is the subject of another theme. This passage is about the inward man."]
   ]},
@@ -398,16 +398,16 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The Dorian", "The peculiar effect of the Dorian, he says, is a moderate and settled temper."]
   ]},
   { q: "Whose claim is this, as to the kind of science?", a: 1, o: [
-    ["Harmonics: the modes are ratios, and the ratios move the soul by demonstration", "Melody moving character is a claim of ethics and politics, not of harmonics."],
-    ["Ethics and politics: Aristotle in <em>Politics</em> VIII, Plato in <em>Republic</em> III; St. Thomas when he asks whether God should be praised with song", "This course reports the claim, but it does not legislate."],
-    ["Medicine: the modes rebalance the humors", "Health as mixture belongs with human music, another theme. This passage is about character."],
+    ["Harmonics: the modes are ratios, and the ratios move the soul by demonstration", "Melody moving character is an application to ethics and politics. Music states it, and the demonstration does not belong to harmonics."],
+    ["Ethics and politics: Aristotle in <em>Politics</em> VIII, Plato in <em>Republic</em> III; Saint Thomas when he asks whether God should be praised with song", "Music states that application and does not prove it, because the demonstration belongs to ethics and politics."],
+    ["Medicine: the modes rebalance the humors", "Rebalancing the humors is an application to medicine. Music may state it, and the demonstration belongs to natural philosophy and to medicine. This passage is about character."],
     ["Poetics only: imitation is a fact about plays, not about songs without words", "He says even in mere melodies there is an imitation of character. The word ‘even’ matters."]
   ]},
   { q: "What will this course not do with the claim that melody moves character?", a: 2, o: [
-    ["Report it", "It does report it. Aristotle, Plato, and St. Thomas are named."],
-    ["Say which books treat it", "They are <em>Politics</em> VIII, <em>Republic</em> III, and <span class=\"latin\">ST</span> II–II q.91."],
-    ["Legislate: tell you what to sing, or what a city should forbid", "Prudence looks to the end; harmonics says what is being heard."],
-    ["Admit that St. Thomas took the fact seriously", "It names him on song in the divine praises. Taking the fact seriously is not the same as writing a law."]
+    ["State the application", "It does state the application. Aristotle, Plato, and Saint Thomas are named, and the demonstration is left to their sciences."],
+    ["Name the books in which it is treated", "They are <em>Politics</em> VIII, <em>Republic</em> III, and <span class=\"latin\">ST</span> II–II q.91."],
+    ["Neither prove it nor prescribe it", "Music states the application. The demonstration belongs to ethics and politics, and prudence judges the use."],
+    ["Grant that the fact was taken seriously", "It names Saint Thomas on song in the divine praises. Taking the fact seriously is not the same as proving the application."]
   ]},
   { q: "‘The whole of music is of the nature of an imitation.’ What follows, in Aristotle’s mouth here?", a: 0, o: [
     ["Different kinds of melody and rhythm are imitations of different kinds of character", "A choice of melody is already a choice about character, whether anyone meant it as one or not."],
@@ -431,7 +431,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Enfeeble the mind", "They are named beside the Mixolydian, the Dorian, and the Phrygian, each with its own effect."],
     ["Settle the temper", "That is said of the Dorian."],
     ["Prove that 4:3 is not a concord", "No ratio is under trial here."],
-    ["Belong to harmonics as first principles", "The effects are a claim of ethics. First principles of this art are ratios."]
+    ["Belong to harmonics as first principles", "The effects are an application to ethics, which music states and does not prove. The first principles of this art are ratios."]
   ]},
   { q: "Why does ‘even in mere melodies’ matter?", a: 2, o: [
     ["Because without words there is no imitation", "He is saying the opposite: even without words, melody already imitates character."],
@@ -464,7 +464,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Whether the light by which we judge is an illumination from without, or the agent intellect as a created participation", "That is disputed: <span class=\"latin\">ST</span> I q.79 a.4; q.84 a.5. The theme names the dispute so as not to hide it."],
     ["Whether the judging numbers are in the sounding body", "Augustine takes them out of the body, and out of time and place. That is his step, and the fact underneath it is wider."],
     ["The fact the ascent starts from: in judging a proportion we use a measure we did not make", "Neither doctor treats the measure as our invention."],
-    ["Whether music should be used in the divine praises", "That question is St. Thomas at II–II q.91, another theme."]
+    ["Whether music should be used in the divine praises", "Whether music should be used in the divine praises is an application to ethics. Music may state it, and the demonstration belongs to ethics. It is not the dispute between Augustine and Saint Thomas on this theme."]
   ]},
   { q: "Where does this theme say Augustine’s sixth book stands, relative to this course?", a: 0, o: [
     ["It is the place, and this theme cannot replace it", "The names are given here so that the reader can go there."],
@@ -498,7 +498,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "When does Augustine say we should call numbers judging?", a: 3, o: [
     ["When they are written down", "Writing is not in the list."],
-    ["When they please the city", "Ethos is another theme. Judging here is of motions that offend or delight."],
+    ["When they please the city", "Pleasing the city is an application to politics. Music may state it, and the demonstration belongs to politics. Judging here is of motions that offend or delight."],
     ["When they are the ratios 2:1, 3:2, and 4:3 only", "The judging numbers are the standard by which such ratios are judged, not the ratios themselves."],
     ["When something offends us or delights us in motions, in the natural judgement of sensing", "These are the last of the five names, and first in dignity."]
   ]},
