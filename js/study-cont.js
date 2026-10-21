@@ -447,6 +447,69 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]}
 ],
 
+"c-city": [
+  { q: "Why does music bear on the life of a city at all, on St. Thomas’s account?", a: 1, o: [
+    ["Because the ratios of the concords are the ratios of a well-ordered state", "That is the comparison of Bodin and Kepler, which the theme measures and does not adopt. St. Thomas starts from a fact about the soul of the hearer."],
+    ["Because melodies dispose the soul in different ways, and many citizens hear the same songs", "The fact is stated at II–II q.91 a.2, and common hearing carries it into common life."],
+    ["Because harmonics is a part of political science, as bookkeeping is a part of commerce", "Harmonics is a middle science of sound. Music states its application to politics, and the demonstration belongs to political philosophy."],
+    ["Because the law of the city fixes which ratios count as concords", "No law fixes a ratio. A city may order the use of music, but not its nature."]
+  ]},
+  { q: "To what end does St. Thomas say a law is directed?", a: 2, o: [
+    ["The pleasure of the greatest number of citizens", "Pleasure is among the things law moderates; laws were needed to withdraw men from undue pleasures."],
+    ["The preservation of whatever customs a city has inherited", "Custom is not named as the end of law, and a custom that did not serve that end could rightly be changed."],
+    ["The common good", "A law is directed to the common good (I–II q.90 a.2), so a city may order music only so far as it serves that good."],
+    ["The private advantage of the ruler who makes the law", "A rule made for the ruler’s own advantage is the mark of a tyrant, and law looks to the good of the whole community."]
+  ]},
+  { q: "Why, according to the text quoted from I–II q.95 a.1, is the training of law especially needed by the young?", a: 0, o: [
+    ["Because they are most inclined to undue pleasures and most capable of being trained", "The perfection of virtue consists chiefly in withdrawing a man from undue pleasures, and the young are both the most inclined and the most teachable."],
+    ["Because they cannot hear the difference between the concords until a law teaches it to them", "Hearing a concord needs no law. The text concerns pleasures and the training of virtue."],
+    ["Because they have no passions yet, and law must supply the passions they lack", "The text says the opposite: the young are the most inclined to pleasures."],
+    ["Because music is a servile art, and law must keep the young away from servile arts", "The text does not concern the arts at all, but pleasure and the training of virtue."]
+  ]},
+  { q: "Who wrote the commentary on the eighth book of Aristotle’s <em>Politics</em> that this theme cites?", a: 1, o: [
+    ["St. Thomas, at the end of his own commentary", "His commentary ends in the third book, and the rest is not his."],
+    ["Peter of Auvergne, the Paris master who completed St. Thomas’s commentary", "So what is said of Book VIII is cited under Peter’s name, although it is printed with St. Thomas’s works."],
+    ["Boethius, in the prologue of <span class=\"latin\">De institutione musica</span>, where he treats music and character", "St. Thomas cites Boethius for the fact that melodies move the soul, but Boethius wrote no commentary on the <em>Politics</em>."],
+    ["Johannes de Grocheio, in the part of his <span class=\"latin\">Ars musice</span> on the music of the city", "Grocheio is a later witness to the use of music in the city, and he did not comment on Aristotle."]
+  ]},
+  { q: "By what does Peter of Auvergne say everything taught to the young must be measured?", a: 3, o: [
+    ["By what the young themselves find most delightful", "He grants delight as one of the ends of music, but in education he subordinates it to another end."],
+    ["By the number of instruments a citizen can master", "He would keep the young from laborious and showy instruments, not multiply them."],
+    ["By the judgment of the most skilled performers in the city", "Skill in performing is not his measure, and Boethius’s musician is the judge, not the performer."],
+    ["By what is useful to the end of the commonwealth", "So music is taught to the young only so far as it serves that end."]
+  ]},
+  { q: "Why, on Peter of Auvergne’s account, are some instruments kept out of the education of the young?", a: 2, o: [
+    ["Because they cannot sound the concords 2:1, 3:2, and 4:3", "Such instruments sound the concords well enough. The objection concerns their effect on the hearer, not their intervals."],
+    ["Because the Church had forbidden them before Aristotle wrote", "Aristotle wrote centuries before the Church. St. Thomas takes the rule from Aristotle, not the reverse."],
+    ["Because they excite the passions beyond measure, and so suit other occasions, such as war", "Their effect is not to dispose to good character, so they are kept for occasions where that excitement has a use."],
+    ["Because only stringed instruments can be measured on a monochord", "The monochord is an instrument of measurement, and the reason given here is moral, not mathematical."]
+  ]},
+  { q: "What does St. Thomas say in the <span class=\"latin\">De regno</span> about pleasure in a city?", a: 1, o: [
+    ["That a city should admit none at all, since every pleasure, however small, corrupts the judgment of prudence in the one who feels it", "He warns against superfluous pleasures, but he says some pleasure is fitting, as a seasoning, so that minds may be refreshed."],
+    ["That some is needed for refreshment, but superfluous pleasures dull the senses and corrupt prudence", "So a ruler provides for the first and guards against the second."],
+    ["That pleasure is a private matter, on which a ruler has nothing to say", "He speaks of it precisely as a matter for the one who founds and rules a city."],
+    ["That the more pleasant a city is, the more surely its citizens will be virtuous", "He grants that pleasantness keeps a city inhabited, but he says that too much of it does the city great harm."]
+  ]},
+  { q: "Grocheio says that the epic song helps working citizens bear their hardships and return to their work. How does St. Thomas’s teaching measure that use?", a: 0, o: [
+    ["It grants the fact, but it does not make usefulness to work the whole measure of a song, since recreation has a virtue of its own", "Play is ordered to the rest of the soul and kept within the rule of reason (II–II q.168 a.2), not only to the next day’s labor."],
+    ["It condemns the use, since any song sung outside worship puts delight in place of the thing sung, as Augustine confessed of himself", "Augustine’s confession concerns singing in church, and St. Thomas gives play and recreation a virtue of their own."],
+    ["It adopts the use as the whole measure, so that a song is good exactly as far as it gets the city’s work done", "Recreation is ordered to the rest of the soul under the rule of reason, and work is not its only end."],
+    ["It sets the use aside as a matter for the history of music, on which moral philosophy has nothing to say", "The theme measures the use, because recreation belongs to the moral life."]
+  ]},
+  { q: "How does St. Thomas’s teaching judge Bodin’s harmonic justice?", a: 3, o: [
+    ["It adopts it as a third kind of justice, demonstrated from the harmonic mean, which a ruler may compute before he gives judgment in any case", "St. Thomas names no third justice, and no ratio demonstrates the virtues of a ruler."],
+    ["It rejects the two proportions as well, holding that justice has nothing to do with proportion of any kind, since justice is in the will alone", "He receives both proportions from Aristotle at II–II q.61 a.2, geometrical in distribution and arithmetical in exchange."],
+    ["It leaves the question to Kepler, whose correction of Bodin’s mathematics settles which form of government is best", "Kepler corrected the arithmetic. Which form of government is best is not a question that harmonics settles."],
+    ["It keeps the geometrical and arithmetical proportions, and gives the regard for circumstances to equity and to prudence", "Equity sets aside the letter of a law where following it would injure the common good (II–II q.120 a.1), and no ratio demonstrates it."]
+  ]},
+  { q: "What is the standing, in this course, of the applications of music to politics stated here?", a: 2, o: [
+    ["Harmonics demonstrates them from the ratios, as it demonstrates that the fifth is 3:2", "The ratios of a string are not premises of political philosophy."],
+    ["They are opinions of Plato and Aristotle that St. Thomas set aside", "St. Thomas receives Aristotle on music in the city and measures it, and he does not set it aside."],
+    ["Music states them, and their demonstration belongs to political philosophy", "That is the principle the theme keeps throughout, as the theme on the ethos of the modes keeps it for ethics."],
+    ["They belong to the history of music, and have no bearing on how a city should act", "The theme argues what a city may rightly ask of music, and that is not only history."]
+  ]}
+],
+
 "c-ascent": [
   { q: "Augustine names five kinds of numbers in sounding. Which are the judging numbers?", a: 3, o: [
     ["The ones in the sounding body itself", "Those he calls sounding numbers (<span class=\"latin\">sonantes</span>)."],

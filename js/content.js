@@ -1548,9 +1548,18 @@ MusicaArs.LESSONS = [
   html: ``
 },
 {
-  id: "c-ascent",
+  id: "c-city",
   ch: "cont",
   n: "C7",
+  kicker: "Contemplation",
+  contemplate: "c-city",
+  title: "Music and the city",
+  html: ``
+},
+{
+  id: "c-ascent",
+  ch: "cont",
+  n: "C8",
   kicker: "Contemplation",
   contemplate: "c-ascent",
   title: "The judging numbers",
@@ -1559,7 +1568,7 @@ MusicaArs.LESSONS = [
 {
   id: "c-intact",
   ch: "cont",
-  n: "C8",
+  n: "C9",
   kicker: "Contemplation",
   contemplate: "c-intact",
   title: "The art still stands",
