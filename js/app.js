@@ -156,6 +156,7 @@ function searchText(l) {
   const th = l.contemplate && MusicaArs.THEMES && MusicaArs.THEMES[l.contemplate];
   if (th) {
     const take = p => (p.cite || "") + " " + (p.latin || "") + " " + (p.english || "");
+    s += " " + [].concat(th.lead || []).join(" ");
     (th.first && th.first.passages || []).forEach(p => { s += " " + take(p); });
     (th.returns || []).forEach(r => {
       if (!r) return;

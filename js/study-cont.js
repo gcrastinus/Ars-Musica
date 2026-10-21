@@ -335,7 +335,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["He has finished ethics, and may return to harmonics", "The image came from the scale. The thing named is not a theorem of this art."]
   ]},
   { q: "Can the monochord prove that virtue is a mean, and that the soul has parts which can be in or out of tune?", a: 3, o: [
-    ["Yes: 3:2 is the mean, and that is virtue", "A mean of virtue is not an interval. St. Thomas says the mean of moral virtue is the mean of reason, not the mean of the thing."],
+    ["Yes: 3:2 is the mean, and that is virtue", "A mean of virtue is not an interval. St. Thomas says every mean of moral virtue is the mean which reason puts into the matter."],
     ["Yes, if the Dorian is sung as well", "The ethos of the Dorian is an application to character. Music may state it, and the demonstration belongs to ethics. It is not a proof that virtue is a mean."],
     ["No, because virtue is only a metaphor borrowed from music", "The theme does not reduce the ethics to a metaphor. It states the image, and the demonstration is not here."],
     ["No. The image is stated here; the proof is in ethics", "The image can be seen here; the ethics is in Aristotle’s <em>Ethics</em> II and in St. Thomas at I–II."]

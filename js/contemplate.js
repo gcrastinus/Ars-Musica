@@ -39,18 +39,18 @@ MusicaArs.THEMES = {
       recast: "Boethius divides by whether the cause is possessed. Those who play, and those carried to song by instinct, have a work; the third kind judges, and judging is placed in reason.",
       passages: [{
         cite: "Aristotle, <em>Metaphysics</em> I.1",
-        english: "Art arises when from many notions gained by experience one universal judgement about a class of objects is produced. \ldots We think that knowledge and understanding belong to art rather than to experience, and we suppose artists to be wiser than men of experience \ldots because the former know the cause, but the latter do not."
+        english: "Art arises when from many notions gained by experience one universal judgement about a class of objects is produced. … We think that knowledge and understanding belong to art rather than to experience, and we suppose artists to be wiser than men of experience … because the former know the cause, but the latter do not."
       }]
     },
     {
       recast: "Instinct is not speculation; and St. Thomas’s definition of art (right reason of things to be made) puts the habit in the reason, even when the making is done by the hands.",
       passages: [{
         cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> I–II q.57 a.3",
-        english: "Art is nothing other than right reason about certain works to be made. And yet the habit of art is in the reason; the making that follows is the work of the other powers as they are moved by reason."
+        english: "Art is nothing else but ‘the right reason about certain works to be made.’ And yet the good of these things depends, not on man’s appetitive faculty being affected in this or that way, but on the goodness of the work done. … Art, therefore, properly speaking, is an operative habit."
       }]
     },
     {
-      recast: "The liberal arts are those ordered to knowing, but playing and composing are ordered to a work produced; that is why Boethius assigns music properly to the one who judges.",
+      recast: "The liberal arts are those ordered to knowing, but playing and composing are ordered to a work produced; that is why Boethius assigns music properly to the one who judges. Boethius says nothing here of character, but Peter of Auvergne, completing St. Thomas’s commentary on the <em>Politics</em>, joins the two: to judge the ratios of the tones rightly, and to take delight in them rightly, is a kind of exercise toward virtue, so the judge Boethius describes is also being formed in his passions.",
       passages: [{
         cite: "St. Thomas Aquinas, <span class=\"latin\">Super Boethium De Trinitate</span> q.5 a.1 ad 3",
         english: "Those arts alone are called liberal which are ordered to knowing; those which are ordered to some usefulness to be had through action are called mechanical, or servile."
@@ -84,7 +84,8 @@ MusicaArs.THEMES = {
       recast: "Stated as the marks of a science, the two criteria amount to a natural subject and mathematical middle terms, and St. Thomas calls such a science a middle science. Ptolemy described the method, but the name is later.",
       passages: [{
         cite: "St. Thomas Aquinas, <span class=\"latin\">Super Boethium De Trinitate</span> q.5 a.3 ad 6",
-        english: "The middle sciences apply mathematical principles to natural things: as music applies them to sound, and astronomy to the heavens. They have a natural subject, and they demonstrate through mathematical middle terms."
+        latin: "Quaedam vero sunt mediae, quae principia mathematica ad res naturales applicant, ut musica, astrologia et huiusmodi. … Sicut musica considerat sonos, non in quantum sunt soni, sed in quantum sunt secundum numeros proportionabiles, et similiter est in aliis. Et propter hoc demonstrant conclusiones suas circa res naturales, sed per media mathematica.",
+        english: "But some are middle sciences, which apply mathematical principles to natural things, as music, astronomy, and the like. … So music considers sounds, not inasmuch as they are sounds, but inasmuch as they are proportionable according to numbers, and similarly in the others. And for this reason they demonstrate their conclusions about natural things, but through mathematical middle terms."
       }]
     }
   ]
@@ -94,22 +95,22 @@ MusicaArs.THEMES = {
   honesty: "That simple ratios please is a fact we can hear on a string, but why the world is such that they please is not a theorem of this art; and the question is asked honestly only after we know the fact for ourselves. Plato asks it in <em>Republic</em> VII; St. Thomas treats the beautiful as due proportion at <span class=\"latin\">ST</span> I q.5 a.4.",
   first: { passages: [{
     cite: "Boethius, <span class=\"latin\">De institutione musica</span> I.8 and I.9",
-    latin: "Consonantia est acuti soni gravisque mixtura suaviter uniformiterque auribus accidens. \ldots Non omne iudicium dandum esse sensibus, sed amplius rationi esse credendum, quae nisi iudex quodammodo praeesset erranti, omnis extra rectitudinem sensus praecipitaretur. Nam ipse sensus aeque ac ratio confusus est, nisi ei ratio quasi paedagogus quidam assistat.",
-    english: "Concord is the mixture of a high sound and a low, falling on the ears sweetly and as one. \ldots Not every judgement is to be given to the senses, but more is to be trusted to reason; and unless reason stood over the erring sense as a kind of judge, the whole of sense would be carried outside what is right. For sense itself is confused, no less than reason would be, unless reason stood by it as a tutor."
+    latin: "Consonantia est acuti soni gravisque mixtura suaviter uniformiterque auribus accidens. … Non omne iudicium dandum esse sensibus, sed amplius rationi esse credendum, quae nisi iudex quodammodo praeesset erranti, omnis extra rectitudinem sensus praecipitaretur. Nam ipse sensus aeque ac ratio confusus est, nisi ei ratio quasi paedagogus quidam assistat.",
+    english: "Concord is the mixture of a high sound and a low, falling on the ears sweetly and as one. … Not every judgement is to be given to the senses, but more is to be trusted to reason; and unless reason stood over the erring sense as a kind of judge, the whole of sense would be carried outside what is right. For sense itself is confused, no less than reason would be, unless reason stood by it as a tutor."
   }]},
   returns: [
     {
       recast: "Boethius’s definition already says the mixture falls on the ears as one. St. Thomas lists due proportion (which he also calls <span class=\"latin\">consonantia</span>) among the conditions of beauty.",
       passages: [{
         cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> I q.39 a.8",
-        english: "For beauty includes three conditions: integrity or perfection, since those things which are impaired are by the very fact ugly; due proportion or harmony (<span class=\"latin\">consonantia</span>); and lastly brightness, or clarity."
+        english: "For beauty includes three conditions, ‘integrity’ or ‘perfection,’ since those things which are impaired are by the very fact ugly; due ‘proportion’ or ‘harmony’; and lastly, ‘brightness’ or ‘clarity.’"
       }]
     },
     {
-      recast: "Sense delights in what is after its own kind, and sense is a sort of reason. That is why the simple ratios please, and why Boethius sets reason beside the ear as a tutor.",
+      recast: "Sense delights in what is after its own kind, and sense is a sort of reason. That is why the simple ratios please, and why Boethius sets reason beside the ear as a tutor. St. Thomas adds that this delight is proper to man, because the pleasure taken in a well-harmonized sound is for its becomingness and “has nothing to do with the preservation of nature” (<span class=\"latin\">ST</span> II–II q.141 a.4 ad 3); so it belongs with knowing, and reason can order it.",
       passages: [{
-        cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> I q.5 a.4",
-        english: "Beauty and goodness in a thing are identical fundamentally, for they are based upon the same thing, namely the form. But they differ logically: goodness relates to the appetite, beauty to the cognitive faculty; for beautiful things are those which please when seen. Hence beauty consists in due proportion; for the senses delight in things duly proportioned, as in what is after their own kind — because even sense is a sort of reason."
+        cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> I q.5 a.4 ad 1",
+        english: "Beauty and goodness in a thing are identical fundamentally; for they are based upon the same thing, namely, the form; and consequently goodness is praised as beauty. But they differ logically, for goodness properly relates to the appetite … On the other hand, beauty relates to the cognitive faculty; for beautiful things are those which please when seen. Hence beauty consists in due proportion; for the senses delight in things duly proportioned, as in what is after their own kind—because even sense is a sort of reason, just as is every cognitive faculty."
       }]
     },
     {
@@ -134,21 +135,21 @@ MusicaArs.THEMES = {
       recast: "Boethius asks the same question of soul and body, of the parts of the soul, and of the elements of the body. In each case the answer is a measured fitting, as of low and high.",
       passages: [{
         cite: "Aristotle, <em>De anima</em> II.1",
-        english: "The soul is the first actuality of a natural body which has life potentially. \ldots It is not a body, but is something of a body; and for this reason it is in a body, and in a body of a definite kind."
+        english: "The soul is the first actuality of a natural body which has life potentially. … It is not a body, but is something of a body; and for this reason it is in a body, and in a body of a definite kind."
       }]
     },
     {
-      recast: "Aristotle denies that the soul is itself a harmony, because a harmony is a proportion of mixed parts, while the soul is the cause of the mixture. Boethius’s ‘as it were’ keeps the analogy from becoming that claim.",
+      recast: "Aristotle denies that the soul is itself a harmony, because a harmony is a proportion of mixed parts, while the soul is the cause of the mixture. Boethius’s ‘as it were’ keeps the analogy from becoming that claim. St. Thomas follows Aristotle, and so he corrects the analogy where it could mislead: the measured fitting of the parts that Boethius names is an effect of the soul, which is the form of the body, and it is not the soul itself.",
       passages: [{
         cite: "Aristotle, <em>De anima</em> I.4",
-        english: "If the soul were a harmony, it would be a harmony of the parts of the body. But harmony is a certain proportion or composition of the things blended, and the soul cannot be either of these. \ldots Rather the soul is that which causes the mixture, as being the cause of the body."
+        english: "If the soul were a harmony, it would be a harmony of the parts of the body. But harmony is a certain proportion or composition of the things blended, and the soul cannot be either of these. … Rather the soul is that which causes the mixture, as being the cause of the body."
       }]
     },
     {
-      recast: "St. Thomas states the union as one of substantial form: the soul is not in the body as a sailor in a ship. Health as a tempered mixture of the body belongs to natural philosophy. Neither is proved from the string; the demonstration is in the <em>De anima</em> and in the <span class=\"latin\">Summa</span>.",
+      recast: "St. Thomas states the union as one of substantial form: the principle by which we understand is the form of the body, and the same soul is the first principle of our nourishment, sensation, motion, and understanding. Health as a tempered mixture of the body belongs to natural philosophy. Neither is proved from the string; the demonstration is in the <em>De anima</em> and in the <span class=\"latin\">Summa</span>.",
       passages: [{
         cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> I q.76 a.1",
-        english: "The intellective soul is united to the body as its substantial form. \ldots For the soul is the principle by which we live, sense, and understand; and these are not in us as in a sailor in a ship, but as in a form in its matter."
+        english: "We must assert that the intellect which is the principle of intellectual operation is the form of the human body. … For the soul is the primary principle of our nourishment, sensation, and local movement; and likewise of our understanding. Therefore this principle by which we primarily understand, whether it be called the intellect or the intellectual soul, is the form of the body."
       }]
     }
   ]
@@ -162,63 +163,70 @@ MusicaArs.THEMES = {
   }]},
   returns: [
     {
-      recast: "Justice here is an inner attunement: three principles bound as the notes of a scale are bound, so that a man is no longer many; and the scale is used to name what the soul is when it is one.",
+      recast: "Justice here is an inner attunement: three principles bound as the notes of a scale are bound, so that a man is no longer many; and the scale is used to name what the soul is when it is one. St. Thomas receives Plato’s ordered soul, but he states the order more exactly: reason rules the passions “by a politic power,” as free citizens are ruled, and not as a master rules a slave (<span class=\"latin\">ST</span> I q.81 a.3 ad 2). So the lower parts keep their own movements, and virtue brings those movements into the order of reason.",
       passages: [{
         cite: "Aristotle, <em>Nicomachean Ethics</em> II.6",
-        english: "Virtue, then, is a state of character concerned with choice, lying in a mean, i.e. the mean relative to us, this being determined by a rational principle, and by that principle by which the man of practical wisdom would determine it. Now it is a mean between two vices, that which depends on excess and that which depends on defect. \ldots Hence in respect of its substance and the definition which states its essence virtue is a mean, with regard to what is best and right an extreme."
+        english: "Virtue, then, is a state of character concerned with choice, lying in a mean, i.e. the mean relative to us, this being determined by a rational principle, and by that principle by which the man of practical wisdom would determine it. Now it is a mean between two vices, that which depends on excess and that which depends on defect. … Hence in respect of its substance and the definition which states its essence virtue is a mean, with regard to what is best and right an extreme."
       }]
     },
     {
       recast: "A mean is a determinate standing, as a ratio is, and excess and defect miss it on either side, as a string tuned too tight or too slack misses the concord. So Aristotle is naming a proportion in the soul’s acts.",
       passages: [{
-        cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> I–II q.64 a.1",
-        english: "The good of a moral virtue consists in its attaining the rule of reason. Now it is evident that between excess and defect the mean is equality or conformity to rule. Therefore it is evident that moral virtue observes the mean. \ldots The mean of moral virtue is the mean of reason, not the mean of the thing."
+        cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> I–II q.64 a.1 and a.2",
+        english: "Hence it is evident that the good of moral virtue consists in conformity with the rule of reason. Now it is clear that between excess and deficiency the mean is equality or conformity. Therefore it is evident that moral virtue observes the mean. … Secondly, the mean of reason may be considered as that which the reason puts into some particular matter. In this sense every mean of moral virtue is a rational mean."
       }]
     },
     {
-      recast: "The mean of moral virtue, St. Thomas says, is the mean of reason, not an arithmetic halfway point in the thing done. Plato’s image and Aristotle’s definition are the same claim, and the ethics is treated in their books.",
+      recast: "The mean of moral virtue, St. Thomas says, is the mean that reason puts into the matter. In justice it is also the mean of the thing, but in the passions it is taken in relation to us, and so it is not an arithmetic halfway point. Plato’s image and Aristotle’s definition are the same claim, and the ethics is treated in their books.",
       passages: [{
         cite: "Plato, <em>Republic</em> IV, 444d–e (tr. Jowett)",
-        english: "Virtue is the health and beauty and well-being of the soul, and vice the disease and weakness and deformity of the same. And is not good habit also a true order, and bad habit a want of order, in the body? \ldots Then virtue is the order of the soul, as health is the order of the body."
+        english: "Virtue is the health and beauty and well-being of the soul, and vice the disease and weakness and deformity of the same. And is not good habit also a true order, and bad habit a want of order, in the body? … Then virtue is the order of the soul, as health is the order of the body."
       }]
     }
   ]
 },
 
 "c-ethos": {
-  lead: "Music here can state what has been discovered for applications of music in other arts and sciences, but in those cases music theory itself is primarily stating the application, not proving that it is true, since the demonstrations belong properly to the other sciences. Just as in arithmetic we might state some of the science’s applications to geometry without proving them in detail, so too in music we might state some of the applications of music to ethics, politics, or even cosmology, but without proving them as conclusions.",
+  lead: [
+    "Music here can state what has been discovered for applications of music in other arts and sciences, but in those cases music theory itself is primarily stating the application, not proving that it is true, since the demonstrations belong properly to the other sciences. Just as in arithmetic we might state some of the science’s applications to geometry without proving them in detail, so too in music we might state some of the applications of music to ethics, politics, or even cosmology, but without proving them as conclusions.",
+    "The application to character that this course states is St. Thomas’s, and the other authors in this section are read as pointing toward his teaching or as measured by it. He begins from a fact that Aristotle and Boethius had already observed, that “the human soul is moved in various ways according to various melodies of sound” (<span class=\"latin\">ST</span> II–II q.91 a.2). A movement of this kind is a passion, and a passion, he holds, is properly a movement of the sensitive appetite, which is accompanied by a change in the body (I–II q.22 a.3). But reason does not rule the sensitive appetite as the soul rules a hand. It rules it “by a politic power,” as a ruler governs free citizens, “because the sensitive appetite has something of its own, by virtue whereof it can resist the commands of reason” (I q.81 a.3 ad 2). So melody reaches the very power that reason governs as free citizens are governed, and not as a hand is moved.",
+    "The passions are not evil in themselves. Considered as subject to reason and will, they are morally good or evil (I–II q.24 a.1), and St. Thomas teaches that “it belongs to the perfection of moral good, that man should be moved unto good, not only in respect of his will, but also in respect of his sensitive appetite” (q.24 a.3). Moral virtue therefore does not silence the passions but orders them: “Virtue overcomes inordinate passion; it produces ordinate passion” (q.59 a.5 ad 1). The measure of that order is the mean of virtue, which is conformity with the rule of reason, that is, the mean which reason puts into a given matter; and in the passions this mean is not a fixed point in the thing but is set “with due regard to us, who are moved in respect of the passions” (q.64 a.1–2). This is why the use of melody belongs to moral science. A melody can move the appetite toward the mean or away from it, but which it does depends on the hearer, the occasion, and the end, and those are judged by prudence.",
+    "Delight in sound has a place of its own in this account. Other animals take pleasure in the senses only for their usefulness, but man takes pleasure in them also for the sake of knowing (I–II q.31 a.6); so when a man “is pleased at a well-harmonized sound, this pleasure has nothing to do with the preservation of nature” (II–II q.141 a.4 ad 3). Peter of Auvergne, the Paris master who completed St. Thomas’s commentary on the <em>Politics</em>, draws the consequence for Aristotle’s eighth book. Reason in the hearing judges the ratio of the tones; the delight of that judgment is proportioned to the delight a man takes in moral acts that stand in a like proportion; and therefore practice in judging and delighting rightly is a kind of exercise toward virtue.",
+    "St. Thomas applies all of this when he asks whether God should be praised with song. Song is a salutary institution because it arouses devotion; but Jerome rightly blames those who sing “in order to show off, or to provoke pleasure” (II–II q.91 a.2 ad 2). Singing for pleasure draws the mind away from what is sung, while singing for devotion attends to it more closely (ad 5); and instruments that “move the soul to pleasure rather than create a good disposition within it” are not used in teaching, as Aristotle had said, nor in the Church’s praise (ad 4). Recreation outside worship is judged by the same rule, since there is a virtue about play that keeps it within the measure of reason (II–II q.168 a.2). What the city may rightly ask of music, under this teaching, is considered in <span class=\"xref\" data-to=\"c-city\"></span>.",
+    "This account is stated here from moral philosophy and theology, and it is not demonstrated in this course. Music, St. Thomas says, considers sounds “not inasmuch as they are sounds, but inasmuch as they are proportionable according to numbers” (<span class=\"latin\">Super Boetium De Trinitate</span> q.5 a.3 ad 6), so the ratios of a string are not the premises from which the account is proved."
+  ],
   honesty: "That melody moves character is an application of music to ethics and politics. Aristotle treats it in <em>Politics</em> VIII; Plato in <em>Republic</em> III; St. Thomas when he asks whether God should be praised with song, at <span class=\"latin\">ST</span> II–II q.91. Music states that application and does not prove it, because the demonstration belongs to ethics and politics.",
   first: { passages: [{
     cite: "Aristotle, <em>Politics</em> VIII.5 (tr. Jowett)",
-    english: "Even in mere melodies there is an imitation of character, for the musical modes differ essentially from one another, and those who hear them are differently affected by each. Some of them make men sad and grave, like the so-called Mixolydian, others enfeeble the mind, like the relaxed modes, another, again, produces a moderate and settled temper, which appears to be the peculiar effect of the Dorian; the Phrygian inspires enthusiasm. \ldots The whole of music is of the nature of an imitation, and the different kinds of melody and rhythm are clearly imitations of different kinds of character."
+    english: "Even in mere melodies there is an imitation of character, for the musical modes differ essentially from one another, and those who hear them are differently affected by each. Some of them make men sad and grave, like the so-called Mixolydian, others enfeeble the mind, like the relaxed modes, another, again, produces a moderate and settled temper, which appears to be the peculiar effect of the Dorian; the Phrygian inspires enthusiasm. … The whole of music is of the nature of an imitation, and the different kinds of melody and rhythm are clearly imitations of different kinds of character."
   }]},
   returns: [
     {
-      recast: "A melody is already an imitation of character, and so it forms the hearer; and the modes differ in kind.",
+      recast: "A melody is already an imitation of character, and so it forms the hearer; and the modes differ in kind. Plato makes the choice of modes a matter of law. St. Thomas receives the fact on which Plato builds, but he measures the lawgiver’s choice by its end: a law is directed to the common good (<span class=\"latin\">ST</span> I–II q.90 a.2), and whether a mode serves that good in a given use is a judgment of prudence, which the ratios of the mode do not settle.",
       passages: [{
         cite: "Plato, <em>Republic</em> III, 398d–399c (tr. Jowett)",
-        english: "And which are the harmonies expressive of sorrow? The Mixolydian, he replied, and the tense Lydian. These then I said must be discarded. \ldots And which of the harmonies are the soft and convivial? The Ionian, he replied, and the Lydian, which are called relaxed. These also I said I would have none of. \ldots Then, I said, Dorian and Phrygian remain."
+        english: "And which are the harmonies expressive of sorrow? The Mixolydian, he replied, and the tense Lydian. These then I said must be discarded. … And which of the harmonies are the soft and convivial? The Ionian, he replied, and the Lydian, which are called relaxed. These also I said I would have none of. … Then, I said, Dorian and Phrygian remain."
       }]
     },
     {
-      recast: "Plato is making laws for a city, and Aristotle is describing what the modes do and then asking what a city should use; neither demonstration belongs to harmonics. Music states the application. The ratios of the Dorian tetrachord do not prove that Dorian settles the soul, because that demonstration belongs to ethics, and it is tested in the hearing of men and judged by prudence.",
+      recast: "Plato is making laws for a city, and Aristotle is describing what the modes do and then asking what a city should use; neither demonstration belongs to harmonics. Music states the application. The ratios of the Dorian tetrachord do not prove that Dorian settles the soul, because that demonstration belongs to ethics, and it is tested in the hearing of men and judged by prudence. St. Thomas takes Aristotle’s rule against the aulos (a reed pipe) in education into his own reply on the Church’s praise (II–II q.91 a.2 ad 4), and he adds a reason of his own for the instruments of the Old Law: the people needed to be aroused by them, and the instruments were figures of something else.",
       passages: [{
         cite: "Aristotle, <em>Politics</em> VIII.7 (tr. Jowett)",
-        english: "We accept the classification of melodies made by some philosophers into ethical, practical, and enthusiastic, each having a nature of its own. \ldots Those which are ethical are to be preferred for education; the others may be used for listening to when others perform."
+        english: "We accept the classification of melodies made by some philosophers into ethical, practical, and enthusiastic, each having a nature of its own. … Those which are ethical are to be preferred for education; the others may be used for listening to when others perform."
       }]
     },
     {
       recast: "St. Thomas takes the same fact when he asks whether God should be praised with song. Harmonics can say what is heard, but whether to sing is a question of prudence.",
       passages: [{
-        cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> II–II q.91 a.2",
-        english: "The human soul is moved in various ways according to various melodies of sound, as the Philosopher observes. \ldots Hence the use of music in the divine praises is a salutary institution. Yet if it be done for ostentation, or if the singing move more than the thing which is sung, it is to be blamed."
+        cite: "St. Thomas Aquinas, <span class=\"latin\">Summa theologiae</span> II–II q.91 a.2 and ad 2",
+        english: "Now it is evident that the human soul is moved in various ways according to various melodies of sound … Hence the use of music in the divine praises is a salutary institution, that the souls of the faint-hearted may be the more incited to devotion. … Jerome does not absolutely condemn singing, but reproves those who sing theatrically in church not in order to arouse devotion, but in order to show off, or to provoke pleasure."
       }]
     }
   ]
 },
 
 "c-ascent": {
-  honesty: "Augustine’s sixth book is the proper place for this question. Whether the light by which we judge is an illumination from without, or the agent intellect as a created participation in uncreated light, is disputed between him and St. Thomas (<span class=\"latin\">ST</span> I q.79 a.4; q.84 a.5). What is not disputed is the fact the ascent starts from: in judging a proportion we use a measure we did not make.",
+  honesty: "Augustine’s sixth book is the proper place for this question. Whether the light by which we judge is an illumination from without, or the agent intellect as a created participation in uncreated light, is disputed between him and St. Thomas (<span class=\"latin\">ST</span> I q.79 a.4; q.84 a.5–6). What is not disputed is the fact the ascent starts from: in judging a proportion we use a measure we did not make.",
   first: { passages: [{
     cite: "Augustine, <span class=\"latin\">De musica</span> VI.ii.2",
     latin: "Hos igitur numeros qui sunt in ipsa sonandi passione, sonantes vocemus. Rursus qui ab his fiunt in sensu audientis, occursorum nomine notemus. Qui autem sunt in ipso actu pronuntiantis, progressores; qui in memoria, recordabiles. Qui denique sunt in ipso naturali iudicio sentiendi, cum aliquid nos offendit aut delectat in motibus, iudiciales vocentur.",
@@ -229,12 +237,12 @@ MusicaArs.THEMES = {
       recast: "The five names are ordered by dignity: what most would have called the music, the sounding body, is last, and the numbers by which we judge are first.",
       passages: [{
         cite: "Augustine, <span class=\"latin\">De musica</span> VI.iv",
-        latin: "Iudiciales igitur numeri \ldots nec in tempore sunt, nec in loco, nec in ullo corpore, nec in ulla passione corporis, nec in ulla memoria. \ldots His iudicamus de his quae in tempore sunt.",
-        english: "The judging numbers, then, are not in time, nor in place, nor in any body, nor in any passion of the body, nor in any memory. \ldots By these we judge of the things that are in time."
+        latin: "Iudiciales igitur numeri … nec in tempore sunt, nec in loco, nec in ullo corpore, nec in ulla passione corporis, nec in ulla memoria. … His iudicamus de his quae in tempore sunt.",
+        english: "The judging numbers, then, are not in time, nor in place, nor in any body, nor in any passion of the body, nor in any memory. … By these we judge of the things that are in time."
       }]
     },
     {
-      recast: "Augustine removes the judging numbers from every place we might have put them: they are not in the sound, the ear, the act, or memory. We correct the sound by them, so they are not given by the sound; and we can judge a measure we have never heard. So the standard is not our own.",
+      recast: "Augustine removes the judging numbers from every place we might have put them: they are not in the sound, the ear, the act, or memory. We correct the sound by them, so they are not given by the sound; and we can judge a measure we have never heard. So the standard is not our own. St. Thomas grants that the standard is not given by the sound, but he explains our possession of it otherwise. Sense knowledge is not the total cause of what the intellect knows, but “in a way the material cause,” because the agent intellect makes what the senses receive actually intelligible by abstraction (<span class=\"latin\">ST</span> I q.84 a.6). On his account, then, we reach the measure through the heard sounds, and the light by which we judge it is the intellect’s own.",
       passages: [{
         cite: "Augustine, <span class=\"latin\">De musica</span> VI.xii",
         latin: "Quapropter oportet fateamur, et in nobis esse iudiciales istos numeros, et extra nos esse, et supra nos esse. In nobis, quia iudicamus; extra nos, quia secundum eos iudicamus, nec eos facimus; supra nos, quia incommutabiles sunt, nos autem mutabiles.",
@@ -242,11 +250,11 @@ MusicaArs.THEMES = {
       }]
     },
     {
-      recast: "Augustine’s next step is that the unchangeable is in God. St. Thomas does not take the account of illumination whole: he grants the fact the ascent starts from, and names the light the agent intellect, which is created and a participation. The two doctors differ here, but neither treats the measure as our invention. To stop a string at two thirds and hear it please is already to use a measure we did not make.",
+      recast: "Augustine’s next step is that the unchangeable is in God. St. Thomas does not take the account of illumination whole: he grants the fact the ascent starts from, and names the light the agent intellect, which is created and a participation. The two doctors differ here, but neither treats the measure as our invention. To stop a string at two thirds and hear it please is already to use a measure we did not make. St. Thomas quotes the confession below in his reply on singing in church (II–II q.91 a.2 ad 2), and so he reads Augustine’s fault as a disorder in the use of song, which prudence corrects, and not as a fault in song itself.",
       passages: [{
         cite: "Augustine, <em>Confessions</em> X.xxxiii.49–50",
-        latin: "Ita fluctuo inter periculum voluptatis et experimentum salubritatis. \ldots Cum mihi accidit ut me amplius cantus quam res quae canitur moveat, poenaliter me peccare confiteor, et tunc mallem non audire cantantem.",
-        english: "So I fluctuate between the danger of pleasure and the proof of profit. \ldots When it happens to me that the singing moves me more than the thing which is sung, I confess that I sin, and it would then be better not to have heard the singer."
+        latin: "Ita fluctuo inter periculum voluptatis et experimentum salubritatis. … Cum mihi accidit ut me amplius cantus quam res quae canitur moveat, poenaliter me peccare confiteor, et tunc mallem non audire cantantem.",
+        english: "So I fluctuate between the danger of pleasure and the proof of profit. … When it happens to me that the singing moves me more than the thing which is sung, I confess that I sin, and it would then be better not to have heard the singer."
       }]
     }
   ]
@@ -277,7 +285,7 @@ MusicaArs.THEMES = {
       recast: "Two kinds of loss are being distinguished. Equal temperament and the silence of the spheres can be heard, but the forgetting of form has to be named, or it will be mistaken for a refutation of the art.",
       passages: [{
         cite: "Aristotle, <em>Metaphysics</em> VII.17",
-        english: "What we seek is the cause, that is the form, by reason of which the matter is some definite thing. This is the substance of the thing. \ldots The syllable is not its letters, the flesh is not fire and earth; there is something besides, and that something is the cause of their being one."
+        english: "What we seek is the cause, that is the form, by reason of which the matter is some definite thing. This is the substance of the thing. … The syllable is not its letters, the flesh is not fire and earth; there is something besides, and that something is the cause of their being one."
       }]
     },
     {
@@ -416,7 +424,8 @@ MusicaArs.renderContemplation = function (el, id) {
   const rec = recOf(id);
   const stage = availableStage(theme, rec);
   let html = `<div class="contemplation">`;
-  if (theme.lead) html += `<p class="cont-lead">${theme.lead}</p>`;
+  /* The lead may be one paragraph or a list of them. */
+  [].concat(theme.lead || []).forEach(p => { html += `<p class="cont-lead">${p}</p>`; });
   (theme.first.passages || []).forEach(p => { html += passageHTML(p); });
   for (let i = 0; i < stage; i++) {
     const r = theme.returns[i];
