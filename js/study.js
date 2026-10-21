@@ -2460,7 +2460,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "According to the Primary Chronicle, what did Vladimir’s envoys report of the worship in the Great Church?", a: 2, o: [
     ["That the singing was in a language they could understand", "They could not have understood it. The rite came afterward in Slavonic translation, by way of Bulgaria and the work of Cyril and Methodius before that. What the envoys report is not comprehension."],
     ["That the eight tones were sung more correctly there than elsewhere, a report on the singing of the eight tones that urged Vladimir to adopt that cycle for Kiev", "The report the chronicle gives is not a technical judgment, and the ten wise men are nowhere described as musicians. Ask what they said they were unable to do: describe it, or forget it."],
-    ["That they knew not whether they were in heaven or on earth, and that God dwells there among men", "“For on earth there is no such splendour or such beauty, and we are at a loss how to describe it.” Vladimir was baptized, and Rus’ with him, in 988."],
+    ["That they knew not whether they were in heaven or on earth, and that God dwells there among men", "“For on earth there is no such splendor or such beauty, and we are at a loss how to describe it.” The envoys’ report is the entry for 6495 (987). Vladimir was baptized, and Rus’ with him, in the next year, 6496 (988)."],
     ["That the Greeks had promised to send singers", "Singers do come, in the chronicles’ account, but that is what followed rather than what the envoys said. The words quoted in the lesson are about what they saw and could not account for."]
   ]},
   { q: "What did the Stoglav Council of 1551 order?", a: 1, o: [

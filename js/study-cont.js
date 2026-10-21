@@ -279,7 +279,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Whose teaching does this theme say it is that the soul is the form of the body?", a: 2, o: [
     ["Boethius’s, demonstrated from the monochord", "Boethius states the union of soul and body; he does not prove what a soul is."],
-    ["Pythagoras’s, because the soul is a harmony", "Aristotle denies that the soul <em>is</em> a harmony, because a harmony is a proportion of mixed parts, and the soul is not the mixture but its cause."],
+    ["Pythagoras’s, because the soul is a harmony", "Aristotle denies that the soul <em>is</em> a harmony. A harmony is a proportion or a composition of the things blended, and the soul can be neither of these. The teaching that the soul is the form of the body is St. Thomas’s."],
     ["St. Thomas’s, at <span class=\"latin\">ST</span> I q.76", "St. Thomas teaches it, at I q.76. Music states the image and does not establish the doctrine, because the demonstration belongs to the science of the soul."],
     ["Augustine’s, from the judging numbers", "Augustine is another theme. The soul as form is the Aristotelian teaching as St. Thomas receives it."]
   ]},
