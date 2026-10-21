@@ -409,11 +409,11 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Neither prove it nor prescribe it", "Music states the application. The demonstration belongs to ethics and politics, and prudence judges the use."],
     ["Grant that the fact was taken seriously", "It names St. Thomas on song in the divine praises. Taking the fact seriously is not the same as proving the application."]
   ]},
-  { q: "‘The whole of music is of the nature of an imitation.’ What follows, in Aristotle’s mouth here?", a: 0, o: [
-    ["Different kinds of melody and rhythm are imitations of different kinds of character", "A choice of melody is already a choice about character, whether anyone meant it as one or not."],
-    ["Therefore harmonics is a branch of poetics", "Imitation here is a fact about how melody works on a hearer, not a reclassification of the quadrivium."],
-    ["Therefore the ratios are fictions", "He has not touched the ratios. Another science may still say what a fifth is."],
-    ["Therefore the musician properly so called is the performer", "Boethius’s musician is the judge. This passage is speaking of what songs do."]
+  { q: "What does Aristotle say of rhythms in this passage?", a: 0, o: [
+    ["Some have a character of rest, others of motion", "Of those that have a character of motion, he says, some have a more vulgar movement and others a nobler one."],
+    ["A rhythm without words has no character of its own", "The same principles apply to rhythms as to melodies, so a rhythm already has a character, whether or not words are joined to it."],
+    ["The ratios of the concords are therefore fictions", "He has not touched the ratios, and another science may still say what a fifth is."],
+    ["The musician properly so called is the performer", "Boethius’s musician is the judge, and this passage is speaking of what rhythms do."]
   ]},
   { q: "What effect does Aristotle here ascribe to the Mixolydian?", a: 1, o: [
     ["A moderate and settled temper", "That is said of the Dorian."],
@@ -435,8 +435,8 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Why does ‘even in mere melodies’ matter?", a: 2, o: [
     ["Because without words there is no imitation", "He is saying the opposite: even without words, melody already imitates character."],
-    ["Because mere melody is not music", "The whole of music, he says, is of the nature of an imitation."],
-    ["Because the claim is not confined to song with words; the melody itself imitates character", "Rhythm is named with melody in the last sentence for the same reason."],
+    ["Because mere melody is not music", "He is not denying that a melody is music. He is saying that a melody, even without words, already imitates character."],
+    ["Because the claim is not confined to song with words; the melody itself imitates character", "The last sentence applies the same principles to rhythms, some of which have a character of rest and others a character of motion."],
     ["Because mere melody is safer in the city", "He is not yet legislating. He is describing what the kinds do."]
   ]},
   { q: "St. Thomas is named here for which question?", a: 1, o: [

@@ -200,8 +200,8 @@ MusicaArs.THEMES = {
   ],
   honesty: "That melody moves character is an application of music to ethics and politics. Aristotle treats it in <em>Politics</em> VIII; Plato in <em>Republic</em> III; St. Thomas when he asks whether God should be praised with song, at <span class=\"latin\">ST</span> II–II q.91. Music states that application and does not prove it, because the demonstration belongs to ethics and politics.",
   first: { passages: [{
-    cite: "Aristotle, <em>Politics</em> VIII.5",
-    english: "Even in mere melodies there is an imitation of character, for the musical modes differ essentially from one another, and those who hear them are differently affected by each. Some of them make men sad and grave, like the so-called Mixolydian, others enfeeble the mind, like the relaxed modes, another, again, produces a moderate and settled temper, which appears to be the peculiar effect of the Dorian; the Phrygian inspires enthusiasm. … The whole of music is of the nature of an imitation, and the different kinds of melody and rhythm are clearly imitations of different kinds of character."
+    cite: "Aristotle, <em>Politics</em> VIII.5, 1340a–b",
+    english: "On the other hand, even in mere melodies there is an imitation of character, for the musical modes differ essentially from one another, and those who hear them are differently affected by each. Some of them make men sad and grave, like the so-called Mixolydian, others enfeeble the mind, like the relaxed modes, another, again, produces a moderate and settled temper, which appears to be the peculiar effect of the Dorian; the Phrygian inspires enthusiasm. … The same principles apply to rhythms; some have a character of rest, others of motion, and of these latter again, some have a more vulgar, others a nobler movement."
   }]},
   returns: [
     {
@@ -214,8 +214,8 @@ MusicaArs.THEMES = {
     {
       recast: "Plato is making laws for a city, and Aristotle is describing what the modes do and then asking what a city should use; neither demonstration belongs to harmonics. Music states the application. The ratios of the Dorian tetrachord do not prove that Dorian settles the soul, because that demonstration belongs to ethics, and it is tested in the hearing of men and judged by prudence. St. Thomas takes Aristotle’s rule against the aulos (a reed pipe) in education into his own reply on the Church’s praise (II–II q.91 a.2 ad 4), and he adds a reason of his own for the instruments of the Old Law: the people needed to be aroused by them, and the instruments were figures of something else.",
       passages: [{
-        cite: "Aristotle, <em>Politics</em> VIII.7",
-        english: "We accept the classification of melodies made by some philosophers into ethical, practical, and enthusiastic, each having a nature of its own. … Those which are ethical are to be preferred for education; the others may be used for listening to when others perform."
+        cite: "Aristotle, <em>Politics</em> VIII.7, 1341b–1342a",
+        english: "We accept the division of melodies proposed by certain philosophers into ethical melodies, melodies of action, and passionate or inspiring melodies, each having, as they say, a mode corresponding to it. … In education the most ethical modes are to be preferred, but in listening to the performances of others we may admit the modes of action and passion also."
       }]
     },
     {
