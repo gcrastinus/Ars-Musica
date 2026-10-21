@@ -428,6 +428,380 @@ function isonItem() {
   };
 }
 
+/* ---------- the gamut, the hexachords, and the modes ----------
+   Twenty places from Γ to ee, in the Pythagorean intonation of this course.
+   Ratios are to Γ; the widgets sound Γ at 4/9 of the open string, so that a
+   is the open string itself (216 Hz). The b of each diapason has two forms:
+   round (b♭, fa) and square (b♮, mi). */
+const GAMUT_R = {
+  "Γ": 1, "A": 9 / 8, "B": 81 / 64, "C": 4 / 3, "D": 3 / 2, "E": 27 / 16, "F": 16 / 9,
+  "G": 2, "a": 9 / 4, "b♭": 64 / 27, "b♮": 81 / 32, "c": 8 / 3, "d": 3, "e": 27 / 8,
+  "f": 32 / 9, "g": 4, "aa": 9 / 2, "bb♭": 128 / 27, "bb♮": 81 / 16, "cc": 16 / 3,
+  "dd": 6, "ee": 27 / 4
+};
+const SYL = ["ut", "re", "mi", "fa", "sol", "la"];
+const HEX = {
+  hardΓ: { kind: "hard", on: "Γ", notes: ["Γ", "A", "B", "C", "D", "E"] },
+  natC:  { kind: "natural", on: "C", notes: ["C", "D", "E", "F", "G", "a"] },
+  softF: { kind: "soft", on: "F", notes: ["F", "G", "a", "b♭", "c", "d"] },
+  hardG: { kind: "hard", on: "G", notes: ["G", "a", "b♮", "c", "d", "e"] },
+  natc:  { kind: "natural", on: "c", notes: ["c", "d", "e", "f", "g", "aa"] },
+  softf: { kind: "soft", on: "f", notes: ["f", "g", "aa", "bb♭", "cc", "dd"] },
+  hardg: { kind: "hard", on: "g", notes: ["g", "aa", "bb♮", "cc", "dd", "ee"] }
+};
+/* The places of the hand, in the order of the gamut, with every syllable
+   each place takes. b and bb carry both forms. */
+const GAMUT = ["Γ", "A", "B", "C", "D", "E", "F", "G", "a", "b", "c", "d", "e", "f", "g",
+  "aa", "bb", "cc", "dd", "ee"].map(place => {
+  const forms = place === "b" ? ["b♭", "b♮"] : place === "bb" ? ["bb♭", "bb♮"] : [place];
+  const syl = [];
+  Object.keys(HEX).forEach(k => {
+    forms.forEach(f => {
+      const i = HEX[k].notes.indexOf(f);
+      if (i >= 0) syl.push({ syl: SYL[i], hex: k, form: f });
+    });
+  });
+  /* In the order of the hexachords' beginnings, as the names are spoken:
+     "G sol re ut", "c sol fa ut". */
+  return { place, forms, syl };
+});
+MusicaArs.GAMUT = GAMUT;
+MusicaArs.GAMUT_R = GAMUT_R;
+MusicaArs.HEX = HEX;
+MusicaArs.SYL = SYL;
+
+function hexName(k) {
+  const h = HEX[k];
+  return `the ${h.kind} hexachord on ${h.on}`;
+}
+function hexRun(k) {
+  return HEX[k].notes.map((n, i) => n + " " + SYL[i]).join(", ");
+}
+const GAMMA_F = () => MusicaArs.audio.base * 4 / 9;
+function gf(n) { return GAMMA_F() * GAMUT_R[n]; }
+function letters(seq) { return seq.join(" "); }
+/* A sounded line of gamut places; the widget layer reads `freqs`. */
+function line(seq, opt) {
+  opt = opt || {};
+  return {
+    many: true,
+    get freqs() { return seq.map(gf); },
+    gap: opt.gap || 0.5,
+    hold: opt.hold || 0,
+    pause: opt.pause || 0,
+    ref: opt.ref || null
+  };
+}
+
+/* ---------- E12 · the syllables ----------
+   G and g are left out: "G sol re ut" is the example on the card. So is the
+   semitone of the natural hexachord on C, which the card also names. */
+const HEXA_ASK = [
+  ["natC", "C"], ["natC", "D"], ["natC", "E"], ["natC", "F"], ["natC", "a"],
+  ["softF", "F"], ["softF", "a"], ["softF", "b♭"], ["softF", "c"], ["softF", "d"],
+  ["hardG", "a"], ["hardG", "b♮"], ["hardG", "c"], ["hardG", "e"],
+  ["hardΓ", "A"], ["hardΓ", "B"], ["hardΓ", "E"],
+  ["natc", "e"], ["natc", "f"], ["natc", "aa"],
+  ["softf", "aa"], ["softf", "cc"], ["hardg", "bb♮"], ["hardg", "dd"]
+];
+const HEXA = HEXA_ASK.map(([k, n]) => () => {
+  const i = HEX[k].notes.indexOf(n);
+  return mc(`In ${hexName(k)}, which syllable is sung on <b>${n}</b>?`,
+    SYL.slice(), i,
+    `${hexName(k).replace(/^t/, "T")} runs ${hexRun(k)}; so ${n} is ${SYL[i]}.`,
+    line(HEX[k].notes.concat([n]), { pause: 0.5, hold: 0.6 }));
+});
+const MIFA_LETTERS = [
+  ["softF", "a and b♭", ["b♭ and c", "G and a", "E and F"]],
+  ["hardG", "b♮ and c", ["a and b♮", "c and d", "E and F"]],
+  ["hardΓ", "B and C", ["A and B", "C and D", "E and F"]],
+  ["natc", "e and f", ["d and e", "f and g", "b♮ and c"]],
+  ["softf", "aa and bb♭", ["g and aa", "bb♭ and cc", "e and f"]],
+  ["hardg", "bb♮ and cc", ["aa and bb♮", "cc and dd", "e and f"]]
+];
+const HEXA_MIFA = MIFA_LETTERS.map(([k, right, wrong]) => () => mc(
+  `In ${hexName(k)}, on which two letters do mi and fa fall?`,
+  [right].concat(wrong), 0,
+  `${hexName(k).replace(/^t/, "T")} runs ${hexRun(k)}. The semitone, which in this course’s tuning is the leimma 256:243, lies between mi and fa, and so between ${right}.`,
+  line(HEX[k].notes)));
+const HEXA_EXTRA = [
+  () => mc("In which hexachord is b sung as fa?",
+    ["The soft hexachord, on F", "The hard hexachord, on G", "The natural hexachord, on C"], 0,
+    "In the soft hexachord, F ut, G re, a mi, b♭ fa; the round b is fa, a semitone above a. The natural hexachord on C has no b at all, and in the hard hexachord the square b is mi.",
+    line(HEX.softF.notes)),
+  () => mc("In which hexachord is b sung as mi?",
+    ["The hard hexachord, on G", "The soft hexachord, on F", "The natural hexachord, on C"], 0,
+    "In the hard hexachord, G ut, a re, b♮ mi, c fa; the square b is mi, a semitone below c. In the soft hexachord the round b is fa.",
+    line(HEX.hardG.notes))
+];
+
+/* ---------- E13 · the hexachord of a melody ----------
+   Each melody fits exactly one kind of hexachord; the check script in
+   notes/ confirms it. */
+const HEXB_MEL = [
+  ["natural", ["C", "D", "E", "F", "E", "D", "C"]],
+  ["natural", ["D", "E", "F", "G", "F", "E", "D"]],
+  ["natural", ["E", "F", "G", "a", "G", "F", "E"]],
+  ["natural", ["F", "E", "D", "C", "D", "E"]],
+  ["natural", ["c", "d", "e", "f", "e", "d", "c"]],
+  ["natural", ["e", "f", "g", "aa", "g", "f", "e"]],
+  ["soft", ["F", "G", "a", "b♭", "a", "G", "F"]],
+  ["soft", ["a", "b♭", "c", "b♭", "a"]],
+  ["soft", ["G", "a", "b♭", "c", "d", "c", "b♭", "a"]],
+  ["soft", ["c", "b♭", "a", "G", "F"]],
+  ["soft", ["f", "g", "aa", "bb♭", "aa", "g", "f"]],
+  ["soft", ["bb♭", "cc", "dd", "cc", "bb♭", "aa"]],
+  ["hard", ["G", "a", "b♮", "c", "b♮", "a", "G"]],
+  ["hard", ["b♮", "c", "d", "c", "b♮"]],
+  ["hard", ["c", "d", "e", "d", "c", "b♮"]],
+  ["hard", ["Γ", "A", "B", "C", "B", "A", "Γ"]],
+  ["hard", ["B", "C", "D", "E", "D", "C", "B"]],
+  ["hard", ["g", "aa", "bb♮", "cc", "bb♮", "aa", "g"]]
+];
+const KIND_NAME = { hard: "The hard hexachord", natural: "The natural hexachord", soft: "The soft hexachord" };
+const KIND_WHY = {
+  natural: "It has E and F (or e and f) side by side and no b, and only the natural hexachord sings that pair as mi and fa.",
+  soft: "It uses the round b (b♭), and only the soft hexachord has it, as fa.",
+  hard: "It uses the square b (b♮, or B in the lowest diapason), and only the hard hexachord has it, as mi."
+};
+function hexOfMelody(seq) {
+  return Object.keys(HEX).filter(k => seq.every(n => HEX[k].notes.includes(n)));
+}
+function solmize(seq, k) {
+  return seq.map(n => n + " " + SYL[HEX[k].notes.indexOf(n)]).join(", ");
+}
+const HEXB = HEXB_MEL.map(([kind, seq]) => () => {
+  const k = hexOfMelody(seq)[0];
+  const opts = ["The hard hexachord", "The natural hexachord", "The soft hexachord"];
+  return mc(`In which hexachord does this melody lie?<br><b>${letters(seq)}</b>`,
+    opts, opts.indexOf(KIND_NAME[kind]),
+    `${KIND_WHY[kind]} Sung in ${hexName(k)}, it runs ${solmize(seq, k)}.`,
+    line(seq, { hold: 0.5 }));
+});
+const HEXB_MIFA_MEL = [
+  [["D", "E", "F", "G", "a", "G", "F"], "E and F", ["D and E", "F and G", "G and a"]],
+  [["F", "G", "a", "b♭", "c", "b♭", "a"], "a and b♭", ["G and a", "b♭ and c", "F and G"]],
+  [["G", "a", "b♮", "c", "d", "c", "b♮"], "b♮ and c", ["a and b♮", "c and d", "G and a"]],
+  [["Γ", "A", "B", "C", "D", "C"], "B and C", ["A and B", "C and D", "Γ and A"]],
+  [["d", "e", "f", "g", "f", "e"], "e and f", ["d and e", "f and g", "e and g"]],
+  [["g", "aa", "bb♭", "cc", "bb♭", "aa", "g"], "aa and bb♭", ["g and aa", "bb♭ and cc", "aa and cc"]],
+  [["cc", "bb♮", "aa", "g", "aa", "bb♮"], "bb♮ and cc", ["aa and bb♮", "g and aa", "aa and cc"]]
+];
+const HEXB_MIFA = HEXB_MIFA_MEL.map(([seq, right, wrong]) => () => {
+  const k = hexOfMelody(seq)[0];
+  return mc(`On which two sounds of this melody do mi and fa fall?<br><b>${letters(seq)}</b>`,
+    [right].concat(wrong), 0,
+    `The melody lies in ${hexName(k)} and runs ${solmize(seq, k)}; so mi and fa, with the semitone between them, fall on ${right}.`,
+    line(seq, { hold: 0.5 }));
+});
+
+/* ---------- E14 · mutation ----------
+   The rule on the card: mutate on a sound both hexachords contain; ascending
+   into re, descending into la. Distractors are chosen to be wrong under that
+   rule and also as mutations (a sound one hexachord lacks, or a syllable the
+   new hexachord does not give it), so that no defensible practice is marked
+   wrong. The two examples on the card (Γ to F rising, F to A falling) are
+   left out. */
+const MUT = [
+  { seq: ["C", "D", "E", "F", "G", "a", "b♮", "c"], from: "natC", to: "hardG", at: "a",
+    wrong: [["On G, from sol to re", "G is re only in the soft hexachord, which has b♭ and not the b♮ this melody needs."],
+            ["On b♮, from fa to mi", "b♮ is not in the natural hexachord at all, so there is nothing to change from; and the round b, which is fa, is another sound."],
+            ["On F, from fa to ut", "F is ut only in the soft hexachord, which lacks the b♮ this melody needs."]] },
+  { seq: ["D", "E", "F", "G", "a", "b♭", "c"], from: "natC", to: "softF", at: "G",
+    wrong: [["On a, from la to re", "a is re in the hard hexachord, which has b♮, and this melody needs b♭."],
+            ["On F, from fa to re", "F is ut in the soft hexachord, not re; re there is G."],
+            ["On b♭, from mi to fa", "b♭ is not in the natural hexachord, so it cannot be the place where the two meet."]] },
+  { seq: ["G", "a", "b♮", "c", "d", "e", "f"], from: "hardG", to: "natc", at: "d",
+    wrong: [["On c, from fa to re", "c is ut in the natural hexachord on c, not re; re there is d."],
+            ["On e, from la to re", "e is mi in the natural hexachord, not re."],
+            ["On b♮, from mi to fa", "b♮ is not in the natural hexachord on c, so it cannot be the place where the two meet."]] },
+  { seq: ["F", "G", "a", "b♭", "c", "d", "e", "f"], from: "softF", to: "natc", at: "d",
+    wrong: [["On c, from sol to re", "c is ut in the natural hexachord on c, not re."],
+            ["On b♭, from fa to mi", "b♭ is not in the natural hexachord on c, and the mi of a b is the square b, another sound."],
+            ["On e, from la to mi", "e is not in the soft hexachord on F, so there is nothing to change from."]] },
+  { seq: ["c", "d", "e", "f", "g", "aa", "bb♮", "cc"], from: "natc", to: "hardg", at: "aa",
+    wrong: [["On g, from sol to re", "g is re only in the soft hexachord on f, which has bb♭ and not the bb♮ this melody needs."],
+            ["On bb♮, from fa to mi", "bb♮ is not in the natural hexachord at all, so there is nothing to change from."],
+            ["On f, from fa to ut", "f is ut only in the soft hexachord, which lacks the bb♮ this melody needs."]] },
+  { seq: ["d", "e", "f", "g", "aa", "bb♭", "cc"], from: "natc", to: "softf", at: "g",
+    wrong: [["On aa, from la to re", "aa is re in the hard hexachord, which has bb♮, and this melody needs bb♭."],
+            ["On f, from fa to re", "f is ut in the soft hexachord, not re."],
+            ["On bb♭, from mi to fa", "bb♭ is not in the natural hexachord, so it cannot be the place where the two meet."]] },
+  { seq: ["d", "c", "b♮", "a", "G", "F", "E"], from: "hardG", to: "natC", at: "a",
+    wrong: [["On G, from ut to la", "G is sol in the natural hexachord, not la; la there is a."],
+            ["On F, from ut to fa", "F is not in the hard hexachord on G, so there is nothing to change from."],
+            ["On b♮, from mi to la", "b♮ is not in the natural hexachord, so it cannot be the place where the two meet."]] },
+  { seq: ["d", "c", "b♭", "a", "G", "F", "E", "D"], from: "softF", to: "natC", at: "a",
+    wrong: [["On G, from re to la", "G is sol in the natural hexachord, not la."],
+            ["On b♭, from fa to la", "b♭ is not in the natural hexachord, so it cannot be the place where the two meet."],
+            ["On E, from ut to mi", "E is not in the soft hexachord, so there is nothing to change from."]] },
+  { seq: ["f", "e", "d", "c", "b♭", "a", "G"], from: "natc", to: "softF", at: "d",
+    wrong: [["On c, from ut to la", "c is sol in the soft hexachord on F, not la."],
+            ["On e, from mi to la", "e is not in the soft hexachord on F, so it cannot be the place where the two meet."],
+            ["On b♭, from fa to mi", "b♭ is not in the natural hexachord, so there is nothing to change from."]] },
+  { seq: ["f", "e", "d", "c", "b♮", "a", "G"], from: "natc", to: "hardG", at: "e",
+    wrong: [["On d, from re to la", "d is sol in the hard hexachord on G, not la."],
+            ["On c, from ut to la", "c is fa in the hard hexachord, not la."],
+            ["On b♮, from fa to mi", "b♮ is not in the natural hexachord, so there is nothing to change from."]] },
+  { seq: ["cc", "bb♭", "aa", "g", "f", "e", "d"], from: "softf", to: "natc", at: "aa",
+    wrong: [["On g, from re to la", "g is sol in the natural hexachord, not la."],
+            ["On bb♭, from fa to la", "bb♭ is not in the natural hexachord, so it cannot be the place where the two meet."],
+            ["On e, from ut to mi", "e is not in the soft hexachord on f, so there is nothing to change from."]] },
+  { seq: ["dd", "cc", "bb♮", "aa", "g", "f", "e"], from: "hardg", to: "natc", at: "aa",
+    wrong: [["On g, from ut to la", "g is sol in the natural hexachord, not la."],
+            ["On f, from ut to fa", "f is not in the hard hexachord on g, so there is nothing to change from."],
+            ["On bb♮, from mi to la", "bb♮ is not in the natural hexachord, so it cannot be the place where the two meet."]] }
+];
+function mutInfo(m) {
+  const s1 = SYL[HEX[m.from].notes.indexOf(m.at)];
+  const s2 = SYL[HEX[m.to].notes.indexOf(m.at)];
+  const up = GAMUT_R[m.seq[m.seq.length - 1]] > GAMUT_R[m.seq[0]];
+  const i = m.seq.indexOf(m.at);
+  const before = m.seq.slice(0, i).map(n => n + " " + SYL[HEX[m.from].notes.indexOf(n)]);
+  const after = m.seq.slice(i + 1).map(n => n + " " + SYL[HEX[m.to].notes.indexOf(n)]);
+  const sung = before.concat([`${m.at} ${s1} as ${s2}`], after).join(", ");
+  const why = `The melody begins in ${hexName(m.from)} and needs ${hexName(m.to)}. ` +
+    `It is ${up ? "rising, so the mutation is made into re" : "falling, so the mutation is made into la"}, ` +
+    `on ${m.at}, which both hexachords contain. It is sung ${sung}.`;
+  return { s1, s2, up, why };
+}
+const HEXC_WHERE = MUT.map(m => () => {
+  const { s1, s2, why } = mutInfo(m);
+  const right = `On ${m.at}, from ${s1} to ${s2}`;
+  const it = mc(`Where is the mutation made, and into which syllable?<br><b>${letters(m.seq)}</b>`,
+    [right].concat(m.wrong.map(w => w[0])), 0,
+    why,
+    line(m.seq, { hold: 0.5 }));
+  /* The reason each wrong place fails, shown when it is chosen. */
+  it.whyNot = [null].concat(m.wrong.map(w => w[1]));
+  return it;
+});
+const HEXC_INTO = MUT.map(m => () => {
+  const { s1, s2, why } = mutInfo(m);
+  return mc(`In this melody the singer mutates on <b>${m.at}</b>, which was ${s1}. Into which syllable?<br><b>${letters(m.seq)}</b>`,
+    SYL.slice(), SYL.indexOf(s2),
+    why,
+    line(m.seq, { hold: 0.5 }));
+});
+
+/* ---------- E15–E17 · the modes ----------
+   The phrases are composed for these exercises; none is a chant. Each ends
+   on its final with a held note. An authentic phrase rises to the seventh
+   or the diapason above its final and goes at most one step below it; a
+   plagal phrase goes a third or a fourth below its final and no higher
+   than the sixth above. The check script confirms both. The two phrases on
+   the card of E16 are not among them. */
+const MODES = [
+  { n: 1, name: "Dorian",        fin: "D", auth: true },
+  { n: 2, name: "Hypodorian",    fin: "D", auth: false },
+  { n: 3, name: "Phrygian",      fin: "E", auth: true },
+  { n: 4, name: "Hypophrygian",  fin: "E", auth: false },
+  { n: 5, name: "Lydian",        fin: "F", auth: true },
+  { n: 6, name: "Hypolydian",    fin: "F", auth: false },
+  { n: 7, name: "Mixolydian",    fin: "G", auth: true },
+  { n: 8, name: "Hypomixolydian", fin: "G", auth: false }
+];
+MusicaArs.MODES = MODES;
+const PHRASES = {
+  1: [["D", "F", "a", "a", "G", "a", "c", "d", "c", "a", "G", "F", "E", "D"],
+      ["D", "a", "c", "d", "c", "a", "G", "a", "F", "E", "D"],
+      ["C", "D", "F", "G", "a", "c", "d", "c", "a", "F", "G", "E", "D"],
+      ["D", "E", "F", "G", "a", "G", "a", "c", "d", "c", "a", "F", "E", "D"]],
+  2: [["D", "C", "D", "F", "F", "E", "D", "C", "A", "C", "D", "E", "D"],
+      ["A", "C", "D", "E", "F", "G", "F", "E", "D", "C", "D"],
+      ["D", "F", "G", "a", "G", "F", "D", "C", "A", "C", "D", "E", "D"],
+      ["F", "E", "D", "C", "D", "A", "C", "D", "F", "E", "D"]],
+  3: [["E", "G", "a", "c", "d", "e", "d", "c", "a", "G", "F", "E"],
+      ["E", "F", "G", "a", "c", "c", "d", "c", "b♮", "a", "G", "F", "E"],
+      ["D", "E", "G", "c", "c", "d", "e", "c", "a", "G", "F", "E"],
+      ["E", "c", "c", "d", "c", "b♮", "c", "a", "G", "a", "F", "E"]],
+  4: [["E", "D", "C", "B", "D", "E", "F", "G", "a", "G", "F", "E"],
+      ["C", "D", "E", "F", "G", "a", "a", "G", "F", "E", "D", "C", "D", "E"],
+      ["G", "F", "E", "D", "C", "D", "E", "G", "a", "a", "G", "F", "E", "D", "E"],
+      ["E", "F", "D", "C", "B", "C", "D", "E", "F", "G", "F", "E"]],
+  5: [["F", "a", "c", "c", "d", "e", "f", "e", "d", "c", "a", "G", "F"],
+      ["F", "G", "a", "c", "d", "c", "a", "c", "e", "f", "d", "c", "a", "G", "F"],
+      ["F", "c", "d", "c", "a", "c", "f", "e", "d", "c", "a", "G", "F"],
+      ["E", "F", "G", "a", "c", "c", "e", "d", "c", "a", "G", "F"]],
+  6: [["F", "E", "D", "C", "D", "F", "G", "a", "a", "G", "F", "E", "F"],
+      ["C", "D", "F", "G", "a", "G", "F", "E", "D", "E", "F"],
+      ["F", "a", "a", "G", "a", "c", "a", "G", "F", "E", "D", "F", "G", "F"],
+      ["D", "C", "D", "F", "G", "F", "a", "G", "F", "E", "D", "E", "F"]],
+  7: [["G", "b♮", "d", "e", "f", "g", "f", "e", "d", "c", "b♮", "a", "G"],
+      ["G", "a", "b♮", "d", "d", "e", "g", "e", "d", "c", "b♮", "a", "G"],
+      ["F", "G", "a", "c", "b♮", "d", "d", "e", "f", "d", "c", "a", "b♮", "G"],
+      ["G", "d", "d", "c", "d", "e", "f", "e", "d", "b♮", "c", "a", "G"]],
+  8: [["G", "F", "G", "a", "c", "c", "b♮", "a", "G", "F", "E", "D", "F", "G"],
+      ["D", "F", "G", "a", "G", "a", "c", "d", "c", "a", "G", "F", "G"],
+      ["G", "a", "c", "c", "d", "c", "a", "G", "F", "E", "D", "E", "G", "a", "G"],
+      ["G", "F", "D", "F", "G", "a", "b♮", "c", "b♮", "a", "G"]]
+};
+MusicaArs.MODE_PHRASES = PHRASES;
+const FINALS_REF = ["D", "E", "F", "G"].map(n => ({ label: n, get freqs() { return [gf(n)]; } }));
+function modeLine(seq) { return line(seq, { gap: 0.46, hold: 1.1, ref: FINALS_REF }); }
+function spanOf(seq) {
+  let lo = seq[0], hi = seq[0];
+  seq.forEach(n => {
+    if (GAMUT_R[n] < GAMUT_R[lo]) lo = n;
+    if (GAMUT_R[n] > GAMUT_R[hi]) hi = n;
+  });
+  return { lo, hi };
+}
+const ORD = ["", "first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth"];
+function modeWhy(m, seq) {
+  const { lo, hi } = spanOf(seq);
+  const range = m.auth
+    ? `it rises to ${hi}, ${GAMUT_R[hi] / GAMUT_R[m.fin] >= 2 ? "the diapason above its final" : "the seventh above its final"}, and goes no lower than ${lo}`
+    : `it goes down to ${lo}, below its final, and rises no higher than ${hi}`;
+  return `The phrase ends on ${m.fin}, and ${range}. So it is the ${m.auth ? "authentic" : "plagal"} mode on ${m.fin}, the ${ORD[m.n]} mode, which medieval writers called ${m.name}.`;
+}
+function modeItems(build) {
+  const out = [];
+  MODES.forEach(m => PHRASES[m.n].forEach(seq => out.push(() => build(m, seq))));
+  return out;
+}
+const FIN_STEPS = {
+  D: "Above D the steps are a tone and then a semitone.",
+  E: "Above E the first step is a semitone.",
+  F: "Below F lies a semitone, from E, and above it two tones.",
+  G: "Above G come two tones and then a semitone, to c."
+};
+const MODEA = modeItems((m, seq) => mc(
+  "On which final does this phrase end? The four finals can be sounded for comparison.",
+  ["D", "E", "F", "G"], ["D", "E", "F", "G"].indexOf(m.fin),
+  `${FIN_STEPS[m.fin]} ${modeWhy(m, seq)}`,
+  modeLine(seq)));
+const RANGE_OPTS = [
+  "It is authentic, since it rises from its final toward the diapason above it",
+  "It is plagal, since it lies around its final and goes a third or more below"
+];
+const MODEB = modeItems((m, seq) => mc(
+  "Is the range of this phrase authentic or plagal?",
+  RANGE_OPTS.slice(), m.auth ? 0 : 1,
+  modeWhy(m, seq),
+  modeLine(seq)));
+function modeLabel(m) { return `Mode ${m.n} (${m.name})`; }
+/* Distractors: the other mode of the same pair, the mode of the same range
+   on a neighboring final, and one more chosen so that the right answer is
+   not, as a rule, the longest option. */
+function modeDistractors(m) {
+  const partner = MODES[m.auth ? m.n : m.n - 2];
+  const nbIdx = ((m.n + 1) % 8);
+  const neighbor = MODES[nbIdx];
+  const used = new Set([m.n, partner.n, neighbor.n]);
+  const longer = MODES.filter(x => !used.has(x.n) && modeLabel(x).length >= modeLabel(m).length);
+  const rest = MODES.filter(x => !used.has(x.n));
+  const third = longer.length ? longer[0] : rest[0];
+  return [partner, neighbor, third];
+}
+const MODEC = modeItems((m, seq) => {
+  const ds = modeDistractors(m);
+  return mc("Which mode is this phrase in?",
+    [modeLabel(m)].concat(ds.map(modeLabel)), 0,
+    modeWhy(m, seq),
+    modeLine(seq));
+});
+
 /* ---------- assembly ---------- */
 function fromFactories(list, n) { return R.sample(list, n).map(f => f()); }
 
@@ -486,6 +860,36 @@ const SETS = {
     title: "The held sound",
     size: 10,
     build: () => Array.from({ length: 10 }, isonItem)
+  },
+  "hexA": {
+    title: "The hexachord, A: the syllables",
+    size: 10,
+    build: () => fromFactories(HEXA.concat(HEXA_MIFA, HEXA_EXTRA), 10)
+  },
+  "hexB": {
+    title: "The hexachord, B: the hexachord of a melody",
+    size: 10,
+    build: () => fromFactories(HEXB.concat(HEXB_MIFA), 10)
+  },
+  "hexC": {
+    title: "The hexachord, C: mutation",
+    size: 10,
+    build: () => fromFactories(HEXC_WHERE.concat(HEXC_INTO), 10)
+  },
+  "modeA": {
+    title: "The modes, A: the final",
+    size: 10,
+    build: () => fromFactories(MODEA, 10)
+  },
+  "modeB": {
+    title: "The modes, B: authentic and plagal",
+    size: 10,
+    build: () => fromFactories(MODEB, 10)
+  },
+  "modeC": {
+    title: "The modes, C: the mode by number and name",
+    size: 10,
+    build: () => fromFactories(MODEC, 10)
   }
 };
 
@@ -504,6 +908,7 @@ SETS["exam"] = {
 };
 
 MusicaArs.DRILLS = SETS;
+MusicaArs._POOLS = { hexA: HEXA.concat(HEXA_MIFA, HEXA_EXTRA), hexB: HEXB.concat(HEXB_MIFA), hexC: HEXC_WHERE.concat(HEXC_INTO), modeA: MODEA, modeB: MODEB, modeC: MODEC, _MUT: MUT, _HEXB: HEXB_MEL, _HEXBM: HEXB_MIFA_MEL, _hexOf: hexOfMelody };
 
 /* Answer checking, exported so the widget layer stays thin. */
 MusicaArs.normRatio = function (s) {
