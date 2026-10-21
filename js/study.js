@@ -349,7 +349,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "In <span class=\"latin\">Republic</span> VII Socrates dismisses two sorts of student. What is wrong with the second sort?", a: 2, o: [
     ["They put their ears before their minds and torture strings", "That is the first sort. The second is distinguished from it precisely by seeking numbers at all. Read the two dismissals in order and notice what the later group has that the earlier lacks."],
     ["They study numbers and never listen at all, so their science is of arithmetic and not of sound, and the ratios are read out of a book while the monochord stays untouched", "Their fault is not deafness; they take their numbers from concords they have in fact heard. What they fail to do comes after the hearing and after the numbering."],
-    ["They take their numbers only from the concords they happen to hear, and never ascend to problems", "They never ask which numbers are concordant of themselves, and why. And these are the Pythagoreans, the school from which this art descends, and that is why the warning applies to us."],
+    ["They take their numbers only from the concords they happen to hear, and never attain to problems", "They never ask which numbers are concordant of themselves, and why. And these are the Pythagoreans, the school from which this art descends, and that is why the warning applies to us."],
     ["They mistake astronomy for harmonics", "No such confusion is charged against them. Both sorts are studying sound; what separates them is how far each carries the study."]
   ]},
   { q: "Why, Augustine tells Memorius, did he write <span class=\"latin\">De musica</span>?", a: 0, o: [

@@ -120,7 +120,7 @@ MusicaArs.THEMES = {
       recast: "Why the world is such that due proportion pleases is not demonstrated in this art. Plato refused to stop at the heard concords, and the question belongs with his ascent and with the treatment of the beautiful.",
       passages: [{
         cite: "Plato, <em>Republic</em> VII, 531c",
-        english: "They are like astronomers; they are in quest of the numbers which are to be found in these heard concords, but they never attain to the natural harmonies of number, or reflect why some numbers are harmonious and others not."
+        english: "For they too are in error, like the astronomers; they investigate the numbers of the harmonies which are heard, but they never attain to problems—that is to say, they never reach the natural harmonies of number, or reflect why some numbers are harmonious and others not."
       }]
     }
   ]
@@ -162,7 +162,7 @@ MusicaArs.THEMES = {
   honesty: "That virtue is a mean, and that the soul has parts which can be in or out of tune, is not proved on a monochord. It is established in Aristotle’s <em>Nicomachean Ethics</em> II, and in St. Thomas at <span class=\"latin\">ST</span> I–II, especially q.55 and q.64. Music states the image. The demonstration belongs to ethics.",
   first: { passages: [{
     cite: "Plato, <em>Republic</em> IV, 443c–e",
-    english: "But in reality justice was such as we were describing, being concerned however, not with the outward man, but with the inward, which is the true self and concernment of man: for the just man does not permit the several elements within him to interfere with one another, or any of them to do the work of others, — he sets in order his own inner life, and is his own master and his own law, and at peace with himself; and when he has bound together the three principles within him, which may be compared to the higher, lower, and middle notes of the scale, and the intermediate intervals — when he has bound all these together, and is no longer many, but has become one entirely temperate and perfectly adjusted nature, then he proceeds to act, if he has to act, whether in a matter of property, or in the treatment of the body, or in some affair of politics or private business; always thinking and calling that which preserves and co-operates with this harmonious condition, just and good action, and the knowledge which presides over it, wisdom, and that which at any time impairs this condition, he will call unjust action, and the opinion which presides over it ignorance."
+    english: "But in reality justice was such as we were describing, being concerned however, not with the outward man, but with the inward, which is the true self and concernment of man: for the just man does not permit the several elements within him to interfere with one another, or any of them to do the work of others,—he sets in order his own inner life, and is his own master and his own law, and at peace with himself; and when he has bound together the three principles within him, which may be compared to the higher, lower, and middle notes of the scale, and the intermediate intervals—when he has bound all these together, and is no longer many, but has become one entirely temperate and perfectly adjusted nature, then he proceeds to act, if he has to act, whether in a matter of property, or in the treatment of the body, or in some affair of politics or private business; always thinking and calling that which preserves and co-operates with this harmonious condition, just and good action, and the knowledge which presides over it, wisdom, and that which at any time impairs this condition, he will call unjust action, and the opinion which presides over it ignorance."
   }]},
   returns: [
     {
@@ -183,7 +183,7 @@ MusicaArs.THEMES = {
       recast: "The mean of moral virtue, St. Thomas says, is the mean that reason puts into the matter. In justice it is also the mean of the thing, but in the passions it is taken in relation to us, and so it is not an arithmetic halfway point. Plato’s image and Aristotle’s definition are the same claim, and the ethics is treated in their books.",
       passages: [{
         cite: "Plato, <em>Republic</em> IV, 444d–e",
-        english: "Virtue is the health and beauty and well-being of the soul, and vice the disease and weakness and deformity of the same. And is not good habit also a true order, and bad habit a want of order, in the body? … Then virtue is the order of the soul, as health is the order of the body."
+        english: "And the creation of health is the institution of a natural order and government of one by another in the parts of the body; and the creation of disease is the production of a state of things at variance with this natural order? … And is not the creation of justice the institution of a natural order and government of one by another in the parts of the soul, and the creation of injustice the production of a state of things at variance with the natural order? … Then virtue is the health and beauty and well-being of the soul, and vice the disease and weakness and deformity of the same?"
       }]
     }
   ]
@@ -208,7 +208,7 @@ MusicaArs.THEMES = {
       recast: "A melody is already an imitation of character, and so it forms the hearer; and the modes differ in kind. Plato makes the choice of modes a matter of law. St. Thomas receives the fact on which Plato builds, but he measures the lawgiver’s choice by its end: a law is directed to the common good (<span class=\"latin\">ST</span> I–II q.90 a.2), and whether a mode serves that good in a given use is a judgment of prudence, which the ratios of the mode do not settle.",
       passages: [{
         cite: "Plato, <em>Republic</em> III, 398d–399c",
-        english: "And which are the harmonies expressive of sorrow? The Mixolydian, he replied, and the tense Lydian. These then I said must be discarded. … And which of the harmonies are the soft and convivial? The Ionian, he replied, and the Lydian, which are called relaxed. These also I said I would have none of. … Then, I said, Dorian and Phrygian remain."
+        english: "And which are the harmonies expressive of sorrow? You are musical, and can tell me. The harmonies which you mean are the mixed or tenor Lydian, and the full-toned or bass Lydian, and such like. These then, I said, must be banished; even to women who have a character to maintain they are of no use, and much less to men. … And which are the soft or drinking harmonies? The Ionian, he replied, and the Lydian; they are termed ‘relaxed.’ Well, and are these of any military use? Quite the reverse, he replied; and if so the Dorian and the Phrygian are the only ones which you have left."
       }]
     },
     {
