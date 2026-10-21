@@ -3,10 +3,13 @@
    First encounter is the author's words, unglossed.
    Returns recast what the text was doing, then append.
    English of Boethius and Augustine is translated from the public-domain
-   Latin (Friedlein 1867; PL 32). Plato in the returns is Jowett (1894). The city theme quotes Republic IV, 424c, from Shorey and Laws III, 701a, from Bury, and names neither translator on the page. Aristotle is
-   Ross's Nicomachean Ethics (public domain in the form used here as a
-   short excerpt) and Jowett's Politics. Ptolemy is rendered from the
-   Greek of Harmonics I.1–2. Bower and Kalkavage are not quoted. */
+   Latin (Friedlein 1867; PL 32). Plato in the returns is Jowett (1894).
+   Republic IV, 424c is Shorey, and Laws III, 701a is Bury. Aristotle is
+   Ross's Nicomachean Ethics and Metaphysics (public domain in the form
+   used here as a short excerpt) and Jowett's Politics. The translators
+   are named in the Sources lesson, not beside the quotation. Ptolemy is
+   rendered from the Greek of Harmonics I.1–2. Bower and Kalkavage are
+   not quoted. */
 window.MusicaArs = window.MusicaArs || {};
 
 (function () {
@@ -116,7 +119,7 @@ MusicaArs.THEMES = {
     {
       recast: "Why the world is such that due proportion pleases is not demonstrated in this art. Plato refused to stop at the heard concords, and the question belongs with his ascent and with the treatment of the beautiful.",
       passages: [{
-        cite: "Plato, <em>Republic</em> VII, 531c (tr. Jowett)",
+        cite: "Plato, <em>Republic</em> VII, 531c",
         english: "They are like astronomers; they are in quest of the numbers which are to be found in these heard concords, but they never attain to the natural harmonies of number, or reflect why some numbers are harmonious and others not."
       }]
     }
@@ -158,7 +161,7 @@ MusicaArs.THEMES = {
 "c-virtue": {
   honesty: "That virtue is a mean, and that the soul has parts which can be in or out of tune, is not proved on a monochord. It is established in Aristotle’s <em>Nicomachean Ethics</em> II, and in St. Thomas at <span class=\"latin\">ST</span> I–II, especially q.55 and q.64. Music states the image. The demonstration belongs to ethics.",
   first: { passages: [{
-    cite: "Plato, <em>Republic</em> IV, 443c–e (tr. Jowett)",
+    cite: "Plato, <em>Republic</em> IV, 443c–e",
     english: "But in reality justice was such as we were describing, being concerned however, not with the outward man, but with the inward, which is the true self and concernment of man: for the just man does not permit the several elements within him to interfere with one another, or any of them to do the work of others, — he sets in order his own inner life, and is his own master and his own law, and at peace with himself; and when he has bound together the three principles within him, which may be compared to the higher, lower, and middle notes of the scale, and the intermediate intervals — when he has bound all these together, and is no longer many, but has become one entirely temperate and perfectly adjusted nature, then he proceeds to act, if he has to act, whether in a matter of property, or in the treatment of the body, or in some affair of politics or private business; always thinking and calling that which preserves and co-operates with this harmonious condition, just and good action, and the knowledge which presides over it, wisdom, and that which at any time impairs this condition, he will call unjust action, and the opinion which presides over it ignorance."
   }]},
   returns: [
@@ -179,7 +182,7 @@ MusicaArs.THEMES = {
     {
       recast: "The mean of moral virtue, St. Thomas says, is the mean that reason puts into the matter. In justice it is also the mean of the thing, but in the passions it is taken in relation to us, and so it is not an arithmetic halfway point. Plato’s image and Aristotle’s definition are the same claim, and the ethics is treated in their books.",
       passages: [{
-        cite: "Plato, <em>Republic</em> IV, 444d–e (tr. Jowett)",
+        cite: "Plato, <em>Republic</em> IV, 444d–e",
         english: "Virtue is the health and beauty and well-being of the soul, and vice the disease and weakness and deformity of the same. And is not good habit also a true order, and bad habit a want of order, in the body? … Then virtue is the order of the soul, as health is the order of the body."
       }]
     }
@@ -197,21 +200,21 @@ MusicaArs.THEMES = {
   ],
   honesty: "That melody moves character is an application of music to ethics and politics. Aristotle treats it in <em>Politics</em> VIII; Plato in <em>Republic</em> III; St. Thomas when he asks whether God should be praised with song, at <span class=\"latin\">ST</span> II–II q.91. Music states that application and does not prove it, because the demonstration belongs to ethics and politics.",
   first: { passages: [{
-    cite: "Aristotle, <em>Politics</em> VIII.5 (tr. Jowett)",
+    cite: "Aristotle, <em>Politics</em> VIII.5",
     english: "Even in mere melodies there is an imitation of character, for the musical modes differ essentially from one another, and those who hear them are differently affected by each. Some of them make men sad and grave, like the so-called Mixolydian, others enfeeble the mind, like the relaxed modes, another, again, produces a moderate and settled temper, which appears to be the peculiar effect of the Dorian; the Phrygian inspires enthusiasm. … The whole of music is of the nature of an imitation, and the different kinds of melody and rhythm are clearly imitations of different kinds of character."
   }]},
   returns: [
     {
       recast: "A melody is already an imitation of character, and so it forms the hearer; and the modes differ in kind. Plato makes the choice of modes a matter of law. St. Thomas receives the fact on which Plato builds, but he measures the lawgiver’s choice by its end: a law is directed to the common good (<span class=\"latin\">ST</span> I–II q.90 a.2), and whether a mode serves that good in a given use is a judgment of prudence, which the ratios of the mode do not settle.",
       passages: [{
-        cite: "Plato, <em>Republic</em> III, 398d–399c (tr. Jowett)",
+        cite: "Plato, <em>Republic</em> III, 398d–399c",
         english: "And which are the harmonies expressive of sorrow? The Mixolydian, he replied, and the tense Lydian. These then I said must be discarded. … And which of the harmonies are the soft and convivial? The Ionian, he replied, and the Lydian, which are called relaxed. These also I said I would have none of. … Then, I said, Dorian and Phrygian remain."
       }]
     },
     {
       recast: "Plato is making laws for a city, and Aristotle is describing what the modes do and then asking what a city should use; neither demonstration belongs to harmonics. Music states the application. The ratios of the Dorian tetrachord do not prove that Dorian settles the soul, because that demonstration belongs to ethics, and it is tested in the hearing of men and judged by prudence. St. Thomas takes Aristotle’s rule against the aulos (a reed pipe) in education into his own reply on the Church’s praise (II–II q.91 a.2 ad 4), and he adds a reason of his own for the instruments of the Old Law: the people needed to be aroused by them, and the instruments were figures of something else.",
       passages: [{
-        cite: "Aristotle, <em>Politics</em> VIII.7 (tr. Jowett)",
+        cite: "Aristotle, <em>Politics</em> VIII.7",
         english: "We accept the classification of melodies made by some philosophers into ethical, practical, and enthusiastic, each having a nature of its own. … Those which are ethical are to be preferred for education; the others may be used for listening to when others perform."
       }]
     },
@@ -258,7 +261,7 @@ MusicaArs.THEMES = {
     {
       recast: "Bodin names a third justice after the third proportion and sets the law, equity, the execution of the law, and the office of the magistrate in the ratios 4, 6, 8, 12. His harmonic proportion is a blend of the geometrical proportion of distributive justice and the arithmetical proportion of commutative justice, the two proportions St. Thomas already distinguishes (II–II q.61 a.2), and St. Thomas names no third justice beside them. What remains, the regard for the circumstances of a particular case, he assigns to equity and to the prudence of the judge (II–II q.120 a.1). The musical comparison names an order that the two justices, and then equity and prudence, explain, and no ratio demonstrates it.",
       passages: [{
-        cite: "Jean Bodin, <em>The Six Bookes of a Commonweale</em> VI.6, pp. 755 and 760 (tr. Knolles, 1606)",
+        cite: "Jean Bodin, <em>The Six Bookes of a Commonweale</em> VI.6, pp. 755 and 760",
         english: "…that is to say, by an Harmonicall mixture of Iustice, composed of Iustice Distributiue, or Geometricall; and Commutatiue, or Arithmeticall: which are proper vnto the estates Aristocratique, and Popular. … But if you shall transpose these numbers before set in Harmonicall proportion, and so make the Magistrat superiour vnto Equitie; and the Execution of the Law, to be aboue the Law it selfe; both the Harmonie of the Commonweale, and musicall consent thereof, shall perish."
       }]
     }
