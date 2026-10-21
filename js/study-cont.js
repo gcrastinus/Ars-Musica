@@ -470,7 +470,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["St. Thomas, at the end of his own commentary", "His commentary ends in the third book, and the rest is not his."],
     ["Peter of Auvergne, the Paris master who completed St. Thomas’s commentary", "So what is said of Book VIII is cited under Peter’s name, although it is printed with St. Thomas’s works."],
     ["Boethius, in the prologue of <span class=\"latin\">De institutione musica</span>, where he treats music and character", "St. Thomas cites Boethius for the fact that melodies move the soul, but Boethius wrote no commentary on the <em>Politics</em>."],
-    ["Johannes de Grocheio, in the part of his <span class=\"latin\">Ars musice</span> on the music of the city", "Grocheio is a later witness to the use of music in the city, and he did not comment on Aristotle."]
+    ["Johannes de Grocheio, who orders the music of ordinary life by the practice of the city", "Grocheio is a later witness to the use of music in the city, and he did not comment on Aristotle."]
   ]},
   { q: "By what does Peter of Auvergne say everything taught to the young must be measured?", a: 3, o: [
     ["By what the young themselves find most delightful", "He grants delight as one of the ends of music, but in education he subordinates it to another end."],
@@ -490,7 +490,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["That pleasure is a private matter, on which a ruler has nothing to say", "He speaks of it precisely as a matter for the one who founds and rules a city."],
     ["That the more pleasant a city is, the more surely its citizens will be virtuous", "He grants that pleasantness keeps a city inhabited, but he says that too much of it does the city great harm."]
   ]},
-  { q: "Grocheio says that the epic song helps working citizens bear their hardships and return to their work. How does St. Thomas’s teaching measure that use?", a: 0, o: [
+  { q: "Grocheio says that the epic song helps working citizens bear their hardships and take up their own work. How does St. Thomas’s teaching measure that use?", a: 0, o: [
     ["It grants the fact, but it does not make usefulness to work the whole measure of a song, since recreation has a virtue of its own", "Play is ordered to the rest of the soul and kept within the rule of reason (II–II q.168 a.2), not only to the next day’s labor."],
     ["It condemns the use, since any song sung outside worship puts delight in place of the thing sung, as Augustine confessed of himself", "Augustine’s confession concerns singing in church, and St. Thomas gives play and recreation a virtue of their own."],
     ["It adopts the use as the whole measure, so that a song is good exactly as far as it gets the city’s work done", "Recreation is ordered to the rest of the soul under the rule of reason, and work is not its only end."],
