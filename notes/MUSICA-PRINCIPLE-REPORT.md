@@ -160,3 +160,58 @@ Headless Chrome opened the course on the local server (port 8766). The browser b
 - i-1 showed the governing sentence in the lesson. All twelve study questions settled, including “Arithmetic may state an application to geometry…”
 
 No page exception. The only console message was Chrome’s warning that an AudioContext may not start before a gesture. That warning is the browser’s autoplay rule, and the pages already tell the student the browser stays silent until sound is allowed.
+
+## Counts after lengthening the wrong options
+
+A later pass changed every “Saint Thomas” in js/ and index.html to “St. Thomas.” index.html had none. The same pass changed the remaining “drily” to “dryly,” in the end-2 lesson. It then lengthened a wrong option in every study set where the correct option was the unique longest in more than a third of the questions. Unique longest means the correct option is strictly longer than each of the others, once tags are removed and spaces are collapsed. A tie for the longest does not count. The true option and its index were not changed. Exactly one third is allowed, so 4 of 12 stands. After the pass, the count of questions in which the correct option is the unique longest is:
+
+- welcome, 3 of 10
+- iii-2, 3 of 11
+- i-1, 4 of 12
+- lib-1, 3 of 11
+- lib-2, 3 of 11
+- i-2, 3 of 11
+- arith-1, 3 of 11
+- i-3, 3 of 11
+- ii-1, 3 of 11
+- ii-2, 3 of 11
+- iii-1, 3 of 11
+- iv-1, 3 of 11
+- iv-2, 3 of 11
+- v-1, 3 of 11
+- v-2, 3 of 11
+- means-1, 3 of 11
+- v-3, 3 of 10
+- sys-1, 3 of 11
+- sys-2, 3 of 11
+- vi-1, 3 of 11
+- vi-2, 3 of 11
+- vii-1, 3 of 11
+- vii-2, 3 of 11
+- vii-3, 3 of 11
+- vii-4, 3 of 11
+- vii-5, 3 of 11
+- vii-6, 3 of 11
+- vii-7, 3 of 11
+- vii-8, 3 of 11
+- east-1, 3 of 11
+- east-2, 3 of 11
+- east-3, 3 of 11
+- east-4, 3 of 11
+- east-5, 3 of 11
+- east-6, 3 of 11
+- end-1, 3 of 11
+- end-2, 3 of 11
+- end-3, 3 of 11
+- v-time, 3 of 10
+- v-species, 3 of 10
+- ex-iudic, 3 of 10
+- c-how, 3 of 10
+- c-musician, 3 of 10
+- c-criteria, 3 of 10
+- c-please, 3 of 10
+- c-soul, 3 of 10
+- c-virtue, 3 of 10
+- c-ethos, 3 of 10
+- c-ascent, 3 of 10
+- c-intact, 3 of 10
