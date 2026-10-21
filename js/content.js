@@ -579,6 +579,9 @@ MusicaArs.LESSONS = [
   <p>Boethius rules that the true <span class="latin">musicus</span> is the one who judges. Judgment here is not a feeling about music; it is the act of saying <em>what this is</em>. This block is where that act is trained. It does not make the ear the master, because the ratio remains the cause, and reason remains the judge. It makes the ear a fit instrument, so that when reason judges, it has something to judge.</p>
 </div>
 `,
+  coda: `
+<div class="widget" data-kind="singback" data-set="concords"></div>
+`,
   sources: "Aristotle, Posterior Analytics I.18 (81a38); Aquinas, ST I q.84 a.6; Ptolemy, Harmonics I.1–2; Boethius, De inst. mus. I.9, I.34."
 },
 
@@ -785,6 +788,146 @@ MusicaArs.LESSONS = [
 </div>
 `,
   sources: "On the isokratema and its documentation: Martin Crusius, Turcograecia (1584); Dimitri Conomos; Alexander Lingas. The exercise itself is a demonstration of texture, not a transcription."
+},
+
+{
+  id: "ex-hexA",
+  ch: "ex",
+  n: "E12",
+  title: "E12 · The syllables of the hexachord",
+  drill: "hexA",
+  html: `
+<div class="remark">
+  <h4>The six syllables and the three hexachords</h4>
+  <p>Guido gave the singers six syllables, “ut re mi fa sol la,” for six sounds that rise by tone, tone, semitone, tone, tone <span class="xref" data-to="vii-1"></span>. A set of six such sounds is called a hexachord. The system built on the syllables, with its mutations and its hand, is the work of later theorists, who elaborated what Guido left them.</p>
+  <p>Among the letters, with the b either round or square, that pattern can begin on only three: C, F, and G. The hexachord on C is called natural, and it has no b. The hexachord on F is called soft (<span class="latin">molle</span>), because it uses the round b (b♭); the hexachord on G is called hard (<span class="latin">durum</span>), because it uses the square b (b♮). Each of the three recurs a diapason higher, and the hard hexachord also stands a diapason lower, on Γ, so that the whole range holds seven hexachords. In every hexachord the semitone lies between mi and fa, and in the tuning of this course that semitone is the leimma, 256:243 <span class="xref" data-to="v-2"></span>.</p>
+  <p>The range the singers used ran from Γ (gamma, the G below A) up to ee, which makes twenty places, and each place is named by its letter and by the syllables it takes in every hexachord that contains it. So G is “G sol re ut,” because it is sol in the natural hexachord, re in the soft, and ut in the hard. The lowest place, “Γ ut,” gave the whole range its name, the gamut.</p>
+</div>
+<div class="remark">
+  <h4>The hand</h4>
+  <p>Teachers set the twenty places on the joints of the left hand, so that a singer could be shown a sound by pointing to a joint. The places begin at the tip of the thumb, run down the thumb and across the bases of the fingers, go up the little finger and across the tips, and then turn inward; the last place, ee, is on the back of the middle finger. Tap a place to hear it and to see its syllables.</p>
+  <div class="widget" data-kind="hand"></div>
+</div>
+<p>A hexachord and a sound are named. Say which syllable that sound takes in that hexachord, or on which two letters mi and fa fall. Sound the hexachord before answering, and use the hand as often as it helps.</p>
+<div class="why-block">
+  <h4>Why this block, and what it is for</h4>
+  <p>Because the syllables do not name pitches; they name places in a pattern of tones and one semitone. A letter is fixed, but its syllable depends on the hexachord in which it is sung, and so to name the syllable is to judge where the semitone lies. When singers sing “mi fa,” they know without measuring that the step between them is the small one. This course has measured that step as the remnant of the fourth, and the syllables mark it for the singer.</p>
+  <p>The block does not train sight-singing. It asks only that we can say where the semitone lies in each hexachord, and hear that it lies there, so that the practice of the medieval singers is seen to rest on the same arithmetic as the monochord.</p>
+</div>
+`,
+  sources: "Guido of Arezzo, Epistola de ignoto cantu (c. 1030) for the syllables; the hexachords, mutation, and the hand as set out by later medieval theorists. The pitches are sounded in the Pythagorean intonation of this course."
+},
+
+{
+  id: "ex-hexB",
+  ch: "ex",
+  n: "E13",
+  title: "E13 · The hexachord of a melody",
+  drill: "hexB",
+  html: `
+<div class="remark">
+  <h4>Which hexachord a melody needs</h4>
+  <p>A melody that stays within six sounds can often be sung in a single hexachord, and its letters decide which one. A melody that uses the round b (b♭) needs the soft hexachord, and a melody that uses the square b (b♮) needs the hard. A melody that has E and F side by side, and no b, needs the natural hexachord, because only there are E and F sung as mi and fa. Where a melody uses only sounds that two hexachords share, such as G and a, either of them would serve. The letters and the syllables are set out in <span class="xref" data-to="ex-hexA"></span>.</p>
+</div>
+<p>A short melody is written out in letters and sounded. Say in which hexachord it lies, or on which two of its sounds mi and fa fall. Sound it as often as needed; the ear should find the semitone where the letters put it.</p>
+<div class="why-block">
+  <h4>Why this block, and what it is for</h4>
+  <p>Because a melody, unlike a single sound, carries its semitone with it, and the semitone tells us where we are. The three hexachords have the same pattern of steps and differ only in where they stand among the letters; so to find the hexachord of a melody is to find where its semitone falls, first by reading the letters and then by hearing it. The same distinction runs through this whole course, between a pattern of ratios, which is fixed, and the place where it is laid, which is chosen <span class="xref" data-to="v-species"></span>.</p>
+</div>
+`,
+  sources: "Guido of Arezzo, Epistola de ignoto cantu (c. 1030); the hexachords as set out by later medieval theorists. The melodies are composed for this exercise and are not chant."
+},
+
+{
+  id: "ex-hexC",
+  ch: "ex",
+  n: "E14",
+  title: "E14 · Mutation",
+  drill: "hexC",
+  html: `
+<div class="remark">
+  <h4>Mutation</h4>
+  <p>When a melody goes beyond the six sounds of one hexachord, or needs the other b, the singer passes from one hexachord into another. This passage is called mutation. It is made on a sound that both hexachords contain, and the singer gives that sound the syllable it has in the new hexachord. The later manuals give a common rule for the place: in rising we mutate into re, and in falling into la, so that the new mi and fa lie ahead of the voice.</p>
+  <p>For example, the melody Γ A B C D E F rises past the hard hexachord on Γ, which ends at E. D is also in the natural hexachord, where it is re, and so the singer sings Γ ut, A re, B mi, C fa, then D as re, and goes on with E mi and F fa. In falling, F E D C B A begins in the natural hexachord and needs the hard hexachord on Γ for B and A. E is mi in the natural and la in the hard, and so the singer sings F fa, then E as la, and goes on with D sol, C fa, B mi, and A re.</p>
+</div>
+<p>A melody that needs two hexachords is written out and sounded. Say where the mutation is made and into which syllable, by the rule above. Sound the melody and follow its syllables before answering.</p>
+<div class="why-block">
+  <h4>Why this block, and what it is for</h4>
+  <p>Because mutation is where the system shows its principle. A hexachord holds only one semitone, and a melody of any length meets more than one; so the singer must keep moving the pattern of six, so that mi and fa always stand on the semitone that is coming. The rule of re and la is a rule of practice, not a demonstration, and other places are sometimes used. What does not vary is the arithmetic beneath it, because the semitone falls where the letters put it whatever the syllables call it.</p>
+</div>
+`,
+  coda: `
+<div class="widget" data-kind="singback" data-set="hexachord"></div>
+`,
+  sources: "The hexachords and mutation as set out by later medieval theorists; the rule of mutating into re in rising and into la in falling as a common rule of the later manuals of solmization. The melodies are composed for this exercise and are not chant."
+},
+
+{
+  id: "ex-modeA",
+  ch: "ex",
+  n: "E15",
+  title: "E15 · The final of a mode",
+  drill: "modeA",
+  html: `
+<div class="remark">
+  <h4>The four finals</h4>
+  <p>The Latin Church sang its chant in eight modes, arranged in four pairs. Each pair has its final (the sound on which its melodies end): D for the first pair (<span class="latin">protus</span>), E for the second (<span class="latin">deuterus</span>), F for the third (<span class="latin">tritus</span>), and G for the fourth (<span class="latin">tetrardus</span>). This is the system Glarean later enlarged to twelve <span class="xref" data-to="vii-7"></span>.</p>
+  <p>Each final can be known by the steps around it. Above D the steps are a tone and then a semitone. Above E the first step is a semitone. Below F lies a semitone, from E, and above it two tones. Above G come two tones and then a semitone, to c, when the b is square. So the final is heard as a relation among sounds, and not only as a pitch.</p>
+  <div class="widget" data-kind="modes" data-show="finals"></div>
+</div>
+<p>A short phrase is sounded. Say on which final it ends. The four finals can be sounded beside it for comparison, but the steps around the last sound should decide the answer.</p>
+<p>The phrases are composed for this exercise and are not chant. Each is made to show its final and its range plainly.</p>
+<div class="why-block">
+  <h4>Why this block, and what it is for</h4>
+  <p>Because a mode, like a species of the diapason <span class="xref" data-to="v-species"></span>, takes the one diatonic filling from one of its own sounds. The four finals stand in different places among the tones and semitones, and so the steps around each are different. To hear the final is therefore to hear where the semitones lie in relation to it, which is a judgment the ear makes and the arithmetic of the scale explains.</p>
+</div>
+`,
+  sources: "The eight church modes and their finals as set out by the Carolingian and later medieval theorists; Glarean, Dodecachordon (1547). The phrases are composed for this exercise."
+},
+
+{
+  id: "ex-modeB",
+  ch: "ex",
+  n: "E16",
+  title: "E16 · Authentic and plagal",
+  drill: "modeB",
+  html: `
+<div class="remark">
+  <h4>The two ranges</h4>
+  <p>The two modes of each pair share a final and differ in range. The authentic mode rises from its final to the diapason above it, and may go one step below the final. The plagal mode lies lower, from about the fourth below the final to the fifth or sixth above it, and so it stands a fourth below its authentic. The odd-numbered modes are authentic and the even-numbered are plagal; Modes 1 and 2 end on D, Modes 3 and 4 on E, Modes 5 and 6 on F, and Modes 7 and 8 on G. The finals are set out in <span class="xref" data-to="ex-modeA"></span>.</p>
+  <div class="widget" data-kind="modes" data-show="ranges"></div>
+</div>
+<p>A short phrase is sounded. Say whether its range is authentic or plagal. Listen for where the phrase goes in relation to its last sound: well above it, or below it as well as above.</p>
+<p>The phrases are composed for this exercise and are not chant.</p>
+<div class="why-block">
+  <h4>Why this block, and what it is for</h4>
+  <p>Because the range is the second half of what a mode is. Two melodies may end on the same sound and still lie in different modes, since one moves above its final and the other around it. A diapason taken from the final and a diapason taken from the fourth below it are two species of the diapason, and the medieval theorists used that difference to divide each pair.</p>
+</div>
+`,
+  sources: "The authentic and plagal modes as set out by the Carolingian and later medieval theorists. The phrases are composed for this exercise."
+},
+
+{
+  id: "ex-modeC",
+  ch: "ex",
+  n: "E17",
+  title: "E17 · The eight modes",
+  drill: "modeC",
+  html: `
+<div class="remark">
+  <h4>The numbers and the names</h4>
+  <p>Medieval writers numbered the modes from one to eight and also gave them Greek names: Mode 1 Dorian, Mode 2 Hypodorian, Mode 3 Phrygian, Mode 4 Hypophrygian, Mode 5 Lydian, Mode 6 Hypolydian, Mode 7 Mixolydian, and Mode 8 Hypomixolydian. The prefix “hypo-” (“below”) marks the plagal mode of each pair. The names were borrowed from the Greek, but they do not mean what they meant to Ptolemy <span class="xref" data-to="sys-1"></span>; here they are only the names the Latin Church gave its own eight modes. How the Greek modes relate to the church modes is one of the questions this course leaves open (see <span class="xref" data-to="sources" data-text="the Appendix"></span>).</p>
+  <p>To name the mode of a melody, then, we make two judgments, of its final and of its range, as in <span class="xref" data-to="ex-modeA"></span> and <span class="xref" data-to="ex-modeB"></span>.</p>
+  <div class="widget" data-kind="modes" data-show="eight"></div>
+</div>
+<p>A short phrase is sounded. Say which mode it is in, by number and by name. Find the final first, and then the range.</p>
+<p>The phrases are composed for this exercise and are not chant.</p>
+<div class="why-block">
+  <h4>Why this block, and what it is for</h4>
+  <p>Because the eight modes are the frame in which the Latin chant was sung, taught, and written down, and the later history of <span class="xref" data-ch="VII"></span> begins from them. They also show plainly the distinction this course has kept from the beginning: the diatonic filling is demonstrated, but the eight modes are a way of using it, a grammar laid on the system <span class="xref" data-to="v-species"></span>. The character that later writers ascribe to each mode is a claim of ethics and not of this art.</p>
+</div>
+`,
+  sources: "The eight church modes and their Greek names as used by medieval Latin writers; Boethius, De inst. mus. IV.14–15 on the species of the diapason; Glarean, Dodecachordon (1547). The phrases are composed for this exercise."
 },
 
 {
