@@ -32,7 +32,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["No. Nothing here is gated by the palaestra, and the palaestra is not gated by these pages", "These are two uses of the same course."]
   ]},
   { q: "What happens when you return to a theme after its time has come?", a: 2, o: [
-    ["The first text is replaced by a shorter summary, the original passage being removed and the shorter recast left alone for every later return", "The lesson says the first text is read again, and that it remains on the page."],
+    ["The first text is replaced by a shorter summary; the original passage is removed, and the shorter recast is left alone for every later return", "The lesson says the first text is read again, and that it remains on the page."],
     ["You are given a new drill on the same doctrine", "The themes are not drills."],
     ["You see what the text was doing, read it again, and go further", "The return adds a recast, the same passage, and a new one."],
     ["The theme is marked complete and closed", "Nothing here is passed or failed. A further passage may still be waiting."]
@@ -178,14 +178,14 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "Ptolemy’s rule, the closing note of this theme says, is the method of what kind of science?", a: 1, o: [
     ["A purely mathematical science, like arithmetic", "Arithmetic has no physical subject. The ear here gives a subject."],
     ["A middle science: the ear gives the subject, reason the cause", "It has a physical subject and mathematical middle terms."],
-    ["Natural philosophy, because sound is a motion of air, that motion being a change in a natural body and the science of such a change being physics rather than arithmetic", "Natural philosophy treats the motion. Harmonics treats sounding pitch as numbered."],
+    ["Natural philosophy, because sound is a motion of air, and that motion is a change in a natural body, so the science of such a change is physics rather than arithmetic", "Natural philosophy treats the motion. Harmonics treats sounding pitch as numbered."],
     ["Sacred doctrine, because St. Thomas endorses it", "St. Thomas classifies the science. He does not turn it into theology."]
   ]},
   { q: "They must not despise one another. What is being forbidden?", a: 2, o: [
     ["Using a monochord at all", "The kanon is how the two reports are compared."],
     ["Trusting Boethius when Ptolemy disagrees", "The sentence is about hearing and reason, not about two authors."],
     ["Taking either criterion as sufficient by itself", "Hearing alone never arrives at the cause; reason alone has nothing to be the cause of."],
-    ["Letting a student hear before he calculates, calculation having to precede hearing and the ear being kept back until the ratio is finished", "The method begins from what is heard. Despising is not the same as ordering."]
+    ["Letting a student hear before he calculates, when calculation has to precede hearing and the ear is kept back until the ratio is finished", "The method begins from what is heard. Despising is not the same as ordering."]
   ]},
   { q: "Reason is close to the form. What does it discern?", a: 0, o: [
     ["The cause", "Hearing is affected with the sounds; reason discerns why they are as they are."],
@@ -211,7 +211,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "That simple ratios please is a fact we can hear on a string. What does this theme say that fact is not?", a: 1, o: [
     ["A fact of this art at all", "It is a fact of this art, and the string is where we come to possess it."],
     ["A theorem of this art about why the world is such that they please", "Why they please, as a question about the world, is asked honestly only after we know the fact for ourselves. Plato asks it in <em>Republic</em> VII; St. Thomas treats the beautiful as due proportion."],
-    ["Something reason may tutor the ear about, the tutor standing beside the ear being what that heard fact amounts to", "Reason tutoring the ear is the second half of the passage of Boethius just read."],
+    ["Something reason may tutor the ear about, as if the tutor who stands beside the ear were what that heard fact amounts to", "Reason tutoring the ear is the second half of the passage of Boethius just read."],
     ["Related to beauty", "St. Thomas is cited here because beauty is due proportion, and sense is a kind of reason."]
   ]},
   { q: "St. Thomas, at <span class=\"latin\">ST</span> I q.5 a.4, treats beauty as what?", a: 2, o: [
@@ -227,7 +227,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Because only a theologian may ask it", "Plato asks it in <em>Republic</em> VII. St. Thomas treats it in the question on the good."]
   ]},
   { q: "What becomes of sense, Boethius says, unless reason stands by it as a tutor?", a: 1, o: [
-    ["It becomes more accurate, being left alone, practice making the untutored ear more exact so that a concord is judged with no tutor beside it", "He says sense itself is confused, no less than reason would be without a matter."],
+    ["It becomes more accurate if it is left alone, and practice makes the untutored ear more exact, so that a concord is judged with no tutor beside it", "He says sense itself is confused, no less than reason would be without a matter."],
     ["It is confused, and would be carried outside what is right", "Not every judgement, he says, is to be given to the senses; more is to be trusted to reason."],
     ["It ceases to hear concords at all", "The definition still has the mixture falling on the ears. The tutor is for judgment, not for the affection itself."],
     ["It hears only discords", "The failure named is error, not a restriction of the range of hearing."]
@@ -246,7 +246,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "‘Not every judgement is to be given to the senses.’ What is being limited?", a: 0, o: [
     ["The senses as sole judge; more is to be trusted to reason", "The ear is not dismissed. It is not left without a tutor."],
-    ["The use of the ear in this art at all, the ear being shut out of the art and every concord being decided by calculation with no hearing consulted", "The definition of concord is of something that falls on the ears."],
+    ["The use of the ear in this art at all, for the ear is shut out of the art and every concord is decided by calculation and no hearing is consulted", "The definition of concord is of something that falls on the ears."],
     ["The number of concords to three", "The bound of concord is another question. This sentence is about who judges."],
     ["How loudly one may play", "Judgment here is of high and low mixed, not of volume."]
   ]},
@@ -254,7 +254,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Reason never errs", "He says sense is confused no less than reason would be, unless reason stood by sense as a tutor. The pairing protects both."],
     ["Reason would be confused too, if it had no sense to stand by", "The tutor is of an erring sense; without the sense, reason has nothing to tutor and nothing to be the cause of."],
     ["Reason is a later invention and may be ignored", "More is to be trusted to reason, not less."],
-    ["Reason belongs only to arithmetic, not to harmonics, number apart from sound being the whole of reason and a heard concord falling outside reason altogether", "Harmonics is arithmetic applied to sound. Reason here is the judge of what is heard."]
+    ["Reason belongs only to arithmetic, not to harmonics, where number apart from sound is the whole of reason and a heard concord falls outside reason altogether", "Harmonics is arithmetic applied to sound. Reason here is the judge of what is heard."]
   ]}
 ],
 
@@ -331,7 +331,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   { q: "What happens, in this passage, when the three principles have been bound together?", a: 0, o: [
     ["He proceeds to act, and calls just whatever preserves that condition", "Action comes after the attunement, and is measured by it."],
     ["He is ready to legislate for others", "The passage is about a man at peace with himself, his own master and his own law."],
-    ["He no longer needs reason, because the harmony sings itself, the binding itself being a sufficient cause of the harmonious condition and reason standing idle once the binding is done", "Wisdom is the knowledge which presides over the harmonious condition."],
+    ["He no longer needs reason, because the harmony sings itself; the binding itself is a sufficient cause of the harmonious condition, and reason stands idle once the binding is done", "Wisdom is the knowledge which presides over the harmonious condition."],
     ["He has finished ethics, and may return to harmonics", "The image came from the scale. The thing named is not a theorem of this art."]
   ]},
   { q: "Can the monochord prove that virtue is a mean, and that the soul has parts which can be in or out of tune?", a: 3, o: [
@@ -474,7 +474,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "The sounding numbers are in the passion of the sounding itself. Why does the list not stop there?", a: 3, o: [
     ["Because there is also rhythm, which is another science", "Augustine’s metrics are another part of his art, and not what this list is for."],
-    ["Because the ear is unreliable, so we must get away from sound as soon as we can, the ear being prone to error and each further name on the list being a departure from that erring sense", "The list does not flee sound. It asks what else is in the hearing of it, and what judges it."],
+    ["Because the ear is unreliable, so we must get away from sound as soon as we can; the ear is prone to error, and each further name on the list is a departure from that erring sense", "The list does not flee sound. It asks what else is in the hearing of it, and what judges it."],
     ["Because Boethius already named three kinds of musician", "That is another theme; this list gives five kinds of number in one man hearing."],
     ["Because what most would have called the music is last in dignity; what we judge by is not in the sound", "The later returns remove the judging numbers from every place we might still have put them, and the list has already pointed there."]
   ]},
@@ -539,7 +539,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["On this page, once the three paragraphs are read", "The closing note of the theme says it is not proved here."],
     ["In the books: the <em>Metaphysics</em>, the <em>De anima</em>, the <span class=\"latin\">Summa</span> I and I–II", "The ratios can be verified on a string; the rest is stated so that it can be returned to there."],
     ["In the palaestra, when the counter reads 11/11", "The palaestra trains the skill. It is not the metaphysics."],
-    ["In equal temperament, which replaced the old ratios, the demonstration now being a keyboard that can play in every key, with the older ratios left as a discarded stage", "Temperament is named as a loss in what is audible, not as the place of the demonstration."]
+    ["In equal temperament, which replaced the old ratios, where the demonstration is now a keyboard that can play in every key, and the older ratios are left as a discarded stage", "Temperament is named as a loss in what is audible, not as the place of the demonstration."]
   ]},
   { q: "The sounding body, the theme says, still carries what?", a: 2, o: [
     ["The music of the spheres", "The spheres do not sound. That is named as a loss."],
@@ -555,7 +555,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
   ]},
   { q: "Under which metaphysics is a ratio a trace of forming intellect rather than a brute regularity?", a: 3, o: [
     ["Nominalism", "Under nominalism a ratio would be only a brute regularity. The theme names the metaphysics of form as what lapsed, and does not endorse nominalism."],
-    ["Equal temperament as a theory of being, the equal semitone being what an intellect imposes when it divides the octave into twelve equal parts", "Temperament is a tuning. It is not a metaphysics of form."],
+    ["Equal temperament as a theory of being, in which the equal semitone is what an intellect imposes when it divides the octave into twelve equal parts", "Temperament is a tuning. It is not a metaphysics of form."],
     ["Aristoxenus’s continuum", "Aristoxenus is another lesson; this theme is about form."],
     ["St. Thomas’s, and Aristotle’s before him", "A ratio is a trace of form, not a brute regularity; this is stated here, not proved."]
   ]},

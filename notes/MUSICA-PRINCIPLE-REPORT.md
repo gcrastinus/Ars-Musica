@@ -1221,3 +1221,330 @@ Before: “In equal temperament, which replaced the old ratios, and nothing furt
 
 After: “In equal temperament, which replaced the old ratios, the demonstration now being a keyboard that can play in every key, with the older ratios left as a discarded stage”
 
+
+## Being absolutes rewritten
+
+The lengthening in cab37f8 closed 45 wrong options with a nominative absolute on “being” (“a tempered keyboard being set there,” “the four mathematical sciences being sequenced”). Each of those clauses is now an ordinary part of the sentence, with because, since, for, so that, or a main clause, and the connectives are not the same from option to option. The true option and its index are unchanged. One false answer still says “a theory of being,” because there “being” is the noun. Options that already used this construction before that lengthening, including the true options that use it, were left as they stood. After the change, the count of questions in which the correct option is the unique longest is:
+
+- welcome, 3 of 10
+- iii-2, 3 of 11
+- i-1, 4 of 12
+- lib-1, 3 of 11
+- lib-2, 3 of 11
+- i-2, 3 of 11
+- arith-1, 3 of 11
+- i-3, 3 of 11
+- ii-1, 3 of 11
+- ii-2, 3 of 11
+- iii-1, 3 of 11
+- iv-1, 3 of 11
+- iv-2, 3 of 11
+- v-1, 3 of 11
+- v-2, 3 of 11
+- means-1, 3 of 11
+- v-3, 3 of 10
+- sys-1, 3 of 11
+- sys-2, 3 of 11
+- vi-1, 3 of 11
+- vi-2, 3 of 11
+- vii-1, 3 of 11
+- vii-2, 3 of 11
+- vii-3, 3 of 11
+- vii-4, 3 of 11
+- vii-5, 3 of 11
+- vii-6, 3 of 11
+- vii-7, 3 of 11
+- vii-8, 3 of 11
+- east-1, 3 of 11
+- east-2, 3 of 11
+- east-3, 3 of 11
+- east-4, 3 of 11
+- east-5, 3 of 11
+- east-6, 3 of 11
+- end-1, 3 of 11
+- end-2, 3 of 11
+- end-3, 3 of 11
+- v-time, 3 of 10
+- v-species, 3 of 10
+- ex-iudic, 3 of 10
+- c-how, 3 of 10
+- c-musician, 3 of 10
+- c-criteria, 3 of 10
+- c-please, 3 of 10
+- c-soul, 3 of 10
+- c-virtue, 3 of 10
+- c-ethos, 3 of 10
+- c-ascent, 3 of 10
+- c-intact, 3 of 10
+
+Each changed option, before and after:
+
+**welcome, question 4.** What is the String button at the top of the page?
+
+Before: “A way to hear equal temperament beside the old ratios, a tempered keyboard being set there for comparison with Pythagorean tuning”
+
+After: “A way to hear equal temperament beside the old ratios, since a tempered keyboard is set there for comparison with Pythagorean tuning”
+
+**welcome, question 7.** Most lessons, the page says, ask you to do what?
+
+Before: “Pass a check before the next lesson will open, a score on the present page being required before the following lesson unlocks”
+
+After: “Pass a check before the next lesson will open, which requires a score on the present page before the following lesson unlocks”
+
+**iii-2, question 7.** Among the kinds of ratio, to which does 2:1 belong?
+
+Before: “It belongs to no kind, being equality, 2 and 1 being two names for a single magnitude”
+
+After: “It belongs to no kind, because the ratio is an equality, and 2 and 1 are two names for a single magnitude”
+
+**lib-2, question 7.** ‘The quadrivium is not four hobbies attached to arithmetic.’ What is it, on the authority quoted?
+
+Before: “A curriculum fixed by custom, whose order is finally arbitrary, the four mathematical sciences being sequenced by school habit alone”
+
+After: “A curriculum fixed by custom, whose order is finally arbitrary, for the four mathematical sciences are sequenced by school habit alone”
+
+**lib-2, question 8.** In Republic VII Socrates dismisses two sorts of student. What is wrong with the second sort?
+
+Before: “They study numbers and never listen at all, so their science is of arithmetic and not of sound, ratios being read out of a book while the monochord stays untouched”
+
+After: “They study numbers and never listen at all, so their science is of arithmetic and not of sound, and the ratios are read out of a book while the monochord stays untouched”
+
+**i-2, question 7.** In harmonics, which is the natural thing and which supplies the middle term?
+
+Before: “The number is the natural thing; the sound supplies the middle term, the heard tone being the link by which a property of number is proved”
+
+After: “The number is the natural thing; the sound supplies the middle term, because the heard tone is the link by which a property of number is proved”
+
+**i-2, question 10.** “If we do not yet know what a ratio of whole numbers is, we cannot possess this art.” What comparison does the lesson draw?
+
+Before: “That you cannot read before you know the letters, the alphabet being required before any written line can be formed”
+
+After: “That you cannot read before you know the letters, since the alphabet is required before any written line can be formed”
+
+**arith-1, question 7.** 7:4 is named supertripartiens quartas. What does the name state?
+
+Before: “Once, and three parts besides, the parts being thirds, the tri of supertripartiens being read as thirds of 4”
+
+After: “Once, and three parts besides; the parts are thirds, because the tri of supertripartiens is read as thirds of 4”
+
+**arith-1, question 8.** 9:4 is duplex sesquiquartus. To which of the five kinds does it belong?
+
+Before: “Multiplex superpartiens, the remainder after two times 4 being counted as two parts of 4”
+
+After: “Multiplex superpartiens, since the remainder after two times 4 is counted as two parts of 4”
+
+**arith-1, question 11.** The remark says the later dispute is never about whether ratios govern concord. What is it about?
+
+Before: “Whether Boethius or Augustine is the better guide, Augustine in De musica being set against Boethius in De institutione musica”
+
+After: “Whether Boethius or Augustine is the better guide, and the comparison sets Augustine in De musica against Boethius in De institutione musica”
+
+**i-3, question 3.** A player strikes the right string by custom or by ear. What does the lesson say of him?
+
+Before: “He has the science, since the result is correct, a right string struck by habit being taken for the possession of that science”
+
+After: “He has the science, since the result is correct, and a right string struck by habit counts as the possession of that science”
+
+**i-3, question 8.** Augustine’s treatise turns for five books to meter. How does the course treat that?
+
+Before: “It denies that meter belongs to music at all, the five books on the feet of verse being handed over to grammar instead”
+
+After: “It denies that meter belongs to music at all, so the five books on the feet of verse are handed over to grammar instead”
+
+**ii-1, question 7.** Why insist that “high” and “low” are not places in a room?
+
+Before: “Because higher sounds are not literally above lower ones on a staff, the higher note being placed above the lower by a habit of staff notation”
+
+After: “Because higher sounds are not literally above lower ones on a staff, where the higher note is placed above the lower by a habit of staff notation”
+
+**ii-2, question 9.** “The hearing must come before the names.” What is being asked of the student?
+
+Before: “To memorize the vocabulary before listening again, those names being learned by rote from a written list”
+
+After: “To memorize the vocabulary before listening again, so that those names are learned by rote from a written list”
+
+**iii-1, question 6.** Dragging the bridge, the lesson says, you are ‘not playing a song.’ What are you doing?
+
+Before: “Training the ear to recognize intervals by their names, each stop of the bridge being matched to a named interval such as the fifth”
+
+After: “Training the ear to recognize intervals by their names, and each stop of the bridge is matched to a named interval such as the fifth”
+
+**iii-1, question 10.** The lesson calls the story ‘the traditional inventio of the science.’ What does that mean?
+
+Before: “The invention, that is, the fiction, made up to decorate the science, the smithy and the hammers being decoration added after the ratios were proved”
+
+After: “The invention, that is, the fiction, made up to decorate the science, so the smithy and the hammers are decoration added after the ratios were proved”
+
+**iv-1, question 7.** At what fraction is the string stopped for the diatessaron, and what are the lengths?
+
+Before: “At four-thirds; the lengths are 4:3, the open string being counted as three parts and the sounding length as four parts of that same string”
+
+After: “At four-thirds; the lengths are 4:3, if the open string is counted as three parts and the sounding length as four parts of that same string”
+
+**v-1, question 2.** Is the tone a concord?
+
+Before: “The question does not apply, since 9:8 is a remainder and not an interval, a difference of ratios being a result in arithmetic and not a length that can be set on the monochord”
+
+After: “The question does not apply, since 9:8 is a remainder and not an interval, and a difference of ratios is a result in arithmetic rather than a length that can be set on the monochord”
+
+**v-1, question 6.** How does the ditone stand to the later ‘major third’ of 5:4?
+
+Before: “They are the same interval, 81:64 being merely 5:4 written in larger numbers, because 81 and 64 share a hidden common factor that reduces them to 5 and 4”
+
+After: “They are the same interval, because 81:64 is merely 5:4 written in larger numbers, on the ground that 81 and 64 share a hidden common factor that reduces them to 5 and 4”
+
+**sys-1, question 7.** Which gloss does the lesson give for lichanos?
+
+Before: “The most honored string, the name being read as a title of rank above hypate, parhypate and mese”
+
+After: “The most honored string, if the name is read as a title of rank above hypate, parhypate and mese”
+
+**sys-2, question 2.** Ascending from the fixed lower sound, how is the diatonic fourth divided?
+
+Before: “Leimma, apotome, trihemitone, the leimma and the apotome being taken as the ordinary diatonic semitones and the trihemitone as the rest of that fourth”
+
+After: “Leimma, apotome, trihemitone, where the leimma and the apotome are the ordinary diatonic semitones and the trihemitone is the rest of that fourth”
+
+**vii-1, question 6.** Over the four centuries after Guido, what happened to the two musics?
+
+Before: “The science absorbed the practice and gave it rules drawn from ratio, every rule of discant being deduced from 2:1, 3:2 and 4:3 and then imposed by the schools on the singers”
+
+After: “The science absorbed the practice and gave it rules drawn from ratio, and every rule of discant was deduced from 2:1, 3:2 and 4:3 and then imposed by the schools on the singers”
+
+**vii-1, question 10.** For what three reasons does the chapter say we follow this history?
+
+Before: “To learn the repertory, to learn the notation, and to learn to compose, a cantor being expected to leave the schools able to read a choir book, recall the chants, and set a new melody in the old ratios”
+
+After: “To learn the repertory, to learn the notation, and to learn to compose; a cantor was expected to leave the schools able to read a choir book, recall the chants, and set a new melody in the old ratios”
+
+**vii-2, question 2.** In parallel organum, what does the added voice do?
+
+Before: “It repeats the chant a beat later, in imitation, each phrase being answered at the unison after the opening notes of the chant”
+
+After: “It repeats the chant a beat later, in imitation, so that each phrase is answered at the unison after the opening notes of the chant”
+
+**vii-4, question 2.** Stacking one interval upon another is what operation upon their ratios?
+
+Before: “Averaging them, so that twelve fifths give one mean interval, that mean being the twelve ratios of 3:2 added together and then divided by twelve”
+
+After: “Averaging them, so that twelve fifths give one mean interval, and that mean is the twelve ratios of 3:2 added together and then divided by twelve”
+
+**end-2, question 1.** What does Augustine’s De musica actually contain, and what did he intend?
+
+Before: “Six books on melody, with six more on rhythm planned and never written, the six on melody being the work sent to Memorius and the six on rhythm being a sketch named in that letter”
+
+After: “Six books on melody, with six more on rhythm planned and never written; the six on melody are the work sent to Memorius, and the six on rhythm are a sketch named in that letter”
+
+**end-2, question 7.** Suppose we hear a rhythm we have never heard before, and judge at once that it is ill measured. Which kind of number are we using, on Augustine’s account?
+
+Before: “The occursores, since the sense meets this rhythm as it meets any other, the fault being lodged in the meeting of the sense with this new rhythm”
+
+After: “The occursores, since the sense meets this rhythm as it meets any other, so the fault lies in the meeting of the sense with this new rhythm”
+
+**end-2, question 8.** How does Augustine rank the five kinds in dignity?
+
+Before: “Memory highest, since without it nothing measured could be held together, the recordabiles being what joins one hearing to the next and therefore the highest kind in the list”
+
+After: “Memory highest, since without it nothing measured could be held together; the recordabiles are what joins one hearing to the next and therefore the highest kind in the list”
+
+**end-3, question 4.** What follows, on the lesson’s own account, from holding a single counterexample?
+
+Before: “That the picture may still be held, but only by men ignorant of harmonics, mastery of the ratios disqualifying a man from the picture and ignorance of the ratios being the condition that still allows it”
+
+After: “That the picture may still be held, but only by men ignorant of harmonics, since mastery of the ratios disqualifies a man from the picture and ignorance of the ratios is the condition that still allows it”
+
+**v-time, question 2.** What is the difference between the two sets of four times that the lesson sounds?
+
+Before: “One is the diatonic genus, the other the chromatic, one set of times being taken for the diatonic genus and the other for the chromatic”
+
+After: “One is the diatonic genus, the other the chromatic, because one set of times is taken for the diatonic genus and the other for the chromatic”
+
+**v-time, question 5.** Why is the lame set not a new interval?
+
+Before: “Because Augustine forbids calling anything an interval except 2:1, the name interval being reserved for the diapason and withheld from the fifth, the fourth, and the tone”
+
+After: “Because Augustine forbids calling anything an interval except 2:1, and reserves the name interval for the diapason, withholding it from the fifth, the fourth, and the tone”
+
+**ex-iudic, question 4.** What does Augustine call the numbers by which that judging is done?
+
+Before: “Occursores: the numbers in the ear as it meets the sound, the meeting itself being the standard that separated a blend from a pair standing apart”
+
+After: “Occursores: the numbers in the ear as it meets the sound, and the meeting itself was the standard that separated a blend from a pair standing apart”
+
+**ex-iudic, question 7.** Why is this a pause in the palaestra and not a block?
+
+Before: “Because Guided practice forbids extra pages, the Guided sequence being a fixed list of drills and every page set between two drills being rejected”
+
+After: “Because Guided practice forbids extra pages: the Guided sequence is a fixed list of drills, and every page set between two drills is rejected”
+
+**ex-iudic, question 10.** What will this course not do with Socrates’ question why these numbers please?
+
+Before: “Put us in a position to ask it, with the fact known for ourselves, the concords being left on report and the question being kept away from the string”
+
+After: “Put us in a position to ask it, with the fact known for ourselves, while the concords stay on report and the question stays away from the string”
+
+**c-how, question 5.** What happens when you return to a theme after its time has come?
+
+Before: “The first text is replaced by a shorter summary, the original passage being removed and the shorter recast left alone for every later return”
+
+After: “The first text is replaced by a shorter summary; the original passage is removed, and the shorter recast is left alone for every later return”
+
+**c-criteria, question 8.** Ptolemy’s rule, the closing note of this theme says, is the method of what kind of science?
+
+Before: “Natural philosophy, because sound is a motion of air, that motion being a change in a natural body and the science of such a change being physics rather than arithmetic”
+
+After: “Natural philosophy, because sound is a motion of air, and that motion is a change in a natural body, so the science of such a change is physics rather than arithmetic”
+
+**c-criteria, question 9.** They must not despise one another. What is being forbidden?
+
+Before: “Letting a student hear before he calculates, calculation having to precede hearing and the ear being kept back until the ratio is finished”
+
+After: “Letting a student hear before he calculates, when calculation has to precede hearing and the ear is kept back until the ratio is finished”
+
+**c-please, question 3.** That simple ratios please is a fact we can hear on a string. What does this theme say that fact is not?
+
+Before: “Something reason may tutor the ear about, the tutor standing beside the ear being what that heard fact amounts to”
+
+After: “Something reason may tutor the ear about, as if the tutor who stands beside the ear were what that heard fact amounts to”
+
+**c-please, question 6.** What becomes of sense, Boethius says, unless reason stands by it as a tutor?
+
+Before: “It becomes more accurate, being left alone, practice making the untutored ear more exact so that a concord is judged with no tutor beside it”
+
+After: “It becomes more accurate if it is left alone, and practice makes the untutored ear more exact, so that a concord is judged with no tutor beside it”
+
+**c-please, question 9.** ‘Not every judgement is to be given to the senses.’ What is being limited?
+
+Before: “The use of the ear in this art at all, the ear being shut out of the art and every concord being decided by calculation with no hearing consulted”
+
+After: “The use of the ear in this art at all, for the ear is shut out of the art and every concord is decided by calculation and no hearing is consulted”
+
+**c-please, question 10.** Sense, Boethius says, is confused unless reason stands by it. What does he say of reason without that pairing?
+
+Before: “Reason belongs only to arithmetic, not to harmonics, number apart from sound being the whole of reason and a heard concord falling outside reason altogether”
+
+After: “Reason belongs only to arithmetic, not to harmonics, where number apart from sound is the whole of reason and a heard concord falls outside reason altogether”
+
+**c-virtue, question 2.** What happens, in this passage, when the three principles have been bound together?
+
+Before: “He no longer needs reason, because the harmony sings itself, the binding itself being a sufficient cause of the harmonious condition and reason standing idle once the binding is done”
+
+After: “He no longer needs reason, because the harmony sings itself; the binding itself is a sufficient cause of the harmonious condition, and reason stands idle once the binding is done”
+
+**c-ascent, question 5.** The sounding numbers are in the passion of the sounding itself. Why does the list not stop there?
+
+Before: “Because the ear is unreliable, so we must get away from sound as soon as we can, the ear being prone to error and each further name on the list being a departure from that erring sense”
+
+After: “Because the ear is unreliable, so we must get away from sound as soon as we can; the ear is prone to error, and each further name on the list is a departure from that erring sense”
+
+**c-intact, question 5.** Where does this theme say the metaphysics is demonstrated?
+
+Before: “In equal temperament, which replaced the old ratios, the demonstration now being a keyboard that can play in every key, with the older ratios left as a discarded stage”
+
+After: “In equal temperament, which replaced the old ratios, where the demonstration is now a keyboard that can play in every key, and the older ratios are left as a discarded stage”
+
+**c-intact, question 8.** Under which metaphysics is a ratio a trace of forming intellect rather than a brute regularity?
+
+Before: “Equal temperament as a theory of being, the equal semitone being what an intellect imposes when it divides the octave into twelve equal parts”
+
+After: “Equal temperament as a theory of being, in which the equal semitone is what an intellect imposes when it divides the octave into twelve equal parts”
