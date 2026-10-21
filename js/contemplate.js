@@ -462,9 +462,9 @@ MusicaArs.renderContemplation = function (el, id) {
   const rec = recOf(id);
   const stage = availableStage(theme, rec);
   let html = `<div class="contemplation">`;
-  /* The lead may be one paragraph or a list of them. */
-  [].concat(theme.lead || []).forEach(p => { html += `<p class="cont-lead">${p}</p>`; });
+  /* The author's words come first. Where a theme has an account, it follows them. */
   (theme.first.passages || []).forEach(p => { html += passageHTML(p); });
+  [].concat(theme.lead || []).forEach(p => { html += `<p class="cont-lead">${p}</p>`; });
   for (let i = 0; i < stage; i++) {
     const r = theme.returns[i];
     if (!r) continue;
