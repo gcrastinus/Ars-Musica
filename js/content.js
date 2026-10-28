@@ -31,7 +31,7 @@ MusicaArs.LESSONS = [
   <p>By the end you should be able to say, from first principles, what this art is; what an interval is; why the first concords are 2:1, 3:2, and 4:3; what a tone is; how a scale is built from these; and who, in this tradition, counts as a musician. You will not yet be a composer, a cantor, or a historian of later European music, because those are other studies.</p>
   <p>This course teaches the mathematical skill of the art in full, and shows the doctrine of the whole faithfully enough to be believed and returned to, but the full demonstration of the doctrine is in the books it points you toward.</p>
 </div>
-<p class="designer-credit">These courses of study were designed by Timothy Kearns, PhD, built and maintained with the assistance of AI tools, and are continuously revised for clarity and precision.</p>
+<p class="designer-credit">Designed and directed by Timothy Kearns, Ph.D. AI tools were used for drafting some of the study sections and for building the interactive exercises and answer keys.</p>
 `
 },
 
