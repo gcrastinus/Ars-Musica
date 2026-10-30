@@ -408,7 +408,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Geometry", "And this is the clearest case of the pattern: a natural subject, a mathematical middle term. Harmonics has the same shape with a different mathematics."],
     ["From both arithmetic and geometry", "One of the three does draw on both, and the lesson says so plainly of that one alone. Read the three lines again and ask whether they are alike."]
   ]},
-  { q: "And from where does astronomy take its middle terms?", a: 1, o: [
+  { q: "Astronomy is a middle science. From which science or sciences does it take its middle terms?", a: 1, o: [
     ["From geometry only, since the planets move in circles", "The circle is indeed geometry’s, and the lesson does say astronomy cannot be had without it. But of the three lines in the list, the one for astronomy is the only one that names more than one source."],
     ["From both geometry and arithmetic", "That is why it is the fullest of the three. The lesson also uses it as its standing comparison: geometry stands to astronomy as arithmetic stands to music."],
     ["From arithmetic only, since the periods are counted", "Counting periods is part of it; the path a body traces is not counted but described. Read the three lines of the list together and notice which one is unlike the others."],

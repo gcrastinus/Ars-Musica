@@ -181,7 +181,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["Natural philosophy, because sound is a motion of air, and that motion is a change in a natural body, so the science of such a change is physics rather than arithmetic", "Natural philosophy treats the motion. Harmonics treats sounding pitch as numbered."],
     ["Sacred doctrine, because St. Thomas endorses it", "St. Thomas classifies the science. He does not turn it into theology."]
   ]},
-  { q: "They must not despise one another. What is being forbidden?", a: 2, o: [
+  { q: "Ptolemy says that hearing and reason must not despise one another. What is being forbidden?", a: 2, o: [
     ["Using a monochord at all", "The kanon is how the two reports are compared."],
     ["Trusting Boethius when Ptolemy disagrees", "The sentence is about hearing and reason, not about two authors."],
     ["Taking either criterion as sufficient by itself", "Hearing alone never arrives at the cause; reason alone has nothing to be the cause of."],
@@ -397,7 +397,7 @@ MusicaArs.STUDY = Object.assign(MusicaArs.STUDY || {}, {
     ["The Phrygian", "The Phrygian inspires enthusiasm."],
     ["The Dorian", "The peculiar effect of the Dorian, he says, is a moderate and settled temper."]
   ]},
-  { q: "Whose claim is this, as to the kind of science?", a: 1, o: [
+  { q: "To which science does the claim that melody moves character belong?", a: 1, o: [
     ["Harmonics: the modes are ratios, and the ratios move the soul by demonstration", "Melody moving character is an application to ethics and politics. Music states it, and the demonstration does not belong to harmonics."],
     ["Ethics and politics: Aristotle in <em>Politics</em> VIII, Plato in <em>Republic</em> III; St. Thomas when he asks whether God should be praised with song", "Music states that application and does not prove it, because the demonstration belongs to ethics and politics."],
     ["Medicine: the modes rebalance the humors", "Rebalancing the humors is an application to medicine. Music may state it, and the demonstration belongs to natural philosophy and to medicine. This passage is about character."],
